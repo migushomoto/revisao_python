@@ -1,3 +1,0 @@
-Para melhorar o entendimento de pessoas com dificuldade de visão, pediram a criação de uma class `Transcritor`, que recebe um número inteiro e devolve a transcrição desse número. Por exemplo, para o número `321`, o retorno seria o texto `três dois um`. Esse retorno pode ser obtido de duas formas, chamando o método `transcrever` e convertendo o objeto para string (usando `str()`).
-
-Deve ser possível também efetuar as operações de soma (`+`), subtração (`-`), multiplicação (`*`) e divisão inteira (`//`), mas considerando apenas operações com resultados inteiros, entre os tipos `Transcritor`. Caso o número retornado seja negativo, deve ter a palavra "menos" antes do número descrito. Ex: `-15` deve ser transcrito como `menos 1 5`.
