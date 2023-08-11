@@ -1,0 +1,51 @@
+{
+  "SKU": "DS-PY-004",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "Python",
+  "knowledgeArea": "Data Science",
+  "category": "Técnicas de Programação I",
+  "subCategory": "Numpy",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "numpy"
+  ],
+  "text": [
+    "Considere o seguinte trecho de código escrito utilizando o NumPy (que foi importado com o alias \"np\"):",
+    "np.arange(10) + np.linspace(10, 100, 10)",
+    "No que resulta a operação acima?"
+  ],
+  "alternatives": [
+    {
+      "text": "No array [ 10.,  21.,  32.,  43.,  54.,  65.,  76.,  87.,  98., 109.]",
+      "feedback": "Isso mesmo!",
+      "correct": true,
+      "id": "1ee3543d-bf1e-6c5b-e732-f98bbbe8a6bf"
+    },
+    {
+      "text": "No array [ 11.,  22.,  33.,  44.,  55.,  66.,  77.,  88.,  98., 110.]",
+      "feedback": "Incorreto!",
+      "correct": false,
+      "id": "1ee3543d-bf1e-6c5c-f811-f33ffac31409"
+    },
+    {
+      "text": "Em um erro de incompatibilidade de dimensão",
+      "feedback": "Incorreto!",
+      "correct": false,
+      "id": "1ee3543d-bf1e-6c5d-5e95-5f0f809ed7a3"
+    },
+    {
+      "text": "No array [  0.,  20.,  60., 120., 200., 300., 420., 560., 720., 900.]",
+      "feedback": "Incorreto!",
+      "correct": false,
+      "id": "1ee3543d-bf21-6360-fb1f-b565c1dbce52"
+    },
+    {
+      "text": "Em um erro de incompatibilidade de operação e tipos",
+      "feedback": "Incorreto!",
+      "correct": false,
+      "id": "1ee3543d-bf21-6361-d4a5-da2a33cb5009"
+    }
+  ],
+  "id": "1ee3543d-bf1e-6c5a-725d-c4d6cd6897aa"
+}

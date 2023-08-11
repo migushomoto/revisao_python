@@ -1,0 +1,49 @@
+{
+  "SKU": "DE-AW-009",
+  "interpreter": 1,
+  "type": "VF",
+  "language": "NA",
+  "category": "AWS",
+  "subCategory": "RDS",
+  "level": "Medium",
+  "tagsOrConcepts": [
+    "aws",
+    "rds"
+  ],
+  "text": [
+    "Quais das opções abaixo são compatíveis para uso no serviço de Relational Database Service?"
+  ],
+  "alternatives": [
+    {
+      "text": "Amazon Aurora",
+      "feedback": "Alternativa correta!",
+      "correct": true,
+      "id": "4da2332e-b326-4c15-8b5e-0dedc14616a2"
+    },
+    {
+      "text": "DynamoDB",
+      "feedback": "O DynamoDB é um serviço oferecido pela AWS, porém não é relacional. É um serviço de banco de dados NoSQL rápido e flexível para performance abaixo de 10 milissegundos em qualquer escala.",
+      "correct": false,
+      "id": "76c3a7b6-5ef0-4b0e-a6a2-058c1de9cf0b"
+    },
+    {
+      "text": "MySQL",
+      "feedback": "Alternativa correta!",
+      "correct": true,
+      "id": "a3440f08-6620-4d0b-ba29-4581acc9c364"
+    },
+    {
+      "text": "Oracle",
+      "feedback": "Alternativa correta!",
+      "correct": true,
+      "id": "05aa0cc4-af9c-4e5d-abda-af241aae0d0a"
+    },
+    {
+      "text": "MariaDB",
+      "feedback": "Alternativa correta!",
+      "correct": true,
+      "id": "848e0c4d-8771-456e-b8f2-77068333b548"
+    }
+  ],
+  "id": "d1d8fca3-41e5-4039-ae75-d08c56d8ecdb"
+}

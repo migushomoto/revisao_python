@@ -1,0 +1,113 @@
+{
+  "Id": "01",
+  "SKU": "DS-PY-017",
+  "interpreter": 1,
+  "type": "EVEREST",
+  "language": "python",
+  "knowledgeArea": "Data Science",
+  "category": "Lógica de Programação",
+  "subCategory": "Função lambda",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "funcao lambda",
+    "programacao funcional"
+  ],
+  "name": "Filtrando elementos por funções lambda",
+  "handler": "filtraElementos",
+  "public_cases": [
+    {
+      "name": "entrada",
+      "input": [
+        127,
+        24,
+        26,
+        135,
+        22
+      ],
+      "expected": [
+        127,
+        24,
+        26,
+        135,
+        22
+      ]
+    },
+    {
+      "name": "entrada",
+      "input": [
+        13,
+        9,
+        9,
+        19,
+        3
+      ],
+      "expected": [
+        13,
+        19
+      ]
+    },
+    {
+      "name": "entrada",
+      "input": [
+        10,
+        1,
+        20,
+        11,
+        10
+      ],
+      "expected": [
+        20,
+        11
+      ]
+    }
+  ],
+  "private_cases": [
+    {
+      "name": "entrada",
+      "input": [
+        9,
+        10,
+        9,
+        7,
+        0
+      ],
+      "expected": []
+    },
+    {
+      "name": "entrada",
+      "input": [
+        14,
+        97,
+        17,
+        32,
+        63
+      ],
+      "expected": [
+        14,
+        97,
+        17,
+        32,
+        63
+      ]
+    },
+    {
+      "name": "entrada",
+      "input": [
+        3,
+        49,
+        29,
+        8,
+        31
+      ],
+      "expected": [
+        49,
+        29,
+        31
+      ]
+    }
+  ],
+  "templates": {
+    "python": "def filtraElementos(listaA):\n\tpass"
+  },
+  "id": "1ee3543b-02c0-6560-b76d-c6a868eee61f"
+}

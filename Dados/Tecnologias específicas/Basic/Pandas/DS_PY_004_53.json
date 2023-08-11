@@ -1,0 +1,49 @@
+{
+  "SKU": "DS-PY-004",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "Python",
+  "knowledgeArea": "Data Science",
+  "category": "Técnicas de Programação I",
+  "subCategory": "Pandas",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "pandas"
+  ],
+  "text": [
+    "Escolha a opção abaixo que seja a função do pandas que lê e carrega dados a partir de um arquivo CSV externo:"
+  ],
+  "alternatives": [
+    {
+      "text": "concat",
+      "feedback": "Incorrreto, a função para a leitura de arquivos CSV é o `read_csv`.",
+      "correct": false,
+      "id": "1ee35433-9ae2-68b3-e672-655e1cf147fb"
+    },
+    {
+      "text": "get_dummies",
+      "feedback": "Incorrreto, a função para a leitura de arquivos CSV é o `read_csv`.",
+      "correct": false,
+      "id": "1ee35433-9ae2-68b4-c152-84c89291a212"
+    },
+    {
+      "text": "head",
+      "feedback": "Incorrreto, a função para a leitura de arquivos CSV é o `read_csv`.",
+      "correct": false,
+      "id": "1ee35433-9ae2-68b5-1a26-9cb992749839"
+    },
+    {
+      "text": "DataFrame",
+      "feedback": "Incorrreto, a função para a leitura de arquivos CSV é o `read_csv`.",
+      "correct": false,
+      "id": "1ee35433-9ae2-68b6-ce90-f9709c2dbb82"
+    },
+    {
+      "text": "read_csv",
+      "feedback": "Exatamente!",
+      "correct": true,
+      "id": "1ee35433-9ae2-68b7-13a7-9e2d35939741"
+    }
+  ],
+  "id": "1ee35433-9ae2-68b2-1068-63eb2a5d0120"
+}

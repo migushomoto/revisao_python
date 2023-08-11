@@ -1,0 +1,11 @@
+{
+  "SKU": "DS-PY-002",
+  "interpreter": 1,
+  "type": "EVEREST",
+  "language": "python",
+  "tagsOrConcepts": ["Criacao de Classe", "Herança"],
+  "name": "Criando tipos de funcionarios e calculando salários",
+  "templates": {
+    "python": "class PessoaHorista:\n\tpass\n\nclass PessoaMensalista:\n\tpass\n\nclass PessoaSemApontamento:\n\tpass"
+  }
+}

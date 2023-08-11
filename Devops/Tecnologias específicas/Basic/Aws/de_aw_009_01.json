@@ -1,0 +1,44 @@
+{
+  "SKU": "DE-AW-009",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "NA",
+  "knowledgeArea": "Cloud",
+  "category": "AWS",
+  "subCategory": "Infraestrutura Global",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "aws",
+    "infraestrutura global"
+  ],
+  "text": [
+    "Qual o conceito/características de uma região definidos pela AWS?"
+  ],
+  "alternatives": [
+    {
+      "text": "Proporcionam aos clientes a capacidade de operar aplicativos e bancos de dados de produção com alta disponibilidade, tolerância a falhas e escalabilidade.",
+      "feedback": "Resposta incorreta. A característica em questão refere-se às Zonas de Disponibilidade (Availability Zones).",
+      "correct": false,
+      "id": "8d9ac4fd-61a7-485b-b155-129d0d1332b3"
+    },
+    {
+      "text": "Aproximam a computação, o armazenamento, o banco de dados e outros serviços da AWS selecionados dos usuários finais.",
+      "feedback": "Resposta incorreta. A característica em questão refere-se às Zonas Locais (Locais Zones).",
+      "correct": false,
+      "id": "4db868ce-0ff1-49fb-8146-603006cc2ba3"
+    },
+    {
+      "text": "É um local físico em todo o mundo onde agrupam datacenters. Atendem aos mais altos níveis de segurança, conformidade e proteção de dados",
+      "feedback": "Alternativa correta!",
+      "correct": true,
+      "id": "778b44ae-7ed9-4ccb-96fa-430e1a25c051"
+    },
+    {
+      "text": "É a plataforma mais adotada e mais abrangente do mundo, oferecendo mais de 200 serviços completos em todo o mundo.",
+      "feedback": "Resposta incorreta! A característica citada refere-se à própria Nuvem AWS.",
+      "correct": false,
+      "id": "89e76647-2043-4895-93ae-a6435bd718b8"
+    }
+  ],
+  "id": "dd5751a6-3edb-4c0a-b186-e9daf5cd7b60"
+}

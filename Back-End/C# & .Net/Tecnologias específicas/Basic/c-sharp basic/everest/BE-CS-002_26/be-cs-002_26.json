@@ -1,0 +1,19 @@
+{
+  "SKU": "BE-CS-002",
+  "interpreter": 1,
+  "type": "EVEREST",
+  "language": "csharp",
+  "knowledgeArea": "C#",
+  "category": "Programação Orientada a Objetos",
+  "subCategory": "Herança",
+  "level": "Medium",
+  "tagsOrConcepts": [
+    "orientação a objetos",
+    "heranca"
+  ],
+  "name": "Calculo de preço de venda imóveis",
+  "templates": {
+    "csharp": "public class Imovel\n{\n\t// Implemente a classe Imovel aqui\n}\n\npublic class ImovelSeminovo\n{\n\t// Implemente a classe ImovelSeminovo aqui, lembrando que ela herda de Imovel\n}\n\n"
+  },
+  "id": "a1dd06b1-73a1-4f9a-870c-16d2356b2d53"
+}

@@ -1,0 +1,45 @@
+{
+  "SKU": "BD-MS-003",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "NA",
+  "knowledgeArea": "Banco de Dados",
+  "category": "SQL Server",
+  "subCategory": "DDL",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "Criação e remoção de bancos de dados"
+  ],
+  "text": [
+    "Um novo projeto será iniciado em sua equipe e será necessário que um novo banco de dados seja criado.",
+    "O novo banco deverá se chamar 'VENDAS' e você deve executar a criação.",
+    "Qual comando SQL deverá ser executado?"
+  ],
+  "alternatives": [
+    {
+      "text": "CREATE NEW DATABASE VENDAS",
+      "feedback": "O comando correto é CREATE DATABASE [NOME], sem a utilização de 'NEW'",
+      "correct": false,
+      "id": "c716cdbf-4550-43b5-9053-87d318592e4c"
+    },
+    {
+      "text": "ADD DATABASE VENDAS",
+      "feedback": "ADD não é utilizado para criação de um novo banco. O comando correto é CREATE DATABASE [NOME]",
+      "correct": false,
+      "id": "6b5b3fbb-da0f-43e4-95ab-7d6e9aa3872f"
+    },
+    {
+      "text": "CREATE DATABASE VENDAS",
+      "feedback": "Parabéns! O comando correto é CREATE DATABASE [NOME]",
+      "correct": true,
+      "id": "41cb76ba-a5e5-41fd-a862-99e772d62729"
+    },
+    {
+      "text": "ADD DATABASE NAME='VENDAS'",
+      "feedback": "O comando correto é CREATE DATABASE [NOME], sem a utilização de NAME=",
+      "correct": false,
+      "id": "c4fe3c02-c87f-4e54-8931-2430b72fb63c"
+    }
+  ],
+  "id": "92423972-7ff7-45c2-aa6b-7a5ee4621145"
+}

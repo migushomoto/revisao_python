@@ -1,0 +1,51 @@
+{
+  "SKU": "DS-PY-004",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "Python",
+  "knowledgeArea": "Data Science",
+  "category": "Técnicas de Programação I",
+  "subCategory": "Numpy",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "numpy"
+  ],
+  "text": [
+    "Considere o seguinte trecho de código escrito utilizando o NumPy (que foi importado com o alias \"np\"):",
+    "np.arange(2, 20, 3)",
+    "Quantos elementos terá o array sequencial criado com o código acima?"
+  ],
+  "alternatives": [
+    {
+      "text": "4 elementos",
+      "feedback": "Incorreto, o array terá 6 elementos.",
+      "correct": false,
+      "id": "1ee3543d-bf21-636f-9c2a-36f5159fc212"
+    },
+    {
+      "text": "5 elementos",
+      "feedback": "Incorreto, o array terá 6 elementos.",
+      "correct": false,
+      "id": "1ee3543d-bf21-6370-6273-887f5174e61e"
+    },
+    {
+      "text": "6 elementos",
+      "feedback": "Isso mesmo!",
+      "correct": true,
+      "id": "1ee3543d-bf21-6371-7a6b-f81a1354b96d"
+    },
+    {
+      "text": "7 elementos",
+      "feedback": "Incorreto, o array terá 6 elementos.",
+      "correct": false,
+      "id": "1ee3543d-bf21-6372-bd80-5541ca4597d8"
+    },
+    {
+      "text": "8 elementos",
+      "feedback": "Incorreto, o array terá 6 elementos.",
+      "correct": false,
+      "id": "1ee3543d-bf21-6373-b0dc-c9aa0a5e30f7"
+    }
+  ],
+  "id": "1ee3543d-bf21-636e-a9d1-cb00f367faf3"
+}

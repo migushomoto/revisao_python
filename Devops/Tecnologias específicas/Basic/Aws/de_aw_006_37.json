@@ -1,0 +1,43 @@
+{
+  "SKU": "DE-AW-006",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "NA",
+  "category": "AWS",
+  "subCategory": "EC2",
+  "level": "Medium",
+  "tagsOrConcepts": [
+    "aws",
+    "workloads com ec2"
+  ],
+  "text": [
+    "Sobre os tipos de Balanceadores de Carga oferecidos como serviço da AWS, qual alternativa abaixo está correta?"
+  ],
+  "alternatives": [
+    {
+      "text": "Application Load Balancers: tomam decisões de roteamento na camada 7 de aplicação (HTTP/HTTPS), permite roteamento baseado em path e pode rotear solicitações para uma ou mais portas em cada instância de contêiner em seu cluster. Oferece suporte ao mapeamento dinâmico de portas do host. É escalável e possui alta disponibilidade, pois trabalha em duas ou mais AZ's.",
+      "feedback": "Alternativa correta!",
+      "correct": true,
+      "id": "7f0b1e5b-1473-4745-9f48-48536de8c834"
+    },
+    {
+      "text": "Gateway Load Balancers: tomam decisões de roteamento na camada de transporte (TCP/SSL), e é capaz de lidar com milhões de solicitações por segundo. Depois que o balanceador de carga recebe uma conexão, ele seleciona um destino do grupo de destino para a regra padrão usando um algoritmo de roteamento de hash de fluxo. Ele tenta abrir uma conexão TCP com o destino selecionado na porta especificada na configuração do ouvinte. Ele encaminha a solicitação sem modificar os cabeçalhos.",
+      "feedback": "As características descritas são do Network Load Balancer.",
+      "correct": false,
+      "id": "eb538f67-0f44-41ce-b815-4533411c47a5"
+    },
+    {
+      "text": "Network Load Balancers: tomam decisões de roteamento na camada de transporte (TCP/SSL) ou na camada de aplicativo (HTTP/HTTPS). Exige uma relação fixa entre a porta do load balancer e a porta da instância do contêiner. Não permite mapeamento dinâmico de portas. É o tipo menos utilizado.",
+      "feedback": "As características descritas são do Classic Load Balancer",
+      "correct": false,
+      "id": "5a0037c5-90bc-429d-a303-a1b509e5d37a"
+    },
+    {
+      "text": "Application Load Balancers: permitem implantar, dimensionar e gerenciar dispositivos virtuais, como firewalls, sistemas de prevenção e detecção de intrusão e sistemas de inspeção profunda de pacotes. Ele combina um gateway de rede transparente (ou seja, um único ponto de entrada e saída para todo o tráfego) e distribui o tráfego enquanto dimensiona seus dispositivos virtuais de acordo com a demanda. Opera na terceira camada do modelo Open Systems Interconnection (OSI), a camada de rede. Ele escuta todos os pacotes IP em todas as portas e encaminha o tráfego para o grupo de destino especificado na regra do ouvinte.",
+      "feedback": "As características descritas são do Gateway Load Balancer.",
+      "correct": false,
+      "id": "64a2d9ba-c513-4426-9086-b70c8227636f"
+    }
+  ],
+  "id": "52f2b05c-a953-407c-90e5-1d96470c1540"
+}

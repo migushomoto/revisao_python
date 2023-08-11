@@ -1,0 +1,43 @@
+{
+  "SKU": "BE-CS-003",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "csharp",
+  "knowledgeArea": "C#",
+  "category": "Programação Orientada a Objetos",
+  "subCategory": "SOLID",
+  "level": "Medium",
+  "tagsOrConcepts": [
+    "solid"
+  ],
+  "text": [
+    "O princípio da segregação de interfaces define que:"
+  ],
+  "alternatives": [
+    {
+      "text": "Módulos de alto nível não devem depender de módulos de baixo nível. Ambos devem depender de abstrações.",
+      "feedback": "princípio da inversão de dependência",
+      "correct": false,
+      "id": "ab433ea6-858c-4e92-a159-de601ffc2c47"
+    },
+    {
+      "text": "Classes devem ter somente uma responsabilidade",
+      "feedback": "princípio da responsabilidade única",
+      "correct": false,
+      "id": "5f23afde-9a64-497c-9e97-b6617c91383f"
+    },
+    {
+      "text": "Classes não devem ser forçadas a depender de interfaces que não vão utilizar",
+      "feedback": "Alternativa correta",
+      "correct": true,
+      "id": "6f97f72f-7440-4264-af86-856b259977e6"
+    },
+    {
+      "text": "Funções que usam ponteiros ou referências para classes base devem ser capazes de usar classes derivadas sem conhecê-las.",
+      "feedback": "princípio da substituição de Liskov",
+      "correct": false,
+      "id": "b5df4a73-81d5-4261-8d96-320a03f16e7d"
+    }
+  ],
+  "id": "28994c82-96f6-4cdb-afe8-74a7bf3483d2"
+}

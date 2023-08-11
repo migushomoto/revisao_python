@@ -1,0 +1,36 @@
+Assessment de Tecnologia Banco de Dados MSSQL - 30 fechadas
+
+- 30 Fechadas
+  - (10) DDL:
+    - BD_MS_003_1
+    - BD_MS_003_2
+    - BD_MS_003_3
+    - BD_MS_003_4
+    - BD_MS_003_5
+    - BD_MS_003_6
+    - BD_MS_003_7
+    - BD_MS_003_8
+    - BD_MS_003_9
+    - BD_MS_003_10
+  - (4) DML:
+    - BD_MS_003_11
+    - BD_MS_003_12
+    - BD_MS_003_13
+    - BD_MS_003_14
+  - (16) DQL:
+    - BD_MS_003_15
+    - BD_MS_003_16
+    - BD_MS_003_17
+    - BD_MS_003_18
+    - BD_MS_003_19
+    - BD_MS_003_20
+    - BD_MS_003_21
+    - BD_MS_003_22
+    - BD_MS_003_24
+    - BD_MS_003_26
+    - BD_MS_003_27
+    - BD_MS_003_28
+    - BD_MS_003_33
+    - BD_MS_003_34
+    - BD_MS_003_34
+    - BD_MS_003_37

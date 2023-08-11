@@ -1,0 +1,49 @@
+{
+  "SKU": "DS-PY-004",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "Python",
+  "knowledgeArea": "Data Science",
+  "category": "Técnicas de Programação I",
+  "subCategory": "Pandas",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "pandas"
+  ],
+  "text": [
+    "Escolha a opção abaixo que melhor define que tipo de aplicações pode-se fazer com a biblioteca pandas:"
+  ],
+  "alternatives": [
+    {
+      "text": "Desenvolver modelos de Machine Learning",
+      "feedback": "Incorrreto, o pandas serve para manipular dados estruturados (tabulares).",
+      "correct": false,
+      "id": "1ee35433-9ae4-6fb1-fc07-426c53b4f9ba"
+    },
+    {
+      "text": "Criação de diversos tipos de gráficos",
+      "feedback": "Incorrreto, o pandas serve para manipular dados estruturados (tabulares).",
+      "correct": false,
+      "id": "1ee35433-9ae4-6fb2-23ee-eb49a4471731"
+    },
+    {
+      "text": "MAnipulação de dados não estruturados do tipo texto",
+      "feedback": "Incorrreto, o pandas serve para manipular dados estruturados (tabulares).",
+      "correct": false,
+      "id": "1ee35433-9ae4-6fb3-0d88-2a6766a9e23b"
+    },
+    {
+      "text": "Manipulação e análise de dados",
+      "feedback": "Exatamente!",
+      "correct": true,
+      "id": "1ee35433-9ae4-6fb4-7898-c3f5f4ec87b5"
+    },
+    {
+      "text": "Desenvolvimento de modelos de Deep Learning e Redes Neurais",
+      "feedback": "Incorrreto, o pandas serve para manipular dados estruturados (tabulares).",
+      "correct": false,
+      "id": "1ee35433-9ae4-6fb5-10cc-bd9a742cd09a"
+    }
+  ],
+  "id": "1ee35433-9ae4-6fb0-38c5-8d265e45b56f"
+}

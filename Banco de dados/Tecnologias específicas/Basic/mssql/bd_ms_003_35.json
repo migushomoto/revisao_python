@@ -1,0 +1,49 @@
+{
+  "SKU": "BD-MS-003",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "NA",
+  "knowledgeArea": "Banco de Dados",
+  "category": "SQL Server",
+  "subCategory": "DQL",
+  "level": "Medium",
+  "tagsOrConcepts": [
+    "Busca de dados com SELECT",
+    "INNER JOIN e LEFT JOIN"
+  ],
+  "text": [
+    "Para um relatório, você deve buscar tarefas cadastradas no sistema.",
+    "Uma tarefa possui um tipo de tarefa, conforme o diagrama abaixo:",
+    "![](https://s3-sa-east-1.amazonaws.com/lcpi/009877a9-cca3-4403-90db-1a78fb2664c8.PNG)",
+    "No qual, o atributo 'IdTipoTarefa' representa o tipo de tarefa cadastrada na tabela TIPOTAREFA",
+    "Devemos retornar o nome da tarefa juntamente com o nome do tipo da tarefa.",
+    "Qual comando SQL deverá ser executado para buscar os registros da maneira solicitada?"
+  ],
+  "alternatives": [
+    {
+      "text": "SELECT t.Nome, tt.Nome FROM Tarefas t INNER JOIN TipoTarefa tt",
+      "feedback": "Para um INNER JOIN é necessário especificar o elo entre as tabelas.",
+      "correct": false,
+      "id": "a7c148d1-7f19-40cc-88e2-6ccc362eb841"
+    },
+    {
+      "text": "SELECT t.Nome, tt.Nome FROM Tarefas t WITH TipoTarefa tt ON t.IdTipoTarefa = tt.Id",
+      "feedback": "O comando 'WITH' não é válido para esse cenário",
+      "correct": false,
+      "id": "f9a55e0e-6dc6-44b5-9924-770a5bcf35d4"
+    },
+    {
+      "text": "SELECT t.Nome, tt.Nome FROM Tarefas t INNER JOIN TipoTarefa tt ON t.IdTipoTarefa = tt.Id",
+      "feedback": "Parabéns! O comando correto é SELECT t.Nome, tt.Nome FROM Tarefas t INNER JOIN TipoTarefa tt ON t.IdTipoTarefa = tt.Id",
+      "correct": true,
+      "id": "725ae1a9-ebfb-425c-a46e-a0fffd2b6dca"
+    },
+    {
+      "text": "SELECT t.Nome, tt.Nome FROM Tarefas t WHERE t.IdTipoTarefa = TipoTarefa.Id",
+      "feedback": "O comando correto é SELECT t.Nome, tt.Nome FROM Tarefas t INNER JOIN TipoTarefa tt ON t.IdTipoTarefa = tt.Id",
+      "correct": false,
+      "id": "e20e88e7-7dae-4cea-96fc-5c6ae2004471"
+    }
+  ],
+  "id": "6a4b6d09-cc10-4f87-ad57-096d3c5496f6"
+}

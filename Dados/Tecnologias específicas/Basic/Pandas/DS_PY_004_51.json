@@ -1,0 +1,49 @@
+{
+  "SKU": "DS-PY-004",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "Python",
+  "knowledgeArea": "Data Science",
+  "category": "Técnicas de Programação I",
+  "subCategory": "Pandas",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "pandas"
+  ],
+  "text": [
+    "Escolha abaixo qual das opções é conhecida como uma das principais bibliotecas para manipulação e análise de dados em Data Science:"
+  ],
+  "alternatives": [
+    {
+      "text": "statsmodels",
+      "feedback": "Incorrreto, a biblioteca é o pandas.",
+      "correct": false,
+      "id": "1ee35433-9ae4-6fb7-b1d9-97a424c535f8"
+    },
+    {
+      "text": "pandas",
+      "feedback": "Exatamente!",
+      "correct": true,
+      "id": "1ee35433-9ae4-6fb8-c5f5-cca6b517480d"
+    },
+    {
+      "text": "matplotlib",
+      "feedback": "Incorrreto, a biblioteca é o pandas.",
+      "correct": false,
+      "id": "1ee35433-9ae4-6fb9-3300-418fbc7f0d91"
+    },
+    {
+      "text": "scikit-learn",
+      "feedback": "Incorrreto, a biblioteca é o pandas.",
+      "correct": false,
+      "id": "1ee35433-9ae4-6fba-8b39-05ff2db07bed"
+    },
+    {
+      "text": "nltk",
+      "feedback": "Incorrreto, a biblioteca é o pandas.",
+      "correct": false,
+      "id": "1ee35433-9ae4-6fbb-9967-fe1081e1bf23"
+    }
+  ],
+  "id": "1ee35433-9ae4-6fb6-627e-4f8f986a58d6"
+}

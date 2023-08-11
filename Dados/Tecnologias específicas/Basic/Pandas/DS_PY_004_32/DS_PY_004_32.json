@@ -1,0 +1,21 @@
+{
+  "SKU": "DS-PY-004",
+  "interpreter": 1,
+  "type": "EVEREST",
+  "language": "python",
+  "knowledgeArea": "Data Science",
+  "category": "Técnicas de Programação I",
+  "subCategory": "Pandas",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "Pandas",
+    "DataFrame",
+    "Váriaveis Dummy",
+    "Limpeza e Tratamento"
+  ],
+  "name": "Transformação de colunas de dados categóricos em dados binários em um DataFrame Pandas",
+  "templates": {
+    "python": "def transforma_coluna_em_dummy(df: pd.DataFrame, coluna: str) -> pd.DataFrame:\n\tpass"
+  },
+  "id": "1ee35433-9aec-64ec-e13c-f40819e46a3a"
+}

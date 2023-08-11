@@ -1,0 +1,64 @@
+{
+  "SKU": "BE-CS-002",
+  "interpreter": 1,
+  "type": "EVEREST",
+  "language": "csharp",
+  "knowledgeArea": "C#",
+  "category": "Programação Orientada a Objetos",
+  "subCategory": "Métodos",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "programação orientada a objetos",
+    "orientação a objetos"
+  ],
+  "name": "Calculo de média",
+  "handler": "calcularMediaFinal",
+  "templates": {
+    "csharp": "public class Solution \n{\r\n\tpublic static double calcularMediaFinal(string matricula, double nota1, double nota2, double nota_trabalho) \n\t{\r\n\t\t//Insira seu código aqui;\r\n\t}\r\n}"
+  },
+  "public_cases": [
+    {
+      "name": "Caso de teste público 1",
+      "input": {
+        "matricula": "123",
+        "nota1": 10,
+        "nota2": 8,
+        "nota_trabalho": 6
+      },
+      "expected": 8
+    },
+    {
+      "name": "Caso de teste público 2",
+      "input": {
+        "matricula": "123",
+        "nota1": 7,
+        "nota2": 7,
+        "nota_trabalho": 7
+      },
+      "expected": 7
+    }
+  ],
+  "private_cases": [
+    {
+      "name": "Caso de teste privado 1",
+      "input": {
+        "matricula": "123",
+        "nota1": 9.75,
+        "nota2": 8.25,
+        "nota_trabalho": 9
+      },
+      "expected": 9
+    },
+    {
+      "name": "Caso de teste privado 1",
+      "input": {
+        "matricula": "123",
+        "nota1": 6.5,
+        "nota2": 7.5,
+        "nota_trabalho": 10
+      },
+      "expected": 8
+    }
+  ],
+  "id": "3377ad99-44dc-413e-a338-1d94b66abf34"
+}

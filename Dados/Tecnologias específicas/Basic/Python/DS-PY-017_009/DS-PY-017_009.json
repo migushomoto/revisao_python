@@ -1,0 +1,19 @@
+{
+  "SKU": "DS-PY-017",
+  "interpreter": 1,
+  "type": "EVEREST",
+  "language": "python",
+  "knowledgeArea": "Data Science",
+  "category": "Lógica de Programação",
+  "subCategory": "Dicionários",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "dicionario",
+    "listas"
+  ],
+  "name": "Dicionário cujos valores são listas",
+  "templates": {
+    "python": "def mediaPrecoCelular(dictCelulares):\n\tpass"
+  },
+  "id": "1ee3543b-02c0-6562-0ccd-fda950820056"
+}

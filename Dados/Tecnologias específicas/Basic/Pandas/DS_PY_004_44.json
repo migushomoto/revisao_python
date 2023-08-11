@@ -1,0 +1,154 @@
+{
+  "SKU": "DS-PY-004",
+  "interpreter": 1,
+  "type": "GAP",
+  "language": "Python",
+  "knowledgeArea": "Data Science",
+  "category": "Técnicas de Programação I",
+  "subCategory": "Pandas",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "pandas"
+  ],
+  "text": [
+    "Complete as lacunas do código abaixo, onde cria-se um DataFrame df a partir de um dicionário chamado dictionary e mostra na tela 20 linhas do DataFrame (podendo ser as primeiras ou as últimas):",
+    "dictionary = {0: [10, 9.8, 7.6, 8.5, 10],",
+    "1: [25, 30, 32, 45, 60],",
+    "2: [1, 0, 1, 0, 0]",
+    "}",
+    "",
+    "{{GAP}} = pd.{{GAP}}({{GAP}})",
+    "df.{{GAP}}(20)"
+  ],
+  "alternatives": [
+    {
+      "value": "read_csv",
+      "hint": "",
+      "id": "1ee35433-9ae9-6dd6-711a-7d6c94ef725c"
+    },
+    {
+      "value": "DataFrame",
+      "hint": "",
+      "id": "1ee35433-9ae9-6dd7-34ca-1ca2f8d0c1f0"
+    },
+    {
+      "value": "dictionary",
+      "hint": "",
+      "id": "1ee35433-9ae9-6dd8-4bbe-e5891a0565a6"
+    },
+    {
+      "value": "df",
+      "hint": "",
+      "id": "1ee35433-9ae9-6dd9-68b1-228339fe10ff"
+    },
+    {
+      "value": "tail",
+      "hint": "",
+      "id": "1ee35433-9ae9-6dda-a7a9-bf426cd79239"
+    },
+    {
+      "value": "head",
+      "hint": "",
+      "id": "1ee35433-9ae9-6ddb-94ba-549d8b602ac3"
+    }
+  ],
+  "gaps": [
+    {
+      "expected": "df",
+      "feedbacks": [
+        {
+          "value": "read_csv",
+          "text": "Incorreto:  aqui estamos definindo o nome da variável, `df`."
+        },
+        {
+          "value": "DataFrame",
+          "text": "Incorreto:  aqui estamos definindo o nome da variável, `df`."
+        },
+        {
+          "value": "dictionary",
+          "text": "Incorreto:  aqui estamos definindo o nome da variável, `df`."
+        },
+        {
+          "value": "tail",
+          "text": "Incorreto:  aqui estamos definindo o nome da variável, `df`."
+        },
+        {
+          "value": "head",
+          "text": "Incorreto:  aqui estamos definindo o nome da variável, `df`."
+        }
+      ]
+    },
+    {
+      "expected": "DataFrame",
+      "feedbacks": [
+        {
+          "value": "read_csv",
+          "text": "Incorreto:  aqui estamos instanciando um objeto DataFrame."
+        },
+        {
+          "value": "dictionary",
+          "text": "Incorreto:  aqui estamos instanciando um objeto DataFrame."
+        },
+        {
+          "value": "df",
+          "text": "Incorreto:  aqui estamos instanciando um objeto DataFrame."
+        },
+        {
+          "value": "tail",
+          "text": "Incorreto:  aqui estamos instanciando um objeto DataFrame."
+        },
+        {
+          "value": "head",
+          "text": "Incorreto:  aqui estamos instanciando um objeto DataFrame."
+        }
+      ]
+    },
+    {
+      "expected": "dictionary",
+      "feedbacks": [
+        {
+          "value": "read_csv",
+          "text": "Incorreto:  aqui estamos instanciando um objeto DataFrame a partir do dicionário definido."
+        },
+        {
+          "value": "DataFrame",
+          "text": "Incorreto:  aqui estamos instanciando um objeto DataFrame a partir do dicionário definido."
+        },
+        {
+          "value": "df",
+          "text": "Incorreto:  aqui estamos instanciando um objeto DataFrame a partir do dicionário definido."
+        },
+        {
+          "value": "tail",
+          "text": "Incorreto:  aqui estamos instanciando um objeto DataFrame a partir do dicionário definido."
+        },
+        {
+          "value": "head",
+          "text": "Incorreto:  aqui estamos instanciando um objeto DataFrame a partir do dicionário definido."
+        }
+      ]
+    },
+    {
+      "expected": "head, tail",
+      "feedbacks": [
+        {
+          "value": "read_csv",
+          "text": "Incorreto: aqui devemos usar os métodos `head`ou `tail`."
+        },
+        {
+          "value": "DataFrame",
+          "text": "Incorreto: aqui devemos usar os métodos `head`ou `tail`."
+        },
+        {
+          "value": "dictionary",
+          "text": "Incorreto: aqui devemos usar os métodos `head`ou `tail`."
+        },
+        {
+          "value": "df",
+          "text": "Incorreto: aqui devemos usar os métodos `head`ou `tail`."
+        }
+      ]
+    }
+  ],
+  "id": "1ee35433-9ae9-6dd5-201c-1051a94f3461"
+}

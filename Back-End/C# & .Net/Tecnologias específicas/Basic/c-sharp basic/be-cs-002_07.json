@@ -1,0 +1,115 @@
+{
+  "SKU": "BE-CS-002",
+  "interpreter": 1,
+  "type": "GAP",
+  "language": "csharp",
+  "knowledgeArea": "C#",
+  "category": "Programação Orientada a Objetos",
+  "subCategory": "Princípios",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "orientação",
+    "objetos",
+    "poo"
+  ],
+  "text": [
+    "Relacione o pilar da orientação a objetos com sua descrição:",
+    "{{GAP}} é o princípio que faz com que detalhes internos do funcionamento dos métodos de uma classe permaneçam ocultos para os objeto",
+    "{{GAP}} é o princípio pelo qual separamos tudo que é essencial e descartamos tudo que não é essencial.",
+    "{{GAP}} é o princípio pelo qual duas ou mais classes derivadas da mesma superclasse podem invocar métodos que têm a mesma assinatura, mas comportamentos distintos.",
+    "{{GAP}} é o princípio que permite criar uma nova classe a partir de uma já existente."
+  ],
+  "alternatives": [
+    {
+      "value": "abstração",
+      "hint": "",
+      "id": "f102442b-8e92-4452-9c4f-ce22a240abe1"
+    },
+    {
+      "value": "herança",
+      "hint": "",
+      "id": "36551d02-bf1f-4e74-8dfb-73a24e79ce26"
+    },
+    {
+      "value": "polimorfismo",
+      "hint": "",
+      "id": "f85f3c8b-111c-41e5-9fab-ad2fcd0d1809"
+    },
+    {
+      "value": "encapsulamento",
+      "hint": "",
+      "id": "4fd142a5-011c-4691-9d9e-10ac9fa4e4d9"
+    }
+  ],
+  "gaps": [
+    {
+      "expected": "encapsulamento",
+      "feedbacks": [
+        {
+          "value": "abstração",
+          "text": "não é o pilar descrito nesta opção"
+        },
+        {
+          "value": "herança",
+          "text": "não é o pilar descrito nesta opção"
+        },
+        {
+          "value": "polimorfismo",
+          "text": "não é o pilar descrito nesta opção"
+        }
+      ]
+    },
+    {
+      "expected": "abstração",
+      "feedbacks": [
+        {
+          "value": "encapsulamento",
+          "text": "não é o pilar descrito nesta opção"
+        },
+        {
+          "value": "herança",
+          "text": "não é o pilar descrito nesta opção"
+        },
+        {
+          "value": "polimorfismo",
+          "text": "não é o pilar descrito nesta opção"
+        }
+      ]
+    },
+    {
+      "expected": "polimorfismo",
+      "feedbacks": [
+        {
+          "value": "abstração",
+          "text": "não é o pilar descrito nesta opção"
+        },
+        {
+          "value": "herança",
+          "text": "não é o pilar descrito nesta opção"
+        },
+        {
+          "value": "encapsulamento",
+          "text": "não é o pilar descrito nesta opção"
+        }
+      ]
+    },
+    {
+      "expected": "herança",
+      "feedbacks": [
+        {
+          "value": "abstração",
+          "text": "não é o pilar descrito nesta opção"
+        },
+        {
+          "value": "encapsulamento",
+          "text": "não é o pilar descrito nesta opção"
+        },
+        {
+          "value": "polimorfismo",
+          "text": "não é o pilar descrito nesta opção"
+        }
+      ]
+    }
+  ],
+  "id": "5c11ebaf-acf9-49ff-8d0d-26a2dc0c6a26"
+}

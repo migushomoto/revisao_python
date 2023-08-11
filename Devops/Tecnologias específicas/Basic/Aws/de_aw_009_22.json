@@ -1,0 +1,49 @@
+{
+  "SKU": "DE-AW-009",
+  "interpreter": 1,
+  "type": "VF",
+  "language": "NA",
+  "category": "AWS",
+  "subCategory": "IAM",
+  "level": "Medium",
+  "tagsOrConcepts": [
+    "aws",
+    "iam"
+  ],
+  "text": [
+    "Você pode definir uma política de senha personalizada em sua conta da AWS para especificar requisitos de complexidade e períodos de rotação obrigatórios para suas senhas de usuários do IAM. Se você não definir uma política de senha personalizada, as senhas de usuário do IAM deverão atender à política de senha da AWS padrão. Quais das alternativas abaixo representam políticas verdadeiras que podem ser ativadas para exigência de senha dos usuários IAM?"
+  ],
+  "alternatives": [
+    {
+      "text": "Permitir o usuário definir sua primeira senha ao ser criado",
+      "feedback": "Alternativa incorreta. O usuário não tem permissão se _auto criar_, sendo essa responsabilidade de outro usuário que possui permissão na conta.",
+      "correct": false,
+      "id": "dfcfa54d-c543-41c7-b83e-eb1462652885"
+    },
+    {
+      "text": "Forçar quantidade mínima de caracteres",
+      "feedback": "Alternativa correta!",
+      "correct": true,
+      "id": "1a0cad2a-15dd-4eef-b896-db37ebd549b4"
+    },
+    {
+      "text": "Permitir usuários alterar sua própria senha",
+      "feedback": "Alternativa correta!",
+      "correct": true,
+      "id": "4ed1a146-bfda-407c-92d9-ad61745ba1ec"
+    },
+    {
+      "text": "Habilitar expiração de senha",
+      "feedback": "Alternativa correta!",
+      "correct": true,
+      "id": "d0622f83-66a7-4246-a5e0-20888c86bda6"
+    },
+    {
+      "text": "Exigir pelo menos um caractere minúsculo",
+      "feedback": "Alternativa correta!",
+      "correct": true,
+      "id": "d3a5cd5b-aa22-47e5-a2e5-93c46b4eed58"
+    }
+  ],
+  "id": "516704d3-3c2f-47d4-8c14-bacd76328e5f"
+}

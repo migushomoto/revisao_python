@@ -1,0 +1,21 @@
+{
+  "SKU": "DS-PY-004",
+  "interpreter": 1,
+  "type": "EVEREST",
+  "language": "python",
+  "knowledgeArea": "Data Science",
+  "category": "Técnicas de Programação I",
+  "subCategory": "Pandas",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "Pandas",
+    "DataFrame",
+    "Substituição de Valores",
+    "Limpeza e Tratamento"
+  ],
+  "name": "Substituição de Cores em DataFrame de Frutas",
+  "templates": {
+    "python": "def substitui_cores(df: pd.DataFrame, coluna: str, dicionario_cores: dict) -> pd.DataFrame:\n\tpass"
+  },
+  "id": "1ee35433-9aec-64ed-e2d9-0696ea0e64ca"
+}

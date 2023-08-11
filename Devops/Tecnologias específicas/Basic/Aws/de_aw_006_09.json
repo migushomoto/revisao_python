@@ -1,0 +1,50 @@
+{
+  "SKU": "DE-AW-006",
+  "interpreter": 1,
+  "type": "VF",
+  "language": "NA",
+  "knowledgeArea": "Cloud",
+  "category": "AWS",
+  "subCategory": "Infraestrutura Global",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "aws",
+    "infraestrutura global"
+  ],
+  "text": [
+    "Sobre termos importantes referente à Infraestrutura Global da AWS, qual(is) alternativa(s) abaixo esta(ão) correta(s)?"
+  ],
+  "alternatives": [
+    {
+      "text": "Availability Zones aproximam a computação, o armazenamento, o banco de dados e outros serviços da AWS selecionados dos usuários finais. Com as zonas locais da AWS, você pode executar facilmente aplicativos altamente exigentes que exigem latências em milissegundos de um dígito para seus usuários finais.",
+      "feedback": "A característica descrita é referente à Local Zones.",
+      "correct": false,
+      "id": "8f47e3a5-2714-4264-a6dd-13cba7b08bc8"
+    },
+    {
+      "text": "Availability Zones proporcionam aos clientes a capacidade de operar aplicativos e bancos de dados de produção com alta disponibilidade, tolerância a falhas e escalabilidade em níveis superiores aos que um único datacenter pode oferecer. Todas as AZs em uma região da AWS estão interconectadas por redes de alta largura de banda e baixa latência, usando fibra metropolitana dedicada e totalmente redundante para proporcionar redes de alto desempenho.",
+      "feedback": "Alternativa correta!",
+      "correct": true,
+      "id": "36e1c378-c6c4-46f4-880e-82206679c38f"
+    },
+    {
+      "text": "Local Zones aproximam a computação, o armazenamento, o banco de dados e outros serviços da AWS selecionados dos usuários finais. Com as zonas locais da AWS, você pode executar facilmente aplicativos altamente exigentes que exigem latências em milissegundos de um dígito para seus usuários finais.",
+      "feedback": "Alternativa correta!",
+      "correct": true,
+      "id": "c89ca1be-3072-49f7-8758-0b0f854dc3fc"
+    },
+    {
+      "text": "Local Zones proporcionam aos clientes a capacidade de operar aplicativos e bancos de dados de produção com alta disponibilidade, tolerância a falhas e escalabilidade em níveis superiores aos que um único datacenter pode oferecer. Todas as AZs em uma região da AWS estão interconectadas por redes de alta largura de banda e baixa latência, usando fibra metropolitana dedicada e totalmente redundante para proporcionar redes de alto desempenho.",
+      "feedback": "A característica descrita é referente à Zonas de Disponibilidade",
+      "correct": false,
+      "id": "0246cf36-c9d3-4e19-8b5f-13814447b623"
+    },
+    {
+      "text": "Cada região da AWS consiste em várias AZs isoladas e separadas fisicamente em uma área geográfica.",
+      "feedback": "Alternativa correta!",
+      "correct": true,
+      "id": "a77ca741-0a6b-4e57-8d4b-237feb1dcae7"
+    }
+  ],
+  "id": "47db9d9d-8dd7-4a2c-a1ee-21839992dfb7"
+}

@@ -1,0 +1,69 @@
+{
+  "Id": "15",
+  "SKU": "BE-CS-001",
+  "interpreter": 1,
+  "type": "EVEREST",
+  "language": "csharp",
+  "knowledgeArea": "C#",
+  "category": "Lógica de programação",
+  "subCategory": "Estruturas condicionais",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "Condicionais"
+  ],
+  "name": "custocompra",
+  "handler": "CustoCompra",
+  "public_cases": [
+    {
+      "name": "entrada",
+      "input": 7,
+      "expected": 10.15
+    },
+    {
+      "name": "entrada",
+      "input": 12,
+      "expected": 15
+    },
+    {
+      "name": "entrada",
+      "input": 1,
+      "expected": 1.45
+    }
+  ],
+  "private_cases": [
+    {
+      "name": "entrada",
+      "input": 0,
+      "expected": 0
+    },
+    {
+      "name": "entrada",
+      "input": 10,
+      "expected": 14.5
+    },
+    {
+      "name": "entrada",
+      "input": 8,
+      "expected": 11.6
+    },
+    {
+      "name": "entrada",
+      "input": 22,
+      "expected": 27.5
+    },
+    {
+      "name": "entrada",
+      "input": 2,
+      "expected": 2.9
+    },
+    {
+      "name": "entrada",
+      "input": 15,
+      "expected": 18.75
+    }
+  ],
+  "templates": {
+    "csharp": "public class Solution \n{\r\n    public static double CustoCompra(int input) \n\t{\r\n        return input;\r\n    }\r\n}"
+  },
+  "id": "de9ed22a-0e5c-4a4a-9732-7d3a53a34187"
+}

@@ -1,0 +1,47 @@
+{
+  "SKU": "BD-MS-003",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "NA",
+  "knowledgeArea": "Banco de Dados",
+  "category": "SQL Server",
+  "subCategory": "DML",
+  "level": "Medium",
+  "tagsOrConcepts": [
+    "Inserção, remoção e edição de dados"
+  ],
+  "text": [
+    "Acidentalmente, vários registros foram modificados em uma tabela de clientes de sua empresa.",
+    "Você deve executar um script SQL para alterar os registros que foram modificados acidentalmente.",
+    "Sabemos que a tabela chama-se 'Cliente' e que a coluna 'AceitaReceberSms', do tipo BIT, deveria ter o valor verdadeiro para registros criados no dia 10/08/2022.",
+    "O dado da data de criação fica armazenado na coluna 'CriadoEm'.",
+    "Qual comando SQL deverá ser executado para alterar os registros alterados incorretamente para o valor original?"
+  ],
+  "alternatives": [
+    {
+      "text": "UPDATE Cliente SET AceitaReceberSms = SIM WHERE CriadoEm = '2022-08-10'",
+      "feedback": "SIM não é um tipo booleano válido. O comando correto é UPDATE Cliente SET AceitaReceberSms = 1 WHERE CriadoEm = '2022-08-10'",
+      "correct": false,
+      "id": "821ec0ab-6d50-48ac-84df-1c860b400fdb"
+    },
+    {
+      "text": "CHANGE Cliente SET AceitaReceberSms = 1 WHERE CriadoEm = '2022-08-10'",
+      "feedback": "CHANGE não é um comando SQL válido. O comando correto é UPDATE Cliente SET AceitaReceberSms = 1 WHERE CriadoEm = '2022-08-10'",
+      "correct": false,
+      "id": "983e788d-0036-4854-872d-53a96cd0d821"
+    },
+    {
+      "text": "UPDATE Cliente SET AceitaReceberSms = 1 WHERE CriadoEm = '2022-08-10'",
+      "feedback": "Parabéns! O comando correto é UPDATE Cliente SET AceitaReceberSms = 1 WHERE CriadoEm = '2022-08-10'",
+      "correct": true,
+      "id": "c0c9597d-625c-485e-b8db-3c3f6909969e"
+    },
+    {
+      "text": "ALTER TABLE Cliente SET AceitaReceberSms = TRUE WHERE CriadoEm = '2022-08-10'",
+      "feedback": "ALTER TABLE é utilizado para alterar a estrutura de uma tabela. O comando correto é UPDATE Cliente SET AceitaReceberSms = 1 WHERE CriadoEm = '2022-08-10'",
+      "correct": false,
+      "id": "b847aab4-5813-4b77-b643-f9ed7ac70214"
+    }
+  ],
+  "id": "896a836e-55b0-4c29-b575-7a568a233d9f"
+}

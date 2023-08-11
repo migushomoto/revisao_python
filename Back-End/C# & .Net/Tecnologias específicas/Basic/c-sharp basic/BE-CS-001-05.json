@@ -1,0 +1,46 @@
+{
+  "SKU": "BE-CS-001",
+  "interpreter": 1,
+  "type": "VF",
+  "language": "csharp",
+  "knowledgeArea": "C#",
+  "category": "Lógica de programação",
+  "subCategory": "Modificadores de acesso",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "modificadores de acesso"
+  ],
+  "text": [
+    "No mundo real algumas funcionalidades não estão acessíveis ou possuem acesso restrito.",
+    "Ex: em um carro para ligar o motor precisamos de uma interface para realizar essa ação.",
+    "Em C# existem os modificadores de acesso que tem justamente como responsabilidade restringir o acesso a partes do código.",
+    "Baseado nesses modificadores é correto afirmar:"
+  ],
+  "alternatives": [
+    {
+      "text": "Public: é um método de acesso que permite acesso total ao código",
+      "feedback": "O public da acesso full ao código, todo o código pode ser acessado de qualquer local do projeto",
+      "correct": true,
+      "id": "09d31c46-97a1-4009-b4ba-23ac6577d063"
+    },
+    {
+      "text": "Private: o acesso ao código é limitado a classe que a variável está e também suas classes derivadas",
+      "feedback": "Quando usado o private apenas a classe onde está a variável tem acesso a ela",
+      "correct": false,
+      "id": "613b304e-ba26-42d9-ab46-f0e37e60bb7c"
+    },
+    {
+      "text": "Internal: o acesso ao código é limitado a todos os módulos cujo código pertence (projeto)",
+      "feedback": "Todo o código dentro do mesmo package tem acesso as variáveis que criadas com internal",
+      "correct": true,
+      "id": "c51a7ebb-ca77-444b-8b4a-8bbc94754755"
+    },
+    {
+      "text": "Protected: o acesso ao código é limitado as classes ou tipos derivados da classe em que a variável está",
+      "feedback": "Apenas a classe e as classes derivadas em que a variável foi declarada tem acesso a ela",
+      "correct": true,
+      "id": "83199a77-9e28-44ad-80c4-b877f0f4dfe7"
+    }
+  ],
+  "id": "cbff806a-1fd1-4c7a-abc8-8bdbd3fafde7"
+}

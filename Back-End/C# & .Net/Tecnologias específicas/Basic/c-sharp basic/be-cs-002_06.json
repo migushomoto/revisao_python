@@ -1,0 +1,52 @@
+{
+  "SKU": "BE-CS-002",
+  "interpreter": 1,
+  "type": "VF",
+  "language": "csharp",
+  "knowledgeArea": "C#",
+  "category": "Programação Orientada a Objetos",
+  "subCategory": "Princípios",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "orientação",
+    "objetos",
+    "poo",
+    "metodos"
+  ],
+  "text": [
+    "Assinale as alternativas corretas referente métodos:"
+  ],
+  "alternatives": [
+    {
+      "text": "Podem existir dois métodos com a mesma assinatura.",
+      "feedback": "Errado. Dois métodos não podem ter a mesma assinatura.",
+      "correct": false,
+      "id": "ff906bb2-1088-443a-be6b-72393c60c6e6"
+    },
+    {
+      "text": "Um método pode ter 0 (zero), 1 ou mais parâmetros.",
+      "feedback": "Correto.",
+      "correct": true,
+      "id": "33abcc24-76fa-404d-93d8-c57ce8ba1130"
+    },
+    {
+      "text": "Um método sempre deve retornar um tipo de dado (int, string, um objeto, etc).",
+      "feedback": "Errado. um método do tipo void não retorna nenhuma informação ou tipo de dado.",
+      "correct": false,
+      "id": "90aa5d27-aeac-4192-927a-ba8cff3f951b"
+    },
+    {
+      "text": "Métodos construtores são responsáveis por criar as instâncias dos objetos.",
+      "feedback": "Correto.",
+      "correct": true,
+      "id": "253154a2-6254-4724-b8eb-e7f6e5c6a5ee"
+    },
+    {
+      "text": "Dois métodos podem possuir o mesmo nome.",
+      "feedback": "Correto. Desde que a assinatura seja diferente, dois métodos podem possuir o mesmo nome.",
+      "correct": true,
+      "id": "11a7fb33-8a11-44a5-8bdf-1dc6bdba407f"
+    }
+  ],
+  "id": "4d0270fa-656d-459a-adb3-0fde6e9ef214"
+}

@@ -1,0 +1,46 @@
+{
+  "SKU": "BD-MS-003",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "NA",
+  "knowledgeArea": "Banco de Dados",
+  "category": "SQL Server",
+  "subCategory": "DML",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "Inserção, remoção e edição de dados"
+  ],
+  "text": [
+    "Acidentalmente, um registro foi inserido incorretamente na tabela de clientes de sua empresa.",
+    "Você deve executar um script SQL para remover tal registro.",
+    "Sabemos que a tabela chama-se 'Cliente' e que a coluna 'Cpf' possui o valor '123321'.",
+    "Qual comando SQL deverá ser executado para realizar tal remoção?"
+  ],
+  "alternatives": [
+    {
+      "text": "REMOVE FROM Cliente WHERE Cpf = 123321",
+      "feedback": "REMOVE não é um comando SQL válido. O comando correto é DELETE FROM Cliente WHERE Cpf = 123321",
+      "correct": false,
+      "id": "29245ddf-28b4-4924-89a0-59ff39f29bf4"
+    },
+    {
+      "text": "DROP TABLE Cliente WHERE Cpf = 123321",
+      "feedback": "DROP table é utilizado para remover uma tabela. O comando correto é DELETE FROM Cliente WHERE Cpf = 123321",
+      "correct": false,
+      "id": "689081a9-3243-4463-baa1-2082dc627590"
+    },
+    {
+      "text": "DELETE FROM Cliente WHERE Cpf = 123321",
+      "feedback": "Parabéns! O comando correto é DELETE FROM Cliente WHERE Cpf = 123321",
+      "correct": true,
+      "id": "c89f75d8-02fc-4a04-91b1-63a0c95ae4c6"
+    },
+    {
+      "text": "DELETE ROW OF Cliente WHERE Cpf = 123321",
+      "feedback": "ROW OF não é um comando SQL válido. O comando correto é DELETE FROM Cliente WHERE Cpf = 123321",
+      "correct": false,
+      "id": "6f16d11a-4146-49f2-8f30-8d766c9f1a24"
+    }
+  ],
+  "id": "33366af8-c94a-4169-9c8a-120c46f8cbf9"
+}

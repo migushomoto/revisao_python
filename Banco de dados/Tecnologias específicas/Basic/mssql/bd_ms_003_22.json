@@ -1,0 +1,49 @@
+{
+  "SKU": "BD-MS-003",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "NA",
+  "knowledgeArea": "Banco de Dados",
+  "category": "SQL Server",
+  "subCategory": "DQL",
+  "level": "Medium",
+  "tagsOrConcepts": [
+    "Busca de dados com SELECT",
+    "Modificadores de resultado",
+    "TOP",
+    "LIKE"
+  ],
+  "text": [
+    "Para um relatório no qual os vendedores irão entrar em contato com possíveis clientes, será necessário buscar informações de contatos presentes na base de dados da empresa em que trabalha.",
+    "Sabemos que existe uma tabela chamada 'Contato' na qual estão os dados que precisamos.",
+    "Para esse relatório em específico, deveremos buscar somente os primeiros 10% dos registros os quais a coluna 'Nome' se inicia com A.",
+    "Qual comando SQL deverá ser executado para buscar os registros da maneira solicitada?"
+  ],
+  "alternatives": [
+    {
+      "text": "SELECT TOP 10 * FROM Contato WHERE Nome LIKE 'A%'",
+      "feedback": "A adição de 'PERCENT' faz com que a consulta retorne os primeiros 10% de registros, dessa maneira a consulta retorna os 10 primeiros.",
+      "correct": false,
+      "id": "3bc41e3b-44ac-4618-8b48-e98acca655fa"
+    },
+    {
+      "text": "SELECT TOP 10 PERCENT * FROM Contato WHERE Nome = 'A%'",
+      "feedback": "Para realizar o filtro de nomes que iniciam com 'A' devemos utilizar o operador LIKE",
+      "correct": false,
+      "id": "f12de225-b98b-4a41-a09d-4caa86b8ebe7"
+    },
+    {
+      "text": "SELECT TOP 10 PERCENT * FROM Contato WHERE Nome LIKE 'A%'",
+      "feedback": "Parabéns! O comando correto é SELECT TOP 10 PERCENT * FROM Contato WHERE Nome LIKE 'A%'",
+      "correct": true,
+      "id": "fddfb854-0935-4a09-99ac-0f3d5cc5e821"
+    },
+    {
+      "text": "SELECT TOP 10% * FROM Contato WHERE Nome == 'A*'",
+      "feedback": "Devemos utilizar PERCENT ao invés de %, além de utilizar % ao invés de * para o operador LIKE, e não ==. O comando correto é SELECT TOP 10 PERCENT * FROM Contato WHERE Nome LIKE 'A%'",
+      "correct": false,
+      "id": "9380a2d2-c583-4b75-898d-e4324d08e454"
+    }
+  ],
+  "id": "09647bdc-615a-4605-a232-2e9b9f30527d"
+}

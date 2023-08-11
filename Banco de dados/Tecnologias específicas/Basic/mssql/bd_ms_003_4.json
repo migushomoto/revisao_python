@@ -1,0 +1,46 @@
+{
+  "SKU": "BD-MS-003",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "NA",
+  "knowledgeArea": "Banco de Dados",
+  "category": "SQL Server",
+  "subCategory": "DDL",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "Alteração e remoção de tabelas"
+  ],
+  "text": [
+    "Você está responsável por construir uma lista de tarefas em um sistema já existente.",
+    "Atualmente, existe uma tabela chamada TAREFAS, que foi criada incorretamente.",
+    "É preciso remover tal tabela do banco de dados.",
+    "Qual comando SQL deverá ser executado para a remoção dessa tabela?"
+  ],
+  "alternatives": [
+    {
+      "text": "DELETE TABLE TAREFAS",
+      "feedback": "DELETE não é utilizado para remover uma tabela. O comando correto é DROP TABLE TAREFAS",
+      "correct": false,
+      "id": "99cb48e3-c41c-4e96-a974-528350aed387"
+    },
+    {
+      "text": "REMOVE TABLE TAREFAS",
+      "feedback": "REMOVE não é um comando SQL válido. O comando correto é DROP TABLE TAREFAS",
+      "correct": false,
+      "id": "b445ed9c-a5ae-44d7-a739-9fd27df7e0bf"
+    },
+    {
+      "text": "DROP TABLE TAREFAS",
+      "feedback": "Parabéns! O comando correto é DROP TABLE TAREFAS",
+      "correct": true,
+      "id": "0f4d93b7-6584-4a83-a5bf-86c7d6ed4582"
+    },
+    {
+      "text": "DELETE TABLE NAME='TAREFAS'",
+      "feedback": "DELETE não é utilizado para remover uma tabela, além da utilização de NAME=. O comando correto é DROP TABLE TAREFAS",
+      "correct": false,
+      "id": "4cd71f50-1317-4252-bf7c-97a17a993e6a"
+    }
+  ],
+  "id": "61d00c47-a234-4921-b248-c00a37edb65c"
+}

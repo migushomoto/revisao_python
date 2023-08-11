@@ -1,0 +1,49 @@
+{
+  "SKU": "DE-AW-009",
+  "interpreter": 1,
+  "type": "VF",
+  "language": "NA",
+  "category": "AWS",
+  "subCategory": "EC2",
+  "level": "Medium",
+  "tagsOrConcepts": [
+    "aws",
+    "ec2"
+  ],
+  "text": [
+    "Quais alternativas abaixo são verdadeiras referente a Instâncias Spots?"
+  ],
+  "alternatives": [
+    {
+      "text": "Como as instâncias spot são estreitamente integradas a outros serviços da AWS como Auto Scaling, EMR, ECS, CloudFormation, Data Pipeline e AWS Batch, você pode escolher como iniciar e manter as aplicações em execução nas instâncias spot.",
+      "feedback": "Alternativa correta!",
+      "correct": true,
+      "id": "3ffaedd4-01a3-443f-b35c-8e901f75d699"
+    },
+    {
+      "text": "Podem ser utilizadas em qualquer modelo de workload.",
+      "feedback": "Alternativa incorreta. É preciso entender que o uso de instâncias Spots deve ser avaliado. Por exemplo, elas podem ser usadas para aplicações sem estado, tolerantes a falhas e flexíveis como big data, cargas de trabalho conteinerizadas, CI/CD, servidores Web, computação de alta performance (HPC) e cargas de trabalho de teste e desenvolvimento. Veja mais em [Spots](https://aws.amazon.com/pt/ec2/spot/).",
+      "correct": false,
+      "id": "0fc618c5-5d63-47e9-aff4-7cdfcc3c6fa8"
+    },
+    {
+      "text": "Em comparação com a definição de preço sob demanda, as instâncias spot oferecem descontos de até 90%.",
+      "feedback": "Alternativa correta!",
+      "correct": true,
+      "id": "d8036333-df37-4567-8fd4-bbdecdfde62a"
+    },
+    {
+      "text": "É possível combinar facilmente instâncias spot com instâncias sob demanda, reservadas e de Savings Plans para otimizar ainda mais o custo e a performance das workloads.",
+      "feedback": "Alternativa correta!",
+      "correct": true,
+      "id": "8c577194-903a-418e-9d26-43beef5fc30c"
+    },
+    {
+      "text": "É preciso estar preparado para quando a AWS solicitar a instância spot, pois assim que necessário a mesma é desligada instantaneamente.",
+      "feedback": "Alternativa incorreta. É possível selecionar entre as opções de hibernar, parar ou encerrar as instâncias spot quando o EC2 solicitar a devolução da capacidade, com dois minutos de aviso prévio. Veja mais em [Spots](https://aws.amazon.com/pt/ec2/spot/).",
+      "correct": false,
+      "id": "e8009e25-5a88-41bc-b8d4-d4ff4fbabb20"
+    }
+  ],
+  "id": "3064e2d0-bf29-4616-aee2-8d3322fd980a"
+}

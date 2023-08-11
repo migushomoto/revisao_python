@@ -1,0 +1,49 @@
+{
+  "SKU": "DS-PY-004",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "Python",
+  "knowledgeArea": "Data Science",
+  "category": "Técnicas de Programação I",
+  "subCategory": "Numpy",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "numpy"
+  ],
+  "text": [
+    "Qual das alternativas gera um array com 10 números inteiros aleatórios únicos (isto é, amostra aleatória sem reposição), tiradas de uma distribuição uniforme definida entre 0 e 50 (inclusos)? Obs.: considere que o numpy foi importado com `import numpy as np`"
+  ],
+  "alternatives": [
+    {
+      "text": "np.random.choice(np.arange(50), 10, replace=False)",
+      "feedback": "Incorreto, outro array é produzido com este código.",
+      "correct": false,
+      "id": "1ee3543d-bf28-6891-1bf9-8ce4936d0882"
+    },
+    {
+      "text": "np.random.randint(0, 51, 10)",
+      "feedback": "Incorreto, outro array é produzido com este código.",
+      "correct": false,
+      "id": "1ee3543d-bf28-6892-369d-bc2ad03ee692"
+    },
+    {
+      "text": "np.random.choice(np.arange(50), 10, replace=True)",
+      "feedback": "Incorreto, outro array é produzido com este código.",
+      "correct": false,
+      "id": "1ee3543d-bf28-6893-ed01-85946e68139f"
+    },
+    {
+      "text": "np.random.randint(0, 50, 10)",
+      "feedback": "Incorreto, outro array é produzido com este código.",
+      "correct": false,
+      "id": "1ee3543d-bf28-6894-3853-c5947853b6de"
+    },
+    {
+      "text": "np.random.choice(np.arange(51), 10, replace=False)",
+      "feedback": "Correto!",
+      "correct": true,
+      "id": "1ee3543d-bf28-6895-024a-303e17f3ecfa"
+    }
+  ],
+  "id": "1ee3543d-bf28-6890-df82-b85fc6a671ea"
+}

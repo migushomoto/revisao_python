@@ -1,0 +1,156 @@
+{
+  "Id": "02",
+  "SKU": "BE-CS-001",
+  "interpreter": 1,
+  "type": "EVEREST",
+  "language": "csharp",
+  "knowledgeArea": "C#",
+  "category": "Lógica de programação",
+  "subCategory": "Arrays",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "Busca",
+    "Listas"
+  ],
+  "name": "Pares e impares",
+  "handler": "ParEImpar",
+  "public_cases": [
+    {
+      "name": "entrada",
+      "input": [
+        16,
+        6,
+        14,
+        6,
+        13,
+        6,
+        0,
+        2,
+        17,
+        28
+      ],
+      "expected": "8 pares, 2 ímpares"
+    },
+    {
+      "name": "entrada",
+      "input": [
+        16,
+        26,
+        114,
+        16,
+        6,
+        100,
+        2
+      ],
+      "expected": "7 pares, 0 ímpares"
+    },
+    {
+      "name": "entrada",
+      "input": [
+        5,
+        10,
+        1,
+        20,
+        21,
+        19,
+        2,
+        2,
+        10,
+        20
+      ],
+      "expected": "6 pares, 4 ímpares"
+    }
+  ],
+  "private_cases": [
+    {
+      "name": "entrada",
+      "input": [
+        0,
+        5,
+        1,
+        2,
+        15,
+        14
+      ],
+      "expected": "3 pares, 3 ímpares"
+    },
+    {
+      "name": "entrada",
+      "input": [
+        161,
+        261,
+        1141,
+        161,
+        1351,
+        61,
+        1001,
+        21
+      ],
+      "expected": "0 pares, 8 ímpares"
+    },
+    {
+      "name": "entrada",
+      "input": [
+        55,
+        105,
+        15,
+        205,
+        215,
+        195,
+        25,
+        25,
+        105,
+        20
+      ],
+      "expected": "1 par, 9 ímpares"
+    },
+    {
+      "name": "entrada",
+      "input": [
+        558,
+        1058,
+        158,
+        2058,
+        2158,
+        1958,
+        258,
+        258,
+        1058,
+        205
+      ],
+      "expected": "9 pares, 1 ímpar"
+    },
+    {
+      "name": "entrada",
+      "input": [
+        160,
+        60,
+        140,
+        60,
+        130,
+        60,
+        0,
+        20,
+        170,
+        280
+      ],
+      "expected": "10 pares, 0 ímpar"
+    },
+    {
+      "name": "entrada",
+      "input": [
+        21,
+        52,
+        121,
+        22,
+        152,
+        142
+      ],
+      "expected": "4 pares, 2 ímpares"
+    }
+  ],
+  "templates": {
+    "csharp": "public class Solution \n{\r\n    public static string ParEImpar(params int[] input) \n\t{\r\n        return input;\r\n    }\r\n}"
+  },
+  "id": "b080eead-e20c-4a98-a7ee-6d389a6a3808"
+}

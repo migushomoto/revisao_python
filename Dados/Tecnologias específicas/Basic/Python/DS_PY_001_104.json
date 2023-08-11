@@ -1,0 +1,49 @@
+{
+  "SKU": "DS-PY-001",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "Python",
+  "knowledgeArea": "Data Science",
+  "category": "Lógica de Programação",
+  "subCategory": "Listas",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "listas"
+  ],
+  "text": [
+    "Quais das opções abaixo *NÃO* é uma lista:"
+  ],
+  "alternatives": [
+    {
+      "text": "list(range(10))",
+      "feedback": "Isso é uma lista!",
+      "correct": false,
+      "id": "1ee3543b-02bb-6753-6eb6-7737ef0efa79"
+    },
+    {
+      "text": "list(1, 2, 3)",
+      "feedback": "Essa sintaxe em Python não é possível para inicializar uma lista.",
+      "correct": true,
+      "id": "1ee3543b-02bd-6e50-8bb0-7df4de4cc290"
+    },
+    {
+      "text": "[1, 2, 3, 4]",
+      "feedback": "Isso é uma lista!",
+      "correct": false,
+      "id": "1ee3543b-02bd-6e51-2a37-9dd8da4a812a"
+    },
+    {
+      "text": "list((1, 2, 3))",
+      "feedback": "Isso é uma lista!",
+      "correct": false,
+      "id": "1ee3543b-02bd-6e52-4b86-7e7f79b456f9"
+    },
+    {
+      "text": "[\"a\", 'Ada', 42, [\"Python\"], 3.1415, lambda x:x+1]",
+      "feedback": "Isso é uma lista!",
+      "correct": false,
+      "id": "1ee3543b-02bd-6e53-79a2-def849c0c265"
+    }
+  ],
+  "id": "1ee3543b-02bb-6752-ed05-bfa31b0bd3ee"
+}

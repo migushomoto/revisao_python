@@ -1,0 +1,50 @@
+{
+  "SKU": "DE-AW-006",
+  "interpreter": 1,
+  "type": "VF",
+  "language": "NA",
+  "knowledgeArea": "Cloud",
+  "category": "AWS",
+  "subCategory": "Cloud Computing",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "aws",
+    "cloud computing"
+  ],
+  "text": [
+    "Quais pontos você precisa se preocupar quando decide adotar o modelo Cloud Computing ao invés do On-premise?"
+  ],
+  "alternatives": [
+    {
+      "text": "Concessão de acesso e gerenciamento de permissões",
+      "feedback": "Correto! Ao adotar a nuvem você se torna responsável pelo gerenciamento de acesso à sua(s) conta(s), assim como garantir o permissionamento adequado, seguindo sempre o princípio do menor privilégio.",
+      "correct": true,
+      "id": "151c9f97-da04-48d4-a903-db374c44bfa9"
+    },
+    {
+      "text": "Investimento inicial para compra dos equipamentos, tanto computacionais quanto de rede, de acordo com a capacidade necessária",
+      "feedback": "Você não precisa se preocupar com investimentos iniciais pois a utilização da nuvem é pay as you go - ou seja, pague somente pelo que você utiliza e conforme utiliza.",
+      "correct": false,
+      "id": "48f2e10a-950b-4136-9669-94b6e6e63a9f"
+    },
+    {
+      "text": "Espaço físico adequado e ambiente climatizado",
+      "feedback": "Você não precisa se preocupar com questões físicas do ambiente, essa responsabilidade e planejamento é totalmente dos provedores de nuvem.",
+      "correct": false,
+      "id": "3c9894df-9024-489e-8917-7682ef155c02"
+    },
+    {
+      "text": "Manutenção física e atualizações de hardware",
+      "feedback": "Você não precisa se preocupar com manutenções de equipamentos a gerenciamento dos mesmos, essa responsabilidade e planejamento é totalmente dos provedores de nuvem.",
+      "correct": false,
+      "id": "35255224-f6ad-416f-af49-0f1f3ac10af2"
+    },
+    {
+      "text": "Gerenciamento de custos",
+      "feedback": "Correto! Ao adotar a computação em nuvem você precisa se preocupar em gerenciar a utilização dos recursos da melhor maneira, garantindo economia e evitando gastos desnecessários.",
+      "correct": true,
+      "id": "715b06eb-cf4a-4ad2-8fd0-449c2764c57f"
+    }
+  ],
+  "id": "a6748ad5-1453-4115-a3e1-4716a1907c76"
+}

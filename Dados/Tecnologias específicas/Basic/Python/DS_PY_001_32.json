@@ -1,0 +1,76 @@
+{
+  "SKU": "DS-PY-001",
+  "interpreter": 1,
+  "type": "GAP",
+  "language": "Python",
+  "knowledgeArea": "Data Science",
+  "category": "Lógica de Programação",
+  "subCategory": "Operadores Lógicos",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "operadores lógicos"
+  ],
+  "text": [
+    "Complete as lacunas a seguir com os operadores lógicos em Python",
+    "O operador {{GAP}} retorna verdadeiro apenas quando ambas afirmações são verdadeiras. Já o operador {{GAP}} retorna verdadeiro caso uma ou ambas afirmações sejam veradeiras. Por fim, o operador {{GAP}} retornará falso caso o resultado seja verdadeiro."
+  ],
+  "alternatives": [
+    {
+      "value": "and",
+      "hint": "",
+      "id": "1ee3543b-02b6-6925-a79e-6bc80100e507"
+    },
+    {
+      "value": "or",
+      "hint": "",
+      "id": "1ee3543b-02b6-6926-ff4c-ce4cb6e975d0"
+    },
+    {
+      "value": "not",
+      "hint": "",
+      "id": "1ee3543b-02b6-6927-7003-6dab34b986ae"
+    }
+  ],
+  "gaps": [
+    {
+      "expected": "and",
+      "feedbacks": [
+        {
+          "value": "or",
+          "text": "Aqui, precisamos do operador de conjunção `and`."
+        },
+        {
+          "value": "not",
+          "text": "Aqui, precisamos do operador de conjunção `and`."
+        }
+      ]
+    },
+    {
+      "expected": "or",
+      "feedbacks": [
+        {
+          "value": "and",
+          "text": "Aqui, precisamos do operador de conjunção `or`."
+        },
+        {
+          "value": "not",
+          "text": "Aqui, precisamos do operador de conjunção `or`."
+        }
+      ]
+    },
+    {
+      "expected": "not",
+      "feedbacks": [
+        {
+          "value": "and",
+          "text": "Aqui, precisamos do operador de negação `not`."
+        },
+        {
+          "value": "or",
+          "text": "Aqui, precisamos do operador de negação `not`."
+        }
+      ]
+    }
+  ],
+  "id": "1ee3543b-02b6-6924-8e2d-a198e8ac6aa4"
+}

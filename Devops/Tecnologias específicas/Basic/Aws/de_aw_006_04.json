@@ -1,0 +1,44 @@
+{
+  "SKU": "DE-AW-006",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "NA",
+  "knowledgeArea": "Cloud",
+  "category": "AWS",
+  "subCategory": "Modelo de Responsabilidade Compartilhada",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "aws",
+    "cloud computing"
+  ],
+  "text": [
+    "Quais das opções abaixo se enquadram na responsabilidade DA NUVEM se tratando do Modelo de Responsabilidade Compartilhada?"
+  ],
+  "alternatives": [
+    {
+      "text": "Responsabilidade pelos dados do cliente",
+      "feedback": "O cliente é inteiramente responsável pelos dados armazenados dentro da nuvem, sejam nas instâncias EC2, em Buckets s3, etc. Veja mais detalhes na [Documentação da AWS](https://aws.amazon.com/pt/compliance/shared-responsibility-model/))",
+      "correct": false,
+      "id": "2fba2fcf-1499-4ed4-bf0e-5422ff91ce8f"
+    },
+    {
+      "text": "Gestão de acesso à conta e regras dos security groups",
+      "feedback": "A responsabilidade de gestão de acesso à conta, seja por usuários IAM, chaves ou acesso via security group é totalmente do cliente. Veja mais detalhes na [Documentação da AWS](https://aws.amazon.com/pt/compliance/shared-responsibility-model/)",
+      "correct": false,
+      "id": "d3c46fc4-bd5f-4bb2-97ac-08354053ee3c"
+    },
+    {
+      "text": "Criptografia dos dados no cliente e do lado do servidor (sistema de arquivos ou dados)",
+      "feedback": "A responsabilidade sobre a criptografia em repouso é do cliente. A AWS se responsabiliza pela criptografia dos dados em trânsito. Veja mais detalhes na [Documentação da AWS](https://aws.amazon.com/pt/compliance/shared-responsibility-model/)",
+      "correct": false,
+      "id": "a431fba9-db7f-414a-aed3-5b4fd497f01e"
+    },
+    {
+      "text": "A AWS é responsável por proteger a infraestrutura que executa todos os serviços oferecidos na Nuvem AWS. Essa infraestrutura é composta por hardware, software, redes e instalações que executam os Serviços de nuvem AWS.",
+      "feedback": "Alternativa correta!",
+      "correct": true,
+      "id": "be185140-81d1-403a-9ec5-43a7357da82f"
+    }
+  ],
+  "id": "07c38ff6-f369-4f21-bef3-908e5cee6353"
+}

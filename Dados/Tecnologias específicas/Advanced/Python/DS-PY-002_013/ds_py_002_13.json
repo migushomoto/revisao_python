@@ -1,0 +1,11 @@
+{
+  "SKU": "DS-PY-002",
+  "interpreter": 1,
+  "type": "EVEREST",
+  "language": "python",
+  "tagsOrConcepts": ["Uso de métodos mágicos", "Uso de Getter"],
+  "name": "Transcritor de números",
+  "templates": {
+    "python": "class Transcritor:\n\tpass"
+  }
+}

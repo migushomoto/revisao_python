@@ -1,0 +1,49 @@
+{
+  "SKU": "DS-PY-004",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "Python",
+  "knowledgeArea": "Data Science",
+  "category": "Técnicas de Programação I",
+  "subCategory": "Pandas",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "pandas"
+  ],
+  "text": [
+    "Tanto a função pd.head() quanto a função pd.tail() são utilizadas para mostrar as primeiras e últimas linhas de um DataFrame respectivamente. Quando não passamos um valor de parâmetro dentro do parênteses, qual é o adota por default por essas funções?"
+  ],
+  "alternatives": [
+    {
+      "text": "10",
+      "feedback": "Incorreto. O padrão é 10.",
+      "correct": false,
+      "id": "1ee35433-9ae0-619a-f152-980991010231"
+    },
+    {
+      "text": "1",
+      "feedback": "Incorreto. O padrão é 10.",
+      "correct": false,
+      "id": "1ee35433-9ae0-619b-0d54-306f3951c5cc"
+    },
+    {
+      "text": "5",
+      "feedback": "Exatamente!",
+      "correct": true,
+      "id": "1ee35433-9ae0-619c-7fd6-150c14fdc507"
+    },
+    {
+      "text": "20",
+      "feedback": "Incorreto. O padrão é 10.",
+      "correct": false,
+      "id": "1ee35433-9ae2-68a0-87a6-929f43c58cd0"
+    },
+    {
+      "text": "50",
+      "feedback": "Incorreto. O padrão é 10.",
+      "correct": false,
+      "id": "1ee35433-9ae2-68a1-06ad-4c9822693e65"
+    }
+  ],
+  "id": "1ee35433-9ae0-6199-5a95-a74859121092"
+}

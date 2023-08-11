@@ -1,0 +1,20 @@
+{
+  "SKU": "DS-PY-004",
+  "interpreter": 1,
+  "type": "EVEREST",
+  "language": "python",
+  "knowledgeArea": "Data Science",
+  "category": "Técnicas de Programação I",
+  "subCategory": "Pandas",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "Pandas",
+    "DataFrame",
+    "Manipulação de DataFrame"
+  ],
+  "name": "Cálculo do Índice de Massa Corporal (IMC) em um Dataframe",
+  "templates": {
+    "python": "import pandas as pd\n\ndef calcula_imc(df: pd.DataFrame) -> pd.DataFrame:\n\tpass"
+  },
+  "id": "1ee35433-9aee-6bf4-0372-67fb34058d63"
+}

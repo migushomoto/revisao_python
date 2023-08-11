@@ -1,0 +1,20 @@
+{
+  "SKU": "DS-PY-004",
+  "interpreter": 1,
+  "type": "EVEREST",
+  "language": "python",
+  "knowledgeArea": "Data Science",
+  "category": "Técnicas de Programação I",
+  "subCategory": "Pandas",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "Pandas",
+    "DataFrame",
+    "Manipulação de DataFrame"
+  ],
+  "name": "Listando Pessoas em uma Faixa Etária Específica em um DataFrame",
+  "templates": {
+    "python": "import pandas as pd\n\ndef busca_por_faixa_etaria(df: pd.DataFrame, idade_minima: int, idade_maxima: int) -> pd.DataFrame:\n\tpass"
+  },
+  "id": "1ee35433-9aee-6bf3-1ae6-7671137c0459"
+}

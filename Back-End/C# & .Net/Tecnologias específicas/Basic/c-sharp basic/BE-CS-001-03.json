@@ -1,0 +1,50 @@
+{
+  "SKU": "BE-CS-001",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "csharp",
+  "knowledgeArea": "C#",
+  "category": "Lógica de programação",
+  "subCategory": "Variáveis",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "variáveis",
+    "operadores"
+  ],
+  "text": [
+    "O C# é conhecido como uma linguagem fortemente tipada, ou seja, onde as variáveis e constantes possuem um tipo.",
+    "O Compilador usa as informações de tipo para garantir que todas as operações realizadas no código sejam fortemente tipadas.",
+    "Responda com verdadeiro ou falso as afirmativas abaixo referente ao valor da variável resultante",
+    "int a = 5;",
+    "int b = a + 2;",
+    "bool test = true",
+    "int resultado= a + test"
+  ],
+  "alternatives": [
+    {
+      "text": "5",
+      "feedback": "O compilador exibirá uma mensagem de erro informando que o operador '+' não pode ser aplicado para operações do tipo int e bool",
+      "correct": false,
+      "id": "11a57858-a549-40bd-81ac-edc98a6e5069"
+    },
+    {
+      "text": "true",
+      "feedback": "O compilador exibirá uma mensagem de erro informando que o operador '+' não pode ser aplicado para operações do tipo int e bool",
+      "correct": false,
+      "id": "9f490f2b-a683-439a-826d-9be9da1bcb45"
+    },
+    {
+      "text": "erro compilação",
+      "feedback": "Parabéns, O compilador exibirá uma mensagem de erro informando que o operador '+' não pode ser aplicado para operações do tipo int e bool",
+      "correct": true,
+      "id": "7d9d2a0a-99f1-4d1c-8960-dadadb409cbf"
+    },
+    {
+      "text": "7",
+      "feedback": "O compilador exibirá uma mensagem de erro informando que o operador '+' não pode ser aplicado para operações do tipo int e bool",
+      "correct": false,
+      "id": "65cbeebc-de04-45b8-989a-2574aa228404"
+    }
+  ],
+  "id": "d25c205f-473e-4fe3-8422-007ca1083439"
+}

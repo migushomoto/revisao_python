@@ -1,0 +1,51 @@
+{
+  "SKU": "BD-MS-003",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "NA",
+  "knowledgeArea": "Banco de Dados",
+  "category": "SQL Server",
+  "subCategory": "DQL",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "Busca de dados com SELECT",
+    "Modificadores de resultado",
+    "WHERE"
+  ],
+  "text": [
+    "Para um relatório no qual os vendedores irão entrar em contato com possíveis clientes, será necessário buscar informações de contatos presentes na base de dados da empresa em que trabalha.",
+    "Sabemos que existe uma tabela chamada 'Contato' na qual estão os dados que precisamos.",
+    "Tal tabela possui uma coluna chamada 'Pontuacao' que vai de 0 a 10, na qual:",
+    " - 0 indica que esse contato tem baixa possibilidade de realizar uma compra; e",
+    " - 10 indica que esse contato tem altíssima possibilidade de realizar uma compra.",
+    "Para esse relatório em específico, deveremos buscar somente contatos com a pontuação igual a 10.",
+    "Qual comando SQL deverá ser executado para buscar os registros da maneira solicitada?"
+  ],
+  "alternatives": [
+    {
+      "text": "SELECT * FROM Contato WHERE Pontuacao ONLY EQUALS 10",
+      "feedback": "ONLY EQUALS não é um comando SQL válido. O comando correto é SELECT * FROM Contato WHERE Pontuacao = 10",
+      "correct": false,
+      "id": "2c1a3a01-ba09-46d6-9289-8d42f3dcb73e"
+    },
+    {
+      "text": "SELECT TOP 10 * FROM Contato",
+      "feedback": "Devemos utilizar a cláusula WHERE para filtrar os registros necessários",
+      "correct": false,
+      "id": "3908d1dc-0694-412b-92a8-921c5a20bf31"
+    },
+    {
+      "text": "SELECT * FROM Contato WHERE Pontuacao = 10",
+      "feedback": "Parabéns! O comando correto é SELECT * FROM Contato WHERE Pontuacao = 10",
+      "correct": true,
+      "id": "c785dfe2-fc2e-4476-8933-409b01f3a1bd"
+    },
+    {
+      "text": "SELECT * FROM Contato WHERE Pontuacao <> 10",
+      "feedback": "A utilização do operador <> (diferente) traz resultados que não tenham o valor informado",
+      "correct": false,
+      "id": "313a49ff-8214-4806-aa4c-842b3865d6ba"
+    }
+  ],
+  "id": "66b1768d-1fbb-4e56-869b-144f8c6d6629"
+}

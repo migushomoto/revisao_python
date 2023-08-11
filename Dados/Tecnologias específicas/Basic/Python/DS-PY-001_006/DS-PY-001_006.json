@@ -1,0 +1,136 @@
+{
+  "Id": "06",
+  "SKU": "DS-PY-001",
+  "interpreter": 1,
+  "type": "EVEREST",
+  "language": "python",
+  "knowledgeArea": "Data Science",
+  "category": "Lógica de Programação",
+  "subCategory": "Strings",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "Strings",
+    "Listas"
+  ],
+  "name": "Soletrando",
+  "handler": "soletrando_str",
+  "public_cases": [
+    {
+      "name": "entrada",
+      "input": "amor",
+      "expected": [
+        "a",
+        "m",
+        "o",
+        "r"
+      ]
+    },
+    {
+      "name": "entrada",
+      "input": "ovo",
+      "expected": [
+        "o",
+        "v",
+        "o"
+      ]
+    },
+    {
+      "name": "entrada",
+      "input": "carroça",
+      "expected": [
+        "c",
+        "a",
+        "r",
+        "r",
+        "o",
+        "ç",
+        "a"
+      ]
+    }
+  ],
+  "private_cases": [
+    {
+      "name": "entrada",
+      "input": "microfone",
+      "expected": [
+        "m",
+        "i",
+        "c",
+        "r",
+        "o",
+        "f",
+        "o",
+        "n",
+        "e"
+      ]
+    },
+    {
+      "name": "entrada",
+      "input": "sauva",
+      "expected": [
+        "s",
+        "a",
+        "u",
+        "v",
+        "a"
+      ]
+    },
+    {
+      "name": "entrada",
+      "input": "adeus",
+      "expected": [
+        "a",
+        "d",
+        "e",
+        "u",
+        "s"
+      ]
+    },
+    {
+      "name": "entrada",
+      "input": "fogarel",
+      "expected": [
+        "f",
+        "o",
+        "g",
+        "a",
+        "r",
+        "e",
+        "l"
+      ]
+    },
+    {
+      "name": "entrada",
+      "input": "papagaio",
+      "expected": [
+        "p",
+        "a",
+        "p",
+        "a",
+        "g",
+        "a",
+        "i",
+        "o"
+      ]
+    },
+    {
+      "name": "entrada",
+      "input": "periquito",
+      "expected": [
+        "p",
+        "e",
+        "r",
+        "i",
+        "q",
+        "u",
+        "i",
+        "t",
+        "o"
+      ]
+    }
+  ],
+  "templates": {
+    "python": "def soletrando_str(palavra):\n\t### Seu código aqui."
+  },
+  "id": "1ee3543b-02c2-6c71-7016-667bc7471b7d"
+}

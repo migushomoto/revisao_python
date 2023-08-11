@@ -1,0 +1,64 @@
+{
+  "SKU": "BE-CS-002",
+  "interpreter": 1,
+  "type": "EVEREST",
+  "language": "csharp",
+  "knowledgeArea": "C#",
+  "category": "Programação Orientada a Objetos",
+  "subCategory": "Métodos",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "programação orientada a objetos",
+    "orientação a objetos"
+  ],
+  "name": "Orientação a Objetos XVI",
+  "handler": "calcularAreaLivre",
+  "templates": {
+    "csharp": "public class Solution \n{\r\n\tpublic static string calcularAreaLivre(double larguraTerreno, double comprimentoTerreno, double larguraCasa, double comprimentoCasa) \n\t{\r\n\t\t//Insira seu código aqui;\r\n\t}\r\n}"
+  },
+  "public_cases": [
+    {
+      "name": "Caso de teste público 1",
+      "input": {
+        "larguraTerreno": 50,
+        "comprimentoTerreno": 50,
+        "larguraCasa": 45,
+        "comprimentoCasa": 45
+      },
+      "expected": "475.00 m2 | 81.00 %"
+    },
+    {
+      "name": "Caso de teste público 2",
+      "input": {
+        "larguraTerreno": 8,
+        "comprimentoTerreno": 10,
+        "larguraCasa": 10,
+        "comprimentoCasa": 15
+      },
+      "expected": "-70.00 m2 | 187.50 %"
+    }
+  ],
+  "private_cases": [
+    {
+      "name": "Caso de teste privado 1",
+      "input": {
+        "larguraTerreno": 10,
+        "comprimentoTerreno": 10,
+        "larguraCasa": 10,
+        "comprimentoCasa": 10
+      },
+      "expected": "0.00 m2 | 100.00 %"
+    },
+    {
+      "name": "Caso de teste privado 2",
+      "input": {
+        "larguraTerreno": 30,
+        "comprimentoTerreno": 1,
+        "larguraCasa": 30,
+        "comprimentoCasa": 0
+      },
+      "expected": "30.00 m2 | 0.00 %"
+    }
+  ],
+  "id": "425f1e52-3dc7-4247-8e3c-b2dedf4dc8a8"
+}

@@ -1,0 +1,48 @@
+{
+  "SKU": "BD-MS-003",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "NA",
+  "knowledgeArea": "Banco de Dados",
+  "category": "SQL Server",
+  "subCategory": "DDL",
+  "level": "Medium",
+  "tagsOrConcepts": [
+    "Criação de chaves primárias e constraints",
+    "Identity"
+  ],
+  "text": [
+    "Você está responsável por construir uma lista de tarefas em um sistema já existente.",
+    "Segundo o que lhe foi atribuído, deverá realizar inicialmente a criação da tabela chamada TAREFAS",
+    "Um dos atributos que essa tabela deve conter, é um identificador único, chamado 'Id', que deve ser a chave primária da tabela.",
+    "Este atributo deve ser preenchido automaticamente com valores sequenciais e únicos, iniciando em 1 e contando de 1 em 1.",
+    "Considerando apenas esse atributo, qual comando SQL deverá ser executado para a criação dessa tabela?"
+  ],
+  "alternatives": [
+    {
+      "text": "1 + 1 não é utilizado para essa finalidade. CREATE TABLE TAREFAS (Id INT PRIMARY KEY IDENTITY(1, 1 + 1))",
+      "feedback": "O comando correto é CREATE TABLE TAREFAS (Id INT PRIMARY KEY IDENTITY(1,1))",
+      "correct": false,
+      "id": "323733b8-702a-49d2-a0f7-ace1701282a2"
+    },
+    {
+      "text": "CREATE TABLE TAREFAS (Id INT PRIMARY KEY AUTOINCREMENT(1, 1))",
+      "feedback": "AUTOINCREMENT não é utilizado. O comando correto é CREATE TABLE TAREFAS (Id INT PRIMARY KEY IDENTITY(1,1))",
+      "correct": false,
+      "id": "4bd30480-bf14-49d1-bdbc-40c5e8b83958"
+    },
+    {
+      "text": "CREATE TABLE TAREFAS (Id INT PRIMARY KEY IDENTITY(1, 1))",
+      "feedback": "Parabéns! O comando correto é CREATE TABLE TAREFAS (Id INT PRIMARY KEY IDENTITY(1,1))",
+      "correct": true,
+      "id": "ac97163c-10ab-4198-b6f9-24a39d78e752"
+    },
+    {
+      "text": "CREATE TABLE TAREFAS (Id INT PRIMARY KEY START=1 SEED=1)",
+      "feedback": "START e SEED não são comandos SQL válidos. O comando correto é CREATE TABLE TAREFAS (Id INT PRIMARY KEY IDENTITY(1,1))",
+      "correct": false,
+      "id": "d2abb598-e64a-42a0-90aa-6cf408a511b7"
+    }
+  ],
+  "id": "4cbe6515-7edb-4808-b0f1-42593af354d4"
+}

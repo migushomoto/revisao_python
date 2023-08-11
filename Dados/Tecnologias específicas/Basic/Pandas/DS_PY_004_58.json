@@ -1,0 +1,49 @@
+{
+  "SKU": "DS-PY-004",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "Python",
+  "knowledgeArea": "Data Science",
+  "category": "Técnicas de Programação I",
+  "subCategory": "Pandas",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "pandas"
+  ],
+  "text": [
+    "Qual das opções abaixo melhor explica o que faz a função do pandas describe()?"
+  ],
+  "alternatives": [
+    {
+      "text": "Faz um sumário estatístico das variáveis numérica, calculando algumas métricas (média, mediana, desvio padrão e etc)",
+      "feedback": "Exatamente!",
+      "correct": true,
+      "id": "1ee35433-9ae0-6194-0d7d-95afd45e6621"
+    },
+    {
+      "text": "Lê e carrega dados de um arquivo CSV externo e salva em um DataFrame",
+      "feedback": "Incorreto. O método `describe` calcula as estatísticas descritivas para variáveis numéricas no DataFrame.",
+      "correct": false,
+      "id": "1ee35433-9ae0-6195-e8e1-5cd6c0ee2a41"
+    },
+    {
+      "text": "Mostra quais são as dimensões de um DataFrame (número de linhas, número de colunas)",
+      "feedback": "Incorreto. O método `describe` calcula as estatísticas descritivas para variáveis numéricas no DataFrame.",
+      "correct": false,
+      "id": "1ee35433-9ae0-6196-6ae8-e3b7fb118e5c"
+    },
+    {
+      "text": "Imprime na tela o nome de todas as colunas disponíveis no DataFrame",
+      "feedback": "Incorreto. O método `describe` calcula as estatísticas descritivas para variáveis numéricas no DataFrame.",
+      "correct": false,
+      "id": "1ee35433-9ae0-6197-8ab4-5d2c661de54b"
+    },
+    {
+      "text": "Imprime na tela as 5 primeiras linhas de um DataFrame",
+      "feedback": "Incorreto. O método `describe` calcula as estatísticas descritivas para variáveis numéricas no DataFrame.",
+      "correct": false,
+      "id": "1ee35433-9ae0-6198-8342-2be7e8aab75c"
+    }
+  ],
+  "id": "1ee35433-9ae0-6193-5a1d-32893d970d4e"
+}

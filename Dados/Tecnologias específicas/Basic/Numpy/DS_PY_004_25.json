@@ -1,0 +1,49 @@
+{
+  "SKU": "DS-PY-004",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "Python",
+  "knowledgeArea": "Data Science",
+  "category": "Técnicas de Programação I",
+  "subCategory": "Numpy",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "numpy"
+  ],
+  "text": [
+    "Como inicializar uma matriz com 3 linhas e 4 colunas preenchida completamente com números 5 utilizando o NumPy? (Considere que o NumPy foi importado com o alias \"np\")"
+  ],
+  "alternatives": [
+    {
+      "text": "np.ones((3, 4)) + 5",
+      "feedback": "Incorreto, esta função não gera o array especificado.",
+      "correct": false,
+      "id": "1ee3543d-bf21-6369-e764-edc058159747"
+    },
+    {
+      "text": "np.fives((4,3))",
+      "feedback": "Incorreto, esta função não gera o array especificado.",
+      "correct": false,
+      "id": "1ee3543d-bf21-636a-ae2e-8d7e4d826a92"
+    },
+    {
+      "text": "np.zeros((3,4)) * 5",
+      "feedback": "Incorreto, esta função não gera o array especificado.",
+      "correct": false,
+      "id": "1ee3543d-bf21-636b-61ca-b9b5b5a2fd6d"
+    },
+    {
+      "text": "np.fives((3,4))",
+      "feedback": "Incorreto, esta função não gera o array especificado.",
+      "correct": false,
+      "id": "1ee3543d-bf21-636c-edc0-32b6d5e15a9f"
+    },
+    {
+      "text": "np.ones((3,4)) * 5",
+      "feedback": "Isso mesmo!",
+      "correct": true,
+      "id": "1ee3543d-bf21-636d-fa86-78c54fbe7248"
+    }
+  ],
+  "id": "1ee3543d-bf21-6368-e110-a665ff5458cd"
+}

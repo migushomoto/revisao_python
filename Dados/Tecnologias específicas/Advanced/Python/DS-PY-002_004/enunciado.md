@@ -1,0 +1,1 @@
+Crie uma classe de nome `Pessoa` que tenha tenha os campos `nome`, `sobrenome` e `cidade_de_residencia` e `data_de_criacao` como um campo privado. Crie uma função chamada `nova_pessoa` que recebe os 3 primeiros campos e devolve uma instância criada com os 4 campos criados.

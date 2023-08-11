@@ -1,0 +1,49 @@
+{
+  "SKU": "DS-PY-001",
+  "interpreter": 1,
+  "type": "VF",
+  "language": "Python",
+  "knowledgeArea": "Data Science",
+  "category": "Lógica de Programação",
+  "subCategory": "Operadores Lógicos",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "operadores lógicos"
+  ],
+  "text": [
+    "Sobre operadores lógicos, avalie as sentenças a seguir:"
+  ],
+  "alternatives": [
+    {
+      "text": "São utilizados quando precisamos realizar operações sobre um ou dois valores booleanos.",
+      "feedback": "Verdadeiro!",
+      "correct": true,
+      "id": "1ee3543b-02bb-6741-bb66-ec94b126ea38"
+    },
+    {
+      "text": "n%2==0 or n%3==0 é verdadeiro se uma das condições for verdadeira.",
+      "feedback": "Verdadeiro!",
+      "correct": true,
+      "id": "1ee3543b-02bb-6742-ec9d-49b2c590fc67"
+    },
+    {
+      "text": "O operador not nega uma expressão booleana.",
+      "feedback": "Verdadeiro!",
+      "correct": true,
+      "id": "1ee3543b-02bb-6743-e595-3889064eb3af"
+    },
+    {
+      "text": "n%2==0 or n%3==0 é falso se n=0.",
+      "feedback": "Falso - neste caso, o valor lógico é True, pois 0%2 == 0",
+      "correct": false,
+      "id": "1ee3543b-02bb-6744-5a72-7cab96d68da0"
+    },
+    {
+      "text": "x>10 and x>5 só será verdadeiro se x=10.",
+      "feedback": "Falso - neste caso, podemos ter valor lógico True também para outros valores de x - na verdade, para qualquer valor maior que 10.",
+      "correct": false,
+      "id": "1ee3543b-02bb-6745-9257-eb3c16395a7a"
+    }
+  ],
+  "id": "1ee3543b-02bb-6740-647e-731146a9e38b"
+}

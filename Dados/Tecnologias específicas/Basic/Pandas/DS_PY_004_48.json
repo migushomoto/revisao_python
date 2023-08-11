@@ -1,0 +1,93 @@
+{
+  "SKU": "DS-PY-004",
+  "interpreter": 1,
+  "type": "GAP",
+  "language": "Python",
+  "knowledgeArea": "Data Science",
+  "category": "Técnicas de Programação I",
+  "subCategory": "Pandas",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "pandas"
+  ],
+  "text": [
+    "Complete as lacunas do código abaixo, onde a partir do DataFrame df deve-se ordenar os dados de acordo com a coluna 'labels':",
+    "{{GAP}}.{{GAP}}(by='{{GAP}}')"
+  ],
+  "alternatives": [
+    {
+      "value": "labels",
+      "hint": "",
+      "id": "1ee35433-9ae7-66c6-7202-0d4ef4ae1768"
+    },
+    {
+      "value": "df",
+      "hint": "",
+      "id": "1ee35433-9ae7-66c7-eaa7-773db8f4a86d"
+    },
+    {
+      "value": "value_counts",
+      "hint": "",
+      "id": "1ee35433-9ae7-66c8-df0d-758f2e5c1a8c"
+    },
+    {
+      "value": "sort_values",
+      "hint": "",
+      "id": "1ee35433-9ae7-66c9-7a6b-52e8bfe18381"
+    }
+  ],
+  "gaps": [
+    {
+      "expected": "df",
+      "feedbacks": [
+        {
+          "value": "labels",
+          "text": "Incorreto: aqui devemos usar a variável `df`. "
+        },
+        {
+          "value": "value_counts",
+          "text": "Incorreto: aqui devemos usar a variável `df`. "
+        },
+        {
+          "value": "sort_values",
+          "text": "Incorreto: aqui devemos usar a variável `df`. "
+        }
+      ]
+    },
+    {
+      "expected": "sort_values",
+      "feedbacks": [
+        {
+          "value": "labels",
+          "text": "Incorreto: aqui devemos usar o método `sort_values`."
+        },
+        {
+          "value": "df",
+          "text": "Incorreto: aqui devemos usar o método `sort_values`."
+        },
+        {
+          "value": "value_counts",
+          "text": "Incorreto: aqui devemos usar o método `sort_values`."
+        }
+      ]
+    },
+    {
+      "expected": "labels",
+      "feedbacks": [
+        {
+          "value": "df",
+          "text": "Incorreto: aqui indicamos `labels`como a coluna a ser utilizada no ordenamento."
+        },
+        {
+          "value": "value_counts",
+          "text": "Incorreto: aqui indicamos `labels`como a coluna a ser utilizada no ordenamento."
+        },
+        {
+          "value": "sort_values",
+          "text": "Incorreto: aqui indicamos `labels`como a coluna a ser utilizada no ordenamento."
+        }
+      ]
+    }
+  ],
+  "id": "1ee35433-9ae7-66c5-d94f-89061ad13f08"
+}

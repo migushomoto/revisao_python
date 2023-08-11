@@ -1,0 +1,14 @@
+{
+  "SKU": "DS-PY-002",
+  "interpreter": 1,
+  "type": "EVEREST",
+  "language": "python",
+  "tagsOrConcepts": [
+    "Criacao de Classe",
+    "Uso de Getter e Setter"
+  ],
+  "name": "Cadastrando um usuário, mais opções",
+  "templates": {
+    "python": "class Cliente:\n\tpass"
+  }
+}

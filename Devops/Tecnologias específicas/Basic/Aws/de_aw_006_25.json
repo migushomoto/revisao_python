@@ -1,0 +1,43 @@
+{
+  "SKU": "DE-AW-006",
+  "interpreter": 1,
+  "type": "VF",
+  "language": "NA",
+  "category": "AWS",
+  "subCategory": "Well Architect Framework",
+  "level": "Medium",
+  "tagsOrConcepts": [
+    "aws",
+    "well-architect framework"
+  ],
+  "text": [
+    "Qual das alternativas abaixo referem-se aos princípios do pilar de Otimização de Custos?"
+  ],
+  "alternatives": [
+    {
+      "text": "Meça a eficiência geral",
+      "feedback": "Correto! Esse princípio tem o seguinte ojetivo: 'Meça o resultado comercial da carga de trabalho e os custos associados com a sua entrega. Use essa medida para saber os ganhos obtidos com o aumento da saída e a redução de custos'.",
+      "correct": true,
+      "id": "2b31ee9f-cd51-456c-b41c-316670e7f616"
+    },
+    {
+      "text": "Adotar um modelo de consumo",
+      "feedback": "Correto! Esse princípio tem o seguinte ojetivo: 'Pague somente pelos recursos de computação necessários e aumente ou reduza o uso dependendo dos requisitos comerciais, não usando previsões elaboradas. Por exemplo, ambientes de desenvolvimento e teste são geralmente usados apenas por oito horas ao dia durante a semana de trabalho. Você pode desligar esses recursos quando eles não estiverem em uso para obter uma economia potencial de 75% (40 horas versus 168 horas)'.",
+      "correct": true,
+      "id": "578f0392-d16a-4f9f-acdc-d1c11e947ae5"
+    },
+    {
+      "text": "Executar operações como código",
+      "feedback": "Esse princípio pertence ao pilar Excelência Operacional. Veja mais na [Documentação Oficial sobre este pilar](https://wa.aws.amazon.com/wat.pillar.operationalExcellence.pt_BR.html).",
+      "correct": false,
+      "id": "1e3c44b6-1197-46e9-a260-b587944d86da"
+    },
+    {
+      "text": "Escale horizontalmente para aumentar a disponibilidade agregada da carga de trabalho",
+      "feedback": "Esse princípio pertence ao pilar Confiabilidade. Veja mais na [Documentação Oficial sobre este pilar](https://wa.aws.amazon.com/wat.pillar.reliability.pt_BR.html).",
+      "correct": false,
+      "id": "f29c68ce-2ccc-45e4-ba3f-2b68ed27bd3f"
+    }
+  ],
+  "id": "55046687-52fc-4c6e-8554-ceb1fb301105"
+}

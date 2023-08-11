@@ -1,0 +1,21 @@
+{
+  "SKU": "DS-PY-004",
+  "interpreter": 1,
+  "type": "EVEREST",
+  "language": "python",
+  "knowledgeArea": "Data Science",
+  "category": "Técnicas de Programação I",
+  "subCategory": "Pandas",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "Pandas",
+    "DataFrame",
+    "Outliers",
+    "Limpeza e Tratamento"
+  ],
+  "name": "Detecção de Valores Atípicos com Desvio Padrão",
+  "templates": {
+    "python": "def identifica_outliers(df: pd.DataFrame, coluna: str) -> pd.DataFrame:\n\tpass"
+  },
+  "id": "1ee35433-9aee-6bf0-ce1a-4bf60b462453"
+}

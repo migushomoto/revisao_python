@@ -1,0 +1,68 @@
+{
+  "SKU": "DS-PY-001",
+  "interpreter": 1,
+  "type": "GAP",
+  "language": "Python",
+  "knowledgeArea": "Data Science",
+  "category": "Lógica de Programação",
+  "subCategory": "Entrada e Saída",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "exibição de mensagem"
+  ],
+  "text": [
+    "Escolha a opção correta para que a mensagem \"Ada Tech\" seja exibida na tela.",
+    "{{GAP}}(\"Ada Tech\")"
+  ],
+  "alternatives": [
+    {
+      "value": "write",
+      "hint": "",
+      "id": "1ee3543b-02bd-6e62-28b6-b12d6e223b30"
+    },
+    {
+      "value": "print",
+      "hint": "",
+      "id": "1ee3543b-02bd-6e63-deb5-ff57751faea7"
+    },
+    {
+      "value": "output",
+      "hint": "",
+      "id": "1ee3543b-02bd-6e64-7b68-98db4ef8742e"
+    },
+    {
+      "value": "show",
+      "hint": "",
+      "id": "1ee3543b-02bd-6e65-ff1f-76e763cdbdb8"
+    },
+    {
+      "value": "int",
+      "hint": "",
+      "id": "1ee3543b-02bd-6e66-6fe2-3824601e6bc6"
+    }
+  ],
+  "gaps": [
+    {
+      "expected": "print",
+      "feedbacks": [
+        {
+          "value": "write",
+          "text": "Em python, para exibir uma mensagem na tela, usamos a função `print`"
+        },
+        {
+          "value": "output",
+          "text": "Em python, para exibir uma mensagem na tela, usamos a função `print`"
+        },
+        {
+          "value": "show",
+          "text": "Em python, para exibir uma mensagem na tela, usamos a função `print`"
+        },
+        {
+          "value": "int",
+          "text": "Em python, para exibir uma mensagem na tela, usamos a função `print`"
+        }
+      ]
+    }
+  ],
+  "id": "1ee3543b-02bd-6e61-2efe-c2807b360a9b"
+}

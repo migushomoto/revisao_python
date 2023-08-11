@@ -1,0 +1,46 @@
+{
+  "SKU": "BE-CS-001",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "csharp",
+  "knowledgeArea": "C#",
+  "category": "Lógica de programação",
+  "subCategory": "Conversões",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "conversão de tipo"
+  ],
+  "text": [
+    "A linguagem c# é fortemente tipada, então depois que uma variável é declarada ela",
+    "não pode ser declarada novamente ou então ser atribuida a um valor de outro tipo. Ex:",
+    "Uma variável do tipo string não pode receber um valor inteiro. Para realizar essa operação",
+    "é preciso realizar uma operação de conversão. Existem 4 opções de conversão no C# que são:"
+  ],
+  "alternatives": [
+    {
+      "text": "Conversão implícita; conversão de classe; conversão explícita; conversão intrínseca",
+      "feedback": "Conversão intríseca não existe em C#",
+      "correct": false,
+      "id": "4baf7f0b-cc22-4ade-ac38-ed31db37fdf8"
+    },
+    {
+      "text": "Conversão implícita; conversão de classe; conversão explícita; conversão definida pelo usuário",
+      "feedback": "conversão com classes auxiliares é a opção correta",
+      "correct": false,
+      "id": "57949f17-f35b-4436-ad9b-d3ffc2a17339"
+    },
+    {
+      "text": "Conversão implícita; conversão com classes auxiliares; conversão explícita; conversão definida pelo usuário",
+      "feedback": "Parabéns, essas são as opções de conversão no C#",
+      "correct": true,
+      "id": "085ddf21-07c9-4a97-95b7-b355097f216c"
+    },
+    {
+      "text": "Conversão implícita; conversão de classe; conversão intrínseca; conversão definida pelo usuário",
+      "feedback": "Conversão intríseca não existe em C#",
+      "correct": false,
+      "id": "7e47b195-facd-42c9-81fc-63a068ca4630"
+    }
+  ],
+  "id": "a58cb74a-199e-4744-8d7e-e93e1cef6173"
+}

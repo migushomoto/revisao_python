@@ -1,0 +1,45 @@
+{
+  "SKU": "BE-CS-005",
+  "interpreter": 1,
+  "type": "VF",
+  "language": "csharp",
+  "knowledgeArea": "C#",
+  "category": "Técnicas de Programação",
+  "subCategory": "Programação assíncrona",
+  "level": "Medium",
+  "tagsOrConcepts": [
+    "programação assíncrona"
+  ],
+  "text": [
+    "Programação assíncrona consiste na execução de uma tarefa que será concluída algum tempo depois e aguardamos sua finalização.",
+    "No .NET temos algumas formas de implementarmos programação assíncrona, dentre elas temos 2 palavras-chave que utilizamos em códigos assíncronos.",
+    "Qual são essas palavras-chave?"
+  ],
+  "alternatives": [
+    {
+      "text": "return",
+      "feedback": "Essa é a palavra-chave para retorno dentro de um método",
+      "correct": false,
+      "id": "e2b889cb-72c0-40ba-8d82-683b131e3435"
+    },
+    {
+      "text": "continue",
+      "feedback": "Essa é a palavra-chave para continuidade de um laço de repetição.",
+      "correct": false,
+      "id": "8a694561-2b2d-4978-bfe8-ac196f65493c"
+    },
+    {
+      "text": "async",
+      "feedback": "Essa é a palavra-chave que adicionamos na assinatura do método assíncrono.",
+      "correct": true,
+      "id": "856b9c23-d52d-4447-8bab-dc4c48b9fada"
+    },
+    {
+      "text": "await",
+      "feedback": "Essa é a palavra-chave que adicionamos na linha em que invocamos o método assíncrono.",
+      "correct": true,
+      "id": "7c1da6b4-50a8-4380-9ef6-d00ce671e5af"
+    }
+  ],
+  "id": "593dddcc-41ea-4165-9aa0-dfd0eb5ecec4"
+}

@@ -1,0 +1,46 @@
+{
+  "SKU": "BE-CS-001",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "csharp",
+  "knowledgeArea": "C#",
+  "category": "Lógica de programação",
+  "subCategory": "Arrays",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "variáveis",
+    "vetores"
+  ],
+  "text": [
+    "Em C# é possivel declarar variáveis que armazenam um grupo de dados e acessam estes por meio de índices.",
+    "Essas classes de variáveis são conhecidas como vetores. Quais das formas a seguir correspondem a forma correta",
+    "de declarar um vetor em C#?"
+  ],
+  "alternatives": [
+    {
+      "text": "int vetor = new vetor[];",
+      "feedback": "quando declado um vetor devemos definir o tipo da seguinte forma => int[] nomevariavel",
+      "correct": false,
+      "id": "7bbb1f91-60bd-494e-82e1-ec8a033585f8"
+    },
+    {
+      "text": "var vetor[] = new vetor;",
+      "feedback": "não usa-se [] após o nome da variável e tambem a declaração após o new está errada, deve-se usar => new tipodosdados [tamanho do vetor]",
+      "correct": false,
+      "id": "7fd0d7c6-29be-4807-825c-beafe197b8d0"
+    },
+    {
+      "text": "var vetor = new vetor;",
+      "feedback": "a declaração após o new está errada, deve-se usar => new tipodosdados [tamanho do vetor]",
+      "correct": false,
+      "id": "8e357159-bd5c-4d22-b4f2-ee9a21b6ae40"
+    },
+    {
+      "text": "int[] vetor = new int[8];",
+      "feedback": "A declaração segue o padrão da linguagem => tipodosdados[] nomevariavel = new tipodosdados[tamanho do vetor]",
+      "correct": true,
+      "id": "a4032338-79f0-40f5-953d-ce11eb7bdec1"
+    }
+  ],
+  "id": "40333274-081e-4092-bac1-54a6711b4e5c"
+}

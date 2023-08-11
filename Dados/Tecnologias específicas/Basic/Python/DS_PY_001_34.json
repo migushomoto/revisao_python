@@ -1,0 +1,49 @@
+{
+  "SKU": "DS-PY-001",
+  "interpreter": 1,
+  "type": "VF",
+  "language": "Python",
+  "knowledgeArea": "Data Science",
+  "category": "Lógica de Programação",
+  "subCategory": "Operadores Lógicos",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "operadores lógicos"
+  ],
+  "text": [
+    "Sobre operadores lógicos, avalie as sentenças a seguir:"
+  ],
+  "alternatives": [
+    {
+      "text": "z/3==5 or z/2==2 é verdadeiro se ambas condições forem verdadeiras.",
+      "feedback": "Isso mesmo!",
+      "correct": true,
+      "id": "1ee3543b-02b4-6215-78ec-112e86544bfe"
+    },
+    {
+      "text": "São utilizados quando precisamos criar testes lógicos.",
+      "feedback": "Isso mesmo!",
+      "correct": true,
+      "id": "1ee3543b-02b4-6216-9644-4881795cc20f"
+    },
+    {
+      "text": "O operador not retorna falso caso uma expressão booleana seja falsa.",
+      "feedback": "Incorreto.",
+      "correct": false,
+      "id": "1ee3543b-02b4-6217-88b0-485ae327e1b0"
+    },
+    {
+      "text": "n%2==0 or n%3==0 é verdadeiro se n for par e divisível por 3.",
+      "feedback": "Isso mesmo!",
+      "correct": true,
+      "id": "1ee3543b-02b4-6218-2da4-b2aa68398c8a"
+    },
+    {
+      "text": "x>10 and x>5 só será verdadeiro se x>10.",
+      "feedback": "Isso mesmo!",
+      "correct": true,
+      "id": "1ee3543b-02b4-6219-d170-07154e979013"
+    }
+  ],
+  "id": "1ee3543b-02b4-6214-de79-4f73f94ea17e"
+}

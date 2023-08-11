@@ -1,0 +1,11 @@
+{
+  "SKU": "DS-PY-002",
+  "interpreter": 1,
+  "type": "EVEREST",
+  "language": "python",
+  "tagsOrConcepts": ["Criacao de Classe", "Estado interno"],
+  "name": "Dando notas para alunos e calculando medias",
+  "templates": {
+    "python": "class QuantidadeErradaNotasError:\n\tpass\n\nclass EstudanteJaRegistradoError:\n\tpass\n\nclass Estudante:\n\tpass\n\nclass Turma:\n\tpass"
+  }
+}

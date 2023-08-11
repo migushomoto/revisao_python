@@ -1,0 +1,60 @@
+{
+  "SKU": "BE-CS-002",
+  "interpreter": 1,
+  "type": "EVEREST",
+  "language": "csharp",
+  "knowledgeArea": "C#",
+  "category": "Programação Orientada a Objetos",
+  "subCategory": "Princípios",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "programação orientada a objetos",
+    "orientação a objetos",
+    "metodos de acesso",
+    "classes",
+    "polimorfismo",
+    "sobrecarga"
+  ],
+  "name": "Orientação a Objetos IX",
+  "handler": "solution",
+  "templates": {
+    "csharp": "public class Vestuario \n{\n\t//Insira seu código aqui\n}\n\npublic class Solution \n{\n\tpublic static string solution(string tamanho,string cor) \n\t{\n\t\tvar v1 = new Vestuario();\n\t\tvar v2 = new Vestuario(tamanho);\n\t\tvar v3 = new Vestuario(tamanho, cor);\n\t\treturn $\"{v1.info()}|{v2.info()}|{v3.info()}\";\n\t}\n}"
+  },
+  "public_cases": [
+    {
+      "name": "Caso de teste público 1",
+      "input": {
+        "tamanho": "p",
+        "cor": "branca"
+      },
+      "expected": "_|p_|p_branca"
+    },
+    {
+      "name": "Caso de teste público 2",
+      "input": {
+        "tamanho": "m",
+        "cor": "azul"
+      },
+      "expected": "_|m_|m_azul"
+    }
+  ],
+  "private_cases": [
+    {
+      "name": "Caso de teste privado 1",
+      "input": {
+        "tamanho": "g",
+        "cor": "preta"
+      },
+      "expected": "_|g_|g_preta"
+    },
+    {
+      "name": "Caso de teste privado 2",
+      "input": {
+        "tamanho": "gg",
+        "cor": "cinza"
+      },
+      "expected": "_|gg_|gg_cinza"
+    }
+  ],
+  "id": "1c28cfc6-fa5d-437d-b0ed-e06f02d90d22"
+}

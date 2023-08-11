@@ -1,0 +1,55 @@
+{
+  "SKU": "DS-PY-004",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "Python",
+  "knowledgeArea": "Data Science",
+  "category": "Técnicas de Programação I",
+  "subCategory": "Numpy",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "numpy"
+  ],
+  "text": [
+    "Considere o seguinte trecho de código em Python:",
+    "```python",
+    "import numpy as np",
+    "arr = np.random.randint(0, 50, 10)",
+    "arr2 = arr[arr < 50]",
+    "```",
+    "O que é armazenado na variável `arr2`?"
+  ],
+  "alternatives": [
+    {
+      "text": "Um array de booleanos que indica, para cada elemento do array `arr`, se ele é maior que 0.5",
+      "feedback": "Incorreto, outro array é armazenado.",
+      "correct": false,
+      "id": "1ee3543d-bf26-6192-f80a-3bda5f257f28"
+    },
+    {
+      "text": "Um array que contém apenas os elementos de `arr` que são menores que 0.5",
+      "feedback": "Incorreto, outro array é armazenado.",
+      "correct": false,
+      "id": "1ee3543d-bf26-6193-d8dc-7d0f545ea037"
+    },
+    {
+      "text": "Uma cópia do array `arr`",
+      "feedback": "Exatamente!",
+      "correct": true,
+      "id": "1ee3543d-bf26-6194-09c2-40cb55ef8ea2"
+    },
+    {
+      "text": "Um array que contém apenas os elementos de `arr` que são maiores que 0.5",
+      "feedback": "Incorreto, outro array é armazenado.",
+      "correct": false,
+      "id": "1ee3543d-bf26-6195-2cd6-8764ecd383f0"
+    },
+    {
+      "text": "Um array vazio",
+      "feedback": "Incorreto, outro array é armazenado.",
+      "correct": false,
+      "id": "1ee3543d-bf26-6196-02b4-940ee3904e50"
+    }
+  ],
+  "id": "1ee3543d-bf26-6191-546e-161633bfc479"
+}

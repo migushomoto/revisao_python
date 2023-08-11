@@ -1,0 +1,49 @@
+{
+  "SKU": "DS-PY-001",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "Python",
+  "knowledgeArea": "Data Science",
+  "category": "Lógica de Programação",
+  "subCategory": "Estruturas de Repetição",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "estrutura de repetição"
+  ],
+  "text": [
+    "Um desenvolvedor iniciante recebeu a demanda de criar um programa que receba inúmeros valores e pare quando -1 for inserido. Qual ferramenta é a melhor recomendação para que ele consiga resolver o problema?"
+  ],
+  "alternatives": [
+    {
+      "text": "Lista.",
+      "feedback": "Incorreto.",
+      "correct": false,
+      "id": "1ee3543b-02b1-6b07-6c78-f50958326b65"
+    },
+    {
+      "text": "Estrutura de repetição.",
+      "feedback": "Isso mesmo!",
+      "correct": true,
+      "id": "1ee3543b-02b1-6b08-eeaf-f81ec78eba11"
+    },
+    {
+      "text": "Expressões condicionais.",
+      "feedback": "Incorreto.",
+      "correct": false,
+      "id": "1ee3543b-02b1-6b09-97d8-d6c34e94b979"
+    },
+    {
+      "text": "String.",
+      "feedback": "Incorreto.",
+      "correct": false,
+      "id": "1ee3543b-02b1-6b0a-f9a1-fab8d738c2a8"
+    },
+    {
+      "text": "Dicionário.",
+      "feedback": "Incorreto.",
+      "correct": false,
+      "id": "1ee3543b-02b1-6b0b-4d8d-527ac3d1249f"
+    }
+  ],
+  "id": "1ee3543b-02b1-6b06-030c-e62e35295d04"
+}

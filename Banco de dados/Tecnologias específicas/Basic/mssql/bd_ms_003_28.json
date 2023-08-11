@@ -1,0 +1,51 @@
+{
+  "SKU": "BD-MS-003",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "NA",
+  "knowledgeArea": "Banco de Dados",
+  "category": "SQL Server",
+  "subCategory": "DQL",
+  "level": "Medium",
+  "tagsOrConcepts": [
+    "Busca de dados com SELECT",
+    "Agregação",
+    "MAX",
+    "TOP",
+    "ORDER BY"
+  ],
+  "text": [
+    "Em uma promoção da empresa em que trabalha, o cliente que comprou o item mais caro da loja ganhará um brinde.",
+    "Sabemos que já existe uma tabela chamada 'Pedidos' que possui informações de compras de clientes.",
+    "Podemos identificar os clientes por meio da coluna 'CpfCliente' e o valor do item comprado pela coluna 'ValorItem'",
+    "É preciso que uma consulta seja realizada para definir o vencedor da promoção.",
+    "Qual comando SQL deverá ser executado para realizar o que foi solicitado?"
+  ],
+  "alternatives": [
+    {
+      "text": "SELECT MAX(ValorItem), CpfCliente FROM Pedidos GROUP BY CpfCliente ORDER BY MAX(ValorItem)",
+      "feedback": "Esta consulta retorna o maior valor comprado para todos os clientes que já compraram",
+      "correct": false,
+      "id": "d12e1ddd-9049-47d7-9d19-d5c9633ab0f0"
+    },
+    {
+      "text": "SELECT TOP 1 MAX(ValorItem), CpfCliente FROM Pedidos GROUP BY CpfCliente",
+      "feedback": "Esta consulta não irá trazer necessáriamente o maior valor comprado.",
+      "correct": false,
+      "id": "04cfcdbd-5f5a-42af-8122-ddbdf7f171ce"
+    },
+    {
+      "text": "SELECT TOP 1 MAX(ValorItem), CpfCliente FROM Pedidos GROUP BY CpfCliente ORDER BY MAX(ValorItem)",
+      "feedback": "Parabéns! O comando SELECT TOP 1 MAX(ValorItem), CpfCliente FROM Pedidos GROUP BY CpfCliente ORDER BY MAX(ValorItem) está correto.",
+      "correct": true,
+      "id": "f3597b0a-c09f-44cf-b822-84dbcc98dfa9"
+    },
+    {
+      "text": "SELECT COUNT(ValorItem), CpfCliente FROM Pedidos GROUP BY CpfCliente",
+      "feedback": "O 'COUNT' irá contar a quantidade de itens comprados por aquele cliente, ao invés de extrair o maior valor",
+      "correct": false,
+      "id": "bf303e73-9544-4d63-962b-f706e624fa7c"
+    }
+  ],
+  "id": "80ba48ee-ac89-47f7-84ca-b4a211f3e157"
+}

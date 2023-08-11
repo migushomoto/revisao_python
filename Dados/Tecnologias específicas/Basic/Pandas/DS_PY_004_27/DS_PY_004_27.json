@@ -1,0 +1,21 @@
+{
+  "SKU": "DS-PY-004",
+  "interpreter": 1,
+  "type": "EVEREST",
+  "language": "python",
+  "knowledgeArea": "Data Science",
+  "category": "Técnicas de Programação I",
+  "subCategory": "Pandas",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "Pandas",
+    "DataFrame",
+    "Dados Faltantes",
+    "Limpeza e Tratamento"
+  ],
+  "name": "Tratamento de Dados Faltantes em DataFrame do Pandas",
+  "templates": {
+    "python": "def trata_dados_faltantes(df: pd.DataFrame) -> pd.DataFrame:\n\tpass"
+  },
+  "id": "1ee35433-9aee-6bf1-50b0-5207f692b2ee"
+}

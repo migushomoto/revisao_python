@@ -1,0 +1,49 @@
+{
+  "SKU": "BD-MS-003",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "NA",
+  "knowledgeArea": "Banco de Dados",
+  "category": "SQL Server",
+  "subCategory": "DDL",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "Criação de tabelas e seus atributos"
+  ],
+  "text": [
+    "Você está responsável por construir uma lista de tarefas em um sistema já existente.",
+    "Segundo o que lhe foi atribuído, deverá realizar inicialmente a criação da tabela chamada TAREFAS",
+    "Tal tabela deve conter os seguintes atributos:",
+    "- Id, o qual é um número inteiro;",
+    "- Nome, o qual é um texto com 100 caracteres no máximo.",
+    "Nesse momento não devemos nos preocupar com chaves primárias, ou outros pormenores.",
+    "Qual comando SQL deverá ser executado para a criação dessa tabela?"
+  ],
+  "alternatives": [
+    {
+      "text": "CREATE TABLE TAREFAS (Id NUMBER, Nome STRING(100))",
+      "feedback": "STRING e NUMBER não são tipos válidos. O comando correto é CREATE TABLE TAREFAS (Id INT, Nome VARCHAR(100))",
+      "correct": false,
+      "id": "456627ef-c8f5-4d3c-b5f0-678032b8d122"
+    },
+    {
+      "text": "ADD TABLE TAREFAS (Id INT, Nome VARCHAR(100))",
+      "feedback": "ADD não é utilizado para criação de tabelas. O comando correto é CREATE TABLE TAREFAS (Id INT, Nome VARCHAR(100))",
+      "correct": false,
+      "id": "d3e149a3-f1d9-4dcf-aa55-9c99134553cf"
+    },
+    {
+      "text": "CREATE TABLE TAREFAS (Id INT, Nome VARCHAR(100))",
+      "feedback": "Parabéns! O comando correto é CREATE TABLE TAREFAS (Id INT, Nome VARCHAR(100))",
+      "correct": true,
+      "id": "025c793e-f9e6-46c4-9459-304262e968d9"
+    },
+    {
+      "text": "CREATE TABLE NAME='TAREFAS' FIELDS=(Id INT, Nome TEXT(100))",
+      "feedback": "NAME= e FIELDS não são comandos válidos para a criação de tabelas. O comando correto é CREATE TABLE TAREFAS (Id INT, Nome VARCHAR(100))",
+      "correct": false,
+      "id": "480db650-6142-4002-a4fb-1aa0cae17c06"
+    }
+  ],
+  "id": "33ecd1e9-523f-4c24-8b89-0a5b72970b32"
+}

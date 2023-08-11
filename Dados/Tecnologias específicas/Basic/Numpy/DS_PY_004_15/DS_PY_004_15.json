@@ -1,0 +1,99 @@
+{
+  "SKU": "DS-PY-004",
+  "interpreter": 1,
+  "type": "EVEREST",
+  "language": "python",
+  "knowledgeArea": "Data Science",
+  "category": "Técnicas de Programação I",
+  "subCategory": "Numpy",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "Condicionais"
+  ],
+  "name": "Verificador de Aprovação",
+  "handler": "verifica_aprovacao",
+  "templates": {
+    "python": "def verifica_aprovacao(notas_freq):\n\tpass"
+  },
+  "public_cases": [
+    {
+      "name": "public_case_01",
+      "input": {
+        "notas_freq": [
+          5,
+          7.5,
+          6.5,
+          4,
+          9,
+          8.5,
+          5,
+          6.5,
+          7.5,
+          5.5,
+          20
+        ]
+      },
+      "expected": "Aprovado"
+    },
+    {
+      "name": "public_case_02",
+      "input": {
+        "notas_freq": [
+          6,
+          6.5,
+          4.5,
+          7,
+          6,
+          7.5,
+          5,
+          5.5,
+          6.5,
+          6.5,
+          15
+        ]
+      },
+      "expected": "Reprovado"
+    }
+  ],
+  "private_cases": [
+    {
+      "name": "private_case_01",
+      "input": {
+        "notas_freq": [
+          5,
+          5.5,
+          5.5,
+          5,
+          9,
+          3.5,
+          4,
+          4.5,
+          5.5,
+          4.5,
+          25
+        ]
+      },
+      "expected": "Reprovado"
+    },
+    {
+      "name": "private_case_02",
+      "input": {
+        "notas_freq": [
+          5,
+          5.5,
+          5.5,
+          7,
+          8,
+          5.5,
+          5,
+          5.5,
+          6.5,
+          7.5,
+          22
+        ]
+      },
+      "expected": "Aprovado"
+    }
+  ],
+  "id": "1ee3543d-bf2d-66b4-773e-4ae0dc0015bc"
+}

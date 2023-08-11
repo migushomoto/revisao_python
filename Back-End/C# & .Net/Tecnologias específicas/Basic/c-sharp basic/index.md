@@ -1,0 +1,53 @@
+Assessment de Tecnologia C# - 20 fechadas + 10 everest
+
+- 20 Fechadas
+  - 5 Lógica de programação
+    - 1 Conversões
+      - BE_CS_001_02
+    - 1 Variáveis
+      - BE_CS_001_03
+    - 1 Modificadores de acesso
+      - BE_CS_001_05
+    - 1 Arrays
+      - BE_CS_001_08
+    - 1 Métodos
+      - BE_CS_001_12
+  - 9 POO
+    - 3 Princípios
+      - BE_CS_002_03
+      - BE_CS_002_06
+      - BE_CS_002_07
+    - 2 Polimorfismo
+      - BE_CS_002_08
+      - BE_CS_002_12
+    - 1 Reflection
+      - BE_CS_003_04
+    - 1 Generics
+      - BE_CS_003_09
+    - 2 SOLID
+      - BE_CS_003_06
+      - BE_CS_003_12
+  - 6 Técnicas de Programação
+    - 3 Coleções
+        - BE_CS_005_01
+        - BE_CS_005_02
+        - BE_CS_005_09
+    - 2 Linq/Lambda
+        - BE_CS_005_12
+        - BE_CS_005_04
+    - 1 Programação assíncrona
+        - BE_CS_005_08
+- 10 Everest
+  - 3 Lógica de programação
+    - BE_CS_001_02
+    - BE_CS_001_06
+    - BE_CS_001_15
+  - 4 POO
+    - BE_CS_002_01
+    - BE_CS_002_08
+    - BE_CS_002_16
+    - BE_CS_002_26
+  - 3 Técnicas de Programação
+    - BE_CS_005_16
+    - BE_CS_005_24
+    - BE_CS_005_25

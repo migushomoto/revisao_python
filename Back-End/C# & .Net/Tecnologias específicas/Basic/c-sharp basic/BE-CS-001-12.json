@@ -1,0 +1,44 @@
+{
+  "SKU": "BE-CS-001",
+  "interpreter": 1,
+  "type": "VF",
+  "language": "csharp",
+  "knowledgeArea": "C#",
+  "category": "Lógica de programação",
+  "subCategory": "Métodos",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "assinatura de métodos"
+  ],
+  "text": [
+    "Em C# a assinatura de metodos é composta pela seguinte estrutura => modificador_de_acesso valor_retornado nome_do_método (parametros_do_metodo)",
+    "considerando essa estrutura assinale as alternativas que declaram uma assinatura de método correta."
+  ],
+  "alternatives": [
+    {
+      "text": "public void MedodoSemRetorno()",
+      "feedback": "a assinatura do método obedece o padrão da linguagem. Trata-se de um método que não recebe paramêtros e não possui nenhum retorno",
+      "correct": true,
+      "id": "a8ec5c10-9b46-449f-a8af-061cfb9c97dd"
+    },
+    {
+      "text": "privado void MedodoComParametros(var a)",
+      "feedback": "privado não é um modificador de acesso válido da linguagem, assim como o tipo do paramêtro que o método recebe deve ser passado (var não é um tipo). Um exemplo seria, private void MedodoComParametros(int a)",
+      "correct": false,
+      "id": "729775a8-5ebd-4423-95dc-c8f1273728b5"
+    },
+    {
+      "text": "protected int MedodoComRetorno(int a, int b)",
+      "feedback": "a assinatura está correta, especificando o modificador de acesso, o tipo do retorno e os paramêtros com tipos definidos",
+      "correct": true,
+      "id": "7a05e755-4751-486b-a67c-b73a9fc3efc2"
+    },
+    {
+      "text": "publico string Metodo com retorno (string a)",
+      "feedback": "publico não é um modificador de acesso válido, o correto seria usar public",
+      "correct": false,
+      "id": "be8d8c56-521f-49c6-982b-c4a897dc44f6"
+    }
+  ],
+  "id": "b53008bc-3b11-454f-8569-c5267e42115f"
+}

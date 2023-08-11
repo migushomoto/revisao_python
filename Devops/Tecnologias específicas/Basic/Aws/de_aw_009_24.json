@@ -1,0 +1,49 @@
+{
+  "SKU": "DE-AW-009",
+  "interpreter": 1,
+  "type": "VF",
+  "language": "NA",
+  "category": "AWS",
+  "subCategory": "Cloudformation",
+  "level": "Medium",
+  "tagsOrConcepts": [
+    "aws",
+    "cloudformation"
+  ],
+  "text": [
+    "Quais alternativas abaixo representam benefícios de se utilizar o AWS Cloudformation, o serviço de Infraestrutura como Código da AWS?"
+  ],
+  "alternatives": [
+    {
+      "text": "Aumento na velocidade das implantações",
+      "feedback": "Alternativa correta!",
+      "correct": true,
+      "id": "851085c0-2191-409a-bc6e-d30a13f1fef2"
+    },
+    {
+      "text": "Aumento da complexidade na criação de ambientes",
+      "feedback": "Alternativa incorreta. Utilizar serviço de Infraestrutra como Código, como por exemplo o AWS Cloudformation diminui a complexidade na criação de ambientes, pois é possível criar uma arquitetura completa de uma aplicação à partir de um template previamente definido, informando somente os parâmetros necessários.",
+      "correct": false,
+      "id": "73a00af9-5137-4186-8559-f502d41394eb"
+    },
+    {
+      "text": "Eliminação de desvios de configuração",
+      "feedback": "Alternativa correta!",
+      "correct": true,
+      "id": "4cd84833-7eb0-47fe-a343-15eda0292703"
+    },
+    {
+      "text": "Aumento na velocidade das implantações",
+      "feedback": "Alternativa correta!",
+      "correct": true,
+      "id": "f97c2518-b9b8-4ba4-9513-c998089b8345"
+    },
+    {
+      "text": "Agilidade de recuperação em caso de desastre",
+      "feedback": "Alternativa correta!",
+      "correct": true,
+      "id": "609bee0e-e402-4cf2-b06b-d1d760afd6f0"
+    }
+  ],
+  "id": "1dda88c7-2879-4603-834c-cfb867790738"
+}

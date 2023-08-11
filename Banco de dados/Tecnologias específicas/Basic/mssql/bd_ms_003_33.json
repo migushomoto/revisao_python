@@ -1,0 +1,49 @@
+{
+  "SKU": "BD-MS-003",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "NA",
+  "knowledgeArea": "Banco de Dados",
+  "category": "SQL Server",
+  "subCategory": "DQL",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "Busca de dados com SELECT",
+    "Modificadores de resultado",
+    "LIKE",
+    "WHERE e seus filtros"
+  ],
+  "text": [
+    "Para um relatório no qual os vendedores irão entrar em contato com possíveis clientes, será necessário buscar informações de contatos presentes na base de dados da empresa em que trabalha.",
+    "Sabemos que existe uma tabela chamada 'Contato' na qual estão os dados que precisamos.",
+    "Para esse relatório em específico, deveremos buscar somente pessoas com 'Mario' em qualquer parte do nome.",
+    "Qual comando SQL deverá ser executado para buscar os registros da maneira solicitada?"
+  ],
+  "alternatives": [
+    {
+      "text": "SELECT * FROM Contato WHERE Nome LIKE 'Mario'",
+      "feedback": "Esta consulta retorna todos os contatos em que o nome seja exatamente igual a 'Mario'",
+      "correct": false,
+      "id": "bf8d7008-bbd8-4366-adf0-1edc36fc3a76"
+    },
+    {
+      "text": "SELECT * FROM Contato WHERE Nome CONTAINS 'Mario'",
+      "feedback": "CONTAINS não é um comando SQL válido para este cenário.",
+      "correct": false,
+      "id": "0c6f4d57-52f3-4295-aee9-508ed9618ba4"
+    },
+    {
+      "text": "SELECT * FROM Contato WHERE Nome LIKE '%Mario%'",
+      "feedback": "Parabéns! O comando correto é SELECT * FROM Contato WHERE Nome LIKE '%Mario%'",
+      "correct": true,
+      "id": "8d0c526b-7218-4c18-8ff6-5ca8c321e3c7"
+    },
+    {
+      "text": "SELECT '%Mario%' FROM Contato",
+      "feedback": "O comando correto é SELECT * FROM Contato WHERE Nome LIKE '%Mario%'",
+      "correct": false,
+      "id": "1961553b-bb44-47ea-836a-906bdaa0c823"
+    }
+  ],
+  "id": "07053e6f-7016-4555-8ee1-3eb08d2144dc"
+}

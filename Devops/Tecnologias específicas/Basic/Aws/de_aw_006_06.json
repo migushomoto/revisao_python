@@ -1,0 +1,44 @@
+{
+  "SKU": "DE-AW-006",
+  "interpreter": 1,
+  "type": "VF",
+  "language": "NA",
+  "knowledgeArea": "Cloud",
+  "category": "AWS",
+  "subCategory": "Cloud Computing",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "aws",
+    "computacao em nuvem"
+  ],
+  "text": [
+    "Quais são os principais tipos de computação em nuvem?"
+  ],
+  "alternatives": [
+    {
+      "text": "Software como serviço (SaaS)",
+      "feedback": "Correto! O SaaS oferece um produto completo, executado e gerenciado pelo provedor de serviços. Na maioria dos casos, quando as pessoas mencionam SaaS, estão falando de aplicativos de usuários finais (como e-mail baseado na web). Com uma oferta de SaaS, você não precisa pensar sobre a manutenção do serviço ou o gerenciamento da infraestrutura subjacente. Você só precisa se preocupar sobre como utilizará esse software específico. ",
+      "correct": true,
+      "id": "c4aefec2-5d76-437d-8930-49bd50f9bee9"
+    },
+    {
+      "text": "Plataforma como serviço (PaaS)",
+      "feedback": "Correto! Com o PaaS, você não precisa mais gerenciar a infraestrutura subjacente (geralmente, hardware e sistemas operacionais) e pode manter o foco na implantação e no gerenciamento de aplicativos.",
+      "correct": true,
+      "id": "cc8ac449-78b6-45d4-8c35-0c2ee74f54a9"
+    },
+    {
+      "text": "On-premise",
+      "feedback": "O modelo On-premise não é um modelo de computação em nuvem, ele consiste em manter toda a infraestrutura de servidores de seu sistema/aplicação fisicamente dentro da companhia. ",
+      "correct": false,
+      "id": "4ce8f683-a61c-4f7c-870a-07216a816173"
+    },
+    {
+      "text": "Infraestrutura como serviço (IaaS)",
+      "feedback": "Correto! O IaaS contém os componentes básicos da TI na nuvem. Normalmente, o IaaS oferece acesso a recursos de rede, computadores (virtuais ou em hardware dedicado) e espaço de armazenamento de dados. O IaaS oferece o mais alto nível de flexibilidade e controle de gerenciamento sobre os recursos de TI.",
+      "correct": true,
+      "id": "6f044d49-6f8b-4080-a27f-488e502ee28c"
+    }
+  ],
+  "id": "a7f35e7a-388b-4f59-9f9d-282d894ac477"
+}

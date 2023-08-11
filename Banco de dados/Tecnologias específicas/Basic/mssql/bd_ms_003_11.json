@@ -1,0 +1,51 @@
+{
+  "SKU": "BD-MS-003",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "NA",
+  "knowledgeArea": "Banco de Dados",
+  "category": "SQL Server",
+  "subCategory": "DML",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "Inserção, remoção e edição de dados"
+  ],
+  "text": [
+    "Você está responsável por criar um script SQL para inserir alguns dados de clientes em uma tabela já existente em um sistema de sua empresa.",
+    "Tal tabela, foi criada conforme o script abaixo:",
+    "CREATE TABLE Cliente (",
+    "   Id INT IDENTITY(1, 1) PRIMARY KEY,",
+    "   Nome VARCHAR(100) NOT NULL,",
+    "   Cpf BIGINT NOT NULL",
+    ")",
+    "Para realizar um teste, será preciso inserir o cliente com o nome 'Aluno' e Cpf '123'",
+    "Qual comando SQL deverá ser executado para realizar tal inserção?"
+  ],
+  "alternatives": [
+    {
+      "text": "ADD TO Cliente (Nome, Cpf) VALUES ('Aluno', 123)",
+      "feedback": "ADD TO não é um comando SQL válido. O comando correto é INSERT INTO Cliente (Nome, Cpf) VALUES ('Aluno', 123)",
+      "correct": false,
+      "id": "e4720f2e-6210-4b8c-8460-630902943bac"
+    },
+    {
+      "text": "INSERT INTO Cliente (Nome, Cpf) ATTRIBUTES ('Aluno', 123)",
+      "feedback": "ATTRIBUTES não é um comando SQL válido. O comando correto é INSERT INTO Cliente (Nome, Cpf) VALUES ('Aluno', 123)",
+      "correct": false,
+      "id": "68211dd1-0011-4d3c-b4c3-e9284e153c4b"
+    },
+    {
+      "text": "INSERT INTO Cliente (Nome, Cpf) VALUES ('Aluno', 123)",
+      "feedback": "Parabéns! O comando correto é INSERT INTO Cliente (Nome, Cpf) VALUES ('Aluno', 123)",
+      "correct": true,
+      "id": "d7030649-432e-40ac-aca6-35097073990d"
+    },
+    {
+      "text": "INSERT ROW INTO Cliente (Nome, Cpf) WITH ('Aluno', 123)",
+      "feedback": "ROW não é um comando SQL válido. O comando correto é INSERT INTO Cliente (Nome, Cpf) VALUES ('Aluno', 123)",
+      "correct": false,
+      "id": "101ae585-b53d-4811-8d7e-dd2e1c398f76"
+    }
+  ],
+  "id": "14f0a9ac-1b79-4397-a711-150a6087c9e4"
+}

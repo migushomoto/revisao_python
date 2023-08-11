@@ -1,0 +1,19 @@
+{
+  "SKU": "DS-PY-004",
+  "interpreter": 1,
+  "type": "EVEREST",
+  "language": "python",
+  "knowledgeArea": "Data Science",
+  "category": "Técnicas de Programação I",
+  "subCategory": "Numpy",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "Numpy",
+    "Concatenação"
+  ],
+  "name": "Concatenação de Arrays Numpy para Análise de Vendas em Diferentes Regiões",
+  "templates": {
+    "python": "def concatena_array(arr1: np.ndarray, arr2: np.ndarray) -> np.ndarray:\n\tpass"
+  },
+  "id": "1ee3543d-bf2d-66b2-47ff-b7e22849fdec"
+}

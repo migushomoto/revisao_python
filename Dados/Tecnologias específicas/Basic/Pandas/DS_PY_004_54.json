@@ -1,0 +1,50 @@
+{
+  "SKU": "DS-PY-004",
+  "interpreter": 1,
+  "type": "GAP",
+  "language": "Python",
+  "knowledgeArea": "Data Science",
+  "category": "Técnicas de Programação I",
+  "subCategory": "Pandas",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "pandas"
+  ],
+  "text": [
+    "O objetivo do código abaixo é ler e carregar os dados a partir de um arquivo CSV externo. Qual função do pandas que melhor se enquadra neste caso?",
+    "df = pd.{{GAP}}('exemplo1.csv')"
+  ],
+  "alternatives": [
+    {
+      "value": "read_csv",
+      "hint": "",
+      "id": "1ee35433-9ae2-68af-36cd-05aa1569c3fa"
+    },
+    {
+      "value": "DataFrame",
+      "hint": "",
+      "id": "1ee35433-9ae2-68b0-ad12-0c206c787723"
+    },
+    {
+      "value": "concat",
+      "hint": "",
+      "id": "1ee35433-9ae2-68b1-f28e-f28bb488e231"
+    }
+  ],
+  "gaps": [
+    {
+      "expected": "read_csv",
+      "feedbacks": [
+        {
+          "value": "DataFrame",
+          "text": "Incorreto: aqui devemos usar `read_csv`."
+        },
+        {
+          "value": "concat",
+          "text": "Incorreto: aqui devemos usar `read_csv`."
+        }
+      ]
+    }
+  ],
+  "id": "1ee35433-9ae2-68ae-296e-f27adecc9115"
+}

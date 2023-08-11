@@ -1,0 +1,44 @@
+{
+  "SKU": "DE-AW-006",
+  "interpreter": 1,
+  "type": "VF",
+  "language": "NA",
+  "knowledgeArea": "Cloud",
+  "category": "AWS",
+  "subCategory": "Cloud Computing",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "aws",
+    "cloud computing"
+  ],
+  "text": [
+    "Sobre Computação em Nuvem, quais dos pontos abaixo podem ser afirmados como VERDADEIRO?"
+  ],
+  "alternatives": [
+    {
+      "text": "É a tecnologia que permite o uso de serviços e recursos projetados para atenderem as necessidades de empresas, independente do porte, sem que as mesmas precisem se preocupar com estes quesitos.",
+      "feedback": "Alternativa correta!",
+      "correct": true,
+      "id": "6dcb0f54-cee3-487e-a3b9-5e1536fa1f49"
+    },
+    {
+      "text": "Eu preciso me preocupar com fornecimento de energia, redundância de links de internet, acesso físico ao servidores, depreciação dos servidores e investimento inicial para compra dos equipamentos.",
+      "feedback": "Utilizando computação em nuvem o cliente não precisa se preocupar com nenhum destes pontos citados pois se torna responsabilidade do provedor.",
+      "correct": false,
+      "id": "5143ac05-c94a-4caf-9bc6-23224070a64d"
+    },
+    {
+      "text": "Provedores são empresas que criam e mantém o serviço de Cloud Computing sob demanda. Existem diversos provedores, sendo estes os mais conhecidos e utilizados: AWS, Google Cloud e Microsoft Azure.",
+      "feedback": "Alternativa correta!",
+      "correct": true,
+      "id": "cfcdb2a2-5beb-4b24-bd26-db4feb86eabd"
+    },
+    {
+      "text": "Um conceito muito importante sobre computação em nuvem é o Modelo de Responsabilidade Compartilhada, onde: segurança DA nuvem é a segurança de responsabilidade do CLIENTE e segurança NA nuvem é responsabilidade da PROVEDOR.",
+      "feedback": "De acordo com o Modelo de Responsabilidade Compartilhada, a responsabilidade DA nuvem é do provedor e a responsabilidade NA nuvem é do cliente, conforme a imagem https://s3-sa-east-1.amazonaws.com/lcpi/4bf8ff21-e6a2-473a-a83c-8e9e7f9d6928.jpg ",
+      "correct": false,
+      "id": "f2a3c75b-a58e-47b0-a654-e2e321badc3a"
+    }
+  ],
+  "id": "414dd4d4-9d40-4655-ba13-b793536af7e6"
+}

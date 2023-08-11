@@ -1,0 +1,219 @@
+{
+  "Id": "01",
+  "SKU": "DS-PY-017",
+  "interpreter": 1,
+  "type": "EVEREST",
+  "language": "python",
+  "knowledgeArea": "Data Science",
+  "category": "Lógica de Programação",
+  "subCategory": "Listas",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "listas"
+  ],
+  "name": "Função zip",
+  "handler": "ultimoElementoLista2D",
+  "public_cases": [
+    {
+      "name": "entrada",
+      "input": [
+        [
+          192,
+          193,
+          194
+        ],
+        [
+          507,
+          508,
+          509
+        ],
+        [
+          526,
+          527,
+          528,
+          529
+        ],
+        [
+          560,
+          561
+        ],
+        [
+          635,
+          636,
+          637
+        ]
+      ],
+      "expected": [
+        194,
+        509,
+        529,
+        561,
+        637
+      ]
+    },
+    {
+      "name": "entrada",
+      "input": [
+        [
+          192,
+          193,
+          194,
+          195,
+          196,
+          197,
+          198,
+          199,
+          200
+        ],
+        [
+          507,
+          508,
+          509
+        ],
+        [
+          526,
+          527,
+          528,
+          529
+        ],
+        [
+          560,
+          561
+        ],
+        [
+          635,
+          636,
+          637
+        ]
+      ],
+      "expected": [
+        200,
+        509,
+        529,
+        561,
+        637
+      ]
+    },
+    {
+      "name": "entrada",
+      "input": [
+        [
+          507,
+          508,
+          509
+        ],
+        [
+          526,
+          527,
+          528,
+          529
+        ],
+        [
+          560,
+          561
+        ],
+        [
+          635,
+          636,
+          637
+        ]
+      ],
+      "expected": [
+        509,
+        529,
+        561,
+        637
+      ]
+    }
+  ],
+  "private_cases": [
+    {
+      "name": "entrada",
+      "input": [
+        [
+          507,
+          508,
+          509
+        ],
+        [
+          526,
+          527,
+          528,
+          529
+        ],
+        [
+          635,
+          636,
+          637
+        ]
+      ],
+      "expected": [
+        509,
+        529,
+        637
+      ]
+    },
+    {
+      "name": "entrada",
+      "input": [
+        [
+          20,
+          508,
+          27
+        ],
+        [
+          55,
+          55,
+          55,
+          55
+        ],
+        [
+          46,
+          636,
+          107
+        ]
+      ],
+      "expected": [
+        27,
+        55,
+        107
+      ]
+    },
+    {
+      "name": "entrada",
+      "input": [
+        [
+          200,
+          8,
+          27
+        ],
+        [
+          20,
+          508,
+          27
+        ],
+        [
+          55,
+          55,
+          55,
+          55
+        ],
+        [
+          46,
+          636,
+          107
+        ]
+      ],
+      "expected": [
+        27,
+        27,
+        55,
+        107
+      ]
+    }
+  ],
+  "templates": {
+    "python": "def ultimoElementoLista2D(listaA):\n\tpass"
+  },
+  "id": "1ee3543b-02c0-6564-9512-5b6fda08fe5f"
+}

@@ -1,0 +1,91 @@
+{
+  "SKU": "DS-PY-001",
+  "interpreter": 1,
+  "type": "GAP",
+  "language": "Python",
+  "knowledgeArea": "Data Science",
+  "category": "Lógica de Programação",
+  "subCategory": "Estruturas de Repetição",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "estruturas de repetição"
+  ],
+  "text": [
+    "Ajude um programador a imprimir todos os valores de uma lista:",
+    "nomes = ['Matheus', 'Carina', 'Benicio']",
+    "{{GAP}} nome in nomes:",
+    "print({{GAP}})"
+  ],
+  "alternatives": [
+    {
+      "value": "while",
+      "hint": "",
+      "id": "1ee3543b-02b1-6b01-51f0-bbf25a651745"
+    },
+    {
+      "value": "for",
+      "hint": "",
+      "id": "1ee3543b-02b1-6b02-a473-e2e35b656ced"
+    },
+    {
+      "value": "nomes",
+      "hint": "",
+      "id": "1ee3543b-02b1-6b03-0dc1-d0431a1a090a"
+    },
+    {
+      "value": "nome",
+      "hint": "",
+      "id": "1ee3543b-02b1-6b04-379b-1d4e939a7b9c"
+    },
+    {
+      "value": "loop",
+      "hint": "",
+      "id": "1ee3543b-02b1-6b05-1b5c-455bd5317964"
+    }
+  ],
+  "gaps": [
+    {
+      "expected": "for",
+      "feedbacks": [
+        {
+          "value": "while",
+          "text": "Para percorrer um iterável, utilizamos o `for`."
+        },
+        {
+          "value": "nomes",
+          "text": "Para percorrer um iterável, utilizamos o `for`."
+        },
+        {
+          "value": "nome",
+          "text": "Para percorrer um iterável, utilizamos o `for`."
+        },
+        {
+          "value": "loop",
+          "text": "Para percorrer um iterável, utilizamos o `for`."
+        }
+      ]
+    },
+    {
+      "expected": "nome",
+      "feedbacks": [
+        {
+          "value": "while",
+          "text": "Aqui, vamos exibir o valor da variável auxiliar usada para percorrer o iteràvel."
+        },
+        {
+          "value": "for",
+          "text": "Aqui, vamos exibir o valor da variável auxiliar usada para percorrer o iteràvel."
+        },
+        {
+          "value": "nomes",
+          "text": "Aqui, vamos exibir o valor da variável auxiliar usada para percorrer o iteràvel."
+        },
+        {
+          "value": "loop",
+          "text": "Aqui, vamos exibir o valor da variável auxiliar usada para percorrer o iteràvel."
+        }
+      ]
+    }
+  ],
+  "id": "1ee3543b-02b1-6b00-d202-11c5c0511899"
+}

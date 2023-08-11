@@ -1,0 +1,50 @@
+{
+  "SKU": "DS-PY-001",
+  "interpreter": 1,
+  "type": "GAP",
+  "language": "Python",
+  "knowledgeArea": "Data Science",
+  "category": "Lógica de Programação",
+  "subCategory": "Operadores Lógicos",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "operadores lógicos"
+  ],
+  "text": [
+    "Um cientista de dados precisa selecionar de sua base apenas os registros que representem maiores de 70 anos e menores de idade. Sendo x a idade do cliente cadastrado, qual operador lógico a seguir melhor completa a lacuna para atender esta demanda?",
+    "x >= 70 {{GAP}} x < 18"
+  ],
+  "alternatives": [
+    {
+      "value": "and",
+      "hint": "",
+      "id": "1ee3543b-02b6-692f-e82b-b645f1705c16"
+    },
+    {
+      "value": "or",
+      "hint": "",
+      "id": "1ee3543b-02b6-6930-ca9a-8a53fd2bbdd0"
+    },
+    {
+      "value": "not",
+      "hint": "",
+      "id": "1ee3543b-02b6-6931-0066-740c6f12b419"
+    }
+  ],
+  "gaps": [
+    {
+      "expected": "and",
+      "feedbacks": [
+        {
+          "value": "or",
+          "text": "Neste caso, precisamos do operador de conjunção `and`."
+        },
+        {
+          "value": "not",
+          "text": "Neste caso, precisamos do operador de conjunção `and`."
+        }
+      ]
+    }
+  ],
+  "id": "1ee3543b-02b6-692e-44db-a9ca52b77490"
+}

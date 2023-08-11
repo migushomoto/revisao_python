@@ -1,0 +1,49 @@
+{
+  "SKU": "DE-AW-009",
+  "interpreter": 1,
+  "type": "VF",
+  "language": "NA",
+  "category": "AWS",
+  "subCategory": "AWS Management Console",
+  "level": "Medium",
+  "tagsOrConcepts": [
+    "aws",
+    "aws management console"
+  ],
+  "text": [
+    "O AWS Management Console possibilita acesso à todos os serviços de forma gráfica. Para facilitar, no menu All Services a distribuição dos serviços é feita por finalidade. Quais das opções abaixo representa uma categoria existente?"
+  ],
+  "alternatives": [
+    {
+      "text": "Compute",
+      "feedback": "Correto! A categoria *Compute* existe e agrupa os serviços relacionados à computação, como por exemplo: EC2, Lambda, Elastic Beanstalk.",
+      "correct": true,
+      "id": "9abb3c0a-7a69-4458-9003-f29cec1fd5ec"
+    },
+    {
+      "text": "Disaster Recovey",
+      "feedback": "Alternativa incorreta. Disaster Recovery é a capacidade de resposta e recuperação em caso de um desastre - físico ou virtual. É possível definir planos de DR para ser atingido utilizando os serviços da AWS, porém o mesmo não é definido como uma categoria dentro da Console.",
+      "correct": false,
+      "id": "22b8ec7a-987e-4bd4-af30-a46d8f737260"
+    },
+    {
+      "text": "Containers",
+      "feedback": "Correto! A categoria *Containers* existe e agrupa os serviços relacionados à conteinerização, como por exemplo: ECR, ECS, EKS.",
+      "correct": true,
+      "id": "d6241690-8a71-4761-b848-6f6de4c828a7"
+    },
+    {
+      "text": "Storage",
+      "feedback": "Correto! A categoria *Storage* existe e agrupa os serviços relacionados à armazenamento, como por exemplo: S3, EFS, AWS Backup.",
+      "correct": true,
+      "id": "5c566a03-af22-40fd-b71c-f5cf67cb4772"
+    },
+    {
+      "text": "Database",
+      "feedback": "Correto! A categoria *Database* existe e agrupa os serviços relacionados à banco de dados, seja ele relacional ou não, como por exemplo: RDS, Elasticache, DynamoDB.",
+      "correct": true,
+      "id": "3eb88c90-07f1-49f6-b7b2-98c9d0055d74"
+    }
+  ],
+  "id": "44b64a3e-627f-4e1d-81dd-b78528aae39d"
+}

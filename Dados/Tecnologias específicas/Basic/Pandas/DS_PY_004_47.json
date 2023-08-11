@@ -1,0 +1,49 @@
+{
+  "SKU": "DS-PY-004",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "Python",
+  "knowledgeArea": "Data Science",
+  "category": "Técnicas de Programação I",
+  "subCategory": "Pandas",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "pandas"
+  ],
+  "text": [
+    "Qual é a função do pandas que retorna a quantidade de números distintos que tem determinada coluna do DataFrame?"
+  ],
+  "alternatives": [
+    {
+      "text": "nunique",
+      "feedback": "Exatamente!",
+      "correct": true,
+      "id": "1ee35433-9ae7-66cb-65c4-649dbd6022ea"
+    },
+    {
+      "text": "count",
+      "feedback": "Incorrreto, para isso usamos o método `nunique`.",
+      "correct": false,
+      "id": "1ee35433-9ae7-66cc-1905-6db97e238af6"
+    },
+    {
+      "text": "sum",
+      "feedback": "Incorrreto, para isso usamos o método `nunique`.",
+      "correct": false,
+      "id": "1ee35433-9ae7-66cd-c0ca-cec63864591e"
+    },
+    {
+      "text": "value_counts",
+      "feedback": "Incorrreto, para isso usamos o método `nunique`.",
+      "correct": false,
+      "id": "1ee35433-9ae7-66ce-060d-63fc5980758e"
+    },
+    {
+      "text": "max",
+      "feedback": "Incorrreto, para isso usamos o método `nunique`.",
+      "correct": false,
+      "id": "1ee35433-9ae7-66cf-395c-4746bbc3b9d3"
+    }
+  ],
+  "id": "1ee35433-9ae7-66ca-69a2-4af5a2b4111d"
+}

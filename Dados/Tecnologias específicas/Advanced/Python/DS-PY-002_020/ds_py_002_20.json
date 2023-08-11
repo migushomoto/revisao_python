@@ -1,0 +1,11 @@
+{
+  "SKU": "DS-PY-002",
+  "interpreter": 1,
+  "type": "EVEREST",
+  "language": "python",
+  "tagsOrConcepts": ["Herança", "Polimorfismo", "Duck Typing"],
+  "name": "Criando veículos",
+  "templates": {
+    "python": "class Loja:\n\tpass\n\nclass Roupa:\n\tpass\n\nclass Camiseta:\n\tpass\n\nclass Camisa:\n\tpass\n\nclass Calca:\n\tpass"
+  }
+}

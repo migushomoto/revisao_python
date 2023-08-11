@@ -1,0 +1,43 @@
+{
+  "SKU": "DE-AW-006",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "NA",
+  "category": "AWS",
+  "subCategory": "Route53",
+  "level": "Medium",
+  "tagsOrConcepts": [
+    "aws",
+    "aws route53"
+  ],
+  "text": [
+    "Referente a criação de um registro dentro de uma Zona de DNS, quais configurações precisam ser informadas de forma obrigatória para todos os tipos de Routing Policy?"
+  ],
+  "alternatives": [
+    {
+      "text": "Record Name, Record Type, Value, TTL (seconds), Routing Policy, Weight",
+      "feedback": "A configuração Weight só deve ser informada caso o Routing Policy seja Weighted.",
+      "correct": false,
+      "id": "6ea3e299-0c6d-47a8-bc2a-c1b43932c628"
+    },
+    {
+      "text": "Record Name, Record Type, Value, TTL (seconds), Routing Policy, Failover record type",
+      "feedback": "A configuração Failover record type só deve ser informada se a Routing Policy for failover.",
+      "correct": false,
+      "id": "c5c70d47-e90e-421e-ab2d-6703f0608b23"
+    },
+    {
+      "text": "Record Name, Record Type, Value, TTL (seconds), Routing Policy",
+      "feedback": "Alternativa correta",
+      "correct": true,
+      "id": "f1828e57-d447-432f-860c-52207bc1442c"
+    },
+    {
+      "text": "Record Name, Record Type, Value, TTL (seconds), Routing Policy, Location",
+      "feedback": "A configuração Location só deve ser informada se a Routing Policy for location.",
+      "correct": false,
+      "id": "f0f03a9a-9630-4d5e-8d78-e25413341181"
+    }
+  ],
+  "id": "74fb0a15-c0a1-4dbe-97c2-2aaba69296a5"
+}

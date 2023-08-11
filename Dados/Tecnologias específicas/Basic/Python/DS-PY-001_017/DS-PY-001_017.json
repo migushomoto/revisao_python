@@ -1,0 +1,91 @@
+{
+  "Id": "17",
+  "SKU": "DS-PY-001",
+  "interpreter": 1,
+  "type": "EVEREST",
+  "language": "python",
+  "knowledgeArea": "Data Science",
+  "category": "Lógica de Programação",
+  "subCategory": "Operadores",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "Condicionais",
+    "Operadores",
+    "Conversão"
+  ],
+  "name": "Soma dos Algarismos",
+  "handler": "soma_algarismos",
+  "public_cases": [
+    {
+      "name": "entrada",
+      "input": 231,
+      "expected": 6
+    },
+    {
+      "name": "entrada",
+      "input": 0,
+      "expected": -1
+    },
+    {
+      "name": "entrada",
+      "input": 1891,
+      "expected": 19
+    },
+    {
+      "name": "entrada",
+      "input": 1234567890,
+      "expected": 45
+    },
+    {
+      "name": "entrada",
+      "input": 1000,
+      "expected": 1
+    },
+    {
+      "name": "entrada",
+      "input": 1010101010,
+      "expected": 5
+    },
+    {
+      "name": "entrada",
+      "input": -2556,
+      "expected": -1
+    }
+  ],
+  "private_cases": [
+    {
+      "name": "entrada",
+      "input": 9821,
+      "expected": 20
+    },
+    {
+      "name": "entrada",
+      "input": -10,
+      "expected": -1
+    },
+    {
+      "name": "entrada",
+      "input": 10221,
+      "expected": 6
+    },
+    {
+      "name": "entrada",
+      "input": 1000000001,
+      "expected": 2
+    },
+    {
+      "name": "entrada",
+      "input": 1111111111,
+      "expected": 10
+    },
+    {
+      "name": "entrada",
+      "input": 0,
+      "expected": -1
+    }
+  ],
+  "templates": {
+    "python": "def soma_algarismos(numero):\n\t### Seu código aqui."
+  },
+  "id": "1ee3543b-02c2-6c70-ef54-99f17b96f028"
+}

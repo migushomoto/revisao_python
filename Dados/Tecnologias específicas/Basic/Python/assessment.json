@@ -1,0 +1,136 @@
+{
+    "id": "4f992dee-3819-4219-8e04-b4166deba937",
+    "name": "Assessment de Tecnologia Python Básico",
+    "technology": "Python",
+    "topics": [
+        "Entrada e Saída",
+        "Condicionais",
+        "Operadores Lógicos",
+        "Estruturas de Repetição",
+        "Strings",
+        "Listas",
+        "Dicionários"
+    ],
+    "questions": [
+        {
+            "path": "DS_PY_001_82.json",
+            "weight": 1
+        },
+        {
+            "path": "DS_PY_001_78.json",
+            "weight": 1
+        },
+        {
+            "path": "DS_PY_001_76.json",
+            "weight": 1
+        },
+        {
+            "path": "DS_PY_001_35.json",
+            "weight": 1
+        },
+        {
+            "path": "DS_PY_001_34.json",
+            "weight": 1
+        },
+        {
+            "path": "DS_PY_001_33.json",
+            "weight": 1
+        },
+        {
+            "path": "DS_PY_001_32.json",
+            "weight": 1
+        },
+        {
+            "path": "DS_PY_001_30.json",
+            "weight": 1
+        },
+        {
+            "path": "DS_PY_001_29.json",
+            "weight": 1
+        },
+        {
+            "path": "DS_PY_001_28.json",
+            "weight": 1
+        },
+        {
+            "path": "DS_PY_001_27.json",
+            "weight": 1
+        },
+        {
+            "path": "DS_PY_001_26.json",
+            "weight": 1
+        },
+        {
+            "path": "DS_PY_001_25.json",
+            "weight": 1
+        },
+        {
+            "path": "DS_PY_001_24.json",
+            "weight": 1
+        },
+        {
+            "path": "DS_PY_001_23.json",
+            "weight": 1
+        },
+        {
+            "path": "DS_PY_001_119.json",
+            "weight": 1
+        },
+        {
+            "path": "DS_PY_001_104.json",
+            "weight": 1
+        },
+        {
+            "path": "DS_PY_001_05.json",
+            "weight": 1
+        },
+        {
+            "path": "DS_PY_001_03.json",
+            "weight": 1
+        },
+        {
+            "path": "DS_PY_001_02.json",
+            "weight": 1
+        },
+        {
+            "path": "DS-PY-017_016",
+            "weight": 4
+        },
+        {
+            "path": "DS-PY-017_012",
+            "weight": 4
+        },
+        {
+            "path": "DS-PY-017_009",
+            "weight": 4
+        },
+        {
+            "path": "DS-PY-017_007",
+            "weight": 4
+        },
+        {
+            "path": "DS-PY-017_006",
+            "weight": 4
+        },
+        {
+            "path": "DS-PY-017_002",
+            "weight": 4
+        },
+        {
+            "path": "DS-PY-001_017",
+            "weight": 4
+        },
+        {
+            "path": "DS-PY-001_006",
+            "weight": 4
+        },
+        {
+            "path": "DS-PY-001_004",
+            "weight": 4
+        },
+        {
+            "path": "DS-PY-001_002",
+            "weight": 4
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+  "SKU": "BD-MS-003",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "NA",
+  "knowledgeArea": "Banco de Dados",
+  "category": "SQL Server",
+  "subCategory": "DQL",
+  "level": "Medium",
+  "tagsOrConcepts": [
+    "Busca de dados com SELECT",
+    "INTO"
+  ],
+  "text": [
+    "Nosso banco de dados é extremamente acessado e qualquer consulta a mais pode causar lentidão em processos não mapeados.",
+    "O time de vendas solicitou realizar algumas consultas em clientes que possuem idade superior a 25 anos para criar novas campanhas.",
+    "Ficou acordado entre os times que seria criada uma tabela temporária com as colunas: colunas solicitadas foram: Id, Nome, Cpf e Idade, para que as consultas fossem executadas.",
+    "Qual comando SQL deverá ser executado para criar a tabela temporária com os registros conforme solicitado?"
+  ],
+  "alternatives": [
+    {
+      "text": "SELECT Id, Nome, Cpf, Idade COPY TO Vendas_Cliente FROM Cliente WHERE Idade > 25",
+      "feedback": "COPY TO não é um comando SQL válido",
+      "correct": false,
+      "id": "b5986f9f-1e41-4b83-afed-a11a6c658aaf"
+    },
+    {
+      "text": "SELECT Id, Nome, Cpf, Idade INSERTING INTO Vendas_Cliente FROM Cliente WHERE Idade > 25",
+      "feedback": "INSERTING não é um comando SQL válido para este cenário.",
+      "correct": false,
+      "id": "d442b183-a881-4d9e-a625-320a3b16f5fd"
+    },
+    {
+      "text": "SELECT Id, Nome, Cpf, Idade INTO Vendas_Cliente FROM Cliente WHERE Idade > 25",
+      "feedback": "Parabéns! O comando SELECT Id, Nome, Cpf, Idade INTO Vendas_Cliente FROM Cliente WHERE Idade > 25 está correto!",
+      "correct": true,
+      "id": "0cdacc29-84e6-467b-acb6-42e68d783940"
+    },
+    {
+      "text": "SELECT Id, Nome, Cpf, Idade FROM Cliente WHERE Idade > 25 INSERTING INTO Vendas_Cliente",
+      "feedback": "O comando correto é SELECT Id, Nome, Cpf, Idade INTO Vendas_Cliente FROM Cliente WHERE Idade > 25",
+      "correct": false,
+      "id": "609e45c6-6f8c-4302-a4b3-a28fd160688e"
+    }
+  ],
+  "id": "71847b3f-557c-48c3-87bb-4d4e63a4ca41"
+}

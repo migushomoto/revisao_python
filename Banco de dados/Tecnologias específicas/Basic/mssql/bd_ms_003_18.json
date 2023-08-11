@@ -1,0 +1,49 @@
+{
+  "SKU": "BD-MS-003",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "NA",
+  "knowledgeArea": "Banco de Dados",
+  "category": "SQL Server",
+  "subCategory": "DQL",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "Busca de dados com SELECT",
+    "Modificadores de resultado",
+    "DISTINCT"
+  ],
+  "text": [
+    "Para um relatório no qual os vendedores irão entrar em contato com possíveis clientes, será necessário buscar informações de contatos presentes na base de dados da empresa em que trabalha.",
+    "Sabemos que existe uma tabela chamada 'Contato' na qual estão os dados que precisamos.",
+    "Vários vendedores inseriram registros nesta tabela, sem a validação de duplicidade, pontanto, podem haver registros duplicados.",
+    "Para esse relatório em específico, deveremos selecionar apenas o telefone do contato além de evitar telefones em duplicidade.",
+    "Qual comando SQL deverá ser executado para buscar os registros da maneira solicitada?"
+  ],
+  "alternatives": [
+    {
+      "text": "SELECT WITHOUT DUPLICITY Telefone FROM Contato",
+      "feedback": "WITHOUT DUPLICITY não é um comando SQL válido. O comando correto é SELECT DISTINCT Telefone FROM Contato",
+      "correct": false,
+      "id": "1d41f48d-a54c-4180-b4fb-0a221cc7ef19"
+    },
+    {
+      "text": "SELECT DISTINCT * FROM Contato",
+      "feedback": "Quando utilizamos o '*' são retornadas todas as colunas de uma tabela",
+      "correct": false,
+      "id": "1f19291c-2352-41d4-b7a6-c2840aaa39bb"
+    },
+    {
+      "text": "SELECT DISTINCT Telefone FROM Contato",
+      "feedback": "Parabéns! O comando correto é SELECT DISTINCT Telefone FROM Contato",
+      "correct": true,
+      "id": "4a2a9963-71d4-4218-a7ff-951b9f5b89a9"
+    },
+    {
+      "text": "SELECT Telefone FROM CONTATO DISTINCT BY Telefone",
+      "feedback": "DISTINCT BY não é um comando SQL válido. O comando correto é SELECT DISTINCT Telefone FROM Contato",
+      "correct": false,
+      "id": "21ac0ba4-97e7-4ac0-a6f7-e2046bb47fd5"
+    }
+  ],
+  "id": "8e6bb672-08d5-443d-9a29-0ca3638d0e3f"
+}

@@ -1,0 +1,45 @@
+{
+  "SKU": "BE-CS-005",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "csharp",
+  "knowledgeArea": "C#",
+  "category": "Técnicas de Programação",
+  "subCategory": "Coleções",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "collections"
+  ],
+  "text": [
+    "Sou uma estrutura de dados em que todas as operações e acessos ocorrem apenas em um dos extremos, no caso, no topo. ",
+    "Os elementos são removidos na ordem inversa à que foram inseridos de modo que o último elemento inserido é o primeiro a ser removido.",
+    "Quem sou eu?"
+  ],
+  "alternatives": [
+    {
+      "text": "Fila",
+      "feedback": "Essa é uma outra estrutura, onde o último elemento inserido é o último a ser retirado.",
+      "correct": false,
+      "id": "12c98284-6f2f-4dd4-b849-09cce0d83ea0"
+    },
+    {
+      "text": "Pilha",
+      "feedback": "Essa é a estrutura definida no enunciado.",
+      "correct": true,
+      "id": "d82851ad-bd2a-48bd-936f-be508a67882e"
+    },
+    {
+      "text": "Lista",
+      "feedback": "Essa é uma outra estrutura, onde podemos adicionar e remover elementos em qualquer posição.",
+      "correct": false,
+      "id": "2fdc517d-6e01-40cc-afe7-90abe855f8a5"
+    },
+    {
+      "text": "Dicionário",
+      "feedback": "Essa é uma outra estrutura onde identificamos o elemento por uma chave, seguindo o modelo chave/valor.",
+      "correct": false,
+      "id": "c00036f9-651b-4366-ba30-f5a05b72ff8c"
+    }
+  ],
+  "id": "e23c1b94-1037-4a93-95d6-8e3c0d32e1b4"
+}

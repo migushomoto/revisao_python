@@ -1,0 +1,44 @@
+{
+  "SKU": "DE-AW-006",
+  "interpreter": 1,
+  "type": "VF",
+  "language": "NA",
+  "knowledgeArea": "Cloud",
+  "category": "AWS",
+  "subCategory": "Well Architect Framework",
+  "level": "Medium",
+  "tagsOrConcepts": [
+    "aws",
+    "well-architect_framework"
+  ],
+  "text": [
+    "Qual(is) afirmação(es) abaixo é(são) correta(s) sobre o AWS Well-Architect Framework?"
+  ],
+  "alternatives": [
+    {
+      "text": "Ajuda a entender os prós e os contras das decisões que você toma ao criar sistemas na AWS.",
+      "feedback": "Alternativa correta!",
+      "correct": true,
+      "id": "245f945b-2578-41e1-89c2-255cfafb5d85"
+    },
+    {
+      "text": "O Well-Architect Framework é um guia de boas práticas de uso da AWS e oferece auxílio e orientações superficias sobre o uso de sua conta.",
+      "feedback": "Alternativa incorreta! Veja mais em [Introdução ao Well-Architect Framework](https://wa.aws.amazon.com/wat.introduction.wa-intro.pt_BR.html).",
+      "correct": false,
+      "id": "d774ddf9-a2e3-4dc1-9cf2-58e3ba637f46"
+    },
+    {
+      "text": "Ao usá-lo, você aprenderá as melhores práticas de arquitetura para projetar e operar sistemas confiáveis, seguros, eficientes e econômicos na nuvem. Fornece uma maneira de você avaliar suas arquiteturas em relação às melhores práticas e identificar áreas de melhoria, pois aborda orientações específicas em seis áreas conceituais que são definidas como os *Pilares do Well-Architected Framework*: Excelência Operacional, Segurança, Confiabilidade, Eficiência de Performance, Otimização de Custos e Sustentabilidade.",
+      "feedback": "Alternativa correta!",
+      "correct": true,
+      "id": "25a231d5-5511-4751-90c2-6f30c3962815"
+    },
+    {
+      "text": "Permite que clientes e parceiros revisem suas arquiteturas usando uma abordagem consistente e fornece orientações para melhorar os projetos ao longo do tempo.",
+      "feedback": "Alternativa correta!",
+      "correct": true,
+      "id": "c9e29b3e-a951-4bd0-90b0-20714e169f14"
+    }
+  ],
+  "id": "c4266f71-7170-4233-8631-3dccf55e1785"
+}

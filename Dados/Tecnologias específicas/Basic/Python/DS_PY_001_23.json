@@ -1,0 +1,49 @@
+{
+  "SKU": "DS-PY-001",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "Python",
+  "knowledgeArea": "Data Science",
+  "category": "Lógica de Programação",
+  "subCategory": "Operadores Lógicos",
+  "level": "Basic",
+  "tagsOrConcepts": [
+    "operadores lógicos"
+  ],
+  "text": [
+    "Um analista de dados precisa selecionar de uma base de alunos apenas os com idade igual ou superior a 15 anos e média igual ou superior a 6. Sendo x a idade do aluno e y sua média, qual das expressões a seguir melhor atende a necessidade?"
+  ],
+  "alternatives": [
+    {
+      "text": "x>15 and y>6",
+      "feedback": "Esta opção não implementa a lógica correta.",
+      "correct": false,
+      "id": "1ee3543b-02bb-6747-d558-2936485603be"
+    },
+    {
+      "text": "x==15 and y==6",
+      "feedback": "Esta opção não implementa a lógica correta.",
+      "correct": false,
+      "id": "1ee3543b-02bb-6748-9e06-5bd8bc4ec1ae"
+    },
+    {
+      "text": "x>=15 and y>=6",
+      "feedback": "Exatamente!",
+      "correct": true,
+      "id": "1ee3543b-02bb-6749-0f8e-9d3e95a1ee78"
+    },
+    {
+      "text": "x>=15 or y>=6",
+      "feedback": "Esta opção não implementa a lógica correta.",
+      "correct": false,
+      "id": "1ee3543b-02bb-674a-b7ce-426827fa6bbb"
+    },
+    {
+      "text": "x>15 or y>6",
+      "feedback": "Esta opção não implementa a lógica correta.",
+      "correct": false,
+      "id": "1ee3543b-02bb-674b-2c81-bc232901e6d6"
+    }
+  ],
+  "id": "1ee3543b-02bb-6746-f43d-e3d17a134cc1"
+}
