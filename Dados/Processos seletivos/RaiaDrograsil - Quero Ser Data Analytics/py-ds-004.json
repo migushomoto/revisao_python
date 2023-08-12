@@ -1,0 +1,41 @@
+{
+    "SKU": "PY-DS-004",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "tagsOrConcepts":["Lógica Básica"],
+    "UUID": "94857e9d-863c-4378-a912-227201a50004",
+    "id": "94857e9d-863c-4378-a912-227201a50004",
+    "knowledgeArea": "Dados",
+    "category": "Lógica de Programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "text":[ 
+        "Qual é o valor de \"x\" após a execução do seguinte trecho de código em Python?",
+        "---",
+        "x = 10",
+        "x = x + 5",
+        "---"],
+    "alternatives": [
+        {   "text": "10", 
+            "feedback":"O trecho de código inicia com \"x\" recebendo o valor 10. Em seguida, é realizada a operação \"x = x + 5\", que significa que o valor de \"x\" será atualizado para o valor atual de \"x\" somado a 5. Portanto, \"x\" passará a ter o valor 15.", 
+            "correct":false,
+            "id": "94857e9d-863c-4378-a912-227201a50014"
+        },
+        {   "text": "5", 
+            "feedback":"O trecho de código inicia com \"x\" recebendo o valor 10. Em seguida, é realizada a operação \"x = x + 5\", que significa que o valor de \"x\" será atualizado para o valor atual de \"x\" somado a 5. Portanto, \"x\" passará a ter o valor 15.", 
+            "correct":false,
+            "id": "94857e9d-853c-4378-a912-227201a50014"
+        },
+        {   "text": "15", 
+            "feedback":"O trecho de código inicia com \"x\" recebendo o valor 10. Em seguida, é realizada a operação \"x = x + 5\", que significa que o valor de \"x\" será atualizado para o valor atual de \"x\" somado a 5. Portanto, \"x\" passará a ter o valor 15.", 
+            "correct":true,
+            "id": "94857e9d-864c-4378-a912-227201a50014"
+        },
+        {   "text": "50", 
+            "feedback":"O trecho de código inicia com \"x\" recebendo o valor 10. Em seguida, é realizada a operação \"x = x + 5\", que significa que o valor de \"x\" será atualizado para o valor atual de \"x\" somado a 5. Portanto, \"x\" passará a ter o valor 15.", 
+            "correct":false,
+            "id": "94857e9d-863d-4378-a912-227201a50014"
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "SKU": "PY-DS-019",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "UUID": "94857e9d-863c-4378-a912-227201a50019",
+    "id": "94857e9d-863c-4378-a912-227201a50019",
+    "knowledgeArea": "Dados",
+    "category": "Lógica de Programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "tagsOrConcepts":["Operadores lógicos e estruturas condicionais"],
+    "text":[ 
+    "Quais dos operadores lógicos a seguir NÃO estão disponíveis em Python?"
+],
+    "alternatives": [
+        {   "text": "and", 
+            "feedback":"Em Python, os operadores lógicos \"and\", \"or\" e \"not\" estão disponíveis e são utilizados para combinar expressões booleanas e tomar decisões com base nos resultados.", 
+            "correct":false,
+            "id": "94857e9d-863c-4378-a912-227201a50014"
+        },
+        {   "text": "or", 
+            "feedback":"Em Python, os operadores lógicos \"and\", \"or\" e \"not\" estão disponíveis e são utilizados para combinar expressões booleanas e tomar decisões com base nos resultados.", 
+            "correct":false,
+            "id": "94857e9d-863c-4378-a912-227201a50015"
+        },
+        {   "text": "not", 
+            "feedback":"Em Python, os operadores lógicos \"and\", \"or\" e \"not\" estão disponíveis e são utilizados para combinar expressões booleanas e tomar decisões com base nos resultados.", 
+            "correct":false,
+            "id": "94857e9d-863c-4378-a912-227201a50016"
+        },
+        {   "text": "xor", 
+            "feedback":"O o operador lógico \"xor\" (ou exclusivo) não está disponível como um operador separado em Python.", 
+            "correct":true,
+            "id": "94857e9d-863c-4378-a912-227201a50017"
+        }
+    ]
+}

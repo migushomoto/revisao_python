@@ -1,0 +1,42 @@
+{
+    "SKU": "PY-DS-039",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "tagsOrConcepts":["Funções"],
+    "UUID": "94857e9d-863c-4378-a912-227201a50039",
+    "id": "94857e9d-863c-4378-a912-227201a50039",
+    "knowledgeArea": "Dados",
+    "category": "Lógica de Programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "text":[ 
+    "Qual é o resultado da seguinte função em Python?",
+    "---",
+    "def calcular(a, b):",
+    "'  return a + b, a - b",
+    "resultado = calcular(8, 3)",
+    "---"],
+    "alternatives": [
+        {   "text": "(8, 3)", 
+            "feedback":"A função \"calcular(a, b)\" retorna uma tupla contendo a soma e a subtração dos valores \"a\" e \"b\". Quando chamamos a função com os argumentos 8 e 3, o resultado será a tupla (11, 5).", 
+            "correct":false,
+            "id": "94857e9d-863c-4378-a912-227201a50014"
+        },
+        {   "text": "11", 
+            "feedback":"A função \"calcular(a, b)\" retorna uma tupla contendo a soma e a subtração dos valores \"a\" e \"b\". Quando chamamos a função com os argumentos 8 e 3, o resultado será a tupla (11, 5).", 
+            "correct":false,
+            "id": "94857e9d-863c-4378-a912-227201a50015"
+        },
+        {   "text": "(11, 5)", 
+            "feedback":"A função \"calcular(a, b)\" retorna uma tupla contendo a soma e a subtração dos valores \"a\" e \"b\". Quando chamamos a função com os argumentos 8 e 3, o resultado será a tupla (11, 5).", 
+            "correct":true,
+            "id": "94857e9d-863c-4378-a912-227201a50016"
+        },
+        {   "text": "5", 
+            "feedback":"A função \"calcular(a, b)\" retorna uma tupla contendo a soma e a subtração dos valores \"a\" e \"b\". Quando chamamos a função com os argumentos 8 e 3, o resultado será a tupla (11, 5).", 
+            "correct":false,
+            "id": "94857e9d-863c-4378-a912-227201a50017"
+        }
+    ]
+}

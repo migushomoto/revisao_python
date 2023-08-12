@@ -1,0 +1,37 @@
+{
+    "SKU": "PY-DS-003",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "tagsOrConcepts":["Lógica Básica"],
+    "UUID": "94857e9d-863c-4378-a912-227201a50003",
+    "id": "94857e9d-863c-4378-a912-227201a50003",
+    "knowledgeArea": "Dados",
+    "category": "Lógica de Programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "text":[ 
+    "Qual é o objetivo principal de utilizar loops (laços de repetição) em programação?"],
+    "alternatives": [
+        {   "text": "Permitir que a execução do programa comece.", 
+            "feedback":"Este não é o objetivo de estruturas de repetição.", 
+            "correct":false,
+            "id": "94857e9d-863c-4378-a912-227201a50014"
+        },
+        {   "text": "Armazenar valores em variáveis.", 
+            "feedback":"Este é o objetivo das váriaveis", 
+            "correct":false,
+            "id": "94857e9d-263c-4378-a912-227201a50014"
+        },
+        {   "text": "Comparar valores e executar condições.", 
+            "feedback":"Este é o objetivo das estruturas condicionais.", 
+            "correct":false,
+            "id": "94857e9d-863c-4378-a512-227201a50014"
+        },
+        {   "text": "Realizar tarefas repetidas vezes de forma controlada.", 
+            "feedback":"Loops são estruturas de controle utilizadas para repetir um bloco de código várias vezes até que uma condição seja atendida.", 
+            "correct":true,
+            "id": "94857e7d-863c-4378-a912-227201a50014"
+        }
+    ]
+}

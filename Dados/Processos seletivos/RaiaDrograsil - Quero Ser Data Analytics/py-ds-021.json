@@ -1,0 +1,37 @@
+{
+    "SKU": "PY-DS-021",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "tagsOrConcepts":["While e for"],
+    "UUID": "94857e9d-863c-4378-a912-227201a50021",
+    "id": "94857e9d-863c-4378-a912-227201a50021",
+    "knowledgeArea": "Dados",
+    "category": "Lógica de Programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "text":[ 
+    "O que é um loop infinito em programação e por que ele pode ser problemático?"],
+    "alternatives": [
+        {   "text": "Um loop infinito é um loop que executa um conjunto de instruções repetidamente, sem nunca parar. Isso pode ser problemático porque pode travar o programa, consumir toda a capacidade do processador e tornar o programa não responsivo.", 
+            "feedback":"Um loop infinito é uma estrutura de controle que não possui uma condição de parada ou cuja condição de parada nunca é alcançada, fazendo com que o loop seja executado repetidamente sem fim. Isso pode ser problemático porque o programa fica preso nesse loop e não consegue prosseguir para outras partes do código, levando a um travamento (crash) do programa. Além disso, o loop infinito pode consumir toda a capacidade do processador, tornando o programa não responsivo e prejudicando o desempenho do sistema.", 
+            "correct":true,
+            "id": "94857e9d-863c-4378-a912-227201a50014"
+        },
+        {   "text": "Um loop infinito é um loop que executa apenas uma vez. Isso pode ser problemático porque o programa não realiza todas as operações necessárias e, portanto, pode produzir resultados incorretos.", 
+            "feedback":"Um loop infinito é uma estrutura de controle que não possui uma condição de parada ou cuja condição de parada nunca é alcançada, fazendo com que o loop seja executado repetidamente sem fim. Isso pode ser problemático porque o programa fica preso nesse loop e não consegue prosseguir para outras partes do código, levando a um travamento (crash) do programa. Além disso, o loop infinito pode consumir toda a capacidade do processador, tornando o programa não responsivo e prejudicando o desempenho do sistema.", 
+            "correct":false,
+            "id": "94857e9d-863c-4378-a912-227201a50015"
+        },
+        {   "text": "Um loop infinito é um loop que possui uma condição de parada explícita. Isso pode ser problemático porque o programa pode entrar em um loop infinito sem nunca terminar a execução.", 
+            "feedback":"Um loop infinito é uma estrutura de controle que não possui uma condição de parada ou cuja condição de parada nunca é alcançada, fazendo com que o loop seja executado repetidamente sem fim. Isso pode ser problemático porque o programa fica preso nesse loop e não consegue prosseguir para outras partes do código, levando a um travamento (crash) do programa. Além disso, o loop infinito pode consumir toda a capacidade do processador, tornando o programa não responsivo e prejudicando o desempenho do sistema.", 
+            "correct":false,
+            "id": "94857e9d-863c-4378-a912-227201a50016"
+        },
+        {   "text": "Um loop infinito é um loop que não tem declaração de variáveis. Isso pode ser problemático porque as variáveis não serão inicializadas corretamente, levando a erros no programa.", 
+            "feedback":"Um loop infinito é uma estrutura de controle que não possui uma condição de parada ou cuja condição de parada nunca é alcançada, fazendo com que o loop seja executado repetidamente sem fim. Isso pode ser problemático porque o programa fica preso nesse loop e não consegue prosseguir para outras partes do código, levando a um travamento (crash) do programa. Além disso, o loop infinito pode consumir toda a capacidade do processador, tornando o programa não responsivo e prejudicando o desempenho do sistema.", 
+            "correct":false,
+            "id": "94857e9d-863c-4378-a912-227201a50017"
+        }
+    ]
+}

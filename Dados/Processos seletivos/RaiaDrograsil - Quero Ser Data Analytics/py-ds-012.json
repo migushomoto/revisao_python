@@ -1,0 +1,38 @@
+{
+    "SKU": "PY-DS-012",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "tagsOrConcepts":["Input/print e operadores aritméticos"],
+    "UUID": "94857e9d-863c-4378-a912-227201a50012",
+    "id": "94857e9d-863c-4378-a912-227201a50012",
+    "knowledgeArea": "Dados",
+    "category": "Lógica de Programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "text":[ 
+    "Qual das opções abaixo solicita que o usuário insira um número e armazene-o em uma variável chamada \"idade\"?"
+    ],
+    "alternatives": [
+        {   "text": "input(idade)", 
+            "feedback":"A sintaxe acima não armazena o valor digiado no variável idade.", 
+            "correct":false,
+            "id": "94857e9d-863c-4378-a912-227201a50014"
+        },
+        {   "text": "idade = input(\"Insira sua idade: \")", 
+            "feedback":" A opção b utiliza a função \"input()\" para solicitar que o usuário insira um valor e armazena esse valor na variável \"idade\". Além disso, a mensagem \"Insira sua idade: \" é exibida para orientar o usuário sobre o que deve ser feito.", 
+            "correct":true,
+            "id": "94857e9d-863c-4378-a912-227201a50015"
+        },
+        {   "text": "idade = read(\"Insira sua idade: \")", 
+            "feedback":"A função \"read\" não é usada para leitura de dados do teclado.", 
+            "correct":false,
+            "id": "94857e9d-863c-4378-a912-227201a50016"
+        },
+        {   "text": " input(\"idade\")", 
+            "feedback":"A função \"input()\" sempre retorna uma string (str), independentemente do que o usuário digitar. ", 
+            "correct":false,
+            "id": "94857e9d-863c-4378-a912-227201a50017"
+        }
+    ]
+}

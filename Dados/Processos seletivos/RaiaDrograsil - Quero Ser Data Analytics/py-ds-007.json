@@ -1,0 +1,38 @@
+{
+    "SKU": "PY-DS-007",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "tagsOrConcepts":["Tipos de dados, coerção, variáveis"],
+    "UUID": "94857e9d-863c-4378-a912-227201a50007",
+    "id": "94857e9d-863c-4378-a912-227201a50007",
+    "knowledgeArea": "Dados",
+    "category": "Lógica de Programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "text":[ 
+    "Qual das seguintes opções é a forma correta de declarar uma variável inteira em Python?"
+    ],
+    "alternatives": [
+        {   "text": "int x = 10", 
+            "feedback":"int x = 10 está incorreto, pois a palavra-chave \"int\" não é usada na declaração de variáveis em Python.", 
+            "correct":false,
+            "id": "94857e9d-863d-4378-a912-227201a50014"
+        },
+        {   "text": "x = 10", 
+            "feedback":"Em Python, a forma correta de declarar uma variável é apenas atribuindo um valor a ela.", 
+            "correct":true,
+            "id": "94857e9d-863e-4378-a912-227201a50014"
+        },
+        {   "text": "integer x = 10", 
+            "feedback":"integer x = 10 está incorreto, pois Python não requer a especificação do tipo de variável.", 
+            "correct":false,
+            "id": "94857e9d-863f-4378-a912-227201a50014"
+        },
+        {   "text": "x : int = 10", 
+            "feedback":"x : int = 10 está incorreto, pois a sintaxe correta é \"x = 10\".", 
+            "correct":false,
+            "id": "94857e9d-863e-4378-a912-227201a50015"
+        }
+    ]
+}

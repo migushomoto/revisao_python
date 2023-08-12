@@ -1,0 +1,39 @@
+{
+    "SKU": "PY-DS-015",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "tagsOrConcepts":["Input/print e operadores aritméticos"],
+    "UUID": "94857e9d-863c-4378-a912-227201a50015",
+    "id": "94857e9d-863c-4378-a912-227201a50015",
+    "knowledgeArea": "Dados",
+    "category": "Lógica de Programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "text":[ 
+    "Qual é o operação em Python poderia substituir a operação abaixo que calcula o resto da divisão?",
+    "resultado = int((25/4 - 25//4)*4)"
+    ],
+    "alternatives": [
+        {   "text": "resultado = 25%4", 
+            "feedback":"Em Python, o resto da divisão é representada pelo operador \"%\".", 
+            "correct":true,
+            "id": "94857e9d-863c-4378-a912-227201a50014"
+        },
+        {   "text": "resultado = 25__div__4", 
+            "feedback":"Operação resulta em erro: SyntaxError: invalid decimal literal.", 
+            "correct":false,
+            "id": "94857e9d-863c-4378-a912-227201a50015"
+        },
+        {   "text": "resultado = 25~4", 
+            "feedback":"Operação resulta em erro: SyntaxError: invalid decimal literal.", 
+            "correct":false,
+            "id": "94857e9d-863c-4378-a912-227201a50016"
+        },
+        {   "text": "resultado = 25**47", 
+            "feedback":"Operação é 25 elevado a quarta potência que resulta em 390625.", 
+            "correct":false,
+            "id": "94857e9d-863c-4378-a912-227201a50017"
+        }
+    ]
+}

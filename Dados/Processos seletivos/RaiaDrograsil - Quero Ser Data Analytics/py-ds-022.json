@@ -1,0 +1,44 @@
+{
+    "SKU": "PY-DS-022",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "tagsOrConcepts":["While e for"],
+    "UUID": "94857e9d-863c-4378-a912-227201a50022",
+    "id": "94857e9d-863c-4378-a912-227201a50022",
+    "knowledgeArea": "Dados",
+    "category": "Lógica de Programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "text":[ 
+    "Qual é o resultado da seguinte expressão em Python?",
+    "---",
+    "total = 0",
+    "for i in range(1, 10):",
+    "'  if i % 2 == 0:",
+    "'  '    total += i",
+    "resultado = total ** 2",
+    "---"],
+    "alternatives": [
+        {   "text": "400", 
+            "feedback":"O código utiliza um loop \"for\" para percorrer os números de 1 a 9 (o último valor não é inclusivo). Em cada iteração, o código verifica se o número \"i\" é par (ou seja, o resto da divisão por 2 é igual a 0). Se \"i\" for par, ele é adicionado ao valor de \"total\". Após o loop, o valor de \"total\" será 20. Em seguida, o código eleva \"total\" ao quadrado, resultando em 400.", 
+            "correct":true,
+            "id": "94857e9d-863c-4378-a912-227201a50014"
+        },
+        {   "text": "20", 
+            "feedback":"O código utiliza um loop \"for\" para percorrer os números de 1 a 9 (o último valor não é inclusivo). Em cada iteração, o código verifica se o número \"i\" é par (ou seja, o resto da divisão por 2 é igual a 0). Se \"i\" for par, ele é adicionado ao valor de \"total\". Após o loop, o valor de \"total\" será 20. Em seguida, o código eleva \"total\" ao quadrado, resultando em 400.", 
+            "correct":false,
+            "id": "94857e9d-863c-4378-a912-227201a50015"
+        },
+        {   "text": "100", 
+            "feedback":"O código utiliza um loop \"for\" para percorrer os números de 1 a 9 (o último valor não é inclusivo). Em cada iteração, o código verifica se o número \"i\" é par (ou seja, o resto da divisão por 2 é igual a 0). Se \"i\" for par, ele é adicionado ao valor de \"total\". Após o loop, o valor de \"total\" será 20. Em seguida, o código eleva \"total\" ao quadrado, resultando em 400.", 
+            "correct":false,
+            "id": "94857e9d-863c-4378-a912-227201a50016"
+        },
+        {   "text": "360", 
+            "feedback":"O código utiliza um loop \"for\" para percorrer os números de 1 a 9 (o último valor não é inclusivo). Em cada iteração, o código verifica se o número \"i\" é par (ou seja, o resto da divisão por 2 é igual a 0). Se \"i\" for par, ele é adicionado ao valor de \"total\". Após o loop, o valor de \"total\" será 20. Em seguida, o código eleva \"total\" ao quadrado, resultando em 400.", 
+            "correct":false,
+            "id": "94857e9d-863c-4378-a912-227201a50017"
+        }
+    ]
+}

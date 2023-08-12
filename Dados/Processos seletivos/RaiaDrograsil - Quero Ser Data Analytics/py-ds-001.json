@@ -1,0 +1,38 @@
+{
+    "SKU": "PY-DS-001",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "tagsOrConcepts":["Lógica Básica"],
+    "UUID": "94857e9d-863c-4378-a912-227201a50001",
+    "id": "94857e9d-863c-4378-a912-227201a50001",
+    "knowledgeArea": "Dados",
+    "category": "Lógica de Programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "text":[ 
+    "Qual dos seguintes símbolos é utilizado para representar igualdade em lógica de programação?"
+    ],
+    "alternatives": [
+        {   "text": "==", 
+            "feedback":"Em lógica de programação, o operador de igualdade é representado por \"==\" (dois sinais de igual).", 
+            "correct":true,
+            "id": "94857e9d-863c-4378-a912-227201a50014"
+        },
+        {   "text": "=", 
+            "feedback":"Ele é utilizado para verificar se dois valores são iguais. O símbolo \"=\" é utilizado para atribuição de valores a variáveis.", 
+            "correct":false,
+            "id": "94857e9d-863c-4378-a912-227201a50015"
+        },
+        {   "text": "!=", 
+            "feedback":"É utilizado para representar \"diferente de\".", 
+            "correct":false,
+            "id": "94857e9d-863c-4378-a912-227201a50016"
+        },
+        {   "text": "<", 
+            "feedback":"É utilizado para representar \"menor que\".", 
+            "correct":false,
+            "id": "94857e9d-863c-4378-a912-227201a50017"
+        }
+    ]
+}

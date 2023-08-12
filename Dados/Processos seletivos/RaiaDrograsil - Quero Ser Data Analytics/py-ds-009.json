@@ -1,0 +1,38 @@
+{
+    "SKU": "PY-DS-009",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "tagsOrConcepts":["Tipos de dados, coerção, variáveis"],
+    "UUID": "94857e9d-863c-4378-a912-227201a50009",
+    "id": "94857e9d-863c-4378-a912-227201a50009",
+    "knowledgeArea": "Dados",
+    "category": "Lógica de Programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "text":[ 
+    "O que é coerção de tipos em Python?"
+    ],
+    "alternatives": [
+        {   "text": "Uma declaração de variável antes de utilizá-la.", 
+            "feedback":"Não é necessária a declaração prévia das váriaveis em Python.", 
+            "correct":false,
+            "id": "94857e9d-863c-4378-a912-227201a50014"
+        },
+        {   "text": "A conversão implícita de um tipo de dado para outro.", 
+            "feedback":"Esta é a opção correta que defini o conceito de coerção de tipos em Python.", 
+            "correct":true,
+            "id": "94867e9d-863c-4378-a912-227201a50014"
+        },
+        {   "text": "A verificação de tipos em tempo de compilação.", 
+            "feedback":"Este conceito refere-se a tipagem dinâmica.", 
+            "correct":false,
+            "id": "94877e9d-863c-4378-a912-227201a50014"
+        },
+        {   "text": "A criação de variáveis sem a necessidade de especificar o tipo.", 
+            "feedback":"Este conceito refere-se a tipagem dinâmica.", 
+            "correct":false,
+            "id": "94887e9d-863c-4378-a912-227201a50014"
+        }
+    ]
+}

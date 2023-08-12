@@ -1,0 +1,44 @@
+{
+    "SKU": "PY-DS-018",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "UUID": "94857e9d-863c-4378-a912-227201a50018",
+    "id": "94857e9d-863c-4378-a912-227201a50018",
+    "knowledgeArea": "Dados",
+    "category": "Lógica de Programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "tagsOrConcepts":["Operadores lógicos e estruturas condicionais"],
+    "text":[ 
+    "Qual é o valor de \"idade_categoria\" após a execução do seguinte trecho de código em Python?",
+    "----",
+    "idade = 25",
+    "if idade < 18: idade_categoria = \"menor de idade\"",
+    "elif idade >= 18 and idade < 60: idade_categoria = \"adulto\"",
+    "else: idade_categoria = \"idoso\"",
+    "----"
+],
+    "alternatives": [
+        {   "text": "\"menor de idade\"", 
+            "feedback":"O código utiliza estruturas condicionais para definir a categoria da idade com base na variável \"idade\". Neste caso, como a idade é 25, a condição \"idade >= 18 and idade < 60\" é atendida, fazendo com que a variável \"idade_categoria\" receba o valor \"adulto\".", 
+            "correct":false,
+            "id": "94857e9d-863c-4378-a912-227201a50014"
+        },
+        {   "text": "\"adulto\"", 
+            "feedback":"O código utiliza estruturas condicionais para definir a categoria da idade com base na variável \"idade\". Neste caso, como a idade é 25, a condição \"idade >= 18 and idade < 60\" é atendida, fazendo com que a variável \"idade_categoria\" receba o valor \"adulto\".", 
+            "correct":true,
+            "id": "94857e9d-863c-4378-a912-227201a50015"
+        },
+        {   "text": "\"idoso\"", 
+            "feedback":"O código utiliza estruturas condicionais para definir a categoria da idade com base na variável \"idade\". Neste caso, como a idade é 25, a condição \"idade >= 18 and idade < 60\" é atendida, fazendo com que a variável \"idade_categoria\" receba o valor \"adulto\".", 
+            "correct":false,
+            "id": "94857e9d-863c-4378-a912-227201a50016"
+        },
+        {   "text": "\"\"", 
+            "feedback":"O código utiliza estruturas condicionais para definir a categoria da idade com base na variável \"idade\". Neste caso, como a idade é 25, a condição \"idade >= 18 and idade < 60\" é atendida, fazendo com que a variável \"idade_categoria\" receba o valor \"adulto\".", 
+            "correct":false,
+            "id": "94857e9d-863c-4378-a912-227201a50017"
+        }
+    ]
+}

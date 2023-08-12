@@ -1,0 +1,40 @@
+{
+    "SKU": "PY-DS-017",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "tagsOrConcepts":["Operadores lógicos e estruturas condicionais"],
+    "UUID": "94857e9d-863c-4378-a912-227201a50017",
+    "id": "94857e9d-863c-4378-a912-227201a50017",
+    "knowledgeArea": "Dados",
+    "category": "Lógica de Programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "text":[ 
+    "Qual é o valor da váriavel resultado após a execução da seguinte expressão lógica em Python?",
+    "---",
+    "resultado = (10 > 5) and (7 < 3)",
+    "---"],
+    "alternatives": [
+        {   "text": "True", 
+            "feedback":"A expressão lógica avalia duas condições: se 10 é maior que 5 (verdadeiro) e se 7 é menor que 3 (falso). O operador \"and\" retorna True apenas se ambas as condições forem verdadeiras. Como uma das condições é falsa, o resultado da expressão é False.", 
+            "correct":false,
+            "id": "94857e9d-863c-4378-a912-227201a50014"
+        },
+        {   "text": "1", 
+            "feedback":"Ainda que 1 seja considerado verdadeiro ele não representa um resultado lógico em Python.", 
+            "correct":false,
+            "id": "94857e9d-863c-4378-a912-227201a50015"
+        },
+        {   "text": "0", 
+            "feedback":"Ainda que 0 seja considerado verdadeiro ele não representa um resultado lógico em Python.", 
+            "correct":false,
+            "id": "94857e9d-863c-4378-a912-227201a50016"
+        },
+        {   "text": "False", 
+            "feedback":"A expressão lógica avalia duas condições: se 10 é maior que 5 (verdadeiro) e se 7 é menor que 3 (falso). O operador \"and\" retorna True apenas se ambas as condições forem verdadeiras. Como uma das condições é falsa, o resultado da expressão é False.", 
+            "correct":true,
+            "id": "94857e9d-863c-4378-a912-227201a50017"
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "SKU": "PY-DS-005",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "tagsOrConcepts":["Lógica Básica"],
+    "UUID": "94857e9d-863c-4378-a912-227201a50005",
+    "id": "94857e9d-863c-4378-a912-227201a50005",
+    "knowledgeArea": "Dados",
+    "category": "Lógica de Programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "text":[ 
+        "Considerando o seguinte algoritmo:",
+        "--- ",
+        "Passo 1: Ler a quantidade de maçãs compradas pelo usuário.",
+        "Passo 2: Ler a quantidade de laranjas compradas pelo usuário.",
+        "Passo 3: Calcular o total de frutas compradas somando a quantidade de maçãs e laranjas.",
+        "Passo 4: Verificar se o total de frutas é maior que 10.",
+        "Passo 4.1: Se for verdadeiro, exibir a mensagem \"Você comprou muitas frutas!\"",
+        "Passo 4.2: Se for falso, exibir a mensagem \"Você comprou frutas suficientes.\"",
+        "Passo 5: Calcular o valor total da compra multiplicando o total de frutas pelo preço unitário (R$ 2,50).",
+        "Passo 6: Exibir o valor total da compra.",
+        "--- ",
+        "E considerando que o usuário comprou 6 maçãs e 4 laranjas, qual será a saída esperada ao final da execução do algoritmo?"],
+    "alternatives": [
+        {   "text": "Você comprou muitas frutas! Valor total da compra: R$ 25,00", 
+            "feedback":"Ao considerar que o usuário comprou 6 maçãs e 4 laranjas, o total de frutas compradas será 6 + 4 = 10. Como o total de frutas é igual a 10, o algoritmo exibirá a mensagem \"Você comprou frutas suficientes.\" Em seguida, o valor total da compra será calculado multiplicando o total de frutas pelo preço unitário (10 * R$ 2,50), resultando em R$ 25,00.", 
+            "correct":false,
+            "id": "94857e9d-863c-4379-a912-227201a50014"
+        },
+        {   "text": "Você comprou frutas suficientes. Valor total da compra: R$ 25,00", 
+            "feedback":"Ao considerar que o usuário comprou 6 maçãs e 4 laranjas, o total de frutas compradas será 6 + 4 = 10. Como o total de frutas é igual a 10, o algoritmo exibirá a mensagem \"Você comprou frutas suficientes.\" Em seguida, o valor total da compra será calculado multiplicando o total de frutas pelo preço unitário (10 * R$ 2,50), resultando em R$ 25,00.", 
+            "correct":true,
+            "id": "94857e9d-863c-5378-a912-227201a50014"
+        },
+        {   "text": "Você comprou muitas frutas! Valor total da compra: R$ 35,00", 
+            "feedback":"Ao considerar que o usuário comprou 6 maçãs e 4 laranjas, o total de frutas compradas será 6 + 4 = 10. Como o total de frutas é igual a 10, o algoritmo exibirá a mensagem \"Você comprou frutas suficientes.\" Em seguida, o valor total da compra será calculado multiplicando o total de frutas pelo preço unitário (10 * R$ 2,50), resultando em R$ 25,00.", 
+            "correct":false,
+            "id": "94857e9d-863c-4378-a012-227201a50014"
+        },
+        {   "text": "Você comprou frutas suficientes. Valor total da compra: R$ 35,00", 
+            "feedback":"Ao considerar que o usuário comprou 6 maçãs e 4 laranjas, o total de frutas compradas será 6 + 4 = 10. Como o total de frutas é igual a 10, o algoritmo exibirá a mensagem \"Você comprou frutas suficientes.\" Em seguida, o valor total da compra será calculado multiplicando o total de frutas pelo preço unitário (10 * R$ 2,50), resultando em R$ 25,00.", 
+            "correct":false,
+            "id": "94857e9d-863c-4378-a913-227201a50014"
+        }
+    ]
+}

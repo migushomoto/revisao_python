@@ -1,0 +1,37 @@
+{
+    "SKU": "PY-DS-032",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "tagsOrConcepts":["Listas: operações e métodos"],
+    "UUID": "94857e9d-863c-4378-a912-227201a50032",
+    "id": "94857e9d-863c-4378-a912-227201a50032",
+    "knowledgeArea": "Dados",
+    "category": "Lógica de Programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "text":[ 
+    "Qual é o método correto para adicionar um elemento no final de uma lista em Python?"],
+    "alternatives": [
+        {   "text": "add()", 
+            "feedback":"O método não existe.", 
+            "correct":false,
+            "id": "94857e9d-863c-4378-a912-227201a50014"
+        },
+        {   "text": "insert()", 
+            "feedback":"O método \"insert()\" é utilizado para inserir um item em uma determinada posição.", 
+            "correct":false,
+            "id": "94857e9d-863c-4378-a912-227201a50015"
+        },
+        {   "text": "append()", 
+            "feedback":"O método \"append()\" é utilizado para adicionar um elemento no final de uma lista em Python.", 
+            "correct":true,
+            "id": "94857e9d-863c-4378-a912-227201a50016"
+        },
+        {   "text": "extend()", 
+            "feedback":"O método \"extend()\" é utilizado para acrescentar elementos de outra lista à lista atual.", 
+            "correct":false,
+            "id": "94857e9d-863c-4378-a912-227201a50017"
+        }
+    ]
+}

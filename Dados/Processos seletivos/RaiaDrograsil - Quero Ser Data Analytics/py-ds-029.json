@@ -1,0 +1,37 @@
+{
+    "SKU": "PY-DS-029",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "tagsOrConcepts":["Strings: operações e métodos"],
+    "UUID": "94857e9d-863c-4378-a912-227201a50029",
+    "id": "94857e9d-863c-4378-a912-227201a50029",
+    "knowledgeArea": "Dados",
+    "category": "Lógica de Programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "text":[ 
+    "Qual das opções abaixo apresenta o método correto para verificar se uma string começa com determinado prefixo em Python?"],
+    "alternatives": [
+        {   "text": "str.endswith()", 
+            "feedback":"O método \"str.endswith()\" é utilizado para verificar se uma string termina com um determinado sufixo. Ele retorna True se a string termina com o prefixo especificado e False caso contrário.", 
+            "correct":false,
+            "id": "94857e9d-863c-4378-a912-227201a50014"
+        },
+        {   "text": "str.contains()", 
+            "feedback":"O método \"str.contains()\" é utilizado para verificar se uma string comtém com um determinado termo. Ele retorna True se a string contém o termo especificado e False caso contrário.", 
+            "correct":false,
+            "id": "94857e9d-863c-4378-a912-227201a50015"
+        },
+        {   "text": "str.startswith()", 
+            "feedback":"O método \"str.startswith()\" é utilizado para verificar se uma string começa com um determinado prefixo. Ele retorna True se a string começa com o prefixo especificado e False caso contrário.", 
+            "correct":true,
+            "id": "94857e9d-863c-4378-a912-227201a50016"
+        },
+        {   "text": "str.find()", 
+            "feedback":"O método \"str.find()\" localiza a primeira ocorrência do valor especificado. O método \"str.find()\" retornará -1 se o valor não for encontrado.", 
+            "correct":false,
+            "id": "94857e9d-863c-4378-a912-227201a50017"
+        }
+    ]
+}

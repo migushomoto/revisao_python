@@ -1,0 +1,37 @@
+{
+    "SKU": "PY-DS-026",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "tagsOrConcepts":["Strings: operações e métodos"],
+    "UUID": "94857e9d-863c-4378-a912-227201a50026",
+    "id": "94857e9d-863c-4378-a912-227201a50026",
+    "knowledgeArea": "Dados",
+    "category": "Lógica de Programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "text":[ 
+    "Qual das opções abaixo apresenta o método correto para converter uma string em letras minúsculas em Python?"],
+    "alternatives": [
+        {   "text": "str.lower()", 
+            "feedback":"O método \"str.lower()\" é utilizado para converter todas as letras de uma string em minúsculas. Por exemplo, se tivermos a string \"Hello World\", o uso de \"str.lower()\" resultará em \"hello world\".", 
+            "correct":true,
+            "id": "94857e9d-863c-4378-a912-227201a50014"
+        },
+        {   "text": "str.upper()", 
+            "feedback":"O método \"str.lower()\" é utilizado para converter todas as letras de uma string em maiúscula.", 
+            "correct":false,
+            "id": "94857e9d-863c-4378-a912-227201a50016"
+        },
+        {   "text": "str.capitalize()", 
+            "feedback":"O método \"str.capitalize()\" retorna uma cadeia de caracteres em que o primeiro caractere é maiúsculo e o restante é minúsculo.", 
+            "correct":false,
+            "id": "94857e9d-863c-4378-a912-227201a50017"
+        },
+        {   "text": "str.title()", 
+            "feedback":"O método \"str.title()\" retorna uma cadeia de caracteres em que o primeiro caractere em cada palavra é maiúsculo.", 
+            "correct":false,
+            "id": "94857e9d-863c-4378-a912-227201a50018"
+        }
+    ]
+}

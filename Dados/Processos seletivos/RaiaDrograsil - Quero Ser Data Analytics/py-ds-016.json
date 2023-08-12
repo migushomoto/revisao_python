@@ -1,0 +1,37 @@
+{
+    "SKU": "PY-DS-016",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "UUID": "94857e9d-863c-4378-a912-227201a50016",
+    "id": "94857e9d-863c-4378-a912-227201a50016",
+    "knowledgeArea": "Dados",
+    "category": "Lógica de Programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "tagsOrConcepts":["Operadores lógicos e estruturas condicionais"],
+    "text":[ 
+    "O que são operadores lógicos em programação e como eles são utilizados?"],
+    "alternatives": [
+        {   "text": "Operadores lógicos são funções pré-definidas em linguagens de programação que permitem realizar cálculos matemáticos. Eles são utilizados para realizar operações como soma, subtração, multiplicação, e divisão de números.", 
+            "feedback":"Esta definição se refere a operadores aritméticos", 
+            "correct":false,
+            "id": "94857e9d-863c-4378-a912-227201a50014"
+        },
+        {   "text": " Operadores lógicos são símbolos ou palavras-chave que realizam operações lógicas, tais como negação, conjunção e disjunção, em expressões booleanas. Eles são utilizados para combinar ou comparar valores booleanos e tomar decisões com base nos resultados dessas operações.", 
+            "feedback":"Operadores lógicos são símbolos ou palavras-chave em programação que permitem realizar operações lógicas em expressões booleanas (que podem ser verdadeiras ou falsas).", 
+            "correct":true,
+            "id": "94857e9d-863c-4378-a912-227201a50015"
+        },
+        {   "text": "Operadores lógicos são elementos gráficos utilizados em interfaces de usuário para melhorar a experiência do usuário em um programa. Eles são utilizados para criar botões, caixas de seleção e outros controles interativos.", 
+            "feedback":"Operadores lógicos são símbolos ou palavras-chave em programação que permitem realizar operações lógicas em expressões booleanas.", 
+            "correct":false,
+            "id": "94857e9d-863c-4378-a912-227201a50016"
+        },
+        {   "text": "Operadores lógicos são blocos de código utilizados para agrupar instruções em um programa. Eles são utilizados para melhorar a legibilidade e organização do código.", 
+            "feedback":"Operadores lógicos são símbolos ou palavras-chave em programação que permitem realizar operações lógicas em expressões booleanas.", 
+            "correct":false,
+            "id": "94857e9d-863c-4378-a912-227201a50017"
+        }
+    ]
+}

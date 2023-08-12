@@ -1,0 +1,37 @@
+{
+    "SKU": "PY-DS-036",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "tagsOrConcepts":["Funções"],
+    "UUID": "94857e9d-863c-4378-a912-227201a50036",
+    "id": "94857e9d-863c-4378-a912-227201a50036",
+    "knowledgeArea": "Dados",
+    "category": "Lógica de Programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "text":[ 
+    "Qual é a forma correta de definir uma função em Python?"],
+    "alternatives": [
+        {   "text": "função minha_funcao():", 
+            "feedback":"O uso de \"def\" é necessário, seguido pelo nome da função e parênteses.", 
+            "correct":false,
+            "id": "94857e9d-863c-4378-a912-227201a50014"
+        },
+        {   "text": "def minha_funcao", 
+            "feedback":"O uso de \"def\" é necessário, seguido pelo nome da função e parênteses.", 
+            "correct":false,
+            "id": "94857e9d-863c-4378-a912-227201a50015"
+        },
+        {   "text": "define minha_funcao():", 
+            "feedback":"O uso de \"def\" é necessário, seguido pelo nome da função e parênteses.", 
+            "correct":false,
+            "id": "94857e9d-863c-4378-a912-227201a50016"
+        },
+        {   "text": "def minha_funcao():", 
+            "feedback":"O uso de \"def\" é necessário, seguido pelo nome da função e parênteses.", 
+            "correct":true,
+            "id": "94857e9d-863c-4378-a912-227201a50017"
+        }
+    ]
+}

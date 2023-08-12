@@ -1,0 +1,41 @@
+{
+    "SKU": "PY-DS-028",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "tagsOrConcepts":["Strings: operações e métodos"],
+    "UUID": "94857e9d-863c-4378-a912-227201a50028",
+    "id": "94857e9d-863c-4378-a912-227201a50028",
+    "knowledgeArea": "Dados",
+    "category": "Lógica de Programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "text":[ 
+    "Qual é o resultado da seguinte expressão em Python?",
+    "---",
+    "texto = \"Python é uma linguagem de programação\"",
+    "resultado = texto.replace(\"Python\", \"Java\")",
+    "---"],
+    "alternatives": [
+        {   "text": "\"Java é uma linguagem de programação\"", 
+            "feedback":"O método \"replace()\" é utilizado para substituir todas as ocorrências de uma substring por outra substring em uma string. Neste caso, a substring \"Python\" é substituída por \"Java\", resultando na string \"Java é uma linguagem de programação\".", 
+            "correct":true,
+            "id": "94857e9d-863c-4378-a912-227201a50014"
+        },
+        {   "text": "\"Python é uma linguagem de programação\"", 
+            "feedback":"O método \"replace()\" é utilizado para substituir todas as ocorrências de uma substring por outra substring em uma string. Neste caso, a substring \"Python\" é substituída por \"Java\", resultando na string \"Java é uma linguagem de programação\".", 
+            "correct":false,
+            "id": "94857e9d-863c-4378-a912-227201a50015"
+        },
+        {   "text": "\"Python é uma linguagem de Java\"", 
+            "feedback":"O método \"replace()\" é utilizado para substituir todas as ocorrências de uma substring por outra substring em uma string. Neste caso, a substring \"Python\" é substituída por \"Java\", resultando na string \"Java é uma linguagem de programação\".", 
+            "correct":false,
+            "id": "94857e9d-863c-4378-a912-227201a50016"
+        },
+        {   "text": "\"Java é uma linguagem de Java\"", 
+            "feedback":"O método \"replace()\" é utilizado para substituir todas as ocorrências de uma substring por outra substring em uma string. Neste caso, a substring \"Python\" é substituída por \"Java\", resultando na string \"Java é uma linguagem de programação\".", 
+            "correct":false,
+            "id": "94857e9d-863c-4378-a912-227201a50017"
+        }
+    ]
+}

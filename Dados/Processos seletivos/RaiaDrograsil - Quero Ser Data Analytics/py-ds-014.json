@@ -1,0 +1,38 @@
+{
+    "SKU": "PY-DS-014",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "UUID": "94857e9d-863c-4378-a912-227201a50014",
+    "id": "94857e9d-863c-4378-a912-227201a50014",
+    "knowledgeArea": "Dados",
+    "category": "Lógica de Programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "tagsOrConcepts":["Input/print e operadores aritméticos"],
+    "text":[ 
+    "Qual das opções abaixo exibe a mensagem \"Olá, mundo!\" na tela?"
+    ],
+    "alternatives": [
+        {   "text": "print(\"Olá, mundo!\")", 
+            "feedback":"A função \"print()\" é utilizada para exibir informações na saída padrão (tela).", 
+            "correct":true,
+            "id": "94857e9d-863c-4378-a912-227201a50014"
+        },
+        {   "text": "input(\"Olá, mundo!\")", 
+            "feedback":"A função \"input()\" recebe informações do teclado. A função \"print()\" é utilizada para exibir informações na saída padrão (tela).", 
+            "correct":false,
+            "id": "94857e9d-863c-4378-a912-227201a50015"
+        },
+        {   "text": "write(\"Olá, mundo!\")", 
+            "feedback":"A função \"print()\" é utilizada para exibir informações na saída padrão (tela).", 
+            "correct":false,
+            "id": "94857e9d-863c-4378-a912-227201a50017"
+        },
+        {   "text": "read(\"Olá, mundo!\")", 
+            "feedback":"A função \"print()\" é utilizada para exibir informações na saída padrão (tela).", 
+            "correct":false,
+            "id": "94857e9d-863c-4378-a912-227201a50018"
+        }
+    ]
+}

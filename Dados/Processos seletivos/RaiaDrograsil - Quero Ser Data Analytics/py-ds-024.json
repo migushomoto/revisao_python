@@ -1,0 +1,44 @@
+{
+    "SKU": "PY-DS-024",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "tagsOrConcepts":["While e for"],
+    "UUID": "94857e9d-863c-4378-a912-227201a50024",
+    "id": "94857e9d-863c-4378-a912-227201a50024",
+    "knowledgeArea": "Dados",
+    "category": "Lógica de Programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "text":[ 
+    "Qual é o valor de \"resultado\" após a execução do seguinte trecho de código em Python?",
+    "---",
+    "i = 5",
+    "resultado = 1",
+    "while i > 2:",
+    "'  resultado *= i",
+    "'  x += 1",
+    "---"],
+    "alternatives": [
+        {   "text": "13", 
+            "feedback":"O valor de parada nunca será atingido, pois o valor de \"x\" nunca é decrementado dentro do \"while\".", 
+            "correct":false,
+            "id": "94857e9d-863c-4378-a912-227201a50014"
+        },
+        {   "text": "120", 
+            "feedback":"O valor de parada nunca será atingido, pois o valor de \"x\" nunca é decrementado dentro do \"while\".", 
+            "correct":false,
+            "id": "94857e9d-863c-4378-a912-227201a50015"
+        },
+        {   "text": "60", 
+            "feedback":"O valor de parada nunca será atingido, pois o valor de \"x\" nunca é decrementado dentro do \"while\".", 
+            "correct":false,
+            "id": "94857e9d-863c-4378-a912-227201a50016"
+        },
+        {   "text": "O programa está em loop infinito!", 
+            "feedback":"O valor de parada nunca será atingido, pois o valor de \"x\" nunca é decrementado dentro do \"while\".", 
+            "correct":true,
+            "id": "94857e9d-863c-4378-a912-227201a50017"
+        }
+    ]
+}
