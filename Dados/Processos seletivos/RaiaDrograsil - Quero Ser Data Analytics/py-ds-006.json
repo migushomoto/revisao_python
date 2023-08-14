@@ -11,7 +11,7 @@
     "subCategory": "Generics",
     "level": "Basic",
     "text":[ 
-    "Qual das seguintes opções é um valor booleano falso em Python?"
+    "Qual das seguintes opções é um valor booleano (objeto bool) falso em Python?"
     ],
     "alternatives": [
         {   "text": "True", 
@@ -25,7 +25,7 @@
             "id": "94857e9d-863c-4378-b912-227201a50015"
         },
         {   "text": "0", 
-            "feedback":"O valor 0 é tratado como falso, mas não é um valor booleano em si.", 
+            "feedback":"O valor 0 é tratado como falso (isso é, tem valor lógico falso), mas não é um valor booleano em si, pois é um objeto do tipo int.", 
             "correct":false,
             "id": "94857e9d-863c-4378-b912-227201a50016"
         },

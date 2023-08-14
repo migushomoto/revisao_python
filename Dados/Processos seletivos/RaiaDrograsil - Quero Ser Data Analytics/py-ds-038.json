@@ -18,7 +18,7 @@
             "correct":true,
             "id": "94857e9d-863c-4378-a912-227201a50014"
         },
-        {   "text": "def minha_funcao(valor = parâmetro):", 
+        {   "text": "def minha_funcao(valor : parâmetro):", 
             "feedback":"O valor padrão é definido após o sinal de igual.", 
             "correct":false,
             "id": "94857e9d-863c-4378-a912-227201a50015"

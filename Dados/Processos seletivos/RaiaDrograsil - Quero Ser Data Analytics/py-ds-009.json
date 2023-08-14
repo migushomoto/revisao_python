@@ -20,7 +20,7 @@
             "id": "94857e9d-863c-4378-a912-227201a50014"
         },
         {   "text": "A conversão implícita de um tipo de dado para outro.", 
-            "feedback":"Esta é a opção correta que defini o conceito de coerção de tipos em Python.", 
+            "feedback":"Esta é a opção correta que define o conceito de coerção de tipos em Python.", 
             "correct":true,
             "id": "94867e9d-863c-4378-a912-227201a50014"
         },

@@ -21,22 +21,22 @@
     "---"],
     "alternatives": [
         {   "text": "13", 
-            "feedback":"O valor de parada nunca será atingido, pois o valor de \"x\" nunca é decrementado dentro do \"while\".", 
+            "feedback":"O valor de parada nunca será atingido, pois o valor de \"i\" nunca é decrementado dentro do \"while\".", 
             "correct":false,
             "id": "94857e9d-863c-4378-a912-227201a50014"
         },
         {   "text": "120", 
-            "feedback":"O valor de parada nunca será atingido, pois o valor de \"x\" nunca é decrementado dentro do \"while\".", 
+            "feedback":"O valor de parada nunca será atingido, pois o valor de \"i\" nunca é decrementado dentro do \"while\".", 
             "correct":false,
             "id": "94857e9d-863c-4378-a912-227201a50015"
         },
         {   "text": "60", 
-            "feedback":"O valor de parada nunca será atingido, pois o valor de \"x\" nunca é decrementado dentro do \"while\".", 
+            "feedback":"O valor de parada nunca será atingido, pois o valor de \"i\" nunca é decrementado dentro do \"while\".", 
             "correct":false,
             "id": "94857e9d-863c-4378-a912-227201a50016"
         },
-        {   "text": "O programa está em loop infinito!", 
-            "feedback":"O valor de parada nunca será atingido, pois o valor de \"x\" nunca é decrementado dentro do \"while\".", 
+        {   "text": "O programa gera um loop infinito!", 
+            "feedback":"O valor de parada nunca será atingido, pois o valor de \"i\" nunca é decrementado dentro do \"while\".", 
             "correct":true,
             "id": "94857e9d-863c-4378-a912-227201a50017"
         }

@@ -11,7 +11,8 @@
     "subCategory": "Generics",
     "level": "Basic",
     "text":[ 
-    "O que representa o seguinte trecho de código em Python?\n```python\nif idade >= 18:\n\tprint(\"Você é maior de idade!\")\nelse:\n\tprint(\"Você é menor de idade!\")"],
+    "O que representa o seguinte trecho de código em Python?\n",
+    "if idade >= 18:\n\tprint(\"Você é maior de idade!\")\nelse:\n\tprint(\"Você é menor de idade!\")"],
     "alternatives": [
         {   "text": "Uma estrutura de repetição.", 
             "feedback":"Estruturas de repetição em python são \"for\", \"while\"", 
