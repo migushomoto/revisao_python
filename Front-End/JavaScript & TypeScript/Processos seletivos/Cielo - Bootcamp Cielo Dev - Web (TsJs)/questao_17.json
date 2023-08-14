@@ -1,0 +1,47 @@
+{
+    "id": "9a352f2b-b0f9-456e-ac7b-7f49b4af86a0",
+    "SKU": "AS-OO-001",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "javascript",
+    "knowledgeArea": "Front-End",
+    "category": "Typescript",
+    "subCategory": "Tipagem",
+    "level": "SENIOR",
+    "tagsOrConcepts": [
+        "Tipagem estática"
+    ],
+    "text": [
+        "Dado a seguinte interface:",
+        "interface Animal { name: string; }",
+        "Adicionamos uma propriedade fazendo",
+        "interface Bear extends Animal { honey: boolean; }",
+        "Qual seria o equivalente usando Type Aliases?"
+    ],
+    "alternatives": [
+        {
+            "id": "0bb8071d-add5-499c-a294-93736388bbe9",
+            "text": "type Animal = { name: string; }\ntype Bear = Animal | { honey: boolean; }",
+            "feedback": "Queremos estender não fazer união",
+            "correct": false
+        },
+        {
+            "id": "54a6b566-d6e4-4011-ab2b-93bd9ac049fd",
+            "text": "type Animal = { name: string; }\ntype Bear = Animal & { honey: boolean; }",
+            "feedback": "Correta",
+            "correct": true
+        },
+        {
+            "id": "c75cc888-4363-4d20-a79d-f8862633051a",
+            "text": "type Animal = { name: string; }\ntype Bear = Animal && { honey: boolean; }",
+            "feedback": "Há uma confusão aqui com o operador booleano",
+            "correct": false
+        },
+        {
+            "id": "867c8e30-9135-4413-81f6-76ba81df0222",
+            "text": "type Animal = { name: string; }\ntype Bear = Animal extends { honey: boolean; }",
+            "feedback": "O extends serve para classes e interfaces, não type alises",
+            "correct": false
+        }
+    ]
+}

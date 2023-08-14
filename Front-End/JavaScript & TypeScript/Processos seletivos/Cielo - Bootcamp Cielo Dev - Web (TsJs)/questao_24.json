@@ -1,0 +1,57 @@
+{
+    "id": "6f8b7c4f-37ff-49b8-9f46-7a740daa37dc",
+    "SKU": "AS-FE-001",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "javascript",
+    "knowledgeArea": "Front-End",
+    "category": "Typescript",
+    "subCategory": "Tipagem",
+    "level": "SENIOR",
+    "tagsOrConcepts": [
+        "SOLID",
+        "Design Patterns"
+    ],
+    "text": [
+        "Almeida foi encarregado de refatorar uma classe de ordenação:",
+        "```class Sorter {",
+        "    constructor(){}",
+        "    sort(array){ return [...array].sort() }",
+        "}```",
+        "Sua solução foi a seguinte:",
+        "```class Sorter {",
+        "    constructor(sortMethod){ this.sortMethod = sortMethod }",
+        "    sort(array){ return this.sortMethod.sort(array) }",
+        "}```",
+        "O tech leader do Almeida gostou da refatoração e disse o seguinte:",
+        "Ficou bom, gostei do uso do pattern (A) que auxilia a gente em manter o código aderente a o princípio (B) do SOLID",
+        "No entanto, há um problema, que vai impactar os códigos que já usam essa classe, porque (C)",
+        "Qual alternativa completa a frase corretamente?"
+    ],
+    "alternatives": [
+        {
+            "id": "cd26da1e-3184-4537-aa4d-a5d35113d1fd",
+            "text": "A: Factory;  B: Single Responsability; C: sortMethod é objeto",
+            "feedback": "Não se trata de um factory, tampouco o código divide responsabilidades excessivas da classe Sorter",
+            "correct": false
+        },
+        {
+            "id": "c4cb2ed6-d02f-403e-9e29-ec7cede5a400",
+            "text": "A: Strategy; B: Open Closed; C: Não há implementação padrão",
+            "feedback": "Correta",
+            "correct": true
+        },
+        {
+            "id": "38a6bf94-cd39-4cae-9315-225cf23392b3",
+            "text": "A: Factory;  B: Open Closed; C: Não há implementação padrão",
+            "feedback": "Não se trata de um factory",
+            "correct": false
+        },
+        {
+            "id": "4ce80ca4-8070-49e8-af5f-e97288dbef92",
+            "text": "A: Strategy; B: Single Responsability; C: sortMethod é objeto",
+            "feedback": "O código não divide responsabilidades excessivas da classe Sorter",
+            "correct": false
+        }
+    ]
+}

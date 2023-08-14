@@ -1,0 +1,43 @@
+{
+    "id": "c12849f5-733e-4355-a343-968670818f8b",
+    "SKU": "AS-FE-001",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "javascript",
+    "knowledgeArea": "Front-End",
+    "category": "CSS",
+    "subCategory": "CSS 3",
+    "level": "PLENO",
+    "tagsOrConcepts": [
+        "transitions"
+    ],
+    "text": [
+        "Qual técnica CSS3 é usada para criar efeitos de animações suaves entre diferentes estilos de um elemento, como mudanças de cor e tamanho?"
+    ],
+    "alternatives": [
+        {
+            "id": "51308672-4dc2-4e9b-a056-0012d33962b6",
+            "text": "transitions",
+            "feedback": "Correta",
+            "correct": true
+        },
+        {
+            "id": "e61c83d3-fe47-4580-9e90-c5c023629bf7",
+            "text": "animations",
+            "feedback": "Não é uma técnica de CSS",
+            "correct": false
+        },
+        {
+            "id": "bfa32027-0687-439e-9cbe-54e0e7da0b5d",
+            "text": "style-blending",
+            "feedback": "Não é uma técnica de CSS",
+            "correct": false
+        },
+        {
+            "id": "da545d64-4520-4cc7-98e6-115ba4fdae28",
+            "text": "morphing-effects",
+            "feedback": "Não é uma técnica de CSS",
+            "correct": false
+        }
+    ]
+}

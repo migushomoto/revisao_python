@@ -1,0 +1,49 @@
+{
+    "id": "c84d0c10-e4d1-4c1c-9625-9078514531b7",
+    "SKU": "AS-FE-001",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "javascript",
+    "knowledgeArea": "Front-End",
+    "category": "Programação WEB",
+    "subCategory": "consumo de API",
+    "level": "PLENO",
+    "tagsOrConcepts": [
+        "API",
+        "REST",
+        "Consumo de API"
+    ],
+    "text": [
+        "Dadas as seguintes rotas em ordem, qual a resposta esperada?",
+        "(GET) /Clientes/",
+        "(GET) /Clientes/1",
+        "(POST) /Clientes/1",
+        "(DELETE) /Clientes/"
+    ],
+    "alternatives": [
+        {
+            "id": "27f81a21-9671-432b-a433-afb56b30d8c7",
+            "text": "vazia;Cliente;Cliente;vazia",
+            "feedback": "As chamadas GET retornam informação, POST tende a retornar o ID do recurso, DELETE mal-formado",
+            "correct": false
+        },
+        {
+            "id": "47b12ed6-5f88-4045-9fd7-d60ffbf5e5e1",
+            "text": "Cliente; Cliente; vazia; vazia",
+            "feedback": "GET sem ID retorna listagem, POST tende a retornar o ID do recurso, DELETE mal-formado",
+            "correct": false
+        },
+        {
+            "id": "88a1bf01-c675-46bf-81d1-cba6af135b3e",
+            "text": "[Cliente]; Cliente; int; Erro",
+            "feedback": "Correta, GET sem ID retorna listagem, com ID um recurso, POST retorna o ID e DELETE sem ID dá erro 400",
+            "correct": true
+        },
+        {
+            "id": "cb730136-c500-4989-a72b-8896d2214172",
+            "text": "Cliente;[Cliente]; vazia; int",
+            "feedback": "POST tende a retornar o ID do recurso, os GET estão invertidos, DELETE mal-formado",
+            "correct": false
+        }
+    ]
+}

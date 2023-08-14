@@ -1,0 +1,43 @@
+{
+    "id": "761d2969-ef89-4950-87eb-ffb967a9af19",
+    "SKU": "AS-FE-001",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "javascript",
+    "knowledgeArea": "Front-End",
+    "category": "CSS",
+    "subCategory": "CSS 3",
+    "level": "PLENO",
+    "tagsOrConcepts": [
+        "z-index"
+    ],
+    "text": [
+        "Qual propriedade CSS3 é usada para controlar a ordem de empilhamento dos elementos, permitindo que elementos sobrepostos sejam reorganizados visualmente?"
+    ],
+    "alternatives": [
+        {
+            "id": "104261bd-13fa-44a8-8a9d-f207542acb6d",
+            "text": "stacking-order",
+            "feedback": "Não é uma propriedade",
+            "correct": false
+        },
+        {
+            "id": "a21f11ce-cb21-42d6-9d99-83f1062718d2",
+            "text": "layer-order",
+            "feedback": "Não é uma propriedade",
+            "correct": false
+        },
+        {
+            "id": "9dcc4cbc-9272-4412-8407-a3738e896cc2",
+            "text": "z-index",
+            "feedback": "Correta",
+            "correct": true
+        },
+        {
+            "id": "f3459a38-1e85-4e7b-88c8-44e3a1eca0bf",
+            "text": "stacking-index",
+            "feedback": "Não é uma propriedade",
+            "correct": false
+        }
+    ]
+}

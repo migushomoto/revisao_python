@@ -1,0 +1,44 @@
+{
+    "id": "5dd38ef0-c8ce-40ca-9af6-94fff3bf30ab",
+    "SKU": "AS-FE-001",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "javascript",
+    "knowledgeArea": "Front-End",
+    "category": "SPA",
+    "subCategory": "REACT",
+    "level": "PLENO",
+    "tagsOrConcepts": [
+        "Hooks",
+        "useContext"
+    ],
+    "text": [
+        "Qual hook é usado para compartilhar estados entre componentes distantes na árvore de componentes em React, evitando prop drillings excessivos?"
+    ],
+    "alternatives": [
+        {
+            "id": "8e1dd77a-5321-4139-82ab-03deb6d17930",
+            "text": "useContext",
+            "feedback": "Correta",
+            "correct": true
+        },
+        {
+            "id": "970575e7-e343-4255-b133-7f92d4ebb4e0",
+            "text": "useReducer",
+            "feedback": "reducer não server para passagem de estado entre componentes",
+            "correct": false
+        },
+        {
+            "id": "712e5fe9-2ff2-4a7b-a34b-a7d24c1806bb",
+            "text": "useCallback",
+            "feedback": "Esse hook usa estratégia de memoização para retornos de funções custosas",
+            "correct": false
+        },
+        {
+            "id": "6ff1b831-18be-4318-bed9-f70dec529577",
+            "text": "useEffect",
+            "feedback": "Esse hook lida com efeitos colaterais na rederização e atualização do componente",
+            "correct": false
+        }
+    ]
+}

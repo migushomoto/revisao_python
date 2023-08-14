@@ -1,0 +1,45 @@
+{
+    "id": "6a0b5af5-5992-4c0c-9d0f-f9aea0bc537c",
+    "SKU": "AS-FE-001",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "javascript",
+    "knowledgeArea": "Front-End",
+    "category": "SPA",
+    "subCategory": "SEO",
+    "level": "SENIOR",
+    "tagsOrConcepts": [
+        "React",
+        "Angular",
+        "SPA"
+    ],
+    "text": [
+        "Ao lidar com SEO (Search Engine Optimization), como React e Angular tratam a indexação de mecanismos de busca?"
+    ],
+    "alternatives": [
+        {
+            "id": "ee5641d4-8b23-47eb-a10c-0d1dabd3ab7b",
+            "text": "Tanto React quanto Angular têm suporte nativo para SEO",
+            "feedback": "O suporte do React a SSR não é usado, vale a pena usar bibliotecas a parte",
+            "correct": false
+        },
+        {
+            "id": "b0d19fc3-5eef-47a4-865c-179e8039ca30",
+            "text": "Nenhum dos dois frameworks pode ser otimizado para SEO",
+            "feedback": "Eles podem com a instalação de outras bibliotecas",
+            "correct": false
+        },
+        {
+            "id": "9828130d-1729-4d64-9ed6-fefcd5703e72",
+            "text": "Ambos devem usar SSR para suportar SEO, para Angular há o Universal e para React o Next, que adicionam essas funcionalidades",
+            "feedback": "Correta",
+            "correct": true
+        },
+        {
+            "id": "2f596808-0ab3-4e32-9eb2-7f8155d3748a",
+            "text": "React pode ser configurado para suportar melhor SEO, Angular não",
+            "feedback": "Ambos suportam melhor SSR usando bibliotecas",
+            "correct": false
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "id": "85969b32-26c5-43d7-b3f8-e2375142a204",
+    "SKU": "AS-FE-001",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "javascript",
+    "knowledgeArea": "Front-End",
+    "category": "Typescript",
+    "subCategory": "Tipagem",
+    "level": "JUNIOR",
+    "tagsOrConcepts": [
+        "Tipagem estática"
+    ],
+    "text": [
+        "Qual é o principal objetivo da tipagem estática em TypeScript?"
+    ],
+    "alternatives": [
+        {
+            "id": "92cf6ff6-afe7-438e-bb9c-faacc6e06d0d",
+            "text": "Aumentar o desempenho das aplicações",
+            "feedback": "A tipagem não influencia no desempenho (rapidez de processamento)",
+            "correct": false
+        },
+        {
+            "id": "478b72b3-6276-4c4d-81dd-adbc485e8eae",
+            "text": "Simplificar a sintaxe de escrita de código",
+            "feedback": "Pelo contrário, a sintaxe torna-se mais burocrática",
+            "correct": false
+        },
+        {
+            "id": "1dd2d54a-7c67-4b93-bda2-e34d6b35579c",
+            "text": "Detectar erros de tipos em tempo de execução",
+            "feedback": "Esse já é o comportamento padrão do JS, no TypeScript temos detecção em tempo de compilação",
+            "correct": false
+        },
+        {
+            "id": "de718971-03a8-47ad-b047-984b1896e270",
+            "text": "Detectar erros de tipos em tempo de compilação",
+            "feedback": "Correta",
+            "correct": true
+        }
+    ]
+}

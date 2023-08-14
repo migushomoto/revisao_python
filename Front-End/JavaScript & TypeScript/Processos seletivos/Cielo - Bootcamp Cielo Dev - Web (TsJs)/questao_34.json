@@ -1,0 +1,44 @@
+{
+    "id": "dbeded94-f209-413d-93ca-7475e0230f9f",
+    "SKU": "AS-FE-001",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "javascript",
+    "knowledgeArea": "Front-End",
+    "category": "SPA",
+    "subCategory": "REACT",
+    "level": "PLENO",
+    "tagsOrConcepts": [
+        "Hooks",
+        "useEffect"
+    ],
+    "text": [
+        "No React, qual dos hooks abaixo substitui os métodos de ciclo de vida montagem, atualização e desmontagem do componente?"
+    ],
+    "alternatives": [
+        {
+            "id": "95f5737d-d91d-4ebc-b408-d260ecb820e4",
+            "text": "useEffect",
+            "feedback": "Correta",
+            "correct": true
+        },
+        {
+            "id": "a9a9155e-3d49-4132-ac05-063e5f0dfe67",
+            "text": "useState",
+            "feedback": "Esse hook substitui o gerenciamento de estado",
+            "correct": false
+        },
+        {
+            "id": "1bea2783-424e-4c49-b94d-86fa48ee097c",
+            "text": "useContext",
+            "feedback": "Esse hook lida com contextos globais",
+            "correct": false
+        },
+        {
+            "id": "28ef2c1c-6450-44b3-a8f3-7558af9abe40",
+            "text": "useCallback",
+            "feedback": "Esse hook usa estratégia de memoização para retornos de funções custosas",
+            "correct": false
+        }
+    ]
+}

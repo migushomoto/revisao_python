@@ -1,0 +1,45 @@
+{
+    "id": "5c2fc7f3-de0b-4714-9d7e-ca80cf5f73b6",
+    "SKU": "AS-FE-001",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "javascript",
+    "knowledgeArea": "Front-End",
+    "category": "Programação WEB",
+    "subCategory": "Storages",
+    "level": "PLENO",
+    "tagsOrConcepts": [
+        "localStorage"
+    ],
+    "text": [
+        "Um programador júnior salva os dados do usuário no localStorage na chave 'user'.",
+        "No entanto, ele salva uma string vazia quando não tem dados em vez de null.",
+        "Qual das alternativas traz os dados do usuário para o código ou nulo (sem erro), mesmo quando não há dados?"
+    ],
+    "alternatives": [
+        {
+            "id": "f5b39c5d-b7ee-47f0-833d-e7b15c281d5c",
+            "text": "const data = JSON.parse(localStorage.getItem('user'))",
+            "feedback": "Se não houver dados, o parse gerará erro ao receber a string vazia",
+            "correct": false
+        },
+        {
+            "id": "b4086153-af73-4f7f-9439-fc64caebff42",
+            "text": "const data = JSON.parse(localStorage.getItem('user') || null)",
+            "feedback": "Correta",
+            "correct": true
+        },
+        {
+            "id": "bdaf70de-644a-44c8-a943-f2522e5fbb1d",
+            "text": "const data = JSON.parse(localStorage.getItem('user') || undefined)",
+            "feedback": "JSON.parse espera uma string ou null",
+            "correct": false
+        },
+        {
+            "id": "7f47bc79-e43a-416c-a10c-7f91596887f2",
+            "text": "const data = JSON.parse(localStorage.getItem('user')) || null",
+            "feedback": "O operador || não é capaz de reverter um erro, apenas um booleano falsy",
+            "correct": false
+        }
+    ]
+}

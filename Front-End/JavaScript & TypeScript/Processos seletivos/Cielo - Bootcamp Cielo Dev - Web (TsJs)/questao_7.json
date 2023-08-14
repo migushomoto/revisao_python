@@ -1,0 +1,44 @@
+{
+    "id": "39d1ef37-a2c0-4f52-92c5-5764d140e053",
+    "SKU": "AS-FE-001",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "javascript",
+    "knowledgeArea": "Front-End",
+    "category": "HTML",
+    "subCategory": "HTML 5",
+    "level": "PLENO",
+    "tagsOrConcepts": [
+        "select",
+        "datalist"
+    ],
+    "text": [
+        "Qual é a diferença entre as tags <datalist> e <select>?"
+    ],
+    "alternatives": [
+        {
+            "id": "a608b88a-1cd6-45ef-979a-e7b7d803a3cd",
+            "text": "<datalist> é usada para criar listas suspensas, enquanto <select> é usada para agrupar elementos",
+            "feedback": "Select não é usado para agrupar elementos",
+            "correct": false
+        },
+        {
+            "id": "0ffbb64b-eee9-4be4-98e6-94f74f0b3898",
+            "text": "<datalist> é usada para entrada de texto com sugestões, enquanto <select> é usada para exibir opções em uma lista suspensa",
+            "feedback": "Correta",
+            "correct": true
+        },
+        {
+            "id": "013604da-4833-45bb-800d-037445db813f",
+            "text": "<datalist> é uma nova versão do elemento <select> com mais recursos",
+            "feedback": "O funcionamento é diferente, ainda que parecido. Datalist assume digitação no campo",
+            "correct": false
+        },
+        {
+            "id": "80a6146e-867c-4a33-8b93-b9328837adb0",
+            "text": "<datalist> é usada para criar elementos de seleção múltipla, enquanto <select> é usada para seleção única",
+            "feedback": "Select pode fazer escolha única ou múltipla, datalist é um campo digitável",
+            "correct": false
+        }
+    ]
+}

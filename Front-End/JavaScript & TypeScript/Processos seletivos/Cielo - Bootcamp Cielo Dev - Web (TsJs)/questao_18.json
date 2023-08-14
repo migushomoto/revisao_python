@@ -1,0 +1,43 @@
+{
+    "id": "06770523-b86c-4526-841a-42861afb3b05",
+    "SKU": "AS-FE-001",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "javascript",
+    "knowledgeArea": "Front-End",
+    "category": "Typescript",
+    "subCategory": "Tipagem",
+    "level": "JUNIOR",
+    "tagsOrConcepts": [
+        "Tipagem estática"
+    ],
+    "text": [
+        "Qual é a diferença entre 'null' e 'undefined' em TypeScript?"
+    ],
+    "alternatives": [
+        {
+            "id": "80c45963-113a-46d9-b7f8-7efebb4fa85d",
+            "text": "Eles são sinônimos e podem ser usados indistintamente",
+            "feedback": "Não são, são conceitos diferentes",
+            "correct": false
+        },
+        {
+            "id": "123d69ea-f0d5-43fc-9062-bd94471ef076",
+            "text": "'null' indica uma variável que não foi inicializada, enquanto 'undefined' é usado para valores nulos",
+            "feedback": "É justamente o contrário",
+            "correct": false
+        },
+        {
+            "id": "6b6e1957-dcf8-4fbb-96f8-5ef32759028a",
+            "text": "'undefined' indica uma variável que não foi inicializada, enquanto 'null' é usado para representar a ausência intencional de valor",
+            "feedback": "Correta",
+            "correct": true
+        },
+        {
+            "id": "e5c1d89a-e899-4b0a-b318-5e0f6fb3942d",
+            "text": "Typescript, por conta da tipagem estática, trabalha apenas com 'null', 'undefined' é um valor válido apenas em JS",
+            "feedback": "Typescript é um superset, ele adiciona funcionalidades ao JS, os conceitos existentes no JS não podem desaparecer",
+            "correct": false
+        }
+    ]
+}

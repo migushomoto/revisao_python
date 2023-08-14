@@ -1,0 +1,43 @@
+{
+    "id": "aa2f1c32-bca7-4c55-a111-5eb1fe8c72ba",
+    "SKU": "AS-FE-001",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "javascript",
+    "knowledgeArea": "Front-End",
+    "category": "Typescript",
+    "subCategory": "Tipagem",
+    "level": "PLENO",
+    "tagsOrConcepts": [
+        "Tipagem estática"
+    ],
+    "text": [
+        "Qual sintaxe realiza a união do tipo string e number em typescript?"
+    ],
+    "alternatives": [
+        {
+            "id": "01596e22-d306-4bea-822f-2a1d8599fe78",
+            "text": "number | string",
+            "feedback": "Correta",
+            "correct": true
+        },
+        {
+            "id": "186064dc-3409-4780-a24a-6c96a7d05dc3",
+            "text": "number & string",
+            "feedback": "Em termos de tipos, o & funciona como herança, ele estende o tipo com propriedades novas, não é o operador de união",
+            "correct": false
+        },
+        {
+            "id": "6f26eb3d-8293-44be-b91c-9ff3f28bcbbb",
+            "text": "number || string",
+            "feedback": "Há uma confusão aqui com o operador 'ou' booleano",
+            "correct": false
+        },
+        {
+            "id": "f69e0a5a-ff5f-4459-a547-1392dfcc1b8a",
+            "text": "number && string",
+            "feedback": "Há uma confusão aqui com o operador 'e' booleano",
+            "correct": false
+        }
+    ]
+}

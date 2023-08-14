@@ -1,0 +1,43 @@
+{
+    "id": "301c2633-05b2-4458-9b13-f1e506a06b89",
+    "SKU": "AS-FE-001",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "javascript",
+    "knowledgeArea": "Front-End",
+    "category": "HTML",
+    "subCategory": "HTML 5",
+    "level": "PLENO",
+    "tagsOrConcepts": [
+        "template"
+    ],
+    "text": [
+        "Qual é a finalidade do elemento <template> em HTML5?"
+    ],
+    "alternatives": [
+        {
+            "id": "f831cb41-25f8-49d2-bd81-a3ea89e73261",
+            "text": "Cria um esqueleto da página enquanto ela carrega",
+            "feedback": "Isso não é template, é uma funcionalidade de bibliotecas com Skeleton",
+            "correct": false
+        },
+        {
+            "id": "4c13c23f-d51b-41cf-bfaf-fc2cb7aa8ea0",
+            "text": "Cria um template de dados, que o usuário preencherá",
+            "feedback": "Não necessariamente é o usuário que proverá informações para o template",
+            "correct": false
+        },
+        {
+            "id": "d0707435-185c-40a0-8390-b4bcbc3055d5",
+            "text": "É um conteúdo invisível, que será futuramente completado por dados e adicionado ao DOM",
+            "feedback": "Correta",
+            "correct": true
+        },
+        {
+            "id": "a4a2d62e-ae5f-43fe-bee6-7cc0966cc4c7",
+            "text": "Define o template padrão de uma página, com cabeçalhos, rodapés e navegação",
+            "feedback": "Template não é um tag visível, então não poderia fazer esse papel",
+            "correct": false
+        }
+    ]
+}

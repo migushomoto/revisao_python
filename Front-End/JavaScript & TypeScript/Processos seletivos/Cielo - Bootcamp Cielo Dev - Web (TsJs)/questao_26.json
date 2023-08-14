@@ -1,0 +1,44 @@
+{
+    "id": "97d2116a-03bb-41f0-9dce-a1f03ddb0525",
+    "SKU": "AS-BE-001",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "javascript",
+    "knowledgeArea": "Back-End",
+    "category": "Programação WEB",
+    "subCategory": "consumo de API",
+    "level": "PLENO",
+    "tagsOrConcepts": [
+        "API",
+        "CORS"
+    ],
+    "text": [
+        "O que é CORS (Cross-Origin Resource Sharing) em uma API REST e o que significa usar *?"
+    ],
+    "alternatives": [
+        {
+            "id": "d2678ab9-9ecc-4137-8285-5897e49db67f",
+            "text": "Um mecanismo de segurança que permite solicitações de diferentes origens (domínios)\n O asterisco representa bloqueio de todos os domínios diferentes do da API e é uma boa prática",
+            "feedback": "",
+            "correct": false
+        },
+        {
+            "id": "6db88f31-07be-42b7-9139-714935acbc51",
+            "text": "Um mecanismo de segurança que permite solicitações de diferentes origens (domínios)\n O asterisco representa liberação de todos os domínios diferentes do da API e é uma má prática",
+            "feedback": "",
+            "correct": true
+        },
+        {
+            "id": "11d94b3b-b742-4754-9ac3-c1b67b1ae147",
+            "text": "Um protocolo de autenticação utilizado em APIs públicas\n O asterisco representa bloqueio de todos os usuários da API e é uma boa prática",
+            "feedback": "",
+            "correct": false
+        },
+        {
+            "id": "c4e67bf3-c464-42f1-91bf-2568993d1415",
+            "text": "Um protocolo de autenticação utilizado em APIs públicas\n O asterisco representa bloqueio de todos os usuários da API e é uma má prática",
+            "feedback": "",
+            "correct": false
+        }
+    ]
+}

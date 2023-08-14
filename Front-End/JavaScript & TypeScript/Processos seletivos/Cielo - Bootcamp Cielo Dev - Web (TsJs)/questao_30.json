@@ -1,0 +1,44 @@
+{
+    "id": "8deaf961-a887-446b-a202-a85510119603",
+    "SKU": "AS-FU-003",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "javascript",
+    "knowledgeArea": "Testes",
+    "category": "TDD",
+    "subCategory": "teoria",
+    "level": "SENIOR",
+    "tagsOrConcepts": [
+        "Unitário",
+        "Integração"
+    ],
+    "text": [
+        "Ao escrever testes automatizados, como você abordaria a necessidade de testar cenários com dependências externas, como APIs de terceiros?"
+    ],
+    "alternatives": [
+        {
+            "id": "1fdf4b5b-eaaa-47dc-9fa4-a499f28a227c",
+            "text": "Ignorar esses cenários, pois testá-los é muito complexo",
+            "feedback": "Não podemos ignorar esses cenários ou não testamos nosso software",
+            "correct": true
+        },
+        {
+            "id": "b0734df1-1eed-4eb7-a8e0-f7e400cf93bd",
+            "text": "Usar técnicas como 'mocking' para simular as dependências externas e criar testes isolados",
+            "feedback": "Correta",
+            "correct": true
+        },
+        {
+            "id": "3d41dba7-36df-4a88-9e4a-2ab8dc685ba3",
+            "text": "Criar um ambiente de teste com docker que espelhe o ambiente de produção, incluindo as dependências externas",
+            "feedback": "Isso é muito complicado e complexo, especialmente em contextos de microsserviços. Em contexto de testes, nosso teste ficaria muito vulnerável às variações no ambiente",
+            "correct": false
+        },
+        {
+            "id": "127259e8-e162-449b-bbfa-47150f53cd59",
+            "text": "Adiar esses testes até a fase de testes de aceitação e fazer apenas um teste End-to-End",
+            "feedback": "É um má ideia, o código deve ser testado sempre o mais cedo possível e abstraindo dependências externas",
+            "correct": false
+        }
+    ]
+}

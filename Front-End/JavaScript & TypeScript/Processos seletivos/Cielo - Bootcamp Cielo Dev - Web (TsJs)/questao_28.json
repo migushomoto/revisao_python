@@ -1,0 +1,43 @@
+{
+    "id": "b80fbdf4-62cd-4d1f-894b-0380f213aa51",
+    "SKU": "AS-FU-003",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "javascript",
+    "knowledgeArea": "Testes",
+    "category": "TDD",
+    "subCategory": "teoria",
+    "level": "SENIOR",
+    "tagsOrConcepts": [
+        "Test Double"
+    ],
+    "text": [
+        "O que é um 'Test Double', no contexto de Unit Testing?"
+    ],
+    "alternatives": [
+        {
+            "id": "a3c1e245-e259-4016-a0cd-cf9d24f63e3f",
+            "text": "Uma técnica para duplicar testes de unidade em diferentes partes do código",
+            "feedback": "Isso não existe",
+            "correct": false
+        },
+        {
+            "id": "efc197f0-a843-4633-9fef-64752d6f8626",
+            "text": " Uma abordagem para realizar testes parciais e testes que verificam todo o código",
+            "feedback": "Isso não existe",
+            "correct": false
+        },
+        {
+            "id": "14b62516-ff60-4b3a-a460-dd1f3c11fad7",
+            "text": "Um termo genérico para substituições de componentes reais em testes (como mocks, stubs e outros)",
+            "feedback": "Correta",
+            "correct": true
+        },
+        {
+            "id": "0ed16f81-a3b6-434a-9bf9-ca607c8ba98d",
+            "text": "Uma forma incorreta de duplicar o código de teste para aumentar a cobertura",
+            "feedback": "Isso não existe",
+            "correct": false
+        }
+    ]
+}

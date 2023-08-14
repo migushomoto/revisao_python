@@ -1,0 +1,44 @@
+{
+    "id": "a38e24b3-498f-4114-997d-61ccc1394553",
+    "SKU": "AS-FE-001",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "javascript",
+    "knowledgeArea": "Front-End",
+    "category": "Typescript",
+    "subCategory": "Tipagem",
+    "level": "PLENO",
+    "tagsOrConcepts": [
+        "Tipagem estática",
+        "as"
+    ],
+    "text": [
+        "Qual é a finalidade da opção 'as' em uma declaração de tipo (type assertion) em TypeScript?"
+    ],
+    "alternatives": [
+        {
+            "id": "6c1f70a5-c7c9-4e54-b72d-6168da2d0417",
+            "text": "Indicar uma comparação condicional entre tipos",
+            "feedback": "Não é uma comparação, é uma coerção",
+            "correct": false
+        },
+        {
+            "id": "d05ca87e-7f7a-4b1a-8198-a74053fd3eca",
+            "text": "Converter um valor para um tipo específico",
+            "feedback": "Correta",
+            "correct": true
+        },
+        {
+            "id": "4a544f6f-4b6c-414d-9243-0fbb641bb142",
+            "text": "Definir um novo tipo personalizado",
+            "feedback": "Não é um definição, ainda que você possa descrever um tipo novo após o 'as' não é uma declaração reutilizável",
+            "correct": false
+        },
+        {
+            "id": "d3f0b84e-842c-4f75-9016-71fa4a5964c2",
+            "text": "Especificar um tipo genérico para a declaração",
+            "feedback": "Você até pode usar o 'as' e criar um tipo novo, mas não um genérico e 'as' não serve para isso, serve para fazer a coerção para um tipo existente (mesmo que você crie ele na mesma linha)",
+            "correct": false
+        }
+    ]
+}

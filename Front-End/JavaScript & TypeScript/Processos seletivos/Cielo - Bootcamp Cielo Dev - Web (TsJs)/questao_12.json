@@ -1,0 +1,43 @@
+{
+    "id": "e8ddab92-1d97-4aee-abb0-ad03bfb874d5",
+    "SKU": "AS-FE-001",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "javascript",
+    "knowledgeArea": "Front-End",
+    "category": "Programação WEB",
+    "subCategory": "Fetch API",
+    "level": "JUNIOR",
+    "tagsOrConcepts": [
+        "fetch"
+    ],
+    "text": [
+        "Qual é a função do objeto Response na API Fetch?"
+    ],
+    "alternatives": [
+        {
+            "id": "c2c6bbbf-4d62-468b-839a-2f80658670d8",
+            "text": "Analisar parâmetros de consulta em URLs",
+            "feedback": "Essa funcionalidade não existe",
+            "correct": true
+        },
+        {
+            "id": "61d2db39-3baf-41f6-a87a-deffd19812bc",
+            "text": "Representar os dados da resposta de um formulário para enviar para o servidor",
+            "feedback": "Essa é a funcionalidade da tag FORM do HTML, fetch faz muito mais que isso",
+            "correct": false
+        },
+        {
+            "id": "6aeb0226-fec9-493d-ab93-83b2c199ea70",
+            "text": "Representar a resposta de uma requisição HTTP permitindo acesso a dados e metadados",
+            "feedback": "Correta",
+            "correct": true
+        },
+        {
+            "id": "00712ad9-1413-4ae9-ba19-53ef00f67e6f",
+            "text": "Converter objetos JavaScript em strings JSON",
+            "feedback": "Response tem uma funcionalidade similar usando o método json(), mas é um parse e não um stringify, de qualquer forma, não descreve corretamente o objeto",
+            "correct": false
+        }
+    ]
+}

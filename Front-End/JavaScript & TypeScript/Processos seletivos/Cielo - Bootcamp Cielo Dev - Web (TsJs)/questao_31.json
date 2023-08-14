@@ -1,0 +1,45 @@
+{
+    "id": "b0cae9a9-350d-4371-8e64-7ab01a5ed8ce",
+    "SKU": "AS-FU-003",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "javascript",
+    "knowledgeArea": "Testes",
+    "category": "TDD",
+    "subCategory": "teoria",
+    "level": "SENIOR",
+    "tagsOrConcepts": [
+        "Unitário",
+        "Integração",
+        "pirâmide de testes"
+    ],
+    "text": [
+        "Em relação à pirâmide de testes, qual é a proporção recomendada de cada tipo de teste (testes unitários, testes de integração e testes de interface) em um projeto de software?"
+    ],
+    "alternatives": [
+        {
+            "id": "b642a05e-7d4a-409e-bd2f-1d67d52605e0",
+            "text": "Igualmente divididos em terços (33% cada)",
+            "feedback": "Não é o caso, no mínimo os testes unitários devem representar a maioria",
+            "correct": false
+        },
+        {
+            "id": "458cc4ec-7a3d-4754-828e-1c3ca9aa4bfe",
+            "text": "A maioria (cerca de 70-80%) deve ser composta por testes unitários, seguidos por testes de integração (15-20%) e, por fim, testes de interface (5-10%)",
+            "feedback": "Correta",
+            "correct": true
+        },
+        {
+            "id": "bb89536b-3a76-46f6-9d0b-3a5b5ad64e0e",
+            "text": "Testes de interface devem ser a maioria (cerca de 60%), com testes unitários (20%) e testes de integração (20%) ocupando menos espaço",
+            "feedback": "Não é o caso, no mínimo os testes unitários devem representar a maioria",
+            "correct": false
+        },
+        {
+            "id": "7f81b43f-248a-47d0-bad6-a8c7be9ce300",
+            "text": "Não há uma proporção fixa, pois varia conforme o projeto",
+            "feedback": "Não é o caso, no mínimo os testes unitários devem representar a maioria",
+            "correct": false
+        }
+    ]
+}

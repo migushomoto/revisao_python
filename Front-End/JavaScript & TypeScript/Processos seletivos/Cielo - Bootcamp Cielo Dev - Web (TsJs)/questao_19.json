@@ -1,0 +1,45 @@
+{
+    "id": "c1da1db9-ab21-4e74-9645-a0da37661ce7",
+    "SKU": "AS-FE-001",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "javascript",
+    "knowledgeArea": "Front-End",
+    "category": "Typescript",
+    "subCategory": "Tipagem",
+    "level": "SENIOR",
+    "tagsOrConcepts": [
+        "Tipagem estática",
+        "any",
+        "unknown"
+    ],
+    "text": [
+        "Qual alternativa melhor expressa a diferença entre os conceitos de 'unknown' e 'any' em Typescript?"
+    ],
+    "alternatives": [
+        {
+            "id": "0e0f8975-6ac3-4891-85c9-d7d45ce1b4b8",
+            "text": "Os dois representam exatamente o mesmo conceito, mas 'unknown' é a forma mais nova e considerada mais correta",
+            "feedback": "Eles não representam o mesmo conceito",
+            "correct": false
+        },
+        {
+            "id": "db4eac0b-57f1-43ac-8193-435c7874b5b9",
+            "text": "'any' pode conter um valor de qualquer tipo, e ser atribuído a qualquer tipo, 'unknown' não pode conter valores de qualquer tipo",
+            "feedback": "unknown pode conter valores de qualquer tipo",
+            "correct": false
+        },
+        {
+            "id": "5cae311d-158d-47a7-93d9-4dfa97011d9f",
+            "text": "'any' pode conter um valor de qualquer tipo, e ser atribuído a qualquer tipo, o mesmo vale para 'unknown'",
+            "feedback": "Não vale, unknown não pode ser atribuído a qualquer tipo",
+            "correct": false
+        },
+        {
+            "id": "8fc458b7-60b5-4eeb-be36-fbc31da9cda4",
+            "text": "'any' pode conter um valor de qualquer tipo, e ser atribuído a qualquer tipo, o mesmo vale para 'unknown' no entanto na atribuição, será necessário fazer uma coerção explícita",
+            "feedback": "Correta",
+            "correct": true
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "id": "aa3502a3-2a8b-4994-9d15-11cd834944b4",
+    "SKU": "AS-FE-001",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "javascript",
+    "knowledgeArea": "Front-End",
+    "category": "SPA",
+    "subCategory": "REACT",
+    "level": "PLENO",
+    "tagsOrConcepts": [
+        "Renderização",
+        "Atualização do DOM"
+    ],
+    "text": [
+        "Qual é a vantagem de usar a prop 'key' ao renderizar uma lista de componentes no React?"
+    ],
+    "alternatives": [
+        {
+            "id": "52c00bce-baf2-432f-9040-3559f700806f",
+            "text": "Melhorar a performance da renderização",
+            "feedback": "Melhora a performance das atualizações subsequentes não da renderização inicial",
+            "correct": false
+        },
+        {
+            "id": "d618b97a-f2d7-4d20-8849-944dd2172ea7",
+            "text": "Otimizar a atualização de elementos da lista",
+            "feedback": "Correta",
+            "correct": true
+        },
+        {
+            "id": "54ef5446-57f7-4f3e-a911-5aacc56134e7",
+            "text": "Definir a posição do elemento na lista",
+            "feedback": "Key não tem controle sobre a posição do elemento",
+            "correct": false
+        },
+        {
+            "id": "320e6325-7656-40f4-ab9c-3d50df7b3ae8",
+            "text": "Permitir que a lista seja reordenada automaticamente",
+            "feedback": "Key não tem controle sobre a posição do elemento",
+            "correct": false
+        }
+    ]
+}

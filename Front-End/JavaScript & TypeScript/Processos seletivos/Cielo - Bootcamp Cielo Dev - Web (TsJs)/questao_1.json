@@ -1,0 +1,45 @@
+{
+    "id": "bfb27bc1-0cf5-4065-909c-e2bea5227cd6",
+    "SKU": "AS-FE-001",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "javascript",
+    "knowledgeArea": "Front-End",
+    "category": "Programação WEB",
+    "subCategory": "consumo de API",
+    "level": "PLENO",
+    "tagsOrConcepts": [
+        "API",
+        "REST",
+        "Consumo de API"
+    ],
+    "text": [
+        "Qual aternativa representa melhor os erros 401 e 403"
+    ],
+    "alternatives": [
+        {
+            "id": "db6eb000-7f14-4afb-ae56-b5a6b75d93c1",
+            "text": "Problemas com as credenciais",
+            "feedback": "Alternativa correta, 401 bloqueia acesso anônimo enquanto 403 bloqueia conteúdos que a credencial não pode acessar",
+            "correct": true
+        },
+        {
+            "id": "e84809e2-8072-4477-838d-a6d3994ea007",
+            "text": "Recursos inválidos ou não existentes",
+            "feedback": "Essa alternativa representa melhor 404, 400",
+            "correct": false
+        },
+        {
+            "id": "5d1b534c-48f1-49ad-84b3-cc4a917b615f",
+            "text": "Erros desconhecidos",
+            "feedback": "Essa alternativa representa a família 500",
+            "correct": false
+        },
+        {
+            "id": "782d4193-4fac-49dc-8c24-0b86fdbbc7c0",
+            "text": "Login inválido",
+            "feedback": "Essa alternativa confunde, pois 401 é um bloqueio de usuário anônimo, mas não login inválido e não representa o 403",
+            "correct": false
+        }
+    ]
+}

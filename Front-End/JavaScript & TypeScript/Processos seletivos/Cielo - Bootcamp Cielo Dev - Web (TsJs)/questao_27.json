@@ -1,0 +1,43 @@
+{
+    "id": "023c2fea-7fdf-4951-ad07-2a3d219a4ef2",
+    "SKU": "AS-FU-003",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "javascript",
+    "knowledgeArea": "Testes",
+    "category": "TDD",
+    "subCategory": "teoria",
+    "level": "PLENO",
+    "tagsOrConcepts": [
+        "Red-Green-Refactor"
+    ],
+    "text": [
+        "Qual é a principal sequência de etapas no ciclo de desenvolvimento do TDD (Test-Driven Development)?"
+    ],
+    "alternatives": [
+        {
+            "id": "02c00217-e2ba-42fe-9494-8e8817d15650",
+            "text": "Escrever testes, falhar os testes, codificar para fazer os testes passarem, refatorar",
+            "feedback": "Correta",
+            "correct": true
+        },
+        {
+            "id": "9923622f-dd5f-4787-8fde-ce9f7a7dfb90",
+            "text": "Codificar, escrever testes, falhar os testes, refatorar o código para fazer os testes passarem",
+            "feedback": "No TDD, testes são escritos sempre antes. Refatorar não significa nunca mudar o comportamento do código.",
+            "correct": false
+        },
+        {
+            "id": "18b9dbb6-4e39-4b6f-a8bb-08b0da97f9c1",
+            "text": "Codificar, escrever testes, falhar os testes, refatorar os testes para fazê-los passarem",
+            "feedback": "No TDD, testes são escritos sempre antes. Nunca se modifica o teste, sempre o código, a não ser que haja mudança de negócio.",
+            "correct": false
+        },
+        {
+            "id": "5e552d9c-d317-4391-8a57-3ff936270f44",
+            "text": "Codificar, escrever testes, falhar os testes, alterar o código para fazer os testes passarem, refatorar",
+            "feedback": "No TDD, testes são escritos sempre antes.",
+            "correct": false
+        }
+    ]
+}

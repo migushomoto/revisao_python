@@ -1,0 +1,45 @@
+{
+    "id": "a8c7c783-be7c-4a03-8a5f-2157e045c653",
+    "SKU": "AS-FE-001",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "javascript",
+    "knowledgeArea": "Front-End",
+    "category": "SPA",
+    "subCategory": "SEO",
+    "level": "SENIOR",
+    "tagsOrConcepts": [
+        "React",
+        "Angular",
+        "SPA"
+    ],
+    "text": [
+        "Qual é a abordagem principal de manipulação do DOM em React e Angular?"
+    ],
+    "alternatives": [
+        {
+            "id": "a589edd8-955b-4ba8-871f-71bf9c9392de",
+            "text": "Angular utiliza uma representação virtual do DOM e React usa o DOM real",
+            "feedback": "Ambos usam a representação virtual",
+            "correct": false
+        },
+        {
+            "id": "db454aac-9292-4828-8e71-e8476d477de7",
+            "text": "React utiliza uma representação virtual do DOM e Angular usa o DOM real",
+            "feedback": "Ambos usam a representação virtual",
+            "correct": false
+        },
+        {
+            "id": "e4f675b4-8773-4e5e-88ef-cb8680851691",
+            "text": "Tanto React quanto Angular usam uma representação virtual do DOM para otimizar as atualizações",
+            "feedback": "Correta",
+            "correct": true
+        },
+        {
+            "id": "788e1845-6a01-4f2d-a02f-511fbb34acfa",
+            "text": "Tanto React quanto Angular usam o DOM real para otimizar as atualizações",
+            "feedback": "Ambos usam a representação virtual",
+            "correct": false
+        }
+    ]
+}

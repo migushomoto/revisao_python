@@ -1,0 +1,44 @@
+{
+    "id": "67b9c4f3-df46-4f87-9334-e9f5e3669d3f",
+    "SKU": "AS-FU-003",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "javascript",
+    "knowledgeArea": "Testes",
+    "category": "TDD",
+    "subCategory": "teoria",
+    "level": "SENIOR",
+    "tagsOrConcepts": [
+        "Unitário",
+        "Integração"
+    ],
+    "text": [
+        "Qual é a diferença fundamental entre um teste de unidade e um teste de integração e qual a proporção ideal entre eles?"
+    ],
+    "alternatives": [
+        {
+            "id": "93684a87-79ee-4985-baa5-ac55a8338cde",
+            "text": "Testes de unidade isolam componentes individuais, enquanto testes de integração verificam a interação entre componentes\nTestes unitários devem existir em maior número que testes de integração",
+            "feedback": "Correta",
+            "correct": true
+        },
+        {
+            "id": "dc6aa318-7784-451f-98d8-08595244e2c4",
+            "text": "Testes de unidade isolam componentes individuais, enquanto testes de integração verificam a interação entre componentes\nTestes de integração devem existir em maior número que testes unitários",
+            "feedback": "Testes unitários são mais 'baratos' de executar e menos complexos, devem ser, portanto, a maioria dos testes",
+            "correct": false
+        },
+        {
+            "id": "0cbbd46f-8176-4068-b326-9804a4f2519b",
+            "text": "Testes de unidade são escritos por desenvolvedores, enquanto testes de integração são escritos por testadores\nTestes unitários devem existir em maior número que testes de integração",
+            "feedback": "Ambos são escritos por desenvolvedores",
+            "correct": false
+        },
+        {
+            "id": "f67b0212-0b81-4b22-84a4-c545970ac577",
+            "text": "Testes de unidade são escritos por desenvolvedores, enquanto testes de integração são escritos por testadores\nTestes de integração devem existir em maior número que testes unitários",
+            "feedback": "Ambos são escritos por desenvolvedores",
+            "correct": false
+        }
+    ]
+}

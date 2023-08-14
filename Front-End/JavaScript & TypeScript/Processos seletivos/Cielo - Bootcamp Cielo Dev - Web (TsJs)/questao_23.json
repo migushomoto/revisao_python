@@ -1,0 +1,44 @@
+{
+    "id": "2e032d0f-b9d9-43aa-9fd3-99a4586346c2",
+    "SKU": "AS-OO-001",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "javascript",
+    "knowledgeArea": "Front-End",
+    "category": "Typescript",
+    "subCategory": "Tipagem",
+    "level": "SENIOR",
+    "tagsOrConcepts": [
+        "Tipagem estática",
+        "Generics"
+    ],
+    "text": [
+        "Qual alternativa oferece a melhor descrição sobre o conceito de generics e a vantagem do seu uso em Typescript?"
+    ],
+    "alternatives": [
+        {
+            "id": "f7f63c89-2c1f-4200-b2e2-7c8527faf371",
+            "text": "Generics permite criar funções e estruturas de dados que funcionam para mais de um tipo, mas continuam type-safe.\nOs tipos também possíveis podem ser restringidos por 'constraints'",
+            "feedback": "Correta",
+            "correct": true
+        },
+        {
+            "id": "f2ade39a-c4d2-4027-ae6e-fa76bf7fcfe7",
+            "text": "Generics é equivalente a fazer uma versão de funções e estruturas de dados usando 'any'. Ele permitirá que seja passado qualquer tipo sendo completamente polimórfico",
+            "feedback": "Não é verdade, generics tem controle muito mais refinado dos tipos do que usar 'any'",
+            "correct": false
+        },
+        {
+            "id": "533d1f0a-afed-49fe-baa8-27fe56514238",
+            "text": "Generics nos permite criar classes type-safe genéricas, que operam com mais de um tipo. Não sabemos qual tipo, mas sabemos em que lugares (atributos / métodos) serão usados os mesmos tipos",
+            "feedback": "É verdade, mas generics não é restrito às classes, pode ser usado em funções e interfaces",
+            "correct": false
+        },
+        {
+            "id": "4efd3f35-880e-457e-96ff-9102ec2b035e",
+            "text": "Generics é a unica forma de polimorfismo no typescript, uma vez que a tipagem estática da linguagem remove completamente a possibilidade de usar a tipagem dinâmica do JS",
+            "feedback": "Temos uma confusão de conceitos nesta alternativa, polimorfismo (que ocorre na herança e na implementação de interfaces) é confundido com sobrecarga e há uma comparação incorreta entre tipagem dinâmica e polimorfismo",
+            "correct": false
+        }
+    ]
+}

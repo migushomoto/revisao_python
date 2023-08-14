@@ -1,0 +1,43 @@
+{
+    "id": "5379f682-e771-4a44-aeba-95e99776400b",
+    "SKU": "AS-FE-001",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "javascript",
+    "knowledgeArea": "Front-End",
+    "category": "HTML",
+    "subCategory": "HTML 5",
+    "level": "PLENO",
+    "tagsOrConcepts": [
+        "media"
+    ],
+    "text": [
+        "Qual elemento HTML5 é usado para criar gráficos não-vetoriais e animações usando scripts JavaScript?"
+    ],
+    "alternatives": [
+        {
+            "id": "24102887-6f07-4468-93e4-58a5db21f8f3",
+            "text": "<canvas>",
+            "feedback": "Correta",
+            "correct": true
+        },
+        {
+            "id": "a4187c7d-5625-4f10-89e6-470555f4bd43",
+            "text": "<svg>",
+            "feedback": "SVG é vetorial",
+            "correct": false
+        },
+        {
+            "id": "f1e5a9e9-37ca-4903-9535-93ae546b8aeb",
+            "text": "<graphics>",
+            "feedback": "Geralmente chamamos de Graphics a parte do HTML que contém tanto SVG quanto Canvas",
+            "correct": false
+        },
+        {
+            "id": "2f457aac-b69f-4ef5-8220-d0c0daaddeb7",
+            "text": "<scriptbox>",
+            "feedback": "Essa tag não existe",
+            "correct": false
+        }
+    ]
+}

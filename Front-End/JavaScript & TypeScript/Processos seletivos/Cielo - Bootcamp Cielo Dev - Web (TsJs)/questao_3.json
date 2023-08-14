@@ -1,0 +1,44 @@
+{
+    "id": "190ce95d-4b66-435e-8e93-6b9ddcbf4b20",
+    "SKU": "AS-FE-001",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "javascript",
+    "knowledgeArea": "Front-End",
+    "category": "Programação WEB",
+    "subCategory": "consumo de API",
+    "level": "PLENO",
+    "tagsOrConcepts": [
+        "Consumo de API",
+        "JSON"
+    ],
+    "text": [
+        "Qual dos JSON abaixo, representado com um arquivo .json, está melhor formado?"
+    ],
+    "alternatives": [
+        {
+            "id": "ea82d7e8-968a-4872-ad1b-33675dc62d11",
+            "text": "{id:123, nome:\"teste\", ativo: true}",
+            "feedback": "Faltam as aspas nas chaves",
+            "correct": false
+        },
+        {
+            "id": "14266822-363e-406e-8f64-3486eeb0de19",
+            "text": "{\"id\":123, \"nome\":\"teste\", \"ativo\": \"true\"}",
+            "feedback": "Booleno tratado com string",
+            "correct": false
+        },
+        {
+            "id": "9cb82f93-acc3-445a-a2e2-6a36d97bf098",
+            "text": "{\"id\":\"123\", \"nome\":\"teste\", \"ativo\": true}",
+            "feedback": "Numério tratado como string",
+            "correct": false
+        },
+        {
+            "id": "d96d2688-7845-4d42-9c6a-f51f30092c83",
+            "text": "{\"id\":123, \"nome\":\"teste\", \"ativo\": true}",
+            "feedback": "Correta, aspas nas chaves, sem aspas em numéricos e booleanos",
+            "correct": true
+        }
+    ]
+}
