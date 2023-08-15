@@ -29,10 +29,10 @@ O "banco-de-questões" é uma estrutura que organiza de forma sistemática nosso
      - Questões classificadas por níveis de dificuldade: basic, medium, advanced.
 
    - Benchmarking de Senioridade:
-     - Assessments de nível de senioridade prontas.
+     - Assessments de nível de senioridade prontos.
 
    - Tecnologias Específicas:
-     - Assessments de tecnologias específicas prontas.
+     - Assessments de tecnologias específicas prontos.
 
    - Processos Seletivos:
-     - Testes de aptidão técnica para seleções.
+     - Testes de aptidão técnica para seleções prontos.
