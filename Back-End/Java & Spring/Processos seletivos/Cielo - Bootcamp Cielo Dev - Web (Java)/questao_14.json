@@ -5,15 +5,14 @@
     "type": "MULT",
     "language": "java",
     "knowledgeArea": "Back-End",
-    "category": "Programação WEB",
+    "category": "Java",
     "subCategory": "Orquestração",
-    "level": "PLENO",
+    "level": "Advanced",
     "tagsOrConcepts": [
         "Orquestração"
     ],
     "text": [
-        "No desenvolvimento de um produto, composto por gerenciamento de produtos, carrinho de compras, autenticação e processamento de pagamentos.",
-        "Para garantir o funcionamento em conjunto. Qual a melhor técnica de orquestração para esse produto?"
+        "No desenvolvimento de um produto, composto por gerenciamento de produtos, carrinho de compras, autenticação e processamento de pagamentos. Para garantir o funcionamento em conjunto. Qual a melhor técnica de orquestração para esse produto?"
     ],
     "alternatives": [
         {

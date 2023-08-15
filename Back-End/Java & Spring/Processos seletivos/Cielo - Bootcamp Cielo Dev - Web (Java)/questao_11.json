@@ -5,16 +5,14 @@
     "type": "MULT",
     "language": "java",
     "knowledgeArea": "Back-End",
-    "category": "Programação WEB",
+    "category": "Java",
     "subCategory": "Arquitetura",
-    "level": "PLENO",
+    "level": "Advanced",
     "tagsOrConcepts": [
         "Arquitetura", "Java"
     ],
     "text": [
-        "Você foi selecionado para escolher a arquitetura de um software de vendas.",
-        "Durante determinados períodos as vendas crescem e o volume de clientes aumentam. Um dos requisitos é manter o sistema sem quedas de desempenho.",
-        "Qual solução arquitetural melhor se encaixa neste cenário?"
+        "Você foi selecionado para escolher a arquitetura de um software de vendas. Durante determinados períodos as vendas crescem e o volume de clientes aumentam. Um dos requisitos é manter o sistema sem quedas de desempenho. Qual solução arquitetural melhor se encaixa neste cenário?"
     ],
     "alternatives": [
         {

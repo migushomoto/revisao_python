@@ -5,15 +5,14 @@
     "type": "MULT",
     "language": "java",
     "knowledgeArea": "Back-End",
-    "category": "Programação WEB",
+    "category": "Java",
     "subCategory": "Escalabilidade",
-    "level": "PLENO",
+    "level": "Advanced",
     "tagsOrConcepts": [
         "Escalabilidade"
     ],
     "text": [
-        "No sistema de vendas online, no período de promoções aumenta bastante a quantidade de usuários e vendas de forma simultânea.",
-        "Para evitar quedas no sistema, e garantir um ambiente estável durante o pico, qual a abordagem de escalabilidade ideal?"
+        "No sistema de vendas online, no período de promoções aumenta bastante a quantidade de usuários e vendas de forma simultânea. Para evitar quedas no sistema, e garantir um ambiente estável durante o pico, qual a abordagem de escalabilidade ideal?"
     ],
     "alternatives": [
         {

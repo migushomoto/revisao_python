@@ -5,9 +5,9 @@
     "type": "MULT",
     "language": "java",
     "knowledgeArea": "Back-End",
-    "category": "Programação WEB",
+    "category": "Java",
     "subCategory": "12 Fatores",
-    "level": "PLENO",
+    "level": "Medium",
     "tagsOrConcepts": [
         "12 Fatores"
     ],

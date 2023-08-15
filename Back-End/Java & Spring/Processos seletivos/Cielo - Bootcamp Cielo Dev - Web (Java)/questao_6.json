@@ -5,9 +5,9 @@
     "type": "MULT",
     "language": "java",
     "knowledgeArea": "Back-End",
-    "category": "Programação WEB",
+    "category": "Java",
     "subCategory": "Programação Orientada a Objetos",
-    "level": "PLENO",
+    "level": "Medium",
     "tagsOrConcepts": [
         "POO", "Encapsulamento", "Herança", "Abstração"
     ],

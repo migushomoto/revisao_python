@@ -5,16 +5,14 @@
     "type": "MULT",
     "language": "java",
     "knowledgeArea": "Back-End",
-    "category": "Programação WEB",
+    "category": "Java",
     "subCategory": "Disponibilidade",
-    "level": "PLENO",
+    "level": "Advanced",
     "tagsOrConcepts": [
         "Disponibilidade", "Tolerância a Falhas"
     ],
     "text": [
-        "Você foi designado para uma equipe que está desenvolvendo um sistema de pagamento online.",
-        "Um dos requisitos desse sistema, é a alta disponibilidade e tolerância a falhas para evitar perdas e impacto no cliente.",
-        "A equipe selecionou algumas opções, qual opção que atende o cenário de tolerância a falhas?"
+        "Você foi designado para uma equipe que está desenvolvendo um sistema de pagamento online. Um dos requisitos desse sistema, é a alta disponibilidade e tolerância a falhas para evitar perdas e impacto no cliente. A equipe selecionou algumas opções, qual opção que atende o cenário de tolerância a falhas?"
     ],
     "alternatives": [
         {

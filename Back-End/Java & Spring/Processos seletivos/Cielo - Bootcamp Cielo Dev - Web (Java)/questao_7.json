@@ -5,15 +5,14 @@
     "type": "MULT",
     "language": "java",
     "knowledgeArea": "Back-End",
-    "category": "Programação WEB",
+    "category": "Java",
     "subCategory": "SOLID",
-    "level": "PLENO",
+    "level": "Medium",
     "tagsOrConcepts": [
         "SOLID"
     ],
     "text": [
-        "No desenvolvimento de um software de gerenciamento de pedidos, você encontrou uma classe Pedido que tem muitas atribuições, e cada vez se torna mais complexa.",
-        "Qual opção abaixo representa a melhor solução do SOLID para este tipo de problema? "
+        "No desenvolvimento de um software de gerenciamento de pedidos, você encontrou uma classe Pedido que tem muitas atribuições, e cada vez se torna mais complexa. Qual opção abaixo representa a melhor solução do SOLID para este tipo de problema? "
     ],
     "alternatives": [
         {

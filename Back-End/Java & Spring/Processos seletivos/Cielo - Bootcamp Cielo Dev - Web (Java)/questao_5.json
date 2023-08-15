@@ -5,9 +5,9 @@
     "type": "MULT",
     "language": "java",
     "knowledgeArea": "Back-End",
-    "category": "Programação WEB",
+    "category": "Java",
     "subCategory": "Programação Paralela",
-    "level": "PLENO",
+    "level": "Advanced",
     "tagsOrConcepts": [
         "Assíncrono", "Programação paralela", "Entrada e Saída"
     ],
@@ -23,7 +23,7 @@
         },
         {
             "id": "52e84b10-40f9-4183-b9c1-a1ed79ac093f",
-            "text": "A programação assíncrona é realizada exclusivamente pelo uso de threads",
+            "text": "A programação assíncrona é realizada exclusivamente pelo uso da classe Thread",
             "feedback": "Não é a única forma, pois também podemos utilizar CompletableFuture e programação reativa.",
             "correct": false
         },
@@ -35,7 +35,7 @@
         },
         {
             "id": "622061f0-0ba7-4d90-9347-a63d26c71f28",
-            "text": "A única maneira de aplicar programação assíncrona em Java é através do uso de calsses Runnable",
+            "text": "A única maneira de aplicar programação assíncrona em Java é através do uso de classes Runnable",
             "feedback": "Não é a única maneira de aplicar, pois existem outras como Callable e frameworks que auxiliam no desenvolvimento.",
             "correct": false
         },

@@ -5,14 +5,14 @@
     "type": "MULT",
     "language": "java",
     "knowledgeArea": "Back-End",
-    "category": "Programação WEB",
+    "category": "Java",
     "subCategory": "Solid",
-    "level": "PLENO",
+    "level": "Medium",
     "tagsOrConcepts": [
         "SOLID", "JAVA"
     ],
     "text": [
-        "A equipe de software escolheu um princípio que permite a adição de novos recursos sem alterar o código existente, qual o princípio do SOLID foi escolhido?"
+        "A equipe de software escolheu um princípio que permite a adição de novos recursos sem alterar o código existente. Qual o princípio do SOLID foi escolhido?"
     ],
     "alternatives": [
         {

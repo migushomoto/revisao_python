@@ -5,9 +5,9 @@
     "type": "MULT",
     "language": "java",
     "knowledgeArea": "Back-End",
-    "category": "Programação WEB",
-    "subCategory": "metodologia Ágil",
-    "level": "PLENO",
+    "category": "Java",
+    "subCategory": "Metodologia Ágil",
+    "level": "Medium",
     "tagsOrConcepts": [
         "Scrum", "Metodologias Ágeis"
     ],

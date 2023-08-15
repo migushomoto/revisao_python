@@ -6,14 +6,13 @@
     "language": "java",
     "knowledgeArea": "Back-End",
     "category": "Programação WEB",
-    "subCategory": "Pattern",
-    "level": "PLENO",
+    "subCategory": "Padrões de Projeto",
+    "level": "Advanced",
     "tagsOrConcepts": [
-        "Patterns", "Java"
+        "Java", "Padrões de Projeto"
     ],
     "text": [
-        "Em um sistema de pedidos, o cliente e o fornecedor do pedido precisam ser notificados quando houver alteração.",
-        "Qual o padrão pode ser aplicado para resolver este problema?"
+        "Em um sistema de pedidos, o cliente e o fornecedor do pedido precisam ser notificados quando houver alteração. Qual o padrão pode ser aplicado para resolver este problema?"
     ],
     "alternatives": [
         {

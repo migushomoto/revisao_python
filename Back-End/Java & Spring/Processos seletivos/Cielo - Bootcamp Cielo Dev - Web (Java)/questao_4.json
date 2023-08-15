@@ -5,17 +5,14 @@
     "type": "MULT",
     "language": "java",
     "knowledgeArea": "Back-End",
-    "category": "Programação WEB",
+    "category": "Java",
     "subCategory": "Programação Paralela",
-    "level": "PLENO",
+    "level": "Advanced",
     "tagsOrConcepts": [
         "Programação Paralela", "Thread"
     ],
     "text": [
-        "Um desenvolvedor na equipe precisa de ajuda para resolver um problema para uma nova funcionalidade. ",
-        "A funcionalidade exige que o programa navegue entre 10 sistemas e realize o download de 1 imagem em cada sistema, ",
-        "porém o download demora cerca de 5 segundos para concluir cada imagem.",
-        "O que você poderia sugerir para implementação da funcionalidade para otimizar o tempo de resposta? "
+        "Um desenvolvedor na equipe precisa de ajuda para resolver um problema para uma nova funcionalidade. A funcionalidade exige que o programa navegue entre 10 sistemas e realize o download de 1 imagem em cada sistema, porém o download demora cerca de 5 segundos para concluir cada imagem. O que você poderia sugerir para implementação da funcionalidade para otimizar o tempo de resposta? "
     ],
     "alternatives": [
         {

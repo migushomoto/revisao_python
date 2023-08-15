@@ -5,9 +5,9 @@
     "type": "MULT",
     "language": "java",
     "knowledgeArea": "Back-End",
-    "category": "Programação WEB",
+    "category": "Java",
     "subCategory": "Programação Assíncrona",
-    "level": "PLENO",
+    "level": "Advanced",
     "tagsOrConcepts": [
         "Programação Assíncrona"
     ],

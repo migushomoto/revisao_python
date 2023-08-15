@@ -5,15 +5,14 @@
     "type": "MULT",
     "language": "java",
     "knowledgeArea": "Back-End",
-    "category": "Programação WEB",
+    "category": "Java",
     "subCategory": "Metodologias Ágeis",
-    "level": "PLENO",
+    "level": "Medium",
     "tagsOrConcepts": [
         "Metodologias Ágeis", "Scrum", "Kanban", "Lean"
     ],
     "text": [
-        "Durante o ciclo de desenvolvimento de um projeto. A equipe está enfrentando mudanças frequentes nos requisitos do cliente",
-        "e desejam uma abordagem mais flexível. Qual metodologia ágil é mais apropriada para este cenário?"
+        "Durante o ciclo de desenvolvimento de um projeto. A equipe está enfrentando mudanças frequentes nos requisitos do cliente e desejam uma abordagem mais flexível. Qual metodologia ágil é mais apropriada para este cenário?"
     ],
     "alternatives": [
         {
