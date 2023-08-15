@@ -1,0 +1,52 @@
+{
+    "id": "332e3bd1-236b-4fce-b637-8a565f608256",
+    "SKU": "000004",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "java",
+    "knowledgeArea": "Back-End",
+    "category": "Programação WEB",
+    "subCategory": "Programação Paralela",
+    "level": "PLENO",
+    "tagsOrConcepts": [
+        "Programação Paralela", "Thread"
+    ],
+    "text": [
+        "Um desenvolvedor na equipe precisa de ajuda para resolver um problema para uma nova funcionalidade. ",
+        "A funcionalidade exige que o programa navegue entre 10 sistemas e realize o download de 1 imagem em cada sistema, ",
+        "porém o download demora cerca de 5 segundos para concluir cada imagem.",
+        "O que você poderia sugerir para implementação da funcionalidade para otimizar o tempo de resposta? "
+    ],
+    "alternatives": [
+        {
+            "id": "68ddc97e-5d29-40d7-b189-79a2ff516487",
+            "text": "Utilizar um loop for tradicional para baixar as imagens",
+            "feedback": "Não está correta, pois esta implementação não otimiza o tempo.",
+            "correct": false
+        },
+        {
+            "id": "03bf05b4-814a-4163-b1b6-bdbd818fa0bb",
+            "text": "Utilizar apenas 1 thread para fazer o download de forma sequencial",
+            "feedback": "Utilizando apenas 1 thread não consegue otimizar e aproveitar o benefício da programação assíncrona.",
+            "correct": false
+        },
+        {
+            "id": "eff6f5bf-2c3a-4f61-bc6c-3f48a1f7c7d7",
+            "text": "Utilizar o ExecutorService para criar um pool de threads",
+            "feedback": "Esta é a opção que melhor atende o cenário, pois pode ser executado de forma paralela.",
+            "correct": true
+        },
+        {
+            "id": "48ebe9a3-3277-42e9-ad1b-b78a4fd2d440",
+            "text": "Utilizar a classe Future para aguardar a conclusão do download",
+            "feedback": "Este tipo de classe é utilizado apenas para aguardar um resultado futuro.",
+            "correct": false
+        },
+        {
+            "id": "5626ea67-d80f-4021-91f3-713d0c10d988",
+            "text": "Utilizar a classe Thread para criar threads separadas para cada download",
+            "feedback": "Esta não é a melhor escolha, pois pode causar problemas relacionados ao gerenciamento e concorrência",
+            "correct": false
+        }
+    ]
+}

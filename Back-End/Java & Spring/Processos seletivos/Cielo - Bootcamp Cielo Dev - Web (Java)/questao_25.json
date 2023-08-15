@@ -1,0 +1,49 @@
+{
+    "id": "78f089c5-0908-4587-898f-1ce50f6d8b68",
+    "SKU": "000025",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "java",
+    "knowledgeArea": "Back-End",
+    "category": "Programação WEB",
+    "subCategory": "Programação Assíncrona",
+    "level": "PLENO",
+    "tagsOrConcepts": [
+        "Programação Assíncrona"
+    ],
+    "text": [
+        "Qual é a principal vantagem da utilização da programação assíncrona comparado a programação síncrona em um ambiente de aplicação web?"
+    ],
+    "alternatives": [
+        {
+            "id": "d5dd1430-e9d6-484d-a687-57d460ad090a",
+            "text": "Não tem vantagens",
+            "feedback": "Incorreto, pois existem diversas vantagens.",
+            "correct": false
+        },
+        {
+            "id": "32f89b19-5b56-4e1d-80a4-5afce6484e7b",
+            "text": "A programação assíncrona não exige o uso de bibliotecas externas",
+            "feedback": "Incorreto, pois pode exigir a utilização.",
+            "correct": false
+        },
+        {
+            "id": "1bd6fae5-32c1-45f6-91cb-b7e57f9a6b94",
+            "text": "A programação assíncrona reduz o consumo de memória RAM",
+            "feedback": "Incorreto, pois o consumo de memória não é diretamente afetado pela programação assíncrona",
+            "correct": false
+        },
+        {
+            "id": "e506eb98-8665-4b68-a25c-62d498b95a2f",
+            "text": "A programação assíncrona melhora escalabilidade e tempo de resposta da aplicação",
+            "feedback": "Correto, pois a principal vantagem é a escalabilidade e tempo de resposta, permitindo atender um número maior de solicitações.",
+            "correct": true
+        },
+        {
+            "id": "fae3fe59-4ce7-4e52-a569-b524b1200379",
+            "text": "A programação assíncrona torna o código mais fácil de manutenção e resolução de bugs",
+            "feedback": "Incorreto, pois a programação pode tornar o código mais complexo.",
+            "correct": false
+        }
+    ]
+}

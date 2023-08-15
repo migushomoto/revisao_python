@@ -1,0 +1,49 @@
+{
+    "id": "fafe79a5-1461-49d5-a988-c8269c283770",
+    "SKU": "000017",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "java",
+    "knowledgeArea": "Back-End",
+    "category": "Programação WEB",
+    "subCategory": "metodologia Ágil",
+    "level": "PLENO",
+    "tagsOrConcepts": [
+        "Scrum", "Metodologias Ágeis"
+    ],
+    "text": [
+        "No Scrum, qual a função responsável por garantir que a equipe siga os valores, práticas e regras do Scrum, e atua também como facilitador para resolver impedimentos?"
+    ],
+    "alternatives": [
+        {
+            "id": "19359f17-0e79-4b31-b126-5865ae66c813",
+            "text": "Product Owner",
+            "feedback": "Responsável pelo backlog de produtos e definição de prioridades.",
+            "correct": false
+        },
+        {
+            "id": "6d2edb46-64ff-466c-98de-48e485bb06e5",
+            "text": "Scrum Master",
+            "feedback": "É o responsável por garantir que a equipe siga os valores, e também ajuda a resolver impedimentos.",
+            "correct": true
+        },
+        {
+            "id": "7573b006-3afa-48e6-8bbe-9bc8f4d4c28e",
+            "text": "Development Team",
+            "feedback": "É o responsável pelo desenvolvimento das funcionalidades do produto.",
+            "correct": false
+        },
+        {
+            "id": "27121bd4-d618-4102-856a-42c95d3785d3",
+            "text": "Stakeholder",
+            "feedback": "São todas as partes interessadas no projeto, não tem o papel de facilitador.",
+            "correct": false
+        },
+        {
+            "id": "6a26e9c4-152f-49f1-b385-27119a014a27",
+            "text": "Agile Coach",
+            "feedback": "Fornece orientação sobre metódologia ágil, mas não é a função principal garantir a adesão do Scrum",
+            "correct": false
+        }
+    ]
+}

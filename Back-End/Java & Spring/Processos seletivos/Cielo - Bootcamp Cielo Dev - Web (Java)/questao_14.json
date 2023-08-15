@@ -1,0 +1,50 @@
+{
+    "id": "3c7ae2c4-72f0-48c8-845a-29fe65a658de",
+    "SKU": "000014",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "java",
+    "knowledgeArea": "Back-End",
+    "category": "Programação WEB",
+    "subCategory": "Orquestração",
+    "level": "PLENO",
+    "tagsOrConcepts": [
+        "Orquestração"
+    ],
+    "text": [
+        "No desenvolvimento de um produto, composto por gerenciamento de produtos, carrinho de compras, autenticação e processamento de pagamentos.",
+        "Para garantir o funcionamento em conjunto. Qual a melhor técnica de orquestração para esse produto?"
+    ],
+    "alternatives": [
+        {
+            "id": "c565fab6-b5c1-4024-a609-793c786d02d8",
+            "text": "Chamadas Síncronas",
+            "feedback": "Garante a coordenação direta e sequencial dos serviços, garantindo a conclusão de cada etapa antes de prosseguir",
+            "correct": true
+        },
+        {
+            "id": "dc858cd8-c931-4a9a-aa5c-2c6cf9c40e84",
+            "text": "Chamadas Assíncronas",
+            "feedback": "Não garante a ordem direta dos serviços",
+            "correct": false
+        },
+        {
+            "id": "8877b1b2-0b78-4792-a350-6b43622269b3",
+            "text": "Microfrontend",
+            "feedback": "É utilizado para criar interfaces de usuários, não faz sentido com a orquestração",
+            "correct": false
+        },
+        {
+            "id": "3f5f215d-ad6a-4c7f-b3b0-52a353d86fb3",
+            "text": "Event-Driven",
+            "feedback": "Não garante a ordem sequencial dos serviços",
+            "correct": false
+        },
+        {
+            "id": "cef9f058-6ff8-4dc2-b83b-5c26514feb89",
+            "text": "Escalonamento Horizontal",
+            "feedback": "Refere-se a infraestrutura no escalonamento da aplicação, não está relacionado a coordenação entre os serviços",
+            "correct": false
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "id": "6e64fd77-81b3-4d32-b5b3-8d5ba7a7ed55",
+    "SKU": "000009",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "java",
+    "knowledgeArea": "Back-End",
+    "category": "Programação WEB",
+    "subCategory": "Orientação a Objetos",
+    "level": "PLENO",
+    "tagsOrConcepts": [
+        "Orientação a Objetos", "POO", "Visibilidade de métodos"
+    ],
+    "text": [
+        "Qual o objetivo principal da sobrecarga de métodos?"
+    ],
+    "alternatives": [
+        {
+            "id": "f82d9b28-29a7-46b9-9e87-bf0fbb81c0c9",
+            "text": "Permitir que métodos privados possam ser acessados por classes diferentes",
+            "feedback": "Não está relacionado a visibilidade de métodos",
+            "correct": false
+        },
+        {
+            "id": "0febb8b5-886c-4773-9971-042374d3f1d3",
+            "text": "Permitir que uma classe tenha diferentes versões de um método com diferentes parâmetros",
+            "feedback": "A sobrecarga permite ter diferentes implementações para o mesmo nome de método com parâmetros diferentes",
+            "correct": true
+        },
+        {
+            "id": "f7685b85-f3e9-4d38-9f0a-4e8568286670",
+            "text": "Evitar chamadas acidentais para métodos",
+            "feedback": "Não está relacionado a chamada de métodos acidentais",
+            "correct": false
+        },
+        {
+            "id": "0ab3c980-8950-4e67-ace1-dbc8c83d7ad3",
+            "text": "Criar uma cópia de um método existente",
+            "feedback": "Sobrecarga cria versões com diferentes parâmetros",
+            "correct": false
+        },
+        {
+            "id": "4fc81435-6c08-4c3a-a450-0190b2494490",
+            "text": "Impedir que os métodos sejam herdados pelas subclasses",
+            "feedback": "Impedir herança não está relacionado",
+            "correct": false
+        }
+    ]
+}

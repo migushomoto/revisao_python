@@ -1,0 +1,49 @@
+{
+    "id": "59c92b51-780d-4d5b-9456-e1435b40643e",
+    "SKU": "000006",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "java",
+    "knowledgeArea": "Back-End",
+    "category": "Programação WEB",
+    "subCategory": "Programação Orientada a Objetos",
+    "level": "PLENO",
+    "tagsOrConcepts": [
+        "POO", "Encapsulamento", "Herança", "Abstração"
+    ],
+    "text": [
+        "Qual afirmação sobre encapsulamento e abstração em Programação Orientada a Objetos está correta?"
+    ],
+    "alternatives": [
+        {
+            "id": "b3514c95-a722-4381-8581-af0b199ed7dc",
+            "text": "O objetivo do encapsulamento é proteger detalhes internos, preservando dados e lógicas através de métodos públicos",
+            "feedback": "Este é o objetivo principal do encapsulamento. Proteger através de métodos Getters e Setters",
+            "correct": true
+        },
+        {
+            "id": "1a00290e-fd9e-45b4-aae8-2be4c4f1dbf0",
+            "text": "Herança e encapsulamento tem o mesmo objetivo",
+            "feedback": "Herança está relacionado a hierarquia e reutilização, enquanto encapsulamento está relacionado a ocultação.",
+            "correct": false
+        },
+        {
+            "id": "26f66b0b-aec9-4dd2-868d-d43165dc9a3a",
+            "text": "A classe abstrata também pode ser utilizada na instanciação de objetos",
+            "feedback": "Classes abstratas não podem ser diretamente instanciadas.",
+            "correct": false
+        },
+        {
+            "id": "b3f6ca07-b920-49b6-833c-a2c0e8d534fd",
+            "text": "Encapsulamento e abstração tem o mesmo objetivo na Programação Orientada a Objetos",
+            "feedback": "Encapsulamento e abstração são conceitos totalmente diferentes, encapsulamento esconde detalhes da implementação enquanto abstração serve para modelar objetos.",
+            "correct": false
+        },
+        {
+            "id": "310515e8-e3d8-4f56-8d75-9291616e523d",
+            "text": "Na Programação Orientada a Objetos, todos os métodos devem ser definidos como public",
+            "feedback": "Incorreto, métodos também podem ser definidos como private, protected, default.",
+            "correct": false
+        }
+    ]
+}

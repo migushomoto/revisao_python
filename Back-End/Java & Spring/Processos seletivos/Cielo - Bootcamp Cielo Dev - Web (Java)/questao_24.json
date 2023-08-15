@@ -1,0 +1,49 @@
+{
+    "id": "75920bfb-5931-485c-8220-10269a15f483",
+    "SKU": "000024",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "java",
+    "knowledgeArea": "Back-End",
+    "category": "Programação WEB",
+    "subCategory": "Spring Framework",
+    "level": "PLENO",
+    "tagsOrConcepts": [
+        "Spring", "Injeção de Dependências"
+    ],
+    "text": [
+        "No Spring Framework, qual é o mecanismo usado para injetar automaticamente dependências em uma classe, utilizando a inversão de controle?"
+    ],
+    "alternatives": [
+        {
+            "id": "eadcd4bb-e4b1-4b2b-a4b7-5bd9e7f49a3c",
+            "text": "@Autowired",
+            "feedback": "Utilizado para injetar as dependências no contexto Spring.",
+            "correct": true
+        },
+        {
+            "id": "4d1b592e-b0cb-45b0-a664-da694022e431",
+            "text": "@Inject",
+            "feedback": "Não é utilizado no contexto Spring.",
+            "correct": false
+        },
+        {
+            "id": "a5bd4bf5-5667-4121-bea3-de1097ac71e3",
+            "text": "@Bean",
+            "feedback": "Não é utilizado para este fim no contexto Spring.",
+            "correct": false
+        },
+        {
+            "id": "5599942c-5eb4-4d28-9398-f0fcbbb5ba94",
+            "text": "@Component",
+            "feedback": "Não é utilizado para este fim no contexto Spring.",
+            "correct": false
+        },
+        {
+            "id": "81efd056-ac1b-4b5e-ba51-364c58072328",
+            "text": "@Service",
+            "feedback": "Não é utilizado para este fim no contexto Spring.",
+            "correct": false
+        }
+    ]
+}

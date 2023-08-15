@@ -1,0 +1,50 @@
+{
+    "id": "192402a6-1132-43bf-81df-cfb3d5921dae",
+    "SKU": "000016",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "java",
+    "knowledgeArea": "Back-End",
+    "category": "Programação WEB",
+    "subCategory": "Metodologias Ágeis",
+    "level": "PLENO",
+    "tagsOrConcepts": [
+        "Metodologias Ágeis", "Scrum", "Kanban", "Lean"
+    ],
+    "text": [
+        "Durante o ciclo de desenvolvimento de um projeto. A equipe está enfrentando mudanças frequentes nos requisitos do cliente",
+        "e desejam uma abordagem mais flexível. Qual metodologia ágil é mais apropriada para este cenário?"
+    ],
+    "alternatives": [
+        {
+            "id": "93809c77-860e-4734-9601-1c74b6639151",
+            "text": "Scrum",
+            "feedback": "Essa é a melhor abordagem pelo cenário, pois é uma abordagem iterativa e incremental.",
+            "correct": true
+        },
+        {
+            "id": "3c1c188a-d9b8-4964-be77-2a45269ef472",
+            "text": "Kanban",
+            "feedback": "É focado no fluxo contínuo de trabalho",
+            "correct": false
+        },
+        {
+            "id": "9bfa55e8-28c9-471f-9f10-27049180793c",
+            "text": "Waterfall",
+            "feedback": "É uma abordagem sequencial, não flexível para mudanças.",
+            "correct": false
+        },
+        {
+            "id": "8d5f3c3e-8749-4fe1-a772-8f3b245d92d1",
+            "text": "Lean",
+            "feedback": "É uma abordagem que visa eficiência e eliminação de desperdícios",
+            "correct": false
+        },
+        {
+            "id": "9afbac12-8742-4d69-bdc5-4448df5f6449",
+            "text": "XP",
+            "feedback": "Enfatiza mais qualidade do código e práticas de desenvolvimento",
+            "correct": false
+        }
+    ]
+}

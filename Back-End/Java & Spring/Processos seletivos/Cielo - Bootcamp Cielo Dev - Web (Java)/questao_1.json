@@ -1,0 +1,49 @@
+{
+    "id": "a20884df-6d12-4808-98ff-a14b0cb209b7",
+    "SKU": "000001",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "java",
+    "knowledgeArea": "Back-End",
+    "category": "Programação WEB",
+    "subCategory": "Estrutura de Dados",
+    "level": "PLENO",
+    "tagsOrConcepts": [
+        "Estrutura de Dados", "Set", "HashSet"
+    ],
+    "text": [
+        "Qual das seguintes afirmações sobre HashSets está correta?"
+    ],
+    "alternatives": [
+        {
+            "id": "8afffbf2-3aed-11ee-be56-0242ac120002",
+            "text": "HashSets garantem a ordem de inserção dos elementos",
+            "feedback": "Não está correta, pois ela pode não respeitar a ordem.",
+            "correct": false
+        },
+        {
+            "id": "8f66295a-3aed-11ee-be56-0242ac120002",
+            "text": "HashSets permitem armazenar chaves e valores associados",
+            "feedback": "Não está correta, pois esta alternativa representa um HashMap.",
+            "correct": false
+        },
+        {
+            "id": "94d66c92-3aed-11ee-be56-0242ac120002",
+            "text": "HashSets podem conter elementos duplicados",
+            "feedback": "Não está correta, pois toda coleção da categoria Set não existe duplicidade",
+            "correct": false
+        },
+        {
+            "id": "9a51e606-3aed-11ee-be56-0242ac120002",
+            "text": "HashSets são implementações de filas (queues) otimizadas para buscas rápidas",
+            "feedback": "Não está correta, pois não são implementações de filas",
+            "correct": false
+        },
+        {
+            "id": "0c7b685e-3af0-11ee-be56-0242ac120002",
+            "text": "HashSets garantem a unicidade dos elementos",
+            "feedback": "Está correta, pois todas implementações de Set buscam garantir a unicidade pelo método hashCode()",
+            "correct": true
+        }
+    ]
+}

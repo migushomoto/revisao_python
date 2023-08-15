@@ -1,0 +1,49 @@
+{
+    "id": "4128223c-f6d9-47b3-aaec-826ff3e04ba8",
+    "SKU": "000019",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "java",
+    "knowledgeArea": "Back-End",
+    "category": "Programação WEB",
+    "subCategory": "Scrum",
+    "level": "PLENO",
+    "tagsOrConcepts": [
+        "DoD", "Scrum", "metodologia Ágil"
+    ],
+    "text": [
+        "No Scrum, qual o significado de DoD para a equipe de desenvolvimento?"
+    ],
+    "alternatives": [
+        {
+            "id": "e4705c8d-8d33-4ad4-8ea6-1818388726e4",
+            "text": "Definição de Duração",
+            "feedback": "Não é um conceito utilizado no Scrum.",
+            "correct": false
+        },
+        {
+            "id": "c3346141-4f2c-493f-b803-954462e14cfb",
+            "text": "Documentação de Desenvolvimento",
+            "feedback": "É um documento orientado ao desenvolvimento, não significa a definição de pronto.",
+            "correct": false
+        },
+        {
+            "id": "326d1582-510a-45cd-9d9c-d9749bdc6acb",
+            "text": "Definição de Donos",
+            "feedback": "Não é um conceito utilizado no Scrum.",
+            "correct": false
+        },
+        {
+            "id": "fc2b339d-d1c1-417a-8f6c-48948c74570d",
+            "text": "Documento de Dificuldades",
+            "feedback": "Não é um conceito utilizado no Scrum.",
+            "correct": false
+        },
+        {
+            "id": "ddcf6e36-8ae7-4fa1-9adf-2ff8242d48d0",
+            "text": "Definição de Pronto",
+            "feedback": "A sigla DoD, significa 'Definition of Done' em inglês que representa um conjunto de critérios que um item deve atender para ser considerado pronto.",
+            "correct": true
+        }
+    ]
+}

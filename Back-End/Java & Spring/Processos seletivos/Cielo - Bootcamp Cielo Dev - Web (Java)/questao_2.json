@@ -1,0 +1,49 @@
+{
+    "id": "bf859293-008b-4462-9b22-75aaf186119d",
+    "SKU": "000002",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "java",
+    "knowledgeArea": "Back-End",
+    "category": "Programação WEB",
+    "subCategory": "Estrutura de Dados",
+    "level": "PLENO",
+    "tagsOrConcepts": [
+        "Estrutura de Dados", "List", "Map"
+    ],
+    "text": [
+        "Qual das opções abaixo é a mais apropriada para mapear um número de registro de uma pessoa para as informações correspondentes?"
+    ],
+    "alternatives": [
+        {
+            "id": "c4935cfd-e243-4b1a-9b0c-122545dad470",
+            "text": "HashSet",
+            "feedback": "HashSet não permite a utilização de chave-valor",
+            "correct": false
+        },
+        {
+            "id": "eba2e4a2-7a04-4d85-aa9f-44faee366d10",
+            "text": "ArrayList",
+            "feedback": "ArrayList não permite a utilização de chave-valor",
+            "correct": false
+        },
+        {
+            "id": "871c5cfe-33d8-4392-ae78-e34ff79fd1a6",
+            "text": "TreeSet",
+            "feedback": "TreeSet não permite a utilização de chave-valor",
+            "correct": false
+        },
+        {
+            "id": "c5070958-c407-4d07-8c62-9c48d998b828",
+            "text": "HashMap",
+            "feedback": "HashMap é a escolha correta, pois podemos associar um número como chave, e as informações como valor",
+            "correct": true
+        },
+        {
+            "id": "43466092-3014-4ae5-8600-6a7667e20ada",
+            "text": "LinkedList",
+            "feedback": "LinkedList não permite a utilização de chave-valor",
+            "correct": false
+        }
+    ]
+}

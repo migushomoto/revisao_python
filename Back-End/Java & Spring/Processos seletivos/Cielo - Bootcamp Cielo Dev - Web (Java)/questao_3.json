@@ -1,0 +1,49 @@
+{
+    "id": "ec688d0b-201b-4691-97e1-0ac012d64689",
+    "SKU": "000003",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "java",
+    "knowledgeArea": "Back-End",
+    "category": "Programação WEB",
+    "subCategory": "Programação Paralela",
+    "level": "PLENO",
+    "tagsOrConcepts": [
+        "Programação Paralela", "Palavras Reservadas"
+    ],
+    "text": [
+        "Qual a opção é a mais adequada para programação paralela e assíncrona?"
+    ],
+    "alternatives": [
+        {
+            "id": "fac104a3-145f-473d-9cb4-1f5a7ba54c08",
+            "text": "StringBuilder",
+            "feedback": "Não está correta, pois ela é utilizada para manipulação de Strings.",
+            "correct": false
+        },
+        {
+            "id": "30f80f36-de5b-4bd2-a9f1-8b59b60f5569",
+            "text": "final",
+            "feedback": "Esta palavra reservada é utilizada para informar algo que não pode ser alterado.",
+            "correct": false
+        },
+        {
+            "id": "4a22db57-7f9d-4150-b196-13dd53e8f59b",
+            "text": "static",
+            "feedback": "Esta palavra reservada é utilizada para indicar que membros pertencem à classe",
+            "correct": false
+        },
+        {
+            "id": "b0cffdc7-e307-4335-a05a-d9f172729086",
+            "text": "Thread",
+            "feedback": "Este tipo de classe é utilizado para criar threads que podem executar de forma paralela",
+            "correct": true
+        },
+        {
+            "id": "e40ccca1-91dc-4f6e-99c0-cd9a604c7ded",
+            "text": "String",
+            "feedback": "Esta classe é utilizada para manipulação de strings, não está relacionada à programação paralela",
+            "correct": false
+        }
+    ]
+}
