@@ -11,7 +11,7 @@
     "level": "Basic",
     "tagsOrConcepts":["Operadores lógicos e estruturas condicionais"],
     "text":[ 
-    "Qual é o valor de \"idade_categoria\" após a execução do seguinte trecho de código em Python?",
+    "Qual é o valor de `idade_categoria` após a execução do seguinte trecho de código em Python?",
     "----",
     "idade = 25",
     "if idade < 18: idade_categoria = \"menor de idade\"",

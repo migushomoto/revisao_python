@@ -15,8 +15,8 @@
     "---",
     "total = 0",
     "for i in range(1, 10):",
-    "'  if i % 2 == 0:",
-    "'  '    total += i",
+    "\tif i % 2 == 0:",
+    "\t\ttotal += i",
     "resultado = total ** 2",
     "---"],
     "alternatives": [

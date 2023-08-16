@@ -11,7 +11,7 @@
     "subCategory": "Generics",
     "level": "Basic",
     "text":[ 
-    "Qual é o tipo de dado retornado pela função \"input()\" em Python?"
+    "Qual é o tipo de dado retornado pela função `input()` em Python?"
     ],
     "alternatives": [
         {   "text": "string (str)", 

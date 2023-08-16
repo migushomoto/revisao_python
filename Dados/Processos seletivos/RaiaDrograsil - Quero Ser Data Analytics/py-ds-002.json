@@ -11,7 +11,7 @@
     "subCategory": "Generics",
     "level": "Basic",
     "text":[ 
-    "O que representa o seguinte trecho de código em Python?\n",
+    "O que representa o seguinte trecho de código em Python?",
     "if idade >= 18:\n\tprint(\"Você é maior de idade!\")\nelse:\n\tprint(\"Você é menor de idade!\")"],
     "alternatives": [
         {   "text": "Uma estrutura de repetição.", 

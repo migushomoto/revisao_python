@@ -14,7 +14,7 @@
     "Qual é a saída do seguinte código em Python?",
     "---",
     "def mensagem(nome):",
-    "'  return f\"Olá, {nome}!\"",
+    "\treturn f\"Olá, {nome}!\"",
     "resultado = '; '.join([mensagem(\"Ana\"), mensagem(\"Carlos\")])",
     "---"],
     "alternatives": [

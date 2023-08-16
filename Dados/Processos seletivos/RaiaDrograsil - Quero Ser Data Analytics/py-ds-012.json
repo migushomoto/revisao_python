@@ -11,7 +11,7 @@
     "subCategory": "Generics",
     "level": "Basic",
     "text":[ 
-    "Qual das opções abaixo solicita que o usuário digite um número e armazene-o em uma variável chamada \"idade\"?"
+    "Qual das opções abaixo solicita que o usuário digite um número e armazene-o em uma variável chamada `idade` (ainda que na forma de string)?"
     ],
     "alternatives": [
         {   "text": "input(idade)", 

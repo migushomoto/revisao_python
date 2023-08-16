@@ -14,7 +14,7 @@
     "Qual é o resultado da seguinte função em Python?",
     "---",
     "def calcular(a, b):",
-    "'  return a + b, a - b",
+    "\treturn a + b, a - b",
     "resultado = calcular(8, 3)",
     "---"],
     "alternatives": [

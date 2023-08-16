@@ -11,13 +11,13 @@
     "subCategory": "Generics",
     "level": "Basic",
     "text":[ 
-    "Qual é o valor de \"resultado\" após a execução do seguinte trecho de código em Python?",
+    "Qual é o valor de `resultado` após a execução do seguinte trecho de código em Python?",
     "---",
     "i = 5",
     "resultado = 1",
     "while i > 2:",
-    "'  resultado *= i",
-    "'  i += 1",
+    "\tresultado *= i",
+    "\ti += 1",
     "---"],
     "alternatives": [
         {   "text": "13", 

@@ -11,12 +11,12 @@
     "subCategory": "Generics",
     "level": "Basic",
     "text":[ 
-    "Qual é o resultado da seguinte expressão em Python?",
+    "Qual é o resultado da seguinte expressão em Python? Considere que houve uma quebra de linha entre os elementos nas alternativas, conforme eles vão sendo exibidos individualmente.",
     "---",
     "x = 10",
     "while x > 0:",
-    "'  print(x)",
-    "'  x -= 2",
+    "\tprint(x)",
+    "\tx -= 2",
     "---"],
     "alternatives": [
         {   "text": "10 9 8 7 6", 
