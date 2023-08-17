@@ -30,7 +30,7 @@
             "id": "9744e929-6f85-4d84-89a8-23510830f013"
         },
         {   "text": "O Designer possui um ponto de atenção que é a ausência de um editor integrado, deste modo, será necessário a utilizar de um á parte para criar e modificar seus recursos.", 
-            "feedback":"Errado. O Designer possui um editor integrado e com isso você não precisa usar um editor de texto à parte.  editor integrado também fornece um recurso de autocompletar que lista todos os nomes de propriedade de um recurso.", 
+            "feedback":"Errado. O Designer possui um editor integrado e com isso você não precisa usar um editor de texto à parte. Esse editor integrado também fornece um recurso de autocompletar que lista todos os nomes de propriedade de um recurso.", 
             "correct":false,
             "id": "9744e929-6f85-4d84-89a8-23510830f014"
         }
