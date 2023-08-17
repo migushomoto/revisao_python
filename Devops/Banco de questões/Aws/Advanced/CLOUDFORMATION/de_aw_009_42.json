@@ -1,0 +1,38 @@
+{
+    "SKU": "000002",
+    "interpreter": 1,
+    "type": "VF",
+    "language": "NA",
+    "tagsOrConcepts":["Cloud"],
+    "UUID": "9744e929-6f85-4d84-89a8-23510830f010",
+    "id": "9744e929-6f85-4d84-89a8-23510830f010",
+    "knowledgeArea": "Cloud",
+    "category": "AWS",
+    "subCategory": "Cloud Formation",
+    "level": "Advanced",
+    "text":[ 
+    "O Cloud Formation possui uma ferramenta gráfica chamada CloudFormation Designer, utilizada para criar, visualizar e modificar modelos. Com ele é possível diagramar os recursos usando uma interface de arrastar, soltar e editar usando o JSON ou YAML integrado. Sobre esse add-on, é correto afirmar:"
+    ],
+    "alternatives": [
+        {   "text": "É possível utilizar esse add-on na AWS para qualquer tipo de ferramenta cujo objetivo sera infraestrutura como código.", 
+            "feedback":"Errado. Essa ferramenta em especifico é totalmente direcionada para o Cloudformation, tendo como objetivo facilitar a utilização da solução dentro da Cloud AWS.", 
+            "correct":false,
+            "id": "9744e929-6f85-4d84-89a8-23510830f011"
+        },
+        {   "text": "Com o Cloudformation Designer, você pode ver uma representação gráfica dos recursos incluídos em um modelo e como eles se relacionam entre si.", 
+            "feedback":"Correto. Através dele sera possível obter informações sobre os recursos, tamanhos, metadados de modelo, dentre outras possibilidade. Quando você abre um modelo no Designer, ele exibe o diagrama exatamente como ele é exibido quando você salvou o modelo pela última vez.", 
+            "correct":true,
+            "id": "9744e929-6f85-4d84-89a8-23510830f012"
+        },
+        {   "text": "Usando o Designer, você passa menos tempo codificando manualmente os modelos e mais tempo projetando a infraestrutura da AWS.", 
+            "feedback":"Correto. No Designer, você arrasta e solta novos recursos para adicioná-los ao modelo e arrasta conexões entre os recursos para estabelecer relações. O Designer modifica automaticamente JSON ou YAML.", 
+            "correct":true,
+            "id": "9744e929-6f85-4d84-89a8-23510830f013"
+        },
+        {   "text": "O Designer possui um ponto de atenção que é a ausência de um editor integrado, deste modo, será necessário a utilizar de um á parte para criar e modificar seus recursos.", 
+            "feedback":"Errado. O Designer possui um editor integrado e com isso você não precisa usar um editor de texto à parte.  editor integrado também fornece um recurso de autocompletar que lista todos os nomes de propriedade de um recurso.", 
+            "correct":false,
+            "id": "9744e929-6f85-4d84-89a8-23510830f014"
+        }
+    ]
+}
