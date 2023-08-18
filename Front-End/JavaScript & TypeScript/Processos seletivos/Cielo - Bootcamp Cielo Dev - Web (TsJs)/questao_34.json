@@ -7,7 +7,7 @@
     "knowledgeArea": "Front-End",
     "category": "SPA",
     "subCategory": "REACT",
-    "level": "PLENO",
+    "level": "Medium",
     "tagsOrConcepts": [
         "Hooks",
         "useEffect"
