@@ -1,0 +1,49 @@
+{
+    "id": "9e436f9a-3a9c-4227-bca7-75ddb270119e",
+    "SKU": "000018",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "java",
+    "knowledgeArea": "Back-End",
+    "category": "Java",
+    "subCategory": "metodologia Ágil",
+    "level": "Medium",
+    "tagsOrConcepts": [
+        "Scrum", "metodologia Ágil"
+    ],
+    "text": [
+        "Qual o papel responsável por representar os interesses do cliente, priorizando o backlog do produto e auxiliando na direção para equipe de desenvolvimento?"
+    ],
+    "alternatives": [
+        {
+            "id": "2b2903c3-4538-4b15-b414-45aaeaaf8483",
+            "text": "Scrum Master",
+            "feedback": "Atua como facilitador e orienta a utilização do scrum, não é o responsável pela priorização.",
+            "correct": false
+        },
+        {
+            "id": "31162707-f60a-450c-be70-b37c18d9ef22",
+            "text": "Development Team",
+            "feedback": "É a equipe responsável por desenvolver as funcionalidades.",
+            "correct": false
+        },
+        {
+            "id": "0f47e8d6-67fe-4d9f-8076-0a73585d03f3",
+            "text": "Product Owner",
+            "feedback": "O papel principal do product owner é a priorização e fornecer clareza sobre os itens do desenvolvimento.",
+            "correct": true
+        },
+        {
+            "id": "4551c7ac-f49e-4150-bc75-86d52d597428",
+            "text": "Stakeholder",
+            "feedback": "São as partes interessadas no projeto, não tem como responsabilidade principal a definição de prioridade.",
+            "correct": false
+        },
+        {
+            "id": "9fe3c131-816b-47eb-b77b-99e6c790bddc",
+            "text": "Scrum Sponsor",
+            "feedback": "Não é um papel conhecido no Scrum",
+            "correct": false
+        }
+    ]
+}

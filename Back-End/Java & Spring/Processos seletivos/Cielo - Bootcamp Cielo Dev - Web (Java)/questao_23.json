@@ -1,0 +1,49 @@
+{
+    "id": "afe061b1-8434-4c0f-bb9d-a45a40dbcd0a",
+    "SKU": "000023",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "java",
+    "knowledgeArea": "Back-End",
+    "category": "Java",
+    "subCategory": "Spring Framework",
+    "level": "Medium",
+    "tagsOrConcepts": [
+        "Spring Framwork", "API Rest", "Assíncrono"
+    ],
+    "text": [
+        "Trabalhando com API Rest usando Spring Framework, qual é o tipo de retorno esperado de um método @Async?"
+    ],
+    "alternatives": [
+        {
+            "id": "e801bab2-6041-43d3-badb-ebcd3b0e0369",
+            "text": "void",
+            "feedback": "Não lida com resultados, pois não tem retorno.",
+            "correct": false
+        },
+        {
+            "id": "dd26d9cf-5df8-4b6a-b270-e88cf07c7b64",
+            "text": "String",
+            "feedback": "Não é o mais adequado para lidar com resultados assíncronos.",
+            "correct": false
+        },
+        {
+            "id": "8923aef4-8f15-4549-a524-bb8387f09baa",
+            "text": "CompletableFuture",
+            "feedback": "É frequentemente utilizado para tratamento assíncrono de resultados.",
+            "correct": true
+        },
+        {
+            "id": "65682d24-aa7a-4da4-a75a-7b5caaf9d664",
+            "text": "List",
+            "feedback": "Não é o mais adequado para lidar com resultados assíncronos.",
+            "correct": false
+        },
+        {
+            "id": "6d5fd604-13cf-4aa6-9110-26a2133c184c",
+            "text": "int",
+            "feedback": "Não é o mais adequado para lidar com resultados assíncronos.",
+            "correct": false
+        }
+    ]
+}

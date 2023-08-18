@@ -1,0 +1,49 @@
+{
+    "id": "04c11c8b-a56f-41b0-8ffb-70fee52cbeb2",
+    "SKU": "000012",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "java",
+    "knowledgeArea": "Back-End",
+    "category": "Java",
+    "subCategory": "Disponibilidade",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+        "Disponibilidade", "Tolerância a Falhas"
+    ],
+    "text": [
+        "Você foi designado para uma equipe que está desenvolvendo um sistema de pagamento online. Um dos requisitos desse sistema, é a alta disponibilidade e tolerância a falhas para evitar perdas e impacto no cliente. A equipe selecionou algumas opções, qual opção que atende o cenário de tolerância a falhas?"
+    ],
+    "alternatives": [
+        {
+            "id": "5bf4f4e6-c30e-406b-8f88-d2a0f7f69c28",
+            "text": "Failover",
+            "feedback": "Configuração de sistemas de backup que entram em ação automaticamente quando ocorre uma falha",
+            "correct": true
+        },
+        {
+            "id": "cef0eb79-94a5-4378-868b-a8cb4914f1dc",
+            "text": "Replicação de Banco de Dados",
+            "feedback": "Não aborda a continuidade do serviço em caso de falha",
+            "correct": false
+        },
+        {
+            "id": "1ae8e71d-9bc6-4c56-a794-553952fa0a5d",
+            "text": "Backup Offline",
+            "feedback": "É útil na recuperação de dados, mas não garante disponibilidade",
+            "correct": false
+        },
+        {
+            "id": "68cf603c-a7a6-4e42-b1ef-d1acf3621318",
+            "text": "Escalonamento Vertical",
+            "feedback": "Envolve adição de recursos em um único servidor, não garante alta disponibilidade",
+            "correct": false
+        },
+        {
+            "id": "158fa7a5-4985-47ad-a8ff-566a4efcac88",
+            "text": "Testes de Penetração",
+            "feedback": "Busca identificar pontos de vulnerabilidades, mas não é a principal solução para tolerância a falhas",
+            "correct": false
+        }
+    ]
+}

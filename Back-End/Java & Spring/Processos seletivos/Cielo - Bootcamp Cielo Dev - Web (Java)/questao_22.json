@@ -1,0 +1,49 @@
+{
+    "id": "f87d4d3d-5c92-4046-b7a1-0e4ffe07a6cb",
+    "SKU": "000022",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "java",
+    "knowledgeArea": "Back-End",
+    "category": "Java",
+    "subCategory": "Spring Framework",
+    "level": "Medium",
+    "tagsOrConcepts": [
+        "APIs", "Spring Framework"
+    ],
+    "text": [
+        "No desenvolvimento de APIs com Spring Framework, qual anotação é utilizada para mapear um método de controle para um endpoint HTTP específico?"
+    ],
+    "alternatives": [
+        {
+            "id": "95e5e3d0-d0f3-4ea2-b0de-2c3acf60a75a",
+            "text": "@RequestMapping",
+            "feedback": "Esta anotação é utilizada para mapear um método para um HTTP Específico.",
+            "correct": true
+        },
+        {
+            "id": "38bc2267-1516-46e2-89d1-4d81ae995702",
+            "text": "@SpringMappingController",
+            "feedback": "Não é uma anotação padrão do Spring REST.",
+            "correct": false
+        },
+        {
+            "id": "b019d971-1ed6-4f56-8caa-891ee0e0d088",
+            "text": "@HTTPMapping",
+            "feedback": "Não é uma anotação padrão do Spring REST.",
+            "correct": false
+        },
+        {
+            "id": "7d379b05-b2d6-4aff-96a9-7caa478274f6",
+            "text": "@RestEndpoint",
+            "feedback": "Não é uma anotação padrão do Spring REST.",
+            "correct": false
+        },
+        {
+            "id": "c84e4c33-2674-45ec-b6df-3aa62b688ed9",
+            "text": "@Endpoint",
+            "feedback": "Não é uma anotação padrão do Spring REST.",
+            "correct": false
+        }
+    ]
+}

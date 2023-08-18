@@ -1,0 +1,49 @@
+{
+    "id": "",
+    "SKU": "000008",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "java",
+    "knowledgeArea": "Back-End",
+    "category": "Programação WEB",
+    "subCategory": "Padrões de Projeto",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+        "Java", "Padrões de Projeto"
+    ],
+    "text": [
+        "Em um sistema de pedidos, o cliente e o fornecedor do pedido precisam ser notificados quando houver alteração. Qual o padrão pode ser aplicado para resolver este problema?"
+    ],
+    "alternatives": [
+        {
+            "id": "1ec49882-ac17-4d71-a10b-61832bcbd81b",
+            "text": "Observer",
+            "feedback": "Este padrão é utilizado quando partes do sistema precisam ser notificadas sobre mudanças.",
+            "correct": true
+        },
+        {
+            "id": "9533df2c-2b02-422a-9cbe-c29603b615b0",
+            "text": "Singleton",
+            "feedback": "O objetivo deste padrão é manter a classe com apenas 1 instância.",
+            "correct": false
+        },
+        {
+            "id": "98cf0b31-5adc-41af-a635-78072480a055",
+            "text": "Strategy",
+            "feedback": "O objetivo do strategy é escolher a implementação mais apropriada para o código.",
+            "correct": false
+        },
+        {
+            "id": "c8be180c-dabf-490d-9a28-4583e38c006e",
+            "text": "Adapter",
+            "feedback": "O objetivo do adapter é unir 2 códigos que não se encaixaria.",
+            "correct": false
+        },
+        {
+            "id": "0bcd1d70-172a-4ba4-8f4c-b96b0a3135e4",
+            "text": "Decorator",
+            "feedback": "O objetivo do decorator é permitir adição de funcionalidades sem alterar a estrutura central",
+            "correct": false
+        }
+    ]
+}

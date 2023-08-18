@@ -1,0 +1,49 @@
+{
+    "id": "72311ed9-b641-4db9-bb3f-5a4f95b5f82f",
+    "SKU": "000007",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "java",
+    "knowledgeArea": "Back-End",
+    "category": "Java",
+    "subCategory": "SOLID",
+    "level": "Medium",
+    "tagsOrConcepts": [
+        "SOLID"
+    ],
+    "text": [
+        "No desenvolvimento de um software de gerenciamento de pedidos, você encontrou uma classe Pedido que tem muitas atribuições, e cada vez se torna mais complexa. Qual opção abaixo representa a melhor solução do SOLID para este tipo de problema? "
+    ],
+    "alternatives": [
+        {
+            "id": "bfaa2f87-5bc9-4076-9586-752fc2882751",
+            "text": "Open-Closed Principle",
+            "feedback": "Pode gerar mais complexidade, pois a classe original iria crescer mais.",
+            "correct": false
+        },
+        {
+            "id": "d12e7fa2-df0b-4add-b13b-d20a7e5c5cab",
+            "text": "Liskov Substitution Principle",
+            "feedback": "Este princípio é utilizado mais sobre como as classes relacionadas se encaixam.",
+            "correct": false
+        },
+        {
+            "id": "b2d356d4-bef7-4160-8f6e-05fbb03a5539",
+            "text": "Single Responsability Principle",
+            "feedback": "Dividir em classes menores, cada uma com apenas uma responsabilidade.",
+            "correct": true
+        },
+        {
+            "id": "bb497a38-8cda-471d-88c2-35c362e00fc6",
+            "text": "Interface Segregation Principle",
+            "feedback": "Dividir interfaces específicas poderia gerar mais complexidade, pois exigiria mais classes com muitas interfaces diferentes.",
+            "correct": false
+        },
+        {
+            "id": "ec57b311-7e03-4658-960d-e1ddcc981a3e",
+            "text": "Dependency Inversion Principle",
+            "feedback": "Introduzir mais dependências na classe pode gerar mais complexidade.",
+            "correct": false
+        }
+    ]
+}

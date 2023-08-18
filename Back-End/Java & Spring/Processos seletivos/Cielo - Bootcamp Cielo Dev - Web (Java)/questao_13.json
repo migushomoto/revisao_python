@@ -1,0 +1,49 @@
+{
+    "id": "ead27ae7-a4fb-41d3-88b6-5e4dbc1d3507",
+    "SKU": "000013",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "java",
+    "knowledgeArea": "Back-End",
+    "category": "Java",
+    "subCategory": "12 Fatores",
+    "level": "Medium",
+    "tagsOrConcepts": [
+        "12 Fatores"
+    ],
+    "text": [
+        "Qual dos 12 fatores de desenvolvimento de software, é particularmente relevante para garantir portabilidade e a gestão adequada dos ambientes para manter consistência e escalabilidade?"
+    ],
+    "alternatives": [
+        {
+            "id": "d6eeb768-eb60-4bf1-8578-a5d6f7a9d8c5",
+            "text": "Fator 5: Processos",
+            "feedback": "Executar a aplicação como 1 ou mais processos independentes, crucial para garantir escalabilidade.",
+            "correct": true
+        },
+        {
+            "id": "acb66761-88fa-4278-934b-84e8d921a65f",
+            "text": "Fator 6: Vinculação de Portas",
+            "feedback": "Aborda exposição de serviços através de portas",
+            "correct": false
+        },
+        {
+            "id": "14cb918e-a9de-4155-84eb-73b044f351f7",
+            "text": "Fator 9: Concorrência",
+            "feedback": "Lida apenas com concorrência, não aborda portabilidade",
+            "correct": false
+        },
+        {
+            "id": "049bc6a9-7131-43d9-bba1-5d8e9b5dfcef",
+            "text": "Fator 10: Descartabilidade",
+            "feedback": "Inicialização e término rápido de processos, não atende portabilidade",
+            "correct": false
+        },
+        {
+            "id": "2b14eb2d-f578-4006-9fde-6b953141cdd9",
+            "text": "Fator 12: Processos de Logs",
+            "feedback": "Trata apenas de logs, não é o fator principal para garantir portabilidade",
+            "correct": false
+        }
+    ]
+}

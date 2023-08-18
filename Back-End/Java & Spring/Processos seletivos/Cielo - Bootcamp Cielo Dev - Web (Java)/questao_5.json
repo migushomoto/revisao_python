@@ -1,0 +1,49 @@
+{
+    "id": "cb705b18-ba78-4bb5-b6ed-2282b242a636",
+    "SKU": "000005",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "java",
+    "knowledgeArea": "Back-End",
+    "category": "Java",
+    "subCategory": "Programação Paralela",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+        "Assíncrono", "Programação paralela", "Entrada e Saída"
+    ],
+    "text": [
+        "Escolha uma opção que melhor representa a programação assíncrona em Java."
+    ],
+    "alternatives": [
+        {
+            "id": "ee16e788-1303-40b8-b2e1-21ce01788449",
+            "text": "A programação assíncrona não é relevante para operações de entrada e saída",
+            "feedback": "Não está correta, pois ela também serve para lidar com operações de entrada e saída.",
+            "correct": false
+        },
+        {
+            "id": "52e84b10-40f9-4183-b9c1-a1ed79ac093f",
+            "text": "A programação assíncrona é realizada exclusivamente pelo uso da classe Thread",
+            "feedback": "Não é a única forma, pois também podemos utilizar CompletableFuture e programação reativa.",
+            "correct": false
+        },
+        {
+            "id": "ed557149-1acb-4437-ac43-23d4e8d99fb0",
+            "text": "A programação assíncrona é utilizada para permitir que outras tarefas sejam executadas, enquanto aguarda a conclusão da operação.",
+            "feedback": "Esta é a principal característica da programação assíncrona",
+            "correct": true
+        },
+        {
+            "id": "622061f0-0ba7-4d90-9347-a63d26c71f28",
+            "text": "A única maneira de aplicar programação assíncrona em Java é através do uso de classes Runnable",
+            "feedback": "Não é a única maneira de aplicar, pois existem outras como Callable e frameworks que auxiliam no desenvolvimento.",
+            "correct": false
+        },
+        {
+            "id": "38919e2b-1b22-49f1-86a0-d114e873993f",
+            "text": "A única maneira de aplicar programação reativa é utilizando a classe Callable.",
+            "feedback": "Incorreto, pois além da Callable o Runnable também é utilizado.",
+            "correct": false
+        }
+    ]
+}

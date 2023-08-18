@@ -1,0 +1,49 @@
+{
+    "id": "08c61532-918a-458f-9e45-455c53b37104",
+    "SKU": "000015",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "java",
+    "knowledgeArea": "Back-End",
+    "category": "Java",
+    "subCategory": "Escalabilidade",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+        "Escalabilidade"
+    ],
+    "text": [
+        "No sistema de vendas online, no período de promoções aumenta bastante a quantidade de usuários e vendas de forma simultânea. Para evitar quedas no sistema, e garantir um ambiente estável durante o pico, qual a abordagem de escalabilidade ideal?"
+    ],
+    "alternatives": [
+        {
+            "id": "a1148a93-8ab6-4a94-94f9-a197800f8b3b",
+            "text": "Escalabilidade Vertical",
+            "feedback": "Esse tipo de escalabilidade aumenta os recursos de um único servidor, pode atingir o máximo de limitações. Não é o ideal para essa situação",
+            "correct": false
+        },
+        {
+            "id": "bf03e83b-9da7-4335-a500-9b1d2b8e82ae",
+            "text": "Escalabilidade Horizontal",
+            "feedback": "Esse tipo de escalabilidade permite adicionar mais servidores ou instâncias permitindo distribuir a carga de tráfego",
+            "correct": true
+        },
+        {
+            "id": "e0d070af-28e6-4a86-8451-ede7e7099e1e",
+            "text": "Escalabilidade Diagonal",
+            "feedback": "Não é uma escalabilidade reconhecida",
+            "correct": false
+        },
+        {
+            "id": "97650864-71d4-4454-a46d-0f55920c3eaf",
+            "text": "Escalabilidade Elástica",
+            "feedback": "Ajusta automaticamente os recursos com base na demanda.",
+            "correct": false
+        },
+        {
+            "id": "2e8311ad-dec0-4426-858e-64ac97985af1",
+            "text": "Escalabilidade Aleatória",
+            "feedback": "Não é uma escalabilidade válida",
+            "correct": false
+        }
+    ]
+}

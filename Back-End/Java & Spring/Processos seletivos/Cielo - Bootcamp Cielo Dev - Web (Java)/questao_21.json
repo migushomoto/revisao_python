@@ -1,0 +1,49 @@
+{
+    "id": "b206153a-8870-4ac1-b6ec-52f54992be2c",
+    "SKU": "000021",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "java",
+    "knowledgeArea": "Back-End",
+    "category": "Java",
+    "subCategory": "REST",
+    "level": "Medium",
+    "tagsOrConcepts": [
+        "REST", "Métodos HTTP"
+    ],
+    "text": [
+        "Quais são os principais métodos HTTP utilizados em um API REST para realizar operações em recursos?"
+    ],
+    "alternatives": [
+        {
+            "id": "23f77220-6546-472b-a580-2e004aa5d6ba",
+            "text": "GET, PUT, POST, DELETE",
+            "feedback": "Os métodos principais são esses para Leitura, Atualização, Gravação e Remoção.",
+            "correct": true
+        },
+        {
+            "id": "44b9bf6e-9ab9-4ea9-a2a9-c49a3671d8fe",
+            "text": "READ, UPDATE, INSERT, REMOVE",
+            "feedback": "Esses termos não são reconhecidos na API REST.",
+            "correct": false
+        },
+        {
+            "id": "5caaa9ef-638a-42a3-8d74-756a8bd40c1e",
+            "text": "FETCH, MODIFY, ADD, ERASE",
+            "feedback": "Esses termos não são reconhecidos na API REST.",
+            "correct": false
+        },
+        {
+            "id": "32cc3559-0780-4c2e-b56f-16ae6f8367cf",
+            "text": "REQUEST, SUBMIT, CREATE, DELETE",
+            "feedback": "Esses termos não são reconhecidos na API REST.",
+            "correct": false
+        },
+        {
+            "id": "0050e77e-3189-4cba-83c5-62fa09e45089",
+            "text": "GET, SEND, STORE, DROP",
+            "feedback": "Esses termos não são reconhecidos na API REST.",
+            "correct": false
+        }
+    ]
+}

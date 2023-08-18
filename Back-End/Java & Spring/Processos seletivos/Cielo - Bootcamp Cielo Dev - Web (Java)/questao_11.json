@@ -1,0 +1,49 @@
+{
+    "id": "d26fe60e-bcaa-4ae6-be52-30446c228136",
+    "SKU": "000011",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "java",
+    "knowledgeArea": "Back-End",
+    "category": "Java",
+    "subCategory": "Arquitetura",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+        "Arquitetura", "Java"
+    ],
+    "text": [
+        "Você foi selecionado para escolher a arquitetura de um software de vendas. Durante determinados períodos as vendas crescem e o volume de clientes aumentam. Um dos requisitos é manter o sistema sem quedas de desempenho. Qual solução arquitetural melhor se encaixa neste cenário?"
+    ],
+    "alternatives": [
+        {
+            "id": "41e2df6d-a86e-4da8-aa96-40db9d56ca17",
+            "text": "Arquitetura Monolítica",
+            "feedback": "Para lidar com problemas de picos, escalar se torna um pouco mais complexo",
+            "correct": false
+        },
+        {
+            "id": "c9e14744-a966-468e-9a90-ab1b810955e6",
+            "text": "Arquitetura de Microsserviços",
+            "feedback": "Permite escalar pontos críticos da aplicação",
+            "correct": true
+        },
+        {
+            "id": "0e0ea1f8-6b21-4ab6-aec4-fa6247b597b2",
+            "text": "Arquitetura Cliente-Servidor",
+            "feedback": "Não lida diretamente com escalabilidade",
+            "correct": false
+        },
+        {
+            "id": "72ae55d9-f445-41ea-a609-b531edecc4b6",
+            "text": "Arquitetura P2P",
+            "feedback": "Esta arquitetura pode ser difícil a garantia do desempenho consistente",
+            "correct": false
+        },
+        {
+            "id": "0d522e1a-7cc5-405a-9a9b-e5174d6f4f76",
+            "text": "Arquitetura de Camadas",
+            "feedback": "Este tipo de arquitetura não lida diretamente com escalabilidade",
+            "correct": false
+        }
+    ]
+}

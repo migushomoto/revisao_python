@@ -1,0 +1,49 @@
+{
+    "id": "0b1dabd2-1470-4ab6-b408-eb33641c688f",
+    "SKU": "000020",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "java",
+    "knowledgeArea": "Back-End",
+    "category": "Java",
+    "subCategory": "Metodologia Ágil",
+    "level": "Medium",
+    "tagsOrConcepts": [
+        "Scrum", "Metodologia Ágil"
+    ],
+    "text": [
+        "No Scrum, qual é o evento onde é definido o que será entregue durante a próxima sprint, estimando esforço necessário para realizar a entrega?"
+    ],
+    "alternatives": [
+        {
+            "id": "00ed059b-a38a-482b-8096-88905088fcec",
+            "text": "Reunião Diária",
+            "feedback": "É um evento diário onde a equipe informa sobre o progresso do trabalho e expõe bloqueios.",
+            "correct": false
+        },
+        {
+            "id": "aa6ba94b-830e-464f-9610-67d47837737f",
+            "text": "Revisão de Sprint",
+            "feedback": "É um evento onde a equipe demonstra o que foi feito e recebe o feedback.",
+            "correct": false
+        },
+        {
+            "id": "9d323ba0-f3d7-426b-86c1-7d123a9fee06",
+            "text": "Retrospectiva de Sprint",
+            "feedback": "É um evento para inspecionar e identificar melhorias.",
+            "correct": false
+        },
+        {
+            "id": "eb2a6b9b-2e14-43a1-8da3-780e401a436e",
+            "text": "Planejamento de Release",
+            "feedback": "É um evento para lançamentos futuros, não da sprint atual.",
+            "correct": false
+        },
+        {
+            "id": "b7be5bec-a566-4bf6-99f4-2ff4c425b12b",
+            "text": "Planejamento da Sprint",
+            "feedback": "É um evento que a equipe de desenvolvimento define o que será entregue e estima o esforço necessário.",
+            "correct": true
+        }
+    ]
+}

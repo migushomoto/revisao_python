@@ -1,0 +1,49 @@
+{
+    "id": "ec688d0b-201b-4691-97e1-0ac012d64689",
+    "SKU": "000003",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "java",
+    "knowledgeArea": "Back-End",
+    "category": "Java",
+    "subCategory": "Estrutura de Dados",
+    "level": "Medium",
+    "tagsOrConcepts": [
+        "Estrutura de Dados"
+    ],
+    "text": [
+        "Qual das seguintes afirmações sobre filas em estrutura de dados está correta?"
+    ],
+    "alternatives": [
+        {
+            "id": "fac104a3-145f-473d-9cb4-1f5a7ba54c08",
+            "text": "Uma fila segue o princípio de último e entrar é o primeiro a sair",
+            "feedback": "Não está correta, pois o conceito de fila é uma estrutura que o primeiro elemento a entrar é o primeiro a sair.",
+            "correct": false
+        },
+        {
+            "id": "30f80f36-de5b-4bd2-a9f1-8b59b60f5569",
+            "text": "Filas são utilizadas para armazenar elementos em uma ordem que facilita a recuperação do elemento mais recente.",
+            "feedback": "Não está correta, pois este conceito está ligado a pilha.",
+            "correct": false
+        },
+        {
+            "id": "4a22db57-7f9d-4150-b196-13dd53e8f59b",
+            "text": "Uma fila segue o princípio de primeiro a entrar é o primeiro a sair",
+            "feedback": "Está correto, este é o princípio da fila.",
+            "correct": true
+        },
+        {
+            "id": "b0cffdc7-e307-4335-a05a-d9f172729086",
+            "text": "O conceito de filas não é aplicado em programação.",
+            "feedback": "Não está correto, pois é bastante utilizado em Estrutura de Dados.",
+            "correct": false
+        },
+        {
+            "id": "e40ccca1-91dc-4f6e-99c0-cd9a604c7ded",
+            "text": "Filas são idênticas ao funcionamento de pilhas.",
+            "feedback": "Não está correto, pois o funcionamento de pilha é o contrário da fila.",
+            "correct": false
+        }
+    ]
+}

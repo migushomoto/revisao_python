@@ -1,0 +1,49 @@
+{
+    "id": "841a1af4-50a2-4037-80f3-f60759d24f0f",
+    "SKU": "000010",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "java",
+    "knowledgeArea": "Back-End",
+    "category": "Java",
+    "subCategory": "Solid",
+    "level": "Medium",
+    "tagsOrConcepts": [
+        "SOLID", "JAVA"
+    ],
+    "text": [
+        "A equipe de software escolheu um princípio que permite a adição de novos recursos sem alterar o código existente. Qual o princípio do SOLID foi escolhido?"
+    ],
+    "alternatives": [
+        {
+            "id": "57aca9b1-fa1e-4564-97f3-16e06ec77b16",
+            "text": "Dependency Inversion Principle (DIP)",
+            "feedback": "Utilizado para reduzir acoplamento, não está ligado a adição de novos recursos sem alterar o código.",
+            "correct": false
+        },
+        {
+            "id": "03a7e0a9-242b-4b39-8464-6a287997b776",
+            "text": "Interface Segregation Principle (ISP)",
+            "feedback": "Não aborda a extensibilidade sem modificação de código",
+            "correct": false
+        },
+        {
+            "id": "8ddc0b54-7031-42a2-8db0-3c8cba6f6c0d",
+            "text": "Single Responsibility Principle (SRP)",
+            "feedback": "Trata-se de responsabilidade única, não aborda adição de recursos sem alterações",
+            "correct": false
+        },
+        {
+            "id": "064f5460-f89c-4e6e-ba4d-1feee4b91ca6",
+            "text": "Open/Closed Principle (OCP)",
+            "feedback": "Este princípio deve estar aberto para extensões mas fechado para modificações, permite alteração sem impactar código existente",
+            "correct": true
+        },
+        {
+            "id": "f745a558-e5cf-4082-b57f-505f205c6b87",
+            "text": "Liskov Substitution Principle (LSP)",
+            "feedback": "Este princípio está ligado objetos por subclasses",
+            "correct": false
+        }
+    ]
+}
