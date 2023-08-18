@@ -32,7 +32,7 @@
         {
             "id": "bdaf70de-644a-44c8-a943-f2522e5fbb1d",
             "text": "const data = JSON.parse(localStorage.getItem('user') || undefined)",
-            "feedback": "JSON.parse espera uma string ou null",
+            "feedback": "JSON.parse() espera uma string ou null",
             "correct": false
         },
         {

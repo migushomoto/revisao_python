@@ -13,31 +13,31 @@
         "JSON"
     ],
     "text": [
-        "Qual dos JSON abaixo, representado com um arquivo .json, está melhor formado?"
+        "Qual das opções abaixo, representa um arquivo .json bem formatado?"
     ],
     "alternatives": [
         {
             "id": "ea82d7e8-968a-4872-ad1b-33675dc62d11",
             "text": "{id:123, nome:\"teste\", ativo: true}",
-            "feedback": "Faltam as aspas nas chaves",
+            "feedback": "Algumas chaves foram declaradas sem as aspas!",
             "correct": false
         },
         {
             "id": "14266822-363e-406e-8f64-3486eeb0de19",
             "text": "{\"id\":123, \"nome\":\"teste\", \"ativo\": \"true\"}",
-            "feedback": "Booleno tratado com string",
+            "feedback": "O campo com valor booleano está sendo tratado como string!",
             "correct": false
         },
         {
             "id": "9cb82f93-acc3-445a-a2e2-6a36d97bf098",
             "text": "{\"id\":\"123\", \"nome\":\"teste\", \"ativo\": true}",
-            "feedback": "Numério tratado como string",
+            "feedback": "O campo numérico está sendo tratado como string!",
             "correct": false
         },
         {
             "id": "d96d2688-7845-4d42-9c6a-f51f30092c83",
             "text": "{\"id\":123, \"nome\":\"teste\", \"ativo\": true}",
-            "feedback": "Correta, aspas nas chaves, sem aspas em numéricos e booleanos",
+            "feedback": "Correta! Foram utilizadas aspas em todas as chaves, e os valores numéricos e booleanos não as utilizam!",
             "correct": true
         }
     ]

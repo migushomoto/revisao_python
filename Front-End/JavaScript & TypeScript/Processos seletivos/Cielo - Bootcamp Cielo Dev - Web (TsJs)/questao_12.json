@@ -7,7 +7,7 @@
     "knowledgeArea": "Front-End",
     "category": "Programação WEB",
     "subCategory": "Fetch API",
-    "level": "JUNIOR",
+    "level": "Basic",
     "tagsOrConcepts": [
         "fetch"
     ],
@@ -19,7 +19,7 @@
             "id": "c2c6bbbf-4d62-468b-839a-2f80658670d8",
             "text": "Analisar parâmetros de consulta em URLs",
             "feedback": "Essa funcionalidade não existe",
-            "correct": true
+            "correct": false
         },
         {
             "id": "61d2db39-3baf-41f6-a87a-deffd19812bc",

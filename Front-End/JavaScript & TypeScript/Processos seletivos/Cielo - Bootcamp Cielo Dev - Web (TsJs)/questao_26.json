@@ -19,25 +19,25 @@
         {
             "id": "d2678ab9-9ecc-4137-8285-5897e49db67f",
             "text": "Um mecanismo de segurança que permite solicitações de diferentes origens (domínios)\n O asterisco representa bloqueio de todos os domínios diferentes do da API e é uma boa prática",
-            "feedback": "",
+            "feedback": "Na realidade a utilização deste recurso é uma má prática!",
             "correct": false
         },
         {
             "id": "6db88f31-07be-42b7-9139-714935acbc51",
             "text": "Um mecanismo de segurança que permite solicitações de diferentes origens (domínios)\n O asterisco representa liberação de todos os domínios diferentes do da API e é uma má prática",
-            "feedback": "",
+            "feedback": "Correto!",
             "correct": true
         },
         {
             "id": "11d94b3b-b742-4754-9ac3-c1b67b1ae147",
             "text": "Um protocolo de autenticação utilizado em APIs públicas\n O asterisco representa bloqueio de todos os usuários da API e é uma boa prática",
-            "feedback": "",
+            "feedback": "Além de ser uma má prática, o asterisco representa uma liberação e não um bloqueio, e tampouco está relacionado a camada de usuários.",
             "correct": false
         },
         {
             "id": "c4e67bf3-c464-42f1-91bf-2568993d1415",
             "text": "Um protocolo de autenticação utilizado em APIs públicas\n O asterisco representa bloqueio de todos os usuários da API e é uma má prática",
-            "feedback": "",
+            "feedback": "Além de ser uma má prática, o asterisco representa uma liberação e não um bloqueio, e tampouco está relacionado a camada de usuários.",
             "correct": false
         }
     ]

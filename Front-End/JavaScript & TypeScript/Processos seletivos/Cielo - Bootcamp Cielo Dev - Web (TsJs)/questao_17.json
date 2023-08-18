@@ -7,14 +7,14 @@
     "knowledgeArea": "Front-End",
     "category": "Typescript",
     "subCategory": "Tipagem",
-    "level": "SENIOR",
+    "level": "Advanced",
     "tagsOrConcepts": [
         "Tipagem estática"
     ],
     "text": [
         "Dado a seguinte interface:",
         "interface Animal { name: string; }",
-        "Adicionamos uma propriedade fazendo",
+        "Adicionamos uma propriedade fazendo:",
         "interface Bear extends Animal { honey: boolean; }",
         "Qual seria o equivalente usando Type Aliases?"
     ],

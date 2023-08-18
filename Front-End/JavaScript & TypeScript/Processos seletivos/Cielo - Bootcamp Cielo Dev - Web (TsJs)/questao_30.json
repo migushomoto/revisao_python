@@ -7,7 +7,7 @@
     "knowledgeArea": "Testes",
     "category": "TDD",
     "subCategory": "teoria",
-    "level": "SENIOR",
+    "level": "Advanced",
     "tagsOrConcepts": [
         "Unitário",
         "Integração"
@@ -20,7 +20,7 @@
             "id": "1fdf4b5b-eaaa-47dc-9fa4-a499f28a227c",
             "text": "Ignorar esses cenários, pois testá-los é muito complexo",
             "feedback": "Não podemos ignorar esses cenários ou não testamos nosso software",
-            "correct": true
+            "correct": false
         },
         {
             "id": "b0734df1-1eed-4eb7-a8e0-f7e400cf93bd",

@@ -7,7 +7,7 @@
     "knowledgeArea": "Front-End",
     "category": "Typescript",
     "subCategory": "Tipagem",
-    "level": "SENIOR",
+    "level": "Advanced",
     "tagsOrConcepts": [
         "SOLID",
         "Design Patterns"
@@ -15,21 +15,21 @@
     "text": [
         "Qual design pattern é ilustrada no código abaixo?",
         "```class SomePattern{",
-        "",
+        "\n",
         "    constructor(){ ",
         "        this.resultObject = new SomeObject()",
         "    }",
-        "",
+        "\n",
         "    configStep1(configObject1) { this.resultObject.configObject1 = configObject1; return this }",
         "    configStep2(configObject2) { this.resultObject.configObject2 = configObject2; return this }",
         "    configStep3(configObject3) { this.resultObject.configObject3 = configObject3; return this }",
-        "",
+        "\n",
         "    create(){ ",
         "        const result = {...this.resultObject}",
         "        this.resultObject = new SomeObject()",
         "        return result",
         "    }",
-        "",
+        "\n",
         "}```"
     ],
     "alternatives": [
@@ -37,7 +37,7 @@
             "id": "2f431aa9-05d5-4527-9418-f30e2c0ffc62",
             "text": "Factory",
             "feedback": "É parecido, mas não é um factory. Factory cria implementações sem classes concretas conhecidas, mas não faz configurações.",
-            "correct": true
+            "correct": false
         },
         {
             "id": "bfbe2e39-b972-4f39-853f-a01f163fe895",
