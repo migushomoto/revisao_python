@@ -7,7 +7,7 @@
     "knowledgeArea": "Testes",
     "category": "TDD",
     "subCategory": "teoria",
-    "level": "SENIOR",
+    "level": "Advanced",
     "tagsOrConcepts": [
         "Unitário",
         "Integração"
@@ -20,7 +20,7 @@
             "id": "1fdf4b5b-eaaa-47dc-9fa4-a499f28a227c",
             "text": "Ignorar esses cenários, pois testá-los é muito complexo",
             "feedback": "Não podemos ignorar esses cenários ou não testamos nosso software",
-            "correct": true
+            "correct": false
         },
         {
             "id": "b0734df1-1eed-4eb7-a8e0-f7e400cf93bd",
@@ -38,6 +38,12 @@
             "id": "127259e8-e162-449b-bbfa-47150f53cd59",
             "text": "Adiar esses testes até a fase de testes de aceitação e fazer apenas um teste End-to-End",
             "feedback": "É um má ideia, o código deve ser testado sempre o mais cedo possível e abstraindo dependências externas",
+            "correct": false
+        },
+        {
+            "id": "848141b1-0f6d-470b-9b46-904a7d73b1ce",
+            "text": "Garantiria que todos os sistemas externos estivessem operacionais, caso contrário indicaria a todos que a automação dos testes não poderá mais ser executada!",
+            "feedback": "Dependendo do cenário, é impraticável garantir que dependências externas estejam 100% disponíveis para utilização, portanto este não parece ser um bom caminho.",
             "correct": false
         }
     ]

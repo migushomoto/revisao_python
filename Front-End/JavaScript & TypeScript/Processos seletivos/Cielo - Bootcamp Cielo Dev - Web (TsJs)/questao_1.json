@@ -7,38 +7,44 @@
     "knowledgeArea": "Front-End",
     "category": "Programação WEB",
     "subCategory": "consumo de API",
-    "level": "PLENO",
+    "level": "Medium",
     "tagsOrConcepts": [
         "API",
         "REST",
         "Consumo de API"
     ],
     "text": [
-        "Qual aternativa representa melhor os erros 401 e 403"
+        "Qual alternativa representa melhor os erros 401 e 403 do protocolo HTTP"
     ],
     "alternatives": [
         {
             "id": "db6eb000-7f14-4afb-ae56-b5a6b75d93c1",
-            "text": "Problemas com as credenciais",
-            "feedback": "Alternativa correta, 401 bloqueia acesso anônimo enquanto 403 bloqueia conteúdos que a credencial não pode acessar",
+            "text": "Problemas com credenciais de acesso",
+            "feedback": "Alternativa correta! O código 401 bloqueia acessos anônimos enquanto o 403 representa o bloqueio de conteúdos que não podem ser acessados.",
             "correct": true
         },
         {
             "id": "e84809e2-8072-4477-838d-a6d3994ea007",
-            "text": "Recursos inválidos ou não existentes",
-            "feedback": "Essa alternativa representa melhor 404, 400",
+            "text": "Recursos inválidos ou inexistentes",
+            "feedback": "Essa alternativa relaciona-se aos códigos 404 e 400 do HTTP",
             "correct": false
         },
         {
             "id": "5d1b534c-48f1-49ad-84b3-cc4a917b615f",
-            "text": "Erros desconhecidos",
-            "feedback": "Essa alternativa representa a família 500",
+            "text": "Erro interno ou serviço indisponível",
+            "feedback": "Essa alternativa relaciona-se aos códigos gerados pela família 5xx do HTTP (500 e 503)",
             "correct": false
         },
         {
             "id": "782d4193-4fac-49dc-8c24-0b86fdbbc7c0",
-            "text": "Login inválido",
-            "feedback": "Essa alternativa confunde, pois 401 é um bloqueio de usuário anônimo, mas não login inválido e não representa o 403",
+            "text": "Recurso encontrado ou criado corretamente",
+            "feedback": "Essa alternativa relaciona-se aos códigos gerados pela família 2xx do HTTP (200 e 201)",
+            "correct": false
+        },
+        {
+            "id": "d100d582-7eeb-44dd-b6a4-f94ec59f771a",
+            "text": "Recurso movido permanentemente ou não modificado",
+            "feedback": "Essa alternativa relaciona-se aos códigos gerados pela família 3xx do HTTP (301 e 304)",
             "correct": false
         }
     ]

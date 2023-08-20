@@ -7,7 +7,7 @@
     "knowledgeArea": "Front-End",
     "category": "Programação WEB",
     "subCategory": "Storages",
-    "level": "PLENO",
+    "level": "Medium",
     "tagsOrConcepts": [
         "localStorage"
     ],
@@ -32,13 +32,19 @@
         {
             "id": "bdaf70de-644a-44c8-a943-f2522e5fbb1d",
             "text": "const data = JSON.parse(localStorage.getItem('user') || undefined)",
-            "feedback": "JSON.parse espera uma string ou null",
+            "feedback": "JSON.parse() espera uma string ou null",
             "correct": false
         },
         {
             "id": "7f47bc79-e43a-416c-a10c-7f91596887f2",
             "text": "const data = JSON.parse(localStorage.getItem('user')) || null",
             "feedback": "O operador || não é capaz de reverter um erro, apenas um booleano falsy",
+            "correct": false
+        },
+        {
+            "id": "b008ef8a-ab44-415a-82dc-19ab5663ab41",
+            "text": "const data = JSON.parse(sessionStorage.getItem('user') || null)",
+            "feedback": "Observe que neste caso estamos utilizando o sessionStorage e não o localStorage",
             "correct": false
         }
     ]

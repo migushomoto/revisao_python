@@ -7,7 +7,7 @@
     "knowledgeArea": "Front-End",
     "category": "SPA",
     "subCategory": "REACT",
-    "level": "PLENO",
+    "level": "Medium",
     "tagsOrConcepts": [
         "Hooks",
         "useEffect"
@@ -38,6 +38,12 @@
             "id": "28ef2c1c-6450-44b3-a8f3-7558af9abe40",
             "text": "useCallback",
             "feedback": "Esse hook usa estratégia de memoização para retornos de funções custosas",
+            "correct": false
+        },
+        {
+            "id": "18f5db15-e9ee-42a0-9993-d23f15288a25",
+            "text": "useMemo",
+            "feedback": "Esse hook é usado para memorizar valores calculados entre renderizações, otimizando seu desempenho",
             "correct": false
         }
     ]

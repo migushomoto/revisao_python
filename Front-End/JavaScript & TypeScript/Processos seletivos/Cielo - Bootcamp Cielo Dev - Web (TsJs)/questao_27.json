@@ -7,7 +7,7 @@
     "knowledgeArea": "Testes",
     "category": "TDD",
     "subCategory": "teoria",
-    "level": "PLENO",
+    "level": "Medium",
     "tagsOrConcepts": [
         "Red-Green-Refactor"
     ],
@@ -37,6 +37,12 @@
             "id": "5e552d9c-d317-4391-8a57-3ff936270f44",
             "text": "Codificar, escrever testes, falhar os testes, alterar o código para fazer os testes passarem, refatorar",
             "feedback": "No TDD, testes são escritos sempre antes.",
+            "correct": false
+        },
+        {
+            "id": "15421619-7f0f-44e3-83d3-89a216004798",
+            "text": "Testar depois que tudo foi desenvolvido",
+            "feedback": "Apesar do trocadilho, este não é o objetivo da metodologia de desenvolvimento TDD",
             "correct": false
         }
     ]

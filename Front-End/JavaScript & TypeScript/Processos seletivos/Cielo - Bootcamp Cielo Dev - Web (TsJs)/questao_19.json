@@ -7,7 +7,7 @@
     "knowledgeArea": "Front-End",
     "category": "Typescript",
     "subCategory": "Tipagem",
-    "level": "SENIOR",
+    "level": "Advanced",
     "tagsOrConcepts": [
         "Tipagem estática",
         "any",
@@ -40,6 +40,12 @@
             "text": "'any' pode conter um valor de qualquer tipo, e ser atribuído a qualquer tipo, o mesmo vale para 'unknown' no entanto na atribuição, será necessário fazer uma coerção explícita",
             "feedback": "Correta",
             "correct": true
+        },
+        {
+            "id": "b381b363-c7e7-4b5c-88cb-f9ffa084a722",
+            "text": "'any' pode conter como 'true', equanto 'unknown' pode ser considerada como false",
+            "feedback": "Incorreto! A utilização de 'any' e 'unknown' tem a ver com a permissividade de quanto a verificação de tipos durante a atribuição de dados as variáveis",
+            "correct": false
         }
     ]
 }

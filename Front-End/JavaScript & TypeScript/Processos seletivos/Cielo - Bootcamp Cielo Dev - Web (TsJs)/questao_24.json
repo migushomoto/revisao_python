@@ -7,22 +7,26 @@
     "knowledgeArea": "Front-End",
     "category": "Typescript",
     "subCategory": "Tipagem",
-    "level": "SENIOR",
+    "level": "Advanced",
     "tagsOrConcepts": [
         "SOLID",
         "Design Patterns"
     ],
     "text": [
         "Almeida foi encarregado de refatorar uma classe de ordenação:",
+        "\n",
         "```class Sorter {",
         "    constructor(){}",
         "    sort(array){ return [...array].sort() }",
         "}```",
+        "\n",
         "Sua solução foi a seguinte:",
+        "\n",
         "```class Sorter {",
         "    constructor(sortMethod){ this.sortMethod = sortMethod }",
         "    sort(array){ return this.sortMethod.sort(array) }",
         "}```",
+        "\n",
         "O tech leader do Almeida gostou da refatoração e disse o seguinte:",
         "Ficou bom, gostei do uso do pattern (A) que auxilia a gente em manter o código aderente a o princípio (B) do SOLID",
         "No entanto, há um problema, que vai impactar os códigos que já usam essa classe, porque (C)",
@@ -32,7 +36,13 @@
         {
             "id": "cd26da1e-3184-4537-aa4d-a5d35113d1fd",
             "text": "A: Factory;  B: Single Responsability; C: sortMethod é objeto",
-            "feedback": "Não se trata de um factory, tampouco o código divide responsabilidades excessivas da classe Sorter",
+            "feedback": "Não se trata de um Factory, tampouco o código divide responsabilidades excessivas da classe Sorter",
+            "correct": false
+        },
+        {
+            "id": "b5fb0a23-fb9c-4cc9-9dae-2b8cb291af36",
+            "text": "A: Singleton; B: Open Closed; C: Não há implementação padrão",
+            "feedback": "Não se trata de um Singleton",
             "correct": false
         },
         {
@@ -44,7 +54,7 @@
         {
             "id": "38a6bf94-cd39-4cae-9315-225cf23392b3",
             "text": "A: Factory;  B: Open Closed; C: Não há implementação padrão",
-            "feedback": "Não se trata de um factory",
+            "feedback": "Não se trata de um Factory",
             "correct": false
         },
         {

@@ -7,7 +7,7 @@
     "knowledgeArea": "Front-End",
     "category": "Programação WEB",
     "subCategory": "Fetch API",
-    "level": "JUNIOR",
+    "level": "Basic",
     "tagsOrConcepts": [
         "fetch"
     ],
@@ -19,7 +19,7 @@
             "id": "c2c6bbbf-4d62-468b-839a-2f80658670d8",
             "text": "Analisar parâmetros de consulta em URLs",
             "feedback": "Essa funcionalidade não existe",
-            "correct": true
+            "correct": false
         },
         {
             "id": "61d2db39-3baf-41f6-a87a-deffd19812bc",
@@ -37,6 +37,12 @@
             "id": "00712ad9-1413-4ae9-ba19-53ef00f67e6f",
             "text": "Converter objetos JavaScript em strings JSON",
             "feedback": "Response tem uma funcionalidade similar usando o método json(), mas é um parse e não um stringify, de qualquer forma, não descreve corretamente o objeto",
+            "correct": false
+        },
+        {
+            "id": "45033306-f694-446b-a708-37fa3dd026d0",
+            "text": "Enviar dados em formato JSON ao servidor",
+            "feedback": "Esta característica está relacionada ao momento de Request (requisição) e não ao Reponse (resposta)",
             "correct": false
         }
     ]

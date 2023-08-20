@@ -7,7 +7,7 @@
     "knowledgeArea": "Front-End",
     "category": "HTML",
     "subCategory": "HTML 5",
-    "level": "PLENO",
+    "level": "Medium",
     "tagsOrConcepts": [
         "select",
         "datalist"
@@ -19,7 +19,7 @@
         {
             "id": "a608b88a-1cd6-45ef-979a-e7b7d803a3cd",
             "text": "<datalist> é usada para criar listas suspensas, enquanto <select> é usada para agrupar elementos",
-            "feedback": "Select não é usado para agrupar elementos",
+            "feedback": "<select> não é usado para agrupar elementos",
             "correct": false
         },
         {
@@ -37,7 +37,13 @@
         {
             "id": "80a6146e-867c-4a33-8b93-b9328837adb0",
             "text": "<datalist> é usada para criar elementos de seleção múltipla, enquanto <select> é usada para seleção única",
-            "feedback": "Select pode fazer escolha única ou múltipla, datalist é um campo digitável",
+            "feedback": "<select> pode fazer escolha única ou múltipla, datalist é um campo digitável",
+            "correct": false
+        },
+        {
+            "id": "1326ba56-5fd6-46e3-a141-a149c0cd1731",
+            "text": "<datalist> é uma caixa simples de texto, enquanto <select> é usado para controlar textos em múltiplas linhas",
+            "feedback": "Nenhuma das descrições é compatível com as tags <datalist> e <select>",
             "correct": false
         }
     ]

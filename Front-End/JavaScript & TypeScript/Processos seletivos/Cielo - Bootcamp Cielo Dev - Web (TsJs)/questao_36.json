@@ -7,7 +7,7 @@
     "knowledgeArea": "Front-End",
     "category": "SPA",
     "subCategory": "REACT",
-    "level": "PLENO",
+    "level": "Medium",
     "tagsOrConcepts": [
         "Hooks",
         "useContext"
@@ -16,6 +16,12 @@
         "Qual hook é usado para compartilhar estados entre componentes distantes na árvore de componentes em React, evitando prop drillings excessivos?"
     ],
     "alternatives": [
+        {
+            "id": "be3e8b80-6bac-47bd-8f94-bd99e484a455",
+            "text": "useMemo",
+            "feedback": "Esse hook é usado para memorizar valores calculados entre renderizações, ajudando a otimizar o desempenho, evitando recalculos desnecessários.",
+            "correct": false
+        },
         {
             "id": "8e1dd77a-5321-4139-82ab-03deb6d17930",
             "text": "useContext",

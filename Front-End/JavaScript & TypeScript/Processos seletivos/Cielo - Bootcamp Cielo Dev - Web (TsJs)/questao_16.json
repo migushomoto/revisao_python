@@ -7,12 +7,12 @@
     "knowledgeArea": "Front-End",
     "category": "Typescript",
     "subCategory": "Tipagem",
-    "level": "PLENO",
+    "level": "Medium",
     "tagsOrConcepts": [
         "Tipagem estática"
     ],
     "text": [
-        "Qual sintaxe realiza a união do tipo string e number em typescript?"
+        "Qual sintaxe realiza a união do tipo string e number em Typescript?"
     ],
     "alternatives": [
         {
@@ -37,6 +37,12 @@
             "id": "f69e0a5a-ff5f-4459-a547-1392dfcc1b8a",
             "text": "number && string",
             "feedback": "Há uma confusão aqui com o operador 'e' booleano",
+            "correct": false
+        },
+        {
+            "id": "7750d810-3dbc-4505-b588-e56de000729d",
+            "text": "number ** string",
+            "feedback": "O operator '**' é utilizado para calcular a potência de dois números, portanto não encaixa no contexto de união de tipos",
             "correct": false
         }
     ]
