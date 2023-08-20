@@ -36,6 +36,12 @@
             "correct": true
         },
         {
+            "id": "15210b05-dc6d-4737-9f3f-19c9110995ba",
+            "text": "Não é necessário se preocupar com SEO em projetos modernos que utilizam React ou Angular.",
+            "feedback": "Se o desenvolvedor não se preocupar com isso, a penalidade pode ser não ter o projeto corretamente indexado nas ferramentas de busca como o Google.",
+            "correct": false
+        },
+        {
             "id": "2f596808-0ab3-4e32-9eb2-7f8155d3748a",
             "text": "React pode ser configurado para suportar melhor SEO, Angular não",
             "feedback": "Ambos suportam melhor SSR usando bibliotecas",

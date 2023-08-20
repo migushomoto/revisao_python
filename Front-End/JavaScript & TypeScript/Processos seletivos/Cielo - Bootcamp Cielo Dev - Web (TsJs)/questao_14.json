@@ -38,6 +38,12 @@
             "text": "Detectar erros de tipos em tempo de compilação",
             "feedback": "Correta",
             "correct": true
+        },
+        {
+            "id": "0734bd04-e2d8-4d19-aed5-403397a573fd",
+            "text": "Permitir que nossos projetos utilizem Typescript diretamente no navegador ao invés de Javascript",
+            "feedback": "Na realidade não! Navegadores conseguem apenas executar código Javascript, que é justamente o resultado do processo de compilação do que escrevermos em Typescript",
+            "correct": false
         }
     ]
 }

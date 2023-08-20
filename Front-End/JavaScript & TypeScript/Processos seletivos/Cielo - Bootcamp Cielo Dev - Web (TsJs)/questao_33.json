@@ -40,6 +40,12 @@
             "text": "Tanto React quanto Angular usam o DOM real para otimizar as atualizações",
             "feedback": "Ambos usam a representação virtual",
             "correct": false
+        },
+        {
+            "id": "2aa1533b-8927-4736-9644-09d0bf28f7d1",
+            "text": "Tanto React quanto Angular não utilizam o DOM, seja ele real ou virtual",
+            "feedback": "Improvável! Uma vez que é por intermédio do DOM que atualizações podem ser feitas dinâmicamente nas páginas HTML.",
+            "correct": false
         }
     ]
 }

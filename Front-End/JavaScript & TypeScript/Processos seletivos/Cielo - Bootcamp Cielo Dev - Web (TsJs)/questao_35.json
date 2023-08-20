@@ -18,13 +18,13 @@
     "alternatives": [
         {
             "id": "52c00bce-baf2-432f-9040-3559f700806f",
-            "text": "Melhorar a performance da renderização",
+            "text": "Apenas melhorar a performance da renderização",
             "feedback": "Melhora a performance das atualizações subsequentes não da renderização inicial",
             "correct": false
         },
         {
             "id": "d618b97a-f2d7-4d20-8849-944dd2172ea7",
-            "text": "Otimizar a atualização de elementos da lista",
+            "text": "Otimizar o desempenho e a capacidade do React de efetuar atualizações eficientes nos elementos da lista",
             "feedback": "Correta",
             "correct": true
         },
@@ -38,6 +38,12 @@
             "id": "320e6325-7656-40f4-ab9c-3d50df7b3ae8",
             "text": "Permitir que a lista seja reordenada automaticamente",
             "feedback": "Key não tem controle sobre a posição do elemento",
+            "correct": false
+        },
+        {
+            "id": "a35c6b04-3113-47ca-97dd-ed1dc4b42857",
+            "text": "Não tem vantagem, o uso da propriedade 'key' é opcional.",
+            "feedback": "Não é verdade! Utilizando o atributo podemos ampliar significativamente a performance de nosso aplicação.",
             "correct": false
         }
     ]

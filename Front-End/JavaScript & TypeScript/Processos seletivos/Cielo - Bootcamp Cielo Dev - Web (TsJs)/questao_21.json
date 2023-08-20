@@ -39,6 +39,12 @@
             "text": "Especificar um tipo genérico para a declaração",
             "feedback": "Você até pode usar o 'as' e criar um tipo novo, mas não um genérico e 'as' não serve para isso, serve para fazer a coerção para um tipo existente (mesmo que você crie ele na mesma linha)",
             "correct": false
+        },
+        {
+            "id": "218b2c50-5c25-48b4-8b36-d047b5803032",
+            "text": "Converter um valor para o tipo string",
+            "feedback": "Na realidade podemos usar 'as' para converter para o tipo mais conveniente, e não restritamente a uma string",
+            "correct": false
         }
     ]
 }

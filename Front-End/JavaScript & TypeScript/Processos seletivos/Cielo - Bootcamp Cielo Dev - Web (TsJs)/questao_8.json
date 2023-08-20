@@ -16,6 +16,12 @@
     ],
     "alternatives": [
         {
+            "id": "8f3ff86d-57b4-48b4-b6c0-656c38f8648c",
+            "text": "Isolar parte do código, de forma que ele possa ser incluído dinamicamente em nossas páginas",
+            "feedback": "Por padrão, o HTML5 possui características estáticas, o que impede que conteúdos dinâmicos sejam incluídos utilizando apenas a linguagem",
+            "correct": false
+        },
+        {
             "id": "f831cb41-25f8-49d2-bd81-a3ea89e73261",
             "text": "Cria um esqueleto da página enquanto ela carrega",
             "feedback": "Isso não é template, é uma funcionalidade de bibliotecas com Skeleton",

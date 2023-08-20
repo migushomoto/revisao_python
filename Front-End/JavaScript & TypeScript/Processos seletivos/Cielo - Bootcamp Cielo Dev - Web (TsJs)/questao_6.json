@@ -12,7 +12,7 @@
         "media"
     ],
     "text": [
-        "Qual elemento HTML5 é usado para criar gráficos não-vetoriais e animações usando scripts JavaScript?"
+        "Qual elemento do HTML5 é usado para criar gráficos não-vetoriais e animações usando JavaScript?"
     ],
     "alternatives": [
         {
@@ -37,6 +37,12 @@
             "id": "2f457aac-b69f-4ef5-8220-d0c0daaddeb7",
             "text": "<scriptbox>",
             "feedback": "Essa tag não existe",
+            "correct": false
+        },
+        {
+            "id": "8211c62b-c018-41e9-ad57-e968dd6bbd6c",
+            "text": "<picture>",
+            "feedback": "Utilizamos esta tag como um container para definição de fontes (sources) para imagens (img)",
             "correct": false
         }
     ]

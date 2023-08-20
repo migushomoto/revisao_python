@@ -18,7 +18,7 @@
     "alternatives": [
         {
             "id": "f7f63c89-2c1f-4200-b2e2-7c8527faf371",
-            "text": "Generics permite criar funções e estruturas de dados que funcionam para mais de um tipo, mas continuam type-safe.\nOs tipos também possíveis podem ser restringidos por 'constraints'",
+            "text": "Generics permite criarmos funções e estruturas de dados que funcionam para mais de um tipo, mas continuam type-safe.\nOs tipos também possíveis podem ser restringidos por 'constraints'",
             "feedback": "Correta",
             "correct": true
         },
@@ -36,8 +36,14 @@
         },
         {
             "id": "4efd3f35-880e-457e-96ff-9102ec2b035e",
-            "text": "Generics é a unica forma de polimorfismo no typescript, uma vez que a tipagem estática da linguagem remove completamente a possibilidade de usar a tipagem dinâmica do JS",
+            "text": "Generics é a unica forma de polimorfismo no Typescript, uma vez que a tipagem estática da linguagem remove completamente a possibilidade de usar a tipagem dinâmica do JS",
             "feedback": "Temos uma confusão de conceitos nesta alternativa, polimorfismo (que ocorre na herança e na implementação de interfaces) é confundido com sobrecarga e há uma comparação incorreta entre tipagem dinâmica e polimorfismo",
+            "correct": false
+        },
+        {
+            "id": "2e6a672b-eb25-4a44-a8ee-9d25e46c8888",
+            "text": "Generics permite criarmos funções e estruturas de dados que funcionam para apenas um tipo.",
+            "feedback": "Não é bem assim, na realidade ele fornece flexibilidade já que um mesmo código pode trabalhar com diferentes tipos, sendo que estes podem ser parametrizados em nosso código.",
             "correct": false
         }
     ]

@@ -13,31 +13,37 @@
         "CORS"
     ],
     "text": [
-        "O que é CORS (Cross-Origin Resource Sharing) em uma API REST e o que significa usar *?"
+        "O que é CORS (Cross-Origin Resource Sharing) em uma API REST e o que significa usar * (asterisco) ?"
     ],
     "alternatives": [
         {
             "id": "d2678ab9-9ecc-4137-8285-5897e49db67f",
-            "text": "Um mecanismo de segurança que permite solicitações de diferentes origens (domínios)\n O asterisco representa bloqueio de todos os domínios diferentes do da API e é uma boa prática",
+            "text": "Um mecanismo de segurança que permite solicitações de diferentes origens (domínios).\n O '*' (asterisco) representa bloqueio de todos os domínios diferentes do da API e é uma boa prática",
             "feedback": "Na realidade a utilização deste recurso é uma má prática!",
             "correct": false
         },
         {
+            "id": "dbced173-f217-450b-a8f0-cada4d69199c",
+            "text": "Um mecanismo de segurança que permite que solicitações sejam feitas apenas se credenciais de acesso forem fornecidas.\n O asterisco representa que qualquer credencial é aceita pelo servidor.",
+            "feedback": "Apesar de podermos controlar requisições que contenham credenciais, este não é o objetivo do uso do '*' (asterisco).",
+            "correct": false
+        },
+        {
             "id": "6db88f31-07be-42b7-9139-714935acbc51",
-            "text": "Um mecanismo de segurança que permite solicitações de diferentes origens (domínios)\n O asterisco representa liberação de todos os domínios diferentes do da API e é uma má prática",
+            "text": "Um mecanismo de segurança que permite solicitações de diferentes origens (domínios).\n O '*' (asterisco) representa liberação de todos os domínios diferentes do da API e é uma má prática",
             "feedback": "Correto!",
             "correct": true
         },
         {
             "id": "11d94b3b-b742-4754-9ac3-c1b67b1ae147",
-            "text": "Um protocolo de autenticação utilizado em APIs públicas\n O asterisco representa bloqueio de todos os usuários da API e é uma boa prática",
-            "feedback": "Além de ser uma má prática, o asterisco representa uma liberação e não um bloqueio, e tampouco está relacionado a camada de usuários.",
+            "text": "Um protocolo de autenticação utilizado em APIs públicas.\n O '*' (asterisco) representa bloqueio de todos os usuários da API e é uma boa prática",
+            "feedback": "Além de ser uma má prática, o '*' (asterisco) representa uma liberação e não um bloqueio, e tampouco está relacionado a camada de usuários.",
             "correct": false
         },
         {
             "id": "c4e67bf3-c464-42f1-91bf-2568993d1415",
-            "text": "Um protocolo de autenticação utilizado em APIs públicas\n O asterisco representa bloqueio de todos os usuários da API e é uma má prática",
-            "feedback": "Além de ser uma má prática, o asterisco representa uma liberação e não um bloqueio, e tampouco está relacionado a camada de usuários.",
+            "text": "Um protocolo de autenticação utilizado em APIs públicas.\n O '*' (asterisco) representa bloqueio de todos os usuários da API e é uma má prática",
+            "feedback": "Além de ser uma má prática, o '*' (asterisco) representa uma liberação e não um bloqueio, e tampouco está relacionado a camada de usuários.",
             "correct": false
         }
     ]

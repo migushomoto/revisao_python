@@ -24,21 +24,27 @@
         },
         {
             "id": "14266822-363e-406e-8f64-3486eeb0de19",
-            "text": "{\"id\":123, \"nome\":\"teste\", \"ativo\": \"true\"}",
+            "text": "{\"id\": 123, \"nome\": \"teste\", \"ativo\": \"true\"}",
             "feedback": "O campo com valor booleano está sendo tratado como string!",
             "correct": false
         },
         {
             "id": "9cb82f93-acc3-445a-a2e2-6a36d97bf098",
-            "text": "{\"id\":\"123\", \"nome\":\"teste\", \"ativo\": true}",
+            "text": "{\"id\": \"123\", \"nome\": \"teste\", \"ativo\": true}",
             "feedback": "O campo numérico está sendo tratado como string!",
             "correct": false
         },
         {
             "id": "d96d2688-7845-4d42-9c6a-f51f30092c83",
-            "text": "{\"id\":123, \"nome\":\"teste\", \"ativo\": true}",
+            "text": "{\"id\": 123, \"nome\": \"teste\", \"ativo\": true}",
             "feedback": "Correta! Foram utilizadas aspas em todas as chaves, e os valores numéricos e booleanos não as utilizam!",
             "correct": true
+        },
+        {
+            "id": "94e0283b-3eda-4209-a785-096e00cc20c4",
+            "text": "{\"id\": \"123\", \"nome\": \"teste\", \"ativo\": \"true\"}",
+            "feedback": "Todos os campos estão sendo tratados como string!",
+            "correct": false
         }
     ]
 }

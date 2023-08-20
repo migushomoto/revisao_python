@@ -13,10 +13,10 @@
         "Design Patterns"
     ],
     "text": [
-        "Qual design pattern é ilustrada no código abaixo?",
+        "Qual design pattern é ilustrada no código abaixo?\n\n",
         "```class SomePattern{",
         "\n",
-        "    constructor(){ ",
+        "    constructor() {",
         "        this.resultObject = new SomeObject()",
         "    }",
         "\n",
@@ -24,7 +24,7 @@
         "    configStep2(configObject2) { this.resultObject.configObject2 = configObject2; return this }",
         "    configStep3(configObject3) { this.resultObject.configObject3 = configObject3; return this }",
         "\n",
-        "    create(){ ",
+        "    create() {",
         "        const result = {...this.resultObject}",
         "        this.resultObject = new SomeObject()",
         "        return result",
@@ -55,6 +55,12 @@
             "id": "124a9867-7c8a-449c-9832-7b78705c7adb",
             "text": "Singleton",
             "feedback": "Não há o reaproveitamento da mesma instância sempre que create() é invocado",
+            "correct": false
+        },
+        {
+            "id": "c3105823-4f5d-483a-bf3a-3a0950bc6724",
+            "text": "Prototype",
+            "feedback": "O código apresentando não aplica o design pattern Prototype",
             "correct": false
         }
     ]

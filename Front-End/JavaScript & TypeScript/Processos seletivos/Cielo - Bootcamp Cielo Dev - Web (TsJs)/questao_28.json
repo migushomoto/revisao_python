@@ -38,6 +38,12 @@
             "text": "Uma forma incorreta de duplicar o código de teste para aumentar a cobertura",
             "feedback": "Isso não existe",
             "correct": false
+        },
+        {
+            "id": "ce99b0f0-2f27-499b-a9e7-4755f232b076",
+            "text": "Um teste duplo! O desenvolvedor escreve o código e testa e depois um QA faz o segundo teste.",
+            "feedback": "Isto está mais para um processo (ineficiente) do que uma técnica de escrita de testes.",
+            "correct": false
         }
     ]
 }

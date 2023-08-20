@@ -39,6 +39,12 @@
             "text": "Testes de unidade são escritos por desenvolvedores, enquanto testes de integração são escritos por testadores\nTestes de integração devem existir em maior número que testes unitários",
             "feedback": "Ambos são escritos por desenvolvedores",
             "correct": false
+        },
+        {
+            "id": "a72c0a81-1ee1-40d7-8f3c-4b6a507a46cc",
+            "text": "Testes de integração juntam (ou integram) vários testes unitários durante a execução.",
+            "feedback": "Nem de longe este é o objetivo dos testes de integração",
+            "correct": false
         }
     ]
 }

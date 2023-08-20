@@ -38,6 +38,12 @@
             "text": "stacking-index",
             "feedback": "Não é uma propriedade",
             "correct": false
+        },
+        {
+            "id": "322499e4-16c6-4579-a34f-2713c0e0ea9f",
+            "text": "align-items",
+            "feedback": "Apesar de controlar o alinhamento dos elementos em um container flexbox, esta propriedade não consegue controlar a ordem de empilhamento destes elementos.",
+            "correct": false
         }
     ]
 }

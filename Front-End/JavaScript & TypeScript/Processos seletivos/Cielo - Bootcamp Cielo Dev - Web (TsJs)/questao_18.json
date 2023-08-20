@@ -38,6 +38,12 @@
             "text": "Typescript, por conta da tipagem estática, trabalha apenas com 'null', 'undefined' é um valor válido apenas em JS",
             "feedback": "Typescript é um superset, ele adiciona funcionalidades ao JS, os conceitos existentes no JS não podem desaparecer",
             "correct": false
+        },
+        {
+            "id": "a8edc796-f244-4223-94f9-8e13bd3c39c4",
+            "text": "'null' e 'undefined' são valores booleanos",
+            "feedback": "Incorreto! Eles não associados, respectivamete, a ausência de valor e falta de inicialização de uma variável",
+            "correct": false
         }
     ]
 }

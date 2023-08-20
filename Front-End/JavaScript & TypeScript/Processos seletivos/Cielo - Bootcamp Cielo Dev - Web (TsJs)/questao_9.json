@@ -38,6 +38,12 @@
             "text": "morphing-effects",
             "feedback": "Não é uma técnica de CSS",
             "correct": false
+        },
+        {
+            "id": "cbf8dde5-228c-4a1c-a012-9ff58f774578",
+            "text": "parallax-scrolling",
+            "feedback": "Não é uma técnica de CSS",
+            "correct": false
         }
     ]
 }

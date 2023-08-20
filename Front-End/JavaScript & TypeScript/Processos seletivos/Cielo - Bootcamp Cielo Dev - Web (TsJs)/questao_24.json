@@ -36,7 +36,13 @@
         {
             "id": "cd26da1e-3184-4537-aa4d-a5d35113d1fd",
             "text": "A: Factory;  B: Single Responsability; C: sortMethod é objeto",
-            "feedback": "Não se trata de um factory, tampouco o código divide responsabilidades excessivas da classe Sorter",
+            "feedback": "Não se trata de um Factory, tampouco o código divide responsabilidades excessivas da classe Sorter",
+            "correct": false
+        },
+        {
+            "id": "b5fb0a23-fb9c-4cc9-9dae-2b8cb291af36",
+            "text": "A: Singleton; B: Open Closed; C: Não há implementação padrão",
+            "feedback": "Não se trata de um Singleton",
             "correct": false
         },
         {
@@ -48,7 +54,7 @@
         {
             "id": "38a6bf94-cd39-4cae-9315-225cf23392b3",
             "text": "A: Factory;  B: Open Closed; C: Não há implementação padrão",
-            "feedback": "Não se trata de um factory",
+            "feedback": "Não se trata de um Factory",
             "correct": false
         },
         {

@@ -39,6 +39,12 @@
             "text": "Adiar esses testes até a fase de testes de aceitação e fazer apenas um teste End-to-End",
             "feedback": "É um má ideia, o código deve ser testado sempre o mais cedo possível e abstraindo dependências externas",
             "correct": false
+        },
+        {
+            "id": "848141b1-0f6d-470b-9b46-904a7d73b1ce",
+            "text": "Garantiria que todos os sistemas externos estivessem operacionais, caso contrário indicaria a todos que a automação dos testes não poderá mais ser executada!",
+            "feedback": "Dependendo do cenário, é impraticável garantir que dependências externas estejam 100% disponíveis para utilização, portanto este não parece ser um bom caminho.",
+            "correct": false
         }
     ]
 }

@@ -40,6 +40,12 @@
             "text": "const data = JSON.parse(localStorage.getItem('user')) || null",
             "feedback": "O operador || não é capaz de reverter um erro, apenas um booleano falsy",
             "correct": false
+        },
+        {
+            "id": "b008ef8a-ab44-415a-82dc-19ab5663ab41",
+            "text": "const data = JSON.parse(sessionStorage.getItem('user') || null)",
+            "feedback": "Observe que neste caso estamos utilizando o sessionStorage e não o localStorage",
+            "correct": false
         }
     ]
 }

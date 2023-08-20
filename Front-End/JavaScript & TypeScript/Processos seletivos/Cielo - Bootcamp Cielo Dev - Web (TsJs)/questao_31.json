@@ -40,6 +40,12 @@
             "text": "Não há uma proporção fixa, pois varia conforme o projeto",
             "feedback": "Não é o caso, no mínimo os testes unitários devem representar a maioria",
             "correct": false
+        },
+        {
+            "id": "b256c33a-8818-407d-bd38-e04809e44fa0",
+            "text": "Testes de interface, se implementados em 100% garantem que todo o restante seja (implicitamente) testado!",
+            "feedback": "Não é o caso, no mínimo os testes unitários devem representar a maioria",
+            "correct": false
         }
     ]
 }

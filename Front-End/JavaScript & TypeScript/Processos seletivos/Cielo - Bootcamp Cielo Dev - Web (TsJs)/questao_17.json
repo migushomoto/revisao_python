@@ -34,13 +34,19 @@
         {
             "id": "c75cc888-4363-4d20-a79d-f8862633051a",
             "text": "type Animal = { name: string; }\ntype Bear = Animal && { honey: boolean; }",
-            "feedback": "Há uma confusão aqui com o operador booleano",
+            "feedback": "Há uma confusão aqui com o operador booleano AND",
             "correct": false
         },
         {
             "id": "867c8e30-9135-4413-81f6-76ba81df0222",
             "text": "type Animal = { name: string; }\ntype Bear = Animal extends { honey: boolean; }",
             "feedback": "O extends serve para classes e interfaces, não type alises",
+            "correct": false
+        },
+        {
+            "id": "df4162c0-7b66-4988-a052-672588fc813e",
+            "text": "type Animal = { name: string; }\ntype Bear = Animal || { honey: boolean; }",
+            "feedback": "A utilização do operador booleano OR, gerará um erro de compilação!",
             "correct": false
         }
     ]
