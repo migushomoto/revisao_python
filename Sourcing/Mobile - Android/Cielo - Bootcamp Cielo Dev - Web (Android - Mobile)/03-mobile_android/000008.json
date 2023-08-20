@@ -1,0 +1,24 @@
+{
+    "id": "0bdbf783-3fe7-4502-bf19-3f5ed1bd1236",
+    "SKU": "000008",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "kotlin",
+    "knowledgeArea": "Mobile",
+    "category": "Fundamentos de Mobile",
+    "subCategory": "Android",
+    "level": "Advanced", 
+    "tagsOrConcepts":["mobile", "android"],
+    "text": [
+        "No desenvolvimento de aplicativos móveis Android nativos, a persistência de dados é uma consideração essencial para garantir que informações importantes sejam mantidas entre diferentes sessões de uso.",
+        "Dentre as diversas abordagens disponíveis, a escolha adequada para persistir estruturas de dados com características específicas é crucial para garantir um ótimo desempenho, aprimorar a experiência do usuário e permitir a escalabilidade do aplicativo.",
+        "Para persistir internamente uma pequena coleção de dados no formato chave-valor, o que se deve utilizar?"
+    ],
+    "alternatives": [
+        { "id": "84e770f1-0450-425b-87de-a521229a4040", "text": "SharedPreferences ou DataStore", "feedback":"Correto, pois em ambos, dados considerados pequenos são armazenados no formato chave-valor em um arquivo XML, internamente no escopo do aplicativo.", "correct":true },
+        { "id": "dacd8290-ad6c-4a44-87db-52c9ddf5c338", "text": "SQLite", "feedback":"Incorreto, ideal para armazenar dados no formato relacional e em grandes quantidades.", "correct":false },
+        { "id": "502be0d4-4f2d-41c8-85cf-57634a9155ac", "text": "Content Providers", "feedback":"Incorreto, consiste de uma interface padrão que conecta os dados em um processo com o código em execução em outro processo.", "correct":false },
+        { "id": "b7296d80-2fae-455a-8356-edb94b803d1b", "text": "Armazenamento interno de arquivos", "feedback":"Incorreto, ideal para armazenar internamente dados de forma livre e em grandes quantidades.", "correct":false },
+        { "id": "1c39a369-f812-4ce5-9a89-a62b4187c6b4", "text": "ViewModel", "feedback":"Incorreto, persiste dados apenas durante o ciclo de vida da aplicação.", "correct":false }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "id": "3b500ca2-338b-41fb-ac35-8dd21b05ad63",
+    "SKU": "000024",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "kotlin",
+    "knowledgeArea": "Mobile",
+    "category": "Arquitetura",
+    "subCategory": "Modularização",
+    "level": "Advanced", 
+    "tagsOrConcepts":["arquitetura", "modularizacao", "feature"],
+    "text": [
+        "O que pode ser considerado uma 'Feature' em um processo de modularização? Como essa abordagem contribui para a escalabilidade e a manutenção do código?"
+    ],
+    "alternatives": [
+        { "id": "371b274e-9f51-4ac3-8147-ac79fece389b", "text": "Parte independente do aplicativo que encapsula toda a lógica de negócios e a interface do usuário. Essa abordagem não afeta a escalabilidade e a manutenção do código.", "feedback":"Incorreto, não encapsula toda a lógica de negócios e a interface do usuário.", "correct":false },
+        { "id": "abb4d7f8-c2c0-4d69-9c19-8e705967a80e", "text": "Componente exclusivo da camada de apresentação, sendo responsável apenas pela renderização da interface do usuário. Contribui para a escalabilidade do código ao separar a camada de View por contextos específicos.", "feedback":"Incorreto, não é exclusivo da camada de apresentação.", "correct":false },
+        { "id": "4db066bd-4f81-44cf-9dbc-95ff4d85b3b1", "text": "Funcionalidade do aplicativo que abrange todos os aspectos, desde a interface do usuário até a lógica de negócios de outros componentes dependentes. Essa abordagem melhora a escalabilidade e a manutenção do código por centralizar lógicas dependentes de diferentes contexto.", "feedback":"Incorreto, engloba apenas o contexto específico da funcionalidade.", "correct":false },
+        { "id": "dda52fe6-2ae8-457f-9743-c58a3a065142", "text": "Módulo que encapsula uma funcionalidade específica do aplicativo, incluindo sua lógica de negócios e interface. Isso contribui para a escalabilidade, permitindo a adição e remoção de funcionalidades de forma independente.", "feedback":"Correto, um módulo que encapsula uma funcionalidade específica do aplicativo, incluindo sua lógica de negócios e interface, contribuindo então para a escalabilidade e indenpendência de contextos.", "correct":true },
+        { "id": "3914bc0c-e625-462f-ad6a-a59d5358bbcd", "text": "Padrão de design utilizado para criar interfaces de usuário complexas. No entanto, essa abordagem não influencia a escalabilidade do código.", "feedback":"Incorreto, não é um padrão de design utilizado para criar interfaces de usuário complexas.", "correct":false }
+    ]
+}

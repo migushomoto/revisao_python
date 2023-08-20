@@ -1,0 +1,22 @@
+{
+    "id": "ac1420be-d3f2-4ccb-ab34-885c70ce8af3",
+    "SKU": "000020",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "kotlin",
+    "knowledgeArea": "Mobile",
+    "category": "Arquitetura",
+    "subCategory": "Arquitetura Limpa",
+    "level": "Medium", 
+    "tagsOrConcepts":["arquitetura", "mvvm" , "clean architecture"],
+    "text": [
+        "Na integração entre a arquitetura MVVM (Model-View-ViewModel) e a Clean Architecture, como os conceitos de 'Use Cases' e 'View Models' são relacionados?"
+    ],
+    "alternatives": [
+        { "id": "e8fcabf9-7798-439c-94cb-f99147c72783", "text": "'Use Cases' correspondem diretamente aos 'View Models', ambos contendo a lógica de negócios e a interação com o banco de dados.", "feedback":"Incorreto, 'Use Cases' não correspondem diretamente aos 'View Models'.", "correct":false },
+        { "id": "68941320-4b70-4692-a40b-3a93ab075b78", "text": "'Use Cases' e 'View Models' são independentes, sem relação direta na integração entre as arquiteturas.", "feedback":"Incorreto, possuem relação direta na integração entre arquiteturas.", "correct":false },
+        { "id": "f8805bb2-f583-4540-b453-45e742a2a124", "text": "'Use Cases' representam a camada de apresentação da Clean Architecture, enquanto 'View Models' pertencem à camada de negócios.", "feedback":"Incorreto, 'Use Cases' não representam a camada de apresentação e 'View Models' não pertencem à camada de negócios.", "correct":false },
+        { "id": "32d7a5a3-671a-4648-8971-6db4be1f0823", "text": "'Use Cases' encapsulam a lógica de negócios da Clean Architecture, enquanto 'View Models' se concentram na interação com a interface do usuário na arquitetura MVVM.", "feedback":"Correto, os 'Use Cases' na Clean Architecture representam a lógica de negócios da aplicação, enquanto os 'View Models' na arquitetura MVVM focam na interação entre a View e o restante do sistema. A relação entre eles envolve a utilização dos 'Use Cases' pelo 'View Model' para buscar e manipular dados da lógica de negócios, promovendo a separação de responsabilidades e a modularidade.", "correct":true },
+        { "id": "fb6e3d2e-2260-4d86-8172-d0e2b4177e81", "text": "'Use Cases' são as classes de modelo da Clean Architecture, e 'View Models' cuidam da interação com a View na arquitetura MVVM.", "feedback":"Incorreto, 'Use Cases' não são classes de modelo.", "correct":false }
+    ]
+}

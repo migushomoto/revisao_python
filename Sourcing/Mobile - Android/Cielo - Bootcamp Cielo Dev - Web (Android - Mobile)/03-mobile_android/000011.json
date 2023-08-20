@@ -1,0 +1,23 @@
+{
+    "id": "a6bdb01c-6317-4480-b86b-07e00bf1203a",
+    "SKU": "000011",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "kotlin",
+    "knowledgeArea": "Mobile",
+    "category": "Fundamentos de Mobile",
+    "subCategory": "Android",
+    "level": "Advanced", 
+    "tagsOrConcepts":["mobile", "android"],
+    "text": [
+        "O conceito 'offline first' em resumo, descreve que mesmo quando o dispositivo do usuário estiver desconectado (ou até mesmo para evitar de se realizar requisições desnecessárias), ele deverá conseguir utilizar pelo menos algumas de suas funções padrão.",
+        "Qual dessas abordagens não é eficaz ao fornecer um controle de estado offline útil em seu aplicativo?"
+    ],
+    "alternatives": [
+        { "id": "3c72d4ed-36a8-46f0-a289-789d8968d29b", "text": "Aplicar cache ao obter dados remotos.", "feedback":"Incorreto, viabiliza manter ativa funcionalidade em modo offline.", "correct":false },
+        { "id": "476d78bb-0023-4b6b-904f-a2a6f721ef68", "text": "Sempre notificar os usuários que a conectividade foi perdida.", "feedback":"Correto, apenas notificar o usuário não irá gerar nenhum efeito de persistência de estado da aplicação.", "correct":true },
+        { "id": "c046b012-e05e-49e4-8503-7c55dc8c286e", "text": "Armazenar dados localmente.", "feedback":"Incorreto, essa ação permite se manter estados de aplicação em cenários offline.", "correct":false },
+        { "id": "a004f7e8-298b-4164-8d94-9a147503eccb", "text": "Programar ações a serem executadas quando a conectividade foi perdida.", "feedback":"Incorreto, através por exemplo do WorkManager no Android, é possível programar a retentativa de chamadas na internet ou armazenar localmente dados ao ocorrer uma falha de execução, observando a mudança de estado de conectividade do dispositivo.", "correct":false },
+        { "id": "c30b79cb-75ec-4e16-96a0-a587f4e6cfa1", "text": "Listar dados locais ao perceber a ausência de conectividade.", "feedback":"Incorreto, abordagem eficaz desse conceito.", "correct":false }
+    ]
+}

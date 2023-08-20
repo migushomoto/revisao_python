@@ -1,0 +1,22 @@
+{
+    "id": "dea25ad5-8f20-4968-8af0-4a29dfe8ec79",
+    "SKU": "000014",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "kotlin",
+    "knowledgeArea": "Mobile",
+    "category": "Fundamentos de Mobile",
+    "subCategory": "React Native",
+    "level": "Medium", 
+    "tagsOrConcepts":["mobile", "hibrido"],
+    "text": [
+        "Qual método do ciclo de vida do componente React é frequentemente usado para realizar chamadas de API assíncronas em um aplicativo React Native?"
+    ],
+    "alternatives": [
+        { "id": "06edea34-2a4a-4082-b623-090c46abdcd9", "text": "componentDidMount", "feedback":"Correto, o método componentDidMount é chamado após o componente ter sido inserido no DOM. É frequentemente usado para realizar chamadas de API assíncronas no React Native, uma vez que é o momento ideal para iniciar operações de busca ou carregamento de dados externos.", "correct":true },
+        { "id": "c64f352c-a4d8-40b7-a033-3de60aa9a420", "text": "shouldComponentUpdate", "feedback":"Incorreto.", "correct":false },
+        { "id": "8ec91bca-0820-4843-a202-abda86f96a23", "text": "componentDidUpdate", "feedback":"Incorreto.", "correct":false },
+        { "id": "1577b3ee-dca9-47a2-915c-8da640cb7533", "text": "componentWillMount", "feedback":"Incorreto.", "correct":false },
+        { "id": "0e1958b2-f05c-4a0d-a194-8064e7712b55", "text": "componentWillUnmount", "feedback":"Incorreto.", "correct":false }
+    ]
+}

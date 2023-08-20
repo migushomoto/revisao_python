@@ -1,0 +1,22 @@
+{
+    "id": "6c9e72a9-4ef7-4904-9d61-0021aeada3f9",
+    "SKU": "000022",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "kotlin",
+    "knowledgeArea": "Mobile",
+    "category": "Arquitetura",
+    "subCategory": "Modularização",
+    "level": "Medium", 
+    "tagsOrConcepts":["arquitetura", "modularizacao", "clean architecture", "mvvm"],
+    "text": [
+        "Na integração entre as arquiteturas MVVM e Clean Architecture, como a camada de 'Repository' se encaixa nesse contexto? Qual é o seu propósito e como ela contribui para a desacoplagem entre as camadas?"
+    ],
+    "alternatives": [
+        { "id": "2ec4e91b-075b-4300-9746-8cc412cca3f4", "text": "Responsável pela gestão de requisições HTTP, persistência interna de dados e comunicação com os servidores, não afetando a integração entre as arquiteturas.", "feedback":"Incorreto, os 'Data Sources' são os repsponsáveis pela busca de dados remotos ou locais.", "correct":false },
+        { "id": "c3059429-36d4-472b-9942-70607d7c81d2", "text": "A camada de 'Repository' na Clean Architecture corresponde diretamente aos 'View Models' da MVVM, gerenciando a interface do usuário.", "feedback":"Incorreto, não possui uma relação direta com os 'View Models' pois são intermediados pelos 'Use Cases'.", "correct":false },
+        { "id": "b58e9f55-8e65-41de-8bb5-2c19ef839657", "text": "A camada de 'Repository' atua como intermediário entre os 'Use Cases' da Clean Architecture e os 'View Models' da MVVM, fornecendo uma fonte única de dados.", "feedback":"Correto, fornece uma fonte única de dados para ambos, facilitando o desacoplamento e garantindo que os 'Use Cases' da Clean Architecture não precisem se preocupar com a origem dos dados.", "correct":true },
+        { "id": "5e91cfc7-3277-432f-8e13-1c823507398b", "text": "Exclusiva da arquitetura MVVM, não possui relação com os conceitos da Clean Architecture.", "feedback":"Incorreto, possui relação com os conceitos do Clean Architecture.", "correct":false },
+        { "id": "5efd9366-b603-479c-8de6-68bd783cb928", "text": "Responsável pela lógica de negócios, atua como uma ponte entre a arquitetura MVVM e a Clean Architecture.", "feedback":"Incorreto, não é o responsável pela lógica de negócio e sim por ser uma fonte centralizadora de obtenção ou escrita de dados no geral.", "correct":false }
+    ]
+}

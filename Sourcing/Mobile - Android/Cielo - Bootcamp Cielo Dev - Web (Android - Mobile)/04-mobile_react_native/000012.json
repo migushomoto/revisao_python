@@ -1,0 +1,22 @@
+{
+    "id": "7c56229a-1edd-4b68-a045-68d4bad1b185",
+    "SKU": "000012",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "kotlin",
+    "knowledgeArea": "Mobile",
+    "category": "Fundamentos de Mobile",
+    "subCategory": "React Native",
+    "level": "Advanced", 
+    "tagsOrConcepts":["mobile", "hibrido"],
+    "text": [
+        "Quais são as vantagens de usar o React Native Navigation em comparação com outras bibliotecas de navegação?"
+    ],
+    "alternatives": [
+        { "id": "05c788e7-7862-4c15-8a04-6d4f44f3301e", "text": "Fornece animações mais complexas e vistosas.", "feedback":"Incorreto.", "correct":false },
+        { "id": "7ca400ed-289a-4b4f-bb1e-ef5f1cb1844d", "text": "Melhor integração com as APIs nativas do dispositivo.", "feedback":"Correto, o React Native Navigation é uma biblioteca que oferece melhor integração com as APIs nativas do dispositivo, resultando em uma experiência de navegação mais fluida e eficiente.", "correct":true },
+        { "id": "3c691353-a5b6-4ed8-b834-4f749a6d3ea8", "text": "Suporte apenas para dispositivos Android.", "feedback":"Incorreto.", "correct":false },
+        { "id": "6f8d3497-7c58-4398-98a3-901d69dd0f29", "text": "Menor comunidade de desenvolvedores, resultando em recursos limitados.", "feedback":"Incorreto.", "correct":false },
+        { "id": "b2c5ff65-dedb-407a-b726-539cbbb43b5f", "text": "Integração direta com o Redux, eliminando a necessidade de gerenciamento de estado.", "feedback":"Incorreto.", "correct":false }
+    ]
+}

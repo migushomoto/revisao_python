@@ -1,0 +1,22 @@
+{
+    "id": "ddade55c-7a4e-4397-a97b-36ccdf1204e9",
+    "SKU": "000004",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "kotlin",
+    "knowledgeArea": "Mobile",
+    "category": "Padrões de Design",
+    "subCategory": "Criacional",
+    "level": "Medium", 
+    "tagsOrConcepts":["padrões de design", "criacional", "singleton"],
+    "text": [
+        "Quais as principais características e propósitos do padrão de design Singleton em um software?"
+    ],
+    "alternatives": [
+        { "id": "5952e1a3-7209-4d7c-aa18-652f5831acbb", "text": "Garantir que uma classe tenha apenas uma instância no sistema e fornecê-la um único ponto de acesso global.", "feedback":"Correto, o Singleton é projetado para criar uma única instância de uma classe em todo o sistema e fornecer um meio de acesso global a essa instância, útil em situações em que uma única instância precisa controlar algum recurso compartilhado.", "correct":true },
+        { "id": "30a6bc43-6cc8-4288-926b-65c949a6c5ac", "text": "Criar várias instâncias de uma classe, garantindo que elas compartilhem sempre os mesmos dados.", "feedback":"Incorreto, é exatamente o oposto: garante que apenas uma instância da classe seja criada.", "correct":false },
+        { "id": "505e93a1-c8ca-4a7f-a947-7c55793e666a", "text": "Criar objetos efêmeros que podem ser descartados após o uso, economizando recursos.", "feedback":"Incorreto, não se destina a criar objetos efêmeros, pelo contrário, se concentra em garantir que uma única instância de uma classe seja criada e usada durante a vida útil do programa.", "correct":false },
+        { "id": "81d699d7-e89a-43fd-a64f-37cc2702ad2e", "text": "Permitir a criação de várias instâncias de uma classe, cada uma com um estado diferente.", "feedback":"Incorreto, é especificamente projetado para garantir que apenas uma instância da classe seja criada, independentemente do estado.", "correct":false },
+        { "id": "48df8193-a6f4-4257-aa2b-57c83c1991b5", "text": "Encapsular um grupo de classes relacionadas e fornecer um meio de criar instâncias de qualquer uma delas.", "feedback":"Incorreto, não é usado para encapsular um grupo de classes relacionadas. Ele busca controlar a criação de uma única instância de uma classe específica.", "correct":false }
+    ]
+}

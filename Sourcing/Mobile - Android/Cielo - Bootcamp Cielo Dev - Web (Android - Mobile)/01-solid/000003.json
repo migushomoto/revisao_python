@@ -1,0 +1,22 @@
+{
+    "id": "e206a720-f946-4c25-a5ea-760f0b2ac5d3",
+    "SKU": "000003",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "kotlin",
+    "knowledgeArea": "Mobile",
+    "category": "Boas Práticas",
+    "subCategory": "SOLID",
+    "level": "Medium", 
+    "tagsOrConcepts":["solid", "poo"],
+    "text": [
+        "Qual é a relação entre os princípios SOLID e a Programação Orientada a Objetos (POO) no desenvolvimento de software?"
+    ],
+    "alternatives": [
+        { "id": "bdf89f07-6342-41a2-a6c3-21677b300214", "text": "Os princípios SOLID são uma alternativa à POO, contribuindo com conceitos de paradigmas de programação procedural e estrutural.", "feedback":"Incorreto, os princípios SOLID não são uma alternativa a POO, mas sim uma abordagem complementar para aprimorar a qualidade do design de software.", "correct":false },
+        { "id": "b5a12395-2ef9-4bec-a0ac-00af4764b175", "text": "Os princípios SOLID são aplicáveis apenas a algumas linguagens específicas de programação orientadas a objetos.", "feedback":"Incorreto, os princípios SOLID são aplicáveis a qualquer linguagem de programação orientada a objetos, não se limitando a uma específica.", "correct":false },
+        { "id": "0274e8f0-188a-40b6-a744-5952e711a0f3", "text": "Os princípios SOLID complementam a POO, fornecendo diretrizes para criar classes e estruturas de software mais robustas, flexíveis e de fácil manutenção.", "feedback":"Correto, a POO é um paradigma de programação amplamente utilizado para modelar sistemas de software a partir de objetos, que encapsulam dados e comportamentos relacionados. No entanto, a POO por si só não garante a criação de um design eficiente e de alta qualidade.", "correct":true },
+        { "id": "a97a5fd2-4ab7-43d7-9eea-c2965232892a", "text": "A POO torna desnecessária a aplicação dos princípios SOLID, pois já inclui todos os conceitos necessários para um design eficiente.", "feedback":"Incorreto, pois embora a POO seja um conceito fundamental, os princípios SOLID fornecem diretrizes adicionais que contribuem para um design mais sólido e adaptável.", "correct":false },
+        { "id": "3cced98c-d80a-4a7b-9ce7-03471b42f724", "text": "Os princípios SOLID se opõem à POO, promovendo uma abordagem mais rígida e hierárquica na estruturação do software.", "feedback":"Incorreto, os princípios SOLID não promovem uma abordagem mais rígida, mas sim uma estrutura mais flexível e adaptável para o software.", "correct":false }
+    ]
+}

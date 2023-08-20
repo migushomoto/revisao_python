@@ -1,0 +1,22 @@
+{
+    "id": "c5fbb881-4c8c-40d5-a8bc-2eb965078630",
+    "SKU": "000016",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "kotlin",
+    "knowledgeArea": "Mobile",
+    "category": "Fundamentos de Mobile",
+    "subCategory": "React Native",
+    "level": "Medium", 
+    "tagsOrConcepts":["mobile", "hibrido"],
+    "text": [
+        "Qual componente do React Native é usado para criar listas com eficiência, especialmente para grandes conjuntos de dados?"
+    ],
+    "alternatives": [
+        { "id": "6be8de69-26c3-4c39-b9ec-0974e0361f92", "text": "<List>", "feedback":"Incorreto.", "correct":false },
+        { "id": "637972ee-8b9c-41dd-b467-0fe87f9bbb3d", "text": "<ScrollView>", "feedback":"Incorreto.", "correct":false },
+        { "id": "871abbe9-56b4-45a2-b62f-a4721b1c48a1", "text": "<FlatList>", "feedback":"Correto, a <FlatList> é usada para renderizar listas de maneira eficiente, especialmente para grandes conjuntos de dados, reciclando os elementos visuais à medida que o usuário rola pela lista, o que melhora significativamente o desempenho e a eficiência.", "correct":true },
+        { "id": "d50a84c6-7696-4d0d-826b-c540eca6bc9c", "text": "<ArrayView>", "feedback":"Incorreto.", "correct":false },
+        { "id": "2902b58d-0ce1-4fd8-bd94-68a36c80d683", "text": "<VirtualizedList>", "feedback":"Incorreto.", "correct":false }
+    ]
+}

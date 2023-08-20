@@ -1,0 +1,28 @@
+{
+    "id": "ce5b8de0-1c73-45fc-b585-8d95bbaaabfb",
+    "SKU": "000025",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "kotlin",
+    "knowledgeArea": "Mobile",
+    "category": "Testes Automatizados",
+    "subCategory": "Tipos de Testes",
+    "level": "Advanced", 
+    "tagsOrConcepts":["testes automatizados", "tipos de testes"],
+    "text": [
+        "Considere as afirmações abaixo relacionadas aos diferentes tipos de testes de software:",
+        "1 - Testes de unidade são executados apenas no código fonte, sem simular a interação com outros componentes.",
+        "2 - Testes de integração verificam a comunicação e interação entre componentes, garantindo a corretude das unidades individuais.",
+        "3 - Testes de interface do usuário validam a usabilidade e experiência do usuário final, focando em fluxos de negócio.",
+        "4 - Testes de aceitação validam a conformidade do sistema a partir de requisitos previamente especificados, normalmente através de cenários reais.",
+        "5 - Testes de carga e desempenho avaliam a eficácia do sistema sob diferentes volumes de tráfego, identificando gargalos e problemas de escalabilidade.",
+        "Avalie cada afirmação, determine se ela é verdadeira (V) ou falsa (F) e marque a sequência correta."
+    ],
+    "alternatives": [
+        { "id": "a108a816-a12b-4b01-96ae-c8a80506105a", "text": "V, V, F, F, V", "feedback":"Correto, testes de interface do usuário validam a usabilidade e a experiência do usuário final, mas não necessariamente focam apenas em fluxos de negócio e testes de aceitação geralmente validam se o sistema atende aos requisitos do cliente e do negócio através de cenários reais, não necessariamente com base nos requisitos especificados.", "correct":true },
+        { "id": "5cb8d780-a069-4bce-a7e9-f67f32055424", "text": "V, F, V, V, F", "feedback":"Incorreto.", "correct":false },
+        { "id": "7df7e621-a556-4a97-9bc8-187b54153037", "text": "F, V, F, V, V", "feedback":"Incorreto.", "correct":false },
+        { "id": "342d3c6e-a5dd-402d-a239-59bf279b1757", "text": "F, F, V, V, F", "feedback":"Incorreto.", "correct":false },
+        { "id": "0ced606a-feaa-4c12-a76e-d41acd3b181c", "text": "V, V, V, F, F", "feedback":"Incorreto.", "correct":false }
+    ]
+}

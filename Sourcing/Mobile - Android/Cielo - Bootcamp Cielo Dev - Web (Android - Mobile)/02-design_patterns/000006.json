@@ -1,0 +1,31 @@
+{
+    "id": "2b38d1b4-0e5e-4cd2-93dc-2a667edc79a1",
+    "SKU": "000006",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "kotlin",
+    "knowledgeArea": "Mobile",
+    "category": "Padrões de Design",
+    "subCategory": "Geral",
+    "level": "Medium", 
+    "tagsOrConcepts":["padrões de design", "tipos"],
+    "text": [
+        "Os padrões de design desempenham um papel crucial no desenvolvimento de software, oferecendo soluções testadas e comprovadas para problemas recorrentes.",
+        "Cada padrão possui particularidades que o permite ser categorizado e assim adequado para solucionar um determinado escopo de situações, sendo estas descritas a seguir:",
+        "1 - Estruturais: lidam com a composição de classes e objetos para formar estruturas maiores.",
+        "2 - Criacionais: relacionados à criação de objetos de forma flexível e eficiente.",
+        "3 - Interface: definem a comunicação entre diferentes partes do sistema, especificando como os objetos interagem.",
+        "4 - Banco de Dados: tratam da organização e manipulação eficiente dos dados no sistema.",
+        "5 - Comportamentais: definem como os objetos interagem e trocam informações para realizar tarefas conjuntas.",
+        "Quais os tipos corretos existentes de padrões de design de software?"
+    ],
+    "alternatives": [
+        { "id": "35a14ece-469e-4ae9-a2ef-aa24d23bf994", "text": "1 - 2 - 3", "feedback":"Incorreto.", "correct":false },
+        { "id": "db4542f2-8fe9-479f-a394-a2d76b33c032", "text": "1 - 3 - 4 - 5", "feedback":"Incorreto.", "correct":false },
+        { "id": "281001af-b1bc-4c0a-8660-bd2d8d147b5d", "text": "2 - 3 - 5", "feedback":"Incorreto.", "correct":false },
+        { "id": "def9cbc7-5aa8-4862-b838-085e49cca1d4", "text": "1 - 2 - 5", "feedback":"Correto, o grupo 'Gang of Four', composto por quatro desenvolvedores renomados na área de programação orientada a objetos, cunharam o termo 'padrões de design' e os categorizaram em 3 grupos: Criacionais, Comportamentais e Estruturais, em seu livro 'Design Patterns: Elements of Reusable Object-Oriented Software', publicado em 1994.", "correct":true },
+        { "id": "9da6064d-0518-4f5d-bc24-0073fd9187a5", "text": "1 - 2 - 3 - 5", "feedback":"Incorreto.", "correct":false }
+    ]
+}
+
+

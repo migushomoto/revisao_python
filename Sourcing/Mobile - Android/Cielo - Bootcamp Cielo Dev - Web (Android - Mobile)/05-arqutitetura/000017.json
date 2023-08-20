@@ -1,0 +1,23 @@
+{
+    "id": "699ab532-b361-417f-83a0-5aedafe41988",
+    "SKU": "000017",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "kotlin",
+    "knowledgeArea": "Mobile",
+    "category": "Arquitetura",
+    "subCategory": "MVVM",
+    "level": "Medium", 
+    "tagsOrConcepts":["arquitetura", "mvvm"],
+    "text": [
+        "No cenário dinâmico do desenvolvimento de aplicativos móveis Android, a busca por arquiteturas que otimizem a organização, manutenibilidade e desempenho do código tornou-se crucial. Nesse contexto, a arquitetura MVVM (Model-View-ViewModel) emergiu como uma abordagem altamente eficaz.",
+        "Qual é o principal objetivo desse modelo de arquitetura?"
+    ],
+    "alternatives": [
+        { "id": "6d04ad58-c83a-4f92-a555-6a0a993cbfab", "text": "Separar a interface do usuário da lógica de negócios, permitindo uma melhor organização do código.", "feedback":"Correto, a arquitetura MVVM busca separar claramente os elementos da interface do usuário (View) da lógica de negócios (ViewModel) e dos dados (Model). Isso promove a organização do código, facilita a manutenção e testabilidade, além de permitir que diferentes equipes trabalhem em paralelo.", "correct":true },
+        { "id": "686d6769-ba56-4b59-81f7-25632c42ac9e", "text": "Fornecer uma estrutura de layout responsivo para se adaptar a diferentes tamanhos de tela.", "feedback":"Incorreto.", "correct":false },
+        { "id": "7e89ea60-63a9-4582-978c-a4bdc9633eec", "text": "Introduzir componentes visuais complexos para melhorar a aparência do aplicativo.", "feedback":"Incorreto.", "correct":false },
+        { "id": "ad5735ca-1211-4908-be2e-dd3364409d68", "text": "Simplificar a criação de APIs REST para comunicação com servidores externos.", "feedback":"Incorreto.", "correct":false },
+        { "id": "7c76063b-1c7e-4c4d-9115-91dde50ade0e", "text": "Otimizar a renderização gráfica para melhorar o desempenho do aplicativo.", "feedback":"Incorreto.", "correct":false }
+    ]
+}

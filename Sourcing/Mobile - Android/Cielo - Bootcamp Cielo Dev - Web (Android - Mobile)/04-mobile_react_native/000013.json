@@ -1,0 +1,22 @@
+{
+    "id": "5f650a4a-a76a-4b80-87fa-9a8c934db335",
+    "SKU": "000013",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "kotlin",
+    "knowledgeArea": "Mobile",
+    "category": "Fundamentos de Mobile",
+    "subCategory": "React Native",
+    "level": "Medium", 
+    "tagsOrConcepts":["mobile", "hibrido"],
+    "text": [
+        "Qual é a função da biblioteca Redux no desenvolvimento React Native?"
+    ],
+    "alternatives": [
+        { "id": "c094f201-21a0-4666-9a5f-83f98ae5c7a3", "text": "Gerenciar a interface do usuário e a renderização de componentes.", "feedback":"Incorreto.", "correct":false },
+        { "id": "ab93fbd5-d163-4bce-b8d8-4efb8f5ba9cf", "text": "Fornecer estilos predefinidos para componentes do React Native.", "feedback":"Incorreto.", "correct":false },
+        { "id": "8c9902eb-dbb1-47b2-8e83-0a06f1743f4e", "text": "Lidar com navegação e roteamento entre diferentes telas.", "feedback":"Incorreto.", "correct":false },
+        { "id": "e6534e1b-3973-4276-8f92-7b138dc7b869", "text": "Gerenciar o estado global da aplicação e suas mudanças.", "feedback":"Correto, o Redux é uma biblioteca usada para gerenciar o estado global da aplicação, permitindo o compartilhamento e a atualização eficiente de dados entre diferentes componentes sem a necessidade de passar propriedades manualmente entre eles.", "correct":true },
+        { "id": "7a71b96a-21e6-406b-9592-327cf0fbd85c", "text": "Otimizar automaticamente o desempenho de aplicativos.", "feedback":"Incorreto.", "correct":false }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "id": "3a309e73-be05-42a1-9c7f-874937de00af",
+    "SKU": "000007",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "kotlin",
+    "knowledgeArea": "Mobile",
+    "category": "Fundamentos de Mobile",
+    "subCategory": "Android",
+    "level": "Medium", 
+    "tagsOrConcepts":["mobile", "android"],
+    "text": [
+        "Ao iniciar o seu aplicativo Android ainda em estágio de desenvolvimento e navegar para uma nova tela, ele trava e fecha o programa imediatamente. Qual ação de debug NÃO o ajudará a diagnosticar o problema ocorrido?"
+    ],
+    "alternatives": [
+        { "id": "a435ef1a-28d3-4b5b-8f93-27ac6385d63f", "text": "Definir pontos de interrupção e percorrer o código linha por linha.", "feedback":"Incorreto, analisar pontos de interrupção é uma forma eficiente de se rastrear bugs.", "correct":false },
+        { "id": "eb2a05d4-d8c7-4d31-809e-b7dc15bdb7cc", "text": "Usar as ferramentas de análise do Android Studio para detectar anomalias na CPU e no uso da rede.", "feedback":"Incorreto, a IDE Android Studio oferece um conjunto completo de ferramentas que contribui bastante para se encontrar falhas no sistema.", "correct":false },
+        { "id": "39777c91-04ee-4855-a3d5-0e1d5d402a1d", "text": "Adicionar uma chamada Thread.sleep() antes de iniciar a nova atividade.", "feedback":"Correto, uma chamada Thread.sleep() não irá contribuir em nada na análise do problema.", "correct":true },
+        { "id": "f0a87514-f761-4a20-bd5e-62a1138379df", "text": "Inspecionar os logs no Logcat.", "feedback":"Incorreto, a utilização de logs em locais estratégicos do código podem ajudar a encontrar o problema de trava.", "correct":false },
+        { "id": "a65ba858-fd95-4015-bf57-69f340237be4", "text": "Adicionar métodos 'print()' em seu código para entender o ocorrido.", "feedback":"Incorreto, bem como a utilização de logs, é possível também usar o método print() em locais estratégicos do código podem ajudar a encontrar problemas.", "correct":false }
+    ]
+}

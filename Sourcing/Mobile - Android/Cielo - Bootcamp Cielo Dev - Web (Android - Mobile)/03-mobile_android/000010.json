@@ -1,0 +1,24 @@
+{
+    "id": "e19d0d27-e049-4a62-90fc-47134eb992d0",
+    "SKU": "000010",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "kotlin",
+    "knowledgeArea": "Mobile",
+    "category": "Fundamentos de Mobile",
+    "subCategory": "Android",
+    "level": "Advanced", 
+    "tagsOrConcepts":["mobile", "android"],
+    "text": [
+        "Dentre os diversos periféricos de um dispositivo móvel, com certeza um dos mais importantes é a câmera.",
+        "Suponhamos que ao desenvolver seu aplicativo, deve-se permitir que os usuários possam acessar a câmera e tirar fotos.",
+        "Qual das alternativas abaixo NÃO é uma vantagem de se criar uma Intent personalizada para tal, em vez de solicitar a permissão da câmera diretamente?"
+    ],
+    "alternatives": [
+        { "id": "4e88e814-4cd7-4da0-8bf2-c0ea9fad26fe", "text": "Os usuários podem selecionar seus aplicativos de fotos favoritos para tirar fotos.", "feedback":"Incorreto, considerada uma vantagem dessa abordagem.", "correct":false },
+        { "id": "490f0e81-8f5b-4d41-9b19-e0947e75f3ce", "text": "Não é preciso criar um pedido de permissão em seu aplicativo para tirar uma foto.", "feedback":"Incorreto, considerada uma vantagem dessa abordagem.", "correct":false },
+        { "id": "f9680024-1779-4c71-82f7-1641a9baba8c", "text": "Obrigatório armazenar a escolha do usuário localmente para acessos futuros.", "feedback":"Incorreto, esse contexto não acontece em cenário de execução.", "correct":false },
+        { "id": "0cb0f5ec-3c3b-4359-818d-6dc83108677d", "text": "Não é necessário projetar a interface do usuário. O aplicativo que lida com a Intent de câmera criada irá prover a UI.", "feedback":"Incorreto, considerada uma vantagem dessa abordagem.", "correct":false },
+        { "id": "8c323f35-a5f6-47ce-ab09-e7d350a609a9", "text": "Ter controle total sobre a experiência do usuário. O aplicativo que provê sua própria Intent de câmera respeitará suas escolhas de design.", "feedback":"Correto, a forma nativa de permissão garante um código devidamente testado e validado, resultando em uma probabilidade menor de erros durante a experiência de uso.", "correct":true }
+    ]
+}

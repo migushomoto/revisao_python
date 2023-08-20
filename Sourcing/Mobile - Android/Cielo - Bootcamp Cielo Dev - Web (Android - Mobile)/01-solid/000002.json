@@ -1,0 +1,25 @@
+{
+    "id": "2987a0c6-3afe-11ee-be56-0242ac120002",
+    "SKU": "000002",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "kotlin",
+    "knowledgeArea": "Mobile",
+    "category": "Boas Práticas",
+    "subCategory": "SOLID",
+    "level": "Advanced", 
+    "tagsOrConcepts":["solid", "poo"],
+    "text": [
+        "Considere um sistema de processamento de pagamentos com métodos de pagamento variados, como cartão de crédito, boleto e PIX.",
+        "Inicialmente, o sistema foi desenvolvido abrangendo uma classe chamada `PaymentProcessor`, com o método principal `processCreditCardPayment` para executar e validar os pagamentos via cartão de crédito.",
+        "No entanto, se deseja adicionar nesse momento o suporte a pagamentos via PIX.",
+        "Qual o princípio SOLID mais adequado de ser aplicado visando adicionar essa funcinalidade nova ao projeto e ao mesmo tempo permitir a escalabilidade do sistema, sem a necessidade de realizar alterações futuras em códigos que funcionam?"
+    ],
+    "alternatives": [
+        { "id": "43ed8cf0-3afe-11ee-be56-0242ac120002", "text": "Princípio da Responsabilidade Única", "feedback":"Incorreto, este princípio não é diretamente relacionado à extensão do sistema para novos métodos de pagamento sem a necessidade de alteração no código.", "correct":false },
+        { "id": "474c9d3c-3afe-11ee-be56-0242ac120002", "text": "Princípio do Aberto/Fechado", "feedback":"Correto, este princípio permite a adição de novos métodos de pagamento sem alterar o código existente.", "correct":true },
+        { "id": "4a41bf40-3afe-11ee-be56-0242ac120002", "text": "Princípio da Substituição de Liskov", "feedback":"Incorreto, se concentra na herança direta de classes e não aborda diretamente a extensão no sistema.", "correct":false },
+        { "id": "4dd427ce-3afe-11ee-be56-0242ac120002", "text": "Princípio da Segregação de Interface", "feedback":"Incorreto, aborda a separação de conceitos de um mesmo nicho em diferentes interfaces e não diretamente a extensão ideal para novos métodos de pagamento.", "correct":false },
+        { "id": "50edc082-3afe-11ee-be56-0242ac120002", "text": "Princípio da Inversão de Dependência", "feedback":"Incorreto, este não é o mais indicado nesse contexto para lidar com a extensão do sistema para novos métodos de pagamento.", "correct":false }
+    ]
+}

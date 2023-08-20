@@ -1,0 +1,23 @@
+{
+    "id": "cc8b3c39-1486-4915-8da1-73c936bccc7d",
+    "SKU": "000023",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "kotlin",
+    "knowledgeArea": "Mobile",
+    "category": "Arquitetura",
+    "subCategory": "Modularização",
+    "level": "Medium", 
+    "tagsOrConcepts":["arquitetura", "modularizacao"],
+    "text": [
+        "Ao trabalhar em projetos de software já escalados, que abrangem grandes quantidades de linhas de código, funcionalidades, fluxos de experiência do usuário, diferentes equipes e uma grande quantidade de desenvolvedores envolvidos diariamente, a organização e a criação de padrões se torna primordial durante o desenvolvimento de novos códigos.",
+        "Quais são os principais desafios enfrentados ao integrar arquiteturas em projetos? Como a separação clara de responsabilidades e a modularidade do código podem ajudar a superar esses desafios?"
+    ],
+    "alternatives": [
+        { "id": "35489a06-be20-4991-ad0f-d0bc776e8a1a", "text": "Os principais desafios envolvem a complexidade da implementação e a falta de documentação. A separação de responsabilidades e a modularidade do código não têm impacto nesse contexto.", "feedback":"Incorreto, a complexidade de implementação e falta de documentação dependerão do estado atual do projeto e a separação de responsabilidades e a modularidade do código trão sim impacto nesse contexto.", "correct":false },
+        { "id": "20963adc-c07e-4f24-863c-53ed38d69ea9", "text": "A integração das arquiteturas é simples, sem grandes desafios. A separação de responsabilidades e a modularidade do código são irrelevantes para esse cenário.", "feedback":"Incorreto, a separação de responsabilidades e a modularidade do código são muito relevantes.", "correct":false },
+        { "id": "423e2b4e-547c-40cc-992f-e11d78d1393b", "text": "Os desafios se concentram na performance da aplicação e na otimização da busca de dados de negócio. A separação de responsabilidades e a modularidade do código não têm impacto nesse aspecto.", "feedback":"Incorreto, separação de responsabilidades e a modularidade do código possui impacto nesse aspecto.", "correct":false },
+        { "id": "c43bb8ad-c388-44b0-bfd0-e33bc08f86d5", "text": "Os principais desafios são relacionados à compatibilidade entre as tecnologias utilizadas e a arquitetura escolhida. A separação de responsabilidades e a modularidade do código facilitam a substituição de componentes sem impactar todo o sistema.", "feedback":"Incorreto, não apresentam problemas de incompatibilidade tecnológica em suas abordagens.", "correct":false },
+        { "id": "f11fd81c-ddbd-4a65-a4c4-d39907ccdf13", "text": "Os desafios incluem a coordenação entre equipes e a possibilidade de acoplamento excessivo entre as camadas. A separação de responsabilidades e a modularidade do código ajudam a evitar esses problemas.", "feedback":"Correto, os desafios incluem a coordenação entre equipes que trabalham ou estão acostumadas a diferentes arquiteturas e a possibilidade de acoplamento excessivo entre as camadas durante o processo contínuo de desenvolvimento.", "correct":true }
+    ]
+}
