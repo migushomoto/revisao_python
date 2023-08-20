@@ -42,7 +42,13 @@
         {
             "id": "cb730136-c500-4989-a72b-8896d2214172",
             "text": "Cliente;[Cliente]; vazia; int",
-            "feedback": "POST tende a retornar o ID do recurso, os GET estão invertidos, DELETE mal-formado",
+            "feedback": "POST tende a retornar o ID do recurso, os GET estão invertidos, DELETE mal-formado daria erro",
+            "correct": false
+        },
+        {
+            "id": "6259c69a-9fef-4854-a579-01793b9fda5b",
+            "text": "Cliente;[Cliente]; vazia; vazia",
+            "feedback": "POST tende a retornar o ID do recurso, os GET estão invertidos, DELETE mal-formado daria erro",
             "correct": false
         }
     ]
