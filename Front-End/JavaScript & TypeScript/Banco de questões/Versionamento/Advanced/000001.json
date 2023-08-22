@@ -1,0 +1,39 @@
+{
+  "SKU": "000001",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "javascript",
+  "knowledgeArea": "Front-End",
+  "category": "Versionamento",
+  "subCategory": "",
+  "level": "Advanced",
+  "tagsOrConcepts": ["git", "versionamento"],
+  "text": [
+    "Você atua em um time desenvolvimento e, durante a planning, teve a correção de um bug de produção",
+    "atribuída a você. Após implementar a correção e testar nos ambientes, foi solicitado que preparasse",
+    "o 'cherry-pick' para a subida para o ambiente de produção.",
+    "Qual das alternativas abaixo melhor descrevem o comando 'cherry-pick'?"
+  ],
+  "alternatives": [
+    {
+      "text": "Comando utilizado para fazer o merge de uma ramificação em outra, levando, consigo, apenas as alterações relacionadas ao commit que se deseja promover.",
+      "feedback": "Correto! É um comando bastante utilizado em bugfixes, pois permite a promoção de determinadas alterações, de maneira mais rápida.",
+      "correct": true
+    },
+    {
+      "text": "Comando utilizado atualizar o repositório local de acordo com o repositório remoto.",
+      "feedback": "Incorreto! O comando utilizado para atualizar o repositório local de acordo com o repositório remoto é o 'git pull'.",
+      "correct": false
+    },
+    {
+      "text": "Comando utilizado para criar um branch temporário que contem apenas as alterações ainda não commitadas.",
+      "feedback": "Incorreto! A descrição refere-se ao 'git stash'.",
+      "correct": false
+    },
+    {
+      "text": "Comando utilizado para clonar um repositório remoto já existente",
+      "feedback": "Incorreto! A descrição refere-se ao 'git clone'.",
+      "correct": false
+    }
+  ]
+}

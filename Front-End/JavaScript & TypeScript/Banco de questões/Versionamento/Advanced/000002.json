@@ -1,0 +1,39 @@
+{
+  "SKU": "000002",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "javascript",
+  "knowledgeArea": "Front-End",
+  "category": "Versionamento",
+  "subCategory": "",
+  "level": "Advanced",
+  "tagsOrConcepts": ["git", "versionamento"],
+  "text": [
+    "Git Hooks são shell scripts que são executados automaticamente, antes ou depois de alguns dos comandos",
+    "importantes, como o 'commit' e o 'push', visando implementar alguma regra necessária ou algum filtro",
+    "pertinente, como a execução de um lint ou dos testes de unidade, por exemplo.",
+    "São exemplos de Git Hooks:"
+  ],
+  "alternatives": [
+    {
+      "text": "'pre-commit' e 'skip-tests'",
+      "feedback": "Incorreto! 'skip-tests' não é um Git Hook válido.",
+      "correct": false
+    },
+    {
+      "text": "'pre-commit' e 'pre-push'",
+      "feedback": "Correto! O hook 'pre-commit' é executado antes do commit ser de fato concluído e é útil para, por exemplo, executar o lint no código que está sendo enviado ao versionamento. O hook 'pre-push', seguindo o mesmo princípio do 'pre-commit', é executado antes do push.",
+      "correct": true
+    },
+    {
+      "text": "'skip-security' e 'post-commit'",
+      "feedback": "Incorreto! 'skip-security' não é um Git Hook válido.",
+      "correct": false
+    },
+    {
+      "text": "'commit-msg' e 'force-commit'",
+      "feedback": "Incorreto! 'force-commit' não é um Git Hook válido.",
+      "correct": false
+    }
+  ]
+}

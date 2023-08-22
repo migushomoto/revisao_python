@@ -1,0 +1,40 @@
+{
+  "SKU": "000005",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "javascript",
+  "knowledgeArea": "Front-End",
+  "category": "Versionamento",
+  "subCategory": "",
+  "level": "Advanced",
+  "tagsOrConcepts": ["git", "versionamento"],
+  "text": [
+    "Da mesma forma que a maioria dos sistemas de controle de versão, o Git tem a habilidade de marcar pontos",
+    "específicos na história como sendo importantes. Normalmente as pessoas usam essa funcionalidade para marcar",
+    "pontos onde foram feitas releases (v1.0 e assim por diante). Tags são as referências que apontam para esses",
+    "pontos específicos no histórico do Git.",
+    "Qual comando é utilizado para criar uma tag?"
+  ],
+  "alternatives": [
+    {
+      "text": "'git hook'",
+      "feedback": "Incorreto! 'git hook' não é um comando válido do git.",
+      "correct": false
+    },
+    {
+      "text": "'git set tag'",
+      "feedback": "Incorreto! 'git set tag' não é um comando válido do git.",
+      "correct": false
+    },
+    {
+      "text": "'git add tag'",
+      "feedback": "Incorreto! O comando 'git add' é utilizado para adicionar arquivos à fila para o commit.",
+      "correct": false
+    },
+    {
+      "text": "'git tag'",
+      "feedback": "Correto! 'git tag' é o comando utilizado para criar uma nova tag no Git",
+      "correct": true
+    }
+  ]
+}

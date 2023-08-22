@@ -1,0 +1,38 @@
+{
+  "SKU": "000004",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "javascript",
+  "knowledgeArea": "Front-End",
+  "category": "Versionamento",
+  "subCategory": "",
+  "level": "Advanced",
+  "tagsOrConcepts": ["git", "versionamento"],
+  "text": [
+    "O Git tem três estados principais que seus arquivos podem estar: committed, modificado (modified)",
+    "e preparado (staged).",
+    "Qual das alternativas abaixo melhor descrevem estes três estados?"
+  ],
+  "alternatives": [
+    {
+      "text": "Commited significa que os dados foram armazenados no banco de dados remoto. Modificado significa que você alterou o arquivo, mas ainda não fez o commit no seu banco de dados. Preparado significa que você marcou a versão atual de um arquivo modificado para fazer parte de seu próximo commit.",
+      "feedback": "Incorreto! Commited significa que os dados estão armazenados no banco de dados local e modificado significa que o arquivo foi alterado, mas ainda não foi realizado o commit.",
+      "correct": false
+    },
+    {
+      "text": "Commited significa que os dados foram persistidos no repositório remoto do git. Modificado significa que você alterou o arquivo, mas ainda não fez o commit no seu banco de dados. Preparado tem a mesma funcionalidade do commit, mas acrescenta um comentário durante o processo. ",
+      "feedback": "Incorreto! Commited significa que os dados estão armazenados no banco de dados local e preparado significa que o arquivo foi alterado, mas ainda não foi realizado o commit.",
+      "correct": false
+    },
+    {
+      "text": "Committed significa que os dados estão armazenados de forma segura em seu banco de dados local. Modificado significa que você alterou o arquivo, mas ainda não fez o commit no seu banco de dados. Preparado significa que você marcou a versão atual de um arquivo modificado para fazer parte de seu próximo commit.",
+      "feedback": "Correto!",
+      "correct": true
+    },
+    {
+      "text": "Committed significa que os dados estão armazenados de forma segura em seu banco de dados remoto. Modificado significa que você alterou o arquivo e já fez o commit no seu banco de dados. Preparado significa que você marcou a versão atual de um arquivo modificado para fazer parte de seu próximo commit.",
+      "feedback": "Incorreto! Commited significa que os dados estão armazenados no banco de dados local.",
+      "correct": false
+    }
+  ]
+}
