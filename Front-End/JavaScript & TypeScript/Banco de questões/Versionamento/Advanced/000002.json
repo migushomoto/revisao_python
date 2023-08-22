@@ -34,6 +34,11 @@
       "text": "'commit-msg' e 'force-commit'",
       "feedback": "Incorreto! 'force-commit' não é um Git Hook válido.",
       "correct": false
+    },
+    {
+      "text": "'commit-add' e 'force-commit'",
+      "feedback": "Incorreto! 'commit-add' e 'force-commit' não são Git Hooks válidos.",
+      "correct": false
     }
   ]
 }

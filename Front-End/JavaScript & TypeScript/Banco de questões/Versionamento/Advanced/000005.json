@@ -33,8 +33,13 @@
     },
     {
       "text": "'git tag'",
-      "feedback": "Correto! 'git tag' é o comando utilizado para criar uma nova tag no Git",
+      "feedback": "Correto! 'git tag' é o comando utilizado para criar uma nova tag no Git.",
       "correct": true
+    },
+    {
+      "text": "'git new tag'",
+      "feedback": "Incorreto! O comando 'git new' é utilizado para adicionar arquivos à fila para o commit.",
+      "correct": false
     }
   ]
 }

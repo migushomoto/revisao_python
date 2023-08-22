@@ -33,6 +33,11 @@
       "text": "Committed significa que os dados estão armazenados de forma segura em seu banco de dados remoto. Modificado significa que você alterou o arquivo e já fez o commit no seu banco de dados. Preparado significa que você marcou a versão atual de um arquivo modificado para fazer parte de seu próximo commit.",
       "feedback": "Incorreto! Commited significa que os dados estão armazenados no banco de dados local.",
       "correct": false
+    },
+    {
+      "text": "Committed significa que os dados estão armazenados em um banco de dados externo, criado para gerenciar as branchs do projeto. Modificado significa que você alterou o arquivo e já fez o commit no seu banco de dados. Preparado significa que você marcou a versão atual de um arquivo modificado para fazer parte de seu próximo commit.",
+      "feedback": "Incorreto! Commited significa que os dados estão armazenados no banco de dados local.",
+      "correct": false
     }
   ]
 }

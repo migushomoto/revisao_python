@@ -34,6 +34,11 @@
       "text": "Comando utilizado para clonar um repositório remoto já existente",
       "feedback": "Incorreto! A descrição refere-se ao 'git clone'.",
       "correct": false
+    },
+    {
+      "text": "Comando utilizado para renomear uma branch",
+      "feedback": "Incorreto! O comando utilizado para renomear uma branch é o 'git branch -m novo-nome'.",
+      "correct": false
     }
   ]
 }
