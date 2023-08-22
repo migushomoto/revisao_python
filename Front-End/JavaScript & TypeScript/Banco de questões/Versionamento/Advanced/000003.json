@@ -1,0 +1,38 @@
+{
+  "SKU": "000003",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "javascript",
+  "knowledgeArea": "Front-End",
+  "category": "Versionamento",
+  "subCategory": "",
+  "level": "Advanced",
+  "tagsOrConcepts": ["git", "versionamento"],
+  "text": [
+    "As configurações do GIT são armazenadas no arquivo '.gitconfig' localizado dentro do diretório do usuário",
+    "do Sistema Operacional.",
+    "Quais os comandos utilizados para setar globalmente nome de usuário e e-mail nas configurações do GIT."
+  ],
+  "alternatives": [
+    {
+      "text": "git config user.name 'John Doe' e git config user.email email@email.com",
+      "feedback": "Incorreto! Para configurar globalmente o nome de usuário e o e-mail, é necessária a utilização do flag '--global'.",
+      "correct": false
+    },
+    {
+      "text": "git config --global user.name 'John Doe' e git config --global user.email email@email.com",
+      "feedback": "Correto! Os comandos acima são utilizados para configurar o nome de usuário e o e-mail.",
+      "correct": true
+    },
+    {
+      "text": "git set --global user.name 'John Doe' e git set --global user.email email@email.com",
+      "feedback": "Incorreto! O comando 'set' não é um comando válido.",
+      "correct": false
+    },
+    {
+      "text": "git config --global username 'John Doe' e git config --global email email@email.com",
+      "feedback": "Incorreto! As chaves 'user.name' e 'user.email' são utilizadas para este fim.",
+      "correct": false
+    }
+  ]
+}
