@@ -1,0 +1,52 @@
+{
+    "id": "07f4e8c0-cf1f-471d-9150-7e96efb9af94",
+    "SKU": "000018",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "embedded",
+    "category": "fundamentos de linguagem C",
+    "subCategory": "organização do programa na memória",
+    "level": "Medium",
+    "tagsOrConcepts": [
+        "buffer overflow",
+        "segurança",
+        "código malicioso",
+        "programação segura"
+    ],
+    "text": [
+        "Qual desses *não* é um uso comum do ataque de buffer overflow?"
+    ],
+    "alternatives": [
+        {
+            "id": "05aac2db-d66c-4b7f-a5e4-7ba72cc6fcf8",
+            "feedback": "Há formas mais simples de se derrubar um serviço. Quando é possível utilizar um buffer overflow, seu maior valor está na possibilidade que ele cria de tomar controle da execução do programa, sendo possível desde ler dados daquele programa até provocar a execução de código arbitrário com os mesmos níveis de permissão daquele programa, o que poderia expor dados de todo o sistema.",
+            "correct": true,
+            "text": "Forçar um stack overflow, provocando uma queda de serviço"
+        },
+        {
+            "id": "28ea71a2-3ad0-4a1f-bc37-a98c672f406b",
+            "feedback": "O buffer overflow permite a modificação de valores arbitrários na memória. Entre os usos possíveis para isso está a modificação do valor de variáveis que possam alterar o fluxo do programa - por exemplo, acessar uma funcionalidade sem ter as credenciais adequadas.",
+            "correct": false,
+            "text": "Alterar o valor de variáveis para afetar o funcionamento do programa"
+        },
+        {
+            "id": "5a188ce4-d29c-4bfb-b187-e933ddc53034",
+            "feedback": "O buffer overflow permite a modificação de valores arbitrários na memória. Quando uma função é chamada, o endereço para o qual a execução do programa deve retornar após o fim da função é armazenado na pilha. Um buffer overflow pode ser planejado para alterar precisamente esse endereço, colocando o endereço de algum código malicioso arbitrário, o que irá obrigar o programa a executar esse código.",
+            "correct": false,
+            "text": "Alterar o endereço de retorno de funções para funções maliciosas"
+        },
+        {
+            "id": "fa59d983-91b4-41fb-a8fa-731835184c59",
+            "feedback": "O buffer overflow permite a modificação de valores arbitrários na memória. Um buffer overflow pode ser planejado para alterar um ponteiro de função, colocando o endereço de algum código malicioso arbitrário, o que irá obrigar o programa a executar esse código caso o endereço seja derreferenciado e chamado.",
+            "correct": false,
+            "text": "Alterar ponteiro de funções para funções maliciosas"
+        },
+        {
+            "id": "c7530491-04c9-4b2a-b5c5-c524f02d6c39",
+            "feedback": "Uma das camadas de segurança que impede certas ações em uma máquina são as credenciais do sistema operacional. Um programa sem permissão de administrador pode não conseguir acessar ou modificar certos arquivos, por exemplo. O buffer overflow permite burlar isso: ao utilizar o buffer overflow para forçar a execução de um código malicioso (por exemplo, ao sobrescrever o endereço de retorno de uma função com o endereço do código malicioso), o sistema operacional irá enxergar esse código malicioso como parte do programa em execução, e ele terá as mesmas permissões do programa. Se o programa possuir permissões de administrador, o código malicioso também terá.",
+            "correct": false,
+            "text": "Executar código malicioso com as permissões concedidas ao programa original"
+        }
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "id": "3a06da79-9e70-41bd-b97e-082188ca35ba",
+    "SKU": "000006",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "embedded",
+    "category": "fundamentos de linguagem C",
+    "subCategory": "ponteiros",
+    "level": "Medium",
+    "tagsOrConcepts": [
+        "ponteiros"
+    ],
+    "text": [
+        "Qual o erro cometido pelo trecho de código abaixo?",
+        "`int *p;`",
+        "`if (p != NULL) *p += 1;`"
+    ],
+    "alternatives": [
+        {
+            "id": "e5fa9274-bd24-437c-9787-cebec1ebc532",
+            "feedback": "O operador & retorna o endereço da variável sobre o qual é aplicado - neste caso, retornaria o endereço de p.",
+            "correct": false,
+            "text": "Na segunda linha deveríamos utilizar o operador & para acessar a posição de memória apontada por p"
+        },
+        {
+            "id": "fe718796-bac7-40e0-a10d-e71e6a1742f0",
+            "feedback": "Não existe qualquer regra delimitando quais valores podem ser utilizados com +=. Apesar de ++ ser o mais usual para incremento unitário, não há impeditivos para fazer +=1.",
+            "correct": false,
+            "text": "Para incrementos unitários, o correto é utilizar ++"
+        },
+        {
+            "id": "53fa4b0f-08c3-46e0-b4d2-d218ed54f30c",
+            "feedback": "O operador * retornaria o valor contido na memória apontada por p. O objetivo desse if não é lidar com valor, e sim com o endereço em si: se ele for nulo, não acesse o valor.",
+            "correct": false,
+            "text": "No if deveríamos utilizar *p na comparação ao invés de p"
+        },
+        {
+            "id": "fd3a2fc6-ea7b-42bd-911e-82f55b613090",
+            "feedback": "Quando um bloco de controle como if, else ou while contém apenas uma linha interna, não é necessário utilizar chaves.",
+            "correct": false,
+            "text": "Faltou abrir e fechar chaves no if"
+        },
+        {
+            "id": "c8cf9105-adf2-48ee-b287-8ff3fae51576",
+            "feedback": "Esse teste do if é uma boa prática para evitar uma tentativa errônea de derreferenciar um ponteiro que não está apontando para uma posição de memória. Porém, para que ele funcione, deve ser aliado a outras práticas: sempre inicializar um ponteiro com NULL, e após liberar sua memória, tornar a colocar o valor NULL nele. Isso não ocorre aqui: o ponteiro foi declarado sem ser inicializado, e por conta disso, estará apontando para uma região aleatória de memória e derreferenciar seu valor é perigoso.",
+            "correct": true,
+            "text": "O if não necessariamente evitará um acesso a uma posição indevida de memória"
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "id": "3e1cf283-4a7e-417b-bd6d-3247529aab1c",
+    "SKU": "000023",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "embedded",
+    "category": "compilação",
+    "subCategory": "diretivas de compilação",
+    "level": "Medium",
+    "tagsOrConcepts": [
+        "compilação",
+        ".h",
+        ".c",
+        "macro"
+    ],
+    "text": [
+        "Considere o seguinte arquivo .h:",
+        "`#ifndef MATEMATICA`",
+        "`#define MATEMATICA`",
+        "`  int soma (int a, int b);`",
+        "`  int subtracao (int a, int b);`",
+        "`  int multiplicacao (int a, int b);`",
+        "`  int divisao (int a, int b);`",
+        "`#endif`",
+        "Nesse contexto, o que podemos afirmar sobre a linha iniciada por #define?"
+    ],
+    "alternatives": [
+        {
+            "id": "eb118381-dcd5-417b-89b0-8f4a86c9c976",
+            "feedback": "A linguagem C não trabalha com o conceito de namespace.",
+            "correct": false,
+            "text": "Criar um namespace chamado MATEMATICA"
+        },
+        {
+            "id": "88bb292f-d096-4265-936b-57586c4e4c8c",
+            "feedback": "As funções serão importadas apenas se não existir a definição MATEMATICA. Porém, uma vez que essa definição não existe, ela é feita. Assim, caso o arquivo tenha sido importado múltiplas vezes, a partir da segunda não haverá tentativa de importar novamente, já que a definição passou a existir e faz o teste do #IFNDEF falhar.",
+            "correct": true,
+            "text": "Evitar problemas causados por referência circular"
+        },
+        {
+            "id": "bc72de0e-dd95-4a3e-92bc-0b094eedc010",
+            "feedback": "É possível utilizar macros com #define para simular o comportamento de uma função inline, mas isso é feito declarando a macro no define e utilizando-a posteriormente ao longo do código, sem de fato criar uma função de verdade.",
+            "correct": false,
+            "text": "Criar uma macro para transformar as 4 funções do arquivo em funções inline"
+        },
+        {
+            "id": "42e910ca-a415-4007-be90-e8c36bb94687",
+            "feedback": "Escopo de identificadores em C tem a ver apenas com eles terem sido declarados dentro de um bloco delimitado por chaves (como uma função) ou fora. Diretivas de compilação não afetam escopo.",
+            "correct": false,
+            "text": "Delimitar o escopo das 4 funções do arquivo"
+        },
+        {
+            "id": "17f217f7-da72-41fc-980f-10d8c926fe62",
+            "feedback": "A estrutura utilizada pode evitar uma importação recursiva das funções (um arquivo A importa um arquivo B, que por sua vez importa o arquivo A), mas não a chamada das funções. A única forma de evitar chamada recursiva de uma função é através da própria lógica da função.",
+            "correct": false,
+            "text": "Evitar chamadas recursivas das funções durante a execução do programa"
+        }
+    ]
+}

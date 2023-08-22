@@ -1,0 +1,51 @@
+{
+    "id": "b6481a3d-36d4-4714-a1e9-4afedcffe164",
+    "SKU": "000002",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "embedded",
+    "category": "fundamentos de linguagem C",
+    "subCategory": "ponteiros",
+    "level": "Medium",
+    "tagsOrConcepts": [
+        "ponteiros"
+    ],
+    "text": [
+        "Supondo que v seja um vetor de 20 inteiros em C, considere o trecho de código abaixo:",
+        "`int *p = &v[1];`",
+        "Qual o valor obtido ao tomarmos p[2]?"
+    ],
+    "alternatives": [
+        {
+            "id": "c386b260-d210-45c9-a09f-3e20f33ba569",
+            "text": "O valor do segundo elemento do vetor v",
+            "correct": false,
+            "feedback": "Ao fazer [2] estamos pegando o terceiro elemento de p, já que as posições de um vetor se iniciam em 0. Como p inicia na posição 1 de v, estamos pegando a posição 3 de v, que seria seu quarto elemento."
+        },
+        {
+            "id": "4b85c301-b95f-4108-8fa7-6c56239ad4c3",
+            "text": "O valor do terceiro elemento do vetor v",
+            "correct": false,
+            "feedback": "Ao fazer [2] estamos pegando o terceiro elemento de p, já que as posições de um vetor se iniciam em 0. Como p inicia na posição 1 de v, estamos pegando a posição 3 de v, que seria seu quarto elemento."
+        },
+        {
+            "id": "e04c1ee1-484d-46d7-8c3f-1bd9b1d4eaf2",
+            "text": "O valor do quarto elemento do vetor v",
+            "correct": true,
+            "feedback": "Ponteiros podem ser interpretados como vetores e vice-versa. A variável que representa um vetor é um ponteiro para sua primeira posição. Após a atribuição, a variável p passou a ser um ponteiro para o endereço da posição 1 do vetor original (segundo elemento). Ao utilizar [2], indicamos um salto de 2 posições a partir do endereço armazenado em p, portanto, caímos na posição 3 do vetor original. Como vetores são indexados a partir de 0, temos o quarto elemento do vetor v."
+        },
+        {
+            "id": "cdd6f3c7-4c41-49ee-b94f-ffa12581654a",
+            "feedback": "O operador [] soma um deslocamento ao endereço inicial de um ponteiro e em seguida o derreferencia. Portanto, não estamos lidando com endereço, e sim com vetor.",
+            "text": "O endereço do terceiro elemento do vetor v",
+            "correct": false
+        },
+        {
+            "id": "6e1562d7-fbe2-4419-adf1-cdc731832092",
+            "feedback": "O operador [] soma um deslocamento ao endereço inicial de um ponteiro e em seguida o derreferencia. Portanto, não estamos lidando com endereço, e sim com vetor.",
+            "text": "O endereço do quarto elemento do vetor v",
+            "correct": false
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "id": "5a3ab77d-11ab-4309-9dc5-1513a66f5f51",
+    "SKU": "000008",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "embedded",
+    "category": "fundamentos de linguagem C",
+    "subCategory": "ponteiros",
+    "level": "Medium",
+    "tagsOrConcepts": [
+        "ponteiros"
+    ],
+    "text": [
+        "Considere as seguintes inicializações de variável:",
+        "`int x = 10;`",
+        "`int *p = &x;`",
+        "`int **p2 = &p;`",
+        "Assinale a linha que corretamente incrementa x para 11."
+    ],
+    "alternatives": [
+        {
+            "id": "5fe43df7-3c60-4620-a16f-0c69e603ab40",
+            "feedback": "Aplicar o operador incremento sobre um ponteiro irá apenas mudar o endereço para o qual ele aponta.",
+            "correct": false,
+            "text": "p2++;"
+        },
+        {
+            "id": "8dd2b7d1-d207-4510-bb22-711854c6e57a",
+            "feedback": "O operador * irá derreferenciar o ponteiro p2, retornando o valor contido na região de memória apontada por ele. A memória apontada por ele é o ponteiro p, portanto, o valor acessado por *p2 é o endereço apontado por p. A operação irá alterar o endereço apontado por p.",
+            "correct": false,
+            "text": "(*p2)++;"
+        },
+        {
+            "id": "44c753c3-41fe-4449-8076-f0250cf7f775",
+            "feedback": "Aplicar o operador incremento sobre um ponteiro irá apenas mudar o endereço para o qual ele aponta. Estamos alterando para onde p2 aponta, e em seguida acessando o valor contido nessa nova região de memória.",
+            "correct": false,
+            "text": "*(p2++);"
+        },
+        {
+            "id": "39bf5d55-45e9-4102-a99e-69ad51c74246",
+            "feedback": "Ao utilizar **, estamos fazendo 2 derreferências seguidas: acessamos o valor contido na memória apontada por p2 - que é o endereço apontado por p - e em seguida fazendo uma derreferência desse valor, chegando ao valor armazenado em x. Em seguida, ao aplicar ++, estamos incrementando o valor de x.",
+            "correct": true,
+            "text": "(**p2)++;"
+        },
+        {
+            "id": "a29d257f-e83f-4caa-9ab6-97ca04c6a1b2",
+            "feedback": "A dupla utilização de ** de fato serve para derreferenciar um ponteiro duplo, chegando ao valor na memória. Porém, o parêntese está forçando um incremento no endereço apontado por p2, para só depois fazer as derreferências.",
+            "correct": false,
+            "text": "**(p2++);"
+        }
+    ]
+}

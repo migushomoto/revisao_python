@@ -1,0 +1,53 @@
+{
+    "id": "16bbb172-82cf-40f1-a226-1f237ffbe33a",
+    "SKU": "000010",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "embedded",
+    "category": "fundamentos de linguagem C",
+    "subCategory": "tipos de dados",
+    "level": "Medium",
+    "tagsOrConcepts": [
+        "tipos de dados",
+        "overflow",
+        "modificadores de acesso"
+    ],
+    "text": [
+        "Você está criando uma plataforma de distribuição de conteúdo, e um parâmetro importante na monetização dos seus usuários é o número de acessos que o conteúdo de cada um recebe.",
+        "Sua empresa pensa em ter crescimento exponencial, e a equipe de QA criou alguns testes unitários para a sua plataforma onde foi detectado um problema onde usuários atingindo os primeiros bilhões de visualização repentinamente deixavam de ser classificados como os mais populares e iam para a pior categoria possível.",
+        "Quais palavras reservadas da linguagem C poderiam ajudá-lo a resolver esse problema?"
+    ],
+    "alternatives": [
+        {
+            "id": "bf60b8fc-0440-4cea-a714-7ecd7bd7405b",
+            "feedback": "double é utilizado para criar número de ponto flutuante com o dobro da quantidade de bits de um float, aumentando sua precisão. Como estamos falando em um contador de eventos discretos (acesso a um conteúdo), não devemos trabalhar com números de ponto flutuante.",
+            "correct": false,
+            "text": "double e unsigned"
+        },
+        {
+            "id": "69304064-7465-422f-90eb-804fd57d535c",
+            "feedback": "O modificador long permite alocar mais bits para uma variável inteira, aumentando seu valor máximo. Adicionalmente, o modificador unsigned força a variável a ser sempre positiva, praticamente dobrando o valor máximo possível para ela.",
+            "correct": true,
+            "text": "long e unsigned"
+        },
+        {
+            "id": "4052ca49-dee5-4872-aa18-30978d28b40a",
+            "feedback": "double é utilizado para criar número de ponto flutuante com o dobro da quantidade de bits de um float, aumentando sua precisão. Como estamos falando em um contador de eventos discretos (acesso a um conteúdo), não devemos trabalhar com números de ponto flutuante.",
+            "correct": false,
+            "text": "long e double"
+        },
+        {
+            "id": "678368eb-9926-4a73-abea-c627e0e5ca08",
+            "feedback": "double é utilizado para criar número de ponto flutuante com o dobro da quantidade de bits de um float, aumentando sua precisão. Como estamos falando em um contador de eventos discretos (acesso a um conteúdo), não devemos trabalhar com números de ponto flutuante.",
+            "correct": false,
+            "text": "double e int"
+        },
+        {
+            "id": "b272bb44-d7a3-40fd-baf4-df960f912750",
+            "feedback": "double é utilizado para criar número de ponto flutuante com o dobro da quantidade de bits de um float, aumentando sua precisão. Como estamos falando em um contador de eventos discretos (acesso a um conteúdo), não devemos trabalhar com números de ponto flutuante.",
+            "correct": false,
+            "text": "float e double"
+        }
+    ]
+}

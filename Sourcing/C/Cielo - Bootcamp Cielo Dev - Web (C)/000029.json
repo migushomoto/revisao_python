@@ -1,0 +1,56 @@
+{
+    "id": "202cadee-8e9c-4b48-b393-68cb265000fa",
+    "SKU": "000029",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "embedded",
+    "category": "organização do programa",
+    "subCategory": "pilha",
+    "level": "Medium",
+    "tagsOrConcepts": [
+        "recursão",
+        "pilha",
+        "memória",
+        "sistema operacional"
+    ],
+    "text": [
+        "Considere a função abaixo:",
+        "`int fat(int n) {`",
+        "`  return n*fat(n-1);`",
+        "`}`",
+        "Ao ser chamada recebendo um número inteiro positivo como parâmetro em um ambiente controlado (ex: um x86 com Linux), ela irá:"
+    ],
+    "alternatives": [
+        {
+            "id": "94a3d31b-eee1-48b5-829f-13ae51c66ced",
+            "feedback": "O heap é onde memória alocada dinamicamente é armazenada (por exemplo, utilizando malloc). Parâmetros e endereço de retorno de função são armazenados no stack. Conforme o stack cresce com as sucessivas chamadas da função, o sistema operacional irá encerrar sua execução.",
+            "correct": false,
+            "text": "Dinamicamente alocar memória no heap, fazendo-o crescer até utilizar 100% da memória do computador"
+        },
+        {
+            "id": "86be1943-bf16-4f6e-8044-dcdc72c7f02b",
+            "feedback": "Parâmetros e retorno de função são armazenados no stack. Conforme o stack cresce com as sucessivas chamadas da função, o sistema operacional irá encerrar sua execução.",
+            "correct": true,
+            "text": "Utilizar toda a região de memória do stack do programa, provocando seu encerramento pelo sistema operacional"
+        },
+        {
+            "id": "19a48163-a2aa-4162-bbcc-0e1ab2ed0d14",
+            "feedback": "O heap é onde memória alocada dinamicamente é armazenada (por exemplo, utilizando malloc). Parâmetros e endereço de retorno de função são armazenados no stack. Conforme o stack cresce com as sucessivas chamadas da função, o sistema operacional irá encerrar sua execução.",
+            "correct": false,
+            "text": "Utilizar toda a região de memória do heap do programa, provocando seu encerramento pelo sistema operacional"
+        },
+        {
+            "id": "876d03cb-d3cf-42d6-9607-2c290ae7ea38",
+            "feedback": "Cada chamada nova para a função irá gastar mais memória, pois é necessário espaço para o parâmetro e para o endereço de retorno da função. Essa memória é alocada no stack, que atingirá seu limite de tamanho e provocará uma interrupção forçada da execução do programa pelo sistema operacional.",
+            "correct": false,
+            "text": "Executar para sempre, em loop infinito, até que a energia elétrica do computador seja desligada"
+        },
+        {
+            "id": "176321fb-94b2-4655-ac2d-65d7745608e4",
+            "feedback": "Apesar de ser matematicamente verdade que o resultado acabará se tornando zero, a função seguirá abrindo novas chamadas recursivas, até que esgote o tamanho do stack após armazenar múltiplas cópias do parâmetro e do endereço de retorno, fazendo com que o programa seja interrompido pelo sistema operacional.",
+            "correct": false,
+            "text": "Retornar 0, pois n decrementa em cada passo, atingirá zero após sucessivas repetições, e qualquer produto por zero é zero"
+        }
+    ]
+}

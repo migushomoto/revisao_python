@@ -1,0 +1,56 @@
+{
+    "id": "959829d5-eb2a-440d-86dd-2cdca59030c6",
+    "SKU": "000012",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "embedded",
+    "category": "fundamentos de linguagem C",
+    "subCategory": "tipos de dados",
+    "level": "Medium",
+    "tagsOrConcepts": [
+        "dados binários",
+        "string",
+        "ascii"
+    ],
+    "text": [
+        "Considere as variáveis declaradas abaixo:",
+        "char centena = 50;",
+        "char dezena = 53;",
+        "char unidade = 51;",
+        "int numero = ??;",
+        "Considerando a codificação ASCII, qual expressão corretamente substituirá ?? para obter o número correto?"
+    ],
+    "alternatives": [
+        {
+            "id": "84432984-d04e-4e46-ab82-ce02100c9fbb",
+            "feedback": "A aritmética estaria correta se cada variável estivesse armazenando um dígito do número em int. Porém, elas armazenam em ASCII, por serem do tipo char. O tipo char armazena um número inteiro que serve de índice na tabela ASCII para pegar um caractere. O dígito 0 está na posição 48 da tabela ASCII (0x30 em hexadecimal), e os dígitos seguintes seguem em ordem crescente. Logo, para converter ASCII para int corretamente, podemos subtrair 48 (ou 0x30) do dígito.",
+            "correct": false,
+            "text": "centena*100 + dezena*10 + unidade"
+        },
+        {
+            "id": "3ce0ab8b-e1d9-40f6-8a48-052b7ff9ad43",
+            "feedback": "O tipo char armazena um número inteiro que serve de índice na tabela ASCII para pegar um caractere. O dígito 0 está na posição 48 da tabela ASCII, 0x30 em hexadecimal. A alternativa subtrai o hexadecimal 48.",
+            "correct": false,
+            "text": "(centena-0x48)*100 + (dezena-0x48)*10 + unidade - 0x48"
+        },
+        {
+            "id": "2253991b-21b3-459d-a5e4-513989a9c770",
+            "feedback": "O tipo char armazena um número inteiro que serve de índice na tabela ASCII para pegar um caractere. O dígito 0 está na posição 48 da tabela ASCII, 0x30 em hexadecimal. A subtrai o decimal 30.",
+            "correct": false,
+            "text": "(centena-30)*100 + (dezena-30)*10 + unidade - 30"
+        },
+        {
+            "id": "a65bc90d-6ea9-4f23-b736-355b920f12d3",
+            "feedback": "O tipo char armazena um número inteiro que serve de índice na tabela ASCII para pegar um caractere. O dígito 0 está na posição 48 da tabela ASCII (0x30 em hexadecimal), e os dígitos seguintes seguem em ordem crescente. Logo, para converter ASCII para int corretamente, podemos subtrair 48 (ou 0x30) do dígito.",
+            "correct": true,
+            "text": "(centena-0x30)*100 + (dezena-48)*10 + unidade - 0x30"
+        },
+        {
+            "id": "99b89518-8d0f-4abb-afc8-679b7f7069ac",
+            "feedback": "O tipo char armazena um número inteiro que serve de índice na tabela ASCII para pegar um caractere. O dígito 0 está na posição 48 da tabela ASCII, 0x30 em hexadecimal. A alternativa faz o contrário, subtraindo o decimal 30 e hexadecimal 48.",
+            "correct": false,
+            "text": "(centena-30)*100 + (dezena-0x48)*10 + unidade - 30"
+        }
+    ]
+}

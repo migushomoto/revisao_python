@@ -1,0 +1,57 @@
+{
+    "id": "f50f9895-e5f1-4bbd-adcd-afee3b76b9dd",
+    "SKU": "000016",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "embedded",
+    "category": "fundamentos de linguagem C",
+    "subCategory": "tipos de dados",
+    "level": "Medium",
+    "tagsOrConcepts": [
+        "dados binários",
+        "string",
+        "ascii"
+    ],
+    "text": [
+        "Considere o trecho de código abaixo:",
+        "`char msg[30] = \"ada tech\";`",
+        "`int i;`",
+        "`for (i = 0; i < 30; i++) {`",
+        "`  if (msg[i] != ' ') msg[i]-=32;`",
+        "`}`",
+        "Podemos afirmar que:"
+    ],
+    "alternatives": [
+        {
+            "id": "7cb12c77-f59c-4250-ab69-8b2678b80119",
+            "feedback": "O terminador null não fica necessariamente na última posição do array. Ele é inserido após o último caractere da string atribuída a ele. O loop apresentado irá sobrescrever esse terminador mesmo com o teste proposto.",
+            "correct": false,
+            "text": "O for deveria utilizar i < 29 para preservar o terminador null"
+        },
+        {
+            "id": "250eb59f-89ee-4fa6-b285-e3463ce8b1bc",
+            "feedback": "O loop irá sobrescrever o terminador null após o caractere H, resultando em uma quantidade aleatória de lixo aparecendo na string (e, potencialmente, outros erros de execução, como acessos ilegais à memória).",
+            "correct": false,
+            "text": "Após a operação, o conteúdo da string msg é \"ADA TECH\""
+        },
+        {
+            "id": "79c8bc1f-12ae-4d38-ba86-db36fb60ae63",
+            "feedback": "O loop proposto está sobrescrevendo o terminador null. Funções de string costumam procurá-lo para entender onde a string termina. Neste caso, essas funções irão percorrer uma quantidade aleatória de bytes na memória até encontrarem um valor que corresponda a esse terminador. É possível que não encontrem um antes de invadir uma região ilegal de memória ou sobrescrever dados de outras variáveis.",
+            "correct": true,
+            "text": "Após a operação, o conteúdo do array msg é indefinido, e seu uso como string pode ser perigoso"
+        },
+        {
+            "id": "be14517b-0605-466d-bee0-fcf98eeefd4d",
+            "feedback": "A conversão para ASCII está correta. O erro está em sobrescrever o terminador null.",
+            "correct": false,
+            "text": "O programa erroneamente subtrai 32 ao invés de somar 32, portanto, ao invés de converter minúscula para maiúscula, ele está substituindo as letras por símbolos e dígitos numéricos"
+        },
+        {
+            "id": "9313a034-7121-437e-b0d0-a7fbc65dc302",
+            "feedback": "Para descobrir se uma string chegou ao final, o índice não importa, e sim o conteúdo. O conteúdo de uma posição deve ser o operador null ('\\0'), portanto a comparação deveria ser com msg[i].",
+            "correct": false,
+            "text": "Os testes i != 0 ou i != '\\0' evitariam erro nesse programa"
+        }
+    ]
+}

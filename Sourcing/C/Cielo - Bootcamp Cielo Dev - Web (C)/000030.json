@@ -1,0 +1,52 @@
+{
+    "id": "a60370c3-0d87-46ee-846b-357ef5e62b94",
+    "SKU": "000030",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "embedded",
+    "category": "organização do programa",
+    "subCategory": "memória",
+    "level": "Medium",
+    "tagsOrConcepts": [
+        "pilha",
+        "memória",
+        "sistema operacional",
+        "ponteiro"
+    ],
+    "text": [
+        "Qual das afirmações abaixo *não* é verdadeira sobre o modificador const?"
+    ],
+    "alternatives": [
+        {
+            "id": "c4ddf23e-2959-4471-85ab-d23f66dce4e0",
+            "feedback": "A diretiva #define pode ser utilizada para criar constantes que serão substituídas diretamente pelo seu valor no pré-processamento, fazendo com que não seja alocada uma variável na memória. Não é o caso do const: ele é criado como se fosse uma variável durante a execução do programa, mas seu valor não poderá ser alterado.",
+            "correct": true,
+            "text": "Não aloca posição na memória, sendo substituída pelo valor durante o pré-processamento"
+        },
+        {
+            "id": "8a0ded31-92bb-4686-bda8-48bf034497bb",
+            "feedback": "Constantes criadas com o const funcionam como variáveis comuns em quase todos os aspectos. Entre outras coisas, constantes possuem seu escopo delimitado como uma variável convencional.",
+            "correct": false,
+            "text": "Possui escopo delimitado"
+        },
+        {
+            "id": "5f5244b1-a2a1-43a5-b9b6-c4f4113a9cc4",
+            "feedback": "Constantes criadas com o const funcionam como variáveis comuns em quase todos os aspectos. Entre outras coisas, constantes possuem seu tipo validado na compilação.",
+            "correct": false,
+            "text": "Oferece controle de tipagem na compilação"
+        },
+        {
+            "id": "659d903d-abf3-4204-b9d5-36ef754422f0",
+            "feedback": "Dependendo do compilador e da arquitetura utilizada, certas otimizações podem ser feitas. Por exemplo, em diversas plataformas uma constante criada utilizando const será instanciada na memória flash, e não na RAM.",
+            "correct": false,
+            "text": "Pode não utilizar memória RAM"
+        },
+        {
+            "id": "bfe88820-0750-4c28-87e3-0157a4868ad0",
+            "feedback": "Como seu valor não pode ser alterado após sua criação, é obrigatório inicializá-las ao declará-las.",
+            "correct": false,
+            "text": "Deve ser inicializado em sua declaração"
+        }
+    ]
+}

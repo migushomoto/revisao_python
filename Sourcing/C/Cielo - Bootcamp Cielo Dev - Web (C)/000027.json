@@ -1,0 +1,56 @@
+{
+    "id": "71ba1e47-12e5-4b59-aa0a-ebd2e054b072",
+    "SKU": "000027",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "embedded",
+    "category": "compilação",
+    "subCategory": "compilação",
+    "level": "Medium",
+    "tagsOrConcepts": [
+        "compilação",
+        ".h",
+        ".c",
+        "biblioteca",
+        "código-objeto",
+        "código-fonte"
+    ],
+    "text": [
+        "Um código-fonte C contém a linha abaixo:",
+        "#define max(a,b) a > b ? a : b",
+        "Podemos afirmar que:"
+    ],
+    "alternatives": [
+        {
+            "id": "320726da-4dac-46d0-bdb2-f8447a4b28c6",
+            "feedback": "A linguagem C não possui o conceito de funções anônimas. max é uma macro.",
+            "correct": false,
+            "text": "max é uma função anônima, conhecida por lambda ou arrow function em outras linguagens"
+        },
+        {
+            "id": "2d139c52-129f-4943-ad06-7054deeb8f67",
+            "feedback": "Funções variádicas são aquelas que recebem quantidade variável de parâmetros, como o printf. Não é o caso de max, que não aceita múltiplos parâmetros e tampouco é uma função, mas uma macro.",
+            "correct": false,
+            "text": "max é uma função variádica, como o printf"
+        },
+        {
+            "id": "a62f4936-4fa4-4d55-a83a-1675c92ab6d7",
+            "feedback": "É verdade que max pode funcionar com diferentes tipos de dado (como int e float, por exemplo), mas ela não é uma função, e sim uma macro.",
+            "correct": false,
+            "text": "max é uma função com parâmetros com tipagem dinâmica"
+        },
+        {
+            "id": "d8fbc66a-3004-451e-bfb4-90df96f47db4",
+            "feedback": "Quando um #define possui apenas um valor, ele irá, de fato, substituir todas as ocorrências no pré-processamento da compilação. Neste caso, porém, o que será substituída será a chamada da macro diretamente pela comparação entre as variáveis e/ou valores. Por exemplo, max(x,5) irá virar x > 5 ? x : 5",
+            "correct": false,
+            "text": "max é avaliada durante a compilação e todas suas ocorrências serão substituídas por valores constantes"
+        },
+        {
+            "id": "f8448110-ebb5-47da-9b27-169e67582607",
+            "feedback": "max é uma macro criada pela diretiva #define, e será substituída pelas instruções na etapa de pré-processamento",
+            "correct": true,
+            "text": "max não é uma função"
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "id": "2fa6454f-006d-4336-8c41-f56fc0205e23",
+    "SKU": "000021",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "embedded",
+    "category": "fundamentos de linguagem C",
+    "subCategory": "mensageria",
+    "level": "Medium",
+    "tagsOrConcepts": [
+        "protocolos",
+        "mensageria",
+        "formatos binários",
+        "bcd",
+        "ascii"
+    ],
+    "text": [
+        "Um certo protocolo de comunicação estrutura suas mensagens da seguinte maneira:",
+        "- Primeiros 2 bytes são um mapa de bits, lido da esquerda para a direita, indicando os campos presentes.",
+        "- Em cada campo, temos 1 byte em BCD compactado indicando o número do campo (a partir de 1), 2 bytes em BCD compactado indicando o seu tamanho e n bytes de conteúdo.",
+        "Considere os primeiros 10 bytes de uma mensagem inválida:",
+        "0xB7 0x6D 0x01 0x00 0x04 0x03 0x05 0x02 0x07 0x02",
+        "Qual o problema podemos identificar nesta mensagem a partir de seus primeiros 10 bytes?"
+    ],
+    "alternatives": [
+        {
+            "id": "d75a588f-40b1-4922-a47b-eb3cc41db8f8",
+            "feedback": "O trecho exibido não é longo o suficiente para sabermos se faltou algum campo. Porém, há a presença do campo 2, não previsto no bitmap.",
+            "correct": false,
+            "text": "Ausência de um campo previsto no bitmap"
+        },
+        {
+            "id": "460248c3-9ad0-4996-ac3a-4f739ae727a1",
+            "feedback": "No primeiro byte do mapa de bits temos 10110111, ou seja, campos 1, 3, 4, 6, 7 e 8. O terceiro byte da mensagem indica início do campo 1, e os dois bytes seguintes indicam tamanho de 4 bytes. O primeiro byte após a mensagem indica o início do campo 2, não previsto no bitmap.",
+            "correct": true,
+            "text": "Presença de campo ausente no bitmap"
+        },
+        {
+            "id": "3eaec904-22fe-4681-9991-3584846332af",
+            "feedback": "O único campo visível por completo é o campo 1. Os bytes indicando seu tamanho são 0x00 0x02, correspondente a 0002 em BCD compactado.",
+            "correct": false,
+            "text": "Campo com tamanho nulo"
+        },
+        {
+            "id": "874c7e69-228e-4e36-a896-5eda399fc818",
+            "feedback": "O único campo visível por completo é o campo 1. Os bytes indicando seu tamanho são 0x00 0x02, correspondente a 0002 em BCD compactado.",
+            "correct": false,
+            "text": "Valor inválido para tamanho de campo"
+        },
+        {
+            "id": "accb9fc0-792b-4d6d-bafc-c742093675a6",
+            "feedback": "Os únicos campos com começo visível são os campos 1 e 2. Ambos estão compatíveis com o formato BCD compactado previsto na especificação.",
+            "correct": false,
+            "text": "Formato inválido para índice de campo"
+        }
+    ]
+}
