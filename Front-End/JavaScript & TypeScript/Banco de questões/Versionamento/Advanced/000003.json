@@ -20,6 +20,11 @@
       "correct": false
     },
     {
+      "text": "git configure user.name 'John Doe' e git configure user.email email@email.com",
+      "feedback": "Incorreto! 'configure' não é um comando válido para configurar globalmente o nome de usuário e o e-mail do usuário",
+      "correct": false
+    },
+    {
       "text": "git config --global user.name 'John Doe' e git config --global user.email email@email.com",
       "feedback": "Correto! Os comandos acima são utilizados para configurar o nome de usuário e o e-mail.",
       "correct": true
