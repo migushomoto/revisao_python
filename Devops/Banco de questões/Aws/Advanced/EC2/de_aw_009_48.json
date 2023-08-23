@@ -1,0 +1,37 @@
+{
+    "SKU": "000008",
+    "interpreter": 1,
+    "type": "VF",
+    "language": "NA",
+    "tagsOrConcepts":["Cloud"],
+    "id": "7b067f90-25e9-421f-9d4f-48f3cad64827",
+    "knowledgeArea": "Cloud",
+    "category": "AWS",
+    "subCategory": "EC2",
+    "level": "Advanced",
+    "text":[ 
+    "É possível que mesmo com todo cuidado e acompanhamento diário de um ambiente com EC2, ainda demos de cara com problemas de indisponibilidade e falta de acesso. Para servidores que possuem sistemas operacionais Linux é possível que eles falhem e reinicializem quando ocorre um pânico de kernel. É possível enviar uma interrupção para diagnóstico a uma instância do Linux inacessível. Sobre ações de interrupção para diagnóstico, é correto afirmar:"
+    ],
+    "alternatives": [
+        {   "text": "Os dados do despejo da falha são gerados em uma réplica da EC2 criada automaticamente pelo sistema operacional da própria instância.", 
+            "feedback":"Resposta Incorreta!Os dados do despejo da falha são gerados localmente pelo sistema operacional na própria instância.", 
+            "correct":false,
+            "id": "7b067f90-25e9-421f-9d4f-48f3cad64828"
+        },
+        {   "text": "A interrupção do diagnóstico é compatível com todos os tipos de instância baseadas em Nitro, exceto as que são ativadas pelos processadores AWS Graviton.", 
+            "feedback":"Resposta correta!", 
+            "correct":true,
+            "id": "7b067f90-25e9-421f-9d4f-48f3cad64829"
+        },
+        {   "text": "As interrupções de diagnóstico são destinadas ao uso de todos os usuários. Mesmo que as ações que são necessárias sejam feitas de forma incorreta, isso não poderá ocasionar perda de dados.", 
+            "feedback": "Resposta Incorreta!As interrupções de diagnóstico são destinadas ao uso de usuários avançados. O uso incorreto pode ter um impacto negativo sobre sua instância. Enviar uma interrupção de diagnóstico para uma instância pode acionar uma instância para travar e reinicializar, o que pode levar à perda de dados.", 
+            "correct":false,
+            "id": "7b067f90-25e9-421f-9d4f-48f3cad64830"
+        },
+        {   "text": "Antes de usar uma interrupção para diagnóstico, é necessário configurar o sistema operacional da instância. Isso garante que ele desempenhe as funções necessárias quando ocorrer um pânico de kernel.", 
+            "feedback":"Resposta Correta!", 
+            "correct":true,
+            "id": "7b067f90-25e9-421f-9d4f-48f3cad64831"
+        }
+    ]
+}
