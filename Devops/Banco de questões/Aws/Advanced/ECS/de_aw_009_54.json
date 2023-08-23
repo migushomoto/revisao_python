@@ -1,0 +1,37 @@
+{
+    "SKU": "000014",
+    "interpreter": 1,
+    "type": "VF",
+    "language": "NA",
+    "tagsOrConcepts":["Cloud"],
+    "id": "5fee0953-4917-44f7-bf83-f34dc923f455",
+    "knowledgeArea": "Cloud",
+    "category": "AWS",
+    "subCategory": "ECS",
+    "level": "Advanced",
+    "text":[ 
+    "Você pode transmitir variáveis de ambiente para seu contêiner com segurança e com isso repassa-las para as suas aplicações que estão dentro do ECS. Dentre as opções abaixo, quais apresentam boas práticas nesse tipo de ação?"
+    ],
+    "alternatives": [
+        {   "text": "Se houver variáveis de ambiente especificadas usando o parâmetro environment em uma definição de contêiner, elas terão precedência sobre as variáveis contidas em um arquivo de ambiente.", 
+            "feedback":"Resposta Correta!", 
+            "correct":true,
+            "id": "5fee0953-4917-44f7-bf83-f34dc923f456"
+        },
+        {   "text": "Para tarefas do Amazon ECS no AWS Fargate, as tarefas devem usar a versão 1.1.0 ou posterior (Linux ou  Windows) da plataforma para usar o recurso de variáveis.", 
+            "feedback":"Falso. As tarefas devem usar a versão 1.4.0 ou posterior (Linux) da plataforma para usar este recurso.", 
+            "correct":false,
+            "id": "5fee0953-4917-44f7-bf83-f34dc923f457"
+        },
+        {   "text": "Se forem especificados vários arquivos de ambiente que contenham a mesma variável, elas serão processadas na ordem de entrada. Isso significa que o primeiro valor da variável é usado e os valores subsequentes de variáveis duplicadas são ignorados.", 
+            "feedback":"Resposta Correta!", 
+            "correct":true,
+            "id": "5fee0953-4917-44f7-bf83-f34dc923f458"
+        },
+        {   "text": "Cada linha em um arquivo de ambiente deve conter uma variável de ambiente no formato VARIABLE=VALUE.", 
+            "feedback":"Resposta Correta!", 
+            "correct":true,
+            "id": "5fee0953-4917-44f7-bf83-f34dc923f459"
+        }
+    ]
+}
