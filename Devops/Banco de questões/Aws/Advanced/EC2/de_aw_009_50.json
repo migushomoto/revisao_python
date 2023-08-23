@@ -1,0 +1,37 @@
+{
+    "SKU": "000010",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "tagsOrConcepts":["Cloud"],
+    "id": "791d4c61-981a-4a61-8185-4750792c4685",
+    "knowledgeArea": "Cloud",
+    "category": "AWS",
+    "subCategory": "EC2",
+    "level": "Advanced",
+    "text":[ 
+    "O Amazon EC2 oferece recursos de rede avançada pelo Elastic Network Adapter (ENA). Para usar a rede aprimorada, é necessário instalar o módulo ENA necessário e habilitar o suporte ENA.ENA Express é um aperfeiçoamento no Elastic Network Adapter que traz o protocolo Scalable Reliable Datagram (SRD) para redes TCP e UDP tradicionais. Transparente para a aplicação, o ENA Express melhora as larguras de banda de fluxo único e reduz as latências tardias em workloads com uso intenso de throughput. Em que tipo de contexto devo utilizar o ENA?"
+],
+    "alternatives": [
+        {   "text": "É uma excelente opção sempre que o objetivo é alta performance. O ENA pode ser habilitado em qualquer modelo de EC2.", 
+            "feedback":"Resposta Incorreta! Atualmente, o ENA Express é compatível somente com C6gn.16xl", 
+            "correct":false,
+            "id": "791d4c61-981a-4a61-8185-4750792c4686"
+        },
+        {   "text": "O ENA é indiciado para workloads que exigem baixa largura de banda de fluxo único e alta latência residual.", 
+            "feedback":"Resposta Incorreta! Ele é indicado para workloads que exigem alta largura de banda de fluxo único e baixa latência residual.", 
+            "correct":false,
+            "id": "791d4c61-981a-4a61-8185-4750792c4687"
+        },
+        {   "text": "O ENA funciona muito bem para aplicações que exigem alto throughput de fluxo único, como sistemas de armazenamento distribuído e codificação de mídia ao vivo, entretanto sua limitação é o sistema operacional, pois ele é compatível somente com MacOs.", 
+            "feedback":"Resposta Incorreta!A funcionalidade SRD será compatível com todos os sistemas operacionais, mas observe que as métricas de monitoramento ENA Express estarão disponíveis apenas no EthTool na AMI Amazon Linux mais recente ou instalando o driver ENA versão 2.8.0 ou posterior do GitHub, com todos os operacionais sistemas compatíveis com as métricas no futuro.", 
+            "correct":false,
+            "id": "791d4c61-981a-4a61-8185-4750792c4688"
+        },
+        {   "text": "O ENA Express funciona melhor para aplicações que exigem alto throughput de fluxo único, como sistemas de armazenamento distribuído e codificação de mídia ao vivo. Essas workloads exigem alta largura de banda de fluxo único e baixa latência residual.", 
+            "feedback":"Resposta correta!", 
+            "correct":true,
+            "id": "791d4c61-981a-4a61-8185-4750792c4689"
+        }
+    ]
+}
