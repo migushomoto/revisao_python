@@ -1,0 +1,37 @@
+{
+    "SKU": "000007",
+    "interpreter": 1,
+    "type": "VF",
+    "language": "NA",
+    "tagsOrConcepts":["Cloud"],
+    "id": "04e8a58a-c26c-4361-94a7-cafc32a83758",
+    "knowledgeArea": "Cloud",
+    "category": "AWS",
+    "subCategory": "EC2",
+    "level": "Advanced",
+    "text":[ 
+    "Uma instância expansível configurada como unlimited pode sustentar alta utilização de CPU por qualquer período, sempre que necessário. O preço por hora da instância cobre automaticamente todos os picos de uso da CPU se a utilização média de CPU da instância for igual ou menor que a linha de base durante um período contínuo de 24 horas ou durante a vida útil da instância, o que for menor será o valor levado em consideração para esse cálculo acontecer. Deste modo, sobre o modo ilimitado é correto afirmar:"
+    ],
+    "alternatives": [
+        {   "text": "O modo unlimited é uma excelente alternativa para instâncias expansíveis, entretanto, você só pode realizar esse tipo de configuração no momento em que a EC2 está sendo criada. Após isso, você precisará conviver com tal escolha.", 
+            "feedback":"Incorreta! Ele pode ser habilitado ou desabilitado a qualquer momento para uma instância interrompida ou em execução.", 
+            "correct":false,
+            "id": "04e8a58a-c26c-4361-94a7-cafc32a83759"
+        },
+        {   "text": "Se você usar uma instância t2.micro ou t3.micro na oferta de Nível gratuito da AWS e usá-la no modo unlimited, poderão ser aplicados encargos se a sua utilização média durante um período contínuo de 24 horas exceder a utilização de linha de base da instância.", 
+            "feedback":"Resposta correta!", 
+            "correct":true,
+            "id": "04e8a58a-c26c-4361-94a7-cafc32a83760"
+        },
+        {   "text": "As instâncias T4g, T3a e T3 são iniciadas como unlimited por padrão (a menos que você altere o padrão). Se a média de uso de CPU em um período de 24 horas exceder a linha de base, você incorrerá em cobranças por créditos excedentes.", 
+            "feedback":"Resposta Correta!", 
+            "correct":true,
+            "id": "04e8a58a-c26c-4361-94a7-cafc32a83761"
+        },
+        {   "text": "Ao realizar a utilização de uma instância expansível, se a utilização média de CPU for igual ou inferior a linha de base, a mesma possuirá encargos altos e adicionais.", 
+            "feedback":"Incorreta. Se a utilização média de CPU de um instância for igual ou inferior à linha de base, a instância não incorrerá encargos adicionais. Como uma instância ganha um número máximo de créditos em um período de 24 horas (por exemplo, uma instância t3.micro pode ganhar no máximo 288 créditos em um período de 24 horas), ela pode gastar créditos excedentes até esse limite máximo sem gerar uma cobranças imediatamente.", 
+            "correct":false,
+            "id": "04e8a58a-c26c-4361-94a7-cafc32a83762"
+        }
+    ]
+}
