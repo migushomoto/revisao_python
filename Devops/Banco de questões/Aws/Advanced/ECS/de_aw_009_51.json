@@ -1,0 +1,39 @@
+{
+    "SKU": "000011",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "tagsOrConcepts":["Cloud"],
+    "id": "600d398d-f658-4e0a-b3f4-46475c01cb36",
+    "knowledgeArea": "Cloud",
+    "category": "AWS",
+    "subCategory": "ECS",
+    "level": "Advanced",
+    "text":[ 
+    "Com o Amazon ECS Exec, você pode interagir diretamente com contêineres sem precisar interagir primeiro com o sistema operacional do contêiner do host, abrir portas de entrada ou gerenciar chaves SSH. Você pode usar o ECS Exec para executar comandos em ou obter um shell para um contêiner em execução em uma instância do Amazon EC2 ou no AWS Fargate. Com base no comando abaixo listado, qual dentre as opções melhor indica o resultado que será obtido?",
+    "---",
+  "aws ecs create-service --cluster cluster-name -task-definition task-definition-name --enable-execute-command -service-name service-name --desired-count 1",
+  "---"],
+    "alternatives": [
+        {   "text": "Com a execução do comando acima, o recurso ECS Exec será ativado para o serviço recém-criado", 
+            "feedback":"Resposta Correta!", 
+            "correct":true,
+            "id": "600d398d-f658-4e0a-b3f4-46475c01cb37"
+        },
+        {   "text": "Esse comando retornará erro visto que não é possível criar um service, sem que antes exista uma Task.", 
+            "feedback":"Resposta Incorreta! Nesse caso, é possível sim criar um Service sem tasks diretamente atribuídas, entretanto o mesmo ficara sem utilidade.", 
+            "correct":false,
+            "id": "600d398d-f658-4e0a-b3f4-46475c01cb38"
+        },
+        {   "text": "O resultado do comando vai trazer todos os services e tasks criados e disponíveis para que sejam atualizados com a quantidade de Tasks desejadas para 1.", 
+            "feedback": "Resposta Incorreta! O resultado desse comando vai habilitar o recurso ECS Exec para um serviço recém-criado.", 
+            "correct":false,
+            "id": "600d398d-f658-4e0a-b3f4-46475c01cb39"
+        },
+        {   "text": "Com a execução do comando acima, o recurso ECS Exec será desabilitado para o serviço recém-criado.", 
+            "feedback":"Resposta Incorreta!Com a execução do comando, o recurso ECS Exec será ativado para o serviço.", 
+            "correct":false,
+            "id": "600d398d-f658-4e0a-b3f4-46475c01cb40"
+        }
+    ]
+}
