@@ -1,0 +1,37 @@
+{
+    "SKU": "000020",
+    "interpreter": 1,
+    "type": "VF",
+    "language": "NA",
+    "tagsOrConcepts":["Cloud"],
+    "id": "7f6777e0-afea-4bd6-9a06-4124782f6f21",
+    "knowledgeArea": "Cloud",
+    "category": "AWS",
+    "subCategory": "EKS",
+    "level": "Advanced",
+    "text":[ 
+    "No Kubernetes, o RBAC (Roled-Based Access Control) ê um método importante para tornar o seu cluster EKS mais seguro. Entretanto quando você deseja utilizar atributos de permissões e acesso a nível de POD, o mais indicado é utilizar o recurso IRSA. Sobre esse recurso, é correto afirmar:"
+    ],
+    "alternatives": [
+        {   "text": "O recurso IRSA está disponível de forma simples e segura para todas as versões do EKS a partir de 2018.", 
+            "feedback":"Errado. Esse recurso de funções do IAM para contas de serviços está disponível nas versões 1.14 e posteriores do EKS, e para clusters EKS que são atualizados para as versões 1.13 ou posteriores em ou após 3 de setembro de 2019.", 
+            "correct":false,
+            "id": "7f6777e0-afea-4bd6-9a06-4124782f6f22"
+        },
+        {   "text": "Esse tipo de configuração só está disponível para cluster Kubernetes provisionados utilizando o KOPS.", 
+            "feedback":"Errado. Esse recurso só está disponível para Cluster Kubernetes provisionados via AWS, no caso, sendo ele EKS ou através de add-ons como o irsa-anywhere muito utilizado para clusters Bare-Metal.", 
+            "correct":false,
+            "id": "7f6777e0-afea-4bd6-9a06-4124782f6f23"
+        },
+        {   "text": "O IRSA é um recurso da AWS que permite que roles do IAM sejam utilizadas a nível dos pods, fazendo assim o uso de um identity provider de OIDC e annotations nas services accounts que são utilizadas pelos pods dentro do seu cluster.", 
+            "feedback":"Resposta correta!", 
+            "correct":true,
+            "id": "7f6777e0-afea-4bd6-9a06-4124782f6f24"
+        },
+        {   "text": "Não é possível realizar esse nível de configuração para Clusters EKS.", 
+            "feedback":"Errado. É possível sim, realizar esse tipo de configuração onde as roles do IAM possam ser utilizadas a nível de Pods.", 
+            "correct":false,
+            "id": "7f6777e0-afea-4bd6-9a06-4124782f6f25"
+        }
+    ]
+}
