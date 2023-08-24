@@ -1,0 +1,37 @@
+{
+    "SKU": "000018",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "tagsOrConcepts":["Cloud"],
+    "id": "267dad64-8466-4f66-a8c6-19c237779370",
+    "knowledgeArea": "Cloud",
+    "category": "AWS",
+    "subCategory": "EKS",
+    "level": "Advanced",
+    "text":[ 
+    "Utilizando o Kubectl, é possível interagir com os componentes dentro de um Cluster Kubernetes na AWS (EKS). Em situações de investigação durante um incidente ou troubleshooting é possível que exista a necessidade de realizar restarts nos containers/pods. Com base nas opções listadas, qual delas melhor exemplifica o comando de reinicialização contínua de sua aplicação evitando tempo de inatividade, sendo assim, eliminará um POD por vez em sequência?"
+    ],
+    "alternatives": [
+        {   "text": "kubectl rollout restart deployment <deployment_name> -n <namespace>", 
+            "feedback":"Resposta Correta!", 
+            "correct":true,
+            "id": "267dad64-8466-4f66-a8c6-19c237779371"
+        },
+        {   "text": "kubectl delete deployment <deployment_name>", 
+            "feedback":"Resposta Incorreta!O comando mencionado é utilizado para deletar todo o deployment de uma aplicação no kubernetes.", 
+            "correct":false,
+            "id": "267dad64-8466-4f66-a8c6-19c237779372"
+        },
+        {   "text": "kubectl get events --sort-by=.metadata.creationTimestamp", 
+            "feedback": "Resposta Incorreta!O comando mencionado acima é utilizado para obter informações sobre eventos organizando pelo momento de cada Log.", 
+            "correct":false,
+            "id": "267dad64-8466-4f66-a8c6-19c237779373"
+        },
+        {   "text": "Não é possível gerar esse tipo de ação quando realizamos delete em PODs do Kubernetes. Sempre sofreremos com indisponibilidade e impacto em nossas aplicações.", 
+            "feedback":"Resposta Incorreta! Através do comando rollout restart realizaremos restart em todos os pods de um deployment evitando tempo de inatividade.", 
+            "correct":false,
+            "id": "267dad64-8466-4f66-a8c6-19c237779374"
+        }
+    ]
+}
