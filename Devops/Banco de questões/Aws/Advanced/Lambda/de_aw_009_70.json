@@ -1,0 +1,37 @@
+{
+    "SKU": "000030",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "tagsOrConcepts":["Cloud"],
+    "id": "76891f87-cb66-4f72-b236-f95265768627",
+    "knowledgeArea": "Cloud",
+    "category": "AWS",
+    "subCategory": "Lambda",
+    "level": "Advanced",
+    "text":[ 
+    "A Simultaneidade provisionada oferece maior controle sobre o desempenho das suas lambdas. Quando habilitada, a simultaneidade provisionada mantém as funções inicializadas e prontas para responder em questão de milissegundos. De acordo com as opções abaixo, qual melhor descreve a forma para configurar corretamente a Simultaneidade provisionada?"
+],
+    "alternatives": [
+        {   "text": "Um diferencial na configuração de simultaneidade é que uma função lambda não afeta os limites de outra.", 
+            "feedback":"Errado. Configurar simultaneidade provisionada para uma função afeta o grupo de simultaneidades disponíveis para outras funções. Por exemplo, se você reservar 100 unidades de simultaneidade provisionada para function-a, outras funções da sua conta deverão compartilhar as 900 unidades restantes de simultaneidade, mesmo que function-a não use todas as 100 unidades de simultaneidade provisionada.", 
+            "correct":false,
+            "id": "76891f87-cb66-4f72-b236-f95265768628"
+        },
+        {   "text": "Você não pode alocar tanto a simultaneidade reservada como a provisionada para a mesma função. Se você fizer isso, a quantidade de simultaneidade provisionada vai exceder a simultaneidade reservada.", 
+            "feedback":"Errado. Você pode alocar tanto a simultaneidade reservada como a provisionada para a mesma função. Se você fizer isso, a quantidade de simultaneidade provisionada não poderá exceder a quantidade de simultaneidade reservada.", 
+            "correct":false,
+            "id": "76891f87-cb66-4f72-b236-f95265768629"
+        },
+        {   "text": "Esse serviço não possui limites de simultaneidade.", 
+            "feedback":"Errado. No Lambda, simultaneidade corresponde ao número de solicitações em andamento que sua função está processando ao mesmo tempo. Há dois tipos de controle de simultaneidade disponíveis, sendo elas a reservada e a provisionada.", 
+            "correct":false,
+            "id": "76891f87-cb66-4f72-b236-f95265768630"
+        },
+        {   "text": "Você pode definir configurações de simultaneidade provisionada para uma função usando o console do Lambda ou a API do Lambda, atualizando o parâmetro Configuração de simultaneidade provisionada.", 
+            "feedback":"Resposta correta!",
+            "correct":true,
+            "id": "76891f87-cb66-4f72-b236-f95265768631"
+        }
+    ]
+}
