@@ -1,0 +1,37 @@
+{
+    "SKU": "000029",
+    "interpreter": 1,
+    "type": "VF",
+    "language": "NA",
+    "tagsOrConcepts":["Cloud"],
+    "id": "b115a38a-d6c0-486b-978c-f4c2a0555a40",
+    "knowledgeArea": "Cloud",
+    "category": "AWS",
+    "subCategory": "Lambda",
+    "level": "Advanced",
+    "text":[ 
+    "O Lambda pode lidar com múltiplas invocações de instância ao mesmo tempo e a soma de todas essas invocações equivale à sua contagem de execução simultânea. Portanto, suponha que estejamos em um determinado momento, se você tiver mais invocações em execução que excedam o limite configurado, todas as novas solicitações para sua função Lambda receberão um erro de throttling exceptions.De acordo com as opções abaixo, quais apresentam soluções para esse tipo de caso?"
+    ],
+    "alternatives": [
+        {   "text": "Solicite um aumento de simultaneidade do AWS Support nesta região.", 
+            "feedback":"Resposta correta!", 
+            "correct":true,
+            "id": "b115a38a-d6c0-486b-978c-f4c2a0555a41"
+        },
+        {   "text": "O lambda possui por padrão um limite de 5.000 simultaneidades e problemas de throttling não acontecem na região de São Paulo.", 
+            "feedback":"Errado! Por padrão o lambda possui um limite de 1.000 simultaneidade e esse tipo de problema pode acontecer em qualquer região quando esse limite é ultrapassado.", 
+            "correct":false,
+            "id": "b115a38a-d6c0-486b-978c-f4c2a0555a42"
+        },
+        {   "text": "Identifique problemas de desempenho na função para melhorar a velocidade de processamento e, portanto, melhorar o rendimento.", 
+            "feedback":"Resposta correta!",
+            "correct":true,
+            "id": "b115a38a-d6c0-486b-978c-f4c2a0555a43"
+        },
+        {   "text": "Aumente o tamanho do lote da função, para que mais mensagens sejam processadas por cada invocação de função.", 
+            "feedback":"Resposta correta!", 
+            "correct":true,
+            "id": "b115a38a-d6c0-486b-978c-f4c2a0555a44"
+        }
+    ]
+}
