@@ -1,0 +1,39 @@
+{
+    "SKU": "000027",
+    "interpreter": 1,
+    "type": "VF",
+    "language": "NA",
+    "tagsOrConcepts":["Cloud"],
+    "id": "96a8a798-ae21-4238-87f8-725bbad7f943",
+    "knowledgeArea": "Cloud",
+    "category": "AWS",
+    "subCategory": "Lambda",
+    "level": "Advanced",
+    "text":[ 
+    "Quando você invoca uma função do Lambda, o Lambda valida a solicitação e verifica a capacidade de escalabilidade antes de enviar o evento para a função ou, na invocação assíncrona, para a fila de eventos. Erros de invocação podem ser causados por problemas com os parâmetros da solicitação, a estrutura do evento, as configurações da função, as permissões do usuário, as permissões de recursos ou os limites. Com base no que conhecemos sobre as permissões na Lambda, quais opções abaixo melhor descrevem o problema retratado?",
+    "---",
+    "Erro: usuário: arn:aws:iam::0000112233998:user/developer não tem autorização para executar: lambda:InvokeFunction no recurso: my-function",
+    "---"],
+    "alternatives": [
+        {   "text": "O erro demonstrado acima, não faz parte de erros relacionados ao Lambda, mas sim, voltados para ACL em aplicações Web.", 
+            "feedback":"Errado. O erro acima mencionado, está atrelado a falta de permissões para invocar uma função lambda.", 
+            "correct":false,
+            "id": "96a8a798-ae21-4238-87f8-725bbad7f944"
+        },
+        {   "text": "Esse tipo de erro pode ser evitado configurando o MFA para acesso a Interface WEB e configuração do Lambda.", 
+            "feedback":"Errado. Esse tipo de configuração não ajudaria a evitar problemas de permissão em uma chamada como essa. Esse tipo de problema está atrelado a falta de permissão para invocar uma função lambda.", 
+            "correct":false,
+            "id": "96a8a798-ae21-4238-87f8-725bbad7f945"
+        },
+        {   "text": "Seu usuário, ou o perfil que você assume, deve ter permissões para invocar uma função. Esse requisito também se aplica a funções do Lambda e a outros recursos de computação que invocam funções.", 
+            "feedback":"Resposta correta!", 
+            "correct":true,
+            "id": "96a8a798-ae21-4238-87f8-725bbad7f946"
+        },
+        {   "text": "É necessário adicionar política gerenciada pela AWS AWSLambdaRole ao seu usuário ou adicione uma política personalizada que permita a ação lambda:InvokeFunction na função de destino.", 
+            "feedback":"Resposta correta!", 
+            "correct":true,
+            "id": "96a8a798-ae21-4238-87f8-725bbad7f947"
+        }
+    ]
+}
