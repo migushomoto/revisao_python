@@ -1,0 +1,37 @@
+{
+    "SKU": "000026",
+    "interpreter": 1,
+    "type": "VF",
+    "language": "NA",
+    "tagsOrConcepts":["Cloud"],
+    "id": "0825f3c2-3c86-4a4e-8804-e902880c9120",
+    "knowledgeArea": "Cloud",
+    "category": "AWS",
+    "subCategory": "Lambda",
+    "level": "Advanced",
+    "text":[ 
+    "Quando o tempo de execução do Lambda executa o código de função, o evento pode ser processado em uma instância da função que esteja processando eventos por algum tempo, ou pode exigir que uma nova instância seja inicializada. Podem ocorrer erros durante a inicialização da função, dentre outras possibilidades. Deste modo, é importante acompanhar os logs e rastreamentos da forma devida, mas existem situações onde esse componentes não são alimentados e somos impedidos de realizar o correto troubleshooting. De acordo com as opções abaixo, quais apresentam possíveis causas para esse tipo de problema?"
+    ],
+    "alternatives": [
+        {   "text": "Sua função precisa de permissão para chamar o CloudWatch Logs e o X-Ray. Atualize a função de execução para conceder permissão a ela.", 
+            "feedback":"Resposta correta!", 
+            "correct":true,
+            "id": "0825f3c2-3c86-4a4e-8804-e902880c9121"
+        },
+        {   "text": "É valido adicionar as devidas permissões para chamar o CloudWatch Logs e o X-Ray.Ao realizar isso, imediatamente os logs irão começar a aparecer.", 
+            "feedback":"Errado!Pode levar de 5 a 10 minutos para que os logs apareçam após uma invocação de função, e claro, a mesma possuindo as corretas permissões.", 
+            "correct":false,
+            "id": "0825f3c2-3c86-4a4e-8804-e902880c9122"
+        },
+        {   "text": "A AWS sempre deixa habilitado os Logs e rastreamentos, deste modo, esse tipo de problema nunca poderia acontecer.", 
+            "feedback":"Errado.A AWS sempre preza pelas boas práticas, e é necessário que ao criar funções lambdas, as mesmas possuam as devidas permissões.",
+            "correct":false,
+            "id": "0825f3c2-3c86-4a4e-8804-e902880c9123"
+        },
+        {   "text": "É importante adicionar permissões à sua função, atualize também seu código ou configuração. Isso força as instâncias em execução da função, com credenciais desatualizadas, a serem encerradas e substituídas.", 
+            "feedback":"Resposta correta!", 
+            "correct":true,
+            "id": "0825f3c2-3c86-4a4e-8804-e902880c9124"
+        }
+    ]
+}
