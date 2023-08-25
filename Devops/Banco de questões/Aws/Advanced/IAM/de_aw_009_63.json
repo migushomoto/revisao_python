@@ -1,0 +1,37 @@
+{
+    "SKU": "000023",
+    "interpreter": 1,
+    "type": "VF",
+    "language": "NA",
+    "tagsOrConcepts":["Cloud"],
+    "id": "9aad4741-29f7-46a2-ac82-7590954da593",
+    "knowledgeArea": "Cloud",
+    "category": "AWS",
+    "subCategory": "IAM",
+    "level": "Advanced",
+    "text":[ 
+    "Através de políticas e permissões no IAM você gerencia o acesso na AWS criando políticas e anexando-as às identidades do IAM (usuários, grupos de usuários ou funções) ou aos recursos da AWS. Deste modo, é correto afirmar:"
+    ],
+    "alternatives": [
+        {   "text": "É possível utilizar regras de Firewall na AWS para realizar liberações de usuários, grupos de usuários ou funções.", 
+            "feedback":"Errado. Esse tipo de ação é realizado através da segurança do IAM na Cloud AWS.", 
+            "correct":false,
+            "id": "9aad4741-29f7-46a2-ac82-7590954da594"
+        },
+        {   "text": "A AWS avalia essas políticas quando uma entidade de segurança do IAM (usuário ou função) faz uma solicitação. As permissões nas políticas determinam se a solicitação será permitida ou negada.", 
+            "feedback":"Resposta correta!", 
+            "correct":true,
+            "id": "9aad4741-29f7-46a2-ac82-7590954da595"
+        },
+        {   "text": "As políticas do IAM definem permissões para uma ação, independentemente do método usado para executar a operação.", 
+            "feedback":"Resposta correta!",
+            "correct":true,
+            "id": "9aad4741-29f7-46a2-ac82-7590954da596"
+        },
+        {   "text": "As permissões nas políticas determinam se a solicitação será bloqueada, pois por padrão todas as regras no IAM liberam os recursos da AWS para todos.", 
+            "feedback":"Errado. As permissões nas políticas determinam se a solicitação será permitida ou negada.", 
+            "correct":false,
+            "id": "9aad4741-29f7-46a2-ac82-7590954da597"
+        }
+    ]
+}
