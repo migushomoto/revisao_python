@@ -1,0 +1,37 @@
+{
+    "SKU": "000037",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "tagsOrConcepts":["Cloud"],
+    "id": "37d438b5-e689-4304-9e28-2f96b88e8776",
+    "knowledgeArea": "Cloud",
+    "category": "AWS",
+    "subCategory": "Redis",
+    "level": "Advanced",
+    "text":[ 
+    "Um Shard é uma disposição hierárquica de nodes, cada um envolvido em um cluster Redis. Shards oferecem suporte para replicação. Dentro de um shard, um node funciona como o nó primário de leitura/gravação. Todos os outros nodes em um shard funcionam como réplicas somente leitura do nó primário.Sobre Shards e nodes do Redis podemos considerar:"
+],
+    "alternatives": [
+        {   "text": "Na região de São Paulo, não existe um limite de Nodes. Para todas as outras regiões esse limite é 300 o padrão.", 
+            "feedback":"Errado.Existe um limite de Nodes por região nas quotas para o Redis, e esse valor é 300 o padrão.", 
+            "correct":false,
+            "id": "37d438b5-e689-4304-9e28-2f96b88e8777"
+        },
+        {   "text": "Existe um limite de Nodes por Cluster nas quotas para o Redis somente quando o modo Cluster é habilitado, e esse valor é 300 o padrão", 
+            "feedback":"Errado.Existe um limite de Nodes por região nas quotas para o Redis, e esse valor é 300 o padrão. Quando falamos de Nodes por Cluster e por tipo de instãncia, utilizando o modo Cluster habilitado esse valor é 90.", 
+            "correct":false,
+            "id": "37d438b5-e689-4304-9e28-2f96b88e8778"
+        },
+        {   "text": "Para o Redis, não existem limites de uso ou quotas.", 
+            "feedback":"Errado.Existem diversos limites para Redes e quando falamos de limite de Nodes por região nas quotas para o Redis, esse valor é 300 o padrão.",
+            "correct":false,
+            "id": "37d438b5-e689-4304-9e28-2f96b88e8779"
+        },
+        {   "text": "Existe um limite de Nodes por região nas quotas para o Redis, e esse valor é 300 o padrão.", 
+            "feedback":"Resposta correta!",
+            "correct":true,
+            "id": "37d438b5-e689-4304-9e28-2f96b88e8780"
+        }
+    ]
+}
