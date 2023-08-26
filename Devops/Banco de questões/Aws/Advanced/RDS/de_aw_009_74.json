@@ -1,0 +1,37 @@
+{
+    "SKU": "000034",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "tagsOrConcepts":["Cloud"],
+    "id": "67cb8e6d-7314-4736-b3c4-69b2089e5685",
+    "knowledgeArea": "Cloud",
+    "category": "AWS",
+    "subCategory": "RDS",
+    "level": "Advanced",
+    "text":[ 
+    "Você pode executar bancos de dados do Amazon RDS na sub-rede pública ou privada de uma VPC. No entanto, a configuração incorreta da VPC no lado da instância do RDS pode causar problemas de conexão. Ou problemas de configuração ou conectividade no cliente do qual você está se conectando também podem causar problemas de conexão. Supondo que sua instância de banco de dados está em uma sub-rede pública e você não consegue se conectar a ela pela Internet, qual das opções abaixo melhor descreve uma solução viável para esse caso?"
+],
+    "alternatives": [
+        {   "text": "Abra o console do Amazon RDS, selecione Bancos de dados no painel de navegação e selecione sua instância de banco de dados. Ao analisar a seção de Conectividade e Segurança, modifique o RDS para ser Acessível ao Público. Essa alteração é aplicada imediatamente, mesmo que você não selecione a opção Aplicar imediatamente.Um detalhe é que a sua VPC precisa ter um Gateway de Internet conectado, e possuir regras de segurança permitindo o acesso.", 
+            "feedback":"Resposta correta!", 
+            "correct":true,
+            "id": "67cb8e6d-7314-4736-b3c4-69b2089e5686"
+        },
+        {   "text": "Para garantir as devidas liberações de acesso, é necessário, ja criar o RDS permitindo Tudo no Security Group, caso contrário, será necessário recria-lo.", 
+            "feedback":"Errado.É possível na seção de Conectividade e Segurança, modificar o RDS para ser Acessível ao Público.Um detalhe é que a sua VPC precisa ter um Gateway de Internet conectado, e possuir regras de segurança permitindo o acesso.", 
+            "correct":false,
+            "id": "67cb8e6d-7314-4736-b3c4-69b2089e5687"
+        },
+        {   "text": "Somente é necessário atribuir uma regra de Firewall na VPC da conta, liberando todas as origens para a porta de conexão do seu banco de dados.", 
+            "feedback":"Errado.É necessário na seção de Conectividade e Segurança, modificar o RDS para ser Acessível ao Público.Um detalhe é que a sua VPC precisa ter um Gateway de Internet conectado, e possuir regras de segurança permitindo o acesso.",
+            "correct":false,
+            "id": "67cb8e6d-7314-4736-b3c4-69b2089e5688"
+        },
+        {   "text": "Bancos de Dados na AWS somente podem ser acessados internamente, através do CIDR da sua VPC Interna.", 
+            "feedback":"Errado.É possível na seção de Conectividade e Segurança, modificar o RDS para ser Acessível ao Público.Um detalhe é que a sua VPC precisa ter um Gateway de Internet conectado, e possuir regras de segurança permitindo o acesso.",
+            "correct":false,
+            "id": "67cb8e6d-7314-4736-b3c4-69b2089e5689"
+        }
+    ]
+} 
