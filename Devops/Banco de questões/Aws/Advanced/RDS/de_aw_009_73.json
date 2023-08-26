@@ -1,0 +1,37 @@
+{
+    "SKU": "000031",
+    "interpreter": 1,
+    "type": "VF",
+    "language": "NA",
+    "tagsOrConcepts":["Cloud"],
+    "id": "4fcac54a-de9e-45c9-961e-7d27b5b8f639",
+    "knowledgeArea": "Cloud",
+    "category": "AWS",
+    "subCategory": "RDS",
+    "level": "Advanced",
+    "text":[ 
+    "As instâncias reservadas do Amazon RDS permitem que você reserve uma instância de banco de dados por um período de vigência de um ou três anos e, em troca, receba um desconto considerável em comparação à definição de preço de instâncias sob demanda para a instância de banco de dados. De acordo com as opções abaixo, quais retratam observações importantes sobre compra desse tipo de instância?"
+],
+    "alternatives": [
+        {   "text": "Os preços de instâncias reservadas cobrem apenas os custos da instância.", 
+            "feedback":"Resposta correta!", 
+            "correct":true,
+            "id": "4fcac54a-de9e-45c9-961e-7d27b5b8f640"
+        },
+        {   "text": "Para garantir os descontos e benefícios, é possível adquirir até 100 instâncias reservadas.", 
+            "feedback":"Errado.É possível adquirir até 40 instâncias reservadas. Se você precisar de mais instâncias reservadas, será necessário preencher um formulário especial para essa necessidade.", 
+            "correct":false,
+            "id": "4fcac54a-de9e-45c9-961e-7d27b5b8f641"
+        },
+        {   "text": "As instâncias reservadas podem ser transferidas, vendidas mas não canceladas e a taxa única é reembolsável somente 50% do valor.", 
+            "feedback":"Errado. As instâncias reservadas não podem ser transferidas, vendidas ou canceladas e a taxa única não é reembolsável.",
+            "correct":false,
+            "id": "4fcac54a-de9e-45c9-961e-7d27b5b8f642"
+        },
+        {   "text": "A região, o mecanismo de banco de dados, a classe da instância de banco de dados, o tipo de implantação e a duração devem ser escolhidos no momento da compra e não poderão ser alterados posteriormente.", 
+            "feedback":"Resposta correta!",
+            "correct":true,
+            "id": "4fcac54a-de9e-45c9-961e-7d27b5b8f643"
+        }
+    ]
+} 
