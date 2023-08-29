@@ -1,0 +1,49 @@
+{
+    "SKU": "PY-DS-061",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "tagsOrConcepts":["for e listas (manipulação e métodos)"],
+    "UUID": "be1b606c-09e8-42b6-9bd7-7b80a4058df9",
+    "id": "be1b606c-09e8-42b6-9bd7-7b80a4058df9",
+    "knowledgeArea": "Dados",
+    "category": "lógica de programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "text":["O laço `for` é útil ao iterar sobre uma pilha ou fila, permitindo que uma operação seja realizada por `n` passos.",
+            "No código abaixo qual o valor da variável `total`?",
+            "---",
+            "total = 0",
+            "for x in range(1, 15, 3):",
+            "\ttotal += 1",
+            "\ttotal *= x",
+            "---"
+    ],
+    "alternatives": [
+        {   "text": "8333",
+            "feedback":"O código itera (for) sobre os números gerados pela função range(1, 15, 3), ou seja, dos números de 1-14 com um passo de 3, correspondendo aos valores (1, 4, 7, 10, 13). Portanto na primeira iteração temos (`total += 1`) seguido de `total *= x`, sendo x=1, culminando no valor de 1. Na segunda iteração temos x=4, logo o total será 1+1 (soma), seguido de total = 2*4, resultando em `total=8`. Seguindo essa lógica temos a variação da variável total sendo: <x>1 = <total>1, <x>4 = <total>8, <x>7 = <total>63, <x>11 = <total>640, <x>14 = <total>8333",
+            "correct":true,
+            "id": "b3c18966-06e0-46bd-b893-b999142c9306"
+        },
+        {   "text": "5",
+            "feedback":"O código itera (for) sobre os números gerados pela função range(1, 15, 3), ou seja, dos números de 1-14 com um passo de 3, correspondendo aos valores (1, 4, 7, 10, 13). Portanto na primeira iteração temos (`total += 1`) seguido de `total *= x`, sendo x=1, culminando no valor de 1. Na segunda iteração temos x=4, logo o total será 1+1 (soma), seguido de total = 2*4, resultando em `total=8`. Seguindo essa lógica temos a variação da variável total sendo: <x>1 = <total>1, <x>4 = <total>8, <x>7 = <total>63, <x>11 = <total>640, <x>14 = <total>8333",
+            "correct":false,
+            "id": "c32d4441-4cd3-4d5a-89cc-8f3805a5bf8a"
+        },
+        {   "text": "0",
+            "feedback":"O código itera (for) sobre os números gerados pela função range(1, 15, 3), ou seja, dos números de 1-14 com um passo de 3, correspondendo aos valores (1, 4, 7, 10, 13). Portanto na primeira iteração temos (`total += 1`) seguido de `total *= x`, sendo x=1, culminando no valor de 1. Na segunda iteração temos x=4, logo o total será 1+1 (soma), seguido de total = 2*4, resultando em `total=8`. Seguindo essa lógica temos a variação da variável total sendo: <x>1 = <total>1, <x>4 = <total>8, <x>7 = <total>63, <x>11 = <total>640, <x>14 = <total>8333",
+            "correct":false,
+            "id": "619841f5-9791-4a9f-bf56-e437db6aeb06"
+        },
+        {   "text": "18334",
+            "feedback":"O código itera (for) sobre os números gerados pela função range(1, 15, 3), ou seja, dos números de 1-14 com um passo de 3, correspondendo aos valores (1, 4, 7, 10, 13). Portanto na primeira iteração temos (`total += 1`) seguido de `total *= x`, sendo x=1, culminando no valor de 1. Na segunda iteração temos x=4, logo o total será 1+1 (soma), seguido de total = 2*4, resultando em `total=8`. Seguindo essa lógica temos a variação da variável total sendo: <x>1 = <total>1, <x>4 = <total>8, <x>7 = <total>63, <x>11 = <total>640, <x>14 = <total>8333",
+            "correct":false,
+            "id": "8f527ea9-1f74-427d-bcc1-2e8e23744660"
+        },
+        {   "text": "42",
+            "feedback":"O código itera (for) sobre os números gerados pela função range(1, 15, 3), ou seja, dos números de 1-14 com um passo de 3, correspondendo aos valores (1, 4, 7, 10, 13). Portanto na primeira iteração temos (`total += 1`) seguido de `total *= x`, sendo x=1, culminando no valor de 1. Na segunda iteração temos x=4, logo o total será 1+1 (soma), seguido de total = 2*4, resultando em `total=8`. Seguindo essa lógica temos a variação da variável total sendo: <x>1 = <total>1, <x>4 = <total>8, <x>7 = <total>63, <x>11 = <total>640, <x>14 = <total>8333",
+            "correct":false,
+            "id": "6c333d2e-73ba-47cb-af43-06340da237d6"
+        }
+    ]
+}

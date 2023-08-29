@@ -1,0 +1,43 @@
+{
+    "SKU": "PY-DS-048",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "tagsOrConcepts":["variáveis, coerção de dados, input/print"],
+    "UUID": "f0c23d33-84df-4296-b110-24ea554f468c",
+    "id": "f0c23d33-84df-4296-b110-24ea554f468c",
+    "knowledgeArea": "Dados",
+    "category": "lógica de programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "text":[ "Em Python as variáveis podem assumir diferentes tipos (inteiros, floats, booleanos, strings, etc).",
+            "Dentre as afirmações abaixo sobre variáveis, qual está correta?"
+    ],
+    "alternatives": [
+        {   "text": "Após atribuir um tipo a uma variável em Python, esse tipo não pode ser alterado",
+            "feedback":"Python é uma linguagem dinâmica (contrapondo linguagens estáticas), ou seja, o tipo da variável pode ser alterado durante a execução do programa",
+            "correct":false,
+            "id": "9307a2e1-0644-4b3f-93fb-8fa5c5982599"
+        },
+        {   "text": "O tipo das variáveis podem variar ao longo da execução do programa",
+            "feedback":"Como Python é uma linguagem dinâmica, não é necessário declarar explicitamente o tipo que a variável irá armazenar. Além disso, permite que as variáveis possam modificar o seu tipo durante a execução do programa, podendo modificar o seu conteúdo (atualização) com diferentes tipos ao longo do código.",
+            "correct":true,
+            "id": "6023363c-ef49-4cac-b9c7-723e3700d032"
+        },
+        {   "text": "Python não possui o conceito de variáveis",
+            "feedback":"Em Python existe o conceito de variáveis",
+            "correct":false,
+            "id": "6f318d09-a1c8-4e27-8d8a-a6e2d1b0d3fc"
+        },
+        {   "text": "Python só pode armazenar números e strings em variáveis",
+            "feedback":"Python suporta diferentes tipos de dados incluindo floats, strings, inteiros, booleanos, listas, etc",
+            "correct":false,
+            "id": "fee54a88-21fa-4b3d-956c-c071c1211350"
+        },
+        {   "text": "O nome das variáveis pode ser iniciada com números",
+            "feedback":"O nome das variáveis em Python precisam inicar com letras ou com `underline`, aceitando apenas caracteres alpha-numéricos (a-Z, 0-9, e `_`).",
+            "correct":false,
+            "id": "a149b288-9a79-447e-b343-8300f9974f9d"
+        }
+    ]
+}

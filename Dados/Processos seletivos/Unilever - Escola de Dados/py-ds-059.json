@@ -1,0 +1,55 @@
+{
+    "SKU": "PY-DS-059",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "tagsOrConcepts":["estruturas condicionais e while"],
+    "UUID": "579881c6-ebb5-4d7e-82c6-68c49be04787",
+    "id": "579881c6-ebb5-4d7e-82c6-68c49be04787",
+    "knowledgeArea": "Dados",
+    "category": "lógica de programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "text":["Em um programa é comum manipular os dados de acordo com uma condição.",
+            "No código abaixo qual o valor da variável `total`?",
+            "---",
+            "total = 0",
+            "for x in range(0, 100):",
+            "\tif x % 2 == 0 and x % 5 == 0:",
+            "\t\ttotal *= 2",
+            "\telif x % 2 == 0:",
+            "\t\ttotal += 21",
+            "\telif x % 5 == 0:",
+            "\t\ttotal -= 42",
+            "\telse:",
+            "\t\ttotal += 1",
+            "---"
+    ],
+    "alternatives": [
+        {   "text": "-47058",
+            "feedback":"No código há três principais comparações, a primeira `if x % 2 == 0 and x % 5 == 0` que verifica se o número `x` é divisível por 2 e 5, e caso seja haverá a multiplicação do valor `total` por 2; a segunda que verifica se o valor `x` é divisível por 2 (`elif x % 2 == 0`) e se for o caso haverá a soma do valor total por 21; verificação do valor `x` se é divisível por 5 (`elif x % 5 == 0`) com a subtração do valor total por 42, e caso nenhuma condição seja satisfeita há a soma do valor total por 1. Note que nessa estrutura encadeada há sempre uma e apenas uma condição que o código será executado, ou seja, se o número for divisível por 2 e 5, apenas o primeiro `if` será executado ignorando os dois blocos de `elif`.",
+            "correct":false,
+            "id": "dd7accfd-3cf9-4f06-ba77-d9912bef8391"
+        },
+        {   "text": "0",
+            "feedback":"No código há três principais comparações, a primeira `if x % 2 == 0 and x % 5 == 0` que verifica se o número `x` é divisível por 2 e 5, e caso seja haverá a multiplicação do valor `total` por 2; a segunda que verifica se o valor `x` é divisível por 2 (`elif x % 2 == 0`) e se for o caso haverá a soma do valor total por 21; verificação do valor `x` se é divisível por 5 (`elif x % 5 == 0`) com a subtração do valor total por 42, e caso nenhuma condição seja satisfeita há a soma do valor total por 1. Note que nessa estrutura encadeada há sempre uma e apenas uma condição que o código será executado, ou seja, se o número for divisível por 2 e 5, apenas o primeiro `if` será executado ignorando os dois blocos de `elif`.",
+            "correct":false,
+            "id": "02acb930-e89a-447b-bc5a-64ba907181aa"
+        },
+        {   "text": "47058",
+            "feedback":"No código há três principais comparações, a primeira `if x % 2 == 0 and x % 5 == 0` que verifica se o número `x` é divisível por 2 e 5, e caso seja haverá a multiplicação do valor `total` por 2; a segunda que verifica se o valor `x` é divisível por 2 (`elif x % 2 == 0`) e se for o caso haverá a soma do valor total por 21; verificação do valor `x` se é divisível por 5 (`elif x % 5 == 0`) com a subtração do valor total por 42, e caso nenhuma condição seja satisfeita há a soma do valor total por 1. Note que nessa estrutura encadeada há sempre uma e apenas uma condição que o código será executado, ou seja, se o número for divisível por 2 e 5, apenas o primeiro `if` será executado ignorando os dois blocos de `elif`.",
+            "correct":true,
+            "id": "3fbfcc6c-8241-421e-8df1-83bf6055c448"
+        },
+        {   "text": "42",
+            "feedback":"No código há três principais comparações, a primeira `if x % 2 == 0 and x % 5 == 0` que verifica se o número `x` é divisível por 2 e 5, e caso seja haverá a multiplicação do valor `total` por 2; a segunda que verifica se o valor `x` é divisível por 2 (`elif x % 2 == 0`) e se for o caso haverá a soma do valor total por 21; verificação do valor `x` se é divisível por 5 (`elif x % 5 == 0`) com a subtração do valor total por 42, e caso nenhuma condição seja satisfeita há a soma do valor total por 1. Note que nessa estrutura encadeada há sempre uma e apenas uma condição que o código será executado, ou seja, se o número for divisível por 2 e 5, apenas o primeiro `if` será executado ignorando os dois blocos de `elif`.",
+            "correct":false,
+            "id": "8a2dc45d-aef2-4ea0-8aaf-4f6d4a7bac5e"
+        },
+        {   "text": "14705871",
+            "feedback":"No código há três principais comparações, a primeira `if x % 2 == 0 and x % 5 == 0` que verifica se o número `x` é divisível por 2 e 5, e caso seja haverá a multiplicação do valor `total` por 2; a segunda que verifica se o valor `x` é divisível por 2 (`elif x % 2 == 0`) e se for o caso haverá a soma do valor total por 21; verificação do valor `x` se é divisível por 5 (`elif x % 5 == 0`) com a subtração do valor total por 42, e caso nenhuma condição seja satisfeita há a soma do valor total por 1. Note que nessa estrutura encadeada há sempre uma e apenas uma condição que o código será executado, ou seja, se o número for divisível por 2 e 5, apenas o primeiro `if` será executado ignorando os dois blocos de `elif`.",
+            "correct":false,
+            "id": "95ef0842-3a71-448f-92e9-6866f1010644"
+    }
+    ]
+}

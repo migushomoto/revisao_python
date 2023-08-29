@@ -1,0 +1,51 @@
+{
+    "SKU": "PY-DS-055",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "tagsOrConcepts":["operadores algébricos e lógicos (comparação/conjunção)"],
+    "UUID": "b791b3f5-daa6-49cb-86ed-68c356ca9a39",
+    "id": "b791b3f5-daa6-49cb-86ed-68c356ca9a39",
+    "knowledgeArea": "Dados",
+    "category": "lógica de programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "text":["Para o controle de fluxo em um programa é comum utilizar operadores lógicos.",
+            "Por exemplo, imagine que em um supermercado o funcionamento de novos caixas dependem do número de clientes em uma fila.",
+            "Pode ser pensado que caso haja mais de 6 pessoas em cada fila de caixa, um novo caixa deve ser aberto para aliviar a pressão e reduzir o tempo para pagamento.",
+            "Considerando o código abaixo:",
+            "---",
+            "condicao_1 = True",
+            "condicao_2 = False",
+            "resultado =  ((condicao_1 and condicao_2) or (condicao_1 and not condicao_2)) and ((not condicao_1) or (not condicao_2))",
+            "---",
+            "Qual o valor da variável resultado?"
+    ],
+    "alternatives": [
+        {   "text": "True",
+            "feedback":"O resultado pode ser quebrado em pequenos sub-blocos. O primeiro `(condicao_1 and condicao_2)` irá retornar False, o segundo bloco `(condicao_1 and not condicao_2)` retorna True, portanto temos que `((condicao_1 and condicao_2) or (condicao_1 and not condicao_2))` retorna True. O terceiro bloco `(not condicao_1)` retorna False, a negação de True, e `(not condicao_2)` retorna True, a negação de False, logo `(not condicao_1) or (not condicao_2)` é True. Dessa forma temos que: `((condicao_1 and condicao_2) or (condicao_1 and not condicao_2)) = True` e `((not condicao_1) or (not condicao_2)) = True`, logo a comparação final será `(True) and (True)` como ambas comparações são verdadeiras, temos o retorno de True.",
+            "correct":true,
+            "id": "75c095d9-82e6-4987-863a-68d06570564d"
+        },
+        {   "text": "1",
+            "feedback":"Apesar de que em Python o `1` seja considerado verdadeiro, esse valor (int) não representa um booleano em Python.",
+            "correct":false,
+            "id": "a4ce0670-46e9-40b6-83ba-6de702aaa21e"
+        },
+        {   "text": "None",
+            "feedback":"Há o retorno de um booleano na expressão acima, portanto retornando um tipo `bool` e não um tipo `NoneType`.",
+            "correct":false,
+            "id": "d96850d8-cbaa-4155-bf28-8366c250857a"
+        },
+        {   "text": "False",
+            "feedback":"Há o retorno de um booleano cujo valor é True. O resultado pode ser quebrado em pequenos sub-blocos. O primeiro `(condicao_1 and condicao_2)` irá retornar False, o segundo bloco `(condicao_1 and not condicao_2)` retorna True, portanto temos que `((condicao_1 and condicao_2) or (condicao_1 and not condicao_2))` retorna True. O terceiro bloco `(not condicao_1)` retorna False, a negação de True, e `(not condicao_2)` retorna True, a negação de False, logo `(not condicao_1) or (not condicao_2)` é True. Dessa forma temos que: `((condicao_1 and condicao_2) or (condicao_1 and not condicao_2)) = True` e `((not condicao_1) or (not condicao_2)) = True`, logo a comparação final será `(True) and (True)` como ambas comparações são verdadeiras, temos o retorno de True.",
+            "correct":false,
+            "id": "a7e4c1dc-f42e-4f82-8eed-b2074643d4d6"
+        },
+        {   "text": "0",
+           "feedback":"Apesar de que em Python o `0` seja considerado falso, esse valor (int) não representa um booleano em Python.",
+            "correct":false,
+            "id": "96a8bd79-d476-4b6e-99ae-de1f356eb961"
+    }
+    ]
+}

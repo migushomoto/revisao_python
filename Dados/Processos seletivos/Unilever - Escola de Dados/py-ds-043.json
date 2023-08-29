@@ -1,0 +1,43 @@
+{
+    "SKU": "PY-DS-043",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "tagsOrConcepts":["Matemática básica"],
+    "UUID": "91029e69-3817-4457-9545-54eda5606b22",
+    "id": "91029e69-3817-4457-9545-54eda5606b22",
+    "knowledgeArea": "Dados",
+    "category": "matemática",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "text":["Em dados comumente utilizamos funções matemáticas para explicar o funcionamento de modelos e resultados obtidos.",
+            "Supondo uma função f(x) = 5, qual o valor de f(5)?"
+    ],
+    "alternatives": [
+        {   "text": "0",
+            "feedback":"Nesse caso a função f(x) não depende do valor de x, sendo constante independente da variável x. Logo, f(0) = 5, f(1) = 5, ..., f(5) = 5",
+            "correct":false,
+            "id": "0e3ff1f6-6c1e-41ce-9847-fff781330fff"
+        },
+        {   "text": "5",
+            "feedback":"Está correto, como o valor da função f independe do valor de x, logo f(0) = 5, f(1) = 5, ..., f(5) = 5.",
+            "correct":true,
+            "id": "ddc01809-0428-438a-82c8-d17c1badb08e"
+        },
+        {   "text": "10",
+            "feedback": "Nesse caso a função f(x) não depende do valor de x, sendo constante independente da variável x. Logo, f(0) = 5, f(1) = 5, ..., f(5) = 5",
+            "correct":false,
+            "id": "5f197756-7279-4de2-87c2-12ce04c886e9"
+        },
+        {   "text": "15",
+            "feedback":"Nesse caso a função f(x) não depende do valor de x, sendo constante independente da variável x. Logo, f(0) = 5, f(1) = 5, ..., f(5) = 5",
+            "correct":false,
+            "id": "94074081-0d67-49cb-a04a-f34da20664c4"
+        },
+        {   "text": "25",
+            "feedback":"Nesse caso a função f(x) não depende do valor de x, sendo constante independente da variável x. Logo, f(0) = 5, f(1) = 5, ..., f(5) = 5",
+            "correct":false,
+            "id": "bc4d1de0-e7a8-4b5c-8d79-4daa7c54d0c3"
+        }
+    ]
+}

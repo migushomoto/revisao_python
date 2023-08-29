@@ -1,0 +1,59 @@
+{
+    "SKU": "PY-DS-056",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "tagsOrConcepts":["estruturas condicionais e while"],
+    "UUID": "fe9d257e-c158-4fed-ae56-b5e7097139a3",
+    "id": "fe9d257e-c158-4fed-ae56-b5e7097139a3",
+    "knowledgeArea": "Dados",
+    "category": "lógica de programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "text":["Em um programa é possível realizar diversas operações de controle de acordo com a entrada de dados.",
+            "Qual é o valor da variável `salario` seguindo o trecho de código em Python abaixo?",
+            "---",
+            "tempo_de_empresa = 5",
+            "cargo = 'Gerente'",
+            "if tempo_de_empresa < 2 and cargo == 'Analista':",
+            "\tsalario = 5000",
+            "elif tempo_de_empresa >= 2 and cargo == 'Analista':",
+            "\tfator = 1.5",
+            "\tsalario = 5000 * fator",
+            "elif tempo_de_empresa < 2 and cargo == 'Gerente':",
+            "\tsalario = 11000",
+            "elif tempo_de_empresa >= 2 and cargo == 'Gerente':",
+            "\tfator = 1.3",
+            "\tsalario = 11000 * fator",
+            "else:",
+            "\tsalario = 1000",
+            "---"
+    ],
+    "alternatives": [
+        {   "text": "5000",
+            "feedback":"No código acima há duas principais verificações, o tempo de empresa (`tempo_de_empresa`) se a pessoa possui menos de 2 anos, ou dois ou mais anos de tempo de empresa. A segunda verificação é se a pessoa possui o cargo de `Analista` ou `Gerente`. Por fim, temos uma condicional `else` caso a pessoa não seja analista e nem gerente para determinar o salário. Como a pessoa possuí mais de 2 anos de tempo de casa e o cargo de Gerente, o salário é 14.300!",
+            "correct":false,
+            "id": "c14c24e8-5a77-4fff-97d3-e0e200bd6009"
+        },
+        {   "text": "7500",
+            "feedback":"No código acima há duas principais verificações, o tempo de empresa (`tempo_de_empresa`) se a pessoa possui menos de 2 anos, ou dois ou mais anos de tempo de empresa. A segunda verificação é se a pessoa possui o cargo de `Analista` ou `Gerente`. Por fim, temos uma condicional `else` caso a pessoa não seja analista e nem gerente para determinar o salário. Como a pessoa possuí mais de 2 anos de tempo de casa e o cargo de Gerente, o salário é 14.300!",
+            "correct":false,
+            "id": "37964a68-b729-429e-8726-e0c3dc45a36f"
+        },
+        {   "text": "14300",
+            "feedback":"No código acima há duas principais verificações, o tempo de empresa (`tempo_de_empresa`) se a pessoa possui menos de 2 anos, ou dois ou mais anos de tempo de empresa. A segunda verificação é se a pessoa possui o cargo de `Analista` ou `Gerente`. Por fim, temos uma condicional `else` caso a pessoa não seja analista e nem gerente para determinar o salário. Como a pessoa possuí mais de 2 anos de tempo de casa e o cargo de Gerente, o salário é 14.300!",
+            "correct":true,
+            "id": "2536d484-a6d3-4825-8f74-4aa41089ed98"
+        },
+        {   "text": "11000",
+            "feedback":"No código acima há duas principais verificações, o tempo de empresa (`tempo_de_empresa`) se a pessoa possui menos de 2 anos, ou dois ou mais anos de tempo de empresa. A segunda verificação é se a pessoa possui o cargo de `Analista` ou `Gerente`. Por fim, temos uma condicional `else` caso a pessoa não seja analista e nem gerente para determinar o salário. Como a pessoa possuí mais de 2 anos de tempo de casa e o cargo de Gerente, o salário é 14.300!",
+            "correct":false,
+            "id": "91299886-a910-45c9-89f2-9a1522a71762"
+        },
+        {   "text": "1000",
+            "feedback":"No código acima há duas principais verificações, o tempo de empresa (`tempo_de_empresa`) se a pessoa possui menos de 2 anos, ou dois ou mais anos de tempo de empresa. A segunda verificação é se a pessoa possui o cargo de `Analista` ou `Gerente`. Por fim, temos uma condicional `else` caso a pessoa não seja analista e nem gerente para determinar o salário. Como a pessoa possuí mais de 2 anos de tempo de casa e o cargo de Gerente, o salário é 14.300!",
+            "correct":false,
+            "id": "4686d04a-a750-41ea-a701-8354c67d71c4"
+        }
+    ]
+}

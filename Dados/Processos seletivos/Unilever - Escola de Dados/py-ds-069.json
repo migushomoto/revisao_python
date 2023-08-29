@@ -1,0 +1,45 @@
+{
+    "SKU": "PY-DS-069",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "tagsOrConcepts":["manipulação de strings (foco em métodos de strings)"],
+    "UUID": "85fb1b73-3542-48aa-9442-67f0c249d2ae",
+    "id": "85fb1b73-3542-48aa-9442-67f0c249d2ae",
+    "knowledgeArea": "Dados",
+    "category": "lógica de programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "text":["Na manipulação de dados textuais é comum a necessidade de concatenar duas strings distintas.",
+            "Qual das operações abaixo permite juntar a string `nome` com `sobrenome`?",
+            "Exemplo:",
+            "nome: 'Maria', sobrenome: ' Silva', resultado: Maria Silva"
+    ],
+    "alternatives": [
+        {   "text": "nome.extend(sobrenome)",
+            "feedback":"Não existe o método `extend` em strings, assim como ocorre com listas.",
+            "correct":false,
+            "id": "44f22dcf-0c03-4675-b068-84956794b498"
+        },
+        {   "text": "nome.append(sobrenome)",
+            "feedback":"Não existe o método `append` em strings, assim como ocorre com listas.",
+            "correct":false,
+            "id": "1f570b0f-2a86-4064-83f0-93c313710ead"
+        },
+        {   "text": "nome.concat(sobrenome)",
+            "feedback":"Não existe o método `concat` em strings, o método `concat` ocorre em JavaScript para concatenar strings.",
+            "correct":false,
+            "id": "9a8b57ff-dcb2-4235-91cb-318ad7f3e896"
+        },
+        {   "text": "nome + sobrenome",
+            "feedback":"Essa é a forma correta de concatenar strings em Python, utilizando o operador `+`",
+            "correct":true,
+            "id": "23e97ab0-1ba6-4d3d-812f-8d952ca968c9"
+        },
+        {   "text": "concat(nome, sobrenome)",
+            "feedback":"Não existe a função `concat` em Python para concatenar duas strings.",
+            "correct":false,
+            "id": "a02c8775-1fd3-4e53-bec9-bc68e75d3158"
+        }
+    ]
+}

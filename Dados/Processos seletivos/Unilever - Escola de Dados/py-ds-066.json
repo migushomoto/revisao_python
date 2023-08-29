@@ -1,0 +1,46 @@
+{
+    "SKU": "PY-DS-066",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "tagsOrConcepts":["manipulação de strings (foco em métodos de strings)"],
+    "UUID": "f1a3a384-d889-42b2-8035-20f97e70e528",
+    "id": "f1a3a384-d889-42b2-8035-20f97e70e528",
+    "knowledgeArea": "Dados",
+    "category": "lógica de programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "text":["No processamento e tratamento de dados uma operação comum é a padronização dos dados.",
+            "Um exemplo de padronização é a transformação de strings para o formato minúsculo ou maiúsculo.",
+            "Em Python há diversos métodos nativos que permitem essa manipulação.",
+            "Dentre as transformações possíveis é o uso de um método que transforma toda a primeira letra em maiúscula, deixando o resto em minúsculo. Por exemplo, a string 'a vida é bela' ficaria após essa transformação sendo 'A Vida É Bela'.",
+            "Dentre as alternativas abaixo, qual é a que permite essa transformação?"
+    ],
+    "alternatives": [
+        {   "text": "str.upper()",
+            "feedback":"O método `upper` é utilizado para converter todas as letras de uma string em caixa alta.",
+            "correct":false,
+            "id": "9cc82e59-41cb-485c-adfd-bb2a7d4c0a21"
+        },
+        {   "text": "str.lower()",
+            "feedback":"O método `lower` permite transformar todas as letras de uma string em caixa baixa.",
+            "correct":false,
+            "id": "2676c700-4f6b-4f29-b482-ec783f857e80"
+        },
+        {   "text": "str.title()",
+            "feedback":"Esse é o método utilizado para transformar a primeira letra de cada palavra em caixa alta, mantendo as demais letras em caixa baixa.",
+            "correct":true,
+            "id": "3e06457f-48ab-4e9a-8033-0be155890ac6"
+        },
+        {   "text": "str.capitalize()",
+            "feedback":"O método `capitalize` transform a primeira letra da string em caixa alta, mantendo o restante em caixa baixa.",
+            "correct":false,
+            "id": "af93d378-027d-414a-bf59-c4eb6d00a47b"
+        },
+        {   "text": "str.split()",
+           "feedback":"O método split permite separa uma cadeia de caracteres por um caracter específico, por exemplo um espaço (' '), retorando uma lista",
+            "correct":false,
+            "id": "0cbb5d18-f95f-4e63-bd05-07eedb28771e"
+    }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "SKU": "PY-DS-041",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "tagsOrConcepts":["Matemática básica"],
+    "UUID": "cc6dc928-bece-433e-bee6-a837f9669865",
+    "id": "cc6dc928-bece-433e-bee6-a837f9669865",
+    "knowledgeArea": "Dados",
+    "category": "matemática",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "text":[ "Quando trabalhamos com dados é comum queremos saber a dispersão dos dados, ou seja, o quão dispersos os valores estão a partir da sua média.",
+    "Uma medida frequentemente utilizada para calcular a dispersão dos dados é o desvio padrão.",
+    "No reabastecimento de lojas do varejo, é muito importante determinar o desvio padrão das vendas de um determinado item, para reduzir a ruptura de estoque (falta de produto em loja).",
+    "Considerando que a loja venda em diferentes dias sendo 100, 23, 32, 51, 11, 15, e 22 unidades de um produto, qual o seu desvio padrão da população?",
+    "Considere duas casas após a vírgula"
+    ],
+    "alternatives": [
+        {   "text": "28.70",
+            "feedback":"O desvio padrão da população pode ser calculado como SD = SQRT( 1/n * SOMA ( (x - media)^2 ) ). Sendo a média 36.285714, logo temos uma variância de 823.918367, e consequentemente um desvio padrão de 28.70.",
+            "correct":true,
+            "id": "3acff362-e9ec-46f0-a03f-756f026540ad"
+        },
+        {   "text": "1.00",
+        "feedback":"O desvio padrão da população pode ser calculado como SD = SQRT( 1/n * SOMA ( (x - media)^2 ) ). Sendo a média 36.285714, logo temos uma variância de 823.918367, e consequentemente um desvio padrão de 28.70.",
+            "correct":false,
+            "id": "e184fd59-dde4-468e-8fb6-2597105cff4f"
+        },
+        {   "text": "823.91",
+        "feedback":"O desvio padrão da população pode ser calculado como SD = SQRT( 1/n * SOMA ( (x - media)^2 ) ). Sendo a média 36.285714, logo temos uma variância de 823.918367, e consequentemente um desvio padrão de 28.70.",
+            "correct":false,
+            "id": "6bab0149-5a7e-4fc1-8feb-0a38eb4b2c86"
+        },
+        {   "text": "31.00",
+        "feedback":"O desvio padrão da população pode ser calculado como SD = SQRT( 1/n * SOMA ( (x - media)^2 ) ). Sendo a média 36.285714, logo temos uma variância de 823.918367, e consequentemente um desvio padrão de 28.70.",
+            "correct":false,
+            "id": "b4fa4e82-0dca-465f-b8af-f02429955e05"
+        },
+        {   "text": "0.00",
+        "feedback":"O desvio padrão da população pode ser calculado como SD = SQRT( 1/n * SOMA ( (x - media)^2 ) ). Sendo a média 36.285714, logo temos uma variância de 823.918367, e consequentemente um desvio padrão de 28.70.",
+            "correct":false,
+            "id": "f27ae699-cacf-44ae-89ad-a74268386a78"
+        }
+    ]
+}

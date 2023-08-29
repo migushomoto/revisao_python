@@ -1,0 +1,54 @@
+{
+    "SKU": "PY-DS-058",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "tagsOrConcepts":["estruturas condicionais e while"],
+    "UUID": "c1446cef-99a6-4aa1-9a33-e11facdeb001",
+    "id": "c1446cef-99a6-4aa1-9a33-e11facdeb001",
+    "knowledgeArea": "Dados",
+    "category": "lógica de programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "text":["Em programação é comum utilizar estruturas que permitam que um laço seja repetido até que seja finalizada uma dada tarefa, por exemplo utilizando o `while`.",
+            "No código qual o valor de `x` ao encerrar o laço `while`?",
+            "---",
+            "x = 0",
+            "continuar = True",
+            "while continuar:",
+            "\tif x % 2 != 0:",
+            "\t\tx = x * 5 + 1",
+            "\telse:",
+            "\t\tx += 1",
+            "\tif x >= 1025:",
+            "\t\tcontinuar = False",
+            "---"
+    ],
+    "alternatives": [
+        {   "text": "infinito",
+            "feedback":"No caso há um caso de quebra do `while` caso a variável `x` seja superior a 1025. Como há o incremento do valor de x a cada iteração, o valor final de x não será infinito.",
+            "correct":false,
+            "id": "27804510-acae-4833-bb09-55d057d033b5"
+        },
+        {   "text": "1025",
+            "feedback":"Nesse laço `while` há a multiplicação do valor de x se x for ímpar por `5` (`if x % 2 != 0`), por outro lado caso o `x` seja par (`else`) há o incremento de uma unidade. Portanto a sequência de valor de x seguirá a seguinte ordem: 0, 1, 6, 7, 36, 37, 186, 187, 936, 937, 4685.",
+            "correct":false,
+            "id": "4c1a9f6c-8e0f-4890-af30-37d9c7342e18"
+        },
+        {   "text": "-1",
+            "feedback":"Nesse laço `while` há a multiplicação do valor de x se x for ímpar por `5` (`if x % 2 != 0`), por outro lado caso o `x` seja par (`else`) há o incremento de uma unidade. Portanto a sequência de valor de x seguirá a seguinte ordem: 0, 1, 6, 7, 36, 37, 186, 187, 936, 937, 4685.",
+            "correct":false,
+            "id": "d0b160d2-c0c3-4f04-b5b3-7c795f9d31b1"
+        },
+        {   "text": "2051",
+            "feedback":"Nesse laço `while` há a multiplicação do valor de x se x for ímpar por `5` (`if x % 2 != 0`), por outro lado caso o `x` seja par (`else`) há o incremento de uma unidade. Portanto a sequência de valor de x seguirá a seguinte ordem: 0, 1, 6, 7, 36, 37, 186, 187, 936, 937, 4685, 4686.",
+            "correct":false,
+            "id": "33a8f912-2222-490a-94f4-267ab48f0c21"
+        },
+        {   "text": "4686",
+            "feedback":"Esse é o valor correto. Nesse laço `while` há a multiplicação do valor de x se x for ímpar por `5` (`if x % 2 != 0`), por outro lado caso o `x` seja par (`else`) há o incremento de uma unidade. Portanto a sequência de valor de x seguirá a seguinte ordem: 0, 1, 6, 7, 36, 37, 186, 187, 936, 937, 4685, 4686.",
+            "correct":true,
+            "id": "4c8a6ab0-797a-4684-8e80-708fde703b3e"
+        }
+    ]
+}

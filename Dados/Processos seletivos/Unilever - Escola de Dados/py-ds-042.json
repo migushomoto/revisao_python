@@ -1,0 +1,45 @@
+{
+    "SKU": "PY-DS-042",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "tagsOrConcepts":["Matemática básica"],
+    "UUID": "26238c8a-5957-45e8-b341-69cfb7186ef7",
+    "id": "26238c8a-5957-45e8-b341-69cfb7186ef7",
+    "knowledgeArea": "Dados",
+    "category": "matemática",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "text":[
+        "Antes de iniciar a análise de dados é fundamental organizar esses dados de forma estruturada.",
+        "Uma das formas mais comuns de organizar os dados é no formato de linhas e colunas.",
+        "Como é chamado o processo de organizar os dados em linhas e colunas?"
+    ],
+    "alternatives": [
+        {   "text": "Distribuição de frequência",
+            "feedback":"A frequência de um valor é o número de vezes que esse ocorre dentro de um conjunto de dados. A distribuição de frequência por sua vez é o padrão de frequências de uma variável. Ou seja, o número de vezes que cada possível valor ocorre dentro do conjunto de dados.",
+            "correct":false,
+            "id": "dc21267c-16a4-4bdb-852f-ccaf73edb4ca"
+        },
+        {   "text": "Classificação",
+            "feedback":"A classificação é o ato de identificar e associar categorias em uma coleção de dados, permitindo uma análise mais acurada dos dados. O método de classificação permite o uso de técnica mais avançadas como árvores de decisões, programação linear, e redes neurais, por exemplo.",
+            "correct":false,
+            "id": "93ead478-36e6-4832-a35d-44e68d2a0b46"
+        },
+        {   "text": "Tabulação",
+            "feedback":"A tabulação é o ato de organizar os dados em linha e colunas.",
+            "correct":true,
+            "id": "bf848f51-ee8c-4682-b50b-d4dd8599d2ea"
+        },
+        {   "text": "Data Lake",
+            "feedback":"O data lake é um repositório central desenho para armazenar, processar e proteger grandes quantidades de dados estruturados, semi-estruturados, e desestruturados de dados.",
+            "correct":false,
+            "id": "a17aa3c3-6deb-4db3-90dd-a55c4eb142e5"
+        },
+        {   "text": "Json",
+            "feedback":"Json (JavaScript Object Notation) é um formato de dados intercambiável, é um formato popular para o armazenamento de dados por sua fácil compreensão e escrita por humanos, assim como de fácil geração e parsing pelas máquinas.",
+            "correct":false,
+            "id": "8ec460be-1050-4817-a5cc-2823714fa7b0"
+    }
+    ]
+}

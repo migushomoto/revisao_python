@@ -1,0 +1,43 @@
+{
+    "SKU": "PY-DS-045",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "tagsOrConcepts":["Lógica básica"],
+    "UUID": "78fe5f9b-6d3f-4ef1-8fae-d7827bd9876a",
+    "id": "78fe5f9b-6d3f-4ef1-8fae-d7827bd9876a",
+    "knowledgeArea": "Dados",
+    "category": "lógica de programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "text":["Em um programa é comum o controle de fluxo ao realizar comprações entre valores.",
+            "Qual o símbolo é utilizado para representar se um número é maior que outro em Python?"
+    ],
+    "alternatives": [
+        {   "text": "==",
+            "feedback":"Em Python o operador `==`, representa a igualidade entre dois valores, ou seja, que ambos os valores são idênticos.",
+            "correct":false,
+            "id": "3e5fbaa9-c71f-4aac-a575-e6e919e8d41b"
+        },
+        {   "text": "===",
+            "feedback":"Não existe o operador `===` em Python, porém em linguagens como JavaScript o `===` pode representar a comparação entre dois elementos e verificar se eles são iguais.",
+            "correct":false,
+            "id": "84d3ada3-c871-4ac8-b513-27479bd6d0a6"
+        },
+        {   "text": "!=",
+            "feedback":"Em Python o operador `!=`, representa a diferença entre dois valores.",
+            "correct":false,
+            "id": "b3af9f74-9fe5-41f9-bb48-04a94dc3d25c"
+        },
+        {   "text": ">",
+            "feedback":"Essa é a forma correta para verificar se um valor é maior que outro.",
+            "correct":true,
+            "id": "abccfccd-1b11-4ed2-bd9e-f5a62de47f1c"
+        },
+        {   "text": "<=",
+            "feedback":"O operador `<=` em Python representa a comparação se um valor é menor ou igual a outro valor.",
+            "correct":false,
+            "id": "b2427b40-9245-419a-b86f-80c5ece3e841"
+        }
+    ]
+}

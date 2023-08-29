@@ -1,0 +1,44 @@
+{
+    "SKU": "PY-DS-072",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "tagsOrConcepts":["tuplas e dicionários (uso, criação, manipulação)"],
+    "UUID": "65df21ec-4155-4cf2-acbc-64d5a73c9fe5",
+    "id": "65df21ec-4155-4cf2-acbc-64d5a73c9fe5",
+    "knowledgeArea": "Dados",
+    "category": "lógica de programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "text":["A estrutura de dados de dicionário é muito utilizada em programas Python.",
+            "Uma das vantagens do dicionário é a capacidade de acessar um valor a partir de uma dada chave.",
+            "Dentre as alternativas abaixo, qual a forma correta para acessar um valor específico do dicionário?"
+    ],
+    "alternatives": [
+        {   "text": "dicionario.pick('chave')",
+            "feedback":"Não existe o método `pick` em dicionários em Python.",
+            "correct":false,
+            "id": "e95de5ea-f2e9-401d-a6bf-886e8ae9026e"
+        },
+        {   "text": "dicionario('chave')",
+            "feedback":"A forma correta para acessar um valor a partir de uma chave em dicionários em Python é o uso de `[]` e não `()`",
+            "correct":false,
+            "id": "6226fe40-d532-4d57-b5ba-1a558ca79e46"
+        },
+        {   "text": "dicionario.find('chave')",
+            "feedback":"Não existe o método `find` em dicionários em Python",
+            "correct":false,
+            "id": "5a0e6b0d-95a0-46cc-943d-0d00257f2fb8"
+        },
+        {   "text": "dicionario.has('chave')",
+            "feedback":"Não existe o método `find` em dicionários em Python",
+            "correct":false,
+            "id": "5fcca0cd-bc03-45bc-9396-456dbb411ec3"
+        },
+        {   "text": "dicionario['chave']",
+            "feedback":"Essa é uma das formas corretas de obter um valor do dicionário a partir de uma chave. Alternativamente pode ser utilizado o método `get`.",
+            "correct":true,
+            "id": "5fbdb9d0-4c38-478b-91a4-412395ed139f"
+        }
+    ]
+}

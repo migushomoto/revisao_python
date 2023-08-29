@@ -1,0 +1,48 @@
+{
+    "SKU": "PY-DS-041",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "tagsOrConcepts":["Funções"],
+    "UUID": "deb8af39-9d2c-414a-b05d-8ab0c9ebe47b",
+    "id": "deb8af39-9d2c-414a-b05d-8ab0c9ebe47b",
+    "knowledgeArea": "Dados",
+    "category": "lógica de programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "text":["Em Python as funções podem aceitar diferentes parâmetros.",
+            "No código abaixo existe a função `calculo_complexo`, qual o valor retornado da função ao passar os argumentos `(20, 10, 15)`, e o tipo (int, float, str, list, tuple, etc) do retorno?",
+            "---",
+            "def calculo_complex(num1, num2, num3)",
+            "\t return (num1-num2)*num3, (num1/num2)*2+num3",
+            "resposta = calculo_complex(20, 10, 15)",
+            "---"
+    ],
+    "alternatives": [
+        {   "text": "valor: (150, 19.0), tipo: tuple",
+            "feedback":"A função `calculo_complexo` aceita três argumetos (num1, num2, num3), realizando dois cálculos distintos. O primeiro corresponde a `(num1-num2)*num3`, gerando o valor de 150. O segundo correponde a `(num1/num2)*2+num3`, gerando o valor 19.0. Por fim o resultado dessa função é uma tupla logo (150, 19.0).",
+            "correct":true,
+            "id": "c080b87d-bcab-4493-8124-20f24276d974"
+        },
+        {   "text": "valor: (150, 19.0), tipo: list",
+            "feedback":"A função `calculo_complexo` aceita três argumetos (num1, num2, num3), realizando dois cálculos distintos. O primeiro corresponde a `(num1-num2)*num3`, gerando o valor de 150. O segundo correponde a `(num1/num2)*2+num3`, gerando o valor 19.0. Por fim o resultado dessa função é uma tupla logo (150, 19.0).",
+            "correct":false,
+            "id": "5865f1ac-660c-4fe3-8ae5-717934e9efa3"
+        },
+        {   "text": "valor: (15, 21), tipo: tuple",
+            "feedback":"A função `calculo_complexo` aceita três argumetos (num1, num2, num3), realizando dois cálculos distintos. O primeiro corresponde a `(num1-num2)*num3`, gerando o valor de 150. O segundo correponde a `(num1/num2)*2+num3`, gerando o valor 19.0. Por fim o resultado dessa função é uma tupla logo (150, 19.0).",
+            "correct":false,
+            "id": "f85cfef5-2ec7-44e7-a9f8-a37a051e615f"
+        },
+        {   "text": "valor: (157, 42.0), tipo: float",
+            "feedback":"A função `calculo_complexo` aceita três argumetos (num1, num2, num3), realizando dois cálculos distintos. O primeiro corresponde a `(num1-num2)*num3`, gerando o valor de 150. O segundo correponde a `(num1/num2)*2+num3`, gerando o valor 19.0. Por fim o resultado dessa função é uma tupla logo (150, 19.0).",
+            "correct":false,
+            "id": "89180c25-1657-4698-be64-cad23eddbe14"
+        },
+        {   "text": "valor: 75, tipo: int",
+            "feedback":"A função `calculo_complexo` aceita três argumetos (num1, num2, num3), realizando dois cálculos distintos. O primeiro corresponde a `(num1-num2)*num3`, gerando o valor de 150. O segundo correponde a `(num1/num2)*2+num3`, gerando o valor 19.0. Por fim o resultado dessa função é uma tupla logo (150, 19.0).",
+            "correct":false,
+            "id": "33514b0f-d8a0-4432-9156-407969c39254"
+        }
+    ]
+}

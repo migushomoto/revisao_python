@@ -1,0 +1,44 @@
+{
+    "SKU": "PY-DS-049",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "tagsOrConcepts":["variáveis, coerção de dados, input/print"],
+    "UUID": "9a013730-1e5f-412c-a468-18ef4935b38c",
+    "id": "9a013730-1e5f-412c-a468-18ef4935b38c",
+    "knowledgeArea": "Dados",
+    "category": "lógica de programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "text":[ "Uma tarefa comum ao lidar com dados é a transformação de uma string para um número.",
+             "Por exemplo, ao receber a string '10.31', queremos modificar esse para um valor flutuante de 10.31.",
+             "Qual operação permite que seja convertido uma string para float?"
+    ],
+    "alternatives": [
+        {   "text": "new Number('10.31')",
+            "feedback":"A operação `new Number` é utilizada em JavaScript para transformar strings em números.",
+            "correct":false,
+            "id": "e23b23f6-998f-45c1-b54c-68934cf4238d"
+        },
+        {   "text": "parseFloat('10.31')",
+            "feedback":"A operação `parseFloat` é utilizada em JavaScript para transformar strings em floats.",
+            "correct":false,
+            "id": "a577381b-229e-4de0-86de-6673294c67e2"
+        },
+        {   "text": "float '10.31'",
+            "feedback":"O `float` é uma classe capaz de transformar strings em floats, entretanto, é necessário passar o valor a ser transformado dentro do parênteses, `float('10.31')`.",
+            "correct":false,
+            "id": "e99137dd-db21-47f5-a781-9bb359b01dc5"
+        },
+        {   "text": "float('10.31')",
+            "feedback":"Essa é a operação correta para transformar strings em float em Python",
+            "correct":true,
+            "id": "e38e9735-cfab-4bc4-9e94-6b79bf78334a"
+        },
+        {   "text": "'10.31'.tofloat()",
+            "feedback":"Strings não possuem o método `tofloat`, portanto essa operação é inválida.",
+            "correct":false,
+            "id": "4ac40180-c643-4104-815d-66db7ac56d58"
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "SKU": "PY-DS-050",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "tagsOrConcepts":["variáveis, coerção de dados, input/print"],
+    "UUID": "5ac34fb2-99f5-4cb7-b176-c4be1fb462a8",
+    "id": "5ac34fb2-99f5-4cb7-b176-c4be1fb462a8",
+    "knowledgeArea": "Dados",
+    "category": "lógica de programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "text":[ "Em diversos programas é necessário a entrada de alguma informação pelo usuário.",
+            "Uma forma de obter essa entrada, por exemplo um e-mail da pessoa usuária, é através da função `input`.",
+            "Qual o tipo (string, inteiro, float, etc) que a função `input` retorna em Python?"
+    ],
+    "alternatives": [
+        {   "text": "Lista (list)",
+            "feedback":"A função `input` sempre retorna uma string (str), independentemente do valor inserido pela pessoa usuária. Para transformar o valor inserido em uma lista é necessário fazer o processamento das informações inseridas.",
+            "correct":false,
+            "id": "267fccda-8ffb-4c93-8cee-688f696701d9"
+        },
+        {   "text": "bytes",
+            "feedback":"A função `input` sempre retorna uma string (str), portanto não é necessário converter a entrada de bytes para um objeto.",
+            "correct":false,
+            "id": "6d6a6303-3e9d-412d-8784-7b1c5f11278c"
+        },
+        {   "text": "Inteiro (int)",
+            "feedback":"A função `input` sempre retorna uma string (str). Portanto, caso o valor retornado pela função `input` necessite ser um número (int ou float) essa precisa ser resolvida dentro do contexto da aplicação.",
+            "correct":false,
+            "id": "a2e4ce4f-a4d6-4877-aca4-3fbb153f94a7"
+        },
+        {   "text": "Ponto flutuante (float)",
+            "feedback":"A função `input` sempre retorna uma string (str). Portanto, caso o valor retornado pela função `input` necessite ser um número (int ou float) essa precisa ser resolvida dentro do contexto da aplicação.",
+            "correct":false,
+            "id": "d6b985b8-ba17-4c60-95d5-c425ea15ef6b"
+        },
+        {   "text": "String (str)",
+            "feedback":"A função `input` sempre retorna uma string (str), independentemente do valor inserido pela pessoa usuária.",
+            "correct":true,
+            "id": "0a5d72e0-bffb-4e49-95d7-cff97c4b40c2"
+        }
+    ]
+}

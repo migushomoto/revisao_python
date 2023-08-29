@@ -1,0 +1,53 @@
+{
+    "SKU": "PY-DS-053",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "tagsOrConcepts":["operadores algébricos e lógicos (comparação/conjunção)"],
+    "UUID": "811a9ef9-b118-4f36-b60a-519f757ad67b",
+    "id": "811a9ef9-b118-4f36-b60a-519f757ad67b",
+    "knowledgeArea": "Dados",
+    "category": "lógica de programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "text":["Durante a análise de dados é comum a separação de dados de acordo com algum padrão.",
+            "Por exemplo, imagine que queremos saber a semana do ano dado um dia do ano (365 dias por ano).",
+            "Nesse exemplo temos:",
+            "---",
+            "dia 1:   semana 1",
+            "dia 15:  semana 2",
+            "dia 45:  semana 6",
+            "dia 237: semana 33",
+            "dia 365: semana 52",
+            "---",
+            "Considerando o padrão acima, qual das operações abaixo permitiria obter a semana do ano dado um dia do ano?",
+            "Considere que a variável dia corresponde ao dia do ano (1-365)."
+    ],
+    "alternatives": [
+        {   "text": "dia % 365",
+            "feedback":"O operador `%` retorna o resto da divisão em Python, portanto a operação acima não permite descobrir a semana do ano.",
+            "correct":false,
+            "id": "d97153a0-cd10-4954-b738-67d8f8b4b11e"
+        },
+        {   "text": "dia // 7",
+            "feedback":"Essa afirmação está correta, pois o operador `//` retorna a divisão inteira (int) possibilitando identificar a semana do ano correspondente a um dado dia do ano.",
+            "correct":true,
+            "id": "ea7ea71d-d14e-4e65-876a-2039f79f30e9"
+        },
+        {   "text": "dia / 7",
+            "feedback":"Em Python o operado `/` corresponde a operação de divisão. Portanto, ao realizar a divisão do dia 15 (`(15 / 7)`), temos o resultado 2.14, em que a parte inteira corresponde a semana do ano, porém o número flutuante não permite obter de forma direta o resultado esperado.",
+            "correct":false,
+            "id": "4d66a2fa-b97d-4499-a8f9-66092379e765"
+        },
+        {   "text": "dia // 365",
+            "feedback":"O operador `//` retorna a divisão inteira em Python. Ao realizar essa operação obtêm-se o ano correspondente e não a semana do ano.",
+            "correct":false,
+            "id": "90a1ae7f-68e8-4f3b-a22b-c880fe2c3036"
+        },
+        {   "text": "dia * 7 // 365",
+            "feedback":"Essa operação corresponde a multiplicação do dia por 7 (`dia * 7`) seguido da divisão inteira (`//`) por 365, dessa forma não é possível obter a semana do ano utilizando essa operação.",
+            "correct":false,
+            "id": "3a8a3517-726b-4acf-bc34-b5d8f6c061f8"
+        }
+    ]
+}

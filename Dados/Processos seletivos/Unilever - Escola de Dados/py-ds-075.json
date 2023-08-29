@@ -1,0 +1,44 @@
+{
+    "SKU": "PY-DS-075",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "tagsOrConcepts":["tuplas e dicionários (uso, criação, manipulação)"],
+    "UUID": "94d2f7f8-b5f5-4c39-ad22-a7bac643e086",
+    "id": "94d2f7f8-b5f5-4c39-ad22-a7bac643e086",
+    "knowledgeArea": "Dados",
+    "category": "lógica de programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "text":["Quando é utilizado dicionários para o armazenamento de dados em Python, é comum listar as chaves que estão presentes nesse.",
+            "Por exemplo o dicionário `dicionario = {'key1': 'val1', 'key2': 'val2'}`, apresenta as chaves `key1` e `key2`.",
+            "Qual das opções abaixo permite listar somente as chaves de um dado dicionário em Python?"
+    ],
+    "alternatives": [
+        {   "text": "dicionario.list()",
+            "feedback":"Não existe o método `list` em dicionários em Python",
+            "correct":false,
+            "id": "238498f9-83f6-4672-93ef-cf5e22d71783"
+        },
+        {   "text": "dicionario.values()",
+            "feedback":"O método `values` lista os valores presente no dicionário e não a suas chaves.",
+            "correct":false,
+            "id": "e44f6217-025d-46c7-b916-16a91a0557bb"
+        },
+        {   "text": "dicionario.items()",
+            "feedback":"O método `items` realiza o agrupamento (em tuplas) de cada chave com seu respectivo valor.",
+            "correct":false,
+            "id": "e484b999-e497-4518-a32e-8d05fbcd2e38"
+        },
+        {   "text": "dicionario.show_keys()",
+            "feedback":"Não existe o método `show_keys` em dicionários em Python.",
+            "correct":false,
+            "id": "b01fab79-6d74-4b9b-b72c-c1fe5faf5a63"
+        },
+        {   "text": "dicionario.keys()",
+            "feedback":"O método `keys` é a forma correta para listar as chaves presente em um dado dicionário em Python.",
+            "correct":true,
+            "id": "174c7ceb-e7f4-410d-9478-53fa6bee17f9"
+        }
+    ]
+}

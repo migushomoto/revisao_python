@@ -1,0 +1,44 @@
+{
+    "SKU": "PY-DS-071",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "tagsOrConcepts":["tuplas e dicionários (uso, criação, manipulação)"],
+    "UUID": "e082bdb8-c099-435e-b6df-222fc84665bd",
+    "id": "e082bdb8-c099-435e-b6df-222fc84665bd",
+    "knowledgeArea": "Dados",
+    "category": "lógica de programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "text":["Além das listas as tuplas são uma estrutura de dados muito utilizada para o armazenamento de informações dentro de um programa.",
+            "Qual das operações abaixo é valida para tuplas em Python?",
+            "Considere a seguinte tupla: `tupla = (1, 2, 3, 4, 5)`"
+    ],
+    "alternatives": [
+        {   "text": "tupla.append(6)",
+            "feedback":"As tuplas são imutáveis, não permitindo adicionar novos elemento a ela, diferente das listas. Portanto o método `append` é inválido para tuplas",
+            "correct":false,
+            "id": "fcb56275-f255-40e3-9ce8-7805ca3f4ce1"
+        },
+        {   "text": "tupla[1:3]",
+            "feedback":"A operação de `slicing` é uma operação válida para tuplas",
+            "correct":true,
+            "id": "ace4ddce-8728-4eda-bc16-923197a73ca0"
+        },
+        {   "text": "tupla.extend((7,8))",
+            "feedback":"As tuplas são imutáveis, não permitindo adicionar novos elemento a ela, diferente das listas. Portanto o método `extend` é inválido para tuplas",
+            "correct":false,
+            "id": "f56da5b7-b69e-4ca4-8893-7d89e90c13e5"
+        },
+        {   "text": "tupla.pop()",
+            "feedback":"As tuplas são imutáveis, não permitindo adicionar novos elemento a ela, diferente das listas. Portanto o método `pop` é inválido para tuplas",
+            "correct":false,
+            "id": "95396361-3abf-485a-8ad7-daedb0d26c10"
+        },
+        {   "text": "tupla.sort()",
+            "feedback":"As tuplas são imutáveis, não permitindo adicionar novos elemento a ela, diferente das listas. Portanto o método `sort` é inválido para tuplas. Note que, a função `sorted` é válida para tuplas, porém o retorno dessa é uma nova lista, independente da tupla original!",
+            "correct":false,
+            "id": "d5101c7e-109f-4ab5-948d-5372e17dc77c"
+        }
+    ]
+}
