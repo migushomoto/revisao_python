@@ -1,0 +1,22 @@
+{
+    "id": "eaed28f5-d63c-49ff-b373-792278707c21",
+    "SKU": "000033",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "kotlin",
+    "knowledgeArea": "Mobile",
+    "category": "Fundamentos de Mobile",
+    "subCategory": "Android",
+    "level": "Medium", 
+    "tagsOrConcepts":["mobile", "android"],
+    "text": [
+        "Qual o melhor tipo de layout em XML no Android para se criar telas complexas e abrangendo vários elementos visuais em diferentes posições?"
+    ],
+    "alternatives": [
+        { "id": "a39b5aaf-3939-4a6b-b15e-603db419860e", "text": "LinearLayout", "feedback":"Incorreto, esse layout organiza os elementos em uma única direção (horizontal ou vertical), sendo útil para criar estruturas simples e lineares, mas pode se tornar complicado para telas complexas.", "correct":false },
+        { "id": "f0553237-9ed1-4027-b1e0-0c8accc90b62", "text": "RelativeLayout", "feedback":"Incorreto, permite posicionar elementos com base nas relações entre eles, sendo adequado para telas complexas onde a posição relativa dos elementos é importante.", "correct":false },
+        { "id": "68bd127e-fa9b-4d10-83dd-91f8cb18d1cc", "text": "ConstraintLayout", "feedback":"Correto, uma opção poderosa para criar telas complexas, permitindo definir relações entre elementos de forma flexível e eficiente, além de suportar a maioria dos casos de uso.", "correct":true },
+        { "id": "097c505b-cc26-4e07-9ba0-1a9b2a29586b", "text": "FrameLayout", "feedback":"Incorreto, embora simples, esse layout é mais adequado para a sobreposição de elementos, não sendo a melhor escolha para telas complexas com posicionamento estruturado.", "correct":false },
+        { "id": "11926308-05a3-4841-a2cc-bcd467a4f631", "text": "GridLayout", "feedback":"Incorreto, um layout que organiza elementos em uma grade, sendo útil para estruturas mais rígidas, mas pode ser menos flexível para lidar com telas complexas.", "correct":false }
+    ]
+}

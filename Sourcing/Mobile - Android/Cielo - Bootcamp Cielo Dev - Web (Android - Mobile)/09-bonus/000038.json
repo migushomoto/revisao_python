@@ -1,0 +1,22 @@
+{
+    "id": "ec57cc4a-5548-4032-b446-a417cb48481f",
+    "SKU": "000038",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "kotlin",
+    "knowledgeArea": "Mobile",
+    "category": "Fundamentos de Mobile",
+    "subCategory": "Android",
+    "level": "Medium", 
+    "tagsOrConcepts":["mobile", "android"],
+    "text": [
+        ""
+    ],
+    "alternatives": [
+        { "id": "19236071-5313-41e8-99ad-9d43ef4c7e8b", "text": "", "feedback":"", "correct":false },
+        { "id": "44086427-3e07-444f-bc6f-4c0d0987add6", "text": "", "feedback":"", "correct":false },
+        { "id": "2c8c03a9-6251-4e20-b6c9-dadddd0815cc", "text": "", "feedback":"", "correct":true },
+        { "id": "aa7bf654-e546-4853-8be7-6d2ce8384cf9", "text": "", "feedback":"", "correct":false },
+        { "id": "61835ede-26d8-4287-933b-e456404d86c5", "text": "", "feedback":"", "correct":false }
+    ]
+}
