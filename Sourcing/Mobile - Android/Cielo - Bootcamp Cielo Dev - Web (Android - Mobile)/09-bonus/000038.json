@@ -6,17 +6,17 @@
     "language": "kotlin",
     "knowledgeArea": "Mobile",
     "category": "Fundamentos de Mobile",
-    "subCategory": "Android",
-    "level": "Medium", 
-    "tagsOrConcepts":["mobile", "android"],
+    "subCategory": "React Native",
+    "level": "Advanced", 
+    "tagsOrConcepts":["mobile", "hibrido"],
     "text": [
-        ""
+        "Como é possível lidar com a responsividade em componentes visuais no React Native?"
     ],
     "alternatives": [
-        { "id": "19236071-5313-41e8-99ad-9d43ef4c7e8b", "text": "", "feedback":"", "correct":false },
-        { "id": "44086427-3e07-444f-bc6f-4c0d0987add6", "text": "", "feedback":"", "correct":false },
-        { "id": "2c8c03a9-6251-4e20-b6c9-dadddd0815cc", "text": "", "feedback":"", "correct":true },
-        { "id": "aa7bf654-e546-4853-8be7-6d2ce8384cf9", "text": "", "feedback":"", "correct":false },
-        { "id": "61835ede-26d8-4287-933b-e456404d86c5", "text": "", "feedback":"", "correct":false }
+        { "id": "19236071-5313-41e8-99ad-9d43ef4c7e8b", "text": "Utilizando porcentagens nos estilos para dimensionar componentes.", "feedback":"Correto, no React Native, você pode usar porcentagens nos estilos para criar layouts responsivos, permitindo que os componentes se ajustem proporcionalmente ao tamanho da tela. O uso de estilos flexíveis também é uma abordagem recomendada para a responsividade.", "correct":true },
+        { "id": "44086427-3e07-444f-bc6f-4c0d0987add6", "text": "Escrevendo lógica condicional para renderizar diferentes componentes em dispositivos diferentes.", "feedback":"Incorreto.", "correct":false },
+        { "id": "2c8c03a9-6251-4e20-b6c9-dadddd0815cc", "text": "Usando bibliotecas de terceiros exclusivas para criação de layouts responsivos.", "feedback":"Incorreto.", "correct":false },
+        { "id": "aa7bf654-e546-4853-8be7-6d2ce8384cf9", "text": "Evitando o uso de estilos flexíveis para manter um design consistente.", "feedback":"Incorreto.", "correct":false },
+        { "id": "61835ede-26d8-4287-933b-e456404d86c5", "text": "Definindo estilos fixos para dispositivos específicos e ignorando outros.", "feedback":"Incorreto.", "correct":false }
     ]
 }

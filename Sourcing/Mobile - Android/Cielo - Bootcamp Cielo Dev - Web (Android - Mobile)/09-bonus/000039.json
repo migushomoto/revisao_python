@@ -6,17 +6,17 @@
     "language": "kotlin",
     "knowledgeArea": "Mobile",
     "category": "Fundamentos de Mobile",
-    "subCategory": "Android",
-    "level": "Medium", 
-    "tagsOrConcepts":["mobile", "android"],
+    "subCategory": "React Native",
+    "level": "Advanced", 
+    "tagsOrConcepts":["mobile", "hibrido"],
     "text": [
-        ""
+        "Quando você deve usar o Redux para gerenciar o estado global da aplicação em relação à persistência local?"
     ],
     "alternatives": [
-        { "id": "b915a45e-7564-4558-9793-4ca9992b5cf6", "text": "", "feedback":"", "correct":false },
-        { "id": "608e233c-877a-4853-966f-b76bb69cdcca", "text": "", "feedback":"", "correct":false },
-        { "id": "18a7ccea-fb83-4bcf-920b-3b1aca1e51b8", "text": "", "feedback":"", "correct":true },
-        { "id": "d9689b99-5795-44ba-8dcf-4ede723b1745", "text": "", "feedback":"", "correct":false },
-        { "id": "cff630d5-f620-4e24-bf62-ed7e2189086d", "text": "", "feedback":"", "correct":false }
+        { "id": "b915a45e-7564-4558-9793-4ca9992b5cf6", "text": "Sempre que a aplicação precisar armazenar qualquer tipo de dado local.", "feedback":"Incorreto.", "correct":false },
+        { "id": "608e233c-877a-4853-966f-b76bb69cdcca", "text": "Apenas quando a aplicação não se comunica com APIs externas.", "feedback":"Incorreto.", "correct":false },
+        { "id": "18a7ccea-fb83-4bcf-920b-3b1aca1e51b8", "text": "Quando a complexidade do estado local justificar uma gestão centralizada.", "feedback":"Correto, o Redux é recomendado quando o estado local da aplicação se torna complexo, com vários componentes que precisam compartilhar e modificar o mesmo estado. Para situações de persistência local, o Redux pode ser usado em conjunto com o AsyncStorage para criar uma gestão centralizada de dados.", "correct":true },
+        { "id": "d9689b99-5795-44ba-8dcf-4ede723b1745", "text": "Somente quando se utiliza o AsyncStorage.", "feedback":"Incorreto.", "correct":false },
+        { "id": "cff630d5-f620-4e24-bf62-ed7e2189086d", "text": "Nunca, pois o Redux não lida com persistência de dados.", "feedback":"Incorreto.", "correct":false }
     ]
 }
