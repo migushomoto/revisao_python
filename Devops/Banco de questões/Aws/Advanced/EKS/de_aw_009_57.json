@@ -10,7 +10,7 @@
     "subCategory": "EKS",
     "level": "Advanced",
     "text":[ 
-    "Utilizando o Kubectl, é possível interagir com os componentes dentro de um Cluster Kubernetes na AWS (EKS). Em situações de investigação durante um incidente ou troubleshooting é importante entender se ocorreram restarts, falhas, ou até mesmo obter detalhes sobre o tempo de vida que existe um determinado Pod. Com base no comando abaixo listado, qual dentre as opções, melhor indica a consulta necessárias para obter a listagem dos Pods de uma aplicação devidamente ordenados pelo seu tempo de vida?"
+    "Utilizando o Kubectl, é possível interagir com os componentes dentro de um Cluster Kubernetes na AWS (EKS). Em situações de investigação durante um incidente ou troubleshooting é importante entender se ocorreram reinicializações, falhas, ou até mesmo obter detalhes sobre o tempo de vida que existe um determinado Pod. Com base no comando abaixo listado, qual dentre as opções, melhor indica a consulta necessárias para obter a listagem dos Pods de uma aplicação devidamente ordenados pelo seu tempo de vida?"
     ],
     "alternatives": [
         {   "text": "kubectl get pods -n producao -l app=ensino --sort-by=.metadata.creationTimestamp", 
@@ -19,17 +19,17 @@
             "id": "ef808af9-5522-44f8-b71b-812343522138"
         },
         {   "text": "kubectl delete pods -n producao -l app=ensino", 
-            "feedback":"Resposta Incorreta!O comando mencionado é utilizado para deletar Pods de uma determinada aplicação.", 
+            "feedback":"Resposta Incorreta! O comando mencionado é utilizado para deletar Pods de uma determinada aplicação.", 
             "correct":false,
             "id": "ef808af9-5522-44f8-b71b-812343522139"
         },
         {   "text": "kubectl get events --sort-by=.metadata.creationTimestamp", 
-            "feedback": "Resposta Incorreta!O comando mencionado acima é utilizado para obter informações sobre eventos organizando assim pelo momento do Log.", 
+            "feedback": "Resposta Incorreta! O comando mencionado acima é utilizado para obter informações sobre eventos organizando assim pelo momento do Log.", 
             "correct":false,
             "id": "ef808af9-5522-44f8-b71b-812343522140"
         },
-        {   "text": "Não é possivel gerar esse tipo de ordenação quando realizamos consulta aos PODs do Kubernetes.", 
-            "feedback":"Resposta Incorreta!É possivel sim, realizar esse tipo de ordenação adicionando o filtro metadata.creationTimestamp.", 
+        {   "text": "Não é possível gerar esse tipo de ordenação quando realizamos consulta aos PODs do Kubernetes.", 
+            "feedback":"Resposta Incorreta! É possível sim, realizar esse tipo de ordenação adicionando o filtro metadata.creationTimestamp.", 
             "correct":false,
             "id": "ef808af9-5522-44f8-b71b-812343522141"
         }
