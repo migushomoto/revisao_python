@@ -19,12 +19,12 @@
             "id": "d3c4387d-8c52-4a75-ae35-6c74a6312213"
         },
         {   "text": "Não há qualquer tipo de diferença nas métricas nativas geradas pelo Cloudwatch para o RDS, quando comparamos com o monitoramento avançado.", 
-            "feedback":"Errado.Você poderá encontrar diferenças entre as CloudWatch medidas do monitoramento avançado, pois a camada do hypervisor realiza uma pequena quantidade de trabalho. As diferenças podem ser maiores se as instâncias de banco de dados usarem classes de instância menores.", 
+            "feedback":"Errado. Você poderá encontrar diferenças entre as CloudWatch medidas do monitoramento avançado, pois a camada do hypervisor realiza uma pequena quantidade de trabalho. As diferenças podem ser maiores se as instâncias de banco de dados usarem classes de instância menores.", 
             "correct":false,
             "id": "d3c4387d-8c52-4a75-ae35-6c74a6312214"
         },
         {   "text": "As métricas de monitoramento avançado são armazenadas nas métricas do CloudWatch. O custo do monitoramento avançado é fixo e não depende de qualquer outro fator.", 
-            "feedback":"Errado.As métricas de monitoramento avançado são armazenadas no CloudWatch Logs e não métricas do CloudWatch. O custo do monitoramento avançado depende de outros fatores.",
+            "feedback":"Errado. As métricas de monitoramento avançado são armazenadas no CloudWatch Logs e não métricas do CloudWatch. O custo do monitoramento avançado depende de outros fatores.",
             "correct":false,
             "id": "d3c4387d-8c52-4a75-ae35-6c74a6312215"
         },
