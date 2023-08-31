@@ -10,7 +10,7 @@
     "subCategory": "EKS",
     "level": "Advanced",
     "text":[ 
-    "No Kubernetes, o RBAC (Roled-Based Access Control) ê um método importante para tornar o seu cluster EKS mais seguro. Entretanto quando você deseja utilizar atributos de permissões e acesso a nível de POD, o mais indicado é utilizar o recurso IRSA. Sobre esse recurso, é correto afirmar:"
+    "No Kubernetes, o RBAC (Roled-Based Access Control) é um método importante para tornar o seu cluster EKS mais seguro. Entretanto quando você deseja utilizar atributos de permissões e acesso a nível de POD, o mais indicado é utilizar o recurso IRSA. Sobre esse recurso, é correto afirmar:"
     ],
     "alternatives": [
         {   "text": "O recurso IRSA está disponível de forma simples e segura para todas as versões do EKS a partir de 2018.", 
