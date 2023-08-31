@@ -10,7 +10,7 @@
     "subCategory": "ECS",
     "level": "Advanced",
     "text":[ 
-    "Você pode transmitir variáveis de ambiente para seu contêiner com segurança e com isso repassa-las para as suas aplicações que estão dentro do ECS. Dentre as opções abaixo, quais apresentam boas práticas nesse tipo de ação?"
+    "Você pode transmitir variáveis de ambiente para seu contêiner com segurança e com isso repassá-las para as suas aplicações que estão dentro do ECS. Dentre as opções abaixo, quais apresentam boas práticas nesse tipo de ação?"
     ],
     "alternatives": [
         {   "text": "Se houver variáveis de ambiente especificadas usando o parâmetro environment em uma definição de contêiner, elas terão precedência sobre as variáveis contidas em um arquivo de ambiente.", 
