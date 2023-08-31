@@ -10,15 +10,15 @@
     "subCategory": "ECS",
     "level": "Advanced",
     "text":[ 
-    "O ECS Circuit Break é uma funcionalidade presente no ECS desde novembro de 2020 que permite ao seu Cluster realizar rollback de uma versão que foi realizado deploy e a mesma passa a apontar erros em suas validações. Dentre as opções abaixo, quais você deve considerar ao utilizar esse recurso?"
+    "O ECS Circuit Break é uma funcionalidade presente no ECS desde novembro de 2020 que permite ao seu Cluster realizar rollback para a versão anterior uma vez que seu último deploy passa a apontar erros em suas validações. Dentre as opções abaixo, quais você deve considerar ao utilizar esse recurso?"
     ],
     "alternatives": [
-        {   "text": "O Circuit Break é compativel apenas com os serviços do Amazon ECS que utilizam a estratégia rolling update (ECS) para atualizar o deployment.", 
+        {   "text": "O Circuit Break é compatível apenas com os serviços do Amazon ECS que utilizam a estratégia rolling update (ECS) para atualizar o deployment.", 
             "feedback":"Resposta Correta!", 
             "correct":true,
             "id": "a65a7228-1326-4f27-97b8-a3be7d9b9517"
         },
-        {   "text": "A utilização do Circuit Break somente é possivel com aplicações na Linguagem Java.", 
+        {   "text": "A utilização do Circuit Break somente é possível com aplicações na Linguagem Java.", 
             "feedback":"Falso. Atualmente não há nenhum tipo de limitação quanto a linguagem que está subindo as aplicações com o Circuit Break ativado.", 
             "correct":false,
             "id": "a65a7228-1326-4f27-97b8-a3be7d9b9518"
