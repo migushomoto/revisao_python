@@ -10,7 +10,7 @@
     "subCategory": "IAM",
     "level": "Advanced",
     "text":[ 
-    "Erros de acesso negado são exibidos quando a AWS nega explícita ou implicitamente uma solicitação de autorização. Uma negação explícita ocorre quando uma política contém uma instrução Deny para a ação específica da AWS. Uma negação implícita ocorre quando não há nenhuma instrução Deny aplicável e também nenhuma instrução Allow aplicável. Com base no que conhecemos sobre as permissões do IAM, quais opções abaixo melhor descrevem o problema retratado?",
+    "Erros de acesso negado são exibidos quando a AWS nega explícita ou implicitamente uma solicitação de autorização. Uma negação explícita ocorre quando uma política contém uma instrução Deny para a ação específica da AWS. Uma negação implícita ocorre quando não há nenhuma instrução Deny aplicável e nenhuma instrução Allow aplicável. Com base no que conhecemos sobre as permissões do IAM, quais opções abaixo melhor descrevem o problema retratado?",
     "---",
     "User: arn:aws:iam::00012346789:user/usuario001 is not authorized to perform: widgets:GetWidget on resource: my-app-web",
     "---"],
@@ -25,7 +25,7 @@
             "correct":false,
             "id": "28285c9b-471f-48f4-accc-2db543418514"
         },
-        {   "text": "Para solucionar erros to tipo 'is not authorized' você deve conceder explicitamente essa permissão usando uma política no IAM.", 
+        {   "text": "Para solucionar erros do tipo 'is not authorized' você deve conceder explicitamente essa permissão usando uma política no IAM.", 
             "feedback":"Resposta correta!", 
             "correct":true,
             "id": "28285c9b-471f-48f4-accc-2db543418515"
