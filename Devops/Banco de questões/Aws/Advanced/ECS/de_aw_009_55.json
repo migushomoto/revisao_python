@@ -10,11 +10,11 @@
     "subCategory": "ECS",
     "level": "Advanced",
     "text":[ 
-    "É possível habilitar o Container Insights em clusters do Amazon ECS novos e existentes. O Container Insights coleta métricas nos níveis de cluster, de tarefa e de serviço. Para clusters existentes, use a AWS CLI. Para novos clusters, use o console do Amazon ECS ou a AWS CLI.Com base na forma que o Container Insights atua, qual das opções abaixo melhor descreve sua atuação na coleta de métricas?"
+    "É possível habilitar o Container Insights em clusters do Amazon ECS novos e existentes. O Container Insights coleta métricas nos níveis de cluster, de tarefa e de serviço. Para clusters existentes, use a AWS CLI. Para novos clusters, use o console do Amazon ECS ou a AWS CLI. Com base na forma que o Container Insights atua, qual das opções abaixo melhor descreve sua atuação na coleta de métricas?"
 ],
     "alternatives": [
         {   "text": "Para que seja possível gerar as devidas métricas relacionadas ao ECS, somente é necessário habilitar o Insights em seu cluster. Todo o processo é simples e não gera nenhum tipo de custo fixo ou adicional.", 
-            "feedback":"Resposta Incorreta! Métricas coletadas através do CloudWatchOs Container Insights são cobradas como métricas personalizadas.", 
+            "feedback":"Resposta Incorreta! Métricas coletadas através do CloudWatch Container Insights são cobradas como métricas personalizadas.", 
             "correct":false,
             "id": "d303a6d0-6bdb-4215-b012-6e2d3a22a976"
         },
