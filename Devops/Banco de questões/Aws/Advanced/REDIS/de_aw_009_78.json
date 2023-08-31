@@ -14,21 +14,21 @@
 ],
     "alternatives": [
         {   "text": "Você não pode ter um único grupo de segurança atribuído ao mesmo tempo ao cliente e ao cluster do ElastiCache.", 
-            "feedback":"Errado.Você pode ter um único grupo de segurança atribuído ao mesmo tempo ao cliente e ao cluster do ElastiCache, ou grupos de segurança individuais para cada um.", 
+            "feedback":"Errado. Você pode ter um único grupo de segurança atribuído ao mesmo tempo ao cliente e ao cluster do ElastiCache, ou grupos de segurança individuais para cada um.", 
             "correct":false,
             "id": "ec78130e-f132-4270-82f5-4f3b07adf867"
         },
         {   "text": "Os grupos de segurança do Redis são Stateless, o que significa que para toda e qualquer conexão realizada, seja de entrada ou saida, sempre vai ser feito uma solicitação e validação de acesso no Cluster.", 
-            "feedback":"Errado.Os grupos de segurança têm estado, o que significa que depois que o tráfego de entrada ou saída é permitido, as respostas para esse tráfego serão automaticamente autorizadas no contexto desse grupo de segurança específico.", 
+            "feedback":"Errado. Os grupos de segurança têm estado, o que significa que depois que o tráfego de entrada ou saída é permitido, as respostas para esse tráfego serão automaticamente autorizadas no contexto desse grupo de segurança específico.", 
             "correct":false,
             "id": "ec78130e-f132-4270-82f5-4f3b07adf868"
         },
-        {   "text": "A Porta padrão é 11211 para o Redis, e 6379 para o Memcached.Por padrão, os grupos de segurança permitem todo o tráfego de entrada.Nesse caso, somente a regra de saida no grupo de segurança é necessária", 
-            "feedback":"Errado. A Porta padrão é 11211 para o Memcached e 6379 para o Redis.Por padrão, os grupos de segurança permitem todo o tráfego de saída. Nesse caso, somente a regra de entrada no grupo de segurança de destino é necessária.",
+        {   "text": "A Porta padrão é 11211 para o Redis, e 6379 para o Memcached. Por padrão, os grupos de segurança permitem todo o tráfego de entrada. Nesse caso, somente a regra de saida no grupo de segurança é necessária", 
+            "feedback":"Errado. A Porta padrão é 11211 para o Memcached e 6379 para o Redis. Por padrão, os grupos de segurança permitem todo o tráfego de saída. Nesse caso, somente a regra de entrada no grupo de segurança de destino é necessária.",
             "correct":false,
             "id": "ec78130e-f132-4270-82f5-4f3b07adf869"
         },
-        {   "text": "O recurso stateful (com estado) requer que o grupo de segurança mantenha o controle de todas as conexões autorizadas e há um limite para conexões controladas. Se o limite for atingido, as novas conexões apresentarão falha.Você pode ter um único grupo de segurança atribuído ao mesmo tempo ao cliente e ao cluster do ElastiCache, ou grupos de segurança individuais para cada um.", 
+        {   "text": "O recurso stateful (com estado) requer que o grupo de segurança mantenha o controle de todas as conexões autorizadas e há um limite para conexões controladas. Se o limite for atingido, as novas conexões apresentarão falha. Você pode ter um único grupo de segurança atribuído ao mesmo tempo ao cliente e ao cluster do ElastiCache, ou grupos de segurança individuais para cada um.", 
             "feedback":"Resposta correta!",
             "correct":true,
             "id": "ec78130e-f132-4270-82f5-4f3b07adf870"
