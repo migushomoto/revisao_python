@@ -19,11 +19,11 @@
             "id": "4fcac54a-de9e-45c9-961e-7d27b5b8f640"
         },
         {   "text": "Para garantir os descontos e benefícios, é possível adquirir até 100 instâncias reservadas.", 
-            "feedback":"Errado.É possível adquirir até 40 instâncias reservadas. Se você precisar de mais instâncias reservadas, será necessário preencher um formulário especial para essa necessidade.", 
+            "feedback":"Errado. É possível adquirir até 40 instâncias reservadas. Se você precisar de mais instâncias reservadas, será necessário preencher um formulário especial para essa necessidade.", 
             "correct":false,
             "id": "4fcac54a-de9e-45c9-961e-7d27b5b8f641"
         },
-        {   "text": "As instâncias reservadas podem ser transferidas, vendidas mas não canceladas e a taxa única é reembolsável somente 50% do valor.", 
+        {   "text": "As instâncias reservadas podem ser transferidas ou vendidas mas não canceladas e a taxa única é reembolsável somente 50% do valor.", 
             "feedback":"Errado. As instâncias reservadas não podem ser transferidas, vendidas ou canceladas e a taxa única não é reembolsável.",
             "correct":false,
             "id": "4fcac54a-de9e-45c9-961e-7d27b5b8f642"
