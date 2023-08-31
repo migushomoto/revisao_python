@@ -16,11 +16,11 @@
     "---"],
     "alternatives": [
         {   "text": "O erro demonstrado acima, não faz parte de erros relacionados ao Lambda, mas sim, voltados para configurações de VPC Endpoint na AWS.", 
-            "feedback":"Errado. O erro acima mencionado, está atrelado a ter estourado o rate limite de 250 interfaces de rede por VPC dentro da conta.", 
+            "feedback":"Errado. O erro acima mencionado, está atrelado a ter excedido o rate limite de 250 interfaces de rede por VPC dentro da conta.", 
             "correct":false,
             "id": "96a8a798-ae21-4238-87f8-725bbad7f944"
         },
-        {   "text": "A cota de serviço padrão é de 350 interfaces de rede por VPC e esse limite não pode ser ajustado.Caso o erro acima ocorra, será necessário abertura de chamado junto ao TAM da conta.", 
+        {   "text": "A cota de serviço padrão é de 350 interfaces de rede por VPC e esse limite não pode ser ajustado. Caso o erro acima ocorra, será necessário abertura de chamado junto ao TAM da conta.", 
             "feedback":"Errado. A cota de serviço padrão é de 250 interfaces de rede por VPC e esse limite pode ser ajustado ou alterado através do Serviço Quota na sua conta AWS.", 
             "correct":false,
             "id": "96a8a798-ae21-4238-87f8-725bbad7f945"
