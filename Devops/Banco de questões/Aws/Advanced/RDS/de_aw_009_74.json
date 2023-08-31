@@ -19,17 +19,17 @@
             "id": "67cb8e6d-7314-4736-b3c4-69b2089e5686"
         },
         {   "text": "Para garantir as devidas liberações de acesso, é necessário, ja criar o RDS permitindo Tudo no Security Group, caso contrário, será necessário recria-lo.", 
-            "feedback":"Errado.É possível na seção de Conectividade e Segurança, modificar o RDS para ser Acessível ao Público.Um detalhe é que a sua VPC precisa ter um Gateway de Internet conectado, e possuir regras de segurança permitindo o acesso.", 
+            "feedback":"Errado. É possível na seção de Conectividade e Segurança, modificar o RDS para ser Acessível ao Público. Um detalhe é que a sua VPC precisa ter um Gateway de Internet conectado, e possuir regras de segurança permitindo o acesso.", 
             "correct":false,
             "id": "67cb8e6d-7314-4736-b3c4-69b2089e5687"
         },
         {   "text": "Somente é necessário atribuir uma regra de Firewall na VPC da conta, liberando todas as origens para a porta de conexão do seu banco de dados.", 
-            "feedback":"Errado.É necessário na seção de Conectividade e Segurança, modificar o RDS para ser Acessível ao Público.Um detalhe é que a sua VPC precisa ter um Gateway de Internet conectado, e possuir regras de segurança permitindo o acesso.",
+            "feedback":"Errado. É necessário na seção de Conectividade e Segurança, modificar o RDS para ser Acessível ao Público. Um detalhe é que a sua VPC precisa ter um Gateway de Internet conectado, e possuir regras de segurança permitindo o acesso.",
             "correct":false,
             "id": "67cb8e6d-7314-4736-b3c4-69b2089e5688"
         },
         {   "text": "Bancos de Dados na AWS somente podem ser acessados internamente, através do CIDR da sua VPC Interna.", 
-            "feedback":"Errado.É possível na seção de Conectividade e Segurança, modificar o RDS para ser Acessível ao Público.Um detalhe é que a sua VPC precisa ter um Gateway de Internet conectado, e possuir regras de segurança permitindo o acesso.",
+            "feedback":"Errado. É possível na seção de Conectividade e Segurança, modificar o RDS para ser Acessível ao Público. Um detalhe é que a sua VPC precisa ter um Gateway de Internet conectado, e possuir regras de segurança permitindo o acesso.",
             "correct":false,
             "id": "67cb8e6d-7314-4736-b3c4-69b2089e5689"
         }
