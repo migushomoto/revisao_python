@@ -17,12 +17,12 @@
   "---"],
     "alternatives": [
         {   "text": "Esse comando descreve todos os volumes que possuem a chave de tag Name e um valor que termina com Test.", 
-            "feedback":"Resposta Incorreta!Esse comando escreve todos os volumes que possuem a chave de tag Name e um valor que começa com Test", 
+            "feedback":"Resposta Incorreta! Esse comando escreve todos os volumes que possuem a chave de tag Name e um valor que começa com Test", 
             "correct":false,
             "id": "0e9c12e1-e049-4042-8d2c-050e366e9473"
         },
         {   "text": "Esse comando retornará erro visto que não é possível adicionar Tags para volumes utilizador por EC2.", 
-            "feedback":"Resposta Incorreta!É possível atribuir TAG a praticamente todos os recursos criados na AWS, e nesse caso o resultado desse comando vai descrever todos os volumes que possuem a chave de tag Name e um valor que começa com Test.", 
+            "feedback":"Resposta Incorreta! É possível atribuir TAG a praticamente todos os recursos criados na AWS, e nesse caso o resultado desse comando vai descrever todos os volumes que possuem a chave de tag Name e um valor que começa com Test.", 
             "correct":false,
             "id": "0e9c12e1-e049-4042-8d2c-050e366e9474"
         },
