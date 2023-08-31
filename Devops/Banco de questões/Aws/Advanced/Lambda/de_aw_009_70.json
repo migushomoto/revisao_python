@@ -10,7 +10,7 @@
     "subCategory": "Lambda",
     "level": "Advanced",
     "text":[ 
-    "A Simultaneidade provisionada oferece maior controle sobre o desempenho das suas lambdas. Quando habilitada, a simultaneidade provisionada mantém as funções inicializadas e prontas para responder em questão de milissegundos. De acordo com as opções abaixo, qual melhor descreve a forma para configurar corretamente a Simultaneidade provisionada?"
+    "A Simultaneidade provisionada oferece maior controle sobre o desempenho das suas funções lambda. Quando habilitada, a simultaneidade provisionada mantém as funções inicializadas e prontas para responder em questão de milissegundos. De acordo com as opções abaixo, qual melhor descreve a forma para configurar corretamente a Simultaneidade provisionada?"
 ],
     "alternatives": [
         {   "text": "Um diferencial na configuração de simultaneidade é que uma função lambda não afeta os limites de outra.", 
