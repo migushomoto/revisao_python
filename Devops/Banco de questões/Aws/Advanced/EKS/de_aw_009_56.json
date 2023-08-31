@@ -21,7 +21,7 @@
             "id": "ef808af9-5522-44f8-b71b-812343522138"
         },
         {   "text": "Esse comando retornará erro visto que não é possível identificar a imagem de um POD sem conectar diretamente no mesmo.", 
-            "feedback":"Resposta Incorreta!É possível consultar essas informações via kubectl sim, e nesse caso o resultado desse comando vai trazer a versão da imagem que está rodando dentro de um POD.", 
+            "feedback":"Resposta Incorreta! É possível consultar essas informações via kubectl sim, e nesse caso o resultado desse comando vai trazer a versão da imagem que está rodando dentro de um POD.", 
             "correct":false,
             "id": "ef808af9-5522-44f8-b71b-812343522139"
         },
