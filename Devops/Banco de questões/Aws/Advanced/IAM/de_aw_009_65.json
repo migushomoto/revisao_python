@@ -10,21 +10,21 @@
     "subCategory": "IAM",
     "level": "Advanced",
     "text":[ 
-    "Ao criar políticas do IAM, siga a orientação de segurança padrão de concessão de privilégio mínimo ou conceda apenas as permissões necessárias para realizar uma tarefa. Determine o que os usuários e as funções precisam fazer e, em seguida, crie políticas que permitam que eles executem apenas essas tarefas.O IAM fornece várias opções para ajudar você a refinar as permissões concedidas. De acordo com as opções abaixo, quais fazem sentido com essa afirmação?"
+    "Ao criar políticas do IAM, siga a orientação de segurança padrão de concessão de privilégio mínimo ou conceda apenas as permissões necessárias para realizar uma tarefa. Determine o que os usuários e as funções precisam fazer e, em seguida, crie políticas que permitam que eles executem apenas essas tarefas. O IAM fornece várias opções para ajudar você a refinar as permissões concedidas. De acordo com as opções abaixo, quais fazem sentido com essa afirmação?"
     ],
     "alternatives": [
-        {   "text": "Compreender agrupamentos de nível de acesso.Você pode usar agrupamentos no nível de acesso para entender o nível de acesso que a política concede", 
+        {   "text": "Compreender agrupamentos de nível de acesso. Você pode usar agrupamentos no nível de acesso para entender o nível de acesso que a política concede", 
             "feedback":"Resposta correta!", 
             "correct":true,
             "id": "bbfbe994-bbe2-4fc3-8bb6-851056e75443"
         },
-        {   "text": "Validar suas políticas.você pode executar a validação de políticas usando o IAM Access Analyzer ao criar e editar políticas de JSON. É recomendado que você revise e valide todas as políticas existentes.", 
+        {   "text": "Você pode executar a validação de políticas usando o IAM Access Analyzer ao criar e editar políticas de JSON. É recomendado que você revise e valide todas as políticas existentes.", 
             "feedback":"Resposta correta!", 
             "correct":true,
             "id": "bbfbe994-bbe2-4fc3-8bb6-851056e75444"
         },
         {   "text": "Libere todos os recursos, para todos os usuários, deste modo, facilitando sua administração e dividindo a responsabilidade.", 
-            "feedback":"Errado.Isso é uma grande falha de segurança e foge as boas práticas de segurança.Determine sempre o que os usuários e as funções precisam e podem fazer.",
+            "feedback":"Errado. Isso é uma grande falha de segurança e foge as boas práticas de segurança. Determine sempre o que os usuários e as funções precisam e podem fazer.",
             "correct":false,
             "id": "bbfbe994-bbe2-4fc3-8bb6-851056e75445"
         },
