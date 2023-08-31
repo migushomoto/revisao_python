@@ -13,13 +13,13 @@
     "O Cloud Formation possui uma ferramenta gráfica chamada CloudFormation Designer, utilizada para criar, visualizar e modificar modelos. Com ele é possível diagramar os recursos usando uma interface de arrastar, soltar e editar usando o JSON ou YAML integrado. Sobre esse add-on, é correto afirmar:"
     ],
     "alternatives": [
-        {   "text": "É possível utilizar esse add-on na AWS para qualquer tipo de ferramenta cujo objetivo sera infraestrutura como código.", 
-            "feedback":"Errado. Essa ferramenta em especifico é totalmente direcionada para o Cloudformation, tendo como objetivo facilitar a utilização da solução dentro da Cloud AWS.", 
+        {   "text": "É possível utilizar esse add-on na AWS para qualquer tipo de ferramenta cujo objetivo será infraestrutura como código.", 
+            "feedback":"Errado. Essa ferramenta em específico é totalmente direcionada para o Cloudformation, tendo como objetivo facilitar a utilização da solução dentro da Cloud AWS.", 
             "correct":false,
             "id": "9744e929-6f85-4d84-89a8-23510830f011"
         },
         {   "text": "Com o Cloudformation Designer, você pode ver uma representação gráfica dos recursos incluídos em um modelo e como eles se relacionam entre si.", 
-            "feedback":"Correto. Através dele sera possível obter informações sobre os recursos, tamanhos, metadados de modelo, dentre outras possibilidade. Quando você abre um modelo no Designer, ele exibe o diagrama exatamente como ele é exibido quando você salvou o modelo pela última vez.", 
+            "feedback":"Correto. Através dele será possível obter informações sobre os recursos, tamanhos, metadados de modelo, dentre outras possibilidades. Quando você abre um modelo no Designer, ele exibe o diagrama exatamente como ele é exibido quando você salvou o modelo pela última vez.", 
             "correct":true,
             "id": "9744e929-6f85-4d84-89a8-23510830f012"
         },
