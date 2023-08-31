@@ -31,12 +31,12 @@
             "correct":false,
             "id": "97172a33-382f-45a6-b227-6ea94d4c2f14"
         },
-        {   "text": "O Código demonstrado acima está somente atrelado ao Cloudformation. Recurso utilizado para provisionar serviços automatizados na Cloud AWS.", 
-            "feedback":"Errado!Esse tipo de configuração é um exemplo de politica que permite a Role AllowedMyPermissionBucket da conta 0000111199998888 acessar o MyBucket2023.", 
+        {   "text": "O Código demonstrado acima está somente atrelado ao CloudFormation. Recurso utilizado para provisionar serviços automatizados na Cloud AWS.", 
+            "feedback":"Errado! Esse tipo de configuração é um exemplo de política que permite a Role AllowedMyPermissionBucket da conta 0000111199998888 acessar o MyBucket2023.", 
             "correct":false,
             "id": "97172a33-382f-45a6-b227-6ea94d4c2f15"
         },
-        {   "text": "O tipo de permissão acima listado pode ser aplicado a politicas ou roles, visando deste modo liberar uma aplicação ou usuário com acesso de subir itens dentro do S3 no Bucket MyBucket2023.", 
+        {   "text": "O tipo de permissão acima listado pode ser aplicado a políticas ou roles, visando deste modo liberar uma aplicação ou usuário com acesso de subir itens dentro do S3 no Bucket MyBucket2023.", 
             "feedback":"Resposta correta!", 
             "correct":true,
             "id": "97172a33-382f-45a6-b227-6ea94d4c2f16"
