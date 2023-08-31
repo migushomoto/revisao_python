@@ -10,7 +10,7 @@
     "subCategory": "EKS",
     "level": "Advanced",
     "text":[ 
-    "Em situações de problemas dentro de ambientes com EKS é muito importante conhecer os tipos de erros que podem acontecer e indisponibilizar sua aplicação e/ou feature.O erro de OOMKILLED é um desses casos, e é fundamental entender porque ele ocorre. No exemplo abaixo, é demonstrado uma saida de log do momento em que ocorreu o devido erro. De acordo com as opções listadas, quais descrevem bem os motivadores para o ocorrido?",
+    "Em situações de problemas dentro de ambientes com EKS é muito importante conhecer os tipos de erros que podem acontecer e indisponibilizar sua aplicação e/ou feature. O erro de OOMKILLED é um desses casos, e é fundamental entender porque ele ocorre. No exemplo abaixo, é demonstrada uma saída de log do momento em que ocorreu o devido erro. De acordo com as opções listadas, quais descrevem bem os motivadores para o ocorrido?",
     "---",
   "Container ID: docker://855cf2c3f971b5f8f17499ec5",
     "Image: 000000000000000.dkr.ecr.us-east-1.amazonaws.com/minhaapp2023:2.0.40",
