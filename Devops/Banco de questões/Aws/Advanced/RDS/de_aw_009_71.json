@@ -10,7 +10,7 @@
     "subCategory": "RDS",
     "level": "Advanced",
     "text":[ 
-    "O Amazon Relational Database Service (Amazon RDS) é uma coleção de serviços gerenciados que facilita a configuração, operação e escalabilidade de bancos de dados na nuvem.O Amazon RDS executa tarefas rotineiras de banco de dados, como provisionamento, aplicação de patches, backup, recuperação, detecção de falhas e reparo. Sabemos que não é simples ou fácil manter internamente nas empresas o processo de administração de diversos bancos de dados. Conforme as opções abaixo, quais representam ganhos que irão ajudar a reduzir esse tipo de carga administrativa?"
+    "O Amazon Relational Database Service (Amazon RDS) é uma coleção de serviços gerenciados que facilita a configuração, operação e escalabilidade de bancos de dados na nuvem. Sabemos que não é simples ou fácil manter internamente nas empresas o processo de administração de diversos bancos de dados. Conforme as opções abaixo, quais representam ganhos que irão ajudar a reduzir esse tipo de carga administrativa?"
 ],
     "alternatives": [
         {   "text": "Aplicação de patches automática de software. O Amazon RDS garante que o software do banco de dados relacional permaneça atualizado com a aplicação dos patches mais recentes.", 
@@ -23,9 +23,9 @@
             "correct":false,
             "id": "689bceb6-f299-4fd8-a251-2048ab1d4f40"
         },
-        {   "text": "Ao criar um RDS na AWS, o mesmo vem completamente zerado de configuração e é importante realizar as melhores ações com base na usabilidade do mesmo.", 
-            "feedback":"Errado. As instâncias de banco de dados do Amazon RDS são pré-configuradas com parâmetros e definições adequados ao mecanismo e à classe que você selecionou. Você pode executar uma instância de banco de dados e conectar sua aplicação em alguns minutos.", 
-            "correct":false,
+        {   "text": "O Amazon RDS executa tarefas rotineiras de banco de dados, como provisionamento, aplicação de patches, backup, recuperação, detecção de falhas e reparo.", 
+            "feedback":"Resposta correta!", 
+            "correct":true,
             "id": "689bceb6-f299-4fd8-a251-2048ab1d4f41"
         },
         {   "text": "A AWS realiza recomendações de boas práticas fornecendo orientações por meio da análise da configuração e das métricas de uso de suas instâncias de banco de dados.", 
