@@ -12,7 +12,7 @@
     "text":[ 
     "Com o Amazon ECS Exec, você pode interagir diretamente com contêineres sem precisar interagir primeiro com o sistema operacional do host. Você pode usar o ECS Exec para executar comandos em um contêiner em execução. Com base no comando abaixo listado, qual dentre as opções melhor indica o resultado que será obtido?",
     "---",
-  "aws ecs execute-command --cluster cluster-name --task task-id -container container-name --interactive --command '/bin/sh' ",
+  "aws ecs execute-command --cluster cluster-name --task task-id --container container-name --interactive --command '/bin/sh' ",
   "---"],
     "alternatives": [
         {   "text": "Com a execução do comando acima, o comando destruirá a Task acessada.", 
@@ -21,7 +21,7 @@
             "id": "f58c421c-b653-4144-ae94-f22fa1960c57"
         },
         {   "text": "Esse comando retornará erro visto que não é possível executar o /bin/sh dentro de uma Task.", 
-            "feedback":"Resposta Incorreta! É possível sim executar o /bin/sh dentro de um container devido e disponível.", 
+            "feedback":"Resposta Incorreta! É possível sim executar o /bin/sh dentro de um container disponível.", 
             "correct":false,
             "id": "f58c421c-b653-4144-ae94-f22fa1960c58"
         },
