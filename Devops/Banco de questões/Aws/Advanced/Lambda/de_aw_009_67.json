@@ -30,7 +30,7 @@
             "correct":true,
             "id": "96a8a798-ae21-4238-87f8-725bbad7f946"
         },
-        {   "text": "É necessário adicionar política gerenciada pela AWS AWSLambdaRole ao seu usuário ou adicione uma política personalizada que permita a ação lambda:InvokeFunction na função de destino.", 
+        {   "text": "É necessário adicionar política gerenciada pela AWS AWSLambdaRole ao seu usuário ou adicionar uma política personalizada que permita a ação lambda:InvokeFunction na função de destino.", 
             "feedback":"Resposta correta!", 
             "correct":true,
             "id": "96a8a798-ae21-4238-87f8-725bbad7f947"
