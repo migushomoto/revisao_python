@@ -28,7 +28,7 @@
             "correct":true,
             "id": "1e6610d9-e255-4ca7-9bf4-745bea79a226"
         },
-        {   "text": "O Amazon RDS também é compatível com o armazenamento magnético para retrocompatibilidade. Recomendamos que você use SSD de uso geral ou SSD de IOPS provisionadas para toda e qualquer nova necessidade de armazenamento.", 
+        {   "text": "O Amazon RDS também é compatível com o armazenamento magnético para retrocompatibilidade. É recomendado que você use SSD de uso geral ou SSD de IOPS provisionadas para toda e qualquer nova necessidade de armazenamento.", 
             "feedback":"Resposta correta!",
             "correct":true,
             "id": "1e6610d9-e255-4ca7-9bf4-745bea79a227"
