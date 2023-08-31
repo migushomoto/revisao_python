@@ -29,7 +29,7 @@
             "id": "04e8a58a-c26c-4361-94a7-cafc32a83761"
         },
         {   "text": "Ao realizar a utilização de uma instância expansível, se a utilização média de CPU for igual ou inferior a linha de base, a mesma possuirá encargos altos e adicionais.", 
-            "feedback":"Incorreta. Se a utilização média de CPU de um instância for igual ou inferior à linha de base, a instância não incorrerá encargos adicionais. Como uma instância ganha um número máximo de créditos em um período de 24 horas (por exemplo, uma instância t3.micro pode ganhar no máximo 288 créditos em um período de 24 horas), ela pode gastar créditos excedentes até esse limite máximo sem gerar uma cobranças imediatamente.", 
+            "feedback":"Incorreta. Se a utilização média de CPU de uma instância for igual ou inferior à linha de base, a instância não incorrerá encargos adicionais. Como uma instância ganha um número máximo de créditos em um período de 24 horas (por exemplo, uma instância t3.micro pode ganhar no máximo 288 créditos em um período de 24 horas), ela pode gastar créditos excedentes até esse limite máximo sem gerar uma cobranças imediatamente.", 
             "correct":false,
             "id": "04e8a58a-c26c-4361-94a7-cafc32a83762"
         }
