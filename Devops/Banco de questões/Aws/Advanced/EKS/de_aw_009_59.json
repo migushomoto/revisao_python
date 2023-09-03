@@ -1,0 +1,47 @@
+{
+    "SKU": "000019",
+    "interpreter": 1,
+    "type": "VF",
+    "language": "NA",
+    "tagsOrConcepts":["Cloud"],
+    "id": "d452502a-6bd1-4b02-8002-8dde9e754744",
+    "knowledgeArea": "Cloud",
+    "category": "AWS",
+    "subCategory": "EKS",
+    "level": "Advanced",
+    "text":[ 
+    "Em situações de problemas dentro de ambientes com EKS é muito importante conhecer os tipos de erros que podem acontecer e indisponibilizar sua aplicação e/ou feature. O erro de OOMKILLED é um desses casos, e é fundamental entender porque ele ocorre. No exemplo abaixo, é demonstrada uma saída de log do momento em que ocorreu o devido erro. De acordo com as opções listadas, quais descrevem bem os motivadores para o ocorrido?",
+    "---",
+  "Container ID: docker://855cf2c3f971b5f8f17499ec5",
+    "Image: 000000000000000.dkr.ecr.us-east-1.amazonaws.com/minhaapp2023:2.0.40",
+    "Image ID: docker-pullable:// 000000000000000.dkr.ecr.us-east-1.amazonaws.com/minhaapp2023@sha256:12e0056a26fe5d71f164d8",
+    "Ports:          3000/TCP, 3333/TCP",
+    "Host Ports:     0/TCP, 0/TCP",
+    "State:          Waiting",
+    "Reason:       CrashLoopBackOff",
+    "Last State:     Terminated",
+    "Reason:       OOMKilled",
+"---"],
+    "alternatives": [
+        {   "text": "O OOMKilled é um mecanismo que é invocado quando o sistema corre o risco de ficar sem memória. Embora possa ajudar a evitar que um sistema trave devido ao esgotamento da memória, esse tipo de ação pode resultar em perda de dados e/ou instabilidade no sistema.", 
+            "feedback":"Resposta correta!", 
+            "correct":true,
+            "id": "d452502a-6bd1-4b02-8002-8dde9e754745"
+        },
+        {   "text": "Esse tipo de erro pode ser evitado configurando o HPA por CPU e por Requests de formas devidas e bem preparadas.", 
+            "feedback":"Errado. Esse tipo de configuração não ajudaria a evitar problemas como o OOMKilled. Esse tipo de impacto está atrelado ao uso/consumo de memória dos Pods dentro de um cluster EKS.", 
+            "correct":false,
+            "id": "d452502a-6bd1-4b02-8002-8dde9e754746"
+        },
+        {   "text": "O erro OMMKilled, também indicado pelo código de saída 137 no kubernetes, significa que um container/pod foi encerrado porque usou mais memória do que o permitido.", 
+            "feedback":"Resposta correta!", 
+            "correct":true,
+            "id": "d452502a-6bd1-4b02-8002-8dde9e754747"
+        },
+        {   "text": "O OMMKilled funciona selecionando o processo que está consumindo mais memória, e envia um sinal ao processo solicitando que seja encerrado. Se o processo não responder ao sinal, o kernel encerra o processo à força.", 
+            "feedback":"Resposta correta!", 
+            "correct":true,
+            "id": "d452502a-6bd1-4b02-8002-8dde9e754748"
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "SKU": "000036",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "tagsOrConcepts":["Cloud"],
+    "id": "f11adc27-e13e-442d-a572-551614ebf095",
+    "knowledgeArea": "Cloud",
+    "category": "AWS",
+    "subCategory": "Redis",
+    "level": "Advanced",
+    "text":[ 
+    "A criptografia em repouso do ElastiCache para Redis é um recurso opcional para aumentar a segurança dos dados ao criptografar dados no disco. O ElastiCache para Redis oferece criptografia padrão (gerenciada pelo serviço) em repouso, bem como a capacidade de usar suas próprias chaves simétricas KMS da AWS gerenciadas pelo cliente no AWS Key Management Service (KMS). Sobre criptografia em repouso no ElastiCache Redis, podemos afirmar:"
+],
+    "alternatives": [
+        {   "text": "A criptografia em repouso pode ser ativada em um grupo de replicação quando é criada. Como a criptografia e a descriptografia dos dados requerem processamento, a ativação da criptografia em repouso pode afetar o desempenho durante essas operações. Compare seus dados com e sem criptografia em repouso para determinar o impacto no desempenho para seus casos de uso.", 
+            "feedback":"Resposta correta!", 
+            "correct":true,
+            "id": "f11adc27-e13e-442d-a572-551614ebf096"
+        },
+        {   "text": "A habilitação da criptografia em repouso no Redis é simples e não requer tantas ações para seu funcionamento. Somente habilitando no painel da AWS, o processo de proteção dos seus dados será ativado.", 
+            "feedback":"Errado. A habilitação da criptografia em repouso em um cluster do Redis requer a exclusão do grupo de replicação existente após a execução do backup e a restauração no grupo de replicação.", 
+            "correct":false,
+            "id": "f11adc27-e13e-442d-a572-551614ebf097"
+        },
+        {   "text": "A criptografia padrão, é uma das 3 opções disponíveis em todas as regiões GovCloud na AWS.", 
+            "feedback":"Errado. A criptografia padrão (gerenciada por serviço) é a única opção disponível nas regiões GovCloud (EUA).",
+            "correct":false,
+            "id": "f11adc27-e13e-442d-a572-551614ebf098"
+        },
+        {   "text": "O ElastiCache para Redis oferece criptografia padrão (gerenciada pelo serviço) em repouso, entretanto não é possível usar suas chaves simétricas KMS da AWS.", 
+            "feedback":"Errado. O ElastiCache para Redis oferece criptografia padrão (gerenciada pelo serviço) em repouso, bem como a capacidade de usar suas próprias chaves simétricas KMS da AWS gerenciadas pelo cliente no AWS Key Management Service (KMS).",
+            "correct":false,
+            "id": "f11adc27-e13e-442d-a572-551614ebf099"
+        }
+    ]
+} 

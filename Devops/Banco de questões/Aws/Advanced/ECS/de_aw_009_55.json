@@ -1,0 +1,37 @@
+{
+    "SKU": "000015",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "tagsOrConcepts":["Cloud"],
+    "id": "d303a6d0-6bdb-4215-b012-6e2d3a22a975",
+    "knowledgeArea": "Cloud",
+    "category": "AWS",
+    "subCategory": "ECS",
+    "level": "Advanced",
+    "text":[ 
+    "É possível habilitar o Container Insights em clusters do Amazon ECS novos e existentes. O Container Insights coleta métricas nos níveis de cluster, de tarefa e de serviço. Para clusters existentes, use a AWS CLI. Para novos clusters, use o console do Amazon ECS ou a AWS CLI. Com base na forma que o Container Insights atua, qual das opções abaixo melhor descreve sua atuação na coleta de métricas?"
+],
+    "alternatives": [
+        {   "text": "Para que seja possível gerar as devidas métricas relacionadas ao ECS, somente é necessário habilitar o Insights em seu cluster. Todo o processo é simples e não gera nenhum tipo de custo fixo ou adicional.", 
+            "feedback":"Resposta Incorreta! Métricas coletadas através do CloudWatch Container Insights são cobradas como métricas personalizadas.", 
+            "correct":false,
+            "id": "d303a6d0-6bdb-4215-b012-6e2d3a22a976"
+        },
+        {   "text": "O CloudWatch Container Insights somente coleta as métricas dos seus aplicativos conteinerizados.", 
+            "feedback":"Resposta Incorreta! O Container Insights coleta, agrega e resume métricas e logs de seus aplicativos conteinerizados e microsserviços.", 
+            "correct":false,
+            "id": "d303a6d0-6bdb-4215-b012-6e2d3a22a977"
+        },
+        {   "text": "O Container Insights somente coleta métricas de aplicações desenvolvidas em Go.", 
+            "feedback":"Resposta Incorreta! A linguagem é indiferente para atuação do Container Insights no ECS.", 
+            "correct":false,
+            "id": "d303a6d0-6bdb-4215-b012-6e2d3a22a978"
+        },
+        {   "text": "As métricas do CloudWatch Container Insights refletem apenas os recursos com tarefas em execução durante o intervalo de tempo especificado. Por exemplo, se você tiver um cluster contendo um serviço, mas esse serviço não tiver tarefas em um estado RUNNING, não haverá métricas enviadas para o CloudWatch. Se você tiver dois serviços e um deles tiver tarefas em execução e o outro não, somente as métricas do serviço com tarefas em execução serão enviadas.", 
+            "feedback":"Resposta correta!", 
+            "correct":true,
+            "id": "d303a6d0-6bdb-4215-b012-6e2d3a22a979"
+        }
+    ]
+}

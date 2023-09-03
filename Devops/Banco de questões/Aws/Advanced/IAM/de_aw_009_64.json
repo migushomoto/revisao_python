@@ -1,0 +1,37 @@
+{
+    "SKU": "000024",
+    "interpreter": 1,
+    "type": "VF",
+    "language": "NA",
+    "tagsOrConcepts":["Cloud"],
+    "id": "513f551a-95b1-4328-8762-1cecd31f3029",
+    "knowledgeArea": "Cloud",
+    "category": "AWS",
+    "subCategory": "IAM",
+    "level": "Advanced",
+    "text":[ 
+    "As Políticas baseadas em identidade são documentos de política de permissões JSON que controlam quais ações uma identidade (usuários, grupos de usuários e funções) pode realizar, em quais recursos e em que condições. Como as políticas em identidade podem ser categorizadas?"
+    ],
+    "alternatives": [
+        {   "text": "São categorizadas em Políticas baseadas em identidade, baseadas em recurso ou listas de controle de acesso.", 
+            "feedback":"Errado. Isso são tipos de política. As políticas em identidade são categorizadas em políticas gerenciadas ou políticas em linha.", 
+            "correct":false,
+            "id": "513f551a-95b1-4328-8762-1cecd31f3030"
+        },
+        {   "text": "Elas são categorizadas em políticas gerenciadas ou políticas em linha.", 
+            "feedback":"Resposta correta!", 
+            "correct":true,
+            "id": "513f551a-95b1-4328-8762-1cecd31f3031"
+        },
+        {   "text": "Não existem categorias para políticas em identidade.", 
+            "feedback":"Errado. Elas são categorizadas em políticas gerenciadas ou políticas em linha",
+            "correct":false,
+            "id": "513f551a-95b1-4328-8762-1cecd31f3032"
+        },
+        {   "text": "As políticas em identidade são separadas entre políticas autônomas baseadas em identidade que você pode anexar a vários usuários, grupos e perfis na Conta da AWS e políticas adicionadas diretamente a um único usuário, grupo ou função.", 
+            "feedback":"Resposta correta!", 
+            "correct":true,
+            "id": "513f551a-95b1-4328-8762-1cecd31f3033"
+        }
+    ]
+}

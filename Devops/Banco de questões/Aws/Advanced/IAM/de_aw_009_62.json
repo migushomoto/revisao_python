@@ -1,0 +1,45 @@
+{
+    "SKU": "000022",
+    "interpreter": 1,
+    "type": "VF",
+    "language": "NA",
+    "tagsOrConcepts":["Cloud"],
+    "id": "97172a33-382f-45a6-b227-6ea94d4c2f12",
+    "knowledgeArea": "Cloud",
+    "category": "AWS",
+    "subCategory": "IAM",
+    "level": "Advanced",
+    "text":[ 
+    "As políticas do IAM definem permissões para uma ação, independentemente do método usado para executar a operação. Ao criar um usuário do IAM, você pode optar por permitir acesso ao console ou programático. Com base no que conhecemos sobre as permissões do IAM, quais opções abaixo melhor descrevem a liberação que está ocorrendo abaixo?",
+    "---",
+    "Version: 2012-10-17",
+    "Statement: [{",
+    "Sid: S3BucketPolicy",
+    "Effect: Allow",
+    "Principal: {'AWS': [arn:aws:iam::0000111199998888:role/AllowedMyPermissionBucket]}",
+    "Action: ['s3:PutObject']",
+    "Resource: ['arn:aws:s3:::MyBucket2023/*']}]",
+    "---"],
+    "alternatives": [
+        {   "text": "A política demonstrada acima permite que a Role AllowedMyPermissionBucket da conta 0000111199998888 acesse MyBucket2023.", 
+            "feedback":"Resposta correta!", 
+            "correct":true,
+            "id": "97172a33-382f-45a6-b227-6ea94d4c2f13"
+        },
+        {   "text": "Esse tipo de permissão pode ser aplicada para bloquear o acesso ao S3 de todas as pessoas que possuírem a permissão em questão.", 
+            "feedback":"Errado. Esse tipo de configuração não bloquearia o acesso ao S3. A política demonstrada acima permite que a Role AllowedMyPermissionBucket da conta 0000111199998888 acesse MyBucket2023.", 
+            "correct":false,
+            "id": "97172a33-382f-45a6-b227-6ea94d4c2f14"
+        },
+        {   "text": "O Código demonstrado acima está somente atrelado ao CloudFormation. Recurso utilizado para provisionar serviços automatizados na Cloud AWS.", 
+            "feedback":"Errado! Esse tipo de configuração é um exemplo de política que permite a Role AllowedMyPermissionBucket da conta 0000111199998888 acessar o MyBucket2023.", 
+            "correct":false,
+            "id": "97172a33-382f-45a6-b227-6ea94d4c2f15"
+        },
+        {   "text": "O tipo de permissão acima listado pode ser aplicado a políticas ou roles, visando deste modo liberar uma aplicação ou usuário com acesso de subir itens dentro do S3 no Bucket MyBucket2023.", 
+            "feedback":"Resposta correta!", 
+            "correct":true,
+            "id": "97172a33-382f-45a6-b227-6ea94d4c2f16"
+        }
+    ]
+}

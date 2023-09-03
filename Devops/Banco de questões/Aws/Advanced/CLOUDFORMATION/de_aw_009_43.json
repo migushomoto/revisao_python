@@ -1,0 +1,50 @@
+{
+    "SKU": "000003",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "tagsOrConcepts":["Cloud"],
+    "id": "07213a59-9901-4f9e-aa02-8d8bf1413bc6",
+    "knowledgeArea": "Cloud",
+    "category": "AWS",
+    "subCategory": "Cloud Formation",
+    "level": "Advanced",
+    "text":[ 
+    "O AWS CloudFormation permite modelar, provisionar e gerenciar recursos da AWS ao tratar a infraestrutura como código. Deste modo, qual será o `resultado` obtido após a execução do trecho de código a seguir?",
+    "---",
+    "Resources:",
+    "MyInstance:",
+    "Type: 'AWS::EC2::Instance'",
+    "Properties:",
+      "AvailabilityZone: sa-east-1a",
+      "ImageId:  ami-05fa00d4c63e098552",
+      "InstanceType: t2.medium",
+      "Tags:",
+        "- Key: Name",
+          "Value: Ec2BastionLinux",
+        "- Key: App",
+          "Value: Web",
+    "---"],
+    "alternatives": [
+        {   "text": "Será destruído dentro do ambiente proposto a Instância EC2 contendo o nome Ec2BastionLinux.", 
+            "feedback":"Errado. Será criado uma EC2, contendo a imagem: ami-05fa00d4c63e098552, utilizando o tipo de instância t2.medium dentro da região sa-east-1a.", 
+            "correct":false,
+            "id": "07213a59-9901-4f9e-aa02-8d8bf1413bc7"
+        },
+        {   "text": "Será criando dentro da região de Virgínia, uma EC2 com as devidas indicações utilizando um IP Fixo.", 
+            "feedback":"Errado. Será criado uma EC2, contendo a imagem: ami-05fa00d4c63e098552, utilizando o tipo de instância t2.medium dentro da região sa-east-1a. Nessa configuração não está sendo referenciado a utilização de IP Válido para a EC2.", 
+            "correct":false,
+            "id": "07213a59-9901-4f9e-aa02-8d8bf1413bc8"
+        },
+        {   "text": "Será criado um EC2 com as configurações indicadas dentro do Bloco Properties.", 
+            "feedback":"Correto. Será criado uma EC2, contendo a imagem: ami-05fa00d4c63e098552, utilizando o tipo de instância t2.medium dentro da região sa-east-1a, bem como será adicionado a Tag: App contendo o valor Web.", 
+            "correct":true,
+            "id": "07213a59-9901-4f9e-aa02-8d8bf1413bc9"
+        },
+        {   "text": "Será criado um EC2 com as configurações indicadas dentro do Bloco Properties, apontando o seu diretório /var para um Bucket S3 dentro da mesma região, deste modo resguardando todos os logs com segurança e disponibilidade.", 
+            "feedback":"Errado. Será criado uma EC2, contendo a imagem: ami-05fa00d4c63e098552, utilizando o tipo de instância t2.medium dentro da região sa-east-1a. Nessa configuração não está sendo referenciado a utilização de Bucket S3 para a EC2.", 
+            "correct":false,
+            "id": "07213a59-9901-4f9e-aa02-8d8bf1413bc0"
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "SKU": "000005",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "tagsOrConcepts":["Cloud"],
+    "id": "7f9bf35f-12e2-4868-b27c-ab2128f22530",
+    "knowledgeArea": "Cloud",
+    "category": "AWS",
+    "subCategory": "Cloud Formation",
+    "level": "Advanced",
+    "text":[ 
+    "Sua conta da AWS possui cotas padronizadas, anteriormente chamadas de limites para cada produto. Assim como diversos serviços dentro da AWS, com o CloudFormation não é diferente e o mesmo possui um serviço de cota que determina seus limites para as execuções de Pilhas de código. Qual é o limite padrão para execuções do CloudFormation?"
+],
+    "alternatives": [
+        {   "text": "Atualmente, esse limite foi modificado, e o CloudFormation possui uma limitação de 500 pilhas por região utilizadas.", 
+            "feedback":"Errado. Por padrão, você pode executar somente 2000 pilhas do CloudFormation por região.", 
+            "correct":false,
+            "id": "7f9bf35f-12e2-4868-b27c-ab2128f22531"
+        },
+        {   "text": "O CloudFormation possui um limite de 2000 pilhas de forma global para todas as regiões que você possa utilizar. Desta maneira, se na sua empresa são utilizadas as regiões de Virginia e São Paulo, você terá um total de 1000 pilhas para cada uma delas.", 
+            "feedback":"Errado. Por padrão, você pode executar somente 2000 pilhas do CloudFormation por região.", 
+            "correct":false,
+            "id": "7f9bf35f-12e2-4868-b27c-ab2128f22532"
+        },
+        {   "text": "Esse serviço por fazer parte da estrutura de IAC da AWS, não possui limites para sua execução.", 
+            "feedback":"Errado. Por padrão, você pode executar somente 2000 pilhas do CloudFormation por região.", 
+            "correct":false,
+            "id": "7f9bf35f-12e2-4868-b27c-ab2128f22533"
+        },
+        {   "text": "O CloudFormation possui um Limite de 2000 pilhas por região para suas execuções.", 
+            "feedback":"Correto. Por padrão, você pode executar somente 2000 pilhas do CloudFormation por região na sua Conta da AWS", 
+            "correct":true,
+            "id": "7f9bf35f-12e2-4868-b27c-ab2128f22534"
+        }
+    ]
+}

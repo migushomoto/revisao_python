@@ -1,0 +1,37 @@
+{
+    "SKU": "000040",
+    "interpreter": 1,
+    "type": "VF",
+    "language": "NA",
+    "tagsOrConcepts":["Cloud"],
+    "id": "714b37b2-bf16-46e1-b42c-ac50df8d2d71",
+    "knowledgeArea": "Cloud",
+    "category": "AWS",
+    "subCategory": "Redis",
+    "level": "Advanced",
+    "text":[ 
+    "No ElastiCache Redis os endpoints de conexão recomendados diferem entre os tipos de configuração do cluster. Sua aplicação conecta-se ao seu cluster usando endpoints. Um endpoint é o endereço exclusivo de um nó ou cluster.Dependendo do tipo de cluster que você provisionou, o endpoint para acesso vai mudar. Com isso, podemos afirmar:"
+    ],
+    "alternatives": [
+        {   "text": "Ao utilizar o modo 'Redis standalone node', use o endpoint do nó para operações de leitura e gravação.", 
+            "feedback":"Resposta correta!",
+            "correct":true,
+            "id": "714b37b2-bf16-46e1-b42c-ac50df8d2d72"
+        },
+        {   "text": "Com o Redis em modo cluster desabilitado use o endpoint de configuração do cluster para todas as operações, já no modo cluster habilitado você pode utilizar o endpoint do nó para operações de leitura e gravação.", 
+            "feedback":"Errado. Você usa o endpoint de configuração do cluster para todas as operações com o modo cluster habilitado. Para utilizar o endpoint do nó para operações de leitura e gravação, seu redis precisará está em Redis standalone node.", 
+            "correct":false,
+            "id": "714b37b2-bf16-46e1-b42c-ac50df8d2d73"
+        },
+        {   "text": "Utilizando o redis em modo cluster habilitado, use o endpoint de configuração do cluster para todas as operações com suporte a comandos do modo cluster habilitado. Você deve usar um cliente que ofereça suporte ao Redis Cluster (Redis 3.2).", 
+            "feedback":"Resposta correta!",
+            "correct":true,
+            "id": "714b37b2-bf16-46e1-b42c-ac50df8d2d74"
+        },
+        {   "text": "Com o Redis em modo cluster desabilitado, use o endpoint primário para todas as operações de gravação. Use o endpoint de leitor para dividir uniformemente as conexões de entrada no endpoint entre todas as réplicas de leitura.", 
+            "feedback":"Resposta correta!",
+            "correct":true,
+            "id": "714b37b2-bf16-46e1-b42c-ac50df8d2d75"
+        }
+    ]
+}

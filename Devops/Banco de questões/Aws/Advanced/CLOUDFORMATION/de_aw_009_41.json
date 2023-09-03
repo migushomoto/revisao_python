@@ -1,0 +1,37 @@
+{
+    "SKU": "000001",
+    "interpreter": 1,
+    "type": "VF",
+    "language": "NA",
+    "tagsOrConcepts":["Cloud"],
+    "id": "62d79418-9da8-4c4a-a4e1-9c2fc629e249",
+    "knowledgeArea": "Cloud",
+    "category": "AWS",
+    "subCategory": "Cloud Formation",
+    "level": "Advanced",
+    "text":[ 
+    "O Cloud Development Kit (ou CDK) é o framework da AWS para interagir com o CloudFormation. Com o CDK você ganha ainda mais flexibilidade na composição e execução dos seus templates de infraestrutura na AWS, elevando ainda mais sua capacidade de escalabilidade e de economia. Dentre as opções abaixo, quais apresentam benefícios reais na utilização desse KIT?"
+    ],
+    "alternatives": [
+        {   "text": "Construir recursos de alto nível que fornecem automaticamente padrões sensatos e seguros para seus componentes na AWS", 
+            "feedback":"Correto. Através do AWS CDK você vai conseguir definir uma infraestrutura cada vez mais completa com menos código", 
+            "correct":true,
+            "id": "62d79418-9da8-4c4a-a4e1-9c2fc629e250"
+        },
+        {   "text": "Uma grande observação na utilização do CloudFormation é quanto ao uso de outras expressões de programação, tais como Loops e Parâmetros, pois nessa linguagem de infraestrutura como código ela somente aceita os seus comandos próprios.", 
+            "feedback":"Falso. É possível utilizar expressões de programação como parâmetros, condicionais, loops, composição e herança para modelar o design do seu sistema a partir dos blocos de construção fornecidos pela AWS e outros padrões.", 
+            "correct":false,
+            "id": "62d79418-9da8-4c4a-a4e1-9c2fc629e251"
+        },
+        {   "text": "Coloque sua infraestrutura, código de aplicativo e configuração em um só lugar, gerando segurança e rastreabilidade nas mudanças realizadas.", 
+            "feedback":"Correto. Através do CloudFormation e sua devida Stack você vai poder garantir que, em cada etapa, você tenha um sistema completo e implantável na nuvem.", 
+            "correct":true,
+            "id": "62d79418-9da8-4c4a-a4e1-9c2fc629e252"
+        },
+        {   "text": "Melhor utilização para práticas de engenharia de software e código.", 
+            "feedback":"Correto. Você vai poder criar análises de código, testes de unidade e controle de origem, para tornar sua infraestrutura mais robusta e menos suscetível a falhas", 
+            "correct":true,
+            "id": "62d79418-9da8-4c4a-a4e1-9c2fc629e253"
+        }
+    ]
+}

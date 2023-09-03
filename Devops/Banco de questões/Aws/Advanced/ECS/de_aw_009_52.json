@@ -1,0 +1,39 @@
+{
+    "SKU": "000012",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "tagsOrConcepts":["Cloud"],
+    "id": "f58c421c-b653-4144-ae94-f22fa1960c56",
+    "knowledgeArea": "Cloud",
+    "category": "AWS",
+    "subCategory": "ECS",
+    "level": "Advanced",
+    "text":[ 
+    "Com o Amazon ECS Exec, você pode interagir diretamente com contêineres sem precisar interagir primeiro com o sistema operacional do host. Você pode usar o ECS Exec para executar comandos em um contêiner em execução. Com base no comando abaixo listado, qual dentre as opções melhor indica o resultado que será obtido?",
+    "---",
+  "aws ecs execute-command --cluster cluster-name --task task-id --container container-name --interactive --command '/bin/sh' ",
+  "---"],
+    "alternatives": [
+        {   "text": "Com a execução do comando acima, o comando destruirá a Task acessada.", 
+            "feedback":"Resposta Incorreta! O comando e a interação listada acima, não irão realizar esse tipo de ação.", 
+            "correct":false,
+            "id": "f58c421c-b653-4144-ae94-f22fa1960c57"
+        },
+        {   "text": "Esse comando retornará erro visto que não é possível executar o /bin/sh dentro de uma Task.", 
+            "feedback":"Resposta Incorreta! É possível sim executar o /bin/sh dentro de um container disponível.", 
+            "correct":false,
+            "id": "f58c421c-b653-4144-ae94-f22fa1960c58"
+        },
+        {   "text": "O comando a seguir executará o comando /bin/ls interativo em um contêiner denominado container-name para uma tarefa com o id task-id..", 
+            "feedback": "Resposta Incorreta! O comando que será executado será o /bin/sh e você estará devidamente dentro da Task.", 
+            "correct":false,
+            "id": "f58c421c-b653-4144-ae94-f22fa1960c59"
+        },
+        {   "text": "O comando a seguir executará o comando /bin/sh interativo em um contêiner denominado container-name para uma tarefa com o id task-id.", 
+            "feedback":"Resposta Correta!", 
+            "correct":true,
+            "id": "f58c421c-b653-4144-ae94-f22fa1960c60"
+        }
+    ]
+}

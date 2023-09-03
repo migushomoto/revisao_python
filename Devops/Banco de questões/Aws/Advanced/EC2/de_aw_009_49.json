@@ -1,0 +1,40 @@
+{
+    "SKU": "000009",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "tagsOrConcepts":["Cloud"],
+    "id": "0e9c12e1-e049-4042-8d2c-050e366e9472",
+    "knowledgeArea": "Cloud",
+    "category": "AWS",
+    "subCategory": "EC2",
+    "level": "Advanced",
+    "text":[ 
+    "Você pode acessar os recursos do Amazon Elastic Compute Cloud (Amazon EC2) usando a AWS Command Line Interface (AWS CLI). Com base no comando abaixo listado, qual dentre as opções melhor indica o resultado que será obtido?",
+    "---",
+  "aws ec2 describe-volumes --filters Name=tag:Name,Values=Test*",
+    "--query 'Volumes[*].{ID:VolumeId,Tag:Tags}'",
+  "---"],
+    "alternatives": [
+        {   "text": "Esse comando descreve todos os volumes que possuem a chave de tag Name e um valor que termina com Test.", 
+            "feedback":"Resposta Incorreta! Esse comando escreve todos os volumes que possuem a chave de tag Name e um valor que começa com Test", 
+            "correct":false,
+            "id": "0e9c12e1-e049-4042-8d2c-050e366e9473"
+        },
+        {   "text": "Esse comando retornará erro visto que não é possível adicionar Tags para volumes utilizador por EC2.", 
+            "feedback":"Resposta Incorreta! É possível atribuir TAG a praticamente todos os recursos criados na AWS, e nesse caso o resultado desse comando vai descrever todos os volumes que possuem a chave de tag Name e um valor que começa com Test.", 
+            "correct":false,
+            "id": "0e9c12e1-e049-4042-8d2c-050e366e9474"
+        },
+        {   "text": "O resultado do comando vai trazer todos os volumes já criados, e disponíveis para uso em todas as instâncias que possuírem a Tag Test.", 
+            "feedback": "Resposta Incorreta! O resultado desse comando vai descrever todos os volumes que possuem a chave de tag Name e um valor que começa com Test.", 
+            "correct":false,
+            "id": "0e9c12e1-e049-4042-8d2c-050e366e9475"
+        },
+        {   "text": "O seguinte exemplo describe-volumes descreve todos os volumes que possuem a chave de tag Name e um valor que começa com Test. A saída é então filtrada com uma consulta que exibe apenas as tags e IDs dos volumes.", 
+            "feedback":"Resposta Correta!", 
+            "correct":true,
+            "id": "0e9c12e1-e049-4042-8d2c-050e366e9476"
+        }
+    ]
+}

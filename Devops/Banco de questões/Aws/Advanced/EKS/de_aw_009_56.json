@@ -1,0 +1,39 @@
+{
+    "SKU": "000016",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "tagsOrConcepts":["Cloud"],
+    "id": "ef808af9-5522-44f8-b71b-812343522137",
+    "knowledgeArea": "Cloud",
+    "category": "AWS",
+    "subCategory": "EKS",
+    "level": "Advanced",
+    "text":[ 
+    "Através do comando Kubectl, é possível interagir com um Cluster Kubernetes na AWS (EKS) através da linha de comando. Com base no comando abaixo listado, qual dentre as opções melhor indica o resultado que será obtido?",
+    "---",
+  "kubectl get daemonset kube-proxy --namespace kube-system -o=jsonpath='{$.spec.template.spec.containers[:1].image}'",
+  "---"],
+    "alternatives": [
+        {   "text": "Através desse comando você vai conseguir atualizar/remover a versão da imagem que está rodando dentro de um POD em execução no seu Cluster EKS.", 
+            "feedback":"Resposta Incorreta! O resultado desse comando vai trazer a versão da imagem que está rodando dentro de um POD.", 
+            "correct":false,
+            "id": "ef808af9-5522-44f8-b71b-812343522138"
+        },
+        {   "text": "Esse comando retornará erro visto que não é possível identificar a imagem de um POD sem conectar diretamente no mesmo.", 
+            "feedback":"Resposta Incorreta! É possível consultar essas informações via kubectl sim, e nesse caso o resultado desse comando vai trazer a versão da imagem que está rodando dentro de um POD.", 
+            "correct":false,
+            "id": "ef808af9-5522-44f8-b71b-812343522139"
+        },
+        {   "text": "O resultado do comando vai trazer todos os pods já criados e disponíveis que possuam uma imagem.", 
+            "feedback": "Resposta Incorreta! O resultado desse comando vai trazer a versão da imagem que está rodando dentro de um POD.", 
+            "correct":false,
+            "id": "ef808af9-5522-44f8-b71b-812343522140"
+        },
+        {   "text": "Através desse comando você vai conseguir verificar/identificar a versão da imagem que está rodando dentro de um POD em execução no seu Cluster EKS.", 
+            "feedback":"Resposta Correta!", 
+            "correct":true,
+            "id": "ef808af9-5522-44f8-b71b-812343522141"
+        }
+    ]
+}

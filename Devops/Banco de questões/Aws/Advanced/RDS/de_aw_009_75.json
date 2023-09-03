@@ -1,0 +1,37 @@
+{
+    "SKU": "000034",
+    "interpreter": 1,
+    "type": "VF",
+    "language": "NA",
+    "tagsOrConcepts":["Cloud"],
+    "id": "d3c4387d-8c52-4a75-ae35-6c74a6312212",
+    "knowledgeArea": "Cloud",
+    "category": "AWS",
+    "subCategory": "RDS",
+    "level": "Advanced",
+    "text":[ 
+    "O Amazon RDS, dispõe de métricas em tempo real na AWS para o sistema operacional (SO) no qual sua instância de banco de dados é executada. Você pode visualizar todas as métricas e informações de processo do sistema das suas instâncias de banco de dados do RDS no console. Você pode gerenciar quais métricas deseja monitorar para cada instância e personalizar o painel de acordo com os seus requisitos. Sobre métricas no RDS podemos afirmar que:"
+],
+    "alternatives": [
+        {   "text": "Por padrão, as métricas do monitoramento avançado são armazenadas por 30 dias no CloudWatch Logs. Esse período de retenção é diferente das métricas típicas do CloudWatch.", 
+            "feedback":"Resposta correta!", 
+            "correct":true,
+            "id": "d3c4387d-8c52-4a75-ae35-6c74a6312213"
+        },
+        {   "text": "Não há qualquer tipo de diferença nas métricas nativas geradas pelo Cloudwatch para o RDS, quando comparamos com o monitoramento avançado.", 
+            "feedback":"Errado. Você poderá encontrar diferenças entre as CloudWatch medidas do monitoramento avançado, pois a camada do hypervisor realiza uma pequena quantidade de trabalho. As diferenças podem ser maiores se as instâncias de banco de dados usarem classes de instância menores.", 
+            "correct":false,
+            "id": "d3c4387d-8c52-4a75-ae35-6c74a6312214"
+        },
+        {   "text": "As métricas de monitoramento avançado são armazenadas nas métricas do CloudWatch. O custo do monitoramento avançado é fixo e não depende de qualquer outro fator.", 
+            "feedback":"Errado. As métricas de monitoramento avançado são armazenadas no CloudWatch Logs e não métricas do CloudWatch. O custo do monitoramento avançado depende de outros fatores.",
+            "correct":false,
+            "id": "d3c4387d-8c52-4a75-ae35-6c74a6312215"
+        },
+        {   "text": "Bancos de Dados na AWS somente podem ser acessados internamente, através do CIDR da sua VPC Interna.", 
+            "feedback":"Resposta correta!",
+            "correct":true,
+            "id": "d3c4387d-8c52-4a75-ae35-6c74a6312216"
+        }
+    ]
+} 
