@@ -11,7 +11,7 @@
     "subCategory": "Generics",
     "level": "Basic",
     "text":["Em um programa é comum o controle de fluxo ao realizar comprações entre valores.",
-            "Qual o símbolo é utilizado para representar se um número é maior que outro em Python?"
+            "Qual o símbolo é utilizado para comparar se um número é maior que outro em Python?"
     ],
     "alternatives": [
         {   "text": "==",

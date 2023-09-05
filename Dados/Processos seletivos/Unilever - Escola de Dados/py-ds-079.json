@@ -11,8 +11,9 @@
     "subCategory": "Generics",
     "level": "Basic",
     "text":["Em programação funcional é comum o encadeamento de funções, por exemplo f(g(h(x))).",
-            "Considerando as funções abaixo qual o resultado da variável `resultado`?",
-            "---",
+            "Considerando as funções abaixo, qual o valor armazenado na variável `resultado` ao fim da execução do código?",
+            " ",
+            "```python ",
             "def calculo_complexo(a, b, c):",
             "\treturn ((a*b)/c)**0.5",
             "def soma(a, b):",
@@ -20,7 +21,8 @@
             "def subtracao(a, b):",
             "\treturn a - b",
             "resultado = soma(subtracao(calculo_complexo(15, 3, 5), 21), 172)",
-            "---"
+            "``` ",
+            " "
     ],
     "alternatives": [
         {   "text": "154.0",

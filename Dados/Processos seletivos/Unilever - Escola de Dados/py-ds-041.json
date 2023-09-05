@@ -10,10 +10,10 @@
     "category": "matemática",
     "subCategory": "Generics",
     "level": "Basic",
-    "text":[ "Quando trabalhamos com dados é comum queremos saber a dispersão dos dados, ou seja, o quão dispersos os valores estão a partir da sua média.",
+    "text":[ "Quando trabalhamos com dados é comum queremos saber a dispersão dos dados, ou seja, o quão dispersos os valores estão com relação à média.",
     "Uma medida frequentemente utilizada para calcular a dispersão dos dados é o desvio padrão.",
     "No reabastecimento de lojas do varejo, é muito importante determinar o desvio padrão das vendas de um determinado item, para reduzir a ruptura de estoque (falta de produto em loja).",
-    "Considerando que a loja venda em diferentes dias sendo 100, 23, 32, 51, 11, 15, e 22 unidades de um produto, qual o seu desvio padrão da população?",
+    "Considerando que a loja venda em diferentes dias: 100, 23, 32, 51, 11, 15, e 22 unidades de um produto, qual o seu desvio padrão da população?",
     "Considere duas casas após a vírgula"
     ],
     "alternatives": [

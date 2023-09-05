@@ -10,8 +10,8 @@
     "category": "lógica de programação",
     "subCategory": "Generics",
     "level": "Basic",
-    "text": ["Ao controlar o fluxo de um programa podemos realizar diferentes comparações entre valores.",
-             "Por exemplo, comparar se um valor é igual, diferente, etc.",
+    "text": ["Ao controlar o fluxo de um programa, podemos realizar diferentes comparações entre valores.",
+             "Por exemplo, comparar se dois valores são iguais, diferentes, etc.",
              "Dentre as alternativas abaixo, qual o operador correto para verificar se um valor é diferente do outro (não igual)?"
     ],
     "alternatives": [

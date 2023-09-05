@@ -12,7 +12,8 @@
     "level": "Basic",
     "text":["Em programação é comum utilizar estruturas que permitam que um laço seja repetido até que seja finalizada uma dada tarefa, por exemplo utilizando o `while`.",
             "No código qual o valor de `x` ao encerrar o laço `while`?",
-            "---",
+            " ",
+            "```python ",
             "x = 0",
             "continuar = True",
             "while continuar:",
@@ -22,7 +23,8 @@
             "\t\tx += 1",
             "\tif x >= 1025:",
             "\t\tcontinuar = False",
-            "---"
+            "``` ",
+            " "
     ],
     "alternatives": [
         {   "text": "infinito",

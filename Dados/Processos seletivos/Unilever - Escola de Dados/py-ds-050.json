@@ -10,9 +10,9 @@
     "category": "lógica de programação",
     "subCategory": "Generics",
     "level": "Basic",
-    "text":[ "Em diversos programas é necessário a entrada de alguma informação pelo usuário.",
-            "Uma forma de obter essa entrada, por exemplo um e-mail da pessoa usuária, é através da função `input`.",
-            "Qual o tipo (string, inteiro, float, etc) que a função `input` retorna em Python?"
+    "text":[ "Em diversos programas é necessária a entrada de alguma informação pelo usuário.",
+            "Uma forma de obter essa entrada (por exemplo um e-mail da pessoa usuária), é através da função `input`.",
+            "Qual o tipo de dado (string, inteiro, float, etc) que a função `input` retorna em Python?"
     ],
     "alternatives": [
         {   "text": "Lista (list)",

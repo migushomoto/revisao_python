@@ -11,11 +11,13 @@
     "subCategory": "Generics",
     "level": "Basic",
     "text":["Considerando o código Python abaixo, o que ele representa?",
-            "---",
+            " ",
+            "```python ",
             "resultado = 0",
             "for num in range(0, 10):",
-            "\tresultado += num",
-            "---"
+            "    resultado += num",
+            "``` ",
+            " "
     ],
     "alternatives": [
         {   "text": "Uma estrutura condicional",

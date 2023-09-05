@@ -11,14 +11,16 @@
     "subCategory": "Generics",
     "level": "Basic",
     "text":["Em diversos programas é comum utilizar apenas uma parcela dos dados para realizar algum processamento.",
-            "No código abaixo qual a sequência que será imprimida na tela?",
-            "---",
+            "No código abaixo qual a sequência que será exibida na tela?",
+            " ",
+            "```python ",
             "nomes = ['Ana', 'Carla', 'Alberto', 'Roberto', 'Laura',  'Anelise']",
             "renda = [10000, 5000, 3000, 5000, 7000, 12500,]",
             "for i in range(len(nomes)):",
             "\tif nomes[i].startswith('A'):",
             "\t\tprint(nomes[i], renda[i])",
-            "---"
+            "``` ",
+            " "
     ],
     "alternatives": [
         {   "text": "Ana 10000; Carla 5000; Alberto 3000; Roberto 5000; Laura 7000; Anelise 12500",

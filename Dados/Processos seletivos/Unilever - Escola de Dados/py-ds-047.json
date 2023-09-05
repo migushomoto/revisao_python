@@ -10,9 +10,9 @@
     "category": "lógica de programação",
     "subCategory": "Generics",
     "level": "Basic",
-    "text":[ "Para que um valor seja reaproveitável em um programa é importante que variáveis sejam declaradas.",
-    "Sabendo que podemos atribuir diferentes valores a uma variável (booleano, inteiro, float, strings, etc).",
-    "Dentre as opções abaixo qual é a forma correta de atribuir a string `banana` a uma variável em Python?"
+    "text":[ "Para que um valor seja reaproveitável em um programa, é importante que variáveis sejam criadas.",
+    "Em Python, podemos atribuir diferentes tipos de valores a uma variável (booleano, inteiro, float, strings, etc).",
+    "Dentre as opções abaixo, qual é a forma correta de atribuir a string `banana` a uma variável em Python?"
     ],
     "alternatives": [
         {   "text": "str texto = 'banana'",

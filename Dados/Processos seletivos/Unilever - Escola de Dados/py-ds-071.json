@@ -10,7 +10,7 @@
     "category": "lógica de programação",
     "subCategory": "Generics",
     "level": "Basic",
-    "text":["Além das listas as tuplas são uma estrutura de dados muito utilizada para o armazenamento de informações dentro de um programa.",
+    "text":["Além das listas, as tuplas são uma estrutura de dados muito utilizadas para o armazenamento de informações dentro de um programa.",
             "Qual das operações abaixo é valida para tuplas em Python?",
             "Considere a seguinte tupla: `tupla = (1, 2, 3, 4, 5)`"
     ],

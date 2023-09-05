@@ -11,7 +11,7 @@
     "subCategory": "Generics",
     "level": "Basic",
     "text":[
-        "Antes de iniciar a análise de dados é fundamental organizar esses dados de forma estruturada.",
+        "Antes de iniciar a análise de um conjunto de dados é fundamental organizar esses dados de forma estruturada.",
         "Uma das formas mais comuns de organizar os dados é no formato de linhas e colunas.",
         "Como é chamado o processo de organizar os dados em linhas e colunas?"
     ],
@@ -27,12 +27,12 @@
             "id": "93ead478-36e6-4832-a35d-44e68d2a0b46"
         },
         {   "text": "Tabulação",
-            "feedback":"A tabulação é o ato de organizar os dados em linha e colunas.",
+            "feedback":"A tabulação é o ato de organizar os dados em linhas e colunas.",
             "correct":true,
             "id": "bf848f51-ee8c-4682-b50b-d4dd8599d2ea"
         },
         {   "text": "Data Lake",
-            "feedback":"O data lake é um repositório central desenho para armazenar, processar e proteger grandes quantidades de dados estruturados, semi-estruturados, e desestruturados de dados.",
+            "feedback":"O data lake é um repositório central desenhado para armazenar, processar e proteger grandes quantidades de dados estruturados, semi-estruturados, e desestruturados.",
             "correct":false,
             "id": "a17aa3c3-6deb-4db3-90dd-a55c4eb142e5"
         },

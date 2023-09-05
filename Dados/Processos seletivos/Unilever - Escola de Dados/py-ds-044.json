@@ -12,7 +12,7 @@
     "level": "Basic",
     "text":["Considere que há uma fila de pessoas a serem atendidas em um banco.",
             "Cada pessoa necessita de um tipo específico de atendimento.",
-            "Qual das alternativas abaixo permite iterar sobre essa fila de pessoas, considerando a linguagem de programção Python?"
+            "Se representarmos a fila de pessoas por um objeto Python, qual das alternativas abaixo permite iterar sobre essa fila de pessoas, isto é, percorrer seus elementos?"
     ],
     "alternatives": [
         {   "text": "Variáveis",

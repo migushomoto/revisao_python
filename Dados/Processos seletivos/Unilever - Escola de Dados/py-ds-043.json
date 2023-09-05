@@ -10,7 +10,7 @@
     "category": "matemática",
     "subCategory": "Generics",
     "level": "Basic",
-    "text":["Em dados comumente utilizamos funções matemáticas para explicar o funcionamento de modelos e resultados obtidos.",
+    "text":["Em dados comumente utilizamos funções matemáticas para representar o funcionamento de modelos e resultados obtidos.",
             "Supondo uma função f(x) = 5, qual o valor de f(5)?"
     ],
     "alternatives": [

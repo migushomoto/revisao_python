@@ -12,7 +12,7 @@
     "level": "Basic",
     "text":["Em um programa é comum fatiar os dados para realizar uma operação específica.",
             "Esse processo pode ser útil para pequenos testes, ou para manipulação de dados.",
-            "Considerando que queremos os elementos que correspondem os seguintes indices: [0, 3, 9, 12].",
+            "Considerando que queremos os elementos que correspondem os seguintes indices: [0, 3, 6, 9, 12].",
             "De uma lista que compreende os seguintes elementos: `lista = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]`.",
             "Qual das opções abaixo permitem que esse elementos sejam selecionados de forma correta?",
             "Resultado esperado `[0, 3, 6, 9, 12]`."

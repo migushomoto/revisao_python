@@ -12,7 +12,7 @@
     "level": "Basic",
     "text":[ "Uma tarefa comum ao lidar com dados é a transformação de uma string para um número.",
              "Por exemplo, ao receber a string '10.31', queremos modificar esse para um valor flutuante de 10.31.",
-             "Qual operação permite que seja convertido uma string para float?"
+             "Qual operação permite que um número representado na forma de uma string seja convertido para um float?"
     ],
     "alternatives": [
         {   "text": "new Number('10.31')",

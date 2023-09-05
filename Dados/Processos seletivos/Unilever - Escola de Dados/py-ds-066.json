@@ -13,7 +13,7 @@
     "text":["No processamento e tratamento de dados uma operação comum é a padronização dos dados.",
             "Um exemplo de padronização é a transformação de strings para o formato minúsculo ou maiúsculo.",
             "Em Python há diversos métodos nativos que permitem essa manipulação.",
-            "Dentre as transformações possíveis é o uso de um método que transforma toda a primeira letra em maiúscula, deixando o resto em minúsculo. Por exemplo, a string 'a vida é bela' ficaria após essa transformação sendo 'A Vida É Bela'.",
+            "Dentre as transformações possíveis, existe um método que transforma toda a primeira letra das palavras em uma frase em maiúscula, deixando o resto em minúsculo. Por exemplo, a string 'a vida é bela' ficaria após essa transformação sendo 'A Vida É Bela'.",
             "Dentre as alternativas abaixo, qual é a que permite essa transformação?"
     ],
     "alternatives": [

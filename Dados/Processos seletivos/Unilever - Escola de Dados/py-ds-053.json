@@ -21,7 +21,7 @@
             "dia 365: semana 52",
             "---",
             "Considerando o padrão acima, qual das operações abaixo permitiria obter a semana do ano dado um dia do ano?",
-            "Considere que a variável dia corresponde ao dia do ano (1-365)."
+            "Considere que a variável `dia` corresponde ao dia do ano (1-365)."
     ],
     "alternatives": [
         {   "text": "dia % 365",
@@ -35,7 +35,7 @@
             "id": "ea7ea71d-d14e-4e65-876a-2039f79f30e9"
         },
         {   "text": "dia / 7",
-            "feedback":"Em Python o operado `/` corresponde a operação de divisão. Portanto, ao realizar a divisão do dia 15 (`(15 / 7)`), temos o resultado 2.14, em que a parte inteira corresponde a semana do ano, porém o número flutuante não permite obter de forma direta o resultado esperado.",
+            "feedback":"Em Python o operador `/` corresponde a operação de divisão. Portanto, ao realizar a divisão do dia 15 (`(15 / 7)`), temos o resultado 2.14, em que a parte inteira corresponde a semana do ano, porém o número flutuante não permite obter de forma direta o resultado esperado.",
             "correct":false,
             "id": "4d66a2fa-b97d-4499-a8f9-66092379e765"
         },
@@ -45,7 +45,7 @@
             "id": "90a1ae7f-68e8-4f3b-a22b-c880fe2c3036"
         },
         {   "text": "dia * 7 // 365",
-            "feedback":"Essa operação corresponde a multiplicação do dia por 7 (`dia * 7`) seguido da divisão inteira (`//`) por 365, dessa forma não é possível obter a semana do ano utilizando essa operação.",
+            "feedback":"Essa operação corresponde à multiplicação do dia por 7 (`dia * 7`) seguido da divisão inteira (`//`) por 365, dessa forma não é possível obter a semana do ano utilizando essa operação.",
             "correct":false,
             "id": "3a8a3517-726b-4acf-bc34-b5d8f6c061f8"
         }

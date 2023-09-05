@@ -10,16 +10,18 @@
     "category": "lógica de programação",
     "subCategory": "Generics",
     "level": "Basic",
-    "text":["Para o controle de fluxo em um programa é comum utilizar operadores lógicos.",
+    "text":["Para o controle de fluxo em um programa, é comum utilizarmos operadores lógicos.",
             "Por exemplo, imagine que em um supermercado o funcionamento de novos caixas dependem do número de clientes em uma fila.",
             "Pode ser pensado que caso haja mais de 6 pessoas em cada fila de caixa, um novo caixa deve ser aberto para aliviar a pressão e reduzir o tempo para pagamento.",
             "Considerando o código abaixo:",
-            "---",
+            " ",
+            "```python ",
             "condicao_1 = True",
             "condicao_2 = False",
             "resultado =  ((condicao_1 and condicao_2) or (condicao_1 and not condicao_2)) and ((not condicao_1) or (not condicao_2))",
-            "---",
-            "Qual o valor da variável resultado?"
+            "``` ",
+            " ",
+            "Qual o valor da variável `resultado` ao fim da execução?"
     ],
     "alternatives": [
         {   "text": "True",

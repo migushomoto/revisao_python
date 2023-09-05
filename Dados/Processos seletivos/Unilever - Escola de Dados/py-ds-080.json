@@ -23,7 +23,7 @@
             "correct":false,
             "id": "960820fd-647b-405d-be55-1516b7a5dd10"
         },
-        {   "text": "Funções são peças reutilizáveis em programas.",
+        {   "text": "Funções podem ser reutilizáveis entre diferemtes programas.",
             "feedback":"As funções são peças reutilizáveis em programas, em que permitem que um bloco de código consolidado (em uma função), possibilitando que seja executado em qualquer lugar dentro do programa por qualquer número de vezes.",
             "correct":true,
             "id": "db2a206b-13a9-4e3b-8496-fed7921aeb5e"
@@ -33,7 +33,7 @@
             "correct":false,
             "id": "7c5e0f14-822d-4d20-94d1-860e120fb2c4"
         },
-        {   "text": "As funções aumentam a complexidade do código.",
+        {   "text": "As funções sempre aumentam a complexidade do código.",
             "feedback":"Ao utilizar boas práticas de programação, a complexidade do código tende a ser reduzida ao utilizar funções, reduzindo o acomplamento e aumentando a coesão.",
             "correct":false,
             "id": "8b679989-4da4-4e86-8dcd-75fcfd531b33"

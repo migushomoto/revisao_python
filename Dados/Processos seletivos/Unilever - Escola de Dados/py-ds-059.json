@@ -11,8 +11,9 @@
     "subCategory": "Generics",
     "level": "Basic",
     "text":["Em um programa é comum manipular os dados de acordo com uma condição.",
-            "No código abaixo qual o valor da variável `total`?",
-            "---",
+            "No código abaixo, qual o valor da variável `total` ao fim da execução?",
+            " ",
+            "```python ",
             "total = 0",
             "for x in range(0, 100):",
             "\tif x % 2 == 0 and x % 5 == 0:",
@@ -23,7 +24,8 @@
             "\t\ttotal -= 42",
             "\telse:",
             "\t\ttotal += 1",
-            "---"
+            "``` ",
+            " "
     ],
     "alternatives": [
         {   "text": "-47058",

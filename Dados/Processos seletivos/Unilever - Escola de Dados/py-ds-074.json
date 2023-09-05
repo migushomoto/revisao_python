@@ -12,13 +12,15 @@
     "level": "Basic",
     "text":["O dicionário em Python é utilizado para o armazenamento de chaves e valores de forma estruturada.",
             "Qual a forma correta de alterar a chave 'cor' para o valor 'vermelho', no dicionário carro?",
-            "---",
+            " ",
+            "```python ",
             "carro = {",
             "'modelo': 'Toyota',",
             "'ano': '2017',",
             "'cor': 'azul'",
             "}",
-            "---"
+            "``` ",
+            " "
     ],
     "alternatives": [
         {   "text": "carro = {'cor': 'vermelho'}",

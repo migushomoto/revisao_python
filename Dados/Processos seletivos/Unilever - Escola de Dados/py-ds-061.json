@@ -11,13 +11,15 @@
     "subCategory": "Generics",
     "level": "Basic",
     "text":["O laço `for` é útil ao iterar sobre uma pilha ou fila, permitindo que uma operação seja realizada por `n` passos.",
-            "No código abaixo qual o valor da variável `total`?",
-            "---",
+            "No código abaixo qual o valor da variável `total` ao fim da execução?",
+            " ",
+            "```python ",
             "total = 0",
             "for x in range(1, 15, 3):",
             "\ttotal += 1",
             "\ttotal *= x",
-            "---"
+            "``` ",
+            " "
     ],
     "alternatives": [
         {   "text": "8333",

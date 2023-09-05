@@ -11,8 +11,9 @@
     "subCategory": "Generics",
     "level": "Basic",
     "text":["Em um programa é possível realizar diversas operações de controle de acordo com a entrada de dados.",
-            "Qual é o valor da variável `salario` seguindo o trecho de código em Python abaixo?",
-            "---",
+            "Qual é o valor da variável `salario` ao fim da execução do trecho de código em Python abaixo?",
+            " ",
+            "```python ",
             "tempo_de_empresa = 5",
             "cargo = 'Gerente'",
             "if tempo_de_empresa < 2 and cargo == 'Analista':",
@@ -27,7 +28,8 @@
             "\tsalario = 11000 * fator",
             "else:",
             "\tsalario = 1000",
-            "---"
+            "``` ",
+            " "
     ],
     "alternatives": [
         {   "text": "5000",

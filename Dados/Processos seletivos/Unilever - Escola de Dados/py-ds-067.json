@@ -11,8 +11,8 @@
     "subCategory": "Generics",
     "level": "Basic",
     "text":["Em processamento de linguagem natural (PLN, ou NLP em inglês) é comum a divisão de um documento ou frase em tokens.",
-            "Essa divisão é conhecida como tokenização, por exemplo, a frase 'Hoje acordei e o dia estava muito bonito', pode gerar os seguintes tokens: ['Hoje', 'acordei', 'e', 'o', 'dia', 'estava', 'muito', 'bonito'].",
-            "Qual dos métodos de string permite a separação de uma frase (string) em tokens?",
+            "Essa divisão é conhecida como tokenização, e pode ser feita de diversas formas. Por exemplo, a frase 'Hoje acordei e o dia estava muito bonito', pode gerar os seguintes tokens: ['Hoje', 'acordei', 'e', 'o', 'dia', 'estava', 'muito', 'bonito'].",
+            "Qual dos métodos de string permite a separação de uma frase (string) em tokens, em que cada token é uma palavra isolada?",
             "Considere que a frase está armazenada numa variável chamada `texto`."
     ],
     "alternatives": [

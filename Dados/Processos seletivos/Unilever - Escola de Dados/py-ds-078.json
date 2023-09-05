@@ -12,7 +12,7 @@
     "level": "Basic",
     "text":["Em Python as funções podem aceitar um parâmetro padrão (default).",
             "Esses parâmetros padrão, permitem que uma função aceite esse como opcional quando essa função é invocada.",
-            "Dentre as alternativas abaixo qual a forma correta de declarar uma função com um valor padrão sendo um número inteiro igual a `10`?"
+            "Dentre as alternativas abaixo, qual a forma correta de declarar uma função com um valor padrão sendo um número inteiro igual a `10`?"
     ],
     "alternatives": [
         {   "text": "def funcao(arg):",

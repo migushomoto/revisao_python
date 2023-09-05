@@ -12,7 +12,8 @@
     "level": "Basic",
     "text":["Em programação é comum utilizar estruturas que permitam que um laço seja repetido até que seja finalizada uma dada tarefa, por exemplo utilizando o `while`.",
             "No código qual o valor de `x` ao encerrar o laço `while`?",
-            "---",
+            " ",
+            "```python ",
             "x = 0",
             "continuar = True",
             "while continuar:",
@@ -20,10 +21,11 @@
             "\t\tx = x + 5",
             "\telse:",
             "\t\tx += 1",
-            "---"
+            "``` ",
+            " "
     ],
     "alternatives": [
-        {   "text": "infinito",
+        {   "text": "há um loop infinito",
             "feedback":"Ocorre um loop infinito, ou seja, o laço `while` não encontra um caso de quebra, continuando a executar indefinidamente.",
             "correct":true,
             "id": "dd6ea198-9ff4-4155-a95b-fe2d85847c5d"
