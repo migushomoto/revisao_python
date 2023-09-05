@@ -15,7 +15,7 @@
             "```python ",
             "resultado = 0",
             "for num in range(0, 10):",
-            "    resultado += num",
+            "\tresultado += num",
             "``` ",
             " "
     ],

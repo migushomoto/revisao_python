@@ -14,7 +14,7 @@
              "Qual o resultado da operação abaixo em Python?",
             " ",
             "```python ",
-             "4 * 2 + 15 + 3 * 2 + 2 ** 2",
+            "4 * 2 + 15 + 3 * 2 + 2 ** 2",
             "``` ",
             " "
     ],
