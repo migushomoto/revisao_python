@@ -13,7 +13,7 @@
     "text":["Em um programa, muitos vezes é importante a interação do usuário com o aplicação.",
             "Por exemplo, ao executar uma tarefa é importante dar visibilidade à pessoa usuária que o programa começou a executar um processo, o progresso, e o término dessa tarefa.",
             "Uma das formas de fornecer essa visibilidade à pessoa usuária é exibindo um texto na tela.",
-            "Qual é a forma correta de exibir o texto 'Olá, mundo!` na tela utilizando Python 3.x?"
+            "Qual é a forma correta de exibir o texto `Olá, mundo!` na tela utilizando Python 3.x?"
     ],
     "alternatives": [
         {   "text": "show('Olá mundo!')",
