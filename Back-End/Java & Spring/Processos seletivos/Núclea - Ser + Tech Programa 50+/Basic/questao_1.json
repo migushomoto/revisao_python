@@ -1,0 +1,52 @@
+{
+    "id": "e37dd6a9-260d-45c2-bf7c-371f28af6a6f",
+    "SKU": "000001",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "java",
+    "knowledgeArea": "Back-End",
+    "category": "Java",
+    "subCategory": "Lógica de Programação",
+    "level": "Basic",
+    "tagsOrConcepts": [
+        "Lógica"
+    ],
+    "text": [
+        "Qual o resultado da seguinte operação em Java?",
+        "int a = 10;",
+        "int b = 5;",
+        "int resultado = a / b;"
+    ],
+    "alternatives": [
+        {
+            "id": "3dcd6e9a-eb6f-47b0-8991-fd7e9f83fd6c",
+            "text": "2",
+            "feedback" : "O resultado retorna um inteiro, por isso não exibe erro.",
+            "correct": true
+        },
+        {
+            "id": "f2de6dd7-48b2-432d-b38c-db9315fd58da",
+            "text": "2.0",
+            "feedback": "O resultado é um valor inteiro, e não possuí ponto flutuante.",
+            "correct": false
+        },
+        {
+            "id": "b386bb27-721c-4fbd-890a-c9171fc4398e",
+            "text": "10",
+            "feedback": "Não é correto pois a operação é de divisão.",
+            "correct": false
+        },
+        {
+            "id": "b03c2aca-b126-419c-865b-d199d3fac85e",
+            "text": "0.5",
+            "feedback": "Não é correto pois a operação é de divisão.",
+            "correct": false
+        },
+        {
+            "id": "0cc83293-f6de-4a69-abfa-b0365918f23b",
+            "text": "Retornará um erro de compilação",
+            "feedback": "O resultado compila pois é uma operação válida.",
+            "correct": false
+        }
+    ]
+}

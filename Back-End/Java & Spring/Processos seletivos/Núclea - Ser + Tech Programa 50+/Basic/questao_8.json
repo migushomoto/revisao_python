@@ -1,0 +1,49 @@
+{
+    "id": "e6c381ca-4eb7-4fa2-b54a-1f815f38363e",
+    "SKU": "000001",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "java",
+    "knowledgeArea": "Back-End",
+    "category": "Java",
+    "subCategory": "Lógica de Programação",
+    "level": "Basic",
+    "tagsOrConcepts": [
+        "Lógica"
+    ],
+    "text": [
+        "Qual dos seguintes loops em Java está correto para iterar por uma coleção de elementos, como um ArrayList ou um array?"
+    ],
+    "alternatives": [
+        {
+            "id": "66709b1c-9b88-4e23-95a1-e545f90f6a3f",
+            "text": "for (int i = 0; i++) {}",
+            "feedback": "Esta opção não está correta pois não tem o verificador.",
+            "correct": false
+        },
+        {
+            "id": "2f0aa6d0-c87c-45b7-81ed-2938a1522f68",
+            "text": "while (true) {}",
+            "feedback": "Esta opção está incorreta pois se torna um loop infinito.",
+            "correct": false
+        },
+        {
+            "id": "592acb9b-3d58-454a-8771-aba5c5baca9b",
+            "text": "for (String item : collection) {}",
+            "feedback": "Esta é a opção correta, pois a forma de iterar é a ideal.",
+            "correct": true
+        },
+        {
+            "id": "2e6536a5-737b-48a6-8e54-5b9c600c9c63",
+            "text": "do {} while (true);",
+            "feedback": "Esta opção está incorreta pois se torna um loop infinito.",
+            "correct": false
+        },
+        {
+            "id": "9323657e-f97f-4162-8c6b-5f5f9db496ba",
+            "text": "switch (true) {}",
+            "feedback": "Esta opção está incorreta pois se torna um loop infinito.",
+            "correct": false
+        }
+    ]
+}
