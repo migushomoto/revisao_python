@@ -1,0 +1,50 @@
+{
+    "SKU": "PY-DS-068",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "tagsOrConcepts":["manipulação de strings (foco em métodos de strings)"],
+    "UUID": "ae891e0d-8b8e-459a-ac37-2db3d0ae48cf",
+    "id": "ae891e0d-8b8e-459a-ac37-2db3d0ae48cf",
+    "knowledgeArea": "Dados",
+    "category": "lógica de programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "text":["Ao trabalhar com processamento de linguagem natural é comum o tratamento dos dados de entrada",
+            "O método `replace` pode ser utilizado como parte desse processamento.",
+            "No código abaixo qual o valor da variável `texto_tratado`?",
+            " ",
+            "```python ",
+            "texto = 'Hoje comi uma banana. Porém a banana está cara então comprarei uma melancia.'",
+            "texto_tratado = texto.replace('banana', 'uva')",
+            "``` ",
+            " "
+    ],
+    "alternatives": [
+        {   "text": "'Hoje comi uma uva. Porém a uva está cara então comprarei uma melancia.'",
+            "feedback":"O método `replace` permite substituir as `n` primeiras ocorrências de uma string por outra. No caso quando o número de ocorrências não é informado todas as aparições serão substituidas. No exemplo acima, toda vez que a sub-string `banana` for identificada essa será substituída pela string `uva`.",
+            "correct":true,
+            "id": "d38e0977-bc77-4b64-96f4-0c0a8fae99d2"
+        },
+        {   "text": "'Hoje comi uma banana. Porém a uva está cara então comprarei uma melancia.'",
+            "feedback":"O método `replace` permite substituir as `n` primeiras ocorrências de uma string por outra. No caso quando o número de ocorrências não é informado todas as aparições serão substituidas. No exemplo acima, toda vez que a sub-string `banana` for identificada essa será substituída pela string `uva`. Na resposta, a primeira sub-string `banana` não foi substituida por uva, portanto não atingindo o resultado esperado.",
+            "correct":false,
+            "id": "d4938529-32dd-4d38-84bb-4a7768c59712"
+        },
+        {   "text": "'Hoje comi uma uva. Porém a banana está cara então comprarei uma melancia.'",
+            "feedback":"O método `replace` permite substituir as `n` primeiras ocorrências de uma string por outra. No caso quando o número de ocorrências não é informado todas as aparições serão substituidas. No exemplo acima, toda vez que a sub-string `banana` for identificada essa será substituída pela string `uva`. Na resposta, a segunda sub-string `banana` não foi substituida por uva, portanto não atingindo o resultado esperado.",
+            "correct":false,
+            "id": "e19688dd-bcfd-4e66-92d4-055b096f25cd"
+        },
+        {   "text": "'Hoje comi uma uva. Porém a uva está cara então comprarei uma uva.'",
+            "feedback":"O método `replace` permite substituir as `n` primeiras ocorrências de uma string por outra. No caso quando o número de ocorrências não é informado todas as aparições serão substituidas. No exemplo acima, toda vez que a sub-string `banana` for identificada essa será substituída pela string `uva`. Na resposta, houve a substituição da sub-string `melancia` por uva, e portanto não atingindo o resultado esperado",
+            "correct":false,
+            "id": "bdd24cd8-8c46-4710-b44c-023c1ab454d1"
+        },
+        {   "text": "'Hoje comi uma . Porém a  está cara então comprarei uma melancia.'",
+            "feedback":"O método `replace` permite substituir as `n` primeiras ocorrências de uma string por outra. No caso quando o número de ocorrências não é informado todas as aparições serão substituidas. No exemplo acima, toda vez que a sub-string `banana` for identificada essa será substituída pela string `uva`. Na resposta, houve a substituição da sub-string `banana` por uma string vazia ('') e portanto não atingindo o resultado esperado.",
+            "correct":false,
+            "id": "459862f6-4bf6-45ab-a40c-05bb6cfca185"
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "SKU": "PY-DS-062",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "tagsOrConcepts":["for e listas (manipulação e métodos)"],
+    "UUID": "8a31c865-ddf6-43c6-a0aa-74eb86fe9805",
+    "id": "8a31c865-ddf6-43c6-a0aa-74eb86fe9805",
+    "knowledgeArea": "Dados",
+    "category": "lógica de programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "text":["Listas são úteis para armazenar elementos mutáveis em Python, por exemplo uma fila de clientes a serem atendidos.",
+            "Qual das alternativas abaixo permite a criação de uma lista vazia em Python?"
+    ],
+    "alternatives": [
+        {   "text": "lista = new list",
+            "feedback":"A palavra-chave `new` não existe em Python.",
+            "correct":false,
+            "id": "c99da077-ceb4-4665-bdf7-1189c5e4d198"
+        },
+        {   "text": "lista = []",
+            "feedback":"Essa é a forma correta para criação de uma lista vazia em Python.",
+            "correct":true,
+            "id": "3d35af8c-2edc-45fc-bf26-6947cc61a7f7"
+        },
+        {   "text": "lista = array()",
+            "feedback":"Em Python não existe a palavra-chave `array` para criação de listas",
+            "correct":false,
+            "id": "01f93e09-966e-4b6b-b2db-77be3ab4148e"
+        },
+        {   "text": "lista = {}",
+            "feedback":"Essa opção cria um dicionário vazio em Python.",
+            "correct":false,
+            "id": "c347bfac-b771-43ec-ba0b-e1f15f7ccf02"
+        },
+        {   "text": "lista = list",
+            "feedback":"Apesar de ser possível utilizar a classe `list` para criação de listas vazias, a forma correta é list(), instânciando a classe com nenhum elemento.",
+            "correct":false,
+            "id": "7e23865b-628a-4988-9b4d-e25c55f67081"
+        }
+    ]
+}

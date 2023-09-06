@@ -1,0 +1,61 @@
+{
+    "SKU": "PY-DS-060",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "tagsOrConcepts":["estruturas condicionais e while"],
+    "UUID": "fe055dae-a619-4745-8fd1-5f6b6b6774c3",
+    "id": "fe055dae-a619-4745-8fd1-5f6b6b6774c3",
+    "knowledgeArea": "Dados",
+    "category": "lógica de programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "text":["O uso do laço `while` é comum para processar uma fila ou uma pilha, além de repetir o processamento até que uma condição base seja quebrada.",
+            "No código abaixo qual é a situação que o laço `while` é interrompido?`",
+            " ",
+            "```python ",
+            "cadastros = []",
+            "while True:",
+            "\tnome = input('Qual seu nome? ')",
+            "\tidade = input('Qual sua idade? ')",
+            "\tcadastro = [nome, idade]",
+            "\tcadastros.append(cadastro)",
+            "\tcontinuar = input('Deseja cadastrar um novo usuário? ')",
+            "\tif continuar in ['não', 'n', 'nao']:",
+            "\t\tbreak",
+            "\telif continuar in ['sim', 's']:",
+            "\t\tpass",
+            "\telse:",
+            "\t\tprint(f'Comando desconhecido {continuar}, escolha entre [sim, s, não, nao, n]')",
+            "print(cadastros)",
+            "``` ",
+            " "
+    ],
+    "alternatives": [
+        {   "text": "O laço é interrompido ao adicionar a idade.",
+            "feedback":"Ao adicionar o `input` para variável idade o laço continua a ser executado indefinidamente.",
+            "correct":false,
+            "id": "905837a7-6eb8-49ac-958d-8b1efa6a2c6d"
+        },
+        {   "text": "O laço é interrompido ao adicionar o nome e idade.",
+            "feedback":"Tanto os `inputs` referente ao nome e a idade não são condições de parada para o `while` loop.",
+            "correct":false,
+            "id": "bfdbd8fb-5d30-4b0f-9119-946f75299549"
+        },
+        {   "text": "O laço é interrompido ao adicionar o nome.",
+            "feedback":"Ao adicionar o `input` para variável nome o laço continua a ser executado indefinidamente.",
+            "correct":false,
+            "id": "c46ebdba-2ff8-49af-9dcb-89afd26fe58f"
+        },
+        {   "text": "O laço é interrompido apenas quando digitarmos um valor desconhecido na variável continuar.",
+            "feedback":"Ao adicionar um valor diferente de `sim`, `s`, `nao`, `n`, `não` a variável continuar, o loop continuará a ser executado, indicando apenas que houve a inserção de um valor desconhecido.",
+            "correct":false,
+            "id": "8dffcf6f-79b3-4ebf-8de5-9f8a41043ad1"
+        },
+        {   "text": "O laço é interrompido apenas quando digitarmos um valor correspondente a `não`, `n`, ou `nao` na variável continuar.",
+            "feedback":"Ao inserir o valor de `não`, `n`, ou `nao` a variável continuar haverá a interrupção do laço `while`.",
+            "correct":true,
+            "id": "a01342b4-561d-47a7-b5d5-3bee8f554832"
+        }
+    ]
+}

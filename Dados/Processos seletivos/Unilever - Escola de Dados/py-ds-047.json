@@ -1,0 +1,44 @@
+{
+    "SKU": "PY-DS-047",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "tagsOrConcepts":["variáveis, coerção de dados, input/print"],
+    "UUID": "c2a72fd1-34c3-41e2-83e0-7ab950785ae7",
+    "id": "c2a72fd1-34c3-41e2-83e0-7ab950785ae7",
+    "knowledgeArea": "Dados",
+    "category": "lógica de programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "text":[ "Para que um valor seja reaproveitável em um programa, é importante que variáveis sejam criadas.",
+    "Em Python, podemos atribuir diferentes tipos de valores a uma variável (booleano, inteiro, float, strings, etc).",
+    "Dentre as opções abaixo, qual é a forma correta de atribuir a string `banana` a uma variável em Python?"
+    ],
+    "alternatives": [
+        {   "text": "str texto = 'banana'",
+            "feedback":"str texto = 'banana' está incorreto, pois a palavra-chave `str` não é utilizada na declaração de variáveis em Python",
+            "correct":false,
+            "id": "eddfd598-b70a-40b6-b9d2-60c0dad183d7"
+        },
+        {   "text": "var texto = 'banana'",
+            "feedback":"var texto = 'banana' está incorreto, pois a palavra-chave `var` não existe e nem é utilizada na declaração de variáveis em Python, sendo utilizada em outras linguagens de programação (JavaScript, por exemplo).",
+            "correct":false,
+            "id": "281df493-4c42-448d-b08d-6660d98a9ea9"
+        },
+        {   "text": "'banana' = texto",
+            "feedback":"'banana' = texto está incorreto, pois o nome da variável (`texto`) está a direita do seu valor, sendo o correto o nome da variável estar a esquerda (texto = 'banana')",
+            "correct":false,
+            "id": "7cef7172-1d61-4854-abb7-c48a855227e4"
+        },
+        {   "text": "const texto = 'banana'",
+            "feedback":"const texto = 'banana' está incorreto, pois a palavra-chave `const` não existe e nem é utilizada na declaração de variáveis em Python, sendo utilizada em outras linguagens de programação (JavaScript, por exemplo).",
+            "correct":false,
+            "id": "9630a5b8-e280-449f-8aeb-095bb9ad9743"
+        },
+        {   "text": "texto = 'banana'",
+            "feedback":"Em Python, atribuímos uma string a uma variável com o nome da variável antes do sinal de `=` e o valor a ser atruído a direita do igual.",
+            "correct":true,
+            "id": "c330fe28-98f2-4a4f-b68c-e92bf36bce1a"
+    }
+    ]
+}

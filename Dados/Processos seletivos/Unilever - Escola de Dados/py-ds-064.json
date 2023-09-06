@@ -1,0 +1,44 @@
+{
+    "SKU": "PY-DS-064",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "tagsOrConcepts":["for e listas (manipulação e métodos)"],
+    "UUID": "4ac9e637-5f5a-42b0-baaa-0a4f3b2e3b68",
+    "id": "4ac9e637-5f5a-42b0-baaa-0a4f3b2e3b68",
+    "knowledgeArea": "Dados",
+    "category": "lógica de programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "text":["Listas são estruturadas de dados úteis para o armazenamento de diferentes valores em Python.",
+            "Por exemplo o armazenamento de cadastros de pessoas de um sistema.",
+            "Considerando que queremos adicionar novas pessoas em uma lista de cadastro, dentre as alternativas abaixo, qual é a forma correta para adicionar um novo cadastro na lista `cadastros` em Python (considerando que esse novo cadastro será inserido no final da lista)?"
+    ],
+    "alternatives": [
+        {   "text": "cadastros.add(cadastro)",
+            "feedback":"Não existe o método `add` para listas em Python",
+            "correct":false,
+            "id": "1e04b098-f141-4ee0-846b-6d70b49734eb"
+        },
+        {   "text": "cadastros.push(cadastro)",
+            "feedback":"O método `push` não existe em listas em Python, sendo utilizado em linguagens como JavaScript por exemplo.",
+            "correct":false,
+            "id": "5455b579-86e6-4b84-9993-8f163cdc69d9"
+        },
+        {   "text": "cadastros.append(cadastro)",
+            "feedback":"O método `append` é a forma correta de adicionar novos elementos no final de uma lista em Python.",
+            "correct":true,
+            "id": "32b5cb6b-c72f-4f08-86f1-3ca17e12b54e"
+        },
+        {   "text": "cadastros.appendNew(cadastro)",
+            "feedback":"Não existe o método `appendNew` em Python",
+            "correct":false,
+            "id": "4623f801-8d41-4f9b-949b-4eb5f0e8987c"
+        },
+        {   "text": "cadastros + cadastro",
+            "feedback":"Ao realizar a operação __add__ (+) entre listas ocorre a concatenação de listas em Python, porém considerando que `cadastro` é um elemento que deveria ser inserido na lista `cadastros` essa operação não é válida para ser resolvido o problema.",
+            "correct":false,
+            "id": "9848fbe4-736b-4a06-9795-87df33cfbc79"
+        }
+    ]
+}

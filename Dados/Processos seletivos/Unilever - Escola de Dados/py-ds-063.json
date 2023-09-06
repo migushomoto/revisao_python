@@ -1,0 +1,52 @@
+{
+    "SKU": "PY-DS-063",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "tagsOrConcepts":["for e listas (manipulação e métodos)"],
+    "UUID": "35c882e5-307c-43b7-9dcd-1b49b4089a20",
+    "id": "35c882e5-307c-43b7-9dcd-1b49b4089a20",
+    "knowledgeArea": "Dados",
+    "category": "lógica de programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "text":["Em diversos programas é comum utilizar apenas uma parcela dos dados para realizar algum processamento.",
+            "No código abaixo qual a sequência que será exibida na tela?",
+            " ",
+            "```python ",
+            "nomes = ['Ana', 'Carla', 'Alberto', 'Roberto', 'Laura',  'Anelise']",
+            "renda = [10000, 5000, 3000, 5000, 7000, 12500,]",
+            "for i in range(len(nomes)):",
+            "\tif nomes[i].startswith('A'):",
+            "\t\tprint(nomes[i], renda[i])",
+            "``` ",
+            " "
+    ],
+    "alternatives": [
+        {   "text": "Ana 10000; Carla 5000; Alberto 3000; Roberto 5000; Laura 7000; Anelise 12500",
+            "feedback":"O laço `for` irá iterar sobre cada index da lista `nomes` (range(len(nomes)). Na condicional `if` há a verificação se o nome começa com a letra `A` (`if nomes[i].startswith('A')`, caso seja verdadeiro essa verificação, será imprimido tanto o nome como a renda da pessoa correspondente (mesmo indíce). Nessa opção não houve a verificação do inicial do nome, imprimindo todos os nomes e rendas.",
+            "correct":false,
+            "id": "3195e403-bb0e-439c-9e1d-3c34f6ecfcb6"
+        },
+        {   "text": "Ana 10000; Alberto 3000; Anelise 12500",
+            "feedback":"O laço `for` irá iterar sobre cada index da lista `nomes` (range(len(nomes)). Na condicional `if` há a verificação se o nome começa com a letra `A` (`if nomes[i].startswith('A')`, caso seja verdadeiro essa verificação, será imprimido tanto o nome como a renda da pessoa correspondente (mesmo indíce).",
+            "correct":true,
+            "id": "2dfdcb8d-3471-4de7-a356-53c6b1ee363c"
+        },
+        {   "text": "Ana; Alberto; Anelise; 10000; 3000; 12500",
+            "feedback":"O laço `for` irá iterar sobre cada index da lista `nomes` (range(len(nomes)). Na condicional `if` há a verificação se o nome começa com a letra `A` (`if nomes[i].startswith('A')`, caso seja verdadeiro essa verificação, será imprimido tanto o nome como a renda da pessoa correspondente (mesmo indíce). Nessa opção o nome e a renda deveriam ser imprimidas lado a lado, tornando a opção inválida.",
+            "correct":false,
+            "id": "f9c3d7c1-aeb9-491b-9104-29b6ab81a4ac"
+        },
+        {   "text": "Carla 5000; Roberto 5000; Laura 7000",
+            "feedback":"O laço `for` irá iterar sobre cada index da lista `nomes` (range(len(nomes)). Na condicional `if` há a verificação se o nome começa com a letra `A` (`if nomes[i].startswith('A')`, caso seja verdadeiro essa verificação, será imprimido tanto o nome como a renda da pessoa correspondente (mesmo indíce). Nessa opção apenas os nomes que não iniciam com `A` foram imprimidos tornando a opção falsa.",
+            "correct":false,
+            "id": "70770180-400d-487f-bed2-ab51338720e6"
+        },
+        {   "text": "Ana; Alberto; Anelise",
+            "feedback":"O laço `for` irá iterar sobre cada index da lista `nomes` (range(len(nomes)). Na condicional `if` há a verificação se o nome começa com a letra `A` (`if nomes[i].startswith('A')`, caso seja verdadeiro essa verificação, será imprimido tanto o nome como a renda da pessoa correspondente (mesmo indíce). Nessa opção há apenas o nome das pessoas faltando a renda correspondente.",
+            "correct":false,
+            "id": "7fb21ad3-aa19-4535-988a-0c0253d87c3f"
+        }
+    ]
+}

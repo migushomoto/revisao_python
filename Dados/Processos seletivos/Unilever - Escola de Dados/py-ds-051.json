@@ -1,0 +1,45 @@
+{
+    "SKU": "PY-DS-051",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "tagsOrConcepts":["variáveis, coerção de dados, input/print"],
+    "UUID": "84416709-04d7-4f86-939e-b1be5b7efd82",
+    "id": "84416709-04d7-4f86-939e-b1be5b7efd82",
+    "knowledgeArea": "Dados",
+    "category": "lógica de programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "text":["Em um programa, muitos vezes é importante a interação do usuário com o aplicação.",
+            "Por exemplo, ao executar uma tarefa é importante dar visibilidade à pessoa usuária que o programa começou a executar um processo, o progresso, e o término dessa tarefa.",
+            "Uma das formas de fornecer essa visibilidade à pessoa usuária é exibindo um texto na tela.",
+            "Qual é a forma correta de exibir o texto `Olá, mundo!` na tela utilizando Python 3.x?"
+    ],
+    "alternatives": [
+        {   "text": "show('Olá mundo!')",
+            "feedback":"Não existe a função `show` em Python.",
+            "correct":false,
+            "id": "f28f4657-c5f6-45f4-af3c-1e9c6393051a"
+        },
+        {   "text": "console.log('Olá mundo!')",
+            "feedback":"Esse formato não é utilizado em Python, sendo presente em JavaScript",
+            "correct":false,
+            "id": "be2b4a6d-c61a-4461-8d3c-5293aef81fb0"
+        },
+        {   "text": "print 'Olá mundo!'",
+            "feedback":"Esse é formato antigo de imprimir um texto em Python (versão 2), sendo descontinuada nas versões recentes de Python (3.x).",
+            "correct":false,
+            "id": "d5d13afe-884e-48ed-b291-661c5fbbc24f"
+        },
+        {   "text": "print('Olá mundo!')",
+            "feedback":"Esse é o formato correto de imprimir um texto utilizando Python 3.x.",
+            "correct":true,
+            "id": "b02e5fcf-a4c4-4318-bb64-0796b0e5d038"
+        },
+        {   "text": "fmt.Print('Olá mundo!')",
+            "feedback":"Esse formato não é utilizado em Python, sendo presente em `Go`",
+            "correct":false,
+            "id": "962970d0-5747-4177-ab58-4daf43c6859a"
+        }
+    ]
+}

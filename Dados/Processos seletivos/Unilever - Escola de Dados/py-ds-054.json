@@ -1,0 +1,44 @@
+{
+    "SKU": "PY-DS-054",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "tagsOrConcepts":["operadores algébricos e lógicos (comparação/conjunção)"],
+    "UUID": "77d39b21-1a43-4ccd-b47d-84183fad7410",
+    "id": "77d39b21-1a43-4ccd-b47d-84183fad7410",
+    "knowledgeArea": "Dados",
+    "category": "lógica de programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "text": ["Ao controlar o fluxo de um programa, podemos realizar diferentes comparações entre valores.",
+             "Por exemplo, comparar se dois valores são iguais, diferentes, etc.",
+             "Dentre as alternativas abaixo, qual o operador correto para verificar se um valor é diferente do outro (não igual)?"
+    ],
+    "alternatives": [
+        {   "text": "valor1 == valor2",
+            "feedback":"O operador `==` permite verificar se um valor é igual ao outro.",
+            "correct":false,
+            "id": "0bdb6f53-fb72-4d3a-9e9c-8d9917653aa5"
+        },
+        {   "text": "valor 1 not equal valor2",
+            "feedback":"Em Python não existe a palavra-chave `equal`.",
+            "correct":false,
+            "id": "440eec5c-efce-436b-8f32-134a8ded1dcf"
+        },
+        {   "text": "valor1 neq valor2",
+            "feedback":"Em Python não existe a palavra-chave `neq`.",
+            "correct":false,
+            "id": "e9c36ae6-38c6-4a53-ba68-505b76b95782"
+        },
+        {   "text": "valor1 != valor2",
+            "feedback":"Essa é a forma correta para verificar se um valor é diferente de outro (não igual).",
+            "correct":true,
+            "id": "45fa2891-e35a-4483-ad20-d3d5afba3b73"
+        },
+        {   "text": "valor1 !== valor2",
+            "feedback":"Esse formato `!==` é comum em JavaScript (strict inequality), porém inválido em Python.",
+            "correct":false,
+            "id": "0d75849c-460b-4e7f-8ba8-8a147a86a27f"
+        }
+    ]
+}

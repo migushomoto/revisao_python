@@ -1,0 +1,44 @@
+{
+    "SKU": "PY-DS-073",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "tagsOrConcepts":["tuplas e dicionários (uso, criação, manipulação)"],
+    "UUID": "4457e3ab-7ef8-4733-abad-8df477e61e6c",
+    "id": "4457e3ab-7ef8-4733-abad-8df477e61e6c",
+    "knowledgeArea": "Dados",
+    "category": "lógica de programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "text":["Os dicionários são uma estrutura de dados amplamente utilizada em Python.",
+            "Qual a forma correta de inicializar um dicionário com um valor e uma chave em Python?",
+            "Considere a chave sendo 'fruta', e o valor 'banana'."
+    ],
+    "alternatives": [
+        {   "text": "dicionario = {'fruta', 'banana'}",
+            "feedback":"Esse formato permite a criação de um conjunto (set) em Python.",
+            "correct":false,
+            "id": "95df54e2-9761-41f0-95f5-e69893b54821"
+        },
+        {   "text": "dicionario = {'fruta': 'banana'}",
+            "feedback":"O formato acima é o correto para criar um dicionário com chave `fruta` e valor `banana`.",
+            "correct":true,
+            "id": "0900a04f-6873-442d-8e8d-2e0089fbb827"
+        },
+        {   "text": "dicionario['fruta'] = 'banana'",
+            "feedback":"O formato acima permite a adição ou substituição de uma chave por um valor de um dicionário previamente instanciado. Não sendo adequado para a criação de um novo dicionário.",
+            "correct":false,
+            "id": "ddab21eb-125e-4996-8f5b-074db4bd955a"
+        },
+        {   "text": "dicionario = {chave='fruta', valor='banana'}",
+            "feedback":"Esse formato é inválido em Python para criação de dicionários",
+            "correct":false,
+            "id": "ce0943c0-bbc1-4f60-b2d4-e7082b6ca25f"
+        },
+        {   "text": "dicionario = {'fruta' = 'banana'}",
+            "feedback":"Esse formato é inválido para criação de dicionários em Python, a o valor é atribuído a uma chave utilizando o `:`.",
+            "correct":false,
+            "id": "79796a49-e648-47ce-9a3a-b433717b7bba"
+        }
+    ]
+}

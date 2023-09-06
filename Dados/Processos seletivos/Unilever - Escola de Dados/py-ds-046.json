@@ -1,0 +1,49 @@
+{
+    "SKU": "PY-DS-046",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "tagsOrConcepts":["Lógica básica"],
+    "UUID": "5f32f13f-fbd2-4e7e-ba03-b309899075e2",
+    "id": "5f32f13f-fbd2-4e7e-ba03-b309899075e2",
+    "knowledgeArea": "Dados",
+    "category": "lógica de programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "text":["Considerando o código Python abaixo, o que ele representa?",
+            " ",
+            "```python ",
+            "resultado = 0",
+            "for num in range(0, 10):",
+            "\tresultado += num",
+            "``` ",
+            " "
+    ],
+    "alternatives": [
+        {   "text": "Uma estrutura condicional",
+            "feedback":"A estrutura condicional em Python é caracterizada pelo `if`, `elif`, `else`.",
+            "correct":false,
+            "id": "32d6c2f8-3cf4-4688-82f9-e34c82c82e3f"
+        },
+        {   "text": "Uma classe",
+            "feedback":"Classes são declaradas com a palavra-chave `class` em Python.",
+            "correct":false,
+            "id": "c97132db-61a3-4b1b-8dd9-f07ab889fe2b"
+        },
+        {   "text": "Uma função",
+            "feedback":"Funções são declaradas com a palavra-chave `def` em Python.",
+            "correct":false,
+            "id": "1cbe0476-bf2a-4d5f-b0dc-1b9701f3f017"
+        },
+        {   "text": "Um bloco de tratamento de exceções",
+            "feedback":"Blocos de tratamento de exceções em Python são marcados utilizando-se as palavras reservadas `try` e `except`.",
+            "correct":false,
+            "id": "4b039276-1703-4ef1-a9ad-9e9fecc571f2"
+        },
+        {   "text": "Um laço de repetição",
+            "feedback":"Essa estrutura representa um laço de repetição do tipo `for`. Em que há a iteração dos números variando de 0-9 com a sua soma na variável `resultado`, ou seja, é a soma de todos os números entre 0 e 9.",
+            "correct":true,
+            "id": "78a64a07-e0e4-48a4-b81d-e676e67cb5fb"
+        }
+    ]
+}

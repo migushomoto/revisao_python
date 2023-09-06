@@ -1,0 +1,42 @@
+{
+    "SKU": "PY-DS-080",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "tagsOrConcepts":["Funções"],
+    "UUID": "d792ef8c-6a9e-4c26-9ebe-a782d320d4fd",
+    "id": "d792ef8c-6a9e-4c26-9ebe-a782d320d4fd",
+    "knowledgeArea": "Dados",
+    "category": "lógica de programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "text":["Qual das seguintes afirmações é verdadeira para funções em Python?"
+    ],
+    "alternatives": [
+        {   "text": "Funções não fornecem maior modularidade para a aplicação.",
+            "feedback":"Essa afirmação é falsa, uma vez que uma função é capaz de abstrair um dado problema além de aumentar a coesão do código.",
+            "correct":false,
+            "id": "c223b244-90d7-4beb-bbe3-5d0e65dc297e"
+        },
+        {   "text": "Não é possível criar testes unitários para funções.",
+            "feedback":"Essa afirmação é falsa, uma vez que testes unitários podem ser criados para validar a qualidade da função criada.",
+            "correct":false,
+            "id": "960820fd-647b-405d-be55-1516b7a5dd10"
+        },
+        {   "text": "Funções podem ser reutilizáveis entre diferemtes programas.",
+            "feedback":"As funções são peças reutilizáveis em programas, em que permitem que um bloco de código consolidado (em uma função), possibilitando que seja executado em qualquer lugar dentro do programa por qualquer número de vezes.",
+            "correct":true,
+            "id": "db2a206b-13a9-4e3b-8496-fed7921aeb5e"
+        },
+        {   "text": "Não é possível criar funções personalizadas em Python.",
+            "feedback":"Essa afirmação é falsa, uma vez que é possível criar funções utilizando a palavra-chave `def`.",
+            "correct":false,
+            "id": "7c5e0f14-822d-4d20-94d1-860e120fb2c4"
+        },
+        {   "text": "As funções sempre aumentam a complexidade do código.",
+            "feedback":"Ao utilizar boas práticas de programação, a complexidade do código tende a ser reduzida ao utilizar funções, reduzindo o acomplamento e aumentando a coesão.",
+            "correct":false,
+            "id": "8b679989-4da4-4e86-8dcd-75fcfd531b33"
+        }
+    ]
+}

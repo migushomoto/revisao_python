@@ -1,0 +1,48 @@
+{
+    "SKU": "PY-DS-052",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "tagsOrConcepts":["operadores algébricos e lógicos (comparação/conjunção)"],
+    "UUID": "430df42f-087e-42cf-affe-7f65bbe82251",
+    "id": "430df42f-087e-42cf-affe-7f65bbe82251",
+    "knowledgeArea": "Dados",
+    "category": "lógica de programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "text":[ "Em diversos programas de computador é comum a realização de diversos cálculos matemáticos.",
+             "Qual o resultado da operação abaixo em Python?",
+            " ",
+            "```python ",
+            "4 * 2 + 15 + 3 * 2 + 2 ** 2",
+            "``` ",
+            " "
+    ],
+    "alternatives": [
+        {   "text": "33",
+            "feedback":"Em Python é seguido a ordem PEMDAS (parênteses, exponencial, múltiplicação, divisão, adição, subtração). Portanto a primeira operação é ((2 ** 2) = 4), seguido de ((4 * 2) = 8), seguido de ((3 * 2) = 6). Resultando em 8 + 15 + 6 + 4, a qual seguirá a ordem de ((8 + 15) = 23), ((23 + 6) = 29), e por fim ((29 + 4) = 33).",
+            "correct":true,
+            "id": "a500ea4e-426a-4aeb-97d7-c4bebbdac363"
+        },
+        {   "text": "56",
+            "feedback":"Em Python é seguido a ordem PEMDAS (parênteses, exponencial, múltiplicação, divisão, adição, subtração). Portanto a primeira operação é ((2 ** 2) = 4), seguido de ((4 * 2) = 8), seguido de ((3 * 2) = 6). Resultando em 8 + 15 + 6 + 4, a qual seguirá a ordem de ((8 + 15) = 23), ((23 + 6) = 29), e por fim ((29 + 4) = 33).",
+            "correct":false,
+            "id": "06359ddc-f288-40ab-b9a2-5c0adf5b5b76"
+        },
+        {   "text": "2916",
+            "feedback":"Em Python é seguido a ordem PEMDAS (parênteses, exponencial, múltiplicação, divisão, adição, subtração). Portanto a primeira operação é ((2 ** 2) = 4), seguido de ((4 * 2) = 8), seguido de ((3 * 2) = 6). Resultando em 8 + 15 + 6 + 4, a qual seguirá a ordem de ((8 + 15) = 23), ((23 + 6) = 29), e por fim ((29 + 4) = 33).",
+            "correct":false,
+            "id": "2ee3e1ac-4cab-4a0c-b937-f9d0fe5ac9fd"
+        },
+        {   "text": "87",
+            "feedback":"Em Python é seguido a ordem PEMDAS (parênteses, exponencial, múltiplicação, divisão, adição, subtração). Portanto a primeira operação é ((2 ** 2) = 4), seguido de ((4 * 2) = 8), seguido de ((3 * 2) = 6). Resultando em 8 + 15 + 6 + 4, a qual seguirá a ordem de ((8 + 15) = 23), ((23 + 6) = 29), e por fim ((29 + 4) = 33).",
+            "correct":false,
+            "id": "729088dd-3395-4a8c-b56b-5d40bf7cd3f7"
+        },
+        {   "text": "29",
+            "feedback":"Em Python é seguido a ordem PEMDAS (parênteses, exponencial, múltiplicação, divisão, adição, subtração). Portanto a primeira operação é ((2 ** 2) = 4), seguido de ((4 * 2) = 8), seguido de ((3 * 2) = 6). Resultando em 8 + 15 + 6 + 4, a qual seguirá a ordem de ((8 + 15) = 23), ((23 + 6) = 29), e por fim ((29 + 4) = 33).",
+            "correct":false,
+            "id": "27e1f11c-25df-421c-9bf3-d1160a11b944"
+        }
+    ]
+}

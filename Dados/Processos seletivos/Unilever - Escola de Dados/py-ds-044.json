@@ -1,0 +1,44 @@
+{
+    "SKU": "PY-DS-044",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "tagsOrConcepts":["Lógica básica"],
+    "UUID": "747a16d8-a35c-432c-8a08-31dcaf990dc9",
+    "id": "747a16d8-a35c-432c-8a08-31dcaf990dc9",
+    "knowledgeArea": "Dados",
+    "category": "lógica de programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "text":["Considere que há uma fila de pessoas a serem atendidas em um banco.",
+            "Cada pessoa necessita de um tipo específico de atendimento.",
+            "Se representarmos a fila de pessoas por um objeto Python, qual das alternativas abaixo permite iterar sobre essa fila de pessoas, isto é, percorrer seus elementos?"
+    ],
+    "alternatives": [
+        {   "text": "Variáveis",
+            "feedback":"As variáveis são objetos que armazenam um valor em Python (p.ex., `fruta='banana'`, a variável é a fruta). No caso da fila de banco, uma variável poderia ser a pessoa a ser atendida.",
+            "correct":false,
+            "id": "d050853a-7652-4e5a-b96c-88b6222e6793"
+        },
+        {   "text": "Listas",
+            "feedback":"As listas são iteráveis, ou seja, permite que as pessoas a serem atendidas sejam armazenadas em uma fila. Porém é necessário o uso de outros recursos (`iteração`) para que essa fila seja consumida.",
+            "correct":false,
+            "id": "48c7132f-c15b-45ce-97b3-f315e648d08f"
+        },
+        {   "text": "Laço de repetição `for` (for-loop)",
+            "feedback":"Essa é a forma correta de iterar sobre um iterável (p.ex. lista), permitindo que cada elemento seja processado de forma individual atingindo o objetivo de atender cada pessoa da fila.",
+            "correct":true,
+            "id": "b42a9664-1696-4399-b8ff-d68545be8208"
+        },
+        {   "text": "Strings",
+            "feedback":"As strings são uma coleção de caracteres.",
+            "correct":false,
+            "id": "b54daee7-8fde-4440-87a8-76f541915be9"
+        },
+        {   "text": "Tuplas",
+            "feedback":"Assim como as listas, as tuplas são iteráveis, ou seja, permite que as pessoas a serem atendidas sejam armazenadas em uma fila. Porém é necessário o uso de outros recursos (`iteração`) para que essa fila seja consumida.",
+            "correct":false,
+            "id": "0e3c8d29-c7e4-4714-986f-b8e8e4f93939"
+        }
+    ]
+}

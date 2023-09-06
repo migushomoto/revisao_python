@@ -1,0 +1,44 @@
+{
+    "SKU": "PY-DS-078",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "tagsOrConcepts":["Funções"],
+    "UUID": "870f508e-4bb8-4860-8fbb-9402ddf5caa8",
+    "id": "870f508e-4bb8-4860-8fbb-9402ddf5caa8",
+    "knowledgeArea": "Dados",
+    "category": "lógica de programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "text":["Em Python as funções podem aceitar um parâmetro padrão (default).",
+            "Esses parâmetros padrão, permitem que uma função aceite esse como opcional quando essa função é invocada.",
+            "Dentre as alternativas abaixo, qual a forma correta de declarar uma função com um valor padrão sendo um número inteiro igual a `10`?"
+    ],
+    "alternatives": [
+        {   "text": "def funcao(arg):",
+            "feedback":"Não foi definido qual seria o valor padrão para o parâmetro `arg` nesse caso.",
+            "correct":false,
+            "id": "038afc79-b770-4928-a436-52e9b356e07d"
+        },
+        {   "text": "def funcao(arg: int[10]):",
+            "feedback":"A sintaxe <argumento>: <type>, é comum em Python no uso de Type Hints (dicas de tipo). Porém nessa sintaxe não é definida qual seria o valor padrão do argumento `arg` retornando um erro.",
+            "correct":false,
+            "id": "ea7f8dc8-c662-47d4-97a9-bc5cc9511bc3"
+        },
+        {   "text": "def funcao(10)",
+            "feedback":"Neste caso há a falta do argumento da função (ocasionando um erro de sintaxe), além de não ser definido qual o valor padrão do seu parâmetro.",
+            "correct":false,
+            "id": "b0056b17-8a5f-408e-9db6-89bdb81a6cf3"
+        },
+        {   "text": "def funcao(arg=10):",
+            "feedback":"Essa é a forma correta de definir um valor padrão para um parâmetro em Python.",
+            "correct":true,
+            "id": "a5dd4ec5-77e1-4021-9e42-da59f6bcccf2"
+        },
+        {   "text": "def funcao(10=arg):",
+            "feedback":"Neste caso o valor padrão (10) está definido antes do parâmetro.",
+            "correct":false,
+            "id": "a541ebdf-440a-4757-bf0c-7dab341ac8b9"
+        }
+    ]
+}

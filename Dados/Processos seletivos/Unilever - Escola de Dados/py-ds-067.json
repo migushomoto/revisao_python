@@ -1,0 +1,45 @@
+{
+    "SKU": "PY-DS-067",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "tagsOrConcepts":["manipulação de strings (foco em métodos de strings)"],
+    "UUID": "0b26dcbd-35ec-4279-8b79-ef71e24d8c6f",
+    "id": "0b26dcbd-35ec-4279-8b79-ef71e24d8c6f",
+    "knowledgeArea": "Dados",
+    "category": "lógica de programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "text":["Em processamento de linguagem natural (PLN, ou NLP em inglês) é comum a divisão de um documento ou frase em tokens.",
+            "Essa divisão é conhecida como tokenização, e pode ser feita de diversas formas. Por exemplo, a frase 'Hoje acordei e o dia estava muito bonito', pode gerar os seguintes tokens: ['Hoje', 'acordei', 'e', 'o', 'dia', 'estava', 'muito', 'bonito'].",
+            "Qual dos métodos de string permite a separação de uma frase (string) em tokens, em que cada token é uma palavra isolada?",
+            "Considere que a frase está armazenada numa variável chamada `texto`."
+    ],
+    "alternatives": [
+        {   "text": "texto.split(' ')",
+            "feedback":"O método split permite separa uma cadeia de caracteres por um caracter específico, por exemplo um espaço (' '), retorando uma lista. Portanto ao aplicar esse processamento conseguimos extrair os tokens de uma frase ou documento.",
+            "correct":true,
+            "id": "04979b87-e7d4-416c-afa1-3feaaaacf263"
+        },
+        {   "text": "texto.capitalize()",
+            "feedback":"O método `capitalize` transforma a primeira letra da string em caixa alta, mantendo o restante em caixa baixa.",
+            "correct":false,
+            "id": "97d6f4e7-dff9-425c-a376-883bfbfefd5a"
+        },
+        {   "text": "texto.strip()",
+            "feedback":"O método `strip` permite a remoção de espaços no começo e no fim de uma string.",
+            "correct":false,
+            "id": "e4545c99-4d33-4bae-bcdf-5381728cd86a"
+        },
+        {   "text": "texto.title()",
+            "feedback":"O método `title` é utilizado para transformar a primeira letra de cada palavra em caixa alta, mantendo as demais letras em caixa baixa.",
+            "correct":false,
+            "id": "a2f53b54-4ead-43bd-b479-ae8388da812e"
+        },
+        {   "text": "texto.lower()",
+            "feedback":"O método `lower` permite transformar todas as letras de uma string em caixa baixa.",
+            "correct":false,
+            "id": "c8382813-a3bb-4e3c-8d55-52f54f133f77"
+        }
+    ]
+}

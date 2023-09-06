@@ -1,0 +1,52 @@
+{
+    "SKU": "PY-DS-074",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "tagsOrConcepts":["tuplas e dicionários (uso, criação, manipulação)"],
+    "UUID": "a6c8180b-e7d8-4c80-a96c-ed3225e526be",
+    "id": "a6c8180b-e7d8-4c80-a96c-ed3225e526be",
+    "knowledgeArea": "Dados",
+    "category": "lógica de programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "text":["O dicionário em Python é utilizado para o armazenamento de chaves e valores de forma estruturada.",
+            "Qual a forma correta de alterar a chave 'cor' para o valor 'vermelho', no dicionário carro?",
+            " ",
+            "```python ",
+            "carro = {",
+            "'modelo': 'Toyota',",
+            "'ano': '2017',",
+            "'cor': 'azul'",
+            "}",
+            "``` ",
+            " "
+    ],
+    "alternatives": [
+        {   "text": "carro = {'cor': 'vermelho'}",
+            "feedback":"Nesse caso há a atribuição de um novo dicionário a variável carro, ou seja, as outras informações (chaves e valores) serão perdidas.",
+            "correct":false,
+            "id": "01799a0f-b209-4013-a8bc-edf8db3352db"
+        },
+        {   "text": "carro.modify({'cor': 'vermelho'}",
+            "feedback":"Não existe o método `modify` em dicionários",
+            "correct":false,
+            "id": "e7d5c771-5a96-4f85-b672-0609aed9b734"
+        },
+        {   "text": "carro['cor'] = 'vermelho'",
+            "feedback":"Essa é a forma correta para atualizar uma chave de um dicionário em Python.",
+            "correct":true,
+            "id": "cc304795-81af-400e-9428-dc20640addc9"
+        },
+        {   "text": "carro.value_update(cor='vermelho')",
+            "feedback":"Não existe o método `value_update` em Python.",
+            "correct":false,
+            "id": "bbe64619-0e46-4767-bcb8-cf8548b304f9"
+        },
+        {   "text": "carro.pop(cor='vermelho')",
+            "feedback":"O método `pop` serve para retirar uma chave e o seu respectivo valor de um dicionário em Python. Em que o `pop` aceita apenas a chave do dicionário como entrada.",
+            "correct":false,
+            "id": "bfe7cebd-0e97-4e8d-af08-6cf5c888aa13"
+        }
+    ]
+}

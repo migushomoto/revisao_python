@@ -1,0 +1,47 @@
+{
+    "SKU": "PY-DS-065",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "tagsOrConcepts":["for e listas (manipulação e métodos)"],
+    "UUID": "036156b7-707c-492e-8d26-50a6a117e092",
+    "id": "036156b7-707c-492e-8d26-50a6a117e092",
+    "knowledgeArea": "Dados",
+    "category": "lógica de programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "text":["Em um programa é comum fatiar os dados para realizar uma operação específica.",
+            "Esse processo pode ser útil para pequenos testes, ou para manipulação de dados.",
+            "Considerando que queremos os elementos que correspondem os seguintes indices: [0, 3, 6, 9, 12].",
+            "De uma lista que compreende os seguintes elementos: `lista = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]`.",
+            "Qual das opções abaixo permitem que esse elementos sejam selecionados de forma correta?",
+            "Resultado esperado `[0, 3, 6, 9, 12]`."
+    ],
+    "alternatives": [
+        {   "text": "lista[0:12]",
+            "feedback":"Utilizando a fatia (slicing) acima há a seleção dos 12 primeiros elementos (`[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]`).",
+            "correct":false,
+            "id": "aa1a7648-213b-480a-88b6-3aa597e75e0d"
+        },
+        {   "text": "lista[::3]",
+            "feedback":"Utilizando a fatia (slicing) acima ocorre há seleção dos indíces [0, 3, 6, 9, 12, 15, 18]. Sendo que o número três correponde ao passo (step).",
+            "correct":false,
+            "id": "8f60fe74-59ca-4677-be1a-bf53e480423c"
+        },
+        {   "text": "lista[0:13]",
+            "feedback":"Utilizando a fatia (slicing) acima há a seleção dos 13 primeiros elementos (`[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]`).",
+            "correct":false,
+            "id": "215647e9-32ae-41f2-85f8-a94f40782915"
+        },
+        {   "text": "lista[:13:3]",
+            "feedback":"Essa é a forma correta, selecionando os elementos cujo indíces estão entre 0 e 12 com um passo de 3.",
+            "correct":true,
+            "id": "31df4f5a-2bdd-4dd1-b672-e8b7d0e77e04"
+        },
+        {   "text": "lista[3:13:3]",
+            "feedback":"Utilizando a fatia (slicing) acima há a seleção dos elementos cujo indíces estão entre 3 e 12 (incluso) com um passo de 3. Resultando na sub-lista `[3, 6, 9, 12]`",
+            "correct":false,
+            "id": "5545edc7-39c2-46d7-9864-514cbdc6b8d6"
+        }
+    ]
+}

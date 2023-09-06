@@ -1,0 +1,54 @@
+{
+    "SKU": "PY-DS-057",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "tagsOrConcepts":["estruturas condicionais e while"],
+    "UUID": "808efbf6-051a-4dbf-a433-216e716a2962",
+    "id": "808efbf6-051a-4dbf-a433-216e716a2962",
+    "knowledgeArea": "Dados",
+    "category": "lógica de programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "text":["Em programação é comum utilizar estruturas que permitam que um laço seja repetido até que seja finalizada uma dada tarefa, por exemplo utilizando o `while`.",
+            "No código qual o valor de `x` ao encerrar o laço `while`?",
+            " ",
+            "```python ",
+            "x = 0",
+            "continuar = True",
+            "while continuar:",
+            "\tif x % 2 == 0:",
+            "\t\tx = x + 5",
+            "\telse:",
+            "\t\tx += 1",
+            "``` ",
+            " "
+    ],
+    "alternatives": [
+        {   "text": "há um loop infinito",
+            "feedback":"Ocorre um loop infinito, ou seja, o laço `while` não encontra um caso de quebra, continuando a executar indefinidamente.",
+            "correct":true,
+            "id": "dd6ea198-9ff4-4155-a95b-fe2d85847c5d"
+        },
+        {   "text": "1005",
+            "feedback":"No código acima, a variável `continuar` não é modificada para `False` impedindo que o laço `while` seja interrompido, dessa forma o valor de x irá tender ao infinito.",
+            "correct":false,
+            "id": "c36e55ed-2455-4fed-a31a-c0aacbd414cb"
+        },
+        {   "text": "0",
+            "feedback":"No código acima, a variável `continuar` não é modificada para `False` impedindo que o laço `while` seja interrompido, dessa forma o valor de x irá tender ao infinito.",
+            "correct":false,
+            "id": "eb6ef219-0fd0-46e9-8823-81ffea96908e"
+        },
+        {   "text": "125",
+            "feedback":"No código acima, a variável `continuar` não é modificada para `False` impedindo que o laço `while` seja interrompido, dessa forma o valor de x irá tender ao infinito.",
+            "correct":false,
+            "id": "863e133e-9bb2-4326-a8d6-5367aefdd0ac"
+        },
+        {   "text": "126",
+            "feedback":"No código acima, a variável `continuar` não é modificada para `False` impedindo que o laço `while` seja interrompido, dessa forma o valor de x irá tender ao infinito.",
+            "correct":false,
+            "id": "e91249cc-f55e-4dd3-a5a8-ff5319d1d895"
+        }
+    ]
+}

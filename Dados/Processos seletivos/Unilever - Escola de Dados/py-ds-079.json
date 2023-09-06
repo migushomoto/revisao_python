@@ -1,0 +1,54 @@
+{
+    "SKU": "PY-DS-079",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "tagsOrConcepts":["Funções"],
+    "UUID": "e88eb7f0-c537-4581-a515-b6df7735882b",
+    "id": "e88eb7f0-c537-4581-a515-b6df7735882b",
+    "knowledgeArea": "Dados",
+    "category": "lógica de programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "text":["Em programação funcional é comum o encadeamento de funções, por exemplo f(g(h(x))).",
+            "Considerando as funções abaixo, qual o valor armazenado na variável `resultado` ao fim da execução do código?",
+            " ",
+            "```python ",
+            "def calculo_complexo(a, b, c):",
+            "\treturn ((a*b)/c)**0.5",
+            "def soma(a, b):",
+            "\treturn (a + b)",
+            "def subtracao(a, b):",
+            "\treturn a - b",
+            "resultado = soma(subtracao(calculo_complexo(15, 3, 5), 21), 172)",
+            "``` ",
+            " "
+    ],
+    "alternatives": [
+        {   "text": "154.0",
+            "feedback":"Ao encadear funções, a ordem segue da função mais interna até a mais externa. No código acima, ocorre primeiro o `cálculo_complex(15, 3, 5)` com resultado 3.0. Em seguida ocorre o cálculo da função `subtracao(3, 21)` com resultado -18.0, note que o `3` é a saída da funcao `calculo_complexo`. E por fim a `soma(-18.0, 172)` com resultado 154.0, assim como no passo anterior, o número -18.0 é o resultado da função `subtracao`.",
+            "correct":true,
+            "id": "2d65613e-84e6-4682-9dec-8c53020c42a6"
+        },
+        {   "text": "120.0",
+            "feedback":"Ao encadear funções, a ordem segue da função mais interna até a mais externa. No código acima, ocorre primeiro o `cálculo_complex(15, 3, 5)` com resultado 3.0. Em seguida ocorre o cálculo da função `subtracao(3, 21)` com resultado -18.0, note que o `3` é a saída da funcao `calculo_complexo`. E por fim a `soma(-18.0, 172)` com resultado 154.0, assim como no passo anterior, o número -18.0 é o resultado da função `subtracao`.",
+            "correct":false,
+            "id": "2d53e603-5549-4fc0-9f30-e65933404820"
+        },
+        {   "text": "3.0",
+            "feedback":"Ao encadear funções, a ordem segue da função mais interna até a mais externa. No código acima, ocorre primeiro o `cálculo_complex(15, 3, 5)` com resultado 3.0. Em seguida ocorre o cálculo da função `subtracao(3, 21)` com resultado -18.0, note que o `3` é a saída da funcao `calculo_complexo`. E por fim a `soma(-18.0, 172)` com resultado 154.0, assim como no passo anterior, o número -18.0 é o resultado da função `subtracao`.",
+            "correct":false,
+            "id": "2e6c695f-1fc6-4435-bb38-903e2cf556e1"
+        },
+        {   "text": "-18.0",
+            "feedback":"Ao encadear funções, a ordem segue da função mais interna até a mais externa. No código acima, ocorre primeiro o `cálculo_complex(15, 3, 5)` com resultado 3.0. Em seguida ocorre o cálculo da função `subtracao(3, 21)` com resultado -18.0, note que o `3` é a saída da funcao `calculo_complexo`. E por fim a `soma(-18.0, 172)` com resultado 154.0, assim como no passo anterior, o número -18.0 é o resultado da função `subtracao`.",
+            "correct":false,
+            "id": "a92809ed-e66b-43c6-bc6e-db5d5c3e933c"
+        },
+        {   "text": "131.0",
+            "feedback":"Ao encadear funções, a ordem segue da função mais interna até a mais externa. No código acima, ocorre primeiro o `cálculo_complex(15, 3, 5)` com resultado 3.0. Em seguida ocorre o cálculo da função `subtracao(3, 21)` com resultado -18.0, note que o `3` é a saída da funcao `calculo_complexo`. E por fim a `soma(-18.0, 172)` com resultado 154.0, assim como no passo anterior, o número -18.0 é o resultado da função `subtracao`.",
+            "correct":false,
+            "id": "bb0c4cc0-c841-47dc-9cf8-7b21a1a0401b"
+        }
+    ]
+}

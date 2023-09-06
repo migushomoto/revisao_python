@@ -1,0 +1,42 @@
+{
+    "SKU": "PY-DS-070",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "tagsOrConcepts":["manipulação de strings (foco em métodos de strings)"],
+    "UUID": "3fa0072e-6240-4974-8c56-a97b478604b9",
+    "id": "3fa0072e-6240-4974-8c56-a97b478604b9",
+    "knowledgeArea": "Dados",
+    "category": "lógica de programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "text":["Dentre as opções abaixo, qual a forma correta para verificar se uma string termina com uma determinada sub-string (sufixo), retornando um booleano?"
+    ],
+    "alternatives": [
+        {   "text": "str.starswith()",
+            "feedback":"O método `startswith` verifica se uma string começa com uma sub-string específica (prefixo).",
+            "correct":false,
+            "id": "5708c2a9-3001-4ce5-ab56-47ddf20d3eef"
+        },
+        {   "text": "str.find()",
+            "feedback":"O método `find` localiza a primeira ocorrência de uma sub-string, indicando o indice de início.",
+            "correct":false,
+            "id": "5b048b77-6bb2-4e09-89dd-ceac811ca102"
+        },
+        {   "text": "str.strip()",
+            "feedback":"O método `strip` permite a remoção de espaços no começo e no fim de uma string",
+            "correct":false,
+            "id": "7acef052-cc2e-4cea-98b5-05f119f8511f"
+        },
+        {   "text": "str.endswith()",
+            "feedback":"O método `endswith` verifica se uma string termina com uma sub-string específica (sufixo).",
+            "correct":true,
+            "id": "07ae2382-d2c8-4dc0-93c7-524f27c39ef8"
+        },
+        {   "text": "str.terminatewith()",
+            "feedback":"Não existe o método `terminatewith` em Python, sendo o correto `endswith` para verificar se uma string termina com uma sub-string específica (sufixo).",
+            "correct":false,
+            "id": "f29e083b-22a2-4e91-a80c-45c2620571d5"
+        }
+    ]
+}

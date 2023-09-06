@@ -1,0 +1,43 @@
+{
+    "SKU": "PY-DS-076",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "tagsOrConcepts":["Funções"],
+    "UUID": "2557ba02-bc10-4201-a3f7-9f17d373236d",
+    "id": "2557ba02-bc10-4201-a3f7-9f17d373236d",
+    "knowledgeArea": "Dados",
+    "category": "lógica de programação",
+    "subCategory": "Generics",
+    "level": "Basic",
+    "text":["As funções são úteis tanto pela sua capacidade de abstrair blocos de código como para a criação de testes unitários garantindo a qualidade da aplicação.",
+            "Em Python qual a forma correta de declarar uma nova função chamada `teste`?"
+    ],
+    "alternatives": [
+        {   "text": "function teste():",
+            "feedback":"Não existe a palavra-chave `function` em Python, sendo uma sintaxe utilizada em JavaScript para declara uma nova função.",
+            "correct":false,
+            "id": "fba740fe-14da-45e9-948c-df82d77bad95"
+        },
+        {   "text": "define teste():",
+            "feedback":"Não existe a palvra-chave `define` em Python, sendo que o correto é a sua abreviação `def`.",
+            "correct":false,
+            "id": "60bb72b2-1590-40e4-9305-9728c9995458"
+        },
+        {   "text": "func teste():",
+            "feedback":"Não existe a palavra-chave `func` em Python, sendo uma sintaxe utilizada em Golang por exemplo.",
+            "correct":false,
+            "id": "5da030c8-6d27-49e5-bf02-33f7471b8725"
+        },
+        {   "text": "fn teste():",
+            "feedback":"Não existe a palvra-chave `fn` em Python, sendo uma sintaxe utilizada em Rust por exemplo.",
+            "correct":false,
+            "id": "b3daab3f-7501-4941-94cc-dc09b0bd048d"
+        },
+        {   "text": "def teste():",
+            "feedback":"Essa é a forma correta de clarar uma nova função em Python. Utiliza-se a palavra-chave `def` seguida do nome da função e em parênteses os argumentos dessa função.",
+            "correct":true,
+            "id": "1f3ab9f8-e0fc-4c38-8da9-dcb5bd525487"
+        }
+    ]
+}
