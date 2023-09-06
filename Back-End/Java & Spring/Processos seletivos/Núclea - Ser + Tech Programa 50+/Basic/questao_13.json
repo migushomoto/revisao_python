@@ -1,0 +1,51 @@
+{
+    "id": "c9e7af1d-1787-43b3-9603-5274b7c699cf",
+    "SKU": "000001",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "java",
+    "knowledgeArea": "Back-End",
+    "category": "Java",
+    "subCategory": "Orientação a Objetos",
+    "level": "Basic",
+    "tagsOrConcepts": [
+        "Orientação a Objetos",
+        "Java",
+        "Encapsulamento",
+        "Métodos",
+        "Atributos"
+    ],
+    "text": "Durante o desenvolvimento de um sistema de gerenciamento de biblioteca em Java e você criou uma classe `Livro`. O atributo `titulo` da classe `Livro` está atribuída como privado `private String titulo`. Para permitir que outras classes acessem o título de um livro, qual é a maneira mais apropriada de implementar o encapsulamento?",
+    "alternatives": [
+        {
+            "id": "ac8ad7dd-8836-4572-bc2a-3f2cf64d07f5",
+            "text": "Definir um método `getTitulo()` na classe `Livro` que retorne o valor do atributo `titulo`.",
+            "feedback": "Isso mantém o atributo `titulo` encapsulado e fornece um método de acesso controlado para retornar seu valor.",
+            "correct": "true"
+        },
+        {
+            "id": "f22cfbc7-7787-4646-82a9-35ecb8b975f5",
+            "text": "Definir o atributo `titulo` como `public` para que outras classes possam acessá-lo diretamente.",
+            "feedback": "Definir o atributo `titulo` como `public` violaria o princípio de encapsulamento.",
+            "correct": "false"
+        },
+        {
+            "id": "1cb221b7-346f-413b-953b-130086f4b301",
+            "text": "Criar um método `exibirTitulo()` na classe `Livro` que imprima o valor do atributo `titulo` diretamente no console.",
+            "feedback": "Desta forma expõe o atributo de forma inadequada.",
+            "correct": "false"
+        },
+        {
+            "id": "a3966f5b-1a38-47b6-899c-d9b472982881",
+            "text": "Deixar o atributo `titulo` como privado e não fornecer nenhum método de acesso a ele.",
+            "feedback": "É recomendado fornecer métodos apropriados para acessar atributos privados.",
+            "correct": "false"
+        },
+        {
+            "id": "63f38e68-784d-45d5-8127-4a006c59df64",
+            "text": "Definir um método `setTitulo(String novoTitulo)` na classe `Livro` que permita a alteração do valor do atributo `titulo` por outras classes.",
+            "feedback": "Permitir que outros modifiquem diretamente atributos privados pode ser arriscado em termos de encapsulamento.",
+            "correct": "false"
+        }
+    ]
+}
