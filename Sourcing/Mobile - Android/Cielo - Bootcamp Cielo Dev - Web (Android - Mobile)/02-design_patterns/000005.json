@@ -1,0 +1,22 @@
+{
+    "id": "ee1a8744-fd7a-4ef9-ae81-26e289d591c4",
+    "SKU": "000005",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "kotlin",
+    "knowledgeArea": "Mobile",
+    "category": "Padrões de Design",
+    "subCategory": "Comportamental",
+    "level": "Medium", 
+    "tagsOrConcepts":["padrões de design", "comportamental", "observer"],
+    "text": [
+        "Como funciona o padrão de design Observer em uma aplicação?"
+    ],
+    "alternatives": [
+        { "id": "74d4d9cd-edea-4fb0-8bc9-12af295debbb", "text": "Proporciona a organização e gerenciamento de coleções de objetos, permitindo iterações simplificadas sobre eles.", "feedback":"Incorreto, não é utilizado para organizar ou gerenciar conjutos de objetos.", "correct":false },
+        { "id": "ec079f9e-1d1a-4ea5-9b0f-e9405cb6bb7c", "text": "Opera criando uma hierarquia de classes em que uma classe pai controla o comportamento de suas classes filhas.", "feedback":"Incorreto, o foco de sua solução não se concentra na criação de uma estrutura hierárquica de objetos.", "correct":false },
+        { "id": "a713a77d-e62e-406d-93ad-667e8e0b4baa", "text": "Cria-se uma cópia de um objeto complexo para uso posterior, sem a necessidade de recriar o objeto original.", "feedback":"Incorreto, o padrão Observer não lida com cópias de objetos complexos.", "correct":false },
+        { "id": "fbf20bf7-a10f-470c-8bab-5b816fbc3991", "text": "Uma dependência um-para-muitos entre objetos é estabelecida, de modo que, sempre quando um objeto alvo muda seu estado anterior, todos os seus dependentes são notificados automaticamente.", "feedback":"Correto, o Observer é usado exatamente para isso, sendo útil em situações quando um objeto precisa informar a outros objetos sobre mudanças em seu estado, sem acoplá-los diretamente.", "correct":true },
+        { "id": "7892010f-362f-4428-a783-4c21e4b4a007", "text": "Encapsula-se a lógica de criação de objetos complexos e fornece uma interface simplificada para sua utilização.", "feedback":"Incorreto, este padrão não lida com interfaces para criação de objetos complexos.", "correct":false }
+    ]
+}

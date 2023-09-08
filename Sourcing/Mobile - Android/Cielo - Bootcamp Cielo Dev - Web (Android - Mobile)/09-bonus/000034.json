@@ -1,0 +1,28 @@
+{
+    "id": "d0a4aa1e-a745-46f5-8609-7de2f49d03ef",
+    "SKU": "000034",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "kotlin",
+    "knowledgeArea": "Mobile",
+    "category": "Boas Práticas",
+    "subCategory": "SOLID",
+    "level": "Advanced", 
+    "tagsOrConcepts":["solid", "poo"],
+    "text": [
+        "A seguir, temos a relação de cada princípio SOLID com os pilares do POO:",
+        "1 - O Princípio de Substituição de Liskov (L) se concentra em garantir que as subclasses possam ser substituídas por suas classes base sem afetar a integridade do programa, o que está alinhado com o conceito de polimorfismo na programação orientada a objetos.",
+        "2 - O Princípio de Segregação de Interfaces (I) propõe que as interfaces sejam refinadas para que as classes clientes não sejam forçadas a depender de métodos que não utilizam. Isso está em harmonia com o encapsulamento, permitindo que as classes escondam detalhes internos de implementação.",
+        "3 - O Princípio da Responsabilidade Única (S) trata da ideia de que uma classe deve ter apenas um motivo para mudar, promovendo coesão interna e externa entre classes, se relacionando ao pilar de herança devido ao contexto de criação de hierarquias entre classes.",
+        "4 - O Princípio do Aberto/Fechado (O) preconiza que as entidades devem ser abertas para extensão, mas fechadas para modificação, promovendo a criação de novas funcionalidades através do encapsulamento, sem alterar o código existente.",
+        "5 - O Princípio de Inversão de Dependências (D) sugere que módulos de alto nível não devem depender diretamente de módulos de baixo nível, mas sim de suas concepções. Isso se alinha ao pilar de abstração, pois incentiva a dependência em interfaces ao invés de implementações concretas.",
+        "Qual a sequência correta de verdadeiros (V) e falsos (F) das afirmações descritas acima?"
+    ],
+    "alternatives": [
+        { "id": "fe2e1005-90a3-4e7b-a951-690295a89e36", "text": "F - V - F - V - F", "feedback":"Incorreto.", "correct":false },
+        { "id": "c8531fb9-3a2d-436e-8e3d-1e2d1e713ce3", "text": "F - V - F - F - V", "feedback":"Correto, o (L) se relaciona ao pilar de abstração, (S) não se relaciona a herança e (O) está vinculado ao pilar de abstração.", "correct":true },
+        { "id": "185820ec-d2cf-4dc8-bc14-4f14191b41ee", "text": "V - F - V - V - V", "feedback":"Incorreto.", "correct":false },
+        { "id": "10cd574b-d16a-4a71-9214-4f24e6261e40", "text": "V - V - V - F - F", "feedback":"Incorreto.", "correct":false },
+        { "id": "8f149363-58b4-4c6e-a05e-7d783e7c3350", "text": "F - F - F - V - V", "feedback":"Incorreto.", "correct":false }
+    ]
+}

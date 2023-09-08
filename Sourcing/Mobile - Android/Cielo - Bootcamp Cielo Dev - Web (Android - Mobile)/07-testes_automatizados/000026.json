@@ -1,0 +1,22 @@
+{
+    "id": "e3ee7fe5-dc8f-44b5-8f35-7102213eabf9",
+    "SKU": "000026",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "kotlin",
+    "knowledgeArea": "Mobile",
+    "category": "Testes Automatizados",
+    "subCategory": "Testes Unitários",
+    "level": "Medium", 
+    "tagsOrConcepts":["testes automatizados", "testes unitarios"],
+    "text": [
+        "Quais são os passos típicos para realizar um teste unitário em um método de uma classe Android?"
+    ],
+    "alternatives": [
+        { "id": "5fda1106-ffc3-4191-aec9-12b46c51f2df", "text": "Iniciar um emulador, executar o método e verificar visualmente os resultados.", "feedback":"Incorreto, o uso do emulador apenas se vincula a testes de interface.", "correct":false },
+        { "id": "5cb8d780-a069-4bce-a7e9-f67f32055424", "text": "Utilizar uma biblioteca de testes como o JUnit, criar um método de teste, executar o método e verificar as saídas esperadas.", "feedback":"Correto, a abordagem mais comum é utilizar uma biblioteca de testes como o JUnit, criar um método de teste que execute o método a ser testado e verificar se as saídas esperadas estão corretas. Isso permite automatizar e repetir os testes de forma confiável.", "correct":true },
+        { "id": "525d43b5-52e5-4e7d-9db5-cc5b5a183bea", "text": "Usar o depurador do Android Studio para executar o método e observar as variáveis locais.", "feedback":"Incorreto, os testes unitários não são analisados via depurador.", "correct":false },
+        { "id": "cb37d1fc-c77c-4517-8dae-ee5d786e3bf4", "text": "Escrever um script de teste em Python para verificar a funcionalidade do método.", "feedback":"Incorreto, a linguagem Python não é utilizada para a realização de testes no Android.", "correct":false },
+        { "id": "396fffcf-dc1a-4fe3-ae2f-ed0ab2beabca", "text": "Executar um teste de carga no método para avaliar seu desempenho.", "feedback":"Incorreto, o teste de carga não se relaciona ao ambiente mobile.", "correct":false }
+    ]
+}

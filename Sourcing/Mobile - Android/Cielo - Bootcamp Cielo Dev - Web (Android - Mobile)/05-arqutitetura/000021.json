@@ -1,0 +1,22 @@
+{
+    "id": "22474ff9-7f0b-41f4-9a34-66cc165546d7",
+    "SKU": "000021",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "kotlin",
+    "knowledgeArea": "Mobile",
+    "category": "Arquitetura",
+    "subCategory": "MVI",
+    "level": "Advanced", 
+    "tagsOrConcepts":["arquitetura", "mvi", "compose"],
+    "text": [
+        "Na arquitetura MVI (Model-View-Intent), qual é o papel fundamental desempenhado pelas 'Intents' (Intenções)? Como elas contribuem para a interação entre a View e o Model?"
+    ],
+    "alternatives": [
+        { "id": "bad6d606-680b-4dc8-b5c5-a04610fbd0d1", "text": "Responsáveis apenas pela manipulação de eventos de clique e toque na interface, não afetam a interação entre a View e o Model.", "feedback":"Incorreto, as 'Intents' fornecem a interação entre a View e o Model.", "correct":false },
+        { "id": "7848adbd-20f3-4f98-bba9-1a009277581f", "text": "Atuam como intermediárias na comunicação entre a View e o Model, repassando ações e eventos da interface para a lógica de negócios.", "feedback":"Correto, representam as ações ou eventos que ocorrem na interface do usuário, enviando essas ações para o Model, que processa a lógica de negócios correspondente.", "correct":true },
+        { "id": "85fb30a7-98b8-4833-9e7d-a49b2506a4d2", "text": "Fornecer as fontes de dados locais e remotas que a View precisa ao ser executada uma ação pelo usuário.", "feedback":"Incorreto, não atua como fonte direta de dados.", "correct":false },
+        { "id": "a1613f2b-293e-44e7-a5a1-227d225177c5", "text": "Gerenciam a renderização gráfica da interface, coordenando a exibição dos elementos na tela.", "feedback":"Incorreto, não são responsáveis por gerenciar a renderização gráfica da interface.", "correct":false },
+        { "id": "f81396a5-5ba6-46e2-a4b3-d7898facbd4f", "text": "São responsáveis por armazenar o estado da View, permitindo a sincronização contínua com o Model e garantindo a consistência dos dados.", "feedback":"Incorreto, não armazenam o estado da View.", "correct":false }
+    ]
+}

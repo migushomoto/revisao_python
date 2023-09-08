@@ -1,0 +1,22 @@
+{
+    "id": "699ab532-b361-417f-83a0-5aedafe41988",
+    "SKU": "000019",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "kotlin",
+    "knowledgeArea": "Mobile",
+    "category": "Arquitetura",
+    "subCategory": "MVVM",
+    "level": "Medium", 
+    "tagsOrConcepts":["arquitetura", "mvvm"],
+    "text": [
+        "Em termos de testabilidade, como a arquitetura MVVM se diferencia das abordagens de desenvolvimento mais tradicionais, como o MVC (Model-View-Controller)?"
+    ],
+    "alternatives": [
+        { "id": "", "text": "MVVM não oferece vantagens significativas em termos de testabilidade, sendo semelhante ao MVC nesse aspecto.", "feedback":"Incorreto, o ViewModel separando a camada de View e Model facilita os testes em ambos devido a independência criada entre os dados.", "correct":false },
+        { "id": "", "text": "MVVM reduz a necessidade de testes unitários devido à clara separação de preocupações entre os componentes.", "feedback":"Incorreto, a necessidade de se criar os testes se mantém, independente da arquitetura adotada.", "correct":false },
+        { "id": "", "text": "MVVM requer um esforço adicional devido à complexidade na configuração de testes unitários, diferentemente do MVC.", "feedback":"Incorreto, o MVVM não adiciona complexidade na criação de testes se comparado ao MVC.", "correct":false },
+        { "id": "", "text": "MVVM facilita os testes de unitários e de integração, enquanto o MVC é mais adequado para testes de UI.", "feedback":"Incorreto, não há essa distinção no momento de criação de diferentes tipos de testes.", "correct":false },
+        { "id": "", "text": "MVVM melhora a testabilidade, uma vez que o ViewModel pode ser testado independentemente da View, tornando os testes mais focados na lógica de negócios.", "feedback":"Correto, a separação clara entre a View e o ViewModel permite testar a lógica de negócios de forma isolada, sem depender da interface do usuário. Isso simplifica os testes unitários e facilita a identificação de erros, contribuindo para a criação de um código mais robusto e testável.", "correct":true }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "id": "a05dbc77-c502-45f8-875e-11ffa63456c0",
+    "SKU": "000015",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "kotlin",
+    "knowledgeArea": "Mobile",
+    "category": "Fundamentos de Mobile",
+    "subCategory": "React Native",
+    "level": "Advanced", 
+    "tagsOrConcepts":["mobile", "hibrido"],
+    "text": [
+        "Quando se trata de otimização de desempenho em React Native, qual técnica ajuda a reduzir a re-renderização desnecessária de componentes?"
+    ],
+    "alternatives": [
+        { "id": "caa943e3-cb8c-427a-a919-36a58bc02ff1", "text": "Utilização de classes de estilo em linha.", "feedback":"Incorreto.", "correct":false },
+        { "id": "bbc9b7f7-874e-4ab3-96fb-497632d4ddce", "text": "Utilização de PureComponent ou React.memo.", "feedback":"Correto, pois o uso de PureComponent (para componentes de classe) ou React.memo (para componentes funcionais) ajuda a evitar re-renderizações desnecessárias, pois eles realizam comparações de propriedades e estados anteriores com os atuais antes de decidir se o componente deve ser renderizado novamente.", "correct":true },
+        { "id": "b97232f2-0bf2-4a57-89cb-6ec4e8440555", "text": "Aumento do uso de componentes de classe em vez de componentes funcionais.", "feedback":"", "correct":false },
+        { "id": "dbad8d4d-a7d8-41ef-94ec-9d610da383e8", "text": "Uso excessivo de animações complexas.", "feedback":"Incorreto.", "correct":false },
+        { "id": "f66689ae-2337-43f4-9c23-6f28fb6a9e3e", "text": "Aumento do número de estados locais.", "feedback":"Incorreto.", "correct":false }
+    ]
+}

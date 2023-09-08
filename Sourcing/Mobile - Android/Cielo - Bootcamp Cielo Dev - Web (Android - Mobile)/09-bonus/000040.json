@@ -1,0 +1,21 @@
+{
+    "id": "95d2921a-cc3f-4d41-aef8-c9c464bc58fe",
+    "SKU": "000040",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "kotlin",
+    "knowledgeArea": "Mobile",
+    "category": "Fundamentos de Mobile",
+    "subCategory": "Android",
+    "level": "Medium", 
+    "tagsOrConcepts":["mobile", "android"],
+    "text": [
+        "Em relação ao uso do componente EditText, qual a diferença entre 'inputType' como 'textPassword' e 'textVisiblePassword'?"
+    ],
+    "alternatives": [
+        { "id": "f6c8783c-5639-4201-be6b-2f8128858948", "text": "'textPassword' mascara a senha digitada para segurança, exibindo asteriscos, enquanto 'textVisiblePassword' exibe a senha em formato de texto claro.", "feedback":"Correto, A opção 'textPassword' é usada para máscara de segurança, substituindo os caracteres reais por asteriscos ou bolinhas para proteger a senha do usuário. Por outro lado, a opção 'textVisiblePassword' exibe a senha como texto claro, o que pode ser útil em casos onde o usuário deseja ver a senha digitada antes de confirmá-la. No entanto, o uso de senhas visíveis deve ser feito com cuidado, considerando a segurança dos dados do usuário.", "correct":true },
+        { "id": "e26226df-9e23-428d-b2e6-14303d32815d", "text": "Ambos os tipos permitem que o texto digitado seja exibido como uma senha visível, semelhante ao uso de asteriscos, para fins de segurança.", "feedback":"Incorreto.", "correct":false },
+        { "id": "f571f48f-fb99-47ff-b488-9b088f0a0b76", "text": "'textPassword' é usado para senhas que são ocultadas, enquanto 'textVisiblePassword' exibe a senha como texto comum.", "feedback":"Incorreto.", "correct":false },{ "id": "6e2bee42-d129-4a6e-8a95-e2df605aeeee", "text": "'textPassword' permite que o usuário insira caracteres especiais em senhas, enquanto 'textVisiblePassword' restringe os caracteres a letras e números.", "feedback":"Incorreto.", "correct":false },
+        { "id": "d3732a5b-070b-44d9-95ec-5da2c69291f4", "text": "'textPassword' permite a digitação de senhas apenas em letras maiúsculas, enquanto 'textVisiblePassword' permite letras minúsculas.", "feedback":"Incorreto.", "correct":false }
+    ]
+}

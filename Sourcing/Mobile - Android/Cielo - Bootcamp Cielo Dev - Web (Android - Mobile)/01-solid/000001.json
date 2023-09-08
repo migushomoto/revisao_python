@@ -1,0 +1,28 @@
+{
+    "id": "833f7096-3af7-11ee-be56-0242ac120002",
+    "SKU": "000001",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "kotlin",
+    "knowledgeArea": "Mobile",
+    "category": "Boas Práticas",
+    "subCategory": "SOLID",
+    "level": "Medium", 
+    "tagsOrConcepts":["solid", "poo"],
+    "text": [
+        "Os cinco princípios SOLID de desenvolvimento de software, aplicados na programação orientada a objetos, são:",
+        "1 - Princípio da Responsabilidade Única (SRP): Cada classe deve ter apenas uma razão para mudar.",
+        "2 - Princípio do Aberto/Fechado (OCP): As entidades de software (classes, módulos, funções, etc.) devem ser abertas para extensão, mas fechadas para modificação.",
+        "3 - Princípio da Substituição de Liskov (LSP): As classes base devem ser substituíveis por suas classes filhas sem afetar a integridade do programa.",
+        "4 - Princípio da Segregação de Interface (ISP): Muitas interfaces específicas são melhores do que uma única interface genérica.",
+        "5 - Princípio da Inversão de Dependência (DIP): Módulos de alto nível devem depender apenas de módulos de baixo nível. Ambos devem depender de abstrações. Além disso, abstrações devem depender de detalhes e detalhes não devem depender de abstrações.",
+        "Qual a sequência correta de afirmações verdadeiras e falsas (V e F)?"
+    ],
+    "alternatives": [
+        { "id": "1d359390-3af5-11ee-be56-0242ac120002", "text": "V - F - F - V - V", "feedback":"Incorreto", "correct":false },
+        { "id": "24900832-3af5-11ee-be56-0242ac120002", "text": "V - V - F - V - F", "feedback":"Correto, pois o Princípio da Substituição de Liskov cita que as classes filhas devem ser substituíveis por suas classes pai, sem afetar a integridade do programa e o Princípio da Inversão de Dependência define que módulos de alto nível no projeto não devem depender de módulos de baixo nível, bem como abstrações não devem depender de detalhes e detalhes devem depender de abstrações.", "correct":true },
+        { "id": "2cfdf754-3af5-11ee-be56-0242ac120002", "text": "V - V - F - F - V", "feedback":"Incorreto", "correct":false },
+        { "id": "30a5974a-3af5-11ee-be56-0242ac120002", "text": "F - F - V - V - F", "feedback":"Incorreto", "correct":false },
+        { "id": "359964c0-3af5-11ee-be56-0242ac120002", "text": "F - V - V - F - V", "feedback":"Incorreto", "correct":false }
+    ]
+}

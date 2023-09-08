@@ -1,0 +1,22 @@
+{
+    "id": "2e7f790f-d672-4be8-b280-e8050fafd11d",
+    "SKU": "000027",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "kotlin",
+    "knowledgeArea": "Mobile",
+    "category": "Testes Automatizados",
+    "subCategory": "Testes de Interface",
+    "level": "Medium", 
+    "tagsOrConcepts":["testes automatizados", "testes de interface"],
+    "text": [
+        "Qual é a finalidade dos testes de snapshot em aplicativos móveis híbridos com React Native?"
+    ],
+    "alternatives": [
+        { "id": "deeb00fd-1521-4cb8-8c77-8670b580b8ba", "text": "Testar a funcionalidade de unidades individuais de código.", "feedback":"Incorreto, são os chamados testes unitários que possuem esse objetivo.", "correct":false },
+        { "id": "74216761-9e14-48fb-ba86-28c627f1474d", "text": "Verificar a integração de diferentes componentes do sistema.", "feedback":"Incorreto, são os chamados testes de integração que possuem esse objetivo.", "correct":false },
+        { "id": "7220cbdf-26db-4cee-a6cc-356523249e2b", "text": "Validar a usabilidade e a experiência do usuário.", "feedback":"Incorreto, os testes de snapshot buscam comparar um momento específico na experiência do usuário no app.", "correct":false },
+        { "id": "3cd8bc23-8fe5-496b-a1d7-85c3b63da729", "text": "Comparar imagens capturadas da interface do usuário com imagens de referência.", "feedback":"Correto, os testes de snapshot capturam imagens da interface do usuário e as comparam com imagens de referência para identificar mudanças não intencionais.", "correct":true },
+        { "id": "52184dc4-8590-4678-ac98-59811086df67", "text": "Avaliar o desempenho do aplicativo em diferentes cenários.", "feedback":"Incorreto, testes de snapshot se vinculam a um cenário alvo específico.", "correct":false }
+    ]
+}

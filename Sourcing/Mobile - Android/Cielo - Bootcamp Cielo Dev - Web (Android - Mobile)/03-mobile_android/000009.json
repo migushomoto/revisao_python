@@ -1,0 +1,22 @@
+{
+    "id": "4ce7fbd3-260b-4e7e-9e3b-146c0d429e50",
+    "SKU": "000009",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "kotlin",
+    "knowledgeArea": "Mobile",
+    "category": "Fundamentos de Mobile",
+    "subCategory": "Android",
+    "level": "Advanced", 
+    "tagsOrConcepts":["mobile", "android"],
+    "text": [
+        "Qual tag XML deve ser utilizada para adicionar com eficiência um componente de exibição reutilizável previamente definido a um novo arquivo de layout?"
+    ],
+    "alternatives": [
+        { "id": "3ca5784a-b4a2-42cb-9386-fbf57b09d2bd", "text": "<merge/>", "feedback":"Incorreto, usado para evitar a inclusão de uma visualização em grupo redundante.", "correct":false },
+        { "id": "cdfbbec3-e2ca-4f33-8036-48dc15389c98", "text": "<reuse/>", "feedback":"Incorreto, não é uma tag válida.", "correct":false },
+        { "id": "3c01a2bd-b8a6-4209-9535-eb83f58695fa", "text": "<layout/>", "feedback":"Incorreto, não é uma tag válida.", "correct":false },
+        { "id": "8eb87b7b-90c3-43a7-b079-31dd0811fc29", "text": "<include/>", "feedback":"Correto, tag criada especificamente para abranger essa situação de reutilização de layouts.", "correct":true },
+        { "id": "24c581a8-a4d9-4606-8a84-93517f902220", "text": "<add/>", "feedback":"Incorreto, não é uma tag válida.", "correct":false }
+    ]
+}

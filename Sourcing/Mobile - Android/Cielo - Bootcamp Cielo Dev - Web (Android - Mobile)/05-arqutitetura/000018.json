@@ -1,0 +1,22 @@
+{
+    "id": "322644bc-73cf-4bb2-a078-0c201007b423",
+    "SKU": "000018",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "kotlin",
+    "knowledgeArea": "Mobile",
+    "category": "Arquitetura",
+    "subCategory": "MVVM",
+    "level": "Advanced", 
+    "tagsOrConcepts":["arquitetura", "mvvm"],
+    "text": [
+        "Ao integrar o padrão de design Observer na arquitetura MVVM, algo comumente utilizado no desenvolvimento Android, como a atualização da View é desencadeada quando os dados do ViewModel mudam? Quais são as vantagens desse padrão nesse contexto?"
+    ],
+    "alternatives": [
+        { "id": "050657c1-d947-4921-b5f7-4f7bf0835939", "text": "A View deve periodicamente verificar o ViewModel para detectar mudanças nos dados. Isso evita o alto consumo de recursos e melhora o desempenho do aplicativo.", "feedback":"Incorreto, o padrão de observação evita a necessidade dessa verificação constante da View no ViewModel, tornando o processo automático.", "correct":false },
+        { "id": "cc4dfa04-a717-4f39-84d3-962a81dc6e18", "text": "A atualização da View é feita manualmente pelo desenvolvedor, que deve chamar os métodos apropriados sempre que houver mudanças nos dados.", "feedback":"Incorreto, o desenvolvedor não tem nenhum contato com o código após o disparo de mudanças de valores dos dados.", "correct":false },
+        { "id": "845c222e-54b2-433d-bec9-88d9dbd758d2", "text": "A View registra-se como observadora do ViewModel, e o ViewModel notifica automaticamente a View quando os dados mudam. Isso mantém a sincronia entre os elementos da interface.", "feedback":"Correto, o padrão de observação é implementado na arquitetura MVVM ao fazer com que a View registre-se como observadora de variáveis de estado contidos no escopo do ViewModel. Quando os dados no ViewModel mudam, ele notifica automaticamente as Views observadoras, garantindo que a interface do usuário seja atualizada de forma reativa e eficiente.", "correct":true },
+        { "id": "42d9847e-51de-42f0-9319-f96801ad5c29", "text": "O ViewModel controla diretamente a atualização da View, manipulando a renderização gráfica de acordo com as alterações nos dados.", "feedback":"Incorreto, o ViewModel não possui autonomia para controle direto da View nesse padrão de arquitetura.", "correct":false },
+        { "id": "f0628d1e-426b-4c06-a6f1-05ba99e6f57a", "text": " A View registra-se como observadora do Model, e o Model é responsável por propagar as mudanças na View. Isso evita a dependência direta entre a View e o ViewModel.", "feedback":"Incorreto, o vínculo criado na View é apenas com o ViewModel na aqrquitetura MVVM.", "correct":false }
+    ]
+}

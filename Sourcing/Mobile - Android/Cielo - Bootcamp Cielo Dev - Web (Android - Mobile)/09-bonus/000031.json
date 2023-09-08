@@ -1,0 +1,22 @@
+{
+    "id": "df63e7f4-b6b2-4efc-9e5d-9dd630f0e9b4",
+    "SKU": "000031",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "kotlin",
+    "knowledgeArea": "Mobile",
+    "category": "Boas Práticas",
+    "subCategory": "Injeção de Dependências",
+    "level": "Medium", 
+    "tagsOrConcepts":["mobile", "android", "dagger", "injecao de dependencias"],
+    "text": [
+        "Qual é a função do framework Dagger no contexto da injeção de dependências em projetos Android?"
+    ],
+    "alternatives": [
+        { "id": "a7f28209-b1f6-4086-b1d1-a0a5ab2020e4", "text": "Motor de busca usado para encontrar e implementar dependências remotamente.", "feedback":"Incorreto, não se relaciona com a busca remota de dependências.", "correct":false },
+        { "id": "af07f4c3-d01b-48d2-ab95-39f57bba2968", "text": "Corrigir bugs automaticamente provenientes de dependências importadas no projeto.", "feedback":"Incorreto, não possui vínculo com a solução de falhas de dependências.", "correct":false },
+        { "id": "3643d0f2-418b-43f8-a8cb-a2e94b6f3bbf", "text": "Simplificar o desenvolvimento de interfaces de usuário.", "feedback":"Incorreto, não se relaciona com interfaces.", "correct":false },
+        { "id": "3063a6db-21b3-4f54-a5b6-de39d1582b42", "text": "Facilitar a injeção de dependência, gerenciando a criação e a disponibilização de objetos de maneira automática e padronizada no projeto.", "feedback":"Correto, o Dagger é um framework amplamente usado no desenvolvimento Android para facilitar a implementação da injeção de dependência, automatizando o processo de criação e disponibilização de objetos dependentes, tornando a configuração do modelo de injeção de dependência mais eficiente e padronizado.", "correct":true },
+        { "id": "de3a23a9-e79d-4159-a4b2-7470cc5c9bd8", "text": "Conjunto de bibliotecas gráficas usado juntamente a outras dependências de layout, para aprimorar a renderização gráfica.", "feedback":"Incorreto, não se relaciona com interfaces.", "correct":false }
+    ]
+}

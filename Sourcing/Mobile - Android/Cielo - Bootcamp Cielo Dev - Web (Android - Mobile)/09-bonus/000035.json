@@ -1,0 +1,22 @@
+{
+    "id": "e872345d-068b-4ab2-a60c-79d3055943c1",
+    "SKU": "000035",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "kotlin",
+    "knowledgeArea": "Mobile",
+    "category": "Padrões de Design",
+    "subCategory": "Estrutural",
+    "level": "Medium", 
+    "tagsOrConcepts":["padroes de design", "estrutural", "adapter", "android"],
+    "text": [
+        "Qual é a função principal do padrão de design Adapter no desenvolvimento Android?"
+    ],
+    "alternatives": [
+        { "id": "b40c79ce-9536-45cd-b439-1783ccbf28d4", "text": "Definir algoritmos de classificação personalizados para listas de elementos em um aplicativo Android.", "feedback":"Incorreto, essa descrição não corresponde à função principal do padrão Adapter.", "correct":false },
+        { "id": "e3b96fbe-bccf-4c2a-9f4c-a24444891df2", "text": "Simplificar a criação de interfaces de usuário usando a linguagem de marcação XML no Android.", "feedback":"Incorreto, o padrão Adapter trata da conversão de interfaces, não da criação de interfaces de usuário.", "correct":false },
+        { "id": "c8848b89-83ee-4867-81b0-4138a49991b6", "text": "Permitir que classes com interfaces incompatíveis possam colaborar, tornando possível que uma classe funcione como adaptador entre duas interfaces diferentes.", "feedback":"Correto, o Adapter permite que classes com interfaces diferentes possam ser usadas juntas ao introduzir um adaptador que atua como intermediário entre as interfaces.", "correct":true },
+        { "id": "0cbb14e3-855e-45e3-8deb-e7d05a15f499", "text": "Melhorar a eficiência de processos de download e upload de arquivos em aplicativos Android.", "feedback":"Incorreto, o padrão Adapter trata da compatibilidade de interfaces, não da eficiência de processos de download e upload.", "correct":false },
+        { "id": "0aac9e61-ebc7-46cf-95c3-3ee1123f2408", "text": "Definir a estrutura de banco de dados local em aplicativos Android, permitindo a criação de tabelas e consultas SQL de maneira mais eficiente.", "feedback":"Incorreto, o Adapter lida com a interoperabilidade de classes e interfaces, não com a definição de estruturas de banco de dados.", "correct":false }
+    ]
+}

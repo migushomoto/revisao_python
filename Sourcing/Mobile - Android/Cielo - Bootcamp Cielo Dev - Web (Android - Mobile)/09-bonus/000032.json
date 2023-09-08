@@ -1,0 +1,22 @@
+{
+    "id": "daed28f5-d63c-49ff-b373-792278707c21",
+    "SKU": "000032",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "kotlin",
+    "knowledgeArea": "Mobile",
+    "category": "Fundamentos de Mobile",
+    "subCategory": "Android",
+    "level": "Advanced", 
+    "tagsOrConcepts":["mobile", "android"],
+    "text": [
+        "Como seria possível recuper o valor do email de um usuário armazenado na chave 'EMAIL_KEY' em um SharedPreferences e ao mesmo tempo garantir que o valor retornado não fosse nulo, no escopo de código de uma Activity?"
+    ],
+    "alternatives": [
+        { "id": "039b5aaf-3939-4a6b-b15e-603db419860e", "text": "this.getPreferances(Context.MODE_PRIVATE).getString(EMAIL_KEY,\"\")", "feedback":"Correto, no método 'getPreferances(Context.MODE_PRIVATE).getString()', o segundo parâmetro é recebido para que possa ser retornado o seu valor caso a chave não exista. Portanto, precisamos passar uma string vazia para ser retornada caso a chave não exista.", "correct":true },
+        { "id": "30553237-9ed1-4027-b1e0-0c8accc90b62", "text": "getDefaultSharedPrefarances(this).getString(EMAIL_KEY,null)", "feedback":"Incorreto.", "correct":false },
+        { "id": "b8bd127e-fa9b-4d10-83dd-91f8cb18d1cc", "text": "getDefaultSharedPreferances(this).getString(EMAIL_KEY,\"\")", "feedback":"Incorreto.", "correct":false },
+        { "id": "497c505b-cc26-4e07-9ba0-1a9b2a29586b", "text": "getPreferances(this).getString(EMAIL_KEY,null)", "feedback":"Incorreto.", "correct":false },
+        { "id": "91926308-05a3-4841-a2cc-bcd467a4f631", "text": "this.getSharedPreferances(Context.MODE_PRIVATE).getString(EMAIL_KEY,\"\")", "feedback":"Incorreto.", "correct":false }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "id": "f43925bd-9029-44a4-9777-cdd9f672be4f",
+    "SKU": "000028",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "kotlin",
+    "knowledgeArea": "Mobile",
+    "category": "CI/CD",
+    "subCategory": "CI",
+    "level": "Medium", 
+    "tagsOrConcepts":["cicd"],
+    "text": [
+        "Qual é o principal objetivo da integração contínua (CI) em um fluxo de desenvolvimento de software?"
+    ],
+    "alternatives": [
+        { "id": "c7fcd01f-ff7d-48db-891b-9996619239ba", "text": "Automatizar a entrega do software ao ambiente de produção aplicando regras previamente definidas.", "feedback":"Incorreto, descrição do processo de entrega contínua (CD).", "correct":false },
+        { "id": "26311191-8ce5-482b-971f-413ca39600f2", "text": "Garantir que o código seja entregue aos testadores apenas uma vez por um período específico.", "feedback":"Incorreto, a entrega para testes irá variar de acordo com a conclusão dos desenvolvimentos do projeto.", "correct":false },
+        { "id": "7370fae7-179f-4e4a-bcfa-705b3d21d0ea", "text": "Identificar problemas de integração entre diferentes partes do código o mais cedo possível.", "feedback":"Correto, a integração contínua (CI) tem como objetivo identificar problemas de integração entre diferentes partes do código o mais cedo possível, evitando a acumulação de conflitos e facilitando a detecção precoce de erros.", "correct":true },
+        { "id": "92a01c7c-8031-4939-bc17-042a09b9a223", "text": "Substituir completamente os testes manuais realizados anteriormente a integração.", "feedback":"Incorreto, não substitui os testes em nenhum momento.", "correct":false },
+        { "id": "f8ea56fc-7336-4062-baf6-8fe43b429f5a", "text": "Fornecer um ambiente isolado para testes de aceitação.", "feedback":"Incorreto, não se relaciona com testes de aceitação.", "correct":false }
+    ]
+}

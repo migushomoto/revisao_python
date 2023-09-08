@@ -1,0 +1,22 @@
+{
+    "id": "a87e97e7-a3a6-4505-98c9-9dcf8ae9502d",
+    "SKU": "000029",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "kotlin",
+    "knowledgeArea": "Mobile",
+    "category": "CI/CD",
+    "subCategory": "Pipeline",
+    "level": "Medium", 
+    "tagsOrConcepts":["cicd", "pipeline", "gradle"],
+    "text": [
+        "Qual é a finalidade do Gradle em um pipeline de CI/CD para aplicativos Android?"
+    ],
+    "alternatives": [
+        { "id": "620c38a7-3076-4bb8-ac43-458ddf04258a", "text": "Gerenciar as dependências do sistema operacional.", "feedback":"Incorreto, não se relaciona as dependências do sistema operacional Android.", "correct":false },
+        { "id": "0faa3877-0135-4df5-a4d8-0c3a4ace678a", "text": "Fornecer suporte para testes de interface do usuário.", "feedback":"Incorreto, não está relacionado ao suporte de testes.", "correct":false },
+        { "id": "8729a479-ae7c-4b34-9de0-bb9ff66238b4", "text": "Automatizar a implantação do aplicativo na Google Play Store.", "feedback":"Incorreto, não se vincula a entrega do app na Play Store.", "correct":false },
+        { "id": "0ac7aa22-249c-4515-afc7-cf9169d19d58", "text": "Facilitar a compilação, o empacotamento e a gestão de dependências do aplicativo.", "feedback":"Correto, o Gradle é uma ferramenta de automação de compilação que facilita a compilação, o empacotamento e a gestão de dependências do aplicativo Android em um pipeline de CI/CD.", "correct":true },
+        { "id": "efcec0f1-ce7c-41f1-a87d-3d58c7424714", "text": "Executar testes de carga e desempenho no aplicativo.", "feedback":"Incorreto, não se atrela a execução de testes e nem ao desempenho da aplicação.", "correct":false }
+    ]
+}
