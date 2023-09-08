@@ -15,10 +15,12 @@
     ],
     "text": [
         "Considere as variáveis declaradas abaixo:",
+        "```c",
         "char centena = 50;",
         "char dezena = 53;",
         "char unidade = 51;",
         "int numero = ??;",
+        "```",
         "Considerando a codificação ASCII, qual expressão corretamente substituirá ?? para obter o número correto?"
     ],
     "alternatives": [

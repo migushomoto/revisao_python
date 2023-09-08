@@ -18,7 +18,9 @@
     ],
     "text": [
         "Um código-fonte C contém a linha abaixo:",
+        "```c",
         "#define max(a,b) a > b ? a : b",
+        "```",
         "Podemos afirmar que:"
     ],
     "alternatives": [

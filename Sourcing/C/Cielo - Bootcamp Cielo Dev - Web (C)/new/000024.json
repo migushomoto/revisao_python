@@ -18,9 +18,11 @@
     ],
     "text": [
         "Considere os seguintes trechos de código:",
+        "```c",
         "#define PI 3.141592",
         "...",
         "const float euler = 2.71828182;",
+        "```",
         "Podemos afirmar que:"
     ],
     "alternatives": [
