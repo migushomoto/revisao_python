@@ -12,11 +12,11 @@
     "text": [
         "Os padrões de design desempenham um papel crucial no desenvolvimento de software, oferecendo soluções testadas e comprovadas para problemas recorrentes.",
         "Cada padrão possui particularidades que o permite ser categorizado e assim adequado para solucionar um determinado escopo de situações, sendo estas descritas a seguir:",
-        "1 - Estruturais: lidam com a composição de classes e objetos para formar estruturas maiores.",
-        "2 - Criacionais: relacionados à criação de objetos de forma flexível e eficiente.",
-        "3 - Interface: definem a comunicação entre diferentes partes do sistema, especificando como os objetos interagem.",
-        "4 - Banco de Dados: tratam da organização e manipulação eficiente dos dados no sistema.",
-        "5 - Comportamentais: definem como os objetos interagem e trocam informações para realizar tarefas conjuntas.",
+        "1. Estruturais: lidam com a composição de classes e objetos para formar estruturas maiores.",
+        "2. Criacionais: relacionados à criação de objetos de forma flexível e eficiente.",
+        "3. Interface: definem a comunicação entre diferentes partes do sistema, especificando como os objetos interagem.",
+        "4. Banco de Dados: tratam da organização e manipulação eficiente dos dados no sistema.",
+        "5. Comportamentais: definem como os objetos interagem e trocam informações para realizar tarefas conjuntas.",
         "Quais os tipos corretos existentes de padrões de design de software?"
     ],
     "alternatives": [
