@@ -11,7 +11,7 @@
     "tagsOrConcepts": ["variáveis", "operadores", "condicional", "input", "output"],
     "text": [
                 "Durante a monitoria de programação, um aluno chegou com o seguinte código:",
-                "!()",
+                "!(https://github.com/educacionalAda/Banco-de-questoes/blob/processo-seletivo-unimed-data-academy-campinas/Dados/Processos%20seletivos/Unimed%20Campinas%20Data%20Academy/000005.png)",
                 "e quis tirar dúvida sobre qual tipo de dado o código imprime. Você, na posição de monitor, o que responderia?"
             ],
     "alternatives": [ 

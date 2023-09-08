@@ -11,7 +11,7 @@
     "tagsOrConcepts": ["condicionais", "operadores", "lógicos"],
     "text": [
                 "Para ver a divisão salarial de uma empresa, um funcionário elaborou o seguinte código:",
-                "!()",
+                "!(https://github.com/educacionalAda/Banco-de-questoes/blob/processo-seletivo-unimed-data-academy-campinas/Dados/Processos%20seletivos/Unimed%20Campinas%20Data%20Academy/000012.png)",
                 "Porém, ao inserir o primeiro valor de salário, de 1500, seu código saiu de controle. Qual alternativa melhor explica o que aconteceu?"
             ],
     "alternatives": [ 

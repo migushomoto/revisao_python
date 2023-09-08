@@ -11,7 +11,7 @@
     "tagsOrConcepts": ["MER"],
     "text": [
                 "A imagem abaixo contem um diagrama entidade-relacionamento correspondente à uma biblioteca",
-                "!(000023.png)",
+                "!(https://github.com/educacionalAda/Banco-de-questoes/blob/processo-seletivo-unimed-data-academy-campinas/Dados/Processos%20seletivos/Unimed%20Campinas%20Data%20Academy/000023.png)",
                 "Interprete a modelagem e assinale a alternativa que indica as chaves primárias das tabelas Livros, Bibliotecários e Clientes, bem como a função da tabela Empréstimo"
             ],
     "alternatives": [ 
