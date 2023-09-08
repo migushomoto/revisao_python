@@ -1,0 +1,26 @@
+{
+    "id": "c0684104-ac25-4a6b-b61e-e8c0942ebda7",
+    "SKU": "000013",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "knowledgeArea": "Dados",
+    "category": "Lógica de Programação",
+    "subCategory": "Estruturas condicionais e while",
+    "level": "Medium", 
+    "tagsOrConcepts": ["condicionais", "operadores", "lógicos"],
+    "text": [
+                "Em uma escola, para conseguir aprovação, os alunos devem tirar nota maior que 7. Se tirarem nota acima de 5, ficam de recuperação e, abaixo de 5, reprovam.",
+                "No último ano, uma turma de matemática apresentou um comportamento inusitado: nenhum aluno passou direto. Todos ou ficaram de recuperação, ou reprovaram.",
+                "A diretoria, estranhando o acontecido, foi questionar o professor da disciplina que respondeu, em sua defesa, que havia feito o seguinte código para automatizar a aprovação ou não dos alunos:",
+                "!()",
+                "O que pode ter acontecido?"
+            ],
+    "alternatives": [ 
+        {"text" : "A validação de alunos em recuperação veio antes dos alunos aprovados, então todas as notas maiores que 5 caíram na primeira condição do IF, não passando pela aprovação", "feedback": "Alternativa correta", "correct" : true},
+        {"text" : "Existe um erro de sintaxe na condição do elif, impedindo que os alunos fossem aprovados", "feedback": "a sintaxe está correta, porém a ordem das validações, nesse caso, importa, e as aprovações deveriam ser validadas antes da validação de recuperação.", "correct" : false},
+        {"text" : "As notas exatamente 5 e exatamente 7 não são consideradas nas validações", "feedback": "O operador >= considera valores maiores ou iguais aos comparados", "correct" : false},
+        {"text" : "Deveria haver dois IFs separados, não um elif", "feedback": "O elif deve existir, sim, porém a condição de notas maiores ou iguais a 7 deveria vir em primeiro lugar", "correct" : false},
+        {"text" : "Não sei", "feedback": "Você respondeu não sei para essa pergunta", "correct" : false}
+     ]
+}

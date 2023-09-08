@@ -1,0 +1,25 @@
+{
+    "id": "8c2c6ea1-1266-4c3a-983e-0cfd5b7501dd",
+    "SKU": "000014",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "knowledgeArea": "Dados",
+    "category": "Lógica de Programação",
+    "subCategory": "Estruturas condicionais e while",
+    "level": "Basic", 
+    "tagsOrConcepts": ["condicionais", "operadores", "lógicos"],
+    "text": [
+                "Uma professora de matemática decidiu fazer uma questão online para seus alunos e, com isso, fez o seguinte código:",
+                "!()",
+                "Porém, os alunos notaram, ao tentar responder, que só obtinham uma resposta do código caso respondessem errado e, caso o fizessem, a mensagem de resposta errada aparecia inúmeras vezes na tela. Se inserissem a resposta correta, nada acontecia",
+                "Qual alternativa melhor descreve o que aconteceu?"
+            ],
+    "alternatives": [ 
+        {"text" : "O código entrou em um looping infinito.", "feedback": "Sim, mas não só isso. O código não entra no while caso a resposta correta seja inserida", "correct" : false},
+        {"text" : "Existe erro de sintaxe no código", "feedback": "Não existe erro de sintaxe, mas de lógica. Caso a resposta correta seja inserida, o código não entra no while e, consequentemente, no if. Caso a resposta errada seja inserida, o código entra em looping infinito", "correct" : false},
+        {"text" : "O código não entra no laço de repetição caso a resposta certa seja inserida e entra em looping infinito caso a resposta errada seja digitada", "feedback": "Alternativa correta", "correct" : true},
+        {"text" : "Caso a resposta correta seja digitada, o código apresenta erro", "feedback": "Nenhum erro é apontado, mas o laço de repetição não se inicia e, consequentemente, a mensagem prevista dentro da condição do if não é exibida", "correct" : false},
+        {"text" : "Não sei", "feedback": "Você respondeu não sei para essa pergunta", "correct" : false}
+     ]
+}

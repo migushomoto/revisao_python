@@ -1,0 +1,20 @@
+{
+    "id": "e2cb8e4f-d39f-4f5a-b941-2593f6c11eeb",
+    "SKU": "000018",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "knowledgeArea": "Dados",
+    "category": "Lógica de Programação",
+    "subCategory": "Manipulação de strings (foco em métodos de strings)",
+    "level": "Medium", 
+    "tagsOrConcepts": ["strings", "métodos"],
+    "text": ["Um redator quer saber se em seu texto há muitas repetições. Para isso, ele quer contar a quantidade de aparições de cada palavra presente no texto. Qual a melhor forma de ele fazer isso?"],
+    "alternatives": [ 
+        {"text" : "Ele pode usar a função texto.split(' ') para separar as palavras automaticamente em uma lista com quebra nos espaços e contar a frequência de cada palavra", "feedback": "Alternativa correta", "correct" : true},
+        {"text" : "Ele pode criar uma lista texto e usar a função texto.append(palavra) para cada palavra presente no texto, manualmente, e então contar a frequência de cada palavra", "feedback": "seria uma forma de se fazer, porém não a melhor, visto que gasta muito mais tempo e operações", "correct" : false},
+        {"text" : "Ele pode utilizar a função len(texto) para contar as palavras ", "feedback": "a função len(texto) contaria apenas os caracteres presentes no texto, não as palavras e suas frequências", "correct" : false},
+        {"text" : "Ele poderia utilizar a função print(texto[i]), sendo i o índice de cada palavra, para depois realizar a contagem de frequência", "feedback": "Esse método geraria muitas operações e muito tempo gasto do redator, além de não armazenar as palavras para posterior contagem", "correct" : false},
+        {"text" : "Não sei", "feedback": "Você respondeu não sei para essa pergunta", "correct" : false}
+     ]
+}

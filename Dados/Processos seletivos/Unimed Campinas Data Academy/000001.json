@@ -1,0 +1,24 @@
+{
+    "id": "5efee7f2-540a-4e2e-9415-4219fab104d9",
+    "SKU": "000001",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "knowledgeArea": "Dados",
+    "category": "Lógica de Programação",
+    "subCategory": "Variáveis, coerção de dados, input/output",
+    "level": "Basic", 
+    "tagsOrConcepts": ["variáveis", "coerção", "input", "operadores"],
+    "text": [
+                "Um professor fez o seguinte código para calcular a média de seus alunos:",
+                "!()",
+                "Porém, ao rodar o código pela primeira vez, foi apontada a existência de um erro. O que aconteceu?"
+            ],
+    "alternatives": [ 
+        {"text" : "Ele não converteu o tipo de dados na entrada, tentando fazer operações algébricas com strings", "feedback": "Correto. Para realizar o cálculo, deveria converter para float", "correct" : true},
+        {"text" : "As operações definidas no código só podem ser realizadas com números inteiros", "feedback": "variáveis do tipo float também podem ser utilizadas em operações de soma e divisão", "correct" : false},
+        {"text" : "O número de entradas é muito grande para a operação", "feedback": "Incorreto. Mais entradas podem ser feitas sem problemas", "correct" : false},
+        {"text" : "Divisão pode ser feita apenas com valores do tipo float", "feedback": "A divisão pode ser feita também para valores do tipo int, porém aqui estamos lidando com strings", "correct" : false},
+        {"text" : "Não sei", "feedback": "Você respondeu não sei para essa pergunta", "correct" : false}
+     ]
+}

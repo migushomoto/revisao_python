@@ -1,0 +1,20 @@
+{
+    "id": "85512159-19e5-45e4-b601-26ac45c46e8e",
+    "SKU": "000002",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "knowledgeArea": "Dados",
+    "category": "Lógica de Programação",
+    "subCategory": "Variáveis, coerção de dados, input/output",
+    "level": "Basic", 
+    "tagsOrConcepts": ["variáveis", "coerção", "input"],
+    "text": ["Um aluno de programação deseja verificar se as variáveis declaradas por ele são do tipo certo para a execução do código. Qual a melhor forma de ele determinar isso?"],
+    "alternatives": [ 
+        {"text" : "Lendo a declaração da variável no código escrito", "feedback": "Em Python, não declaramos o tipo de variável ao declarar a variável, impossibilitando determinar seu tipo dessa forma", "correct" : false},
+        {"text" : "Rodando o código inúmeras vezes para ver se o resultado é o esperado", "feedback": "Não é uma boa prática, o aluno pode não entender de fato qual é o tipo de dado e gastar muito tempo nas execuções repetiras", "correct" : false},
+        {"text" : "Imprimindo o valor da variável", "feedback": "Às vezes não basta imprimir o valor da variável para determinar seu tipo", "correct" : false},
+        {"text" : "Utilizando a função type()", "feedback": "A função type retorna o tipo da variável em questão, sendo a melhor forma para a determinação desejada", "correct" : true},
+        {"text" : "Não sei", "feedback": "Você respondeu não sei para essa pergunta", "correct" : false}
+     ]
+}

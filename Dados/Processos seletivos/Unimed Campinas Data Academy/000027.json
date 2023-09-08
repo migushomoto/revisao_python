@@ -1,0 +1,24 @@
+{
+    "id": "c8fd6246-bf7e-4401-8d15-16071f9593d4",
+    "SKU": "000027",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "Dados",
+    "category": "Power BI",
+    "subCategory": "Gráficos",
+    "level": "Medium", 
+    "tagsOrConcepts": ["gráficos"],
+    "text": [
+                "Em uma fábrica de instrumentos de corda, produzem-se guitarras, baixos, pianos e violinos",
+                "O dono da fábrica quer saber quanto de sua receita vem de cada tipo de instrumento percentualmente, para poder tomar melhores decisões de negócio",
+                "Qual a melhor visualização para evidenciar a participação percentual de cada tipo de instrumento na receita, facilitando a comparação?"
+            ],
+    "alternatives": [ 
+        {"text" : "Gráfico de linha", "feedback": "Um gráfico de linha passa uma relação de conexão (temporal por exemplo), que não faz sentido na comparação desejada", "correct" : false},
+        {"text" : "Gráfico de setor", "feedback": "Um gráfico de setor vai evidenciar as porcentagens e ajudar a comparação", "correct" : true},
+        {"text" : "Gráfico de funil", "feedback": "Um gráfico de funil passa uma noção de hierarquia, que não faz sentido na comparação desejada", "correct" : false},
+        {"text" : "Gráfico de barras", "feedback": "Um gráfico de barras vai mostrar valores absolutos e não auxilia na comparação com o restante do todo", "correct" : false},
+        {"text" : "Não sei", "feedback": "Você respondeu não sei para essa pergunta", "correct" : false}
+     ]
+}
