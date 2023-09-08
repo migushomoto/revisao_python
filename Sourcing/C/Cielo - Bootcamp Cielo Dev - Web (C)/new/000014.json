@@ -1,0 +1,53 @@
+{
+    "id": "0507c710-73c4-412e-99a6-1e9618d95811",
+    "SKU": "000014",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "embedded",
+    "category": "fundamentos de linguagem C",
+    "subCategory": "operações binárias",
+    "level": "Medium",
+    "tagsOrConcepts": [
+        "operações binárias",
+        "bitwise",
+        "bits",
+        "lógica",
+        "operadores lógicos"
+    ],
+    "text": [
+        "Sendo a e b duas variáveis quaisquer, qual operação representaria a diferença entre o conjunto de bits A e B (A - B)?"
+    ],
+    "alternatives": [
+        {
+            "id": "18407843-7325-4473-857e-e724915dc6b0",
+            "feedback": "A operação & é um E bit-a-bit, e ~ é uma negação (inverte os bits). Dessa forma, o resultado será todos os bits que estão simultaneamente ativos em A e não-ativos em B - ou seja, justamente os bits presentes em A que não estão presentes em B: A-B.",
+            "correct": true,
+            "text": "#define dif(a, b) a & ~b"
+        },
+        {
+            "id": "af3f6b5f-8889-40a0-8bac-f7dfbd046014",
+            "feedback": "A operação ^ é um OU-EXCLUSIVO bit-a-bit. Seu resultado será todos os bits ativos em A que não estão ativos em B e vice-versa. Queremos apenas os bits ativos em A que não estão ativos em B, não o contrário.",
+            "correct": false,
+            "text": "#define dif(a, b) a ^ b"
+        },
+        {
+            "id": "9ae1ba9f-6954-4725-88b4-d7cd63fbce71",
+            "feedback": "A operação | é um OU bit-a-bit. Seu resultado será todos os bits ativos em A e todos os bits não-ativos em B (mesmo que não estejam presentes em A).",
+            "correct": false,
+            "text": "#define dif(a, b) a | ~b"
+        },
+        {
+            "id": "369accdc-53dd-48f0-bd5a-50c2cd4324fb",
+            "feedback": "A operação >> é um deslocamento de bits.",
+            "correct": false,
+            "text": "#define dif(a, b) a >> b"
+        },
+        {
+            "id": "53abb689-c950-483d-87ad-78ec803b9bc2",
+            "feedback": "A operação & é um E bit-a-bit. Estamos pegando os bits ativos simultaneamente em A e B.",
+            "correct": false,
+            "text": "#define dif(a, b) a & b"
+        }
+    ]
+}

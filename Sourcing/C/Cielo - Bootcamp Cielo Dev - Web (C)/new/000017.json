@@ -1,0 +1,51 @@
+{
+    "id": "929f975f-992d-478a-bdfc-7cc8de551064",
+    "SKU": "000017",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "embedded",
+    "category": "fundamentos de linguagem C",
+    "subCategory": "organização do programa na memória",
+    "level": "Medium",
+    "tagsOrConcepts": [
+        "alocação de memória",
+        "malloc",
+        "alocação dinâmica"
+    ],
+    "text": [
+        "Quando a memória alocada dinamicamente através de funções como malloc é liberada em um programa em C?"
+    ],
+    "alternatives": [
+        {
+            "id": "06add62f-4cfb-45ad-9b2b-c533c259190a",
+            "feedback": "Variáveis declaradas dentro de uma função são armazenadas na pilha, e portanto sua memória é liberada ao final da execução da função. Porém, memória alocada dinamicamente seguirá alocada na heap mesmo após o fim da execução da função, mesmo que possíveis referências para ela tenham deixado de existir no escopo.",
+            "correct": false,
+            "text": "Ao final da execução da função onde ela está alocada"
+        },
+        {
+            "id": "213fcd47-e35e-45ee-a42c-96675b32061a",
+            "feedback": "A função free existe para permitir a liberação de memória dinâmica durante a execução de um programa. Além disso, a liberação automática ao final da execução do programa depende do sistema operacional.",
+            "correct": false,
+            "text": "Ao final da execução do programa, somente"
+        },
+        {
+            "id": "c5d8dec9-55e1-4079-9e77-dc9ae142b6fb",
+            "feedback": "Algumas linguagens, como Python, liberam memória automaticamente quando todas as referências para ela são removidas. Porém, isso é feito por algum mecanismo de gerenciamento de memória, como um garbage collector, e a linguagem C não possui esse tipo de mecanismo.",
+            "correct": false,
+            "text": "Ao tornar todas as referências à variável nulas"
+        },
+        {
+            "id": "8796c5e2-1eda-4956-8072-c4981b219965",
+            "feedback": "A função free existe para permitir a liberação de memória dinâmica durante a execução de um programa. Além disso, a liberação automática ao final da execução do programa depende do sistema operacional. Portanto, a única maneira garantida e independente de plataforma para liberar memória é chamando free explicitamente.",
+            "correct": true,
+            "text": "Ao liberá-la manualmente utilizando free"
+        },
+        {
+            "id": "18d50f3b-b2cf-440c-9cf9-5b0062067448",
+            "feedback": "A linguagem C não possui garbage collector, deixando o gerenciamento de memória nas mãos do programador.",
+            "correct": false,
+            "text": "Ao liberar manualmente utilizando free ou quando o garbage collector detectar que ela está inutilizada"
+        }
+    ]
+}

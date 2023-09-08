@@ -1,0 +1,51 @@
+{
+    "id": "d5f10ef8-43bd-49a0-be3e-1495efe655d1",
+    "SKU": "000013",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "embedded",
+    "category": "fundamentos de linguagem C",
+    "subCategory": "tipos de dados",
+    "level": "Medium",
+    "tagsOrConcepts": [
+        "dados binários",
+        "float",
+        "ponto flutuante"
+    ],
+    "text": [
+        "Um cliente de sua empresa reportou problemas em seu módulo financeiro. Os problemas tipicamente consistem de pequenos erros de centavos, como arredondamentos inesperados 1 centavo para cima ou para baixo, e alguns valores específicos simplesmente não sendo aceitos e aparecendo com offset. Qual o provável problema e qual seria uma possível solução para ele?"
+    ],
+    "alternatives": [
+        {
+            "id": "ce4ad27d-ed4b-41a5-96e4-bf547e50434c",
+            "feedback": "O uso de estratégias baseadas em ponto fixo permite que tenhamos precisão arbitrária. Já no ponto flutuante, a precisão pode variar de acordo com os valores envolvidos e as operações sendo realizadas.",
+            "correct": false,
+            "text": "Uso de ponto fixo, que deve ser trocado por ponto flutuante"
+        },
+        {
+            "id": "c12e4006-d763-4a97-8c24-a691372e4002",
+            "feedback": "O uso de estratégias baseadas em ponto fixo permite que tenhamos precisão arbitrária. Já no ponto flutuante, a precisão pode variar de acordo com os valores envolvidos e as operações sendo realizadas.",
+            "correct": true,
+            "text": "Uso de ponto flutuante, que deve ser trocado por ponto fixo"
+        },
+        {
+            "id": "4de08c63-877a-4c4d-9295-6bc1bd5c88d4",
+            "feedback": "Apesar do double alocar mais bits, em tese aumentando a precisão de um número de ponto flutuante, ele ainda possui precisão variável de acordo com os valores e operações envolvidas, o que pode ser bastante arriscado para trabalhar com valores financeiros.",
+            "correct": false,
+            "text": "Uso de tipos pequenos para ponto flutuante, como float, que devem ser substituídos por tipos maiores, como double"
+        },
+        {
+            "id": "eed965f6-0e60-43ed-a440-622807005b0f",
+            "feedback": "O ponto fixo nos permite ter precisão arbitrária. Uma vez especificada a quantidade de casas após o ponto decimal, todos os valores possíveis com aquela quantidade de casas são aceitos. Valores específicos _faltando_ e sendo supostamente arredondados automaticamente é uma característica de números de ponto flutuante, como float e double.",
+            "correct": false,
+            "text": "Uso de tipos pequenos para ponto fixo, como int, que devem ser substituídos por tipos maiores, como long int"
+        },
+        {
+            "id": "913b08e9-7e1b-45ed-8b8f-c10db9c5ca7b",
+            "feedback": "Uma conversão de string para um formato baseado em inteiro não apresentaria problemas, dado que fosse respeitada a quantidade de casas. Valores específicos _faltando_ e sendo supostamente arredondados para outro valor próximo automaticamente é uma característica de números de ponto flutuante, como float e double",
+            "correct": false,
+            "text": "Falhas na conversão de string de entrada do usuário para tipos numéricos, que pode ser corrigida forçando as entradas a serem numéricas"
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "id": "9e590665-3736-439c-8e60-169c28482478",
+    "SKU": "000026",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "embedded",
+    "category": "compilação",
+    "subCategory": "compilação",
+    "level": "Medium",
+    "tagsOrConcepts": [
+        "compilação",
+        ".h",
+        ".c",
+        "biblioteca",
+        "código-objeto",
+        "código-fonte"
+    ],
+    "text": [
+        "Durante o processo de compilação, diferentes arquivos de código-fonte irão gerar diferentes códigos objeto. Podemos afirmar que:"
+    ],
+    "alternatives": [
+        {
+            "id": "e8a10e2b-5b2e-43a1-aa09-494ed92d14cf",
+            "feedback": "Um código objeto pode ser apenas uma coleção de funções (uma biblioteca) a ser utilizada por programas executáveis.",
+            "correct": false,
+            "text": "Todo código objeto é um programa executável"
+        },
+        {
+            "id": "fba779b3-be73-4665-9fbd-a4e95bee13ed",
+            "feedback": "Uma biblioteca pode ser carregada de maneira estática ou dinâmica. No caso da estática, de fato ao final da compilação ela será embutida no programa. No caso da dinâmica, não: na hora de executar o programa o sistema operacional irá ligar o programa à biblioteca. Isso ocorre, por exemplo, em arquivos DLL, que podem ser compartilhadas entre diferentes executáveis.",
+            "correct": false,
+            "text": "Toda biblioteca é embutida no programa executável ao final do processo de compilação"
+        },
+        {
+            "id": "87fe1a50-2482-4d28-9588-8fc84eda42ce",
+            "feedback": "Código objeto é um arquivo binário resultante de uma compilação que ainda não passou pelo linker para se tornar um executável. Ele não tem a ver com os *objetos* da *programação orientada a objeto*.",
+            "correct": false,
+            "text": "Códigos objeto são gerados apenas a partir de arquivos .cpp, pois a linguagem C não possui objetos"
+        },
+        {
+            "id": "74d83223-a44d-422d-89d4-f39d1a59cb0d",
+            "feedback": "Um arquivo .c pode conter múltiplas funções e não conter nenhuma main. Ele pode ser compilado normalmente, mas não irá gerar um programa executável, e sim uma biblioteca que poderá ser utilizada por outros programas executáveis.",
+            "correct": true,
+            "text": "Uma função main não é necessária para compilar um arquivo .c"
+        },
+        {
+            "id": "d84bf2cf-39b0-4da8-8938-284736a8aa7b",
+            "feedback": "Uma vez compilada, a biblioteca pode ser utilizada por outros programas, desde que sejam respeitados padrões e convenções de nomenclatura, passagem de parâmetros, ordem de bytes, entre outros. Há, por exemplo, bibliotecas Python escritas parcialmente em C.",
+            "correct": false,
+            "text": "Um programa executável só pode interagir com bibliotecas originalmente escritas na mesma linguagem que ele"
+        }
+    ]
+}

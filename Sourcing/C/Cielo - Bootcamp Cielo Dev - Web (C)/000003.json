@@ -15,7 +15,7 @@
         "Considere o trecho de código abaixo:",
         "`int v[] = {1, 3, 5, 7, 9};`",
         "`int *p = v;`",
-        "`printf(\"%d\n\", ((char*)p)[4]);`",
+        "`printf(\"%d\\n\", ((char*)p)[4]);`",
         "Sem conhecer a plataforma onde este código será compilado e executado, o que podemos afirmar sobre a saída produzida por ele?"
     ],
     "alternatives": [

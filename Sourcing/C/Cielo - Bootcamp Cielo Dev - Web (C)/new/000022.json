@@ -1,0 +1,52 @@
+{
+    "id": "b7122d67-39fc-46d9-9e15-f8f171b59c0b",
+    "SKU": "000022",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "embedded",
+    "category": "tipos de dados",
+    "subCategory": "formatos binários",
+    "level": "Medium",
+    "tagsOrConcepts": [
+        "hexadecimal",
+        "decimal",
+        "octal",
+        "aritmética"
+    ],
+    "text": [
+        "Três variáveis são inicializadas em linguagem C com os valores 27, 0x27 e 027. Qual a sua soma e qual o seu produto?"
+    ],
+    "alternatives": [
+        {
+            "id": "7fb757d2-6ee2-47b0-bcdb-f06c7036ad37",
+            "feedback": "0x27 é a representação hexadecimal de 39. 027 é a representação octal de 23. Portanto, temos 27x39x23=24219 e 27+39+23=89",
+            "correct": false,
+            "text": "19683 81"
+        },
+        {
+            "id": "d5d1b019-e026-42f9-825f-192f9446c655",
+            "feedback": "0x27 é a representação hexadecimal de 39. 027 é a representação octal de 23. Portanto, temos 27x39x23=24219 e 27+39+23=89",
+            "correct": false,
+            "text": "41067 105"
+        },
+        {
+            "id": "301eca4e-f1af-45fe-8434-16ea3108e968",
+            "feedback": "0x27 é a representação hexadecimal de 39. 027 é a representação octal de 23. Portanto, temos 27x39x23=24219 e 27+39+23=89",
+            "correct": false,
+            "text": "28431 93"
+        },
+        {
+            "id": "0e0c47db-23db-40ed-a2c5-396ca4dee1d2",
+            "feedback": "0x27 é a representação hexadecimal de 39. 027 é a representação octal de 23. Portanto, temos 27x39x23=24219 e 27+39+23=89",
+            "correct": false,
+            "text": "19683 66"
+        },
+        {
+            "id": "8f04dfc6-2714-4032-92d7-eb608e644def",
+            "feedback": "0x27 é a representação hexadecimal de 39. 027 é a representação octal de 23. Portanto, temos 27x39x23=24219 e 27+39+23=89",
+            "correct": true,
+            "text": "24219 89"
+        }
+    ]
+}

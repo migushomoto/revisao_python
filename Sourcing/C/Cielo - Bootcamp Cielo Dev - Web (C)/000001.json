@@ -16,9 +16,9 @@
         "O trecho de código abaixo faz parte de um programa que será compilado e executado neste sistema:",
         "`int x = 42;`",
         "`int *p = &x;`",
-        "`printf(\"%p - %d\n\", p, x);`",
+        "`printf(\"%p - %d\\n\", p, x);`",
         "`p++;`",
-        "`printf(\"%p - %d\n\", p, x);`",
+        "`printf(\"%p - %d\\n\", p, x);`",
         "Sabendo que a primeira linha impressa no console seria `0x7fff2d9db72c - 42`, assinale a alternativa que indica a segunda linha impressa no console."
     ],
     "alternatives": [

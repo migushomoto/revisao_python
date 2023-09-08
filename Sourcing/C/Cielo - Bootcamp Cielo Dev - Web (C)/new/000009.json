@@ -1,0 +1,59 @@
+{
+    "id": "acc40782-6b72-49a6-a2b3-1ed88a76e486",
+    "SKU": "000009",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "embedded",
+    "category": "fundamentos de linguagem C",
+    "subCategory": "tipos de dados",
+    "level": "Medium",
+    "tagsOrConcepts": [
+        "tipos de dados",
+        "overflow",
+        "modificadores de acesso"
+    ],
+    "text": [
+        "Considere o trecho de programa abaixo:",
+        "```c",
+        "while (x > aux) {",
+        "  aux = x;",
+        "  x++;",
+        "  printf(\"%d\", x);",
+        "}",
+        "```",
+        "Podemos afirmar que o último valor a ser impresso na tela será:"
+    ],
+    "alternatives": [
+        {
+            "id": "8d2e5b06-18d7-4e99-a506-649f34a3f4c2",
+            "feedback": "Uma variável não pode incrementar para sempre. Em algum momento, ela irá atingir o máximo valor possível e em seguida voltará para o menor valor possível, o que chamamos de overflow. Quando isso ocorrer, aux estará armazenando o maior valor possível para o tipo das variáveis, enquanto x armazenará (e imprimirá na tela) o menor. Se a variável tiver sido declarada como unsigned, o menor valor será zero. Caso contrário, será um valor negativo.",
+            "correct": true,
+            "text": "0 ou negativo, dependendo dos modificadores de acesso de x"
+        },
+        {
+            "id": "c8b3563c-b0fc-439e-824f-4d5ddd912e67",
+            "feedback": "Quando ocorrer o overflow de x, seu valor poderá ser 0 ou um número negativo. Será 0 apenas se x tiver sido declarada como unsigned.",
+            "correct": false,
+            "text": "0"
+        },
+        {
+            "id": "506e1c1f-6541-464b-97a9-e48b51e22f2c",
+            "feedback": "Caso x tenha sido declarada como unsigned, ela não pode assumir valores negativos, e quando ocorrer seu overflow, ela valerá 0.",
+            "correct": false,
+            "text": "Negativo"
+        },
+        {
+            "id": "1011dc5a-ef9f-4097-92c5-ca57eff3ddb5",
+            "feedback": "A arquitetura do processador influenciará qual será o maior e menor valor possíveis. Mas entre 0 e um número negativo (independentemente de quão grande a sua magnitude) dependerá exclusivamente da variável ter sido declarada como unsigned ou não.",
+            "correct": false,
+            "text": "0 ou negativo, dependendo da arquitetura do processador"
+        },
+        {
+            "id": "0a88bf31-8f14-4b91-891d-8a46efecf4d9",
+            "feedback": "Uma variável não pode incrementar para sempre. Em algum momento, ela irá atingir o máximo valor possível e em seguida voltará para o menor valor possível, o que chamamos de overflow. Quando isso ocorrer, aux estará armazenando o maior valor possível para o tipo das variáveis, enquanto x armazenará (e imprimirá na tela) o menor.",
+            "correct": false,
+            "text": "O loop é infinito e seguirá imprimindo números indefinidamente"
+        }
+    ]
+}

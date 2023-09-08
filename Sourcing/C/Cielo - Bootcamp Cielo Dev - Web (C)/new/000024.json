@@ -1,0 +1,58 @@
+{
+    "id": "f71e4995-caf7-4897-906d-cb0b4e3b86e9",
+    "SKU": "000024",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "embedded",
+    "category": "compilação",
+    "subCategory": "diretivas de compilação",
+    "level": "Medium",
+    "tagsOrConcepts": [
+        "compilação",
+        ".h",
+        ".c",
+        "macro",
+        "constante",
+        "const"
+    ],
+    "text": [
+        "Considere os seguintes trechos de código:",
+        "#define PI 3.141592",
+        "...",
+        "const float euler = 2.71828182;",
+        "Podemos afirmar que:"
+    ],
+    "alternatives": [
+        {
+            "id": "fb56606d-c1d8-4650-8672-645f45f9cdfe",
+            "feedback": "O #define não cria nada na memória. Na etapa de pré-processamento, antes da compilação, todas as referências a ele são substituídas pelo valor em si, como um copia-e-cola.",
+            "correct": false,
+            "text": "Ambas são instruções que criam uma constante na memória durante a execução do programa"
+        },
+        {
+            "id": "e29b6e71-d56b-4954-a334-8b51c4522905",
+            "feedback": "Durante a etapa de pré-processamento na compilação, todas as referências a um #define são substituídas por seu valor - é como um copia-e-cola do valor ao longo do código, antes da compilação de fato. Já no uso de const, memória é alocada, um valor é armazenado e referências para esse valor irão buscá-lo na memória durante a execução do programa.",
+            "correct": true,
+            "text": "A primeira substitui os valores antes da compilação, a segunda define uma constante durante a execução do programa"
+        },
+        {
+            "id": "ad7e2ac6-cd78-4abd-9883-2f0fc6a37e47",
+            "feedback": "Isso é verdade apenas para o #define. No caso do const, há alocação de memória de fato durante a execução do programa e as referências são preservadas.",
+            "correct": false,
+            "text": "Ambas são diretivas para substituir valores antes da compilação"
+        },
+        {
+            "id": "e75c9da6-cb7a-4853-a8ea-f5b4031881ab",
+            "feedback": "Ambas são formas válidas de declarar constantes em linguagem C, mas com funcionamento e consequências distintas entre si.",
+            "correct": false,
+            "text": "Apenas a primeira é aceita em linguagem C"
+        },
+        {
+            "id": "ca231810-9ba9-459f-a3fd-3a6b735ab4dd",
+            "feedback": "Ocorre precisamente o contrário: a primeira é substituída em uma etapa de pré-processamento antes da compilação, enquanto a segunda de fato aloca uma região de memória para armazenar o dado.",
+            "correct": false,
+            "text": "A primeira define uma constante durante a execução do programa, a segunda substitui os valores antes da compilação"
+        }
+    ]
+}

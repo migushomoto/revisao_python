@@ -1,0 +1,54 @@
+{
+    "id": "12ea7299-2423-4199-ad85-c7aa8efcb853",
+    "SKU": "000028",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "embedded",
+    "category": "compilação",
+    "subCategory": "compilação",
+    "level": "Medium",
+    "tagsOrConcepts": [
+        "compilação",
+        ".h",
+        ".c",
+        "biblioteca",
+        "código-objeto",
+        "código-fonte"
+    ],
+    "text": [
+        "Em um projeto escrito em linguagem C, diretivas de compilação são:"
+    ],
+    "alternatives": [
+        {
+            "id": "97b724e4-30d4-4eb1-aee0-63320f557957",
+            "feedback": "Diretivas de compilação não são instruções da linguagem C, mas instruções específicas para o compilador. Elas não irão gerar código de máquina.",
+            "correct": false,
+            "text": "Instruções em linguagem C que serão executadas em tempo de compilação"
+        },
+        {
+            "id": "fb657ae5-fa73-40a9-9964-0b63b922c03b",
+            "feedback": "As diretivas de compilação, apesar de serem instruções para o compilador, são escritas diretamente no código-fonte.",
+            "correct": false,
+            "text": "Regras escritas no makefile para compilação condicional"
+        },
+        {
+            "id": "3eb73f2e-e801-4e0a-853b-8696b5a65f36",
+            "feedback": "Diretivas de compilação são instruções que podem alterar a forma como os códigos serão compilados (por exemplo, um trecho pode deixar de ser compilado sob certas condições) e são escritas diretamente no código-fonte, apesar de não serem instruções em C nem gerarem binário diretamente.",
+            "correct": true,
+            "text": "Instruções para o compilador escritas no próprio código-fonte"
+        },
+        {
+            "id": "0f7b9e9b-4a56-4627-9e95-e104fdd71c1a",
+            "feedback": "Macros são, de fato, diretivas de compilação, porém, elas não geram código objeto, pois não são compiladas. Elas apenas alteram a forma como a compilação ocorre, podendo alterar o código objeto que será gerado a partir das instruções em C.",
+            "correct": false,
+            "text": "Macros que serão convertidas em código objeto pelo compilador"
+        },
+        {
+            "id": "f3af43b3-130b-43a9-a332-1f7c84d2b75e",
+            "feedback": "Macros e constantes são, de fato, diretivas de compilação, mas não são as únicas. Há, por exemplo, diretivas de compilação condicional.",
+            "correct": false,
+            "text": "Macros e constantes que serão substituídas no código-fonte durante o pré-processamento"
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "id": "47200365-19a9-40bd-8186-aed11e937d65",
+    "SKU": "000025",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "embedded",
+    "category": "compilação",
+    "subCategory": "diretivas de compilação",
+    "level": "Medium",
+    "tagsOrConcepts": [
+        "compilação",
+        ".h",
+        ".c",
+        "macro",
+        "constante",
+        "const"
+    ],
+    "text": [
+        "Um projeto em linguagem C possui diversos arquivos com extensão .c e outros com extensão .h. Podemos afirmar que:"
+    ],
+    "alternatives": [
+        {
+            "id": "50b0083a-53d4-4514-94d0-64eef8af3114",
+            "feedback": "Ambos os arquivos são código-fonte. Porém, espera-se que o arquivo .c contenha implementações (ex: a implementação de funções), enquanto o .h contenha interfaces (como assinaturas de função, constantes, structs etc).",
+            "correct": false,
+            "text": "Os arquivos .c são código fonte, enquanto os arquivos .h já foram pré-compilados"
+        },
+        {
+            "id": "88b52bd4-42b6-4215-ad49-47d233780009",
+            "feedback": "O .h é um arquivo de interface. Ele deve conter as assinaturas de função que poderão ser importadas, bem como variáveis/constantes globais, structs etc. Caso haja funções, sua implementação deve ser no arquivo .c",
+            "correct": false,
+            "text": "Os arquivos .c foram implementados pelos membros do projeto, enquanto os .h são bibliotecas padrão fornecidas pelo compilador"
+        },
+        {
+            "id": "c2044f64-1faf-4ef7-a10c-88f7417efc2f",
+            "feedback": "O .h é um arquivo de interface. Ele deve conter as assinaturas de função que poderão ser importadas, bem como variáveis/constantes globais, structs etc. Caso haja funções, sua implementação deve ser no arquivo .c",
+            "correct": true,
+            "text": "Os arquivos .c possuem implementação, enquanto os arquivos .h possuem interfaces para as implementações"
+        },
+        {
+            "id": "6b26cd3b-97be-4333-9616-2b548921d7bf",
+            "feedback": "Não necessariamente. Por exemplo, é possível termos um arquivo .h apenas com variáveis globais, constantes e definições de estruturas de dados, sem qualquer tipo de lógica a ser implementada.",
+            "correct": false,
+            "text": "Todo arquivo .c necessariamente possuirá um arquivo .h correspondente e vice-versa"
+        },
+        {
+            "id": "76f5176a-b133-4621-a675-b98d63515f5d",
+            "feedback": "Nem sempre temos uma interface para expor. Por exemplo, o arquivo contendo a main do programa geralmente é um .c sem .h, já que, em tese, ele será utilizado apenas pelo compilador e não há a intenção de ser importado em outros projetos, dispensando, portanto, uma interface.",
+            "correct": false,
+            "text": "Todo arquivo .c necessariamente possuirá um arquivo .h correspondente, mas nem todo arquivo .h necessariamente possuirá um arquivo .c"
+        }
+    ]
+}

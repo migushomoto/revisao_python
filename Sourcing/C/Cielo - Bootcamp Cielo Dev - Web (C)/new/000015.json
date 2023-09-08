@@ -1,0 +1,53 @@
+{
+    "id": "2b380057-26d8-4652-8938-62b886b210cb",
+    "SKU": "000015",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "embedded",
+    "category": "fundamentos de linguagem C",
+    "subCategory": "operações binárias",
+    "level": "Medium",
+    "tagsOrConcepts": [
+        "operações binárias",
+        "bitwise",
+        "bits",
+        "lógica",
+        "operadores lógicos"
+    ],
+    "text": [
+        "Sendo a e b duas variáveis quaisquer, qual operação representaria os bits que pertencem a A ou pertencem a B, mas não pertencem a ambos simultaneamente?"
+    ],
+    "alternatives": [
+        {
+            "id": "374f1f77-aa41-4d3e-b4e9-f135bdb3b3a4",
+            "feedback": "A operação & é um E bit-a-bit, e ~ é uma negação (inverte os bits). Dessa forma, o resultado será todos os bits que estão simultaneamente ativos em A e não-ativos em B, mas não o contrário.",
+            "correct": false,
+            "text": "#define exc(a, b) a & ~b"
+        },
+        {
+            "id": "80754e20-e110-4c38-86ed-bab4f16a225a",
+            "feedback": "A operação ^ é um OU-EXCLUSIVO bit-a-bit. Seu resultado será todos os bits ativos em A que não estão ativos em B e vice-versa. Ou seja, bits pertencentes a A ou a B, mas não a ambos.",
+            "correct": true,
+            "text": "#define exc(a, b) a ^ b"
+        },
+        {
+            "id": "ce3eecf9-9d72-4035-a287-39d45ad07e7e",
+            "feedback": "A operação | é um OU bit-a-bit. Todo bit ativo em A provocará uma ativação, independentemente de estar ou não ativo em B.",
+            "correct": false,
+            "text": "#define exc(a, b) a | ~b"
+        },
+        {
+            "id": "be145559-0d69-481e-a0da-ab94789093b6",
+            "feedback": "A operação >> é um deslocamento de bits.",
+            "correct": false,
+            "text": "#define exc(a, b) a >> b"
+        },
+        {
+            "id": "3f769d7a-af09-41cf-b922-317ccfb53692",
+            "feedback": "A operação & é um E bit-a-bit. Estamos pegando os bits ativos simultaneamente em A e B.",
+            "correct": false,
+            "text": "#define exc(a, b) a & b"
+        }
+    ]
+}

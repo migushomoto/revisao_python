@@ -1,0 +1,59 @@
+{
+    "id": "596cdb3a-5de8-4dc1-ad7a-14420c85342a",
+    "SKU": "000020",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "embedded",
+    "category": "fundamentos de linguagem C",
+    "subCategory": "mensageria",
+    "level": "Medium",
+    "tagsOrConcepts": [
+        "protocolos",
+        "mensageria",
+        "formatos binários",
+        "bcd",
+        "ascii"
+    ],
+    "text": [
+        "Um certo protocolo de comunicação possui mensagens estruturadas em campos. Os campos não necessariamente são sequenciais (ex: o campo 10 pode ser seguido pelo campo 13). Eles são numerados segundo o seguinte padrão:",
+        "- 2 bytes: número do campo (ASCII)",
+        "- 1 byte: tamanho do conteúdo do campo em bytes (BCD compactado)",
+        "- n bytes: conteúdo do campo, n definido no campo anterior",
+        "Sabe-se que o trecho abaixo de uma mensagem inicia-se no início de um campo:",
+        "0x31 0x35 0x05 0x35 0x32 0x34 0x38 0x31 0x31 0x37 0x02 0x03 0x04 ...",
+        "Sobre os bytes recebidos, pode-se dizer que:"
+    ],
+    "alternatives": [
+        {
+            "id": "03bd16e8-cc28-4cdf-949d-c39a7e317c39",
+            "feedback": "Os primeiros 2 bytes contém a string `15` em ASCII, indicando o início do campo 15. O byte seguinte, em BCD compactado indica que o campo possui 5 bytes. Pulando os próximos 5 bytes, temos a string `17` em ASCII, indicando já o início do campo 17. Em seguida, temos 2 em BCD compactado, indicando que os próximos 2 bytes são do campo 17. Há exatamente 2 bytes, portanto temos os campos 15 e 17 completos.",
+            "correct": false,
+            "text": "Vemos o campo 15 completo e o campo 11 incompleto"
+        },
+        {
+            "id": "a393e89c-3e40-437a-ad75-5d063f81e43d",
+            "feedback": "Os primeiros 2 bytes contém a string `15` em ASCII, indicando o início do campo 15. O byte seguinte, em BCD compactado indica que o campo possui 5 bytes. Pulando os próximos 5 bytes, temos a string `17` em ASCII, indicando já o início do campo 17. Em seguida, temos 2 em BCD compactado, indicando que os próximos 2 bytes são do campo 17. Há exatamente 2 bytes, portanto temos os campos 15 e 17 completos.",
+            "correct": false,
+            "text": "Vemos o campo 15 completo e o campo 17 incompleto"
+        },
+        {
+            "id": "9dff82fe-2da0-40a5-b18e-9a4f839f4a48",
+            "feedback": "Os primeiros 2 bytes contém a string `15` em ASCII, indicando o início do campo 15. O byte seguinte, em BCD compactado indica que o campo possui 5 bytes. Pulando os próximos 5 bytes, temos a string `17` em ASCII, indicando já o início do campo 17. Em seguida, temos 2 em BCD compactado, indicando que os próximos 2 bytes são do campo 17. Há exatamente 2 bytes, portanto temos os campos 15 e 17 completos.",
+            "correct": false,
+            "text": "Vemos o campo 31 incompleto"
+        },
+        {
+            "id": "51059c74-71fd-450f-9d3d-f71625f2faa4",
+            "feedback": "Os primeiros 2 bytes contém a string `15` em ASCII, indicando o início do campo 15. O byte seguinte, em BCD compactado indica que o campo possui 5 bytes. Pulando os próximos 5 bytes, temos a string `17` em ASCII, indicando já o início do campo 17. Em seguida, temos 2 em BCD compactado, indicando que os próximos 2 bytes são do campo 17. Há exatamente 2 bytes, portanto temos os campos 15 e 17 completos.",
+            "correct": false,
+            "text": "Vemos o campo 31 com erro em seu formato"
+        },
+        {
+            "id": "81b2d025-930f-4e60-af51-35f05b58d442",
+            "feedback": "Os primeiros 2 bytes contém a string `15` em ASCII, indicando o início do campo 15. O byte seguinte, em BCD compactado indica que o campo possui 5 bytes. Pulando os próximos 5 bytes, temos a string `17` em ASCII, indicando já o início do campo 17. Em seguida, temos 2 em BCD compactado, indicando que os próximos 2 bytes são do campo 17. Há exatamente 2 bytes, portanto temos os campos 15 e 17 completos.",
+            "correct": true,
+            "text": "Vemos os campos 15 e 17 completos"
+        }
+    ]
+}

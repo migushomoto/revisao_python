@@ -1,0 +1,58 @@
+{
+    "id": "1846a9c2-65c0-4ae9-ad19-4e730d9d5f61",
+    "SKU": "000001",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "embedded",
+    "category": "fundamentos de linguagem C",
+    "subCategory": "ponteiros",
+    "level": "Medium",
+    "tagsOrConcepts": [
+        "ponteiros"
+    ],
+    "text": [
+        "Considere um sistema onde o tipo *int* corresponde a números inteiros sinalizados de 32 bits.",
+        "O trecho de código abaixo faz parte de um programa que será compilado e executado neste sistema:",
+        "```c",
+        "int x = 42;",
+        "int *p = &x;",
+        "printf(\"%p - %d\\n\", p, x);",
+        "p++;",
+        "printf(\"%p - %d\\n\", p, x);",
+        "```",
+        "Sabendo que a primeira linha impressa no console seria `0x7fff2d9db72c - 42`, assinale a alternativa que indica a segunda linha impressa no console."
+    ],
+    "alternatives": [
+        {
+            "id": "013af3b4-bb18-421d-9c50-b70e214458d6",
+            "text": "0x7fff2d9db730 - 42",
+            "feedback": "Ao utilizarmos o operador de incremento em um ponteiro, ele incrementa de acordo com o tamanho do tipo de dado apontado.",
+            "correct": true
+        },
+        {
+            "id": "bec48424-47f1-436a-bb1e-abfca69748c1",
+            "text": "0x7fff2d9db72c - 43",
+            "feedback": "O ponteiro não foi derreferenciado para fazer o incremento. Portanto, o valor de x não se altera, e sim o de p.",
+            "correct": false
+        },
+        {
+            "id": "3ba5e27f-2832-4dc8-9b80-ea4c3798e812",
+            "text": "0x7fff2d9db72d - 42",
+            "feedback": "Ao utilizarmos o operador de incremento em um ponteiro, ele incrementa de acordo com o tamanho do tipo de dado apontado. Foi dito no enunciado que o tipo *int* possui 32 bits (ou seja, 4 bytes), portanto, o incremento deveria ser de 4 unidades.",
+            "correct": false
+        },
+        {
+            "id": "24949175-a204-47f1-b9ec-d8270f47c663",
+            "text": "0x7fff2d9db738 - 42",
+            "feedback": "Ao utilizarmos o operador de incremento em um ponteiro, ele incrementa de acordo com o tamanho do tipo de dado apontado. Foi dito no enunciado que o tipo *int* possui 32 bits (ou seja, 4 bytes), portanto, o incremento deveria ser de 4 unidades.",
+            "correct": false
+        },
+        {
+            "id": "a259a9a9-e73c-4f33-9037-f38766d211d5",
+            "text": "O programa não irá compilar e a mensagem `error: lvalue required as increment operand` será exibida no console do compilador",
+            "feedback": "O trecho de programa exibido não possui erros. O operador de incremento pode ser utilizado em ponteiros.",
+            "correct": false
+        }
+    ]
+}

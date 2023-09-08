@@ -1,0 +1,61 @@
+{
+    "id": "1b808f35-20d6-41a9-909b-d1c8ff55e60f",
+    "SKU": "000005",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "embedded",
+    "category": "fundamentos de linguagem C",
+    "subCategory": "ponteiros",
+    "level": "Medium",
+    "tagsOrConcepts": [
+        "ponteiros"
+    ],
+    "text": [
+        "Considere a struct definida abaixo:",
+        "```c",
+        "struct no {",
+        "    int valor;",
+        "    struct no* prox;",
+        "};",
+        "```",
+        "Considere também as instâncias da struct:",
+        "```c",
+        "struct no primeiro = {1, NULL};",
+        "struct no segundo = {2, NULL};",
+        "```",
+        "Qual alternativa corretamente faz o prox do primeiro apontar para o segundo (como em uma lista ligada) e atribui corretamente o valor do segundo para uma variável inteira x qualquer?"
+    ],
+    "alternatives": [
+        {
+            "id": "5d5a0f5d-c8ed-4dd0-a719-eb93c36de29e",
+            "feedback": "O operador * fez a derreferência do vetor. O operador ++ está sendo aplicado ao valor apontado pelo endereço da primeira posição do vetor.",
+            "correct": false,
+            "text": "primeiro->prox = &segundo; x = primeiro->prox->valor;"
+        },
+        {
+            "id": "c8fe9cba-0823-45b1-a8f3-988751191b91",
+            "feedback": "A variável que representa um vetor é, internamente, um ponteiro. Ela pode ser derreferenciada por meios convencionais, como o operador *. O uso de colchetes é apenas açúcar sintático para fazer o incremento do endereço seguido da derreferência.",
+            "correct": true,
+            "text": "primeiro.prox = &segundo; x = primeiro.prox->valor;"
+        },
+        {
+            "id": "9ade035f-ebb5-46be-ab23-a4c562134f30",
+            "feedback": "O operador & faz a derreferência do vetor. O operador ++ está sendo aplicado ao valor apontado pelo endereço da primeira posição do vetor.",
+            "correct": false,
+            "text": "primeiro->prox = &segundo; x = primeiro->prox.valor;"
+        },
+        {
+            "id": "f3116585-5382-423e-ba51-418de29e79f2",
+            "feedback": "O operador * faz a derreferência de um ponteiro, ou seja, permite trabalhar com o valor armazenado na região de memória apontada pelo ponteiro. Como primeiro fizemos a derreferência, o ++ se aplicou ao valor. Como a variável representando um vetor é um ponteiro para a posição zero, incrementamos o valor da posição 0.",
+            "correct": false,
+            "text": "primeiro.prox = *segundo; x = primeiro.prox->valor;"
+        },
+        {
+            "id": "05287cb8-a2d7-4754-ab70-6aea82a6f534",
+            "feedback": "Os parênteses forçaram uma derreferência primeiro - ou seja, acessar o valor no endereço atual da variável v, que é a primeira posição do vetor (posição 0). O operador de incremento agiu sobre esse valor, portanto, alterando o valor na posição 0.",
+            "correct": false,
+            "text": "primeiro->prox = *segundo; x = primeiro->prox.valor;"
+        }
+    ]
+}

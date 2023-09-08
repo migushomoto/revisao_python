@@ -1,0 +1,55 @@
+{
+    "id": "2b023452-bc5b-41c5-a77a-dccd0793551c",
+    "SKU": "000007",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "embedded",
+    "category": "fundamentos de linguagem C",
+    "subCategory": "ponteiros",
+    "level": "Medium",
+    "tagsOrConcepts": [
+        "ponteiros"
+    ],
+    "text": [
+        "Considere o código abaixo.",
+        "```c",
+        "int x = 10;",
+        "int *p;",
+        "&p = x;",
+        "```",
+        "Podemos afirmar que:"
+    ],
+    "alternatives": [
+        {
+            "id": "b9f40cb6-ea16-4078-a94c-15493210285c",
+            "feedback": "O operador & retorna o endereço da variável sobre o qual é aplicado. Neste caso, retornaria o endereço de p. Não podemos tentar atribuir um valor para um endereço. Para fazer um ponteiro apontar para uma variável, atribuímos para ele o endereço da variável, portanto, utilizamos o operador & na variável a ser apontada.",
+            "correct": true,
+            "text": "A terceira linha deveria ser p = &x"
+        },
+        {
+            "id": "d2f322b1-339c-4dc7-9690-5953e513d2c6",
+            "feedback": "O operador * irá derreferenciar o ponteiro p, fazendo com que a memória apontada por p receba o valor de x. Porém, p ainda não foi inicializado, e por conta disso não faz sentido derreferenciá-lo neste momento. O que faria sentido seria primeiro fazê-lo apontar para uma variável.",
+            "correct": false,
+            "text": "A terceira linha deveria ser *p = x"
+        },
+        {
+            "id": "37cba40b-62ce-447a-91a7-e12efa5cd82a",
+            "feedback": "p foi declarado como ponteiro, mas não foi inicializado, portanto, não aponta para ninguém. A linha seguinte erroneamente tenta atribuir o valor de x para o endereço de p, uma operação que não faz sentido e provocará erro.",
+            "correct": false,
+            "text": "p aponta para x"
+        },
+        {
+            "id": "3f1e20b6-f17a-4973-a935-85e788238bd0",
+            "feedback": "Neste programa, p foi declarado como ponteiro e x como uma variável comum. Não faz sentido falar em x apontar para alguém.",
+            "correct": false,
+            "text": "x aponta para p"
+        },
+        {
+            "id": "dc3cd811-4e4e-42cd-90d2-1ef83f042cb1",
+            "feedback": "O operador & retorna o endereço da variável sobre o qual é aplicado. Neste caso, retornaria o endereço de p. Não podemos tentar atribuir um valor para um endereço.",
+            "correct": false,
+            "text": "p armazena uma cópia do valor 10"
+        }
+    ]
+}
