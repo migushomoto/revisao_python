@@ -1,0 +1,24 @@
+{
+    "id": "d1c4aeb0-c961-4fce-ab72-8c2899d35267",
+    "SKU": "000008",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "knowledgeArea": "Dados",
+    "category": "Lógica de Programação",
+    "subCategory": "Operadores algébricos e lógicos (comparação/conjunção)",
+    "level": "Medium", 
+    "tagsOrConcepts": ["operadores", "lógicos", "algébricos"],
+    "text": [
+                "Em uma industria alimentícia, são produzidos latícineos que precisam de conservação em uma temperatura entre 5 e 18 ºC",
+                "O termometro da sala onde ficam armazenados até a distribuição se conecta com um código em Python, que deve emitir um alerta caso a temperatura esteja inadequada",
+                "Assinale a alternativa que melhor expressa a condição que deve ser adicionada ao if para acionar o alerta."
+            ],
+    "alternatives": [ 
+        {"text" : "temperatura < 5 and temperatura > 18", "feedback": "Essa condição está incorreta e nunca será acionada, pois não é possível estar abaixo de 5 e acima de 18 ao mesmo tempo", "correct" : false},
+        {"text" : "temperatura > 5 and temperatura < 18", "feedback": "Essa condição é a oposta da correta, pois aciona o alarme quando a temperatura está adequada (na faixa ideal)", "correct" : false},
+        {"text" : "temperatura > 5 or temperatura < 18", "feedback": "Essa condição está incorreta, pois sempre é verdade, afinal todos os números são ou maiores que 5 ou menores que 18 num dado instante.", "correct" : false},
+        {"text" : "temperatura < 5 or temperatura > 18", "feedback": "Se a temperatura estiver abaixo ou acima do esperado, é acionado o alerta.", "correct" : true},
+        {"text" : "Não sei", "feedback": "Você respondeu não sei para essa pergunta", "correct" : false}
+     ]
+}

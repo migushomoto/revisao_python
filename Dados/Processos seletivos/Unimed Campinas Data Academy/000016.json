@@ -1,0 +1,24 @@
+{
+    "id": "ba783570-6fd5-4e71-9687-a25bb6747eaf",
+    "SKU": "000016",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "knowledgeArea": "Dados",
+    "category": "Lógica de Programação",
+    "subCategory": "for e listas (manipulação e métodos)",
+    "level": "Basic", 
+    "tagsOrConcepts": ["listas", "métodos"],
+    "text": [
+                "Um aluno, durante um experimento prático, está colocando os resultados obtidos em uma lista.",
+                "Em um momento, ele percebeu que errou a digitação do terceiro resultado, que deveria ser 32.",
+                "Como ele pode consertar pelo valor correto?"
+            ],
+    "alternatives": [ 
+        {"text" : "Ele pode inserir o resultado novamente com lista.append(32)", "feedback": "Essa opção apenas adicionaria um novo valor à lista, não corrigindo o erro", "correct" : false},
+        {"text" : "Ele pode remover o valor com lista.remove(33)", "feedback": "Essa opção remove o valor errado, mas não insere o valor correto", "correct" : false},
+        {"text" : "Ele pode substituir o valor com lista[2] = 32", "feedback": "Alternativa correta", "correct" : true},
+        {"text" : "Ele pode substituir o valor com lista[33] = 32", "feedback": "Entre colchetes deve estar o índice do valor errado, não o valor a ser substituído", "correct" : false},
+        {"text" : "Não sei", "feedback": "Você respondeu não sei para essa pergunta", "correct" : false}
+     ]
+}

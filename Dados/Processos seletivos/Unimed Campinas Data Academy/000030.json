@@ -1,0 +1,24 @@
+{
+    "id": "b17771d5-9a20-41f3-accb-a2d97dbf7d1f",
+    "SKU": "000030",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "Dados",
+    "category": "Power BI",
+    "subCategory": "Assunto em particular",
+    "level": "Hard", 
+    "tagsOrConcepts": ["DAX", "measures"],
+    "text": [
+                "Numa competição de aeromodelismo, avançam para a segunda fase todas as equipes que tiverem o tempo de execução menor do que a média da primeira fase",
+                "Você está construindo um dashboard que mostra os nomes dos aprovados na tela usando o Power BI, e dispõe de uma tabela com os nomes das equipes e os tempos de conclusão da prova",
+                "Para construir essa visualização usando o Power BI para calcular a média, como isso pode ser feito armazenando a menor quantidade de dados adicionais e com o menor custo de manutenção?"
+            ],
+    "alternatives": [ 
+        {"text" : "Pode-se utilizar o DAX para criar uma coluna com a média do tempo da prova e então criar uma coluna booleana verificando se o tempo foi menor que a média, por fim criando um gráfico usando a coluna booleana de filtro", "feedback": "Nessa abordagem o valor da média é armazenado uma vez por registro, ele poderia estar em uma measure, onde seria armazenado uma unica vez", "correct" : false},
+        {"text" : "Pode-se utilizar o DAX para criar uma measure com a média, usar um card para verificar o valor da measure e colocar um filtro em nível de página usando o valor visto no card", "feedback": "Essa forma é pouco modularizada, se um novo resultado for adicionado, todo o processo de filtragem precisa ser refeito", "correct" : false},
+        {"text" : "Pode-se utilizar o DAX para criar uma measure com a média do tempo da prova e então criar uma coluna booleana verificando se o tempo foi menor que a média, por fim criando um gráfico usando a coluna booleana de filtro", "feedback": "Essa abordagem está correta", "correct" : true},
+        {"text" : "Na verdade não é possível fazer esse calculo no Power Bi, é necessário utilizar o python para calcular e então importar esses dados para o Power BI via csv", "feedback": "Além de ser possível fazer esse calculo usando o DAX, a importação via csv aumenta muito o custo de manutenção, pois ocasiona a inserção de um processo manual repetitivo no fluxo", "correct" : false},
+        {"text" : "Não sei", "feedback": "Você respondeu não sei para essa pergunta", "correct" : false}
+     ]
+}

@@ -1,0 +1,20 @@
+{
+    "id": "e2cb8e4f-d39f-4f5a-b941-2593f6c11eeb",
+    "SKU": "000021",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "sql",
+    "knowledgeArea": "Dados",
+    "category": "Banco de Dados",
+    "subCategory": "Assunto em particular",
+    "level": "Dificuldade", 
+    "tagsOrConcepts": ["Lista", "de", "conceitos"],
+    "text": ["a"],
+    "alternatives": [ 
+        {"text" : "texto da alternativa", "feedback": "feedback da alternativa", "correct" : true},
+        {"text" : "texto da alternativa", "feedback": "feedback da alternativa", "correct" : true},
+        {"text" : "texto da alternativa", "feedback": "feedback da alternativa", "correct" : true},
+        {"text" : "texto da alternativa", "feedback": "feedback da alternativa", "correct" : true},
+        {"text" : "Não sei", "feedback": "A resposta correta é tal", "correct" : false}
+     ]
+}

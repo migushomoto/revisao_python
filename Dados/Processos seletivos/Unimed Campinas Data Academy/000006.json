@@ -1,0 +1,20 @@
+{
+    "id": "24294289-5bd4-4127-b905-94da9a600046",
+    "SKU": "000006",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "knowledgeArea": "Dados",
+    "category": "Lógica de Programação",
+    "subCategory": "Operadores algébricos e lógicos (comparação/conjunção)",
+    "level": "Basic", 
+    "tagsOrConcepts": ["operadores", "lógicos", "algébricos"],
+    "text": ["Uma estudante de programação quer checar rapidamente se dois números são divisíveis um pelo outro. Como ela pode conferir isso?"],
+    "alternatives": [ 
+        {"text" : "Usar o operador // para verificar o resultado da divisão", "feedback": "O operador // mostra apenas o resultado inteiro da divisão, independente de os números serem divisíveis ou não pelo outro", "correct" : false},
+        {"text" : "Usar o operador % e verificar se o resultado é 0", "feedback": "Alternativa correta", "correct" : true},
+        {"text" : "Usar o operador % e verificar se o resultado é diferente de 0", "feedback": "O operador está correto, porém, se o resultado for diferente de zero, existe um resto na divisão. Logo, os números não são divisíveis entre si", "correct" : false},
+        {"text" : "Usar o operador - e verificar a diferença existente entre os dois números", "feedback": "A subtração não indica divisibilidade entre números", "correct" : false},
+        {"text" : "Não sei", "feedback": "Você respondeu não sei para essa pergunta", "correct" : false}
+     ]
+}

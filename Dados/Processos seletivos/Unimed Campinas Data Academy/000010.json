@@ -1,0 +1,20 @@
+{
+    "id": "27bdd846-8049-4514-bcb1-a36d692bcc27",
+    "SKU": "000010",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "knowledgeArea": "Dados",
+    "category": "Lógica de Programação",
+    "subCategory": "Estruturas condicionais e while",
+    "level": "Basic", 
+    "tagsOrConcepts": ["condicionais", "operadores", "lógicos"],
+    "text": ["Em uma escola, para ser considerado aprovado, um aluno deve ter média 6 ou mais e frequência nas aulas 75% ou superior. Para verificar se um aluno foi APROVADO, como poderíamos escrever a validação?"],
+    "alternatives": [ 
+        {"text" : "if media >= 6 or frequencia >= 75", "feedback": "Ao inserir o operador lógico or, o aluno seria aprovado mesmo se apenas uma das condições fosse satisfeita, mas não as duas", "correct" : false},
+        {"text" : "if media >= 6 and frequencia >= 75", "feedback": "Alternativa correta", "correct" : true},
+        {"text" : "if media >= 6", "feedback": "Aqui, não consideramos a frequência, que deve ser considerada para aprovação", "correct" : false},
+        {"text" : "if media > 6 and frequendia > 75", "feedback": "Neste caso, não consideramos os valores mínimos de 6 e 75, apenas acima deles.", "correct" : false},
+        {"text" : "Não sei", "feedback": "Você respondeu não sei para essa pergunta", "correct" : false}
+     ]
+}

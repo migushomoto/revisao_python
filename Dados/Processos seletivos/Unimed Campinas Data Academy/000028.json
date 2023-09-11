@@ -1,0 +1,24 @@
+{
+    "id": "46abc8cf-d5c5-452d-ab0c-25f439d8d6b1",
+    "SKU": "000028",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "Dados",
+    "category": "Power BI",
+    "subCategory": "Aba de Modelo",
+    "level": "Medium", 
+    "tagsOrConcepts": ["modelagem em Power BI"],
+    "text": [
+                "A terceira aba do Power BI é a aba de modelo, nela é possível ver as tabelas que temos importadas bem como as relações entre elas.",
+                "Na aba de modelagem é muito importante fazer o gerenciamento adequado do relacionamento entre os dados, explicitando a cardinalidade e também quais as colunas relacionadas.",
+                "Assinale a alternativa que melhor representa os problemas advindos de não fazer a criação desses relacionamentos na modelagem"
+            ],
+    "alternatives": [
+        {"text" : "Não será possível fazer filtros usando uma tabela relacionada, mas será possível gerar visualizações misturando dados de duas tabelas diferentes sem relacionamento", "feedback": "Não é possível gerar visualizações misturando dados de duas tabelas sem elas estarem relacionadas", "correct" : false},
+        {"text" : "Não será possível usar gráficos de barras, pois estes sempre pedem tabelas relacionadas", "feedback": "Os gráficos de barras pedem duas grandezas, mas elas podem estar em uma única tabela", "correct" : false},
+        {"text" : "Não é possível usar tabelas não relacionadas a alguma outra tabela em um gráfico, por isso o Power BI pede sempre no minimo duas tabelas", "feedback": "É possível usar uma unica tabela ou tabelas sem relacionamentos no Power BI", "correct" : false},
+        {"text" : "Não será possível gerar visualizações que usem duas tabelas relacionadas entre si, nem fazer filtros usando uma tabela relacionada", "feedback": "Essa descrição está completa", "correct" : true},
+        {"text" : "Não sei", "feedback": "Você respondeu não sei para essa pergunta", "correct" : false}
+     ]
+}

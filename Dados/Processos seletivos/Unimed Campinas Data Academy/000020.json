@@ -1,0 +1,23 @@
+{
+    "id": "b5028ea7-20c4-45f6-98b3-bac5e122baf1",
+    "SKU": "000020",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "knowledgeArea": "Dados",
+    "category": "Lógica de Programação",
+    "subCategory": "Manipulação de strings (foco em métodos de strings)",
+    "level": "Medium", 
+    "tagsOrConcepts": ["strings", "métodos"],
+    "text": [
+                "Em um edital, foram mencionados todos os funcionários da área de TI do estado de São Paulo que atingiram grandes níveis de excelência técnica.",
+                "Caso uma empresa queira localizar se o nome de seu funcionário participante está no edital, como a busca pode ser feita?"
+            ],
+    "alternatives": [ 
+        {"text" : "Pode ser utilizada a condicional nome_do_funcionario in edital, que retornará um booleano True", "feedback": "Alternativa correta", "correct" : true},
+        {"text" : "Pode ser utilizada a função .replace(nome_do_funcionario, sobrenome_do_funcionario)", "feedback": "Ao utilizar essa alternativa, as palavras com o nome do funcionário seriam substituídas por seu sobrenome", "correct" : false},
+        {"text" : "Pode ser utilizada a condicional nome_do_funcionario in edital, que retornará a posição no edital", "feedback": "A condicional está correta, porém o retorno é um booleano True", "correct" : false},
+        {"text" : "Pode ser utilizada a função .index(nome_do_funcionario)", "feedback": "Essa é uma função exclusiva de listas", "correct" : false},
+        {"text" : "Não sei", "feedback": "Você respondeu não sei para essa pergunta", "correct" : false}
+     ]
+}

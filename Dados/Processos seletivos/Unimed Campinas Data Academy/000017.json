@@ -1,0 +1,24 @@
+{
+    "id": "1ea41a1d-103f-45c2-b6d2-218fd0b60a98",
+    "SKU": "000017",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "knowledgeArea": "Dados",
+    "category": "Lógica de Programação",
+    "subCategory": "for e listas (manipulação e métodos)",
+    "level": "Medium", 
+    "tagsOrConcepts": ["listas", "métodos", "for"],
+    "text": [
+                "Em seus estudos de Python, você se deparou com o seguinte código, que deu erro:",
+                "!(https://github.com/educacionalAda/Banco-de-questoes/blob/processo-seletivo-unimed-data-academy-campinas/Dados/Processos%20seletivos/Unimed%20Campinas%20Data%20Academy/000017.png)",
+                "Qual a melhor explicação para o ocorrido?"
+            ],
+    "alternatives": [ 
+        {"text" : "A função range aceita apenas dois argumentos, enquanto no código há três", "feedback": "A função range aceita três argumentos, sendo o terceiro, o incremento", "correct" : false},
+        {"text" : "O incremento da função range não pode ser negativo", "feedback": "O incremento negativo faz com que o loop percorra a lista do último para o primeiro item", "correct" : false},
+        {"text" : "O primeiro argumento precisaria ser len(lista)-1, uma vez que a indexação de posições se inicia em zero", "feedback": "Alternativa correta", "correct" : true},
+        {"text" : "O segundo argumento não pode ser negativo", "feedback": "como o segundo argumento é excludente, -1 indica que ele incluirá o primeiro índice (0)", "correct" : false},
+        {"text" : "Não sei", "feedback": "Você respondeu não sei para essa pergunta", "correct" : false}
+     ]
+}

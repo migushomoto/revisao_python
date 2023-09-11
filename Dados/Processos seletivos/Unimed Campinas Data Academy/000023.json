@@ -1,0 +1,24 @@
+{
+    "id": "e1414533-ea57-4900-be81-0694f61f5e8f",
+    "SKU": "000023",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "Dados",
+    "category": "Banco de Dados",
+    "subCategory": "MER",
+    "level": "Medium", 
+    "tagsOrConcepts": ["MER"],
+    "text": [
+                "A imagem abaixo contem um diagrama entidade-relacionamento correspondente à uma biblioteca",
+                "!(https://github.com/educacionalAda/Banco-de-questoes/blob/processo-seletivo-unimed-data-academy-campinas/Dados/Processos%20seletivos/Unimed%20Campinas%20Data%20Academy/000023.png)",
+                "Interprete a modelagem e assinale a alternativa que indica as chaves primárias das tabelas Livros, Bibliotecários e Clientes, bem como a função da tabela Empréstimo"
+            ],
+    "alternatives": [ 
+        {"text" : "As chaves primárias são id_livro, id_bibliotecario e id_cliente e a tabela empréstimo é uma tabela de relacionamento, que utiliza suas chaves estrangeiras (em itálico) para criar um empréstimo", "feedback": "Essa alternativa está perfeitamente correta", "correct" : true},
+        {"text" : "As chaves primárias são id_livro, id_bibliotecario e cpf e a tabela empréstimo é uma tabela de relacionamento, que utiliza suas chaves estrangeiras (em itálico) para criar um empréstimo", "feedback": "A chave primária indicada na tabela clientes é id_cliente, cpf, ainda que único, não está sendo usado como chave primária", "correct" : false},
+        {"text" : "As chaves primárias são id_livro, id_bibliotecario e id_cliente e a tabela empréstimo é uma tabela de relacionamento, que utiliza seus campos opcionais (em itálico) para criar um empréstimo", "feedback": "Os campos em itálico são chaves estrangeiras (obrigatórias)", "correct" : false},
+        {"text" : "As chaves primárias são id_livro, id_bibliotecario e cpf e a tabela empréstimo é uma tabela de relacionamento, que utiliza suas campos opcionais (em itálico) para criar um empréstimo", "feedback": "Além de os campos em itálico serem chaves estrangeiras (obrigatórias), a chave primária é na tabela clientes é id_cliente, e o cpf ainda que único não está sendo usado como chave primária", "correct" : true},
+        {"text" : "Não sei", "feedback": "Você respondeu não sei para essa pergunta", "correct" : false}
+     ]
+}

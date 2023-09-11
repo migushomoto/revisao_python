@@ -1,0 +1,25 @@
+{
+    "id": "077ca58b-133c-46b7-9a80-3120a98d2f84",
+    "SKU": "000024",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "Dados",
+    "category": "Banco de Dados",
+    "subCategory": "MER",
+    "level": "Medium", 
+    "tagsOrConcepts": ["MER", "cardinalidade"],
+    "text": [
+                "Quando se faz a modelagem de um banco de dados relacional, é importante se atentar à cardinalidade das relações que estamos criando.",
+                "Através da cardinalidade adequada que fica possível fazer a representação de objetos, consultar junções entre tabelas e representar da melhor forma nossos dados.",
+                "Por essa importancia, se faz necessário desenvolver a capacidade de escolher a cardinalidade adequada para relacionamentos no banco baseado nos objetos representados no mundo real",
+                "Sendo assim, escolha a alternativa que traz exemplos de relacionamentos entre os objetos 1-1, 1-N e N-M respectivamente"
+            ],
+    "alternatives": [ 
+        {"text" : "Cliente pessoa física e CPF; Relojoeiro e relógio consertado; Professor e aluno", "feedback": "Essa distribuição está correta", "correct" : true},
+        {"text" : "Cliente pessoa física e CPF; Filme alugado e locador; Professor e aluno", "feedback": "Um locador pode alugar vários filmes e um filme pode ser alugado por vários locadores", "correct" : false},
+        {"text" : "Filme alugado e locador; Cliente pessoa física e CPF; Professor e aluno", "feedback": "Além de um locador poder alugar vários filmes e um filme poder ser alugado por vários locadores, uma pessoa física só tem um único CPF", "correct" : false},
+        {"text" : "Cliente pessoa física e CPF; Relojoeiro e relógio consertado; Pessoa e mãe", "feedback": "Uma pessoa só pode ter uma mãe, ainda que uma mãe possa ter vários filhos", "correct" : false},
+        {"text" : "Não sei", "feedback": "Você respondeu não sei para essa pergunta", "correct" : false}
+     ]
+}

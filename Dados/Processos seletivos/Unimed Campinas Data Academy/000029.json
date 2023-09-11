@@ -1,0 +1,24 @@
+{
+    "id": "0c55cf2e-95c9-42ea-9415-c21f8047a98c",
+    "SKU": "000029",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "Dados",
+    "category": "Power BI",
+    "subCategory": "Slicer",
+    "level": "Medium", 
+    "tagsOrConcepts": ["slicer", "filtros"],
+    "text": [
+                "Você está desenvolvendo um dashboard de dados para uma grande mineradora, com mais de 20 anos de história.",
+                "Pediram que nesta visualização, todas as abas tenham um filtro mostrando apenas a quantidade de minério extraída nos ultimos 5 anos, enquanto na página principal deve ser possível filtrar qual dos pontos de mineração será analisado.",
+                "Sobre essas filtragens, assinale a alternativa correta"
+            ],
+    "alternatives": [ 
+        {"text" : "Pode-se fazer a filtragem por ativo de mineração usando slicers e a filtragem por anos nos filtros de nivel de relatório", "feedback": "Dessa forma os critérios de nível de filtragem serão atendidos", "correct" : true},
+        {"text" : "Pode-se fazer a filtragem por ativo de mineração usando slicers e a filtragem por anos usando slicers também", "feedback": "O slicer faz filtros em nível de página, o que quer dizer que o filtro de anos não funcionará em todas as páginas", "correct" : false},
+        {"text" : "Pode-se fazer a filtragem por ativo de mineração usando filtros de nível de relatório e a filtragem por anos também com filtros de nivel de relatório", "feedback": "Dessa forma o filtro por ponto de mineração estará replicado em todas as páginas, não atendendo os critérios de filtragem", "correct" : false},
+        {"text" : "Pode-se fazer a filtragem por ativo de mineração usando filtros em nível de visualização e a filtragem por anos usando slicers", "feedback": "Dessa forma os critérios de nível de filtragem não são atendidos, pois o ponto de mineração escolhido só impactará uma visualização, e o filtro dos ultimos anos só impactará uma página.", "correct" : false},
+        {"text" : "Não sei", "feedback": "Você respondeu não sei para essa pergunta", "correct" : false}
+     ]
+}

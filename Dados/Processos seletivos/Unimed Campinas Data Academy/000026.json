@@ -1,0 +1,24 @@
+{
+    "id": "43dd5333-0be0-47cc-940b-8e39a93444fc",
+    "SKU": "000026",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "Dados",
+    "category": "Power BI",
+    "subCategory": "Assunto em particular",
+    "level": "Basic", 
+    "tagsOrConcepts": ["carga de dados"],
+    "text": [
+                "Em uma loja que vende móveis, os gestores querem um dashboard analítico, para avaliarem os resultados year-to-date.",
+                "Você foi chamado para construir esse dashboard, mas antes de começar a desenvolvê-lo precisa fazer a carga de dados, buscando maximizar tanto a performance quanto a manutenabilidade do dashboard.",
+                "Assinale a alternativa que melhor cumpre esses requisitos"
+            ],
+    "alternatives": [ 
+        {"text" : "Você pode fazer a carga de dados via csv, exportado diariamente do banco de dados, com os dados já filtrados para o ano atual", "feedback": "Nesta abordagem, o custo de manutenção está alto, pois todo dia é necessário refazer um processo manual", "correct" : false},
+        {"text" : "Você pode fazer a carga de dados via SQL puxando o banco inteiro e depois filtrar os dados para o ano desejado", "feedback": "Nesta abordagem, o custo de processamento é muito alto, pois o Power BI não é tão especializado em fazer essa filtragem como o banco de dados seria", "correct" : false},
+        {"text" : "Você pode fazer a carga de dados via SQL puxando o banco já filtrado para o ano desejado via query", "feedback": "Nesta abordagem, o custo de manutenção é baixo e o de processamento é reduzido", "correct" : true},
+        {"text" : "Você pode fazer a carga de dados via csv, exportando diariamente o banco de dados inteiro, filtrando os dados no Power BI em seguida", "feedback": "Nesta abordagem o custo de manutenção é altissimo, pois há uma atividade manual diária, e o de processamento também, pois o Power BI é menos performático para filtros em relação ao BD", "correct" : false},
+        {"text" : "Não sei", "feedback": "Você respondeu não sei para essa pergunta", "correct" : false}
+     ]
+}

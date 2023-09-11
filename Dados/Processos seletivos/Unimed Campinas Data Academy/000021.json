@@ -1,0 +1,23 @@
+{
+    "id": "e2cb8e4f-d39f-4f5a-b941-2593f6c11eeb",
+    "SKU": "000021",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "Dados",
+    "category": "Banco de Dados",
+    "subCategory": "Queries",
+    "level": "Basic", 
+    "tagsOrConcepts": ["SQL", "queries", "agregações"],
+    "text": [
+                "Um apostador deseja fazer análises em uma tabela de estatísticas da FIFA para decidir em quem vai apostar na final da Libertadores da América. Para isso, deseja calcular a média e a soma de gols por time",
+                "Qual alternativa melhor representa a estratégia que ele deve usar para completar seu objetivo com o menor número de queryes"
+            ],
+    "alternatives": [ 
+        {"text" : "Fazer duas querys, cada uma com um select usando group by no nome do time, usando no primeiro a agregada avg e no segundo a agregada sum", "feedback": "É possível fazer as duas agregações numa mesma query, então a segunda query é desnecessária", "correct" : false},
+        {"text" : "Fazer duas querys, cada uma com um select usando group by no nome do time, usando no primeiro a agregada mean e no segundo a agregada sum", "feedback": "Além de ser possível fazer isso em uma única query, a função que calcula a média é a avg", "correct" : false},
+        {"text" : "Fazer uma query select com group by nome do time, usando as agregadas mean e sum para calcular os a média e a soma respectivamente", "feedback": "A função usada para calcular a média é avg", "correct" : false},
+        {"text" : "Fazer uma query select com group by nome do time, usando as agregadas avg e sum para calcular os a média e a soma respectivamente", "feedback": "Essa abordagem está correta", "correct" : true},
+        {"text" : "Não sei", "feedback": "Você respondeu não sei para essa pergunta", "correct" : false}
+     ]
+}

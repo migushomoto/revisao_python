@@ -1,0 +1,24 @@
+{
+    "id": "dc63c54f-d066-4fcd-8efa-70071327fbfa",
+    "SKU": "000012",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "knowledgeArea": "Dados",
+    "category": "Lógica de Programação",
+    "subCategory": "Estruturas condicionais e while",
+    "level": "Basic", 
+    "tagsOrConcepts": ["condicionais", "operadores", "lógicos"],
+    "text": [
+                "Para ver a divisão salarial de uma empresa, um funcionário elaborou o seguinte código:",
+                "!(https://github.com/educacionalAda/Banco-de-questoes/blob/processo-seletivo-unimed-data-academy-campinas/Dados/Processos%20seletivos/Unimed%20Campinas%20Data%20Academy/000012.png)",
+                "Porém, ao inserir o primeiro valor de salário, de 1500, seu código saiu de controle. Qual alternativa melhor explica o que aconteceu?"
+            ],
+    "alternatives": [ 
+        {"text" : "O funcionário digitou um valor menor que a média", "feedback": "Sim, mas se existisse uma condição de parada, o erro não aconteceria", "correct" : false},
+        {"text" : "O código não tem uma condição de parada, entrando em looping infinito", "feedback": "Alternativa correta", "correct" : true},
+        {"text" : "O valor da entrada é um float, porém é comparado com um int", "feedback": "Os dois tipos são numéricos, podendo ser comparados entre si", "correct" : false},
+        {"text" : "O funcionário não colocou uma condição de 'valor maior que a média'", "feedback": "Sim, porém o erro se encontra na ausência de uma condição de parada, gerando um looping infinito", "correct" : false},
+        {"text" : "Não sei", "feedback": "Você respondeu não sei para essa pergunta", "correct" : false}
+     ]
+}

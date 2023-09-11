@@ -1,0 +1,26 @@
+{
+    "id": "64b4c39c-44e4-4ef6-a8bf-19c90043048e",
+    "SKU": "000022",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "Dados",
+    "category": "Banco de Dados",
+    "subCategory": "Joins",
+    "level": "Medium", 
+    "tagsOrConcepts": ["queries", "joins", "DER"],
+    "text": [
+                "No banco de dados de uma instituição financeira, as tabelas relacionadas a entidade conta corrente estão representadas no diagrama abaixo",
+                "!(https://github.com/educacionalAda/Banco-de-questoes/blob/processo-seletivo-unimed-data-academy-campinas/Dados/Processos%20seletivos/Unimed%20Campinas%20Data%20Academy/000022.png)",
+                "Um analista deseja fazer uma análise usando dados das 3 tabelas e precisa fazer uma consulta que recupere todas as contas correntes com seus dados pessoais.",
+                "Além disso, caso haja conta premium, ele deve trazê-la também, caso contrário, preencher as colunas com nulos.",
+                "Qual abordagem ele deve seguir?"                
+            ],
+    "alternatives": [ 
+        {"text" : "Fazer um select from conta corrente, e então dar um inner join na tabela Dados Pessoais, seguido por um right join na tabela Conta Premium", "feedback": "Ao fazer um right join na tabela Conta Premium, a query só trará os dados de usuários que possuirem contas premium", "correct" : false},
+        {"text" : "Fazer um select from conta corrente, e ainda dentro do escopo do from acrescentar as tabelas Conta Premium e Dados Pessoais", "feedback": "Essa abordagem permutará todas as tabelas, gerando uma massa de dados extremamente confusa e ruidosa.", "correct" : false},
+        {"text" : "Fazer um select from conta corrente, e então dar um inner join na tabela Dados Pessoais, seguido por um left join na tabela Conta Premium", "feedback": "Essa é a linha de raciocínio adequada", "correct" : true},
+        {"text" : "Fazer um select from conta corrente, e então dar um left join na tabela Dados Pessoais, seguido por um right join na tabela Conta Premium", "feedback": "Ao fazer um right join na tabela Conta Premium, a query só trará os dados de usuários que possuirem contas premium, além disso, o left join na tabela dados pessoais poderá trazer dados ruidosos (contas que tenham tido problema no cadastro)", "correct" : false},
+        {"text" : "Não sei", "feedback": "Você respondeu não sei para essa pergunta", "correct" : false}
+     ]
+}

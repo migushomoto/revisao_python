@@ -1,0 +1,24 @@
+{
+    "id": "6bab7ee6-ad1c-404c-b164-8138fc601b6b",
+    "SKU": "000011",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "python",
+    "knowledgeArea": "Dados",
+    "category": "Lógica de Programação",
+    "subCategory": "Estruturas condicionais e while",
+    "level": "Basic", 
+    "tagsOrConcepts": ["condicionais", "operadores", "lógicos"],
+    "text": [
+                "Quando estamos programando, a condicional if...else é uma das primeiras estruturas que aprendemos para fazer controle de fluxo.",
+                "Se determinada condição for verdadeira, ela é executada dentro de seu bloco. Caso contrário, é executada no bloco else.",
+                "Para garantir o bom funcionamento de nosso código, precisamos garantir que algumas condições sejam satisfeitas ao utilizar IFs. Assinale a alterativa que represente uma dessas condições:"
+            ],
+    "alternatives": [ 
+        {"text" : "Abordar apenas duas possibilidades, uma para o if e uma para o else, já satisfaz o problema abordado", "feedback": "É importante sempre testar todas as possibilidades da situação para garantir o funcionamento do código", "correct" : false},
+        {"text" : "Ao usar a condicional if, devemos apenas comparar variáveis inteiras", "feedback": "Incorreto. Podemos comparar variáveis de diferentes tipos, desde que de mesmo tipo entre si", "correct" : false},
+        {"text" : "Utilizar sempre o operador para igualdade '='", "feedback": "O operador para igualdade é '=='. '=' apenas atribui um valor a determinada variável", "correct" : false},
+        {"text" : "Conferir se a condição é verdadeira apenas para os valores pretendidos", "feedback": "Alternativa correta", "correct" : true},
+        {"text" : "Não sei", "feedback": "Você respondeu não sei para essa pergunta", "correct" : false}
+     ]
+}
