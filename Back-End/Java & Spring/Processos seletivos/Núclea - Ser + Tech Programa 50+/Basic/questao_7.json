@@ -24,7 +24,7 @@
         {
             "id": "fc698830-893b-4edb-bd6d-0285696f38d8",
             "text": "static int numero = 10;",
-            "feedback": "A palavra-chave static é usada para criar variáveis e métodos de classe, não para tornar uma variável constante.",
+            "feedback": "A palavra-chave static é usada para criar variáveis e métodos estáticos, não para tornar uma variável em constante.",
             "correct": false
         },
         {

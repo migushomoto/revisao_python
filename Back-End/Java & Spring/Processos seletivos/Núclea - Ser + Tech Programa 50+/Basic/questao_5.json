@@ -6,10 +6,10 @@
     "language": "java",
     "knowledgeArea": "Back-End",
     "category": "Java",
-    "subCategory": "Lógica de Programação",
+    "subCategory": "Programação Orientado a Objetos",
     "level": "Basic",
     "tagsOrConcepts": [
-        "Lógica"
+        "POO"
     ],
     "text": [
         "Qual a diferença entre métodos estáticos e métodos de instância?"
@@ -17,7 +17,7 @@
     "alternatives": [
         {
             "id": "d803c917-1a6e-4bd4-b9c6-546c6c949e45",
-            "text": "Métodos estáticos podem ser chamados sem criar instância, enquanto métodos de instância exigem uma instância de classe antes de ser invocada.",
+            "text": "Métodos estáticos podem ser chamados sem criar instância, enquanto métodos de instância exigem um objeto instanciado antes de ser invocada.",
             "feedback": "Métodos estáticos estão vinculados a classe e não a uma instância.",
             "correct": true
         },
@@ -36,7 +36,7 @@
         {
             "id": "c3fc3833-46f6-43fd-a5a3-bf7df215b0fe",
             "text": "Métodos estáticos podem ser sobrescritos em subclasses, enquanto métodos de instância não podem.",
-            "feedback": "Métodos estáticos estão associados à classe e não a instância.",
+            "feedback": "Métodos estáticos estão associados à classe e não à instância.",
             "correct": false
         },
         {

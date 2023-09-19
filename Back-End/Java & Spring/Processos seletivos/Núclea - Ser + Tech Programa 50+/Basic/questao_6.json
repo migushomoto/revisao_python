@@ -29,7 +29,7 @@
         },
         {
             "id": "4f474dcc-228e-4ea2-b883-8626b2bebb24",
-            "text": "Uma variável é um objeto que armazena um valor ou uma referência a um valor na memória, e é usada para armazenar e manipular dados em um programa.",
+            "text": "Uma variável armazena um valor ou uma referência a um valor na memória, e é usada para armazenar e manipular dados em um programa.",
             "feedback": "Variáveis são fundamentais para a maioria das linguagens de programação, pois permitem que você mantenha e modifique informações durante a execução do programa.",
             "correct": true
         },

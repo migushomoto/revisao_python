@@ -12,7 +12,7 @@
         "Lógica"
     ],
     "text": [
-        "Qual dos seguintes loops em Java está correto para iterar por uma coleção de elementos, como um ArrayList ou um array?"
+        "Qual dos seguintes loops em Java está correto para iterar por um array de Strings?"
     ],
     "alternatives": [
         {

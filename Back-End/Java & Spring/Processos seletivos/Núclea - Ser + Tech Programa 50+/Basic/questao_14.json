@@ -1,0 +1,48 @@
+{
+    "id": "2321c12e-0ed8-4fec-8971-56aa4a43771e",
+    "SKU": "000001",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "java",
+    "knowledgeArea": "Back-End",
+    "category": "Java",
+    "subCategory": "Lógica de Programação",
+    "level": "Basic",
+    "tagsOrConcepts": [
+        "Lógica",
+        "Orientação a Objetos"
+    ],
+    "text": "Em Java, qual é o propósito principal da palavra-chave 'extends'?",
+    "alternatives": [
+        {
+            "id": "1bdcf027-3b8d-43db-a2ef-f8a580ca629f",
+            "text": "Indicar que uma classe é abstrata.",
+            "feedback": "A palavra-chave 'extends' é usada para estabelecer uma relação de herança entre duas classes.",
+            "correct": false
+        },
+        {
+            "id": "bbe63fe0-63b8-4ca3-a0b9-ec1705297edb",
+            "text": "Definir uma variável de instância em uma classe.",
+            "feedback": "A palavra-chave 'extends' não é usada para criar variáveis de instância.",
+            "correct": false
+        },
+        {
+            "id": "2b22a655-1f7e-499c-afdd-358befa2077b",
+            "text": "Criar uma nova instância de uma classe.",
+            "feedback": "A palavra-chave 'extends' não está relacionada à criação de instâncias de classe.",
+            "correct": false
+        },
+        {
+            "id": "6a3ccefb-1422-4053-8a9f-855f8e0c62bf",
+            "text": "Estabelecer uma relação de herança entre duas classes.",
+            "feedback": "A palavra-chave 'extends' é usada para estabelecer uma relação de herança entre uma classe filha e uma classe pai.",
+            "correct": true
+        },
+        {
+            "id": "7e03f2ca-1a76-49e6-964e-810e548924dd",
+            "text": "Declarar um método abstrato em uma interface.",
+            "feedback": "A palavra-chave 'extends' não é usada para declarar métodos abstratos em interfaces.",
+            "correct": false
+        }
+    ]
+}

@@ -24,7 +24,7 @@
         {
             "id": "481d9f60-6712-4e29-96f9-77b2a754baa3",
             "text": "O operador 'new' é usado para declarar novas variáveis em Java.",
-            "feedback": "Incorreto. O operador 'new' não é usado para declarar variáveis em Java.",
+            "feedback": "Incorreto. O operador 'new' não é usado para declarar variáveis em Java, sua função é criar um novo objeto.",
             "correct": "false"
         },
         {
@@ -42,7 +42,7 @@
         {
             "id": "5d8a51d4-e1a1-429f-b335-4b87f780a6f2",
             "text": "O operador 'new' é usado para definir métodos em Java.",
-            "feedback": "Incorreto. O operador 'new' não é usado para definir métodos em Java.",
+            "feedback": "Incorreto. O operador 'new' não é usado para definir métodos em Java, sua função é criar um novo objeto.",
             "correct": "false"
         }
     ]

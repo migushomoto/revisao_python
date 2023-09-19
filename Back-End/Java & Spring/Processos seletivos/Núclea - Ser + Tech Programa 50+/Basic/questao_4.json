@@ -12,12 +12,12 @@
         "Lógica"
     ],
     "text": [
-        "Qual afirmação representa o operador '!' em java?"
+        "Qual afirmação descreve o operador '!' em java?"
     ],
     "alternatives": [
         {
             "id": "bee69eae-d4b2-42af-8997-c0bde8124b62",
-            "text": "O operador é utilizado realizar negação matemática em números.",
+            "text": "O operador é utilizado para realizar negação matemática em números.",
             "feedback": "Não é utilizado para operação matemática, mas sim para valores booleanos.",
             "correct": false
         },
@@ -36,7 +36,7 @@
         {
             "id": "74216f82-d226-4b10-b738-1e2a2db3d569",
             "text": "O operador é utilizado para calcular a diferença entre uma operação",
-            "feedback": "Não é utilizado para calcular a diferença, mas para reverter o valor booleano.",
+            "feedback": "Não é utilizado para calcular a diferença, mas para inverter o valor booleano.",
             "correct": false
         },
         {
