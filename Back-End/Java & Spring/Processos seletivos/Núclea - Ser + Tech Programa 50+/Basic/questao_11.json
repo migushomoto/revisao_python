@@ -1,0 +1,47 @@
+{
+    "id": "0a2c2e32-af03-45b5-a9f7-07fcb83a01e4",
+    "SKU": "000001",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "java",
+    "knowledgeArea": "Back-End",
+    "category": "Java",
+    "subCategory": "Orientação a Objetos",
+    "level": "Basic",
+    "tagsOrConcepts": [
+        "Orientação a Objetos"
+    ],
+    "text": ["Qual dos seguintes conceitos não faz parte dos pilares da orientação a objetos?"],
+    "alternatives": [
+        {
+            "id": "14bf88e7-8282-4a58-9c6e-3da6b68f73b8",
+            "text": "Encapsulamento",
+            "feedback": "O encapsulamento é um dos pilares da orientação a objetos, que ajuda a proteger o estado interno dos objetos.",
+            "correct": "false"
+        },
+        {
+            "id": "759ce35c-e21a-4751-8907-5d245a03f7d1",
+            "text": "Herança",
+            "feedback": "A herança é um dos pilares da orientação a objetos, que permite a criação de novas classes com base em classes existentes.",
+            "correct": "false"
+        },
+        {
+            "id": "64fcacec-68b7-4e09-8f56-93f8a68f8a28",
+            "text": "Polimorfismo",
+            "feedback": "O polimorfismo é um dos pilares da orientação a objetos, que permite que objetos de diferentes classes sejam tratados de maneira uniforme.",
+            "correct": "false"
+        },
+        {
+            "id": "4ee7ec12-1259-493e-8054-1f6ed6e14424",
+            "text": "Programação procedural",
+            "feedback": "Correto. Na programação procedural, o código é estruturado utilizando procedimentos e funções, não utilizando objetos e classes.",
+            "correct": "true"
+        },
+        {
+            "id": "e4994855-2326-4650-a038-09a19129e08a",
+            "text": "Abstração",
+            "feedback": "Errado. A abstração é um dos pilares da orientação a objetos, que permite representar objetos do mundo real de forma simplificada.",
+            "correct": "false"
+        }
+    ]
+}

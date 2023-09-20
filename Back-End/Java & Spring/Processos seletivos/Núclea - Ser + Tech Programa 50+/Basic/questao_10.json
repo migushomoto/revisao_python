@@ -1,0 +1,49 @@
+{
+    "id": "b95a4964-5020-4b28-a8d7-40d39a74187d",
+    "SKU": "000001",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "java",
+    "knowledgeArea": "Back-End",
+    "category": "Java",
+    "subCategory": "Orientação a Objetos",
+    "level": "Basic",
+    "tagsOrConcepts": [
+        "Orientação a Objetos"
+    ],
+    "text": [
+        "Qual é a finalidade do operador 'new' em Java?"
+    ],
+    "alternatives": [
+        {
+            "id": "53bb5c1c-2da1-47a6-a5b0-94b2e53b77ef",
+            "text": "O operador 'new' é usado para criar uma nova classe em Java.",
+            "feedback": "Incorreto. O operador 'new' é usado para criar uma nova instância de uma classe em Java, não uma nova classe.",
+            "correct": "false"
+        },
+        {
+            "id": "481d9f60-6712-4e29-96f9-77b2a754baa3",
+            "text": "O operador 'new' é usado para declarar novas variáveis em Java.",
+            "feedback": "Incorreto. O operador 'new' não é usado para declarar variáveis em Java, sua função é criar um novo objeto.",
+            "correct": "false"
+        },
+        {
+            "id": "a5a5c676-9b6e-4c5f-9a46-1d63f9d76213",
+            "text": "O operador 'new' é usado para chamar métodos em Java.",
+            "feedback": "Incorreto. O operador 'new' não é usado para chamar métodos em Java.",
+            "correct": "false"
+        },
+        {
+            "id": "e23c00db-4f8e-4f7d-bb68-9f1d16c7b22e",
+            "text": "O operador 'new' é usado para criar uma nova instância de uma classe em Java.",
+            "feedback": "Correto. O operador 'new' é usado para criar uma nova instância de uma classe em Java, alocando memória para o objeto e chamando o construtor da classe.",
+            "correct": "true"
+        },
+        {
+            "id": "5d8a51d4-e1a1-429f-b335-4b87f780a6f2",
+            "text": "O operador 'new' é usado para definir métodos em Java.",
+            "feedback": "Incorreto. O operador 'new' não é usado para definir métodos em Java, sua função é criar um novo objeto.",
+            "correct": "false"
+        }
+    ]
+}

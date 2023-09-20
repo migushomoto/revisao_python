@@ -1,0 +1,49 @@
+{
+    "id": "2db340c0-00ce-4f8e-9b17-63c0371e5437",
+    "SKU": "000001",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "java",
+    "knowledgeArea": "Back-End",
+    "category": "Java",
+    "subCategory": "Lógica de Programação",
+    "level": "Basic",
+    "tagsOrConcepts": [
+        "Lógica", "Java"
+    ],
+    "text": [
+        "Qual dos seguintes comandos em Java é utilizado para declarar uma variável que não pode ser modificada após a inicialização?"
+    ],
+    "alternatives": [
+        {
+            "id": "77c3d025-ddcf-4ab5-8c48-133e529b976d",
+            "text": "final int numero = 10;",
+            "feedback": "A palavra-chave final é usada para declarar uma variável constante em Java.",
+            "correct": true
+        },
+        {
+            "id": "fc698830-893b-4edb-bd6d-0285696f38d8",
+            "text": "static int numero = 10;",
+            "feedback": "A palavra-chave static é usada para criar variáveis e métodos estáticos, não para tornar uma variável em constante.",
+            "correct": false
+        },
+        {
+            "id": "0e5f1efd-96d1-4f73-b68a-b64979c6b605",
+            "text": "const int numero = 10;",
+            "feedback": "Java não possui uma palavra-chave const para declarar variáveis constantes.",
+            "correct": false
+        },
+        {
+            "id": "7e91657e-93a0-4664-96c1-7d803f0b5f5a",
+            "text": "volatile int numero = 10;",
+            "feedback": "A palavra-chave volatile é usada para indicar que uma variável pode ser acessada simultaneamente por várias threads.",
+            "correct": false
+        },
+        {
+            "id": "947e6ded-3525-4cff-88cf-795de9567db7",
+            "text": "mutable int numero = 10;",
+            "feedback": "A palavra-chave mutable não existe em Java.",
+            "correct": false
+        }
+    ]
+}

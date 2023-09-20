@@ -1,0 +1,49 @@
+{
+    "id": "128b8537-9442-4359-95c9-5aa43c6588be",
+    "SKU": "000001",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "java",
+    "knowledgeArea": "Back-End",
+    "category": "Java",
+    "subCategory": "Lógica de Programação",
+    "level": "Basic",
+    "tagsOrConcepts": [
+        "Lógica"
+    ],
+    "text": [
+        "Qual afirmação descreve o operador '!' em java?"
+    ],
+    "alternatives": [
+        {
+            "id": "bee69eae-d4b2-42af-8997-c0bde8124b62",
+            "text": "O operador é utilizado para realizar negação matemática em números.",
+            "feedback": "Não é utilizado para operação matemática, mas sim para valores booleanos.",
+            "correct": false
+        },
+        {
+            "id": "5a052fa0-a225-4fb2-951e-a9bd15e5e87f",
+            "text": "O operador é utilizado para comparar objetos em Java",
+            "feedback": "Para comparação de objetos geralmente é utilizado o equals.",
+            "correct": false
+        },
+        {
+            "id": "4dbf7123-c834-4271-b822-060104c4e5e9",
+            "text": "O operador é utilizado para inverter o valor de uma expressão booleana.",
+            "feedback": "Este operador é utilizado para inverter um valor booleano.",
+            "correct": true
+        },
+        {
+            "id": "74216f82-d226-4b10-b738-1e2a2db3d569",
+            "text": "O operador é utilizado para calcular a diferença entre uma operação",
+            "feedback": "Não é utilizado para calcular a diferença, mas para inverter o valor booleano.",
+            "correct": false
+        },
+        {
+            "id": "ca759f2f-8326-4820-bd44-a35a6f209e09",
+            "text": "O operador é utilizado para concatenar strings em java.",
+            "feedback": "Para concatenar valores em String é utilizado o +",
+            "correct": false
+        }
+    ]
+}

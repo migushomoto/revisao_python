@@ -1,0 +1,49 @@
+{
+    "id": "a0a9f1d7-18fd-42ac-a0a8-caa07d590392",
+    "SKU": "000001",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "java",
+    "knowledgeArea": "Back-End",
+    "category": "Java",
+    "subCategory": "Programação Orientado a Objetos",
+    "level": "Basic",
+    "tagsOrConcepts": [
+        "POO"
+    ],
+    "text": [
+        "Qual a diferença entre métodos estáticos e métodos de instância?"
+    ],
+    "alternatives": [
+        {
+            "id": "d803c917-1a6e-4bd4-b9c6-546c6c949e45",
+            "text": "Métodos estáticos podem ser chamados sem criar instância, enquanto métodos de instância exigem um objeto instanciado antes de ser invocada.",
+            "feedback": "Métodos estáticos estão vinculados a classe e não a uma instância.",
+            "correct": true
+        },
+        {
+            "id": "76400d0b-34b1-4d6c-8d89-9410d4e5b973",
+            "text": "Métodos estáticos podem acessar e modificar diretamente os atributos de uma classe, enquanto métodos de instância não podem.",
+            "feedback": "Métodos estáticos não podem acessar ou modificar diretamente os atributos de uma classe.",
+            "correct": false
+        },
+        {
+            "id": "1455a364-57f4-424f-9724-7fb940e41ac9",
+            "text": "Métodos estáticos têm acesso a todas as classes no pacote atual, enquanto métodos de instância estão restritos à classe em que foram definidos.",
+            "feedback": "Métodos estáticos não têm acesso especial a outras classes no pacote",
+            "correct": false
+        },
+        {
+            "id": "c3fc3833-46f6-43fd-a5a3-bf7df215b0fe",
+            "text": "Métodos estáticos podem ser sobrescritos em subclasses, enquanto métodos de instância não podem.",
+            "feedback": "Métodos estáticos estão associados à classe e não à instância.",
+            "correct": false
+        },
+        {
+            "id": "c3fc3833-46f6-43fd-a5a3-bf7df215b0fe",
+            "text": "Métodos estáticos são mais eficientes em termos de uso de memória do que métodos de instância.",
+            "feedback": "A diferença principal é quando e como eles podem ser chamados.",
+            "correct": false
+        }
+    ]
+}

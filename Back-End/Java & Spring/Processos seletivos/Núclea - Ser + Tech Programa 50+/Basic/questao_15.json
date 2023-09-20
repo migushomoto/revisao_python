@@ -1,0 +1,53 @@
+{
+    "id": "e9d3f6ce-7901-4c95-bf22-5f372b69d12c",
+    "SKU": "000001",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "java",
+    "knowledgeArea": "Back-End",
+    "category": "Java",
+    "subCategory": "Lógica de Programação",
+    "level": "Basic",
+    "tagsOrConcepts": [
+        "Lógica"
+    ],
+    "text": [
+            "Qual é o resultado da seguinte expressão em Java? ",
+            " int x = 5;",
+            " int y = 3;",
+            " int resultado = x % y;",
+            " System.out.println(resultado);"
+        ],
+    "alternatives": [
+        {
+            "id": "b32e749f-1bea-4f36-a6a1-68f71a9c01f0",
+            "text": "2",
+            "feedback": "Incorreto. O operador '%' em Java é usado para calcular o resto da divisão entre dois números inteiros. Neste caso, 5 % 3 resulta em 2, pois o resto da divisão de 5 por 3 é 2.",
+            "correct": "false"
+        },
+        {
+            "id": "7467b1d7-9ed3-4c22-9876-2e60c3e5d60f",
+            "text": "0",
+            "feedback": "Incorreto. O operador '%' em Java é usado para calcular o resto da divisão entre dois números inteiros. Neste caso, 5 % 3 resulta em 2, pois o resto da divisão de 5 por 3 é 2.",
+            "correct": "false"
+        },
+        {
+            "id": "e5577ef0-af9e-48f2-91a1-5d8c3eb8e927",
+            "text": "1",
+            "feedback": "Incorreto. O operador '%' em Java é usado para calcular o resto da divisão entre dois números inteiros. Neste caso, 5 % 3 resulta em 2, pois o resto da divisão de 5 por 3 é 2.",
+            "correct": "false"
+        },
+        {
+            "id": "acda41af-74d3-4f0b-ae15-7c54eb00d97f",
+            "text": "3",
+            "feedback": "Incorreto. O operador '%' em Java é usado para calcular o resto da divisão entre dois números inteiros. Neste caso, 5 % 3 resulta em 2, pois o resto da divisão de 5 por 3 é 2.",
+            "correct": "false"
+        },
+        {
+            "id": "7f3e34ef-9f67-4f1c-af8f-27a7b77757d8",
+            "text": "2",
+            "feedback": "Correto! O operador '%' em Java é usado para calcular o resto da divisão entre dois números inteiros. Neste caso, 5 % 3 resulta em 2, pois o resto da divisão de 5 por 3 é 2.",
+            "correct": "true"
+        }
+    ]
+}

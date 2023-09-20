@@ -1,0 +1,49 @@
+{
+    "id": "4d405d3c-67dd-4143-aedf-d85b9d4754a3",
+    "SKU": "000001",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "java",
+    "knowledgeArea": "Back-End",
+    "category": "Java",
+    "subCategory": "Lógica de Programação",
+    "level": "Basic",
+    "tagsOrConcepts": [
+        "Lógica"
+    ],
+    "text": [
+        "Qual das opções abaixo é verdadeira sobre o operador == em Java?"
+    ],
+    "alternatives": [
+        {
+            "id": "dc53cdaf-c450-4387-863f-8e6042f50388",
+            "text": "O operador == compara o conteúdo, verificando se são iguais.",
+            "feedback": "O operador compara as referências de memória.",
+            "correct": false
+        },
+        {
+            "id": "1cd39cde-b5f8-4d74-99e2-beedb1c52b81",
+            "text": "O operador == compara o endereço de memória, verificando se estão armazenados na mesma localização de memória.",
+            "feedback": "O operador compara o endereço de memória da variável.",
+            "correct": true
+        },
+        {
+            "id": "b6afbd38-22c4-4800-ab5b-a1927bb84402",
+            "text": "O operador == compara o tamanho de dois objetos, se ocupam a mesma quantidade de memória.",
+            "feedback": "O operador não tem a função de comparar o tamanho.",
+            "correct": false
+        },
+        {
+            "id": "fd2add91-c152-47f5-9c56-22bfab5c0c46",
+            "text": "O operador == compara a classe dos dois objetos.",
+            "feedback": "O operador não compara a classe de objetos.",
+            "correct": false
+        },
+        {
+            "id": "e3fb10fe-8da6-4476-9cc6-510be30f1613",
+            "text": "O operador == não é suportado em Java.",
+            "feedback": "O operador é suportado e utilizado para comparação de referências.",
+            "correct": false
+        }
+    ]
+}

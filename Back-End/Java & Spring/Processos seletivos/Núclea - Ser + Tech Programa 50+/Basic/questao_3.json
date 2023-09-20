@@ -1,0 +1,49 @@
+{
+    "id": "a2ae7cff-556d-4d7a-a2fe-e9f8408c62e1",
+    "SKU": "000001",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "java",
+    "knowledgeArea": "Back-End",
+    "category": "Java",
+    "subCategory": "Lógica de Programação",
+    "level": "Basic",
+    "tagsOrConcepts": [
+        "Lógica"
+    ],
+    "text": [
+        "Qual é o propósito do operador instanceof em Java?"
+    ],
+    "alternatives": [
+        {
+            "id": "28460fa3-a85a-4690-b6b0-3c9effbdd55b",
+            "text": "Compara o conteúdo de dois objetos.",
+            "feedback": "Não é utilizado para comparar o conteúdo de objetos.",
+            "correct": false
+        },
+        {
+            "id": "3b30aa46-d0fe-4a58-83b3-7063c2c95c66",
+            "text": "Compara o endereço de memória de dois objetos.",
+            "feedback": "Não é utilizado para comparar o endereço de memória.",
+            "correct": false
+        },
+        {
+            "id": "c96ff50d-89d1-4c7e-8e0a-ae38511030f3",
+            "text": "Verifica se o objeto é uma instância de uma classe.",
+            "feedback": "É utilizado para verificar se um objeto é uma instância de uma classe ou de uma classe relacionada por herança ou implementação de interfaces.",
+            "correct": true
+        },
+        {
+            "id": "08b6c6ac-0bfc-458d-a57b-2f9772dfd248",
+            "text": "Verifica se dois objetos são idênticos",
+            "feedback": "É utilizado para verificar hierarquia de tipos.",
+            "correct": false
+        },
+        {
+            "id": "a69f7470-1442-45e4-93ac-be3c174655c8",
+            "text": "Verifica se o objeto é null",
+            "feedback": "Não é utilizado para verificar se um objeto é nulo.",
+            "correct": false
+        }
+    ]
+}

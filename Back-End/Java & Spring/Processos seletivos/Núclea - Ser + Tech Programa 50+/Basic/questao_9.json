@@ -1,0 +1,49 @@
+{
+    "id": "cc695c8c-cb30-4409-8967-9555d3ce4121",
+    "SKU": "000001",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "java",
+    "knowledgeArea": "Back-End",
+    "category": "Java",
+    "subCategory": "Orientação a Objetos",
+    "level": "Basic",
+    "tagsOrConcepts": [
+        "POO", "OO"
+    ],
+    "text": [
+        "Qual dos seguintes conceitos de orientação a objetos em Java representa a capacidade de uma classe herdar características e comportamentos de outra classe?"
+    ],
+    "alternatives": [
+        {
+            "id": "f6c783dd-96ca-4119-b6ee-1969d0a5e798",
+            "text": "Encapsulamento",
+            "feedback": "O encapsulamento é um princípio de OOP que envolve esconder os detalhes internos de uma classe e fornecer uma interface controlada para interagir com ela. ",
+            "correct": false
+        },
+        {
+            "id": "36087b95-3cdb-4a6c-a9c5-f1e0754be167",
+            "text": "Polimorfismo",
+            "feedback": "O polimorfismo permite que objetos de classes diferentes sejam tratados de maneira uniforme por meio de uma interface comum.",
+            "correct": false
+        },
+        {
+            "id": "fe48a09b-d1ba-4d57-beb9-d20323f9c10f",
+            "text": "Abstração",
+            "feedback": "A abstração envolve a criação de classes abstratas ou interfaces que definem um conjunto de métodos que devem ser implementados por classes concretas.",
+            "correct": false
+        },
+        {
+            "id": "d70671f5-8c3d-48b7-96dc-5218e1bad02a",
+            "text": "Herança",
+            "feedback": "A herança é um dos pilares da orientação a objetos e representa a capacidade de uma classe herdar características e comportamentos de outra classe.",
+            "correct": true
+        },
+        {
+            "id": "ae6ae23a-ddc5-4185-95a5-433ace52c290",
+            "text": "Composição",
+            "feedback": "A composição envolve a criação de objetos de uma classe em outra classe para reutilizar funcionalidades.",
+            "correct": false
+        }
+    ]
+}

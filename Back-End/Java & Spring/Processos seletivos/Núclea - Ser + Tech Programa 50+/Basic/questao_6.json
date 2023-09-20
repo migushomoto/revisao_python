@@ -1,0 +1,49 @@
+{
+    "id": "c5b4a595-836d-4c44-9433-ade09fbacc8b",
+    "SKU": "000001",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "java",
+    "knowledgeArea": "Back-End",
+    "category": "Java",
+    "subCategory": "Lógica de Programação",
+    "level": "Basic",
+    "tagsOrConcepts": [
+        "Lógica"
+    ],
+    "text": [
+        "O que é uma variável e para que serve?"
+    ],
+    "alternatives": [
+        {
+            "id": "25e0d3f9-294b-4b93-bd24-495ed1e44894",
+            "text": "Uma variável é uma estrutura de controle de fluxo usada para repetir a execução de um bloco de código.",
+            "feedback": "Uma variável não é uma estrutura de controle de fluxo, mas uma forma de armazenar dados.",
+            "correct": false
+        },
+        {
+            "id": "b4c85252-8f5c-4b53-a328-424b2f03aaef",
+            "text": "Uma variável é uma função especial em Java usada para executar operações matemáticas.",
+            "feedback": "Uma variável não é uma função especial em Java, mas sim um conceito fundamental de programação.",
+            "correct": false
+        },
+        {
+            "id": "4f474dcc-228e-4ea2-b883-8626b2bebb24",
+            "text": "Uma variável armazena um valor ou uma referência a um valor na memória, e é usada para armazenar e manipular dados em um programa.",
+            "feedback": "Variáveis são fundamentais para a maioria das linguagens de programação, pois permitem que você mantenha e modifique informações durante a execução do programa.",
+            "correct": true
+        },
+        {
+            "id": "9a1a7ea9-1df2-4882-a3da-751798c8f4ca",
+            "text": "Uma variável é uma instrução condicional que permite tomar decisões em um programa.",
+            "feedback": "Uma variável não é uma instrução condicional, mas sim um mecanismo para armazenar dados.",
+            "correct": false
+        },
+        {
+            "id": "3eb8344f-ad8d-4047-a5c8-7c458ba165c6",
+            "text": "Uma variável é uma palavra-chave reservada em Java usada para declarar classes.",
+            "feedback": "Uma variável não é uma palavra-chave reservada usada para declarar classes em Java.",
+            "correct": false
+        }
+    ]
+}
