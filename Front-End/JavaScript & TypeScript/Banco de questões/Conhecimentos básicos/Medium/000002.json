@@ -1,0 +1,39 @@
+{
+  "SKU": "000002",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "javascript",
+  "knowledgeArea": "Front-End",
+  "category": "JavaScript",
+  "subCategory": "Conhecimentos Básicos",
+  "level": "Medium",
+  "tagsOrConcepts": ["frontend", "javascript"],
+  "text": ["O que é um evento em JavaScript?"],
+  "alternatives": [
+    {
+      "text": "Um erro no código.",
+      "feedback": "Incorreto! Em JavaScript, um evento é uma ação que ocorre no navegador, como um clique do mouse, uma tecla pressionada ou o carregamento de uma página, e pode ser usada para acionar funções ou código específico.",
+      "correct": false
+    },
+    {
+      "text": "Uma função que é executada imediatamente.",
+      "feedback": "Incorreto! Em JavaScript, um evento é uma ação que ocorre no navegador, como um clique do mouse, uma tecla pressionada ou o carregamento de uma página, e pode ser usada para acionar funções ou código específico.",
+      "correct": false
+    },
+    {
+      "text": "Uma declaração de variável.",
+      "feedback": "Incorreto! Em JavaScript, um evento é uma ação que ocorre no navegador, como um clique do mouse, uma tecla pressionada ou o carregamento de uma página, e pode ser usada para acionar funções ou código específico.",
+      "correct": false
+    },
+    {
+      "text": "Uma ação que ocorre no navegador, como um clique do mouse.",
+      "feedback": "Correto! Em JavaScript, um evento é uma ação que ocorre no navegador, como um clique do mouse, uma tecla pressionada ou o carregamento de uma página, e pode ser usada para acionar funções ou código específico.",
+      "correct": true
+    },
+    {
+      "text": "Um loop infinito.",
+      "feedback": "Incorreto! Em JavaScript, um evento é uma ação que ocorre no navegador, como um clique do mouse, uma tecla pressionada ou o carregamento de uma página, e pode ser usada para acionar funções ou código específico.",
+      "correct": false
+    }
+  ]
+}

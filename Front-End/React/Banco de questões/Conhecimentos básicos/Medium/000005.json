@@ -1,0 +1,41 @@
+{
+  "SKU": "000005",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "react",
+  "knowledgeArea": "Front-End",
+  "category": "React",
+  "subCategory": "Conhecimentos Básicos",
+  "level": "Medium",
+  "tagsOrConcepts": ["frontend", "react"],
+  "text": [
+    "Dentre as alternativas abaixo, qual delas define o que é JSX em React?"
+  ],
+  "alternatives": [
+    {
+      "text": "Uma linguagem de script para consultas de banco de dados",
+      "feedback": "Incorreto! JSX é uma extensão de JavaScript que permite escrever HTML em código JavaScript em React.",
+      "correct": false
+    },
+    {
+      "text": "Uma forma de criar loops em JavaScript",
+      "feedback": "Incorreto! JSX é uma extensão de JavaScript que permite escrever HTML em código JavaScript em React.",
+      "correct": false
+    },
+    {
+      "text": "Uma extensão de JavaScript que permite escrever HTML em código JavaScript",
+      "feedback": "Correto! JSX é uma extensão de JavaScript que permite escrever HTML em código JavaScript em React.",
+      "correct": true
+    },
+    {
+      "text": "Uma biblioteca para gerar gráficos em 3D",
+      "feedback": "Incorreto! JSX é uma extensão de JavaScript que permite escrever HTML em código JavaScript em React.",
+      "correct": false
+    },
+    {
+      "text": "Um sistema de gerenciamento de estado em React",
+      "feedback": "Incorreto! JSX é uma extensão de JavaScript que permite escrever HTML em código JavaScript em React.",
+      "correct": false
+    }
+  ]
+}

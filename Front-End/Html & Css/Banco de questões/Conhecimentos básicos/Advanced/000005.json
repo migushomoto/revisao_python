@@ -1,0 +1,41 @@
+{
+  "SKU": "000005",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "html",
+  "knowledgeArea": "Front-End",
+  "category": "Conhecimentos Básicos",
+  "subCategory": "",
+  "level": "Advanced",
+  "tagsOrConcepts": ["frontend", "html", "css"],
+  "text": [
+    "Qual das alternativas apresenta a propriedade CSS que é usada para definir a largura das colunas em um layout de grid"
+  ],
+  "alternatives": [
+    {
+      "text": "column-width",
+      "feedback": "Incorreto! column-width não é usada para definir a largura das colunas em um layout de grade.",
+      "correct": false
+    },
+    {
+      "text": "grid-columns",
+      "feedback": "Incorreto! grid-columns não é uma propriedade CSS válida.",
+      "correct": false
+    },
+    {
+      "text": "column-layout",
+      "feedback": "Incorreto! column-layout não é usada para definir a largura das colunas em uma grade CSS.",
+      "correct": false
+    },
+    {
+      "text": "grid-template-columns",
+      "feedback": "Correto! grid-template-columns é a propriedade correta para definir a largura das colunas em um layout de grade.",
+      "correct": true
+    },
+    {
+      "text": "grid-column-size",
+      "feedback": "Incorreto! grid-column-size não é uma propriedade CSS válida.",
+      "correct": false
+    }
+  ]
+}

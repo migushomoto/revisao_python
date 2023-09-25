@@ -1,0 +1,39 @@
+{
+  "SKU": "000001",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "javascript",
+  "knowledgeArea": "Front-End",
+  "category": "JavaScript",
+  "subCategory": "Conhecimentos Básicos",
+  "level": "Basic",
+  "tagsOrConcepts": ["frontend", "javascript"],
+  "text": ["Qual dos seguintes NÃO é um tipo de dado primitivo em JavaScript?"],
+  "alternatives": [
+    {
+      "text": "String",
+      "feedback": "Incorreto! String é um dos tipos de dados primitivos em JavaScript.",
+      "correct": false
+    },
+    {
+      "text": "Object",
+      "feedback": "Correto! Em JavaScript, os tipos de dados primitivos são String, Boolean, Number, Null e Undefined. Object não é um tipo de dado primitivo, é um tipo de dado composto.",
+      "correct": true
+    },
+    {
+      "text": "Boolean",
+      "feedback": "Incorreto! Boolean é um dos tipos de dados primitivos em JavaScript.",
+      "correct": false
+    },
+    {
+      "text": "Number",
+      "feedback": "Incorreto! Number é um dos tipos de dados primitivos em JavaScript.",
+      "correct": false
+    },
+    {
+      "text": "Null",
+      "feedback": "Incorreto! Null é um dos tipos de dados primitivos em JavaScript.",
+      "correct": false
+    }
+  ]
+}

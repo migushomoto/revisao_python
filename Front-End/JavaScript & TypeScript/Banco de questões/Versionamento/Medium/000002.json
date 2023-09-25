@@ -1,0 +1,39 @@
+{
+  "SKU": "000002",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "git",
+  "knowledgeArea": "Front-End",
+  "category": "Versionamento",
+  "subCategory": "Conhecimentos Básicos",
+  "level": "Medium",
+  "tagsOrConcepts": ["git", "versionamento"],
+  "text": ["Qual comando do Git é usado para criar uma nova branch?"],
+  "alternatives": [
+    {
+      "text": "git commit",
+      "feedback": "Incorreto! O comando \"git commit\" registra as mudanças feitas em um repositório Git, criando um ponto de salvamento (commit) com uma mensagem descritiva das alterações realizadas.",
+      "correct": false
+    },
+    {
+      "text": "git branch",
+      "feedback": "Correto! O comando \"git branch\" é usado para criar uma nova branch no Git, permitindo que você trabalhe em paralelo em diferentes recursos ou correções.",
+      "correct": true
+    },
+    {
+      "text": "git push",
+      "feedback": "Incorreto! O comando \"git push\" envia as alterações locais de um repositório Git para um repositório remoto, sincronizando-os e tornando as mudanças disponíveis para outros colaboradores.",
+      "correct": false
+    },
+    {
+      "text": "git checkout",
+      "feedback": "Incorreto! O comando \"git checkout\" é usado para alternar entre diferentes ramos (branches) ou para restaurar arquivos em um repositório Git.",
+      "correct": false
+    },
+    {
+      "text": "git merge",
+      "feedback": "Incorreto! O comando \"git merge\" é usado para combinar as alterações de um ramo (branch) em outro no Git, geralmente incorporando as mudanças de um ramo secundário em um ramo principal. Isso cria um novo commit que integra as alterações dos ramos envolvidos.",
+      "correct": false
+    }
+  ]
+}

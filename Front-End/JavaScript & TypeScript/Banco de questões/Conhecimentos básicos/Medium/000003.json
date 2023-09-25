@@ -1,0 +1,39 @@
+{
+  "SKU": "000003",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "javascript",
+  "knowledgeArea": "Front-End",
+  "category": "JavaScript",
+  "subCategory": "Conhecimentos Básicos",
+  "level": "Medium",
+  "tagsOrConcepts": ["frontend", "javascript"],
+  "text": ["Qual é a finalidade da função parseInt() em JavaScript?"],
+  "alternatives": [
+    {
+      "text": "Arredondar um número decimal para o inteiro mais próximo.",
+      "feedback": "Incorreto! A função parseInt() em JavaScript é usada para converter uma string em um número inteiro.",
+      "correct": false
+    },
+    {
+      "text": "Calcular a raiz quadrada de um número.",
+      "feedback": "Incorreto! A função parseInt() em JavaScript é usada para converter uma string em um número inteiro.",
+      "correct": false
+    },
+    {
+      "text": "Converter um número em uma string.",
+      "feedback": "Incorreto! A função parseInt() em JavaScript é usada para converter uma string em um número inteiro.",
+      "correct": false
+    },
+    {
+      "text": "Realizar uma operação de adição.",
+      "feedback": "Incorreto! A função parseInt() em JavaScript é usada para converter uma string em um número inteiro.",
+      "correct": false
+    },
+    {
+      "text": "Converter uma string em um número inteiro.",
+      "feedback": "Correto! A função parseInt() em JavaScript é usada para converter uma string em um número inteiro.",
+      "correct": true
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "SKU": "000001",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "html",
+  "knowledgeArea": "Front-End",
+  "category": "Conhecimentos Básicos",
+  "subCategory": "",
+  "level": "Basic",
+  "tagsOrConcepts": ["frontend", "html"],
+  "text": [
+    "O HTML (HyperText Markup Language ou Linguagem de Marcação de Hipertexto) é uma linguagem de",
+    "marcação e por isso não é considerada uma linguagem de programação.",
+    "Para adicionar os elementos no documento, utilizamos as tags, com as quais podemos construir e",
+    "dispor os elementos que desejamos.",
+    "Qual das alternativas abaixo representa a sintaxe correta para a criação de uma tag HTML?"
+  ],
+  "alternatives": [
+    {
+      "text": "[div][/div]",
+      "feedback": "Incorreto! Para definirmos uma tag HTML, adicionamos o nome do elemento entre '<' e '>'.",
+      "correct": false
+    },
+    {
+      "text": "<div></div>",
+      "feedback": "Correto! Para definirmos uma tag HTML, adicionamos o nome do elemento entre '<' e '>'.",
+      "correct": true
+    },
+    {
+      "text": "{div}{/div}",
+      "feedback": "Incorreto! Para definirmos uma tag HTML, adicionamos o nome do elemento entre '<' e '>'.",
+      "correct": false
+    },
+    {
+      "text": "(div)(/div)",
+      "feedback": "Incorreto! Para definirmos uma tag HTML, adicionamos o nome do elemento entre '<' e '>'.",
+      "correct": true
+    },
+    {
+      "text": "<%div%><%/div%>",
+      "feedback": "Incorreto! Para definirmos uma tag HTML, adicionamos o nome do elemento entre '<' e '>'.",
+      "correct": false
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "SKU": "000003",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "html",
+  "knowledgeArea": "Front-End",
+  "category": "Conhecimentos Básicos",
+  "subCategory": "",
+  "level": "Medium",
+  "tagsOrConcepts": ["frontend", "html"],
+  "text": [
+    "Os arquivos CSS são utilizados para aplicar regras de estilo e formatação aos elementos do HTML.",
+    "Qual das alternativas abaixo apresentam a maneira correta para definir uma regra CSS?"
+  ],
+  "alternatives": [
+    {
+      "text": "propriedade: { seletor: valor }",
+      "feedback": "Incorreto! Ao definirmos uma regra CSS, precisamos declarar o seletor ao qual pretendemos aplicá-lo, que pode ser o nome da tag, uma classe, id, dentre outros e, dentro do bloco delimitado pelas \"{}\", especificar um conjunto de propriedades e valores que serão aplicados.",
+      "correct": false
+    },
+    {
+      "text": "seletor { propriedade: valor }",
+      "feedback": "Correto! Ao definirmos uma regra CSS, precisamos declarar o seletor ao qual pretendemos aplicá-lo, que pode ser o nome da tag, uma classe, id, dentre outros e, dentro do bloco delimitado pelas \"{}\", especificar um conjunto de propriedades e valores que serão aplicados.",
+      "correct": true
+    },
+    {
+      "text": "nomeDaTag: { propriedade: valor }",
+      "feedback": "Incorreto! Ao definirmos uma regra CSS, precisamos declarar o seletor ao qual pretendemos aplicá-lo, que pode ser o nome da tag, uma classe, id, dentre outros e, dentro do bloco delimitado pelas \"{}\", especificar um conjunto de propriedades e valores que serão aplicados.",
+      "correct": false
+    },
+    {
+      "text": "seletor: { códigoJavaScript }",
+      "feedback": "Incorreto! Ao definirmos uma regra CSS, precisamos declarar o seletor ao qual pretendemos aplicá-lo, que pode ser o nome da tag, uma classe, id, dentre outros e, dentro do bloco delimitado pelas \"{}\", especificar um conjunto de propriedades e valores que serão aplicados.",
+      "correct": false
+    },
+    {
+      "text": "propriedade: { nomeDaTag: cor }",
+      "feedback": "Incorreto! Ao definirmos uma regra CSS, precisamos declarar o seletor ao qual pretendemos aplicá-lo, que pode ser o nome da tag, uma classe, id, dentre outros e, dentro do bloco delimitado pelas \"{}\", especificar um conjunto de propriedades e valores que serão aplicados.",
+      "correct": false
+    }
+  ]
+}

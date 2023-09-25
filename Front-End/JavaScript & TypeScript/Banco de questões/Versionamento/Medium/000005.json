@@ -1,0 +1,41 @@
+{
+  "SKU": "000005",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "git",
+  "knowledgeArea": "Front-End",
+  "category": "Versionamento",
+  "subCategory": "Conhecimentos Básicos",
+  "level": "Medium",
+  "tagsOrConcepts": ["git", "versionamento"],
+  "text": [
+    "Qual comando do Git é usado para enviar suas alterações locais para o repositório remoto?"
+  ],
+  "alternatives": [
+    {
+      "text": "git fetch",
+      "feedback": "Incorreto! O comando \"git fetch\" baixa as últimas alterações do repositório remoto para o repositório local, mas não realiza a fusão automática com a branch local, permitindo que você analise as mudanças antes de mesclá-las.",
+      "correct": false
+    },
+    {
+      "text": "git commit",
+      "feedback": "Incorreto! O comando \"git commit\" registra as mudanças feitas em um repositório Git, criando um ponto de salvamento (commit) com uma mensagem descritiva das alterações realizadas.",
+      "correct": false
+    },
+    {
+      "text": "git merge",
+      "feedback": "Incorreto! O comando \"git merge\" é usado para combinar as alterações de um ramo (branch) em outro no Git, geralmente incorporando as mudanças de um ramo secundário em um ramo principal. Isso cria um novo commit que integra as alterações dos ramos envolvidos.",
+      "correct": false
+    },
+    {
+      "text": "git push",
+      "feedback": "Correto! O comando \"git push\" é usado para enviar suas alterações locais para o repositório remoto, atualizando assim a versão online do seu código.",
+      "correct": true
+    },
+    {
+      "text": "git pull",
+      "feedback": "Incorreto! O comando \"git pull\" atualiza o repositório local com as últimas alterações do repositório remoto, sincronizando-os automaticamente.",
+      "correct": false
+    }
+  ]
+}

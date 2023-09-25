@@ -1,0 +1,39 @@
+{
+  "SKU": "000004",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "javascript",
+  "knowledgeArea": "Front-End",
+  "category": "JavaScript",
+  "subCategory": "Conhecimentos Básicos",
+  "level": "Basic",
+  "tagsOrConcepts": ["frontend", "javascript"],
+  "text": ["Qual é a diferença entre \"null\" e \"undefined\" em JavaScript?"],
+  "alternatives": [
+    {
+      "text": "\"null\" é usado para declarar uma variável não inicializada, enquanto \"undefined\" é usado para representar a ausência de valor.",
+      "feedback": "Correto! \"null\" é usado quando você deseja especificamente indicar que uma variável não possui valor, enquanto \"undefined\" é o valor padrão para variáveis não inicializadas.",
+      "correct": true
+    },
+    {
+      "text": "\"null\" é usado para representar um valor vazio, enquanto \"undefined\" é usado para declarar uma variável não inicializada.",
+      "feedback": "Incorreto! \"null\" é usado quando você deseja especificamente indicar que uma variável não possui valor, enquanto \"undefined\" é o valor padrão para variáveis não inicializadas.",
+      "correct": false
+    },
+    {
+      "text": "\"null\" e \"undefined\" são equivalentes e podem ser usados indistintamente.",
+      "feedback": "Incorreto! \"null\" é usado quando você deseja especificamente indicar que uma variável não possui valor, enquanto \"undefined\" é o valor padrão para variáveis não inicializadas.",
+      "correct": false
+    },
+    {
+      "text": "\"null\" e \"undefined\" são usados apenas em programação assíncrona.",
+      "feedback": "Incorreto! \"null\" é usado quando você deseja especificamente indicar que uma variável não possui valor, enquanto \"undefined\" é o valor padrão para variáveis não inicializadas.",
+      "correct": false
+    },
+    {
+      "text": "\"null\" é uma palavra-chave reservada em JavaScript, enquanto \"undefined\" é uma variável global.",
+      "feedback": "Incorreto! \"null\" é usado quando você deseja especificamente indicar que uma variável não possui valor, enquanto \"undefined\" é o valor padrão para variáveis não inicializadas.",
+      "correct": false
+    }
+  ]
+}

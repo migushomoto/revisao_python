@@ -1,0 +1,39 @@
+{
+  "SKU": "000005",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "javascript",
+  "knowledgeArea": "Front-End",
+  "category": "JavaScript",
+  "subCategory": "Conhecimentos Básicos",
+  "level": "Medium",
+  "tagsOrConcepts": ["frontend", "javascript"],
+  "text": ["O que é \"hoisting\" em JavaScript?"],
+  "alternatives": [
+    {
+      "text": "Uma técnica para ocultar variáveis de escopo global.",
+      "feedback": "Incorreto! Hoisting é o processo pelo qual as declarações de variáveis são movidas para o topo de seu escopo durante a fase de compilação, tornando possível usar uma variável antes de declará-la.",
+      "correct": false
+    },
+    {
+      "text": "Um método para declarar funções dentro de objetos.",
+      "feedback": "Incorreto! Hoisting é o processo pelo qual as declarações de variáveis são movidas para o topo de seu escopo durante a fase de compilação, tornando possível usar uma variável antes de declará-la.",
+      "correct": false
+    },
+    {
+      "text": "O processo de mover declarações de variáveis para o topo de seu escopo antes da execução do código.",
+      "feedback": "Correto! Hoisting é o processo pelo qual as declarações de variáveis são movidas para o topo de seu escopo durante a fase de compilação, tornando possível usar uma variável antes de declará-la.",
+      "correct": true
+    },
+    {
+      "text": "Uma técnica para proteger dados sensíveis.",
+      "feedback": "Incorreto! Hoisting é o processo pelo qual as declarações de variáveis são movidas para o topo de seu escopo durante a fase de compilação, tornando possível usar uma variável antes de declará-la.",
+      "correct": false
+    },
+    {
+      "text": "Uma função incorporada para manipular erros de programação.",
+      "feedback": "Incorreto! Hoisting é o processo pelo qual as declarações de variáveis são movidas para o topo de seu escopo durante a fase de compilação, tornando possível usar uma variável antes de declará-la.",
+      "correct": false
+    }
+  ]
+}

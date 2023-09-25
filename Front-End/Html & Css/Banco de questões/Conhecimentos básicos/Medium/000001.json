@@ -1,0 +1,42 @@
+{
+  "SKU": "000001",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "html",
+  "knowledgeArea": "Front-End",
+  "category": "Conhecimentos Básicos",
+  "subCategory": "",
+  "level": "Medium",
+  "tagsOrConcepts": ["frontend", "html"],
+  "text": [
+    "O HTML5, lançado por volta de 2010, acrescentou uma série de novas tags, chamadas tags semânticas.",
+    "Qual das alternativas abaixo traz somente tags válidas do HTML5?"
+  ],
+  "alternatives": [
+    {
+      "text": "<aside>, <header>, <space>, <article> e <footer>.",
+      "feedback": "Incorreto! <space> não é uma tag válida do HTML5.",
+      "correct": false
+    },
+    {
+      "text": "<datalist>, <details>, <section>, <animation> e <canvas>.",
+      "feedback": "Incorreto! <animation> não é uma tag válida do HTML5.",
+      "correct": false
+    },
+    {
+      "text": "<spinner>, <progress>, <ul>, <ol> e <details>.",
+      "feedback": "Incorreto! <spinner> não é uma tag válida do HTML5.",
+      "correct": false
+    },
+    {
+      "text": "<section>, <body>, <audio>, <embed> e <nav>.",
+      "feedback": "Correto! Todas as tags acima são tags válidas do HTML5.",
+      "correct": true
+    },
+    {
+      "text": "<p>, <div>, <aside>, <accordion> e <video>.",
+      "feedback": "Incorreto! <accordion> não é uma tag válida do HTML5.",
+      "correct": false
+    }
+  ]
+}

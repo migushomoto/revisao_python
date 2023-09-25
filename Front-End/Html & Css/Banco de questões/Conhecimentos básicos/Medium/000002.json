@@ -1,0 +1,42 @@
+{
+  "SKU": "000005",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "html",
+  "knowledgeArea": "Front-End",
+  "category": "Conhecimentos Básicos",
+  "subCategory": "",
+  "level": "Medium",
+  "tagsOrConcepts": ["frontend", "html"],
+  "text": [
+    "O HTML, além de permitir a adição de textos, permite também acrescentar elementos como imagens e vídeos.",
+    "Qual das alternativas abaixo apresenta tags para adição desses elementos em um documento HTML?"
+  ],
+  "alternatives": [
+    {
+      "text": "<image>, <video>, <music>, <iframe> e <embed>.",
+      "feedback": "Incorreto! <image> e <music> não são tags HTML válidas.",
+      "correct": false
+    },
+    {
+      "text": "<img>, <video>, <audio>, <iframe> e <embed>.",
+      "feedback": "Correto! A tag <img> é usada para adicionar imagens ao documento. As tags <video> e <audio> adicionam vídeo e áudio ao documento, respectivamente. <iframe> é utilizada para incorporar outra página web e <embed> permite incorporar PDFs e SVGs.",
+      "correct": true
+    },
+    {
+      "text": "<image>, <mpeg4>, <audio>, <iframe> e <embed>.",
+      "feedback": "Incorreto! <image> e <mpeg4> não são tags HTML válidas.",
+      "correct": false
+    },
+    {
+      "text": "<img>, <video>, <sound>, <frame> e <embed>.",
+      "feedback": "Incorreto! <sound> e <frame> não são tags HTML válidas.",
+      "correct": false
+    },
+    {
+      "text": "<img>, <media>, <audio>, <iframe> e <embed>.",
+      "feedback": "Incorreto! <media> não é uma tag HTML válida.",
+      "correct": false
+    }
+  ]
+}

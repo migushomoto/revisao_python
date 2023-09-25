@@ -1,0 +1,42 @@
+{
+  "SKU": "000005",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "html",
+  "knowledgeArea": "Front-End",
+  "category": "Conhecimentos Básicos",
+  "subCategory": "",
+  "level": "Basic",
+  "tagsOrConcepts": ["frontend", "html", "css"],
+  "text": [
+    "Para configurar cores em elementos HTML, o CSS permite utilizar alguns modelos distintos de cores.",
+    "Qual das alternativas abaixo apresenta tais modelos?"
+  ],
+  "alternatives": [
+    {
+      "text": "RBG, CMYK e hexadecimal",
+      "feedback": "Incorreto! CMYK não é um modelo válido para a definição de cores em CSS.",
+      "correct": false
+    },
+    {
+      "text": "RGB, HSL e nomeDaCor",
+      "feedback": "Correto! RGB permite a definição através do \"# + 'hexadecimal'\" ou pelas notações funcionais \"rgb()\" e \"rgba()\". O HSL, assim como o RGB, permite utilizar as notações funcionais \"hsl()\" e \"hsla()\". Além dessas duas formas, podemos, ainda, definir cores atribuindo o nome da cor. Ex: (\"rgb(255,0,51)\", \"hsl(30, 100%,50%)\" e \"orange\")",
+      "correct": true
+    },
+    {
+      "text": "RGB, RGBA e nomeDaCor",
+      "feedback": "Incorreto! RGBA é uma das formas de aplicar cores, usando o RGB, e não uma outra forma de fazê-lo.",
+      "correct": false
+    },
+    {
+      "text": "RGB, HSL e CMYK",
+      "feedback": "Incorreto! CMYK não é um modelo válido para a definição de cores em CSS.",
+      "correct": false
+    },
+    {
+      "text": "RGBA, CMYK e HSLA",
+      "feedback": "Incorreto! RGBA e HSLA são formas de aplicar cores, usando o RGB e HSL, respectivamente, e não uma outra forma de fazê-lo. CMYK não é um modelo válido para a definição de cores em CSS.",
+      "correct": false
+    }
+  ]
+}

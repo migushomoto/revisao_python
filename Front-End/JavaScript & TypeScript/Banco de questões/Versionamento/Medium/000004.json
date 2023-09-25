@@ -1,0 +1,39 @@
+{
+  "SKU": "000004",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "git",
+  "knowledgeArea": "Front-End",
+  "category": "Versionamento",
+  "subCategory": "Conhecimentos Básicos",
+  "level": "Medium",
+  "tagsOrConcepts": ["git", "versionamento"],
+  "text": ["O que é um conflito de merge no Git?"],
+  "alternatives": [
+    {
+      "text": "Um conflito político entre desenvolvedores.",
+      "feedback": "Incorreto! Um conflito de merge ocorre quando o Git não consegue mesclar automaticamente duas branches devido a alterações conflitantes no mesmo trecho de código. Isso requer intervenção manual para resolver o conflito.",
+      "correct": false
+    },
+    {
+      "text": "Um erro crítico no Git que impede a mesclagem.",
+      "feedback": "Incorreto! Um conflito de merge ocorre quando o Git não consegue mesclar automaticamente duas branches devido a alterações conflitantes no mesmo trecho de código. Isso requer intervenção manual para resolver o conflito.",
+      "correct": false
+    },
+    {
+      "text": "Uma situação em que o Git não consegue determinar automaticamente como combinar duas branches",
+      "feedback": "Correto! Um conflito de merge ocorre quando o Git não consegue mesclar automaticamente duas branches devido a alterações conflitantes no mesmo trecho de código. Isso requer intervenção manual para resolver o conflito.",
+      "correct": true
+    },
+    {
+      "text": "Uma situação em que o Git mescla automaticamente duas branches sem problemas.",
+      "feedback": "Incorreto! Um conflito de merge ocorre quando o Git não consegue mesclar automaticamente duas branches devido a alterações conflitantes no mesmo trecho de código. Isso requer intervenção manual para resolver o conflito.",
+      "correct": false
+    },
+    {
+      "text": "Um conflito que ocorre apenas durante o \"git rebase\".",
+      "feedback": "Incorreto! Um conflito de merge ocorre quando o Git não consegue mesclar automaticamente duas branches devido a alterações conflitantes no mesmo trecho de código. Isso requer intervenção manual para resolver o conflito.",
+      "correct": false
+    }
+  ]
+}
