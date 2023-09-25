@@ -1,0 +1,15 @@
+{
+    "SKU": "",
+    "intepreter": 1,
+    "type": "EVEREST",
+    "language": "python",
+    "tagsOrConcepts":"",
+    "name":"Nomes de Paises em Minusculas",
+    "handler":"paises_minusculas",
+    "templates":{
+        "python": "def paises_minusculas(listaA):\n\tpass"
+    },
+    "public_cases": [{"name": "teste publico 1","input":["brasil", "BRAsil", "Brasil"], "expected": ["brasil", "brasil", "brasil"]},
+{"name":"teste publico 2","input":["repUblica theca", "Russia", "esTADOS Unidos"],"expected": ["republica theca", "russia", "estados unidos"]}],
+    "private_cases": [{"name": "teste privado 1","input":["chile", "argentina"],"expected":["chile", "argentina"]}]
+}

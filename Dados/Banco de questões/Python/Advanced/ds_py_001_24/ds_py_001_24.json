@@ -1,0 +1,15 @@
+{
+    "SKU": "",
+    "intepreter": 1,
+    "type": "EVEREST",
+    "language": "python",
+    "tagsOrConcepts":"",
+    "name":"Detecta palidromo",
+    "handler":"detecta_palindromo",
+    "templates":{
+        "python": "def detecta_palindromo(palavra):\n\tpass"
+    },
+    "public_cases": [{"name": "teste publico 1","input":"ama", "expected":1},
+                    {"name":"teste publico 2","input":"arara","expected":1}],
+    "private_cases": [{"name": "teste privado 1","input":"A lula pula","expected":["1.0","34.0","36.8"]}]
+}

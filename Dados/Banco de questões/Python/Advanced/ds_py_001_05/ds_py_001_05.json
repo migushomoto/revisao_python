@@ -1,0 +1,15 @@
+{
+    "SKU": "",
+    "intepreter": 1,
+    "type": "EVEREST",
+    "language": "python",
+    "tagsOrConcepts":"",
+    "name":"Contar Elementos da lista",
+    "handler":"conta_elemento_lista",
+    "templates":{
+        "python": "def conta_elemento_lista(lista_A):\n\tpass"
+    },
+    "public_cases": [{"name": "teste publico 1","input": ["Cecilia"], "expected": "Cecilia"},
+{"name":"teste publico 2","input":["Diego", "Ale", "Diego"],"expected":["Diego"]}],
+    "private_cases": [{"name": "teste privado 1","input":["Carlos", "Lucio", "Lucas", "Lucas", "Lucio"],"expected":["Lucas"]}]
+}

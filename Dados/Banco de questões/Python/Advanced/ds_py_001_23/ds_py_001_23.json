@@ -1,0 +1,15 @@
+{
+    "SKU": "",
+    "intepreter": 1,
+    "type": "EVEREST",
+    "language": "python",
+    "tagsOrConcepts":"",
+    "name":"Criptografar palavra com a cifra cesar",
+    "handler":"cifra_cesar",
+    "templates":{
+        "python": "def cifra_cesar(palavra_original):\n\tpass"
+    },
+    "public_cases": [{"name": "teste publico 1","input":"Isto é secreto", "expected":"LVWR H VHFUHWR"},
+                    {"name":"teste publico 2","input":"Vamos aprender Criptografia","expected":"ZEQSW ETVIRHIV GVMTXSKVEJME"}],
+    "private_cases": [{"name": "teste privado 1","input":"a ligeira raposa marrom saltou sobre o cachorro cansado","expected":"D OLJHLUD UDSRVD PDUURP VDOWRX VREUH R FDFKRUUR FDQVDGR"}]
+}

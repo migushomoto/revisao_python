@@ -1,0 +1,15 @@
+{
+    "SKU": "",
+    "intepreter": 1,
+    "type": "EVEREST",
+    "language": "python",
+    "tagsOrConcepts":"",
+    "name":"Verificar array vazio",
+    "handler":"verifica_array_vazio",
+    "templates":{
+        "python": "def verifica_array_vazio(arrayA):\n\tpass"
+    },
+    "public_cases": [{"name": "teste publico 1","input": [], "expected": 1},
+{"name":"teste publico 2","input": [8, 10, 6, 10],"expected": 0}],
+    "private_cases": [{"name": "teste privado 1","input": [10, 10, 9, 10, 10],"expected":0}]
+}

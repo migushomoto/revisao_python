@@ -1,0 +1,15 @@
+{
+    "SKU": "",
+    "intepreter": 1,
+    "type": "EVEREST",
+    "language": "python",
+    "tagsOrConcepts":"",
+    "name":"Verifica Senha",
+    "handler":"verifica_senha",
+    "templates":{
+        "python": "def verifica_senha(senha):\n\tpass"
+    },
+    "public_cases": [{"name": "teste publico 1","input": "python123", "expected":[1, 0, 0, 1]},
+{"name":"teste publico 2","input":"Ad@2023","expected":[0, 1,1,1]}],
+    "private_cases": [{"name": "teste privado 1","input":"N@d@mwdow1739","expected":[1,1,1,1]}]
+}

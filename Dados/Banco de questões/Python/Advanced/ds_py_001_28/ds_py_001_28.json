@@ -1,0 +1,14 @@
+{
+    "SKU": "",
+    "intepreter": 1,
+    "type": "EVEREST",
+    "language": "python",
+    "tagsOrConcepts":"",
+    "name":"",
+    "handler":"",
+    "templates":{
+        "python": "def substituiString(array_entrada):\n\tpass"
+    },
+    "public_cases": [{"name": "teste publico 1","input":["arvore","original","arco"], "expected":["arvore","arco"]}],
+    "private_cases": [{"name": "teste privado 1","input":["arma","arte","aro","areia","expectativa"],"expected":["arma","arte","aro","areia"]}]
+}

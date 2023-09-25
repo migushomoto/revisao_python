@@ -1,0 +1,15 @@
+{
+    "SKU": "",
+    "intepreter": 1,
+    "type": "EVEREST",
+    "language": "python",
+    "tagsOrConcepts":"",
+    "name":"Inverte Lista",
+    "handler":"inverte_lista",
+    "templates":{
+        "python": "def inverte_lista(lista_A):\n\tpass"
+    },
+    "public_cases": [{"name": "teste publico 1","input": [5, 8, 10, 12, 15], "expected":[15,12,10,8,5]},
+{"name":"teste publico 2","input":[3,3,3,3],"expected":[3,3,3,3]}],
+    "private_cases": [{"name": "teste privado 1","input":[123, 0, 44],"expected":[44,0,123]}]
+}

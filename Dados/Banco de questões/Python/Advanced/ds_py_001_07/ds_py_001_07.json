@@ -1,0 +1,16 @@
+{
+    "SKU": "",
+    "intepreter": 1,
+    "type": "EVEREST",
+    "language": "python",
+    "tagsOrConcepts":"",
+    "name":"Soma Transacoes",
+    "handler":"soma_transacoes",
+    "templates":{
+        "python": "def soma_transacoes(lista_A):\n\tpass"
+    },
+    "public_cases": [{"name": "teste publico 1","input": [500, 299, 100, 150, 1030, 10]
+    , "expected": 2089},
+{"name":"teste publico 2","input":[1, 27],"expected": 28}],
+    "private_cases": [{"name": "teste privado 1","input":[9, 4, 13, 0],"expected":26}]
+}

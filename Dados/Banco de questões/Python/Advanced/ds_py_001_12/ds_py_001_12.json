@@ -1,0 +1,15 @@
+{
+    "SKU": "",
+    "intepreter": 1,
+    "type": "EVEREST",
+    "language": "python",
+    "tagsOrConcepts":"",
+    "name":"Verifica Numeros e Caracteres Especiais da Senha",
+    "handler":"verifica_senha",
+    "templates":{
+        "python": "def verifica_senha(lista_A):\n\tpass"
+    },
+    "public_cases": [{"name": "teste publico 1","input":"s@nh@789", "expected": [2, 3]},
+{"name":"teste publico 2","input":"j@son","expected": [1, 0]}],
+    "private_cases": [{"name": "teste privado 1","input":"x!eg0","expected":[1,1]}]
+}

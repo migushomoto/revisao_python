@@ -1,0 +1,15 @@
+{
+    "SKU": "",
+    "intepreter": 1,
+    "type": "EVEREST",
+    "language": "python",
+    "tagsOrConcepts":"",
+    "name":"Obter os elementos que sao comuns em listas",
+    "handler":"elementos_interseccao",
+    "templates":{
+        "python": "def elementos_interseccao(listaA):\n\tpass"
+    },
+    "public_cases": [{"name": "teste publico 1","input": [[1, 2, 3, 4, 5], [3, 4, 5, 6, 7]], "expected": [3, 4, 5]},
+{"name":"teste publico 2","input": [[100, 2, 53, 4, 55], [3, 34, 5, 6, 7]],"expected": []}],
+    "private_cases": [{"name": "teste privado 1","input": [["elemento", "elemento"]],"expected":["elemento"]}]
+}

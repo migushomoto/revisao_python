@@ -1,0 +1,15 @@
+{
+    "SKU": "",
+    "intepreter": 1,
+    "type": "EVEREST",
+    "language": "python",
+    "tagsOrConcepts":"",
+    "name":"Filtrar Digitos",
+    "handler":"filtrar_digitos",
+    "templates":{
+        "python": "def filtrar_digitos(lista_A):\n\tpass"
+    },
+    "public_cases": [{"name": "teste publico 1","input": ["BBBBB", "ABE", "AA", "ZKEU", "XYW", "THUWSL", "RKF"], "expected": ["ABE", "XYW", "XYW", "RKF"]},
+{"name":"teste publico 2","input":["TESTE", "AAC", "PIL", "WLKI", "WAKAWAKA"],"expected": ["AAC", "PIL"]}],
+    "private_cases": [{"name": "teste privado 1","input":["KKK", "LET", "III"],"expected":["KKK", "LET", "III"]}]
+}

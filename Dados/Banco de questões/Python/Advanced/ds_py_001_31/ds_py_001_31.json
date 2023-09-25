@@ -1,0 +1,14 @@
+{
+    "SKU": "",
+    "intepreter": 1,
+    "type": "EVEREST",
+    "language": "python",
+    "tagsOrConcepts":"",
+    "name":"Somar Valores dos Indices Pares",
+    "handler":"somaIndicesPares",
+    "templates":{
+        "python": "def somaIndicesPares(array_entrada):\n\tpass"
+    },
+    "public_cases": [{"name": "teste publico 1","input":[10,30,50], "expected":60}],
+    "private_cases": [{"name": "teste privado 1","input":[20,60,80,90,100],"expected":200}]
+}

@@ -1,0 +1,15 @@
+{
+    "SKU": "",
+    "intepreter": 1,
+    "type": "EVEREST",
+    "language": "python",
+    "tagsOrConcepts":"",
+    "name":"Contagem de Caracteres Repetidos",
+    "handler":"contagem_caracteres_repetidos",
+    "templates":{
+        "python": "def contagem_caracteres_repetidos(palavra):\n\tpass"
+    },
+    "public_cases": [{"name": "teste publico 1","input":"aabelha", "expected": 1},
+{"name":"teste publico 2","input":"chacha","expected": 3}],
+    "private_cases": [{"name": "teste privado 1","input":"xiego","expected":0}]
+}

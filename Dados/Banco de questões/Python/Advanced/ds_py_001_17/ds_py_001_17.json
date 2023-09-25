@@ -1,0 +1,15 @@
+{
+    "SKU": "",
+    "intepreter": 1,
+    "type": "EVEREST",
+    "language": "python",
+    "tagsOrConcepts":"",
+    "name":"Calcula Desvio Padrão das Notas",
+    "handler":"calcula_desvio_padrao_notas",
+    "templates":{
+        "python": "def calcula_desvio_padrao_notas(listaA):\n\tpass"
+    },
+    "public_cases": [{"name": "teste publico 1","input": [8, 10, 6, 2], "expected": 2.96},
+{"name":"teste publico 2","input": [8, 10, 6, 10],"expected": 1.66}],
+    "private_cases": [{"name": "teste privado 1","input": [10, 10, 9, 10, 10],"expected":0.4}]
+}

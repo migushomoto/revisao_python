@@ -1,0 +1,15 @@
+{
+    "SKU": "",
+    "intepreter": 1,
+    "type": "EVEREST",
+    "language": "python",
+    "tagsOrConcepts":"",
+    "name":"Verifica Digitos",
+    "handler":"verifica_digitos",
+    "templates":{
+        "python": "def verifica_digitos(palavra):\n\tpass"
+    },
+    "public_cases": [{"name": "teste publico 1","input":"preprocessamento", "expected": "processamento"},
+{"name":"teste publico 2","input":"cafezal","expected": "cafe"}],
+    "private_cases": [{"name": "teste privado 1","input":"nao_tem_sufixo","expected":"nao_tem_sufixo"}]
+}

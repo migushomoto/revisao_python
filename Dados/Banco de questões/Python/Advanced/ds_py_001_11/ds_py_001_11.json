@@ -1,0 +1,15 @@
+{
+    "SKU": "",
+    "intepreter": 1,
+    "type": "EVEREST",
+    "language": "python",
+    "tagsOrConcepts":"",
+    "name":"Capilar Nomes",
+    "handler":"converte_nome_cidades",
+    "templates":{
+        "python": "def converte_nome_cidades(lista_A):\n\tpass"
+    },
+    "public_cases": [{"name": "teste publico 1","input": ["joao pessoa", "recife", "sao paulo"], "expected": ["Joao Pessoa", "Recife", "Sao Paulo"]},
+{"name":"teste publico 2","input":["porto alegre", "rio de janeiro", "minas gerais"],"expected": ["Porto Alegre", "Rio De Janeiro", "Minas Gerais"]}],
+    "private_cases": [{"name": "teste privado 1","input":["natal", "curitiba", "sao paulo"],"expected":["Natal", "Curitiba", "Sao Paulo"]}]
+}

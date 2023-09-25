@@ -1,0 +1,15 @@
+{
+    "SKU": "",
+    "intepreter": 1,
+    "type": "EVEREST",
+    "language": "python",
+    "tagsOrConcepts":"",
+    "name":"Lista Positivos",
+    "handler":"lista_positivos",
+    "templates":{
+        "python": "def lista_positivos(lista_A):\n\tpass"
+    },
+    "public_cases": [{"name": "teste publico 1","input": [3, 5, -7, 8, -2, 0, 12], "expected": [3,5,8,0,12]},
+{"name":"teste publico 2","input":[890, -299, 5],"expected": [890, 5]}],
+    "private_cases": [{"name": "teste privado 1","input":[-1, -5, -10],"expected":[]}]
+}

@@ -1,0 +1,15 @@
+{
+    "SKU": "",
+    "intepreter": 1,
+    "type": "EVEREST",
+    "language": "python",
+    "tagsOrConcepts":"",
+    "name":"Substitui palavras ofensivas",
+    "handler":"substitui_palavras_ofensivas",
+    "templates":{
+        "python": "def substitui_palavras_ofensivas(texto):\n\tpass"
+    },
+    "public_cases": [{"name": "teste publico 1","input":"isso é um texto de filme X que possui uma palavra ofensiva1", "expected":"isso é um texto de filme X que possui uma palavra *********"},
+                    {"name":"teste publico 2","input":"mas que musica ofensiva2! Nossa fiquei perplexo, muito texto_ofensivo5!!","expected":"mas que musica *********! Nossa fiquei perplexo, muito ***************!!"}],
+    "private_cases": [{"name": "teste privado 1","input":"estou com uma dor ofensiva1 ofensiva4","expected":"estou com uma dor ********* *********"}]
+}

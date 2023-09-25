@@ -1,0 +1,15 @@
+{
+    "SKU": "",
+    "intepreter": 1,
+    "type": "EVEREST",
+    "language": "python",
+    "tagsOrConcepts":"",
+    "name":"Remover Espaco das Palavras",
+    "handler":"remover_espaco_palavras",
+    "templates":{
+        "python": "def remover_espaco_palavras(palavra):\n\tpass"
+    },
+    "public_cases": [{"name": "teste publico 1","input":" flamengo", "expected": "flamengo"},
+{"name":"teste publico 2","input":"esse eh um  exercicio da ada ","expected": "esse eh um exercicio da ada"}],
+    "private_cases": [{"name": "teste privado 1","input":" rosa eh a cor  favorita da yanne   ","expected":"rosa eh a cor favorita da yanne"}]
+}

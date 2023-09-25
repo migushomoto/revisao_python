@@ -1,0 +1,14 @@
+{
+    "SKU": "",
+    "intepreter": 1,
+    "type": "EVEREST",
+    "language": "python",
+    "tagsOrConcepts":"",
+    "name":"Remove Acentos",
+    "handler":"removeAcentos",
+    "templates":{
+        "python": "def removeAcentos(array_entrada):\n\tpass"
+    },
+    "public_cases": [{"name": "teste publico 1","input":["árvore","casa","céu"], "expected":["arvore","casa","ceu"]}],
+    "private_cases": [{"name": "teste privado 1","input":["bíceps","ódio","útil","véu"],"expected":["biceps","odio","util","veu"]}]
+}

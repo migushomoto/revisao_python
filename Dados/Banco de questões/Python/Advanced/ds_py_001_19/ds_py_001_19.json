@@ -1,0 +1,15 @@
+{
+    "SKU": "",
+    "intepreter": 1,
+    "type": "EVEREST",
+    "language": "python",
+    "tagsOrConcepts":"",
+    "name":"Filtrar ano em lista",
+    "handler":"filtra_ano",
+    "templates":{
+        "python": "def filtra_ano(listaA):\n\tpass"
+    },
+    "public_cases": [{"name": "teste publico 1","input": [1993, 1996, 1987, 2003, 1972, 2014], "expected": [1, 2]},
+{"name":"teste publico 2","input": [1990, 1990, 1999, 2000, 2023],"expected": [2]}],
+    "private_cases": [{"name": "teste privado 1","input": [1990, 1990, 1989, 2000, 2023],"expected":[]}]
+}

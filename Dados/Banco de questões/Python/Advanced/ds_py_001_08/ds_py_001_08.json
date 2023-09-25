@@ -1,0 +1,16 @@
+{
+    "SKU": "",
+    "intepreter": 1,
+    "type": "EVEREST",
+    "language": "python",
+    "tagsOrConcepts":"",
+    "name":"Extrair Estatisticas de Transacoes",
+    "handler":"estatisticas_transacoes",
+    "templates":{
+        "python": "def estatisticas_transacoes(lista_A):\n\tpass"
+    },
+    "public_cases": [{"name": "teste publico 1","input": [500, 299, 100, 150, 1030, 10, 444, 45, 150, 1000, 588, 999]
+    , "expected": ["junho", "outubro", 442.92]},
+{"name":"teste publico 2","input":[890, 299, 5, 130, 30, 43, 444, 45, 150, 23, 588, 999],"expected": ["marco", "dezembro", 303.83]}],
+    "private_cases": [{"name": "teste privado 1","input":[90, 99, 55, 11, 67, 43, 444, 45, 150, 23, 588, 99],"expected":["abril", "novembro", 142.83]}]
+}

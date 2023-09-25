@@ -1,0 +1,15 @@
+{
+    "SKU": "",
+    "intepreter": 1,
+    "type": "EVEREST",
+    "language": "python",
+    "tagsOrConcepts":"",
+    "name":"Remover Duplicatas",
+    "handler":"remove_duplicata",
+    "templates":{
+        "python": "def remove_duplicata(lista_A):\n\tpass"
+    },
+    "public_cases": [{"name": "teste publico 1","input": ["Cecilia", "Cecilia", "Diego"], "expected": ["Cecilia", "Diego"]},
+{"name":"teste publico 2","input":[1, 27, 80, 1, 3],"expected":[1, 27, 80, 3]}],
+    "private_cases": [{"name": "teste privado 1","input":["Cecilia", "Cecilia ", "Cec ilia ", "Diego"],"expected":["Cecilia", "Cecilia ", "Cec ilia ", "Diego"]}]
+}

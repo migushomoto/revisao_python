@@ -1,0 +1,15 @@
+{
+    "SKU": "",
+    "intepreter": 1,
+    "type": "EVEREST",
+    "language": "python",
+    "tagsOrConcepts":"",
+    "name":"Quebra Linha",
+    "handler":"quebra_linha",
+    "templates":{
+        "python": "def quebra_linha(texto):\n\tpass"
+    },
+    "public_cases": [{"name": "teste publico 1","input":"vamos aprender data science com a Ada para reforçar nossos conhecimentos em python e análise de dados.", "expected":"vamos aprender data science com \\n a Ada para reforçar \\n nossos conhecimentos em python e \\n análise de dados"},
+                    {"name":"teste publico 2","input":"quebra de linha","expected":"quebra de linha"}],
+    "private_cases": [{"name": "teste privado 1","input":"podemos usar a funcao len do python para descobrir tamanho de lista","expected":"podemos usar a funcao len \\n do python para descobrir tamanho \\n de lista"}]
+}
