@@ -1,0 +1,41 @@
+{
+  "SKU": "000002",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "react",
+  "knowledgeArea": "Front-End",
+  "category": "React",
+  "subCategory": "Conhecimentos Básicos",
+  "level": "Medium",
+  "tagsOrConcepts": ["frontend", "react"],
+  "text": [
+    "Qual das alternativas abaixo melhor define um componente em React?"
+  ],
+  "alternatives": [
+    {
+      "text": "Um arquivo de configuração para o projeto React",
+      "feedback": "Incorreto! Um componente em React é uma função JavaScript que cria elementos HTML.",
+      "correct": false
+    },
+    {
+      "text": "Um servidor de banco de dados",
+      "feedback": "Incorreto! Um componente em React é uma função JavaScript que cria elementos HTML.",
+      "correct": false
+    },
+    {
+      "text": "Um estilo de formatação CSS",
+      "feedback": "Incorreto! Um componente em React é uma função JavaScript que cria elementos HTML.",
+      "correct": false
+    },
+    {
+      "text": "Uma função JavaScript que cria elementos HTML",
+      "feedback": "Correto! Um componente em React é uma função JavaScript que cria elementos HTML.",
+      "correct": true
+    },
+    {
+      "text": "Uma classe que define um modelo de dados",
+      "feedback": "Incorreto! Um componente em React é uma função JavaScript que cria elementos HTML.",
+      "correct": false
+    }
+  ]
+}

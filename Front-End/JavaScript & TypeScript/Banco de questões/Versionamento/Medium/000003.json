@@ -1,0 +1,39 @@
+{
+  "SKU": "000003",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "git",
+  "knowledgeArea": "Front-End",
+  "category": "Versionamento",
+  "subCategory": "Conhecimentos Básicos",
+  "level": "Medium",
+  "tagsOrConcepts": ["git", "versionamento"],
+  "text": ["Qual é a diferença entre \"git merge\" e \"git rebase\"?"],
+  "alternatives": [
+    {
+      "text": "Nenhuma, eles fazem a mesma coisa.",
+      "feedback": "Incorreto! O comando \"git merge\" cria um novo commit de mesclagem, enquanto \"git rebase\" move os commits de uma branch para o topo de outra, reescrevendo o histórico.",
+      "correct": false
+    },
+    {
+      "text": "\"git merge\" combina várias branches em uma, enquanto \"git rebase\" reescreve o histórico de commits em uma branch.",
+      "feedback": "Correto! O comando \"git merge\" cria um novo commit de mesclagem, enquanto \"git rebase\" move os commits de uma branch para o topo de outra, reescrevendo o histórico.",
+      "correct": true
+    },
+    {
+      "text": "\"git merge\" é usado para reorganizar commits, enquanto \"git rebase\" mescla duas branches em uma.",
+      "feedback": "Incorreto! O comando \"git merge\" cria um novo commit de mesclagem, enquanto \"git rebase\" move os commits de uma branch para o topo de outra, reescrevendo o histórico.",
+      "correct": false
+    },
+    {
+      "text": "\"git merge\" é uma operação mais rápida que \"git rebase\".",
+      "feedback": "Incorreto! O comando \"git merge\" cria um novo commit de mesclagem, enquanto \"git rebase\" move os commits de uma branch para o topo de outra, reescrevendo o histórico.",
+      "correct": false
+    },
+    {
+      "text": "\"git rebase\" é usado apenas para criar novas branches.",
+      "feedback": "Incorreto! O comando \"git merge\" cria um novo commit de mesclagem, enquanto \"git rebase\" move os commits de uma branch para o topo de outra, reescrevendo o histórico.",
+      "correct": false
+    }
+  ]
+}

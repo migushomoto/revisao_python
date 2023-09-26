@@ -1,0 +1,39 @@
+{
+  "SKU": "000001",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "react",
+  "knowledgeArea": "Front-End",
+  "category": "React",
+  "subCategory": "Conhecimentos Básicos",
+  "level": "Medium",
+  "tagsOrConcepts": ["frontend", "react"],
+  "text": ["Qual é o principal objetivo do React?"],
+  "alternatives": [
+    {
+      "text": "Compilar código JavaScript",
+      "feedback": "Incorreto! O React é uma biblioteca JavaScript para criar interfaces de usuário interativas.",
+      "correct": false
+    },
+    {
+      "text": "Gerenciar bancos de dados",
+      "feedback": "Incorreto! O React é uma biblioteca JavaScript para criar interfaces de usuário interativas.",
+      "correct": false
+    },
+    {
+      "text": "Criar interfaces de usuário interativas",
+      "feedback": "Correto! O React é uma biblioteca JavaScript para criar interfaces de usuário interativas.",
+      "correct": true
+    },
+    {
+      "text": "Criar aplicativos móveis nativos",
+      "feedback": "Incorreto! O React é uma biblioteca JavaScript para criar interfaces de usuário interativas.",
+      "correct": false
+    },
+    {
+      "text": "Fornecer serviços de hospedagem na web",
+      "feedback": "Incorreto! O React é uma biblioteca JavaScript para criar interfaces de usuário interativas.",
+      "correct": false
+    }
+  ]
+}

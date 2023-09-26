@@ -1,0 +1,46 @@
+{
+  "SKU": "000001",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "html",
+  "knowledgeArea": "Front-End",
+  "category": "Conhecimentos Básicos",
+  "subCategory": "",
+  "level": "Medium",
+  "tagsOrConcepts": ["frontend", "html"],
+  "text": [
+    "Dada a seguinte declaração CSS:",
+    ".center {",
+    "   text-align: center;",
+    "   color: blue;",
+    "}",
+    "Receberão o alinhamento centralizado e a cora azul todos os textos que estiverem inclusos:"
+  ],
+  "alternatives": [
+    {
+      "text": "Nos elementos HTML que possuírem o atributo \"id\" igual a \"center\" (id=\"center\").",
+      "feedback": "Incorreto! A definição de regras para uma classe no CSS é dada através da notação \".nome-da-classe\", portanto a regra supracitada aplica estilo aos elementos que possuem o atributo \"class\" igual a \"center\".",
+      "correct": false
+    },
+    {
+      "text": "Nos elementos <center>...</center> dispostos na página;",
+      "feedback": "Incorreto! A definição de regras para uma classe no CSS é dada através da notação \".nome-da-classe\", portanto a regra supracitada aplica estilo aos elementos que possuem o atributo \"class\" igual a \"center\".",
+      "correct": false
+    },
+    {
+      "text": "Nos elementos HTML que possuírem o atributo \"name\" igual a \"center\" (name=\"center\")",
+      "feedback": "Incorreto! A definição de regras para uma classe no CSS é dada através da notação \".nome-da-classe\", portanto a regra supracitada aplica estilo aos elementos que possuem o atributo \"class\" igual a \"center\".",
+      "correct": false
+    },
+    {
+      "text": "Nos elementos HTML que possuírem o atributo \"class\" igual a \"center\" (class=\"center\")",
+      "feedback": "Correto! A definição de regras para uma classe no CSS é dada através da notação \".nome-da-classe\", portanto a regra supracitada aplica estilo aos elementos que possuem o atributo \"class\" igual a \"center\".",
+      "correct": true
+    },
+    {
+      "text": "Nos elementos HTML que possírem o atributo \"role\" igual a \"center\" (role=\"center\")",
+      "feedback": "Incorreto! A definição de regras para uma classe no CSS é dada através da notação \".nome-da-classe\", portanto a regra supracitada aplica estilo aos elementos que possuem o atributo \"class\" igual a \"center\".",
+      "correct": false
+    }
+  ]
+}

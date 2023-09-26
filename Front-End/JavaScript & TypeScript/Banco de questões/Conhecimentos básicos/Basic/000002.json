@@ -1,0 +1,41 @@
+{
+  "SKU": "000002",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "javascript",
+  "knowledgeArea": "Front-End",
+  "category": "JavaScript",
+  "subCategory": "Conhecimentos Básicos",
+  "level": "Basic",
+  "tagsOrConcepts": ["frontend", "javascript"],
+  "text": [
+    "Qual é o método em JavaScript usado para adicionar um elemento ao final de um array?"
+  ],
+  "alternatives": [
+    {
+      "text": "push()",
+      "feedback": "Correto! O método push() é usado para adicionar um elemento ao final de um array em JavaScript.",
+      "correct": true
+    },
+    {
+      "text": "append()",
+      "feedback": "Incorreto! append() não é um método válido para arrays em JavaScript.",
+      "correct": false
+    },
+    {
+      "text": "addToEnd()",
+      "feedback": "Incorreto! addToEnd() não é um método válido para arrays em JavaScript.",
+      "correct": false
+    },
+    {
+      "text": "insert()",
+      "feedback": "Incorreto! insert() não é um método válido para arrays em JavaScript.",
+      "correct": false
+    },
+    {
+      "text": "add()",
+      "feedback": "Incorreto! add() não é um método válido para arrays em JavaScript.",
+      "correct": false
+    }
+  ]
+}

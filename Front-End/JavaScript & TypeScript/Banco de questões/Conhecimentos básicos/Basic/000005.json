@@ -1,0 +1,41 @@
+{
+  "SKU": "000005",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "javascript",
+  "knowledgeArea": "Front-End",
+  "category": "JavaScript",
+  "subCategory": "Conhecimentos Básicos",
+  "level": "Basic",
+  "tagsOrConcepts": ["frontend", "javascript"],
+  "text": [
+    "Qual método de array é usado para executar uma função em cada elemento do array e retornar um novo array com os resultados?"
+  ],
+  "alternatives": [
+    {
+      "text": "filter()",
+      "feedback": "Incorreto! O método map() é usado para aplicar uma função a cada elemento de um array e criar um novo array com os resultados dessas chamadas de função",
+      "correct": false
+    },
+    {
+      "text": "map()",
+      "feedback": "Correto! O método map() é usado para aplicar uma função a cada elemento de um array e criar um novo array com os resultados dessas chamadas de função.",
+      "correct": true
+    },
+    {
+      "text": "reduce()",
+      "feedback": "Incorreto! O método map() é usado para aplicar uma função a cada elemento de um array e criar um novo array com os resultados dessas chamadas de função",
+      "correct": false
+    },
+    {
+      "text": "forEach()",
+      "feedback": "Incorreto! O método map() é usado para aplicar uma função a cada elemento de um array e criar um novo array com os resultados dessas chamadas de função",
+      "correct": false
+    },
+    {
+      "text": "slice()",
+      "feedback": "Incorreto! O método map() é usado para aplicar uma função a cada elemento de um array e criar um novo array com os resultados dessas chamadas de função",
+      "correct": false
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "SKU": "000003",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "html",
+  "knowledgeArea": "Front-End",
+  "category": "Conhecimentos Básicos",
+  "subCategory": "",
+  "level": "Basic",
+  "tagsOrConcepts": ["frontend", "html"],
+  "text": [
+    "Uma das abordagens mais indicadas para aplicar estilo a um elemento HTML é a utilização de classes.",
+    "Qual das alternativas abaixo apresenta corretamente a definição de uma classe para um elemento HTML?"
+  ],
+  "alternatives": [
+    {
+      "text": "<p {class: \"paragrafo\"}>Conteúdo do parágrafo</p>",
+      "feedback": "Incorreto! A definição de uma classe para um elemento HTML é feita utilizando a notação 'class=\"paragrafo\"'.",
+      "correct": false
+    },
+    {
+      "text": "<p classe=\".paragrafo\">Conteúdo do parágrafo</p>",
+      "feedback": "Incorreto! A definição de uma classe para um elemento HTML é feita utilizando a notação 'class=\"paragrafo\"'.",
+      "correct": false
+    },
+    {
+      "text": "<p class: \"paragrafo\">Conteúdo do parágrafo</p>",
+      "feedback": "Incorreto! A definição de uma classe para um elemento HTML é feita utilizando a notação 'class=\"paragrafo\"'.",
+      "correct": false
+    },
+    {
+      "text": "<p class=\"paragrafo\">Conteúdo do parágrafo</p>",
+      "feedback": "Correto!",
+      "correct": true
+    },
+    {
+      "text": "<p class={paragrafo}>Conteúdo do parágrafo</p>",
+      "feedback": "Incorreto! A definição de uma classe para um elemento HTML é feita utilizando a notação 'class=\"paragrafo\"'.",
+      "correct": false
+    }
+  ]
+}
