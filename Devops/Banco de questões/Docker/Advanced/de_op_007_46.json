@@ -1,0 +1,50 @@
+
+{
+    "SKU": "DE-OP-007",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "DevOps",
+    "category": "Conteinerização",
+    "subCategory": "Virtualização",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+      "container",
+      "virtualização",
+      "introdução"
+    ],
+    "text": [
+      "Docker é escrito em qual linguagem?"
+    ],
+    "alternatives": [
+      {
+        "text": "Nodejs",
+        "feedback": "",
+        "correct": false,
+        "id": ""
+      },
+      {
+        "text": "Golang",
+        "feedback": "",
+        "correct": true,
+        "id": ""
+      },
+      {
+        "text": "Java",
+        "feedback": "",
+        "correct": false,
+        "id": ""
+      },
+      {
+        "text": "Javascript",
+        "feedback": "",
+        "correct": false,
+        "id": ""
+      }
+    ]
+  }
+  
+  
+  
+  
+  

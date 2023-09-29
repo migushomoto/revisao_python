@@ -1,0 +1,45 @@
+
+{
+    "SKU": "DE-OP-007",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "DevOps",
+    "category": "Conteinerização",
+    "subCategory": "Virtualização",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+      "container",
+      "virtualização",
+      "introdução"
+    ],
+    "text": [
+      "Qual é a finalidade do Docker BuildKit?"
+    ],
+    "alternatives": [
+      {
+        "text": "Uma ferramenta de construção alternativa para criar imagens Docker.",
+        "feedback": "",
+        "correct": true,
+        "id": ""
+      },
+      {
+        "text": "Uma ferramenta para compilar aplicativos dentro de contêineres Docker.",
+        "feedback": "",
+        "correct": false,
+        "id": ""
+      },
+      {
+        "text": "Um serviço web para compartilhar imagens Docker com outros usuários.",
+        "feedback": "",
+        "correct": false,
+        "id": ""
+      },
+      {
+        "text": "Uma biblioteca de gráficos para visualizar a estrutura das imagens Docker.",
+        "feedback": "",
+        "correct": false,
+        "id": ""
+      }
+    ]
+  }

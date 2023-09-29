@@ -1,0 +1,45 @@
+
+{
+    "SKU": "DE-OP-007",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "DevOps",
+    "category": "Conteinerização",
+    "subCategory": "Virtualização",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+      "container",
+      "virtualização",
+      "introdução"
+    ],
+    "text": [
+      "Qual dos comandos abaixo não é mais suportado no Compose V2?"
+    ],
+    "alternatives": [
+      {
+        "text": "docker compose build",
+        "feedback": "",
+        "correct": false,
+        "id": ""
+      },
+      {
+        "text": "docker compose up --scale",
+        "feedback": "",
+        "correct": false,
+        "id": ""
+      },
+      {
+        "text": "docker compose scale",
+        "feedback": "https://docs.docker.com/compose/migrate/#how-do-i-switch-to-compose-v2",
+        "correct": true,
+        "id": ""
+      },
+      {
+        "text": "docker compose top",
+        "feedback": "",
+        "correct": false,
+        "id": ""
+      }
+    ]
+  }

@@ -1,0 +1,44 @@
+{
+    "SKU": "DE-OP-007",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "DevOps",
+    "category": "Conteinerização",
+    "subCategory": "Virtualização",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+      "container",
+      "virtualização",
+      "introdução"
+    ],
+    "text": [
+      "Quando você altera uma instrução no Dockerfile, e faz o rebuild da imagem, quais camadas(layers) são reconstruidas?"
+    ],
+    "alternatives": [
+      {
+        "text": "Todas as camadas são reconstruidas.",
+        "feedback": "",
+        "correct": false,
+        "id": ""
+      },
+      {
+        "text": "Somente as camadas posteriores à camada alterada.",
+        "feedback": "",
+        "correct": false,
+        "id": ""
+      },
+      {
+        "text": "Não é possível alterar uma camada de uma imagem.",
+        "feedback": "",
+        "correct": false,
+        "id": ""
+      },
+      {
+        "text": "Somente a camada alterada.",
+        "feedback": "",
+        "correct": true,
+        "id": ""
+      }
+    ]
+  }

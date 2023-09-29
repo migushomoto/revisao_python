@@ -1,0 +1,45 @@
+
+{
+    "SKU": "DE-OP-007",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "DevOps",
+    "category": "Conteinerização",
+    "subCategory": "Virtualização",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+      "container",
+      "virtualização",
+      "introdução"
+    ],
+    "text": [
+      "O que faz o comando 'docker buildx bake...'?"
+    ],
+    "alternatives": [
+      {
+        "text": "Não existe o comando bake no docker buildx.",
+        "feedback": "",
+        "correct": false,
+        "id": ""
+      },
+      {
+        "text": "Faz o build com mapeamento automatico de redes entre serviços.",
+        "feedback": "",
+        "correct": false,
+        "id": ""
+      },
+      {
+        "text": "Permite build de imagem a partir de um arquivo(HCL,JSON,YAML) com execução simultanea de serviços.",
+        "feedback": "",
+        "correct": true,
+        "id": ""
+      },
+      {
+        "text": "Possibilita a construção de imagens menores.",
+        "feedback": "",
+        "correct": false,
+        "id": ""
+      }
+    ]
+  }

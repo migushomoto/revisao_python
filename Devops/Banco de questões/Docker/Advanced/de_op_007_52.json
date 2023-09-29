@@ -1,0 +1,47 @@
+
+{
+    "SKU": "DE-OP-007",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "DevOps",
+    "category": "Conteinerização",
+    "subCategory": "Virtualização",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+      "container",
+      "virtualização",
+      "introdução"
+    ],
+    "text": [
+      "Qual das opções abaixo habilita/cria a opção de build attestations?"
+    ],
+    "alternatives": [
+      {
+        "text": "docker buildx build --attestation=true",
+        "feedback": "",
+        "correct": false,
+        "id": ""
+      },
+      {
+        "text": "docker buildx build --sbom=true --provenance=true",
+        "feedback": "https://docs.docker.com/build/attestations/#creating-attestations",
+        "correct": true,
+        "id": ""
+      },
+      {
+        "text": "docker buildx build --inspect-build=attestation",
+        "feedback": "",
+        "correct": false,
+        "id": ""
+      },
+      {
+        "text": "docker buildx build --attestation=1",
+        "feedback": "",
+        "correct": false,
+        "id": ""
+      }
+    ]
+  }
+  
+ 

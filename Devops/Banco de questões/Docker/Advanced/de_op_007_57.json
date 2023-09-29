@@ -1,0 +1,45 @@
+
+{
+    "SKU": "DE-OP-007",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "DevOps",
+    "category": "Conteinerização",
+    "subCategory": "Virtualização",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+      "container",
+      "virtualização",
+      "introdução"
+    ],
+    "text": [
+      "No docker, qual o proposito do Build Attestations?"
+    ],
+    "alternatives": [
+      {
+        "text": "Garantir a integridade dos dados em cache, além da criptografia dos dados em transito.",
+        "feedback": "",
+        "correct": false,
+        "id": ""
+      },
+      {
+        "text": "Construir builds mais rapidos, e com menor tamanho.",
+        "feedback": "",
+        "correct": false,
+        "id": ""
+      },
+      {
+        "text": "Possibilita o compartilhamento de disco persistentes entre mais de um container.",
+        "feedback": "",
+        "correct": false,
+        "id": ""
+      },
+      {
+        "text": "Permite inspecionar uma imagem e ver de onde ela vem, quem a criou e como, e o que ela contém.",
+        "feedback": "https://docs.docker.com/build/attestations/",
+        "correct": true,
+        "id": ""
+      }
+    ]
+  }

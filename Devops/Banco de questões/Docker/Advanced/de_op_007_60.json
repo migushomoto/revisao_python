@@ -1,0 +1,45 @@
+
+{
+    "SKU": "DE-OP-007",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "DevOps",
+    "category": "Conteinerização",
+    "subCategory": "Virtualização",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+      "container",
+      "virtualização",
+      "introdução"
+    ],
+    "text": [
+      "Qual é a finalidade do Docker Content Trust (DCT)?"
+    ],
+    "alternatives": [
+      {
+        "text": "Acelerar o download de imagens Docker da Internet.",
+        "feedback": "",
+        "correct": false,
+        "id": ""
+      },
+      {
+        "text": "Verificar a integridade e autenticidade das imagens Docker usando assinaturas digitais.",
+        "feedback": "",
+        "correct": true,
+        "id": ""
+      },
+      {
+        "text": "Impedir que os contêineres Docker sejam executados em hosts não confiáveis.",
+        "feedback": "",
+        "correct": false,
+        "id": ""
+      },
+      {
+        "text": "Garantir que todos os contêineres Docker sejam confiáveis e seguros.",
+        "feedback": "",
+        "correct": false,
+        "id": ""
+      }
+    ]
+  }

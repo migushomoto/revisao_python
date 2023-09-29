@@ -1,0 +1,45 @@
+
+{
+    "SKU": "DE-OP-007",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "DevOps",
+    "category": "Conteinerização",
+    "subCategory": "Virtualização",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+      "container",
+      "virtualização",
+      "introdução"
+    ],
+    "text": [
+      "O que é o 'dockerd'?"
+    ],
+    "alternatives": [
+      {
+        "text": "Um daemon do Docker que gerencia contêineres e imagens.",
+        "feedback": "",
+        "correct": true,
+        "id": ""
+      },
+      {
+        "text": "Uma ferramenta de depuração para contêineres Docker.",
+        "feedback": "",
+        "correct": false,
+        "id": ""
+      },
+      {
+        "text": "Um comando para listar todos os contêineres em execução no sistema.",
+        "feedback": "",
+        "correct": false,
+        "id": ""
+      },
+      {
+        "text": "O comando utilizado para executar contêineres Docker.",
+        "feedback": "",
+        "correct": false,
+        "id": ""
+      }
+    ]
+  }

@@ -1,0 +1,45 @@
+
+{
+    "SKU": "DE-OP-007",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "DevOps",
+    "category": "Conteinerização",
+    "subCategory": "Virtualização",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+      "container",
+      "virtualização",
+      "introdução"
+    ],
+    "text": [
+      "Se você precisa usar uma imagem docker que não contém builds multistage, qual a melhor opção para diminuir o tamanho da imagem?"
+    ],
+    "alternatives": [
+      {
+        "text": "Reduza o tamanho da imagem usando compression no arquivos copiados.",
+        "feedback": "",
+        "correct": false,
+        "id": ""
+      },
+      {
+        "text": "Tente reduzir o número de camadas em sua imagem minimizando o número de comandos RUN separados em seu Dockerfile",
+        "feedback": "https://docs.docker.com/develop/dev-best-practices/#how-to-keep-your-images-small",
+        "correct": true,
+        "id": ""
+      },
+      {
+        "text": "Utilize Entrypoint ao inves de CMD",
+        "feedback": "",
+        "correct": false,
+        "id": ""
+      },
+      {
+        "text": "Tente reduzir o numero de arquivos copiados no comando COPY",
+        "feedback": "",
+        "correct": false,
+        "id": ""
+      }
+    ]
+  }

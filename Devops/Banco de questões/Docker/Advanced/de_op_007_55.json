@@ -1,0 +1,45 @@
+
+{
+    "SKU": "DE-OP-007",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "DevOps",
+    "category": "Conteinerização",
+    "subCategory": "Virtualização",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+      "container",
+      "virtualização",
+      "introdução"
+    ],
+    "text": [
+      "O que é um 'Docker volume plugin'?"
+    ],
+    "alternatives": [
+      {
+        "text": "Um mecanismo de armazenamento personalizado que permite a integração de soluções de armazenamento de terceiros com o Docker.",
+        "feedback": "",
+        "correct": true,
+        "id": ""
+      },
+      {
+        "text": "Uma ferramenta para criar volumes de armazenamento personalizados no Docker.",
+        "feedback": "",
+        "correct": false,
+        "id": ""
+      },
+      {
+        "text": "Uma imagem Docker que serve como um plug-in para outros contêineres.",
+        "feedback": "",
+        "correct": false,
+        "id": ""
+      },
+      {
+        "text": "Um complemento para Docker que estende sua funcionalidade.",
+        "feedback": "",
+        "correct": false,
+        "id": ""
+      }
+    ]
+  }

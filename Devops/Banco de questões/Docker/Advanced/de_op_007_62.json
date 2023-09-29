@@ -1,0 +1,45 @@
+
+{
+    "SKU": "DE-OP-007",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "DevOps",
+    "category": "Conteinerização",
+    "subCategory": "Virtualização",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+      "container",
+      "virtualização",
+      "introdução"
+    ],
+    "text": [
+      "O que é um Dockerfile scratch?"
+    ],
+    "alternatives": [
+      {
+        "text": "Um Dockerfile que cria uma imagem Docker vazia.",
+        "feedback": "",
+        "correct": true,
+        "id": ""
+      },
+      {
+        "text": "Um Dockerfile que não pode ser usado para criar imagens Docker.",
+        "feedback": "",
+        "correct": false,
+        "id": ""
+      },
+      {
+        "text": "Um Dockerfile usado apenas para fins de depuração.",
+        "feedback": "",
+        "correct": false,
+        "id": ""
+      },
+      {
+        "text": "Um Dockerfile que não possui instruções.",
+        "feedback": "",
+        "correct": false,
+        "id": ""
+      }
+    ]
+  }

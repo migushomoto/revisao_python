@@ -1,0 +1,45 @@
+
+{
+    "SKU": "DE-OP-007",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "DevOps",
+    "category": "Conteinerização",
+    "subCategory": "Virtualização",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+      "container",
+      "virtualização",
+      "introdução"
+    ],
+    "text": [
+      "Qual é a diferença entre um contêiner Docker e uma instância de serviço Docker?"
+    ],
+    "alternatives": [
+      {
+        "text": "Não há diferença, os termos são usados indistintamente.",
+        "feedback": "",
+        "correct": false,
+        "id": ""
+      },
+      {
+        "text": "Um contêiner Docker só pode ser usado como um serviço.",
+        "feedback": "",
+        "correct": false,
+        "id": ""
+      },
+      {
+        "text": "Um serviço é uma coleção de contêineres que executam a mesma imagem.",
+        "feedback": "",
+        "correct": true,
+        "id": ""
+      },
+      {
+        "text": "Um contêiner é uma instância de serviço em execução.",
+        "feedback": "",
+        "correct": true,
+        "id": ""
+      }
+    ]
+  }

@@ -1,0 +1,45 @@
+
+{
+    "SKU": "DE-OP-007",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "DevOps",
+    "category": "Conteinerização",
+    "subCategory": "Virtualização",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+      "container",
+      "virtualização",
+      "introdução"
+    ],
+    "text": [
+      "Qual das opções abaixo descreve uma diferença entre Compose V1 e Compose V2?"
+    ],
+    "alternatives": [
+      {
+        "text": "Somente usando Compose V1 é possível utilizar Mutistage.",
+        "feedback": "",
+        "correct": false,
+        "id": ""
+      },
+      {
+        "text": "Ao contrario do Compose V1, o Compose V2 integra-se à plataforma Docker CLI e oferece sintaxe de linha de comando recomendada.",
+        "feedback": "",
+        "correct": false,
+        "id": ""
+      },
+      {
+        "text": "Com compose V2 é capaz de inicializar o container em menos tempo.",
+        "feedback": "",
+        "correct": false,
+        "id": ""
+      },
+      {
+        "text": "Não existem diferenças de funcionalidades, Compose V2 apenas foi incrementado features de segurança.",
+        "feedback": "",
+        "correct": false,
+        "id": ""
+      }
+    ]
+  }

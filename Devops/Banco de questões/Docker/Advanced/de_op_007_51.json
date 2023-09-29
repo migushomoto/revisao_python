@@ -1,0 +1,45 @@
+
+{
+    "SKU": "DE-OP-007",
+    "interpreter": 1,
+    "type": "VF",
+    "language": "NA",
+    "knowledgeArea": "DevOps",
+    "category": "Conteinerização",
+    "subCategory": "Virtualização",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+      "container",
+      "virtualização",
+      "introdução"
+    ],
+    "text": [
+      "Assinale as opções abaixo como Verdadeiro ou Falso."
+    ],
+    "alternatives": [
+      {
+        "text": "No Docker, é possível mapear uma porta de um contêiner para uma porta diferente no host usando a opção -p ao iniciar um contêiner.",
+        "feedback": "",
+        "correct": true,
+        "id": ""
+      },
+      {
+        "text": "O Docker usa o mesmo kernel do host para isolar contêineres, o que significa que cada contêiner tem seu próprio kernel.",
+        "feedback": "",
+        "correct": false,
+        "id": ""
+      },
+      {
+        "text": "O comando docker stop encerra imediatamente um contêiner em execução, independentemente de qualquer processo em andamento dentro do contêiner.",
+        "feedback": "",
+        "correct": true,
+        "id": ""
+      },
+      {
+        "text": "Ao usar volumes Docker, os dados são armazenados apenas no sistema de arquivos do host e não dentro do contêiner.",
+        "feedback": "",
+        "correct": false,
+        "id": ""
+      }
+    ]
+  }

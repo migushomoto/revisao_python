@@ -1,0 +1,44 @@
+{
+    "SKU": "DE-OP-007",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "DevOps",
+    "category": "Conteinerização",
+    "subCategory": "Virtualização",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+      "container",
+      "virtualização",
+      "introdução"
+    ],
+    "text": [
+      "O que é um Dockerfile multiestágios?"
+    ],
+    "alternatives": [
+      {
+        "text": "Um Dockerfile que possui várias camadas de imagens.",
+        "feedback": "",
+        "correct": false,
+        "id": ""
+      },
+      {
+        "text": "Um Dockerfile que suporta múltiplos containers simultaneamente.",
+        "feedback": "",
+        "correct": false,
+        "id": ""
+      },
+      {
+        "text": "Um Dockerfile que é usado para construir várias imagens ao mesmo tempo.",
+        "feedback": "",
+        "correct": false,
+        "id": ""
+      },
+      {
+        "text": "Um Dockerfile que usa várias etapas para construir uma imagem menor e mais eficiente.",
+        "feedback": "",
+        "correct": true,
+        "id": ""
+      }
+    ]
+  }

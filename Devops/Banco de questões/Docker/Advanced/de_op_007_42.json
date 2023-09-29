@@ -1,0 +1,49 @@
+{
+    "SKU": "DE-OP-007",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "DevOps",
+    "category": "Conteinerização",
+    "subCategory": "Virtualização",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+      "container",
+      "virtualização",
+      "introdução"
+    ],
+    "text": [
+      "Qual é a finalidade da camada de sistema de arquivos de um contêiner Docker?"
+    ],
+    "alternatives": [
+      {
+        "text": "Armazenar o sistema operacional do host.",
+        "feedback": "",
+        "correct": false,
+        "id": ""
+      },
+      {
+        "text": "Armazenar apenas os dados do aplicativo do contêiner.",
+        "feedback": "",
+        "correct": true,
+        "id": ""
+      },
+      {
+        "text": "Armazenar todos os arquivos do contêiner.",
+        "feedback": "",
+        "correct": false,
+        "id": ""
+      },
+      {
+        "text": "Armazenar os binários do Docker.",
+        "feedback": "",
+        "correct": false,
+        "id": ""
+      }
+    ]
+  }
+
+
+
+
+

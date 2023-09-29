@@ -1,0 +1,45 @@
+
+{
+    "SKU": "DE-OP-007",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "DevOps",
+    "category": "Conteinerização",
+    "subCategory": "Virtualização",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+      "container",
+      "virtualização",
+      "introdução"
+    ],
+    "text": [
+      "Qual tecnologia docker usa/cria para prover uma camada de isolamento nos containers?"
+    ],
+    "alternatives": [
+      {
+        "text": "Compose",
+        "feedback": "",
+        "correct": false,
+        "id": ""
+      },
+      {
+        "text": "dockerd",
+        "feedback": "",
+        "correct": false,
+        "id": ""
+      },
+      {
+        "text": "namespaces",
+        "feedback": "",
+        "correct": true,
+        "id": ""
+      },
+      {
+        "text": "Volume",
+        "feedback": "",
+        "correct": false,
+        "id": ""
+      }
+    ]
+  }

@@ -1,0 +1,45 @@
+
+{
+    "SKU": "DE-OP-007",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "DevOps",
+    "category": "Conteinerização",
+    "subCategory": "Virtualização",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+      "container",
+      "virtualização",
+      "introdução"
+    ],
+    "text": [
+      "Como você pode criar uma rede Docker que restrinja a comunicação entre contêineres apenas à rede local do host?"
+    ],
+    "alternatives": [
+      {
+        "text": "Configurando o firewall do host para bloquear a comunicação externa.",
+        "feedback": "",
+        "correct": false,
+        "id": ""
+      },
+      {
+        "text": "Não é possível criar uma rede restrita apenas à rede local do host em Docker.",
+        "feedback": "",
+        "correct": true,
+        "id": ""
+      },
+      {
+        "text": "Definindo as regras de comunicação no arquivo de configuração do Docker.",
+        "feedback": "",
+        "correct": false,
+        "id": ""
+      },
+      {
+        "text": "Usando a opção --local-only ao criar a rede.",
+        "feedback": "",
+        "correct": false,
+        "id": ""
+      }
+    ]
+  }
