@@ -1,0 +1,44 @@
+{
+    "id": "645430ed-f864-47dd-be38-cac20a7c4650",
+    "SKU": "000011",
+    "interpreter": 1,
+    "type": "VF",
+    "language": "NA",
+    "knowledgeArea": "DevOps",
+    "category": "Kubernetes",
+    "subCategory": "Admission controller",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+        "Kubernetes",
+        "Admission controller"
+    ],
+    "text": [
+        "No contexto do Kubernetes, um controlador de admissão é um pedaço de código que intercepta solicitações ao servidor da API Kubernetes antes da persistência do objeto, podendo alterar o objeto ou rejeitar a solicitação. Considerando isso, analise as afirmativas abaixo."
+    ],
+    "alternatives": [
+        {
+            "id": "f02927da-fe2d-456b-bf0d-63217955ea67",
+            "text": "Controladores de admissão são executados antes dos controladores de validação e podem gerar uma resposta de erro para a solicitação.",
+            "feedback": "Correto! Controladores de admissão são executados antes dos controladores de validação.",
+            "correct": true
+        },
+        {
+            "id": "eea277c7-7340-4af1-9e35-b7497f8ba440",
+            "text": "Os controladores de admissão podem ser criados usando a linguagem de programação Go.",
+            "feedback": "Correto! No entanto, outras linguagens também podem ser usadas. Tecnicamente, você pode usar qualquer linguagem que possa lidar com solicitações HTTP.",
+            "correct": true
+        },
+        {
+            "id": "0a59bc26-4690-4bf6-bbfe-33767a8c5e83",
+            "text": "Os controladores de admissão podem modificar os objetos antes deles serem persistidos, mas não podem rejeitar uma solicitação.",
+            "feedback": "Correto! Os controladores de admissão podem tanto modificar os objetos quanto rejeitar uma solicitação.",
+            "correct": true
+        },
+        {
+            "id": "a60c0939-d991-4a6c-930d-d036273f4d5f",
+            "text": "Os controladores de admissão não têm acesso ao corpo da solicitação, apenas aos metadados.",
+            "feedback": "Correto! Os controladores de admissão têm acesso tanto ao corpo da solicitação quanto aos metadados.",
+            "correct": true
+        }
+    ]
+}

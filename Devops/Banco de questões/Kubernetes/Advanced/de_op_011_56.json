@@ -1,0 +1,45 @@
+{
+    "id": "f3fe2aff-b95c-4c63-98d8-cdf26a22058d",
+    "SKU": "000016",
+    "interpreter": 1,
+    "type": "VF",
+    "language": "NA",
+    "knowledgeArea": "DevOps",
+    "category": "Kubernetes",
+    "subCategory": "Segurança",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+        "Kubernetes",
+        "RBAC",
+        "Segurança"
+    ],
+    "text": [
+        "Considere a seguinte afirmação: 'No Kubernetes, é possível aplicar políticas de segurança como RBAC (Role-Based Access Control) para fortalecer a segurança do cluster'."
+    ],
+    "alternatives": [
+        {
+            "id": "f4cd5615-fde2-4f13-aca3-456c6b52f847",
+            "text": "O RBAC no Kubernetes permite apenas o controle de acesso baseado em roles para usuários específicos.",
+            "feedback": "O RBAC no Kubernetes é mais flexível e não está limitado apenas a usuários específicos, podendo ser utilizado por grupos e ServiceAccounts também.",
+            "correct": false
+        },
+        {
+            "id": "382f7366-cc84-4e58-9073-a45a14dc1f37",
+            "text": "O RBAC no Kubernetes permite aplicar políticas de controle de acesso em nível de namespace ou cluster.",
+            "feedback": "Correto! O RBAC pode ser aplicado tanto em nível de namespace quanto de cluster.",
+            "correct": true
+        },
+        {
+            "id": "df77fae2-598a-463f-9c5f-f6c98785a69c",
+            "text": "No Kubernetes, o RBAC não permite a definição de políticas de segurança para recursos específicos.",
+            "feedback": "Incorreto. O RBAC no Kubernetes permite definir políticas de segurança para recursos específicos.",
+            "correct": false
+        },
+        {
+            "id": "75d499c5-e651-4b78-931a-b64368459b8f",
+            "text": "Utilizando RBAC no Kubernetes, é possível definir permissões detalhadas para usuários ou grupos de usuários.",
+            "feedback": "Correto! O RBAC permite definir permissões detalhadas para usuários ou grupos.",
+            "correct": true
+        }
+    ]
+}

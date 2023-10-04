@@ -1,0 +1,44 @@
+{
+    "id": "a81c8d70-f9c8-4e7e-91b1-7807124c7b68",
+    "SKU": "000002",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "DevOps",
+    "category": "Kubernetes",
+    "subCategory": "Containerd",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+        "Kubernetes",
+        "Containerd"
+    ],
+    "text": [
+        "No contexto do Kubernetes, como você garante que o containerd esteja funcionando corretamente em um node worker?"
+    ],
+    "alternatives": [
+        {
+            "id": "f1b17ec1-05df-4e86-b7f6-8ac1cb6c5df1",
+            "text": "Executando o comando 'kubectl check containerd'.",
+            "feedback": "Este comando não existe no Kubernetes para verificar o status do containerd.",
+            "correct": false
+        },
+        {
+            "id": "ecb3953b-bb50-4b2d-90e3-03b0d456427b",
+            "text": "Reiniciando o serviço do containerd no node worker.",
+            "feedback": "Reiniciar o serviço pode não garantir que o containerd esteja funcionando corretamente.",
+            "correct": false
+        },
+        {
+            "id": "682b3a67-2f9d-4d2e-ba4b-3cf444853679",
+            "text": "Verificando os logs do containerd no node worker.",
+            "feedback": "Verificar os logs é uma maneira eficaz de garantir que o containerd esteja funcionando corretamente.",
+            "correct": true
+        },
+        {
+            "id": "a67ecb7a-e3b3-4e01-a52d-1f2068dfea45",
+            "text": "Desinstalando e reinstalando o containerd.",
+            "feedback": "Isso pode ser uma solução drástica e não garantirá que o containerd funcione corretamente no futuro.",
+            "correct": false
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "id": "e5e33ee1-9e76-47e1-bc84-4bfcfc3e3a24",
+    "SKU": "000025",
+    "interpreter": 1,
+    "type": "VF",
+    "language": "NA",
+    "knowledgeArea": "DevOps",
+    "category": "Kubernetes",
+    "subCategory": "eBPF",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+        "Kubernetes",
+        "eBPF",
+        "Performance"
+    ],
+    "text": [
+        "No Kubernetes, o eBPF (Extended Berkeley Packet Filter) pode ser utilizado para melhorar a performance e segurança, além de possibilitar a observabilidade avançada das aplicações. Marque a alternativa incorreta sobre eBPF no contexto do Kubernetes."
+    ],
+    "alternatives": [
+        {
+            "id": "d01fc84a-895a-46fa-92c6-8836798a0f37",
+            "text": "O eBPF permite a execução de programas de usuário no kernel, proporcionando análises de desempenho em tempo real.",
+            "feedback": "Esta afirmação está correta. O eBPF permite que programas de usuário sejam executados no kernel, proporcionando análises de desempenho em tempo real.",
+            "correct": true
+        },
+        {
+            "id": "c3456dc5-70e8-4c9a-9b14-708ce4754b5f",
+            "text": "O eBPF não pode ser utilizado para análise de segurança no Kubernetes.",
+            "feedback": "Esta afirmação está incorreta. O eBPF pode sim ser utilizado para análise de segurança no Kubernetes.",
+            "correct": false
+        },
+        {
+            "id": "b3e57d6b-3fcb-4b88-8e3d-95d407932a00",
+            "text": "O eBPF no Kubernetes pode ser usado para monitorar tráfego de rede, chamadas de sistema e mais.",
+            "feedback": "Esta afirmação está correta. O eBPF pode ser usado para monitorar diversos aspectos no Kubernetes, incluindo tráfego de rede e chamadas de sistema.",
+            "correct": true
+        },
+        {
+            "id": "878b17b4-e6c1-4111-9d2e-e6d0d14e5d8c",
+            "text": "Com o eBPF, é possível realizar rastreamento de funções do kernel e entender o comportamento interno do Kubernetes.",
+            "feedback": "Esta afirmação está correta. O eBPF permite rastrear funções do kernel e entender melhor o comportamento do Kubernetes.",
+            "correct": true
+        }
+    ]
+}

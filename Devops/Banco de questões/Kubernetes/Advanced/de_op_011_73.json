@@ -1,0 +1,46 @@
+{
+    "id": "e27dc527-b593-41ec-a159-3e90c27b950e",
+    "SKU": "000033",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "DevOps",
+    "category": "Kubernetes",
+    "subCategory": "Audit Logs",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+        "Kubernetes",
+        "Audit Logs",
+        "Auditoria",
+        "Logs"
+    ],
+    "text": [
+        "Em um ambiente Kubernetes, você precisa configurar logs de auditoria para monitorar as atividades dentro do seu cluster. Qual arquivo de configuração você deve editar para ativar os logs de auditoria no Kubernetes?"
+    ],
+    "alternatives": [
+        {
+            "id": "1d2c90aa-55d2-40b2-a8bf-9ef81f555efa",
+            "text": "O arquivo kube-api-config.yaml",
+            "feedback": "Correto! Editar o arquivo kube-api-config.yaml permite ativar os logs de auditoria no Kubernetes.",
+            "correct": true
+        },
+        {
+            "id": "32a150bf-2b8a-4b52-bbde-cd0d23c412de",
+            "text": "O arquivo audit-policy.yaml",
+            "feedback": "Incorreto. O arquivo audit-policy.yaml é usado para definir a política de auditoria, não para ativá-la.",
+            "correct": false
+        },
+        {
+            "id": "7a8a7c84-b0ca-48f5-bc64-9c5c1f9dc8e2",
+            "text": "O arquivo kube-controller-manager.yaml",
+            "feedback": "Incorreto. O arquivo kube-controller-manager.yaml não é usado para configurar logs de auditoria.",
+            "correct": false
+        },
+        {
+            "id": "dbb2e6c0-dc6f-4c69-89c3-a0142fee5c39",
+            "text": "O arquivo kube-audit-logs.yaml",
+            "feedback": "Incorreto. O arquivo kube-audit-logs.yaml não existe no Kubernetes.",
+            "correct": false
+        }
+    ]
+}

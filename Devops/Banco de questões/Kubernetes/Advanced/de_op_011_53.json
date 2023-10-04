@@ -1,0 +1,44 @@
+{
+    "id": "8e9f66ca-206d-4733-ad58-b236007b3b4e",
+    "SKU": "000013",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "DevOps",
+    "category": "Kubernetes",
+    "subCategory": "Scheduler",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+        "Kubernetes",
+        "Scheduler"
+    ],
+    "text": [
+        "No Kubernetes, o agendador (scheduler) é responsável por decidir em qual nó um Pod será executado. Como você pode configurar a afinidade de nó para que um Pod seja preferencialmente agendado em um nó específico?"
+    ],
+    "alternatives": [
+        {
+            "id": "172e67f2e-a5ce-4ae2-9b95-7f749b4e1d4f",
+            "text": "Usando o campo nodeAffinity no spec do Pod.",
+            "feedback": "Correto! O campo nodeAffinity no spec do Pod permite definir a afinidade de nó.",
+            "correct": true
+        },
+        {
+            "id": "2cc3714b-22f6-424f-99f3-638cf4e829dd",
+            "text": "Usando o campo affinity no metadata do Pod.",
+            "feedback": "Errado! O campo correto é nodeAffinity e está dentro do spec, não do metadata.",
+            "correct": false
+        },
+        {
+            "id": "41231d8f-9057-4152-affa-2d4434fc1440",
+            "text": "Usando labels e selectors no nó e no Pod.",
+            "feedback": "Parcialmente correto. Labels e selectors são usados, mas a configuração específica é feita no campo nodeAffinity dentro do spec do Pod.",
+            "correct": false
+        },
+        {
+            "id": "cadaebbf-6a94-443d-abfe-9fd09c939d7a",
+            "text": "Usando o comando kubectl affinity.",
+            "feedback": "Errado! Não existe um comando kubectl affinity.",
+            "correct": false
+        }
+    ]
+}

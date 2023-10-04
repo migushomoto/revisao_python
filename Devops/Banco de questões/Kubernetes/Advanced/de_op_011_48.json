@@ -1,0 +1,45 @@
+{
+    "id": "b6c58e29-6e8a-4c31-ae85-c4b2b8dc8e94",
+    "SKU": "000008",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "DevOps",
+    "category": "Kubernetes",
+    "subCategory": "Atualizando de Clusters",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+        "Kubernetes",
+        "Cluster",
+        "Update"
+    ],
+    "text": [
+        "Ao atualizar um cluster Kubernetes, qual é a ordem correta das etapas que devem ser seguidas para garantir uma atualização bem-sucedida e sem tempo de inatividade?"
+    ],
+    "alternatives": [
+        {
+            "id": "7a6b3c1a-4c5e-4d0a-b5ff-6f3f4e58f3a5",
+            "text": "1. Drenar, 2. Atualizar os workers, 3. Atualizar o master",
+            "feedback": "Não é recomendado atualizar os nós workers antes do nó master.",
+            "correct": false
+        },
+        {
+            "id": "c13ee5b2-6fb4-4d5f-9c5e-9d8c4072d9bc",
+            "text": "1. Atualizar o master, 2. Atualizar os workers, 3. Drenar",
+            "feedback": "Drenar o cluster deve ser feito antes de atualizar os nós.",
+            "correct": false
+        },
+        {
+            "id": "8a534e59-7be4-4f7e-91c2-efab0f9c6d67",
+            "text": "1. Drenar, 2. Atualizar o master, 3. Atualizar os workers",
+            "feedback": "Esta é a ordem correta para atualizar um cluster Kubernetes.",
+            "correct": true
+        },
+        {
+            "id": "27fba1b7-2b68-4e50-9711-7607b28a1142",
+            "text": "1. Atualizar os workers, 2. Drenar, 3. Atualizar o master",
+            "feedback": "Não é apropriado atualizar os nós workers antes de drenar e atualizar o nó master.",
+            "correct": false
+        }
+    ]
+}

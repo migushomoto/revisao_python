@@ -1,0 +1,45 @@
+{
+    "id": "a8f5f167-f9e4-459f-a5ec-3f8374c7d6a5",
+    "SKU": "000015",
+    "interpreter": 1,
+    "type": "VF",
+    "language": "NA",
+    "knowledgeArea": "DevOps",
+    "category": "Kubernetes",
+    "subCategory": "Storage",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+        "Kubernetes",
+        "Persistência",
+        "Volumes"
+    ],
+    "text": [
+        "No Kubernetes, é possível configurar um volume para ser acessado por múltiplos pods para leitura e escrita simultaneamente."
+    ],
+    "alternatives": [
+        {
+            "id": "a4e0e514-1de3-47a2-b3c6-f90fb3fa8bed",
+            "text": "Um PersistentVolumeClaim (PVC) pode ser usado para solicitar armazenamento específico de um PersistentVolume (PV).",
+            "feedback": "Correto! Um PVC pode ser usado para solicitar armazenamento de um PV no Kubernetes.",
+            "correct": true
+        },
+        {
+            "id": "84d8cffd-7be8-4d87-a3dd-a2573dbc7e76",
+            "text": "O campo 'volumeMode' pode ser configurado como 'Block' para permitir o acesso simultâneo ao volume por múltiplos pods.",
+            "feedback": "Isso está incorreto. A configuração 'Block' no 'volumeMode' permite o acesso ao volume como um bloco bruto, mas não necessariamente por múltiplos pods simultaneamente.",
+            "correct": false
+        },
+        {
+            "id": "10687216-9f69-4222-8799-98386c20fd13",
+            "text": "ReadWriteMany permite que um volume seja lido e escrito por múltiplos pods simultaneamente.",
+            "feedback": "Correto! ReadWriteMany permite acesso de leitura e escrita ao volume por múltiplos pods simultaneamente.",
+            "correct": true
+        },
+        {
+            "id": "b650e707-7569-466c-af55-a01bcf4a595d",
+            "text": "O acesso simultâneo por múltiplos pods é possível apenas para volumes efêmeros.",
+            "feedback": "Isso está incorreto. Volumes persistentes também podem ser configurados para acesso simultâneo por múltiplos pods.",
+            "correct": false
+        }
+    ]
+}

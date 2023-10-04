@@ -1,0 +1,45 @@
+{
+    "id": "72d5a2cc-787e-4e3a-a9d3-e7c4edab1d06",
+    "SKU": "000039",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "DevOps",
+    "category": "Kubernetes",
+    "subCategory": "Ingress",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+        "Kubernetes",
+        "Ingress",
+        "Networking"
+    ],
+    "text": [
+        "Em um ambiente Kubernetes, quando você deveria usar um Ingress em vez de um Service do tipo LoadBalancer?"
+    ],
+    "alternatives": [
+        {
+            "id": "92fce10c-ddd7-4a7d-92ac-16769df86362",
+            "text": "Quando você precisa expor múltiplos serviços na mesma porta",
+            "feedback": "Correto! Ingress permite rotear tráfego externo para múltiplos serviços usando o mesmo IP e porta, proporcionando funcionalidades adicionais como SSL/TLS termination e name-based virtual hosting.",
+            "correct": true
+        },
+        {
+            "id": "77a81d94-26a0-4cfe-bb06-838635cd0341",
+            "text": "Quando você está usando apenas um serviço e um pod",
+            "feedback": "Incorreto. Para um único serviço, um Service do tipo LoadBalancer pode ser mais apropriado.",
+            "correct": false
+        },
+        {
+            "id": "37f76916-0ab7-41d6-8cb9-c2a4e37fafa5",
+            "text": "Quando você não quer expor seus serviços externamente",
+            "feedback": "Incorreto. Tanto o Ingress quanto o Service do tipo LoadBalancer são usados para expor serviços externamente.",
+            "correct": false
+        },
+        {
+            "id": "609880cf-2857-4a69-bfcc-fddc0e2c34f7",
+            "text": "Quando você está trabalhando apenas com pods stateful",
+            "feedback": "Incorreto. O uso de Ingress ou Service do tipo LoadBalancer não está diretamente relacionado ao tipo de pod.",
+            "correct": false
+        }
+    ]
+}

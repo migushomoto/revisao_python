@@ -1,0 +1,46 @@
+{
+    "id": "35c4a31f-2d2c-4ec6-a9dc-7a5ac2baa441",
+    "SKU": "000018",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "DevOps",
+    "category": "Kubernetes",
+    "subCategory": "Monitoramento",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+        "Kubernetes",
+        "Monitoramento",
+        "Prometheus",
+        "Grafana"
+    ],
+    "text": [
+        "Como você configuraria o Prometheus para coletar métricas de monitoramento no Kubernetes?"
+    ],
+    "alternatives": [
+        {
+            "id": "fa1d7fae-3a2d-42a8-9b8f-fa8b131db7a6",
+            "text": "Usando o comando kubectl apply para aplicar um Configuration file.",
+            "feedback": "Este método é uma das formas de configurar o Prometheus no Kubernetes.",
+            "correct": true
+        },
+        {
+            "id": "f1d4e9f3-6d47-4d8a-b17b-7b7b7a48b7c1",
+            "text": "Usando o comando kubectl exec para acessar o pod do Prometheus e configurar manualmente.",
+            "feedback": "Usar o kubectl exec não é o método adequado para configurar o Prometheus.",
+            "correct": false
+        },
+        {
+            "id": "91d9d5ca-57e3-4a41-9a35-cfb0a13f1f2d",
+            "text": "Alterando o código fonte do Prometheus para coletar métricas do Kubernetes automaticamente.",
+            "feedback": "Alterar o código fonte do Prometheus não é uma prática recomendada.",
+            "correct": false
+        },
+        {
+            "id": "360c8e45-998d-4ba4-9c10-1f8f89a5475c",
+            "text": "Configurando o firewall para permitir apenas o tráfego do Prometheus.",
+            "feedback": "Configurar o firewall não configurará o Prometheus para coletar métricas do Kubernetes.",
+            "correct": false
+        }
+    ]
+}

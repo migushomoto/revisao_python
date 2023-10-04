@@ -1,0 +1,45 @@
+{
+    "id": "5a7cb9f3-139d-4a8c-8f7f-7c2f76ad7e9a",
+    "SKU": "000010",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "DevOps",
+    "category": "Kubernetes",
+    "subCategory": "Controllers",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+        "Kubernetes",
+        "Controllers"
+    ],
+    "text": [
+        "No contexto de Controllers no Kubernetes, qual a responsabilidade de um ReplicationController?",
+        "Dica: Pense em termos de pods."
+    ],
+    "alternatives": [
+        {
+            "id": "23d759ba-b3bc-4dc2-bf16-1b001317adde",
+            "text": "Garante que o número exato de réplicas de um pod esteja em execução em todos os momentos.",
+            "feedback": "Correto! O ReplicationController garante que o número exato de réplicas de um pod esteja em execução em todos os momentos.",
+            "correct": true
+        },
+        {
+            "id": "23745398-7b09-4eb3-9b2d-07b0eb2623f2",
+            "text": "Controla o roteamento de rede para os pods.",
+            "feedback": "Incorreto. O controle de roteamento de rede para os pods não é responsabilidade do ReplicationController.",
+            "correct": false
+        },
+        {
+            "id": "bc6f4e7a-877e-414a-9f25-63e2f1d6a9eb",
+            "text": "Fornece armazenamento persistente para pods.",
+            "feedback": "Incorreto. O fornecimento de armazenamento persistente para pods não é responsabilidade do ReplicationController.",
+            "correct": false
+        },
+        {
+            "id": "fbcf7a9d-65b3-4c80-9f9c-c3c6b730fc5c",
+            "text": "Monitora o desempenho dos pods.",
+            "feedback": "Incorreto. Monitorar o desempenho dos pods não é responsabilidade do ReplicationController.",
+            "correct": false
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "id": "a3b2c333-fa44-4be1-9e03-a3a1b4c5d6e7",
+    "SKU": "000034",
+    "interpreter": 1,
+    "type": "VF",
+    "language": "NA",
+    "knowledgeArea": "DevOps",
+    "category": "Kubernetes",
+    "subCategory": "Etcd Encryption",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+        "Kubernetes",
+        "Etcd",
+        "Encryption"
+    ],
+    "text": [
+        "O etcd no Kubernetes pode ser configurado para usar a criptografia para proteger os dados em repouso. Sobre a criptografia do etcd no Kubernetes, assinale as alternativas corretas."
+    ],
+    "alternatives": [
+        {
+            "id": "dddbaf16-2127-4420-ba4d-fa323e500832",
+            "text": "O etcd pode ser configurado para usar criptografia AES256.",
+            "feedback": "Correto! O etcd suporta a criptografia AES256 para proteger os dados em repouso.",
+            "correct": true
+        },
+        {
+            "id": "af4b61c3-8764-43f8-bea8-329d43bd4a87",
+            "text": "A criptografia do etcd é sempre realizada automaticamente pelo Kubernetes.",
+            "feedback": "Incorreto. A criptografia do etcd deve ser configurada explicitamente.",
+            "correct": false
+        },
+        {
+            "id": "bb001822-df7e-48f3-9f63-3125bfbc94f6",
+            "text": "O etcd usa criptografia de chave pública para proteger os dados.",
+            "feedback": "Incorreto. O etcd não usa criptografia de chave pública para proteger os dados em repouso.",
+            "correct": false
+        },
+        {
+            "id": "197d6477-d9df-45ee-808d-bce3c30efbf7",
+            "text": "A chave de criptografia do etcd deve ser gerenciada de forma segura.",
+            "feedback": "Correto! A chave de criptografia do etcd deve ser gerenciada com segurança para garantir a proteção dos dados.",
+            "correct": true
+        }
+    ]
+}

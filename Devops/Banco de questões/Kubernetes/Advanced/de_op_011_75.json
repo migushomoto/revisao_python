@@ -1,0 +1,45 @@
+{
+    "id": "f9a1fa8d-4f7c-4c15-9b7b-0a3f8e5ab3e7",
+    "SKU": "000035",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "DevOps",
+    "category": "Kubernetes",
+    "subCategory": "Vault Integration",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+        "Kubernetes",
+        "Vault",
+        "Security"
+    ],
+    "text": [
+        "Em um ambiente de integração do Kubernetes com o Vault, qual a forma mais segura e eficiente para garantir que os pods tenham acesso aos secrets?"
+    ],
+    "alternatives": [
+        {
+            "id": "60c4e72b-9aaf-4fde-93f4-9d6c5d7114ea",
+            "text": "Usando tokens de root do Vault em cada pod.",
+            "feedback": "Usar tokens de root em cada pod é uma prática insegura.",
+            "correct": false
+        },
+        {
+            "id": "5faa417e-9a44-4c08-a063-a5d52e4fcf94",
+            "text": "Permitindo acesso irrestrito aos secrets para todos os pods.",
+            "feedback": "Permitir acesso irrestrito é uma violação grave de segurança.",
+            "correct": false
+        },
+        {
+            "id": "b6fa0af9-79a0-4283-97fc-c9a214303619",
+            "text": "Usando o autenticador Kubernetes-Vault para fornecer tokens de acesso temporários.",
+            "feedback": "Esta é a abordagem mais segura, usando autenticadores específicos e tokens temporários.",
+            "correct": true
+        },
+        {
+            "id": "a2c8cfe9-68f9-4e5b-9f46-427740623b89",
+            "text": "Armazenando as credenciais em um volume compartilhado.",
+            "feedback": "Armazenar credenciais em um volume compartilhado ainda é uma prática insegura.",
+            "correct": false
+        }
+    ]
+}

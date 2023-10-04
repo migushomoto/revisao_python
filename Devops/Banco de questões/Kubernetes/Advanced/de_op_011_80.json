@@ -1,0 +1,45 @@
+{
+    "id": "1dbc7a11-87e2-4f12-8541-51ec7cbaa354",
+    "SKU": "000040",
+    "interpreter": 1,
+    "type": "VF",
+    "language": "NA",
+    "knowledgeArea": "DevOps",
+    "category": "Kubernetes",
+    "subCategory": "Ingress",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+        "Kubernetes",
+        "Ingress",
+        "DevOps"
+    ],
+    "text": [
+        "Um Ingress no Kubernetes é um API object que gerencia o acesso externo aos serviços em um cluster, expondo URLs HTTP. Você pode usar um Ingress para expor serviços de diferentes maneiras, tais como:"
+    ],
+    "alternatives": [
+        {
+            "id": "1dbc7a11-87e2-4f12-8541-51ec7cbaa354",
+            "text": "O Ingress pode expor automaticamente os serviços para serem acessados de fora do cluster Kubernetes.",
+            "feedback": "Esta afirmação é verdadeira. O Ingress expõe os serviços para serem acessados externamente ao cluster.",
+            "correct": true
+        },
+        {
+            "id": "68c69619-21f1-4ce0-aacb-cef7effcb24b",
+            "text": "O Ingress permite que você defina diferentes políticas de SSL/TLS para cada serviço.",
+            "feedback": "Esta afirmação é verdadeira. Com o Ingress, você pode definir diferentes políticas de SSL/TLS.",
+            "correct": true
+        },
+        {
+            "id": "050c2715-f607-45be-9d52-f986ae42253b",
+            "text": "O Ingress suporta balanceamento de carga externa.",
+            "feedback": "Esta afirmação é verdadeira. O Ingress oferece suporte a balanceamento de carga.",
+            "correct": true
+        },
+        {
+            "id": "0ab6005f-65f6-407a-ab57-8eb505b8c5ab",
+            "text": "O Ingress só pode expor os serviços usando URLs HTTP.",
+            "feedback": "Esta afirmação é falsa. O Ingress pode expor serviços usando URLs HTTP e HTTPS.",
+            "correct": false
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "id": "4c2ad5e3-6837-4d33-8ba1-05682d83ed61",
+    "SKU": "000019",
+    "interpreter": 1,
+    "type": "VF",
+    "language": "NA",
+    "knowledgeArea": "DevOps",
+    "category": "Kubernetes",
+    "subCategory": "Logging",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+        "Kubernetes",
+        "Logging",
+        "Monitoramento"
+    ],
+    "text": [
+        "No Kubernetes, ao configurar o sistema de registro, é fundamental que você possa acessar e analisar os logs para monitorar o comportamento dos contêineres em execução em pods. Qual das alternativas abaixo está correta em relação ao logging em Kubernetes?"
+    ],
+    "alternatives": [
+        {
+            "id": "e4500d79-0162-4d6b-bc49-c9cf4476408c",
+            "text": "O Kubernetes nativamente centraliza todos os logs.",
+            "feedback": "Kubernetes por si só não oferece uma solução nativa de agregação de logs.",
+            "correct": false
+        },
+        {
+            "id": "42294368-3a72-4b3e-b351-96b6c5a171ca",
+            "text": "Kubernetes permite a coleta de logs apenas a nível de nó.",
+            "feedback": "Kubernetes permite a coleta de logs a nível de pods e contêineres, não apenas a nível de nó.",
+            "correct": false
+        },
+        {
+            "id": "6fa847c9-493d-45a3-a3e5-16598a7d3a5f",
+            "text": "Fluentd e Elasticsearch são ferramentas irrelevantes para o logging no Kubernetes.",
+            "feedback": "Fluentd e Elasticsearch são amplamente usados em soluções de logging no Kubernetes.",
+            "correct": false
+        },
+        {
+            "id": "aee5fad6-3793-4d21-a530-590c9d332a19",
+            "text": "Os logs de um pod são preservados mesmo após ele ser excluído.",
+            "feedback": "Quando um pod é excluído, os logs associados a esse pod também são removidos.",
+            "correct": false
+        }
+    ]
+}

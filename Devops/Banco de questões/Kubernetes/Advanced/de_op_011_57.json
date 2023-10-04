@@ -1,0 +1,45 @@
+{
+    "id": "e17617a3-cd82-49e0-99db-75d6efd47031",
+    "SKU": "000017",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "DevOps",
+    "category": "Kubernetes",
+    "subCategory": "Networking",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+        "Segurança",
+        "Kubernetes",
+        "NetworkPolicies"
+    ],
+    "text": [
+        "No contexto de Kubernetes, as Network Policies são usadas para controlar o tráfego de rede entre os pods. Considere um cenário onde apenas o tráfego de um namespace específico deve ser permitido. Qual das alternativas abaixo você usaria para aplicar essa política?"
+    ],
+    "alternatives": [
+        {
+            "id": "e1503029-7865-4f99-9850-8ec0f6673638",
+            "text": "Aplicar uma NetworkPolicy que permite apenas tráfego do namespace desejado.",
+            "feedback": "Correto! Isso garantirá que apenas o tráfego do namespace especificado seja permitido.",
+            "correct": true
+        },
+        {
+            "id": "143d74c8-9496-4088-b407-95c52ad5dac9",
+            "text": "Aplicar uma NetworkPolicy que nega todo o tráfego e depois permitir individualmente.",
+            "feedback": "Isso pode funcionar, mas é uma abordagem que pode ser difícil de gerenciar.",
+            "correct": false
+        },
+        {
+            "id": "b65e414f-ad5b-4deb-88c4-cad0fd03655f",
+            "text": "Não aplicar nenhuma NetworkPolicy.",
+            "feedback": "Isso deixará os pods vulneráveis, permitindo tráfego de qualquer fonte.",
+            "correct": false
+        },
+        {
+            "id": "742ae692-45aa-49af-87c8-cfba28dc353d",
+            "text": "Usar um serviço externo para gerenciar o tráfego de rede.",
+            "feedback": "Depender de serviços externos pode não ser a melhor opção para gerenciar o tráfego dentro de um cluster Kubernetes.",
+            "correct": false
+        }
+    ]
+}

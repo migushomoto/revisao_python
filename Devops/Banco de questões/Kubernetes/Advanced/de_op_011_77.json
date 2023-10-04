@@ -1,0 +1,45 @@
+{
+    "id": "a127fc9b-86cd-4e7a-8bc1-3b8e6d1f3cfa",
+    "SKU": "000037",
+    "interpreter": 1,
+    "type": "VF",
+    "language": "NA",
+    "knowledgeArea": "DevOps",
+    "category": "Kubernetes",
+    "subCategory": "DNS",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+        "Kubernetes",
+        "DNS",
+        "Serviços"
+    ],
+    "text": [
+        "Em Kubernetes, o Sistema de Nomes de Domínio (DNS) é uma parte essencial para a comunicação entre serviços. Analise as afirmações sobre o DNS em Kubernetes e selecione as verdadeiras."
+    ],
+    "alternatives": [
+        {
+            "id": "77e4c8a5-2d27-4e91-bc81-350f51e6b0a0",
+            "text": "Kubernetes automaticamente cria registros DNS para serviços e pods.",
+            "feedback": "Correto! O Kubernetes provê um DNS interno para criar registros automaticamente para serviços e para alguns tipos de pods.",
+            "correct": true
+        },
+        {
+            "id": "42e1be53-07db-44e2-9368-3a0ac3b7d183",
+            "text": "O DNS em Kubernetes só funciona para serviços do tipo ClusterIP.",
+            "feedback": "Incorreto. O DNS em Kubernetes não está limitado apenas a serviços do tipo ClusterIP.",
+            "correct": false
+        },
+        {
+            "id": "2b892a3a-c6f1-4c5a-a08d-48b6e0d07ef2",
+            "text": "Kubelet é o serviço responsável por gerenciar o DNS em um cluster Kubernetes.",
+            "feedback": "Incorreto. Kubelet não é responsável pelo gerenciamento do DNS. Em geral, é o CoreDNS ou o Kube-DNS que cuidam do serviço DNS dentro do cluster.",
+            "correct": false
+        },
+        {
+            "id": "1c91d1e6-b7dc-4992-9fe4-e761f0b7e017",
+            "text": "O DNS do Kubernetes resolve nomes de serviço para seus respectivos IPs de Cluster.",
+            "feedback": "Correto! O DNS interno do Kubernetes ajuda a resolver nomes de serviços para seus IPs de Cluster.",
+            "correct": true
+        }
+    ]
+}

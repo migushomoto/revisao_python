@@ -1,0 +1,45 @@
+{
+    "id": "2d5e8a1f-1a3a-4d5a-a9b4-cd7e8f6f8701",
+    "SKU": "000022",
+    "interpreter": 1,
+    "type": "VF",
+    "language": "NA",
+    "knowledgeArea": "DevOps",
+    "category": "Kubernetes",
+    "subCategory": "CNI",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+        "Kubernetes",
+        "CNI",
+        "Rede"
+    ],
+    "text": [
+        "No contexto do Kubernetes, CNI (Container Network Interface) é uma especificação que define como as soluções de rede devem se comportar. Com relação ao CNI, analise as afirmativas abaixo:"
+    ],
+    "alternatives": [
+        {
+            "id": "b7a825bb-1e32-4e42-8e65-a9d19e89e9e0",
+            "text": "CNI é responsável apenas pela alocação de IP para os pods.",
+            "feedback": "O CNI não é responsável apenas pela alocação de IP, ele também gerencia a conexão dos pods com a rede.",
+            "correct": false
+        },
+        {
+            "id": "68b5b58b-e60d-4ee0-972f-2a0e1d0f6482",
+            "text": "O CNI permite que os plugins de rede sejam trocados sem a necessidade de modificar o Kubernetes.",
+            "feedback": "Correto, o CNI permite que diferentes soluções de rede sejam utilizadas sem a necessidade de modificar o Kubernetes.",
+            "correct": true
+        },
+        {
+            "id": "f0ea845a-7690-466b-8f36-b31e5703c55a",
+            "text": "O CNI não permite a comunicação entre diferentes pods.",
+            "feedback": "Falso, o CNI permite e gerencia a comunicação entre diferentes pods.",
+            "correct": false
+        },
+        {
+            "id": "2bb4c6c2-fa63-4418-b6d2-35b5b4df8dc7",
+            "text": "CNI define a interface entre redes de contêineres e o runtime de contêineres no Kubernetes.",
+            "feedback": "Correto, o CNI define a interface entre as redes de contêineres e o runtime de contêineres no Kubernetes.",
+            "correct": true
+        }
+    ]
+}

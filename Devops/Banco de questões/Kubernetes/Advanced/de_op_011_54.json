@@ -1,0 +1,46 @@
+{
+    "id": "45a2b67c-7d2b-467f-938e-3e83f971d590",
+    "SKU": "000014",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "DevOps",
+    "category": "Kubernetes",
+    "subCategory": "Backup",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+        "Kubernetes",
+        "Backup",
+        "Etcd",
+        "Stash"
+    ],
+    "text": [
+        "Suponha que você seja o administrador do cluster Kubernetes de uma empresa. Seu chefe pede para você implementar uma solução de backup para todos os recursos do cluster. Qual das seguintes ferramentas é recomendada para executar backups de um cluster Kubernetes?"
+    ],
+    "alternatives": [
+        {
+            "id": "1a5c2d6e-0704-4db9-a56f-56e23479c8f9",
+            "text": "Stash",
+            "feedback": "Correto! Stash é uma ferramenta popular para backup e restauração de aplicações Kubernetes.",
+            "correct": true
+        },
+        {
+            "id": "5b4c3f8d-e12f-409c-9f19-4e7d5a12d234",
+            "text": "Docker Compose",
+            "feedback": "Docker Compose é usado para definir e executar aplicações multi-container Docker, não é uma ferramenta de backup para Kubernetes.",
+            "correct": false
+        },
+        {
+            "id": "87c4f4ea-0b36-4f8e-937a-95a169b2b3d3",
+            "text": "kubectl save",
+            "feedback": "O comando 'kubectl save' não existe. O kubectl não possui um comando nativo para backups.",
+            "correct": false
+        },
+        {
+            "id": "0a5f9c64-c3c8-489e-9b8f-0726c10377fb",
+            "text": "etcd backup",
+            "feedback": "O etcd possui suas próprias ferramentas de backup e restauração, mas não cobre todos os recursos de um cluster Kubernetes.",
+            "correct": false
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "id": "a5270aa8-9aa6-48a7-83c7-3e12e441a432",
+    "SKU": "000038",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "DevOps",
+    "category": "Kubernetes",
+    "subCategory": "API server",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+        "API server",
+        "Kubernetes",
+        "DevOps"
+    ],
+    "text": [
+        "No contexto do Kubernetes, qual das seguintes afirmações sobre o servidor de API é verdadeira?"
+    ],
+    "alternatives": [
+        {
+            "id": "e1d4568e-cdc6-4a60-8a76-f72d4922e2e2",
+            "text": "O servidor de API executa todas as tarefas no cluster.",
+            "feedback": "Esta afirmação é falsa. O servidor de API serve como um ponto de entrada para comandos, mas não executa tarefas no cluster.",
+            "correct": false
+        },
+        {
+            "id": "ef7f5b7e-fbdc-47a7-a36a-75518fea7e3b",
+            "text": "O servidor de API não permite comunicação entre os componentes do cluster.",
+            "feedback": "Esta afirmação é falsa. O servidor de API facilita a comunicação entre os componentes do cluster.",
+            "correct": false
+        },
+        {
+            "id": "d7f2a807-45c7-49df-a7f9-e044c4f22e64",
+            "text": "O servidor de API serve como um gateway para a API do Kubernetes.",
+            "feedback": "Esta afirmação é verdadeira. O servidor de API atua como um gateway para a API do Kubernetes, permitindo que os usuários e outros componentes do cluster interajam com o cluster.",
+            "correct": true
+        },
+        {
+            "id": "d9e7f1a2-6a3c-4d31-a8c4-7d6ce44d2f9c",
+            "text": "O servidor de API armazena dados persistentes do cluster.",
+            "feedback": "Esta afirmação é falsa. O servidor de API não armazena dados persistentes; essa tarefa é realizada pelo etcd.",
+            "correct": false
+        }
+    ]
+}

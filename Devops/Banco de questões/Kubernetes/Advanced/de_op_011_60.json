@@ -1,0 +1,44 @@
+{
+    "id": "f9a16c4e-24ad-4b1c-a9de-8ffaed508fa2",
+    "SKU": "000020",
+    "interpreter": 1,
+    "type": "VF",
+    "language": "NA",
+    "knowledgeArea": "DevOps",
+    "category": "Kubernetes",
+    "subCategory": "Networking",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+        "Kubernetes",
+        "Networking"
+    ],
+    "text": [
+        "No Kubernetes, um Service do tipo NodePort é a única maneira de permitir acesso externo aos Pods."
+    ],
+    "alternatives": [
+        {
+            "id": "0c3559d3-dfb9-4516-8a1b-1a0aad2d9e06",
+            "text": "Um Service do tipo LoadBalancer pode ser usado para expor um Pod diretamente, sem a necessidade de um Service NodePort.",
+            "feedback": "Esta declaração é verdadeira. Um Service do tipo LoadBalancer também pode ser usado para permitir acesso externo aos Pods, não apenas um Service NodePort.",
+            "correct": false
+        },
+        {
+            "id": "127bfc88-a7b2-4b2a-97bb-49f8ed914b48",
+            "text": "O tipo NodePort é o único que pode abrir uma porta específica no nó onde o Pod está sendo executado.",
+            "feedback": "Isso é falso. Outros tipos de Service, como o LoadBalancer, também podem permitir acesso externo aos Pods através de portas",
+            "correct": false
+        },
+        {
+            "id": "6e9cf8e9-9632-4029-b4b1-df47a14fde76",
+            "text": "Um Service do tipo NodePort é automaticamente criado quando você cria um Service do tipo LoadBalancer.",
+            "feedback": "Isso é verdade, um Service NodePort é criado automaticamente ao criar um Service do tipo LoadBalancer, mas não é a única maneira de permitir acesso externo aos Pods.",
+            "correct": false
+        },
+        {
+            "id": "8ec7a5e3-4673-41e3-812c-6277a74d8474",
+            "text": "Um Service do tipo NodePort não pode encaminhar tráfego baseado no caminho da URL.",
+            "feedback": "Isso é verdade, mas outros métodos também podem ser usados para permitir acesso externo aos Pods, como o Service do tipo LoadBalancer.",
+            "correct": false
+        }
+    ]
+}
