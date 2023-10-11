@@ -1,0 +1,45 @@
+{
+    "SKU": "DE-OP-007",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "id": "5626219a-673d-4d32-9b4f-03f4bdd30252",
+    "knowledgeArea": "DevOps",
+    "category": "Conteinerização",
+    "subCategory": "Virtualização",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+      "container",
+      "virtualização",
+      "introdução"
+    ],
+    "text": [
+      "Na instrução RUN é possivel usar a opção --network, RUN --network permite controlar em qual ambiente de rede o comando é executado. Quais são os 3 tipos suportados?"
+    ],
+    "alternatives": [
+      {
+        "text": "default, none e host",
+        "feedback": "https://docs.docker.com/engine/reference/builder/#run---network",
+        "correct": true,
+        "id": "46a25a48-2b68-4cec-b6a5-867c19accf5e"
+      },
+      {
+        "text": "default, bridge e net1",
+        "feedback": "",
+        "correct": false,
+        "id": "f71ee4b1-05a1-4d09-bd5c-149c8b511152"
+      },
+      {
+        "text": "host e bridge",
+        "feedback": "",
+        "correct": false,
+        "id": "934a7198-93a6-4b39-a8fc-27a410a868b7"
+      },
+      {
+        "text": "none, net1, e host",
+        "feedback": "",
+        "correct": false,
+        "id": "44754f1f-5596-40c3-9739-c25ca25ae85b"
+      }
+    ]
+  }

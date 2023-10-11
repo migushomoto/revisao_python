@@ -4,14 +4,15 @@
     "interpreter": 1,
     "type": "MULT",
     "language": "NA",
+    "id": "f45af31c-193b-4aab-95f9-ed10e1359a17",
     "knowledgeArea": "DevOps",
-    "category": "Conteinerização",
-    "subCategory": "Virtualização",
+    "category": "docker",
+    "subCategory": "compose",
     "level": "Advanced",
     "tagsOrConcepts": [
-      "container",
-      "virtualização",
-      "introdução"
+      "docker",
+      "compose",
+      "containers"
     ],
     "text": [
       "Qual das opções abaixo descreve uma diferença entre Compose V1 e Compose V2?"
@@ -19,27 +20,27 @@
     "alternatives": [
       {
         "text": "Somente usando Compose V1 é possível utilizar Mutistage.",
-        "feedback": "",
+        "feedback": "Multistage está relacionada ao Dockerfile e não tem relação com o client compose. ",
         "correct": false,
-        "id": ""
+        "id": "0715ea74-8f0a-48c1-83a9-3973a36eeb72"
       },
       {
         "text": "Ao contrario do Compose V1, o Compose V2 integra-se à plataforma Docker CLI e oferece sintaxe de linha de comando recomendada.",
-        "feedback": "",
-        "correct": false,
-        "id": ""
+        "feedback": "Correto, No compose V2 é possivel obter sintaxes recomendadas.",
+        "correct": true,
+        "id": "a6c4d035-06b2-478d-b621-828a4b8fd221"
       },
       {
         "text": "Com compose V2 é capaz de inicializar o container em menos tempo.",
-        "feedback": "",
+        "feedback": "A versão do compose não tem relação com o tempo de inicialização.",
         "correct": false,
-        "id": ""
+        "id": "8682db84-c795-4fa1-a65e-26e68877855e"
       },
       {
         "text": "Não existem diferenças de funcionalidades, Compose V2 apenas foi incrementado features de segurança.",
-        "feedback": "",
+        "feedback": "Existem algumas diferenças, maiores detalhes podem ser vistos no link: https://docs.docker.com/compose/migrate/#what-are-the-differences-between-compose-v1-and-compose-v2",
         "correct": false,
-        "id": ""
+        "id": "9bd5033d-254c-4ebb-b11f-edde1298f573"
       }
     ]
   }

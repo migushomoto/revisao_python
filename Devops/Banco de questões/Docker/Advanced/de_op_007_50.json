@@ -4,14 +4,15 @@
     "interpreter": 1,
     "type": "MULT",
     "language": "NA",
+    "id": "59799cae-7706-4888-810b-2e940340c803",
     "knowledgeArea": "DevOps",
-    "category": "Conteinerização",
-    "subCategory": "Virtualização",
+    "category": "docker",
+    "subCategory": "compose",
     "level": "Advanced",
     "tagsOrConcepts": [
       "container",
-      "virtualização",
-      "introdução"
+      "docker",
+      "compose"
     ],
     "text": [
       "Qual dos comandos abaixo não é mais suportado no Compose V2?"
@@ -19,27 +20,27 @@
     "alternatives": [
       {
         "text": "docker compose build",
-        "feedback": "",
+        "feedback": "Este é um comando base, e obviamente continua funcionando.",
         "correct": false,
-        "id": ""
+        "id": "17b8c495-8827-4b13-b156-820287889fb8"
       },
       {
         "text": "docker compose up --scale",
-        "feedback": "",
+        "feedback": "Este é um comando para ser utilizado no compose V2.",
         "correct": false,
-        "id": ""
+        "id": "d5ea3786-9ec7-4369-8854-7c561a887d4d"
       },
       {
         "text": "docker compose scale",
-        "feedback": "https://docs.docker.com/compose/migrate/#how-do-i-switch-to-compose-v2",
+        "feedback": "Correto, este comando não é mais suportado, ao invés disso, utilize docker compose up --scale, mais detalhes:https://docs.docker.com/compose/migrate/#how-do-i-switch-to-compose-v2",
         "correct": true,
-        "id": ""
+        "id": "7662f621-e0b2-4857-8d05-743e9d206880"
       },
       {
         "text": "docker compose top",
-        "feedback": "",
+        "feedback": "docker compose top funciona em ambas versões.",
         "correct": false,
-        "id": ""
+        "id": "3d261176-d8ab-47d5-910e-60f276b7de74"
       }
     ]
   }

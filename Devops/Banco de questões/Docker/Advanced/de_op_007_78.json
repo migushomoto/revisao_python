@@ -1,0 +1,46 @@
+{
+    "SKU": "DE-OP-007",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "id": "fd2502b1-d0b2-46e0-9aa0-c31acc79c11b",
+    "knowledgeArea": "DevOps",
+    "category": "Conteinerização",
+    "subCategory": "Virtualização",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+      "container",
+      "virtualização",
+      "introdução"
+    ],
+    "text": [
+      "A instrução USER define o nome de usuário (ou UID) e, opcionalmente, o grupo de usuários (ou GID) a ser usado como usuário e grupo padrão para o restante do estágio atual. O usuário especificado é usado para instruções RUN e, em tempo de execução, executa os comandos ENTRYPOINT e CMD relevantes.",
+      "{{GAP}} a sintaxe USER <user>[:<group>] é valida somente para containers Linux, qual seria o comando equivalente para containers Windows?"
+    ],
+    "alternatives": [
+      {
+        "text": "RUN grant user /add patrick Seguido da instrução USER patrick",
+        "feedback": "",
+        "correct": false,
+        "id": "36ae4ce7-7b28-4998-92af-d628172d8b0f"
+      },
+      {
+        "text": "ADD chown user /add patrick Seguido da instrução USER patrick",
+        "feedback": "",
+        "correct": false,
+        "id": "71bbe04a-0e27-440c-9eec-d7aece8f18ce"
+      },
+      {
+        "text": "ADD net user /add patrick Seguido da instrução USER add patrick",
+        "feedback": "",
+        "correct": false,
+        "id": "c27eedfb-8555-4220-8e75-918e6321701f"
+      },
+      {
+        "text": "RUN net user /add patrick Seguido da instrução USER patrick",
+        "feedback": "No Windows, o usuário deve ser criado primeiro se não for uma conta integrada. Isso pode ser feito com o comando net user chamado como parte de um Dockerfile.",
+        "correct": true,
+        "id": "04ae9628-ed1a-4373-b9f4-2e026bc71d4a"
+      }
+    ]
+  }

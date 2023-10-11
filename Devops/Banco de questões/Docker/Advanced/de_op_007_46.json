@@ -4,14 +4,14 @@
     "interpreter": 1,
     "type": "MULT",
     "language": "NA",
+    "id": "fdf97282-132d-4884-ac11-ee94d125a826",
     "knowledgeArea": "DevOps",
     "category": "Conteinerização",
-    "subCategory": "Virtualização",
+    "subCategory": "linguagem",
     "level": "Advanced",
     "tagsOrConcepts": [
-      "container",
-      "virtualização",
-      "introdução"
+      "docker",
+      "linguagem"
     ],
     "text": [
       "Docker é escrito em qual linguagem?"
@@ -21,25 +21,25 @@
         "text": "Nodejs",
         "feedback": "",
         "correct": false,
-        "id": ""
+        "id": "c964cfc4-bfdd-4450-94e7-b9aec6e3105d"
       },
       {
         "text": "Golang",
         "feedback": "",
         "correct": true,
-        "id": ""
+        "id": "0a9411ef-da48-4b3b-a88e-914edfcb4c3d"
       },
       {
         "text": "Java",
         "feedback": "",
         "correct": false,
-        "id": ""
+        "id": "2d14c794-7ec4-4bde-a5a2-876e92bd9a16"
       },
       {
         "text": "Javascript",
         "feedback": "",
         "correct": false,
-        "id": ""
+        "id": "18fcef53-e317-4519-988a-ee49be065020"
       }
     ]
   }

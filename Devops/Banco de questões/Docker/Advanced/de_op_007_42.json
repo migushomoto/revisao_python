@@ -3,42 +3,43 @@
     "interpreter": 1,
     "type": "MULT",
     "language": "NA",
+    "id": "e017d1ec-03ba-443a-b2f3-bee3b9a3aeea",
     "knowledgeArea": "DevOps",
-    "category": "Conteinerização",
-    "subCategory": "Virtualização",
+    "category": "docker",
+    "subCategory": "Layers",
     "level": "Advanced",
     "tagsOrConcepts": [
-      "container",
-      "virtualização",
-      "introdução"
+      "docker",
+      "camadas",
+      "containers"
     ],
     "text": [
-      "Qual é a finalidade da camada de sistema de arquivos de um contêiner Docker?"
+      "Usando o comando \"docker builder prune\" é remove caches de build, mas é possivel remover esses build caches periodicamente configurando o Build garbage collection. Como o Build garbage collection funciona?"
     ],
     "alternatives": [
       {
-        "text": "Armazenar o sistema operacional do host.",
-        "feedback": "",
+        "text": "Build garbage collection é executado no daemon BuildKit. O daemon limpa o cache de build quando um container é iniciado.",
+        "feedback": "Build garbage collection é executado no daemon BuildKit, mas não quando um container é iniciado.",
         "correct": false,
-        "id": ""
+        "id": "9cdddff6-c13e-4ff1-95b7-0d96c3f8ffa9"
       },
       {
-        "text": "Armazenar apenas os dados do aplicativo do contêiner.",
-        "feedback": "",
+        "text": "Build garbage collection é executado no daemon BuildKit. O daemon limpa o cache de build quando o tamanho do cache fica muito grande ou quando a idade do cache expira.",
+        "feedback": "Correto, o Build garbage collection é configurado no daemon.",
         "correct": true,
-        "id": ""
+        "id": "59bcad46-8db7-47b9-b61c-0b286728740e"
       },
       {
-        "text": "Armazenar todos os arquivos do contêiner.",
-        "feedback": "",
+        "text": "Build garbage collection é executado no docker client. O docker limpa o cache de build quando um container é iniciado..",
+        "feedback": "Build garbage collection é executado e configurado no daemon BuildKit, e não no docker cliente",
         "correct": false,
-        "id": ""
+        "id": "f6e7b4ac-b986-4da9-9579-5633047b9e86"
       },
       {
-        "text": "Armazenar os binários do Docker.",
-        "feedback": "",
+        "text": "Build garbage collection é executado no docker client. O docker  limpa o cache de build quando o tamanho do cache fica muito grande ou quando a idade do cache expira.",
+        "feedback": "Build garbage collection é executado e configurado no daemon BuildKit, e não no docker cliente",
         "correct": false,
-        "id": ""
+        "id": "68a77d44-3a56-4c92-a8c9-0fd59910d3c8"
       }
     ]
   }

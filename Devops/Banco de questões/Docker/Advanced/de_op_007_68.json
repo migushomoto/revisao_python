@@ -1,0 +1,46 @@
+
+{
+    "SKU": "DE-OP-007",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "id": "c8e46463-feb0-4d95-9fab-46ef915dd09d",
+    "knowledgeArea": "DevOps",
+    "category": "Conteinerização",
+    "subCategory": "Virtualização",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+      "container",
+      "virtualização",
+      "introdução"
+    ],
+    "text": [
+      "Quais os passos do comando docker run -i -t ubuntu /bin/bash? Assumindo que você esteja usando a configuração padrão do Registry."
+    ],
+    "alternatives": [
+      {
+        "text": "1- docker cria uma interface de rede para conectar o container à rede padrão. 2- pull da image(se nao existir local). 3- Cria uma nova image. 4- Docker alocata um filesystem(read-only) ao container. 5- Docker inicia o container e executa o comando /bin/bash",
+        "feedback": "",
+        "correct": false,
+        "id": "b2392ae1-78fa-46a4-9731-5eb0ebd6063c"
+      },
+      {
+        "text": "1- docker cria uma interface de rede para conectar o container à rede padrão. 2- pull da image(se nao existir local). 3- Cria um novo container. 4- Docker alocata um filesystem(read-only) a imagem. 5- Docker inicia o container e executa o comando /bin/bash",
+        "feedback": "",
+        "correct": false,
+        "id": "b07f60d9-3b21-46d3-b887-25131ffff416"
+      },
+      {
+        "text": "1- Cria um novo container. 2- pull da image(se nao existir local). 3- Docker alocata um filesystem(read-only) ao container. 4- docker cria uma interface de rede para conectar o container à rede padrão. 5- Docker inicia o container e executa o comando /bin/bash",
+        "feedback": "",
+        "correct": false,
+        "id": "fdcb4de1-086e-412e-abcd-601684f141aa"
+      },
+      {
+        "text": "1- pull da image(se nao existir local). 2- Cria um novo container.3. Docker alocata um filesystem(read-write) ao container. 4- docker cria uma interface de rede para conectar o container à rede padrão. 5- Docker inicia o container e executa o comando /bin/bash",
+        "feedback": "https://docs.docker.com/get-started/overview/#example-docker-run-command",
+        "correct": true,
+        "id": "a31162c5-affe-4611-9904-87a27baa8373"
+      }
+    ]
+  }

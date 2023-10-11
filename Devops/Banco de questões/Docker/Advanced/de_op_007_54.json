@@ -4,6 +4,7 @@
     "interpreter": 1,
     "type": "MULT",
     "language": "NA",
+    "id": "e23572f5-e84c-4b12-8d69-593dee462876",
     "knowledgeArea": "DevOps",
     "category": "Conteinerização",
     "subCategory": "Virtualização",
@@ -19,27 +20,28 @@
     "alternatives": [
       {
         "text": "Reduza o tamanho da imagem usando compression no arquivos copiados.",
-        "feedback": "",
+        "feedback": "Opção incorreta.",
         "correct": false,
-        "id": ""
+        "id": "1c077b8e-d88c-410e-ba2a-7302b2964114"
       },
       {
         "text": "Tente reduzir o número de camadas em sua imagem minimizando o número de comandos RUN separados em seu Dockerfile",
-        "feedback": "https://docs.docker.com/develop/dev-best-practices/#how-to-keep-your-images-small",
+        "feedback": "Correto. Esta é uma boa pratica, diminui o numero de camadas, e consequentemente o tamanho da iamgem. Mais em:https://docs.docker.com/develop/dev-best-practices/#how-to-keep-your-images-small",
         "correct": true,
-        "id": ""
+        "id": "5540d4fb-b401-4b08-9648-9d15e0d684b2"
+       
       },
       {
         "text": "Utilize Entrypoint ao inves de CMD",
-        "feedback": "",
+        "feedback": "Entrypoint e cmd não irão afetar no tamanho da imagem.",
         "correct": false,
-        "id": ""
+        "id": "4175e8bb-2879-48cc-976c-43286dd05aea"
       },
       {
         "text": "Tente reduzir o numero de arquivos copiados no comando COPY",
-        "feedback": "",
+        "feedback": "Não copiar arquivos desnecessários é uma premissa do docker.",
         "correct": false,
-        "id": ""
+        "id": "c0841b8f-25b0-4bcf-b417-41de5516d7c6"
       }
     ]
   }

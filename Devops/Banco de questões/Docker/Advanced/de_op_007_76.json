@@ -1,0 +1,45 @@
+{
+    "SKU": "DE-OP-007",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "id": "f57e6aec-7373-4e7a-8177-6ea357cd3da9",
+    "knowledgeArea": "DevOps",
+    "category": "Conteinerização",
+    "subCategory": "Virtualização",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+      "container",
+      "virtualização",
+      "introdução"
+    ],
+    "text": [
+      "Considerando a instrução ENV do Dockerfile, se acessarmos o container e verificarmos o valor das variaveis, qual será o resultado para a instrução: ENV MY_DOG=\"Rex\\ The\\ Dog \" MY_CAT=\"fluffy\""
+    ],
+    "alternatives": [
+      {
+        "text": "MY_DOG=Rex The Dog  MY_CAT=fluffy",
+        "feedback": "",
+        "correct": true,
+        "id": "2baf311c-dbdf-4eeb-98d8-de402dd47c56"
+      },
+      {
+        "text": "Será reproduzido erro, não é possivel inserir multipla variáveis no mesmo ENV",
+        "feedback": "",
+        "correct": false,
+        "id": "cf40acbd-53b4-43f4-994b-05d5f99a1e02"
+      },
+      {
+        "text": "MY_DOG=RexTheDog MY_CAT=fluffy",
+        "feedback": "",
+        "correct": true,
+        "id": "c1151ad5-f76e-4664-b88a-3550221d3736"
+      },
+      {
+        "text": "MY_DOG='' MY_CAT=fluffy",
+        "feedback": "",
+        "correct": false,
+        "id": "d0003ea6-3888-459c-bf9d-92bbfa4fdc31"
+      }
+    ]
+  }

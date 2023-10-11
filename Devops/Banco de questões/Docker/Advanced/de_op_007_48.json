@@ -4,14 +4,15 @@
     "interpreter": 1,
     "type": "MULT",
     "language": "NA",
+    "id": "d1ce9107-a91e-434f-b456-710271c775fc",
     "knowledgeArea": "DevOps",
     "category": "Conteinerização",
-    "subCategory": "Virtualização",
+    "subCategory": "bake",
     "level": "Advanced",
     "tagsOrConcepts": [
-      "container",
-      "virtualização",
-      "introdução"
+      "docker",
+      "buildx",
+      "bake"
     ],
     "text": [
       "O que faz o comando 'docker buildx bake...'?"
@@ -21,25 +22,25 @@
         "text": "Não existe o comando bake no docker buildx.",
         "feedback": "",
         "correct": false,
-        "id": ""
+        "id": "6639b2c2-b284-43f6-aa65-bc3a4cfc5958"
       },
       {
         "text": "Faz o build com mapeamento automatico de redes entre serviços.",
         "feedback": "",
         "correct": false,
-        "id": ""
+        "id": "1634ef05-bd37-415b-9098-95c1683fceab"
       },
       {
         "text": "Permite build de imagem a partir de um arquivo(HCL,JSON,YAML) com execução simultanea de serviços.",
         "feedback": "",
         "correct": true,
-        "id": ""
+        "id": "a577e576-1680-4042-8625-33a13876bedf"
       },
       {
         "text": "Possibilita a construção de imagens menores.",
         "feedback": "",
         "correct": false,
-        "id": ""
+        "id": "172bb59d-6a13-4c24-8d7b-c3cc95d78fd4"
       }
     ]
   }

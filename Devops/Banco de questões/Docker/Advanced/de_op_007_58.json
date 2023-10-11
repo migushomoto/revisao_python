@@ -4,6 +4,7 @@
     "interpreter": 1,
     "type": "MULT",
     "language": "NA",
+    "id": "5bf0af7b-dc5a-422a-88f8-607ec2cd9464",
     "knowledgeArea": "DevOps",
     "category": "Conteinerização",
     "subCategory": "Virtualização",
@@ -21,25 +22,25 @@
         "text": "Configurando o firewall do host para bloquear a comunicação externa.",
         "feedback": "",
         "correct": false,
-        "id": ""
+        "id": "9287be5b-2144-4b00-843c-1fd85c633c3e"
       },
       {
         "text": "Não é possível criar uma rede restrita apenas à rede local do host em Docker.",
         "feedback": "",
         "correct": true,
-        "id": ""
+        "id": "40494625-f5b3-472f-8adc-a3bafe5abed4"
       },
       {
         "text": "Definindo as regras de comunicação no arquivo de configuração do Docker.",
         "feedback": "",
         "correct": false,
-        "id": ""
+        "id": "83095183-8b6d-4687-8861-8977f61fc042"
       },
       {
         "text": "Usando a opção --local-only ao criar a rede.",
         "feedback": "",
         "correct": false,
-        "id": ""
+        "id": "98ceb028-6480-49f3-b4ee-1cb35202537b"
       }
     ]
   }

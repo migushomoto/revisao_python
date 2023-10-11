@@ -1,0 +1,45 @@
+ {
+    "SKU": "DE-OP-007",
+    "interpreter": 1,
+    "type": "VF",
+    "language": "NA",
+    "id": "5adf87f1-e65a-4d0e-93ca-3c555f1235b9",
+    "knowledgeArea": "DevOps",
+    "category": "Conteinerização",
+    "subCategory": "Virtualização",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+      "container",
+      "virtualização",
+      "introdução"
+    ],
+    "text": [
+      "Em relação a comunicação entre o docker client e o docker daemon, asssinale Verdadeiro ou Falso."
+    ],
+    "alternatives": [
+      {
+        "text": "O docker client e o daemon se comunicam via soap, por meio de soquetes windows ou de uma interface de rede",
+        "feedback": "",
+        "correct": false,
+        "id": "66ec21e9-6d53-42cb-814c-0bf16a274a41"
+      },
+      {
+        "text": "O docker client e o daemon se comunicam via rest api, por meio de soquetes unix ou de uma interface de rede",
+        "feedback": "https://docs.docker.com/get-started/overview/#the-underlying-technology",
+        "correct": true,
+        "id": "66827694-d5e5-4f41-b580-6c9c6faae9a0"
+      },
+      {
+        "text": "O docker client pode se comunicar com um ou mais daemon.",
+        "feedback": "",
+        "correct": true,
+        "id": "ce3254d6-3e01-4d0f-8d01-ef2e2fdba260"
+      },
+      {
+        "text": "O docker client pode se comunicar somente com um docker daemon.",
+        "feedback": "",
+        "correct": false,
+        "id": "b4d14ee0-f949-45ae-90c0-af8a14f7115d"
+      }
+    ]
+  }

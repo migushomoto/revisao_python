@@ -4,14 +4,15 @@
     "interpreter": 1,
     "type": "VF",
     "language": "NA",
+    "id": "a8b08a66-397e-41ec-9f13-865031962c98",
     "knowledgeArea": "DevOps",
-    "category": "Conteinerização",
-    "subCategory": "Virtualização",
+    "category": "Docker",
+    "subCategory": "contêiner",
     "level": "Advanced",
     "tagsOrConcepts": [
       "container",
-      "virtualização",
-      "introdução"
+      "docker",
+      "kernel"
     ],
     "text": [
       "Assinale as opções abaixo como Verdadeiro ou Falso."
@@ -19,27 +20,27 @@
     "alternatives": [
       {
         "text": "No Docker, é possível mapear uma porta de um contêiner para uma porta diferente no host usando a opção -p ao iniciar um contêiner.",
-        "feedback": "",
+        "feedback": "Esta flag, especifica a porta do container, e é possivel mapear uma porta diferente para o host.",
         "correct": true,
-        "id": ""
+        "id": "1cf805af-9fc1-4925-8443-09aedb293e53"
       },
       {
         "text": "O Docker usa o mesmo kernel do host para isolar contêineres, o que significa que cada contêiner tem seu próprio kernel.",
-        "feedback": "",
+        "feedback": "Falso, para isolar containers o docker usa namespaces.",
         "correct": false,
-        "id": ""
+        "id": "929572bb-7e0f-4fb1-ac58-8a3579cf77d8"
       },
       {
         "text": "O comando docker stop encerra imediatamente um contêiner em execução, independentemente de qualquer processo em andamento dentro do contêiner.",
-        "feedback": "",
+        "feedback": "Correto, uma vez executado o comando stop, o docker inicia o processo de stop imediatamente.",
         "correct": true,
-        "id": ""
+        "id": "d5185052-5019-4d4f-8798-ac28fd7ddf56"
       },
       {
-        "text": "Ao usar volumes Docker, os dados são armazenados apenas no sistema de arquivos do host e não dentro do contêiner.",
-        "feedback": "",
+        "text": "Ao usar volumes Docker, os dados são armazenados apenas no filesystem do host e não dentro do contêiner.",
+        "feedback": "Falso. Ao utilizar volumes é possivel persistir dados, mas nem todos dados do container são armazenados no filesystem.",
         "correct": false,
-        "id": ""
+        "id": "e15d96f0-0967-4c68-a612-4513ac6ec852"
       }
     ]
   }

@@ -4,6 +4,7 @@
     "interpreter": 1,
     "type": "MULT",
     "language": "NA",
+    "id": "74e1362a-3674-4b80-b6e4-4a973776946d",
     "knowledgeArea": "DevOps",
     "category": "Conteinerização",
     "subCategory": "Virtualização",
@@ -21,25 +22,25 @@
         "text": "Garantir a integridade dos dados em cache, além da criptografia dos dados em transito.",
         "feedback": "",
         "correct": false,
-        "id": ""
+        "id": "37bf92e9-762e-4e0f-9780-bc92f5fb69b5"
       },
       {
         "text": "Construir builds mais rapidos, e com menor tamanho.",
         "feedback": "",
         "correct": false,
-        "id": ""
+        "id": "760d1785-5138-42bb-bb8e-2075c14bb0f1"
       },
       {
         "text": "Possibilita o compartilhamento de disco persistentes entre mais de um container.",
         "feedback": "",
         "correct": false,
-        "id": ""
+        "id": "6e0639fd-39f9-4374-a2dd-b29bc0474d62"
       },
       {
         "text": "Permite inspecionar uma imagem e ver de onde ela vem, quem a criou e como, e o que ela contém.",
         "feedback": "https://docs.docker.com/build/attestations/",
         "correct": true,
-        "id": ""
+        "id": "91cd31c4-4621-44cf-b0b8-7816f0ac536d"
       }
     ]
   }

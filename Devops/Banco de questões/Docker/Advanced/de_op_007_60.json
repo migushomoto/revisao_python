@@ -4,6 +4,7 @@
     "interpreter": 1,
     "type": "MULT",
     "language": "NA",
+    "id": "6adc7823-ef3c-47d5-bc8c-4901770a5d7e",
     "knowledgeArea": "DevOps",
     "category": "Conteinerização",
     "subCategory": "Virtualização",
@@ -21,25 +22,25 @@
         "text": "Acelerar o download de imagens Docker da Internet.",
         "feedback": "",
         "correct": false,
-        "id": ""
+        "id": "e9dc3a47-053a-4199-8153-b2a8b4ed190e"
       },
       {
         "text": "Verificar a integridade e autenticidade das imagens Docker usando assinaturas digitais.",
         "feedback": "",
         "correct": true,
-        "id": ""
+        "id": "a99abe9e-7ac9-45a0-afd6-51cad6b9b8ba"
       },
       {
         "text": "Impedir que os contêineres Docker sejam executados em hosts não confiáveis.",
         "feedback": "",
         "correct": false,
-        "id": ""
+        "id": "a19c3112-22fd-4914-ae7b-402a014605e2"
       },
       {
         "text": "Garantir que todos os contêineres Docker sejam confiáveis e seguros.",
         "feedback": "",
         "correct": false,
-        "id": ""
+        "id": "4b6c1999-0120-44e0-b680-e81265466ee0"
       }
     ]
   }
