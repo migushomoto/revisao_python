@@ -6,32 +6,32 @@
     "id": "0f7fc143-39ad-4975-a132-912e004b75aa",
     "knowledgeArea": "DevOps",
     "category": "Conteinerização",
-    "subCategory": "Virtualização",
+    "subCategory": "Dockerfile",
     "level": "Advanced",
     "tagsOrConcepts": [
-      "container",
-      "virtualização",
-      "introdução"
+      "Dockerfile",
+      "COPY",
+      "ADD"
     ],
     "text": [
       "No Dockerfile na instrução COPY e ADD é possivel adicionar a flag --link. Qual das afirmações abaixo esta correta referente à esta opçao?"
     ],
     "alternatives": [
       {
-        "text": "Com a flag linux habilitada, é possivel compartilhar diretórios entre containers the diferentes redes.",
-        "feedback": "",
+        "text": "Com a flag --link habilitada, é possivel compartilhar diretórios entre containers the diferentes redes.",
+        "feedback": "Incorreto",
         "correct": false,
         "id": "a5aba707-14b8-4a77-9979-2bb9d7afa1db"
       },
       {
         "text": "Quando --link é usado, é criado um link entre o host e o container, possibilitando o sincronismo de arquivos.",
-        "feedback": "",
+        "feedback": "Incorreto",
         "correct": false,
         "id": "cf731283-9792-4311-a64c-afe31032520a"
       },
       {
         "text": "Quando --link é usado, seus arquivos de origem são copiados para um diretório de destino vazio. Esse diretório é transformado em uma camada vinculada ao seu estado anterior",
-        "feedback": "",
+        "feedback": "Correto. Esta flag nos comandos COPY ou ADD permite copiar arquivos com semântica aprimorada, onde seus arquivos permanecem independentes em sua própria camada e não são invalidados quando os comandos nas camadas anteriores são alterados.",
         "correct": true,
         "id": "01573bb2-5f28-4c1c-accc-0e427e3d68c3"
       },

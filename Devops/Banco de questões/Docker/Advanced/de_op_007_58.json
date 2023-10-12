@@ -2,44 +2,44 @@
 {
     "SKU": "DE-OP-007",
     "interpreter": 1,
-    "type": "MULT",
+    "type": "VF",
     "language": "NA",
     "id": "5bf0af7b-dc5a-422a-88f8-607ec2cd9464",
     "knowledgeArea": "DevOps",
     "category": "Conteinerização",
-    "subCategory": "Virtualização",
+    "subCategory": "compose",
     "level": "Advanced",
     "tagsOrConcepts": [
       "container",
-      "virtualização",
-      "introdução"
+      "compose",
+      "YAML"
     ],
     "text": [
-      "Como você pode criar uma rede Docker que restrinja a comunicação entre contêineres apenas à rede local do host?"
+      "Com relação ao compose, asssinale as opções abaixo como Verdadeiro ou Falso?"
     ],
     "alternatives": [
       {
-        "text": "Configurando o firewall do host para bloquear a comunicação externa.",
-        "feedback": "",
-        "correct": false,
+        "text": "De acordo com a documentação oficial do docker, pode ser a extensão YAML com \".yaml\" e \".yml\"  mas preferencial \".yaml\".",
+        "feedback": "Correto.",
+        "correct": true,
         "id": "9287be5b-2144-4b00-843c-1fd85c633c3e"
       },
       {
-        "text": "Não é possível criar uma rede restrita apenas à rede local do host em Docker.",
-        "feedback": "",
-        "correct": true,
+        "text": "O arquivo do compose também pode ser usado como docker-compose.yaml e docker-compose.yml para compatibilidade com versões anteriores. Se ambos os arquivos existirem no diretorio, o compose não poderá ser executado sem especificar o arquivo.",
+        "feedback": "O Compose preferirá o canônico compose.yaml",
+        "correct": false,
         "id": "40494625-f5b3-472f-8adc-a3bafe5abed4"
       },
       {
-        "text": "Definindo as regras de comunicação no arquivo de configuração do Docker.",
-        "feedback": "",
-        "correct": false,
+        "text": "No compose é possível usar o prefixo x- como um elemento de nível superior para modularizar as configurações que você deseja reutilizar. O Compose ignora todos os campos que começam com x-.",
+        "feedback": "Correto, esta opção é chamada de Extensions.",
+        "correct": true,
         "id": "83095183-8b6d-4687-8861-8977f61fc042"
       },
       {
-        "text": "Usando a opção --local-only ao criar a rede.",
-        "feedback": "",
-        "correct": false,
+        "text": "Você pode usar fragmentos e extensões para manter seu arquivo Compose eficiente e fácil de manter.",
+        "feedback": "Âncoras e aliases(& *) permitem criar blocos reutilizáveis. Isto é útil se você começar a encontrar configurações comuns que abrangem vários serviços",
+        "correct": true,
         "id": "98ceb028-6480-49f3-b4ee-1cb35202537b"
       }
     ]

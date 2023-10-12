@@ -20,19 +20,19 @@
     "alternatives": [
       {
         "text": "Garantir a integridade dos dados em cache, além da criptografia dos dados em transito.",
-        "feedback": "",
+        "feedback": "Incorreto. Build Attestations descrevem como uma imagem foi construída e o que ela contém",
         "correct": false,
         "id": "37bf92e9-762e-4e0f-9780-bc92f5fb69b5"
       },
       {
         "text": "Construir builds mais rapidos, e com menor tamanho.",
-        "feedback": "",
+        "feedback": "Build Attestations não possuem relação com performance. Para construir imagens menores, é possivel utilizar docker multistage.",
         "correct": false,
         "id": "760d1785-5138-42bb-bb8e-2075c14bb0f1"
       },
       {
         "text": "Possibilita o compartilhamento de disco persistentes entre mais de um container.",
-        "feedback": "",
+        "feedback": "Incorreto.",
         "correct": false,
         "id": "6e0639fd-39f9-4374-a2dd-b29bc0474d62"
       },

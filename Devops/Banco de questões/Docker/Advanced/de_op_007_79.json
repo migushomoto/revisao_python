@@ -6,27 +6,28 @@
     "id": "9e4b6761-a581-481f-b547-c01beb662586",
     "knowledgeArea": "DevOps",
     "category": "Conteinerização",
-    "subCategory": "Virtualização",
+    "subCategory": "ARG",
     "level": "Advanced",
     "tagsOrConcepts": [
       "container",
-      "virtualização",
-      "introdução"
+      "Dockerfile",
+      "ARG"
     ],
     "text": [
-      "A instrução ARG define uma variável que os usuários podem passar durante o build para o construtor com o comando \"docker build\" usando o sinalizador \"--build-arg <varname>=<value>\". Se um usuário especificar um argumento no build que não foi definido no Dockerfile, a construção gerará um aviso."
-      ,"{{GAP}} Qual das opções abaixo melhor representa a utilização desta instrução ARG para dados sensíveis como senhas, etc?"
+      "A instrução ARG define uma variável que os usuários podem passar durante o build para o construtor com o comando \"docker build\" usando a flag \"--build-arg <varname>=<value>\".",
+      "Se um usuário especificar um argumento no build que não foi definido no Dockerfile, a construção gerará um aviso."
+      ,"Qual das opções abaixo melhor representa a utilização desta instrução ARG para dados sensíveis como senhas, etc?"
     ],
     "alternatives": [
       {
         "text": "ARG db_passwor=strongpass!",
-        "feedback": "",
+        "feedback": "Opção incorreta",
         "correct": false,
         "id": "87a86c9d-9b7b-4964-b52a-1ebd20d4738a"
       },
       {
         "text": "Não utilize ARG para senhas, ao invés disso utilize a instrução \"RUN --mount=type=secret\".",
-        "feedback": "Não é recomendado usar variáveis ​​de tempo de construção para passar senhaa como chaves GitHub, ou credenciais de usuário, etc. Os valores das variáveis ​​de tempo de construção são visíveis para qualquer usuário da imagem com o comando docker history.",
+        "feedback": "Não é recomendado usar variáveis ​​de tempo de construção para passar senha como chaves GitHub, ou credenciais de usuário, etc. Os valores das variáveis ​​de tempo de construção são visíveis para qualquer usuário da imagem com o comando docker history.",
         "correct": true,
         "id": "7983e7a5-6fca-4283-92d3-f60c8ff0c871"
       },

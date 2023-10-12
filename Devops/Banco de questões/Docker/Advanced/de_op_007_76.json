@@ -6,12 +6,11 @@
     "id": "f57e6aec-7373-4e7a-8177-6ea357cd3da9",
     "knowledgeArea": "DevOps",
     "category": "Conteinerização",
-    "subCategory": "Virtualização",
+    "subCategory": "Dockerfile",
     "level": "Advanced",
     "tagsOrConcepts": [
-      "container",
-      "virtualização",
-      "introdução"
+      "Dockerfile",
+      "ENV"
     ],
     "text": [
       "Considerando a instrução ENV do Dockerfile, se acessarmos o container e verificarmos o valor das variaveis, qual será o resultado para a instrução: ENV MY_DOG=\"Rex\\ The\\ Dog \" MY_CAT=\"fluffy\""
@@ -19,25 +18,25 @@
     "alternatives": [
       {
         "text": "MY_DOG=Rex The Dog  MY_CAT=fluffy",
-        "feedback": "",
+        "feedback": "Correto. A instrução ENV permite múltiplos variáveis. Além de ser possivel usar aspas e barras invertidas para incluir espaços nos valores",
         "correct": true,
         "id": "2baf311c-dbdf-4eeb-98d8-de402dd47c56"
       },
       {
         "text": "Será reproduzido erro, não é possivel inserir multipla variáveis no mesmo ENV",
-        "feedback": "",
+        "feedback": "Incorreto, A instrução ENV permite múltiplos variáveis",
         "correct": false,
         "id": "cf40acbd-53b4-43f4-994b-05d5f99a1e02"
       },
       {
         "text": "MY_DOG=RexTheDog MY_CAT=fluffy",
-        "feedback": "",
-        "correct": true,
+        "feedback": "Incorreto. É possivel usar aspas e barras invertidas para incluir espaços nos valores.",
+        "correct": false,
         "id": "c1151ad5-f76e-4664-b88a-3550221d3736"
       },
       {
         "text": "MY_DOG='' MY_CAT=fluffy",
-        "feedback": "",
+        "feedback": "Incorreto. É possivel usar aspas e barras invertidas para incluir espaços nos valores. portando a vairable MY_DOG não será nula ou vazia.",
         "correct": false,
         "id": "d0003ea6-3888-459c-bf9d-92bbfa4fdc31"
       }

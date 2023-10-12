@@ -6,39 +6,39 @@
     "id": "0f7fc143-39ad-4975-a132-912e004b75aa",
     "knowledgeArea": "DevOps",
     "category": "Conteinerização",
-    "subCategory": "Virtualização",
+    "subCategory": "ARG",
     "level": "Advanced",
     "tagsOrConcepts": [
       "container",
-      "virtualização",
-      "introdução"
+      "Dockerfile",
+      "​​ARG"
     ],
     "text": [
-      "A instrução ARG define uma variável que os usuários podem passar durante o build para o construtor com o comando \"docker build\" usando o sinalizador \"--build-arg <varname>=<value>\". Se um usuário especificar um argumento no build que não foi definido no Dockerfile, a construção gerará um aviso.",
-    "{{GAP}} O Docker possui um conjunto de variáveis ​​ARG predefinidas que você pode usar sem uma instrução ARG correspondente no Dockerfile. Quais são elas?"
+      "A instrução ARG define uma variável que os usuários podem passar durante o build para o construtor com o comando \"docker build\" usando a flag \"--build-arg <varname>=<value>\". Se um usuário especificar um argumento no build que não foi definido no Dockerfile, a construção gerará um aviso.",
+    "O Docker possui um conjunto de variáveis ​​ARG predefinidas que você pode usar sem uma instrução ARG correspondente no Dockerfile. Quais são elas?"
     ],
     "alternatives": [
       {
         "text": "FIREWALL_ON, FIREWALL_OFF, PROXY_ON, PROXY_OFF",
-        "feedback": "",
+        "feedback": "Incorreto",
         "correct": false,
         "id": "2d7a2bc8-272e-454c-80ea-4268e84604e4"
       },
       {
         "text": "As variaveis predefinidas podem ser configirada livremente no arquivo de configuação do docker daemon, portanto qualquer variavel por ser cadastrada como predefinidas, com exceção de senhas.",
-        "feedback": "",
+        "feedback": "Incorreto",
         "correct": false,
         "id": "86e87f94-cac8-453e-8ea0-271a887b69f3"
       },
       {
         "text": "HTTP_PROXY, http_proxy, HTTPS_PROXY, https_proxy, FTP_PROXY, ftp_proxy, NO_PROXY, no_proxy, ALL_PROXY, all_proxy",
-        "feedback": "Correto, passe-os na linha de comando usando o sinalizador --build-arg, por exemplo: docker build --build-arg HTTPS_PROXY=https://my-proxy.example.com .",
+        "feedback": "Correto, passe-os na linha de comando usando a flag --build-arg, por exemplo: docker build --build-arg HTTPS_PROXY=https://my-proxy.example.com .",
         "correct": true,
         "id": "7d18fb10-a32f-47b0-83ce-f98303f8e4dd"
       },
       {
         "text": "PROXY_HTTP, proxy_http, PROXY_HTTPS, proxy_https, PROXY_FTP, proxy_ftp, PROXY_NO, proxy_no, PROXY_ALL, proxy_all",
-        "feedback": "",
+        "feedback": "Incorreto",
         "correct": false,
         "id": "4ed4049f-4a6d-49cd-a80c-3f47598fb9c8"
       }

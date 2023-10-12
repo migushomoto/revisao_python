@@ -6,12 +6,12 @@
     "id": "2f0bedef-9332-4c82-a84e-28ee41802b78",
     "knowledgeArea": "DevOps",
     "category": "Conteinerização",
-    "subCategory": "Virtualização",
+    "subCategory": "dockerfile",
     "level": "Advanced",
     "tagsOrConcepts": [
       "container",
-      "virtualização",
-      "introdução"
+      "layers",
+      "dockerfile"
     ],
     "text": [
       "Assinale as opções abaixo como Verdairo ou Falso."
@@ -19,25 +19,25 @@
     "alternatives": [
       {
         "text": "Uma imagem Docker consiste em camadas(layers) somente leitura(read-only), cada uma representando uma instrução Dockerfile.",
-        "feedback": "",
+        "feedback": "Correto. Layes são read-only and representam uma instrução do dockerfile.",
         "correct": true,
         "id": "ef5a8432-63d8-11ee-bdf5-325096b39f47"
       },
       {
         "text": "Uma imagem Docker consiste em camadas(layers) de leitura e escrita(read-write), e todas as camadas representam uma unica instrução Dockerfile.",
-        "feedback": "",
+        "feedback": "Incorreto. Camadas do dockerfile são read-only (somente leitura)",
         "correct": false,
         "id": "ef5a8478-63d8-11ee-aede-325096b39f47"
       },
       {
         "text": "As camadas de uma imagem docker são empilhadas e cada uma é um delta das alterações da camada anterior.",
-        "feedback": "",
+        "feedback": "Correto. Cada camada é um delta da camada anterior.",
         "correct": true,
         "id": "ef5a84be-63d8-11ee-b351-325096b39f47"
       },
       {
         "text": "As camadas de uma imagem docker são empilhadas e cada uma é independente das camadas anteriores.",
-        "feedback": "",
+        "feedback": "Incorreto. Na verdade cada camada é um delta da camada anterior.",
         "correct": false,
         "id": "ef5a8504-63d8-11ee-b532-325096b39f47"
       }

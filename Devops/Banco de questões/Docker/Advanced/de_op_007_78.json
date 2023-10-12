@@ -5,34 +5,34 @@
     "language": "NA",
     "id": "fd2502b1-d0b2-46e0-9aa0-c31acc79c11b",
     "knowledgeArea": "DevOps",
-    "category": "Conteinerização",
-    "subCategory": "Virtualização",
+    "category": "Docker",
+    "subCategory": "Dockerfile",
     "level": "Advanced",
     "tagsOrConcepts": [
-      "container",
-      "virtualização",
-      "introdução"
+      "USER",
+      "Dockerfile",
+      "RUN"
     ],
     "text": [
       "A instrução USER define o nome de usuário (ou UID) e, opcionalmente, o grupo de usuários (ou GID) a ser usado como usuário e grupo padrão para o restante do estágio atual. O usuário especificado é usado para instruções RUN e, em tempo de execução, executa os comandos ENTRYPOINT e CMD relevantes.",
-      "{{GAP}} a sintaxe USER <user>[:<group>] é valida somente para containers Linux, qual seria o comando equivalente para containers Windows?"
+      "A sintaxe \"USER <user>[:<group>]\" é valida somente para containers Linux, qual seria o comando equivalente para containers Windows?"
     ],
     "alternatives": [
       {
         "text": "RUN grant user /add patrick Seguido da instrução USER patrick",
-        "feedback": "",
+        "feedback": "Opção inválida, não existe opção grant no docker",
         "correct": false,
         "id": "36ae4ce7-7b28-4998-92af-d628172d8b0f"
       },
       {
         "text": "ADD chown user /add patrick Seguido da instrução USER patrick",
-        "feedback": "",
+        "feedback": "Opção inválida, não existe esta opção no docker",
         "correct": false,
         "id": "71bbe04a-0e27-440c-9eec-d7aece8f18ce"
       },
       {
-        "text": "ADD net user /add patrick Seguido da instrução USER add patrick",
-        "feedback": "",
+        "text": "ADD net user /add patrick Seguido da instrução USER add $USER",
+        "feedback": "Opção inválida, a segunda parte do comando esta incorreto.",
         "correct": false,
         "id": "c27eedfb-8555-4220-8e75-918e6321701f"
       },

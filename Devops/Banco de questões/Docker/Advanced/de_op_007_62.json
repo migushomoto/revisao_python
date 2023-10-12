@@ -7,12 +7,12 @@
     "id": "df5a5822-879a-40bc-945f-f7e35d9af82b",
     "knowledgeArea": "DevOps",
     "category": "Conteinerização",
-    "subCategory": "Virtualização",
+    "subCategory": "dockerfile",
     "level": "Advanced",
     "tagsOrConcepts": [
       "container",
-      "virtualização",
-      "introdução"
+      "dockerfile",
+      "scratch"
     ],
     "text": [
       "O que é um Dockerfile scratch?"
@@ -20,25 +20,25 @@
     "alternatives": [
       {
         "text": "Um Dockerfile que cria uma imagem Docker vazia.",
-        "feedback": "",
+        "feedback": "A imagem scratch é a imagem mínima no Docker. Este é o ancestral base para todas as outras imagens. A imagem inicial está realmente vazia",
         "correct": true,
         "id": "2e4a3754-a5b4-46c6-a5a6-46561da52d94"
       },
       {
         "text": "Um Dockerfile que não pode ser usado para criar imagens Docker.",
-        "feedback": "",
+        "feedback": "Incorreto. scratch é usado principalmente para construir outras imagens base",
         "correct": false,
         "id": "8433390d-18c1-41a2-a3a3-bb6342cc70d6"
       },
       {
         "text": "Um Dockerfile usado apenas para fins de depuração.",
-        "feedback": "cad0944c-b970-48cc-9772-1ba7bf26d61c",
+        "feedback": "Incorreto. scratch é usado principalmente para construir outras imagens base",
         "correct": false,
         "id": "6490ec23-7f98-4ba3-a353-9028e4e8286e"
       },
       {
         "text": "Um Dockerfile que não possui instruções.",
-        "feedback": "",
+        "feedback": "Incorreto.",
         "correct": false,
         "id": "2e9400bc-f6df-430b-ad0c-4ad99bd09b19"
       }

@@ -7,12 +7,12 @@
     "id": "e23572f5-e84c-4b12-8d69-593dee462876",
     "knowledgeArea": "DevOps",
     "category": "Conteinerização",
-    "subCategory": "Virtualização",
+    "subCategory": "imagem",
     "level": "Advanced",
     "tagsOrConcepts": [
       "container",
-      "virtualização",
-      "introdução"
+      "imagem",
+      "multistage"
     ],
     "text": [
       "Se você precisa usar uma imagem docker que não contém builds multistage, qual a melhor opção para diminuir o tamanho da imagem?"
@@ -20,7 +20,7 @@
     "alternatives": [
       {
         "text": "Reduza o tamanho da imagem usando compression no arquivos copiados.",
-        "feedback": "Opção incorreta.",
+        "feedback": "Opção incorreta. Não existe opção de compression em arquivos copiados.",
         "correct": false,
         "id": "1c077b8e-d88c-410e-ba2a-7302b2964114"
       },

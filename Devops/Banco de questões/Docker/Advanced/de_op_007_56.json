@@ -33,7 +33,7 @@
       {
         "text": "Um serviço é uma coleção de contêineres que executam a mesma imagem.",
         "feedback": "",
-        "correct": true,
+        "correct": false,
         "id": "1aaac00b-7d32-457d-bbac-3301e3b5fb3e"
       },
       {

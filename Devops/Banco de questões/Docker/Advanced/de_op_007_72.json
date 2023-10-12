@@ -6,12 +6,12 @@
     "id": "641e2c9b-dd03-4805-8cbb-49e04ea143dd",
     "knowledgeArea": "DevOps",
     "category": "Conteinerização",
-    "subCategory": "Virtualização",
+    "subCategory": "Dockerfile",
     "level": "Advanced",
     "tagsOrConcepts": [
       "container",
-      "virtualização",
-      "introdução"
+      "RUN",
+      "mount"
     ],
     "text": [
       "Na instrução RUN é possivel usar a opção --mount, essa opção permite que cria um filesystem para que o build possa utilizar. Quais são os tipos de mount?"
@@ -19,25 +19,25 @@
     "alternatives": [
       {
         "text": "bind, config, exec e volume",
-        "feedback": "",
+        "feedback": "Opção inválida.",
         "correct": false,
         "id": "5c4ef7bd-3f76-45c5-94ac-7e9bdf5b2174"
       },
       {
         "text": "cache, config, shell",
-        "feedback": "",
+        "feedback": "Opção inválida.",
         "correct": false,
         "id": "3a6fa42f-b2bb-4611-bae8-b70528b3e595"
       },
       {
         "text": "bind, cache, secret e ssh",
-        "feedback": "https://docs.docker.com/engine/reference/builder/#mount-types",
+        "feedback": "Correto. Veja mais detalhes aqui: https://docs.docker.com/engine/reference/builder/#mount-types",
         "correct": true,
         "id": "40110283-01e4-4cbe-a8a9-ee6f8f1cad88"
       },
       {
         "text": "bind, volume, config, ssh",
-        "feedback": "",
+        "feedback": "Opção inválida.",
         "correct": false,
         "id": "5fb7de96-fb9d-4db3-a529-129b7eeeb37c"
       }
