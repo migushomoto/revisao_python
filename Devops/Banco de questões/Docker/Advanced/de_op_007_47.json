@@ -20,25 +20,25 @@
     "alternatives": [
       {
         "text": "docker client somente funciona com daemon local, e um client somente conecta com um daemon por vez.",
-        "feedback": "",
+        "feedback": "Incorreto. o docker client pode se comunicar com mais de um daemon.",
         "correct": false,
         "id": "9d3bfa10-56f6-4167-bdbd-d665c6447dcb"
       },
       {
-        "text": "Somente com o client compose é possivel exexcutar daemon remotamente.",
-        "feedback": "",
+        "text": "Somente com o client compose é possivel executar daemon remotamente.",
+        "feedback": "Incorreto. com o docker client é possível executar o daemon remotamente.",
         "correct": false,
         "id": "e383f684-2771-4bb0-ac95-378330333c95"
       },
       {
         "text": "Só é possivel executar o docker client a partir de um daemon local.",
-        "feedback": "",
+        "feedback": "Incorreto. com o docker client é possível executar o daemon remotamente.",
         "correct": false,
         "id": "31f391e3-3025-4ee4-86c8-0816f523f112"
       },
       {
         "text": "O Docker client e o daemon podem ser executados do mesmo sistema, ou você pode conectar um docker client à um Docker daemon remoto.",
-        "feedback": "",
+        "feedback": "Correto. ",
         "correct": true,
         "id": "df080722-8bec-4111-b0f7-90cdb478af92"
       }

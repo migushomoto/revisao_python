@@ -12,7 +12,7 @@
     "tagsOrConcepts": [
       "container",
       "virtualização",
-      "introdução"
+      "dockerd"
     ],
     "text": [
       "O que é o 'dockerd'?"
@@ -20,25 +20,25 @@
     "alternatives": [
       {
         "text": "Um daemon do Docker que gerencia contêineres e imagens.",
-        "feedback": "",
+        "feedback": "Correto. dockerd é o processo persistente que gerencia contêineres",
         "correct": true,
         "id": "350233a3-b2e9-4218-b9aa-2af94d3d68a9"
       },
       {
         "text": "Uma ferramenta de depuração para contêineres Docker.",
-        "feedback": "",
+        "feedback": "Incorreto.",
         "correct": false,
         "id": "2831275f-d518-44b4-a339-fb6c3fd8eee3"
       },
       {
         "text": "Um comando para listar todos os contêineres em execução no sistema.",
-        "feedback": "",
+        "feedback": "Incorreto. É possivel listar os containers e execução utilização o docker client com o comando: \"docker ps\".",
         "correct": false,
         "id": "b789dc18-c831-474b-ba75-e424397ad958"
       },
       {
         "text": "O comando utilizado para executar contêineres Docker.",
-        "feedback": "",
+        "feedback": "Incorreto. Para executar executar conteineres é possivel via docker client.",
         "correct": false,
         "id": "143a0da5-fe6e-4eb6-8c0f-849dc436ed4f"
       }

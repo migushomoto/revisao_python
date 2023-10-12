@@ -7,12 +7,12 @@
     "id": "74e1362a-3674-4b80-b6e4-4a973776946d",
     "knowledgeArea": "DevOps",
     "category": "Conteinerização",
-    "subCategory": "Virtualização",
+    "subCategory": "build",
     "level": "Advanced",
     "tagsOrConcepts": [
       "container",
-      "virtualização",
-      "introdução"
+      "build",
+      "attestation"
     ],
     "text": [
       "No docker, qual o proposito do Build Attestations?"

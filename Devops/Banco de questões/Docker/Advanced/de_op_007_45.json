@@ -15,7 +15,7 @@
       "camadas"
     ],
     "text": [
-      "Qual tecnologia docker usa/cria para prover uma camada de isolamento nos containers?"
+      "Muitas vezes por uma necessidade de negocio, uma empresa vai precisar isolar containers. Qual tecnologia docker usa/cria para prover uma camada de isolamento nos containers?"
     ],
     "alternatives": [
       {

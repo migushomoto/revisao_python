@@ -13,7 +13,7 @@
       "prune"
     ],
     "text": [
-      "O comando docker system prune é usado para remover imagens não utilizadas, ou volumes, neste comando é possivel incluir flags como -f para forçar o não receber mensagem de confirmação na linha de comando, e a opção -a ou -all, qual a diferença quando utilizamos esta opção?"
+      "O comando docker system prune é usado para remover imagens não utilizadas, ou volumes, neste comando é possivel incluir flags como -f para forçar e não receber mensagem de confirmação na linha de comando, e a opção -a ou -all, qual a diferença quando utilizamos esta flag -a?"
     ],
     "alternatives": [
       {

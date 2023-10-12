@@ -20,25 +20,25 @@
     "alternatives": [
       {
         "text": "Não existe o comando bake no docker buildx.",
-        "feedback": "",
+        "feedback": "Incorreto. Existe o a opção bake no buildx.",
         "correct": false,
         "id": "6639b2c2-b284-43f6-aa65-bc3a4cfc5958"
       },
       {
         "text": "Faz o build com mapeamento automatico de redes entre serviços.",
-        "feedback": "",
+        "feedback": "Incorreto.",
         "correct": false,
         "id": "1634ef05-bd37-415b-9098-95c1683fceab"
       },
       {
         "text": "Permite build de imagem a partir de um arquivo(HCL,JSON,YAML) com execução simultanea de serviços.",
-        "feedback": "",
+        "feedback": "Correto. bake é um comando de build de alto nível. Cada destino especificado será executado em paralelo como parte do build.",
         "correct": true,
         "id": "a577e576-1680-4042-8625-33a13876bedf"
       },
       {
         "text": "Possibilita a construção de imagens menores.",
-        "feedback": "",
+        "feedback": "Incorreto. build com imagens menores é possivel usando docker multistage.",
         "correct": false,
         "id": "172bb59d-6a13-4c24-8d7b-c3cc95d78fd4"
       }
