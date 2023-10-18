@@ -5,8 +5,8 @@
     "language": "NA",
     "tagsOrConcepts":["Cloud"],
     "id": "5fee0953-4917-44f7-bf83-f34dc923f455",
-    "knowledgeArea": "Cloud",
-    "category": "AWS",
+    "knowledgeArea": "DevOps",
+    "category": "ECS",
     "subCategory": "ECS",
     "level": "Advanced",
     "text":[ 
@@ -19,7 +19,7 @@
             "id": "5fee0953-4917-44f7-bf83-f34dc923f456"
         },
         {   "text": "Para tarefas do Amazon ECS no AWS Fargate, as tarefas devem usar a versão 1.1.0 ou posterior (Linux ou  Windows) da plataforma para usar o recurso de variáveis.", 
-            "feedback":"Falso. As tarefas devem usar a versão 1.4.0 ou posterior (Linux) da plataforma para usar este recurso.", 
+            "feedback":"Incorreto. As tarefas devem usar a versão 1.4.0 ou posterior (Linux) da plataforma para usar este recurso.", 
             "correct":false,
             "id": "5fee0953-4917-44f7-bf83-f34dc923f457"
         },

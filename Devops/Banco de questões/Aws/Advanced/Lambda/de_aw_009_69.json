@@ -5,8 +5,8 @@
     "language": "NA",
     "tagsOrConcepts":["Cloud"],
     "id": "b115a38a-d6c0-486b-978c-f4c2a0555a40",
-    "knowledgeArea": "Cloud",
-    "category": "AWS",
+    "knowledgeArea": "DevOps",
+    "category": "Lambda",
     "subCategory": "Lambda",
     "level": "Advanced",
     "text":[ 
@@ -19,7 +19,7 @@
             "id": "b115a38a-d6c0-486b-978c-f4c2a0555a41"
         },
         {   "text": "O lambda possui por padrão um limite de 5.000 simultaneidades e problemas de throttling não acontecem na região de São Paulo.", 
-            "feedback":"Errado! Por padrão o lambda possui um limite de 1.000 simultaneidades e esse tipo de problema pode acontecer em qualquer região quando esse limite é ultrapassado.", 
+            "feedback":"Errado. Por padrão o lambda possui um limite de 1.000 simultaneidades e esse tipo de problema pode acontecer em qualquer região quando esse limite é ultrapassado.", 
             "correct":false,
             "id": "b115a38a-d6c0-486b-978c-f4c2a0555a42"
         },

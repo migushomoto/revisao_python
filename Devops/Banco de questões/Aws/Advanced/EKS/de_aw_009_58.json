@@ -5,8 +5,8 @@
     "language": "NA",
     "tagsOrConcepts":["Cloud"],
     "id": "267dad64-8466-4f66-a8c6-19c237779370",
-    "knowledgeArea": "Cloud",
-    "category": "AWS",
+    "knowledgeArea": "DevOps",
+    "category": "EKS",
     "subCategory": "EKS",
     "level": "Advanced",
     "text":[ 
@@ -19,17 +19,17 @@
             "id": "267dad64-8466-4f66-a8c6-19c237779371"
         },
         {   "text": "kubectl delete deployment <deployment_name>", 
-            "feedback":"Resposta Incorreta! O comando mencionado é utilizado para deletar todo o deployment de uma aplicação no kubernetes.", 
+            "feedback":"Incorreto. O comando mencionado é utilizado para deletar todo o deployment de uma aplicação no kubernetes.", 
             "correct":false,
             "id": "267dad64-8466-4f66-a8c6-19c237779372"
         },
         {   "text": "kubectl get events --sort-by=.metadata.creationTimestamp", 
-            "feedback": "Resposta Incorreta! O comando mencionado acima é utilizado para obter informações sobre eventos organizando pelo momento de cada Log.", 
+            "feedback": "Incorreto. O comando mencionado acima é utilizado para obter informações sobre eventos organizando pelo momento de cada Log.", 
             "correct":false,
             "id": "267dad64-8466-4f66-a8c6-19c237779373"
         },
         {   "text": "Não é possível gerar esse tipo de ação quando realizamos delete em PODs do Kubernetes. Sempre sofreremos com indisponibilidade e impacto em nossas aplicações.", 
-            "feedback":"Resposta Incorreta! Através do comando rollout restart realizaremos restart em todos os pods de um deployment evitando tempo de inatividade.", 
+            "feedback":"Incorreto. É possivel gerar esse tipo de ação.", 
             "correct":false,
             "id": "267dad64-8466-4f66-a8c6-19c237779374"
         }

@@ -5,8 +5,8 @@
     "language": "NA",
     "tagsOrConcepts":["Cloud"],
     "id": "9d9ab43e-0d42-4609-9499-7e3e127a0835",
-    "knowledgeArea": "Cloud",
-    "category": "AWS",
+    "knowledgeArea": "DevOps",
+    "category": "EC2",
     "subCategory": "EC2",
     "level": "Advanced",
     "text":[ 
@@ -19,7 +19,7 @@
             "id": "9d9ab43e-0d42-4609-9499-7e3e127a0836"
         },
         {   "text": "Quando realizamos o uso de instâncias Spot infelizmente não é possível acompanhar em tempo real a indicação de quais máquinas são ou não desta categoria, visto que por questões de segurança tais máquinas poderão ser interrompidas.", 
-            "feedback":"Incorreta. É possível identificar as instâncias do Tipo Spot através dos Grupos de Auto Scaling e/ou listando as EC2 disponíveis dentro da sua conta AWS.", 
+            "feedback":"Incorreto. É possivel acompanhar a indicação de quais máquinas são ou não desta categoria.", 
             "correct":false,
             "id": "9d9ab43e-0d42-4609-9499-7e3e127a0837"
         },
@@ -29,7 +29,7 @@
             "id": "9d9ab43e-0d42-4609-9499-7e3e127a0838"
         },
         {   "text": "As instâncias Spot são adequadas para análise de dados, trabalhos em lote, processamento em segundo plano e podem ser identificadas facilmente dentro da console AWS, entretanto, as mesmas só estão disponíveis para utilização dentro da região de São Paulo (sa-east).", 
-            "feedback":"Incorreta. As instâncias Spot estão disponíveis em todas as regiões da AWS, e seu uso está atrelado diretamente a disponibilidade de uso do EC2.", 
+            "feedback":"Incorreto. As instâncias Spot estão disponíveis em todas as regiões da AWS, e seu uso está atrelado diretamente a disponibilidade de uso do EC2.", 
             "correct":false,
             "id": "9d9ab43e-0d42-4609-9499-7e3e127a0839"
         }

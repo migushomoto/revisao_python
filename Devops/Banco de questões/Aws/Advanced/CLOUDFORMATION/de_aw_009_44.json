@@ -5,13 +5,13 @@
     "language": "NA",
     "tagsOrConcepts":["Cloud"],
     "id": "421398a7-2d72-44ce-bfed-21f90148a665",
-    "knowledgeArea": "Cloud",
-    "category": "AWS",
-    "subCategory": "Cloud Formation",
+    "knowledgeArea": "DevOps",
+    "category": "CloudFormation",
+    "subCategory": "CloudFormation",
     "level": "Advanced",
     "text":[ 
     "Diferente de outras soluções de Infra como Código, com o CloudFormation temos duas formas de realizar a declaração de infraestrutura, podemos utilizar tanto o Json como o Yaml, fica a critério de cada um porém, o Yaml fica melhor para visualização e compreensão das definições. Sabendo que os recursos são declarados dentro da sessão Resources, abaixo segue um trecho de código relacionado com permissões para o Security Group de uma determinada EC2. Qual é o tipo de liberação que está sendo exemplificado?",
-    "---",
+    "```",
     "SSHSecurityGroup:",
     "Type: AWS::EC2::SecurityGroup",
     "Properties:",
@@ -20,7 +20,7 @@
         "FromPort: 22",
         "IpProtocol: tcp",
         "ToPort: 22",
-    "---"],
+    "```"],
     "alternatives": [
         {   "text": "Realizaremos através do código exposto a criação de um Security Group liberando a porta 22 para qualquer IP que desejar.", 
             "feedback":"Correto. Estamos criando um security group possuindo uma regra de entrada liberando a porta 22 (Protocolo SSH) para acesso a nossa EC2 partindo de qualquer origem. Em um ambiente real, sempre filtre quem pode acessar suas instâncias.", 
@@ -28,17 +28,17 @@
             "id": "421398a7-2d72-44ce-bfed-21f90148a666"
         },
         {   "text": "Iremos criar um Security Group liberando a porta 22 IPs oriundos das Região de São Paulo, e que façam parte do bloco de Rede da AWS.", 
-            "feedback":"Errado. Estamos criando um security group possuindo uma regra de entrada liberando a porta 22 (Protocolo SSH) para acesso a nossa EC2.", 
+            "feedback":"Incorreto. Nessa configuração não está sendo referenciado a região.", 
             "correct":false,
             "id": "421398a7-2d72-44ce-bfed-21f90148a667"
         },
-        {   "text": "Estamos adicionado um Security Group ao nosso componente liberando a sua saída para a Internet, exclusivamente na porta 22.", 
-            "feedback":"Errado. Estamos criando um security group possuindo uma regra de entrada liberando a porta 22 (Protocolo SSH) para acesso a nossa EC2.", 
+        {   "text": "Estamos adicionado um Security Group ao nosso componente liberando a sua saída para a Internet, exclusivamente na porta tcp.", 
+            "feedback":"Incorreto. A configuração tcp é um protocolo.", 
             "correct":false,
             "id": "421398a7-2d72-44ce-bfed-21f90148a668"
         },
         {   "text": "Somente com esse nível de código, o Security Group não sera criado, visto que é obrigatório o apontamento de quais IPs terão o acesso na porta 22 para a EC2.", 
-            "feedback":"Errado. Estamos criando um security group possuindo uma regra de entrada liberando a porta 22 (Protocolo SSH) para acesso a nossa EC2.", 
+            "feedback":"Incorreto. É possivel criar um Security Group com esse nivel de código.", 
             "correct":false,
             "id": "421398a7-2d72-44ce-bfed-21f90148a669"
         }

@@ -5,8 +5,8 @@
     "language": "NA",
     "tagsOrConcepts":["Cloud"],
     "id": "7f6777e0-afea-4bd6-9a06-4124782f6f21",
-    "knowledgeArea": "Cloud",
-    "category": "AWS",
+    "knowledgeArea": "DevOps",
+    "category": "EKS",
     "subCategory": "EKS",
     "level": "Advanced",
     "text":[ 
@@ -29,7 +29,7 @@
             "id": "7f6777e0-afea-4bd6-9a06-4124782f6f24"
         },
         {   "text": "Não é possível realizar esse nível de configuração para Clusters EKS.", 
-            "feedback":"Errado. É possível sim, realizar esse tipo de configuração onde as roles do IAM possam ser utilizadas a nível de Pods.", 
+            "feedback":"Errado. É possível realizar esse tipo de configuração onde as roles do IAM possam ser utilizadas a nível de Pods.", 
             "correct":false,
             "id": "7f6777e0-afea-4bd6-9a06-4124782f6f25"
         }

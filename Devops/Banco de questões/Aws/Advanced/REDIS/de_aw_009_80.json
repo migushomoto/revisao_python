@@ -5,9 +5,9 @@
     "language": "NA",
     "tagsOrConcepts":["Cloud"],
     "id": "714b37b2-bf16-46e1-b42c-ac50df8d2d71",
-    "knowledgeArea": "Cloud",
-    "category": "AWS",
-    "subCategory": "Redis",
+    "knowledgeArea": "DevOps",
+    "category": "REDIS",
+    "subCategory": "REDIS",
     "level": "Advanced",
     "text":[ 
     "No ElastiCache Redis os endpoints de conexão recomendados diferem entre os tipos de configuração do cluster. Sua aplicação conecta-se ao seu cluster usando endpoints. Um endpoint é o endereço exclusivo de um nó ou cluster.Dependendo do tipo de cluster que você provisionou, o endpoint para acesso vai mudar. Com isso, podemos afirmar:"

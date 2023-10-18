@@ -5,8 +5,8 @@
     "language": "NA",
     "tagsOrConcepts":["Cloud"],
     "id": "513f551a-95b1-4328-8762-1cecd31f3029",
-    "knowledgeArea": "Cloud",
-    "category": "AWS",
+    "knowledgeArea": "DevOps",
+    "category": "IAM",
     "subCategory": "IAM",
     "level": "Advanced",
     "text":[ 
@@ -14,7 +14,7 @@
     ],
     "alternatives": [
         {   "text": "São categorizadas em Políticas baseadas em identidade, baseadas em recurso ou listas de controle de acesso.", 
-            "feedback":"Errado. Isso são tipos de política. As políticas em identidade são categorizadas em políticas gerenciadas ou políticas em linha.", 
+            "feedback":"Errado. Isso são tipos de política.", 
             "correct":false,
             "id": "513f551a-95b1-4328-8762-1cecd31f3030"
         },
@@ -24,7 +24,7 @@
             "id": "513f551a-95b1-4328-8762-1cecd31f3031"
         },
         {   "text": "Não existem categorias para políticas em identidade.", 
-            "feedback":"Errado. Elas são categorizadas em políticas gerenciadas ou políticas em linha",
+            "feedback":"Errado. Existem acregorias para políticas em identidade",
             "correct":false,
             "id": "513f551a-95b1-4328-8762-1cecd31f3032"
         },

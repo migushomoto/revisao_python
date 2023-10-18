@@ -5,8 +5,8 @@
     "language": "NA",
     "tagsOrConcepts":["Cloud"],
     "id": "0825f3c2-3c86-4a4e-8804-e902880c9120",
-    "knowledgeArea": "Cloud",
-    "category": "AWS",
+    "knowledgeArea": "DevOps",
+    "category": "Lambda",
     "subCategory": "Lambda",
     "level": "Advanced",
     "text":[ 
@@ -18,8 +18,8 @@
             "correct":true,
             "id": "0825f3c2-3c86-4a4e-8804-e902880c9121"
         },
-        {   "text": "É valido adicionar as devidas permissões para chamar o CloudWatch Logs e o X-Ray.Ao realizar isso, imediatamente os logs irão começar a aparecer.", 
-            "feedback":"Errado! Pode levar de 5 a 10 minutos para que os logs apareçam após uma invocação de função, e claro, a mesma possuindo as corretas permissões.", 
+        {   "text": "É valido adicionar as devidas permissões para chamar o CloudWatch Logs e o X-Ray. Ao realizar isso, imediatamente os logs irão começar a aparecer.", 
+            "feedback":"Errado. Pode levar de 5 a 10 minutos para que os logs apareçam após uma invocação de função, e claro, a mesma possuindo as corretas permissões.", 
             "correct":false,
             "id": "0825f3c2-3c86-4a4e-8804-e902880c9122"
         },
