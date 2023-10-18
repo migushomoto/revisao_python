@@ -5,8 +5,8 @@
     "language": "NA",
     "tagsOrConcepts":["Cloud"],
     "id": "d3c4387d-8c52-4a75-ae35-6c74a6312212",
-    "knowledgeArea": "Cloud",
-    "category": "AWS",
+    "knowledgeArea": "DevOps",
+    "category": "RDS",
     "subCategory": "RDS",
     "level": "Advanced",
     "text":[ 
@@ -28,7 +28,7 @@
             "correct":false,
             "id": "d3c4387d-8c52-4a75-ae35-6c74a6312215"
         },
-        {   "text": "Bancos de Dados na AWS somente podem ser acessados internamente, através do CIDR da sua VPC Interna.", 
+        {   "text": "A métrica DBInstances mostra o número de instâncias de banco de dados em sua conta da AWS", 
             "feedback":"Resposta correta!",
             "correct":true,
             "id": "d3c4387d-8c52-4a75-ae35-6c74a6312216"

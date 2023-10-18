@@ -5,9 +5,9 @@
     "language": "NA",
     "tagsOrConcepts":["Cloud"],
     "id": "62d79418-9da8-4c4a-a4e1-9c2fc629e249",
-    "knowledgeArea": "Cloud",
-    "category": "AWS",
-    "subCategory": "Cloud Formation",
+    "knowledgeArea": "DevOps",
+    "category": "CloudFormation",
+    "subCategory": "CDK",
     "level": "Advanced",
     "text":[ 
     "O Cloud Development Kit (ou CDK) é o framework da AWS para interagir com o CloudFormation. Com o CDK você ganha ainda mais flexibilidade na composição e execução dos seus templates de infraestrutura na AWS, elevando ainda mais sua capacidade de escalabilidade e de economia. Dentre as opções abaixo, quais apresentam benefícios reais na utilização desse KIT?"

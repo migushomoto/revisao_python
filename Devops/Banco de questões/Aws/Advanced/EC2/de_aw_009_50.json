@@ -5,8 +5,8 @@
     "language": "NA",
     "tagsOrConcepts":["Cloud"],
     "id": "791d4c61-981a-4a61-8185-4750792c4685",
-    "knowledgeArea": "Cloud",
-    "category": "AWS",
+    "knowledgeArea": "DevOps",
+    "category": "EC2",
     "subCategory": "EC2",
     "level": "Advanced",
     "text":[ 
@@ -14,17 +14,17 @@
 ],
     "alternatives": [
         {   "text": "É uma excelente opção sempre que o objetivo é alta performance. O ENA pode ser habilitado em qualquer modelo de EC2.", 
-            "feedback":"Resposta Incorreta! Atualmente, o ENA Express é compatível somente com C6gn.16xl", 
+            "feedback":"Incorreto. Atualmente, o ENA Express é compatível somente com C6gn.16xl", 
             "correct":false,
             "id": "791d4c61-981a-4a61-8185-4750792c4686"
         },
         {   "text": "O ENA é indiciado para workloads que exigem baixa largura de banda de fluxo único e alta latência residual.", 
-            "feedback":"Resposta Incorreta! Ele é indicado para workloads que exigem alta largura de banda de fluxo único e baixa latência residual.", 
+            "feedback":"Incorreto. Ele é indicado para workloads que exigem alta largura de banda de fluxo único e baixa latência residual.", 
             "correct":false,
             "id": "791d4c61-981a-4a61-8185-4750792c4687"
         },
         {   "text": "O ENA funciona muito bem para aplicações que exigem alto throughput de fluxo único, como sistemas de armazenamento distribuído e codificação de mídia ao vivo, entretanto sua limitação é o sistema operacional, pois ele é compatível somente com MacOs.", 
-            "feedback":"Resposta Incorreta! A funcionalidade SRD será compatível com todos os sistemas operacionais, mas observe que as métricas de monitoramento ENA Express estarão disponíveis apenas no EthTool na AMI Amazon Linux mais recente ou instalando o driver ENA versão 2.8.0 ou posterior do GitHub, com todos os operacionais sistemas compatíveis com as métricas no futuro.", 
+            "feedback":"Incorreto. A funcionalidade SRD será compatível com todos os sistemas operacionais, mas observe que as métricas de monitoramento ENA Express estarão disponíveis apenas no EthTool na AMI Amazon Linux mais recente ou instalando o driver ENA versão 2.8.0 ou posterior do GitHub, com todos os operacionais sistemas compatíveis com as métricas no futuro.", 
             "correct":false,
             "id": "791d4c61-981a-4a61-8185-4750792c4688"
         },

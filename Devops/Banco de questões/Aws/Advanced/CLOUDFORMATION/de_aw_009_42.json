@@ -5,16 +5,16 @@
     "language": "NA",
     "tagsOrConcepts":["Cloud"],
     "id": "9744e929-6f85-4d84-89a8-23510830f010",
-    "knowledgeArea": "Cloud",
-    "category": "AWS",
-    "subCategory": "Cloud Formation",
+    "knowledgeArea": "DevOps",
+    "category": "CloudFormation",
+    "subCategory": "CloudFormation",
     "level": "Advanced",
     "text":[ 
     "O Cloud Formation possui uma ferramenta gráfica chamada CloudFormation Designer, utilizada para criar, visualizar e modificar modelos. Com ele é possível diagramar os recursos usando uma interface de arrastar, soltar e editar usando o JSON ou YAML integrado. Sobre esse add-on, é correto afirmar:"
     ],
     "alternatives": [
         {   "text": "É possível utilizar esse add-on na AWS para qualquer tipo de ferramenta cujo objetivo será infraestrutura como código.", 
-            "feedback":"Errado. Essa ferramenta em específico é totalmente direcionada para o Cloudformation, tendo como objetivo facilitar a utilização da solução dentro da Cloud AWS.", 
+            "feedback":"Incorreto. Essa ferramenta em específico é totalmente direcionada para o Cloudformation, tendo como objetivo facilitar a utilização da solução dentro da Cloud AWS.", 
             "correct":false,
             "id": "9744e929-6f85-4d84-89a8-23510830f011"
         },
@@ -29,7 +29,7 @@
             "id": "9744e929-6f85-4d84-89a8-23510830f013"
         },
         {   "text": "O Designer possui um ponto de atenção que é a ausência de um editor integrado, deste modo, será necessário a utilizar de um á parte para criar e modificar seus recursos.", 
-            "feedback":"Errado. O Designer possui um editor integrado e com isso você não precisa usar um editor de texto à parte. Esse editor integrado também fornece um recurso de autocompletar que lista todos os nomes de propriedade de um recurso.", 
+            "feedback":"Incorreto. O Designer possui um editor integrado e com isso você não precisa usar um editor de texto à parte. Esse editor integrado também fornece um recurso de autocompletar que lista todos os nomes de propriedade de um recurso.", 
             "correct":false,
             "id": "9744e929-6f85-4d84-89a8-23510830f014"
         }

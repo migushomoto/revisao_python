@@ -5,8 +5,8 @@
     "language": "NA",
     "tagsOrConcepts":["Cloud"],
     "id": "9aad4741-29f7-46a2-ac82-7590954da593",
-    "knowledgeArea": "Cloud",
-    "category": "AWS",
+    "knowledgeArea": "DevOps",
+    "category": "IAM",
     "subCategory": "IAM",
     "level": "Advanced",
     "text":[ 
@@ -14,7 +14,7 @@
     ],
     "alternatives": [
         {   "text": "É possível utilizar regras de Firewall na AWS para realizar liberações de usuários, grupos de usuários ou funções.", 
-            "feedback":"Errado. Esse tipo de ação é realizado através da segurança do IAM na Cloud AWS.", 
+            "feedback":"Errado. Não é possivel utilizar regras de Firewall na AWS para realizar liberações de usuários.", 
             "correct":false,
             "id": "9aad4741-29f7-46a2-ac82-7590954da594"
         },

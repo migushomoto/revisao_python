@@ -5,8 +5,8 @@
     "language": "NA",
     "tagsOrConcepts":["Cloud"],
     "id": "1e6610d9-e255-4ca7-9bf4-745bea79a223",
-    "knowledgeArea": "Cloud",
-    "category": "AWS",
+    "knowledgeArea": "DevOps",
+    "category": "RDS",
     "subCategory": "RDS",
     "level": "Advanced",
     "text":[ 
@@ -19,7 +19,7 @@
             "id": "1e6610d9-e255-4ca7-9bf4-745bea79a224"
         },
         {   "text": "Com o Amazon RDS você tem a possibilidade de realizar a utilização de discos SAAS que entrega um padrão totalmente novo de SCSI, mas mantém a comunicação em série, abandonando o formato paralelo.", 
-            "feedback":"Errado. O Amazon RDS oferece três tipos de armazenamento: SSD de uso geral (também conhecido como gp2 e gp3), SSD de IOPS provisionadas (também conhecido como io1) e magnético (também conhecido como padrão)", 
+            "feedback":"Errado. O Amazon RDS não possibilita utilizar discos SAAS.", 
             "correct":false,
             "id": "1e6610d9-e255-4ca7-9bf4-745bea79a225"
         },

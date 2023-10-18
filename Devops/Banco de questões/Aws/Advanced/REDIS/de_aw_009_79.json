@@ -5,20 +5,20 @@
     "language": "NA",
     "tagsOrConcepts":["Cloud"],
     "id": "ec78130e-f132-4270-82f5-4f3b07adf866",
-    "knowledgeArea": "Cloud",
-    "category": "AWS",
-    "subCategory": "Redis",
+    "knowledgeArea": "DevOps",
+    "category": "REDIS",
+    "subCategory": "REDIS",
     "level": "Advanced",
     "text":[ 
     "A métrica de uso da CPU é o ponto de partida de investigação para problemas em clusters Redis, e os seguintes itens podem ajudar a reduzir outros possíveis problemas no lado do ElastiCache. Quais são eles?"
     ],
     "alternatives": [
-        {   "text": "Métricas de latência.O ElastiCache for Redis fornece métricas do CloudWatch para monitorar a latência média de diferentes classes de comandos.", 
+        {   "text": "Métricas de latência. O ElastiCache for Redis fornece métricas do CloudWatch para monitorar a latência média de diferentes classes de comandos.", 
             "feedback":"Resposta correta!",
             "correct":true,
             "id": "ec78130e-f132-4270-82f5-4f3b07adf867"
         },
-        {   "text": "Backup e replicação: as versões do ElastiCache for Redis anteriores à 2.8.22 usam um processo bifurcado para criar backups e processar sincronizações completas com as réplicas. Esse tipo de método habilitado não pode gerar nenhum tipo de impacto, e garante a disponibilidade de um Cluster Redis.", 
+        {   "text": "Backup e replicação. As versões do ElastiCache for Redis anteriores à 2.8.22 usam um processo bifurcado para criar backups e processar sincronizações completas com as réplicas. Esse tipo de método habilitado não pode gerar nenhum tipo de impacto, e garante a disponibilidade de um Cluster Redis.", 
             "feedback":"Errado. Tais itens são relevantes e importantes mas podem gerar sobrecarga de memória significativa para casos de uso intensivo de gravação.", 
             "correct":false,
             "id": "ec78130e-f132-4270-82f5-4f3b07adf868"
