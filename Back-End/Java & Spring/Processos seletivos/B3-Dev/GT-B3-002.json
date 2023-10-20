@@ -1,0 +1,43 @@
+{
+    "SKU": "GT-B3-002",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "Git",
+    "category": "Git",
+    "subCategory": "Git",
+    "level": "Basic",
+    "tagsOrConcepts": [
+      "Git"
+    ],
+    "text": [
+      "O objetivo do comando git merge é:"
+    ],
+    "alternatives": [
+      {
+        "text": "O comando git merge é usado para combinar (mesclar) as alterações de uma branch em outra no Git, unindo as modificações.",
+        "feedback": "Correto",
+        "correct": true,
+        "id": "f9cdc30c-6f81-11ee-b962-0242ac120002"
+      },
+      {
+        "text": "O comando git merge é idêntico ao comando git rebase.",
+        "feedback": "Falso, git merge, cria um novo commit, rebase reescreve o histórico",
+        "correct": false,
+        "id": "276f13f6-6f82-11ee-b962-0242ac120002"
+      },
+      {
+        "text": "Não é considerado boa prática trabalhar em branches separadas, reduzindo dessa forma o risco de conflitos e merges.",
+        "feedback": "Falso, as branches são amplamente utilizadas por times colaborativos",
+        "correct": false,
+        "id": "45027cdc-6f82-11ee-b962-0242ac120002"
+      },
+      {
+        "text": "Mesmo, em caso de conflitos o git é capaz de identificar o código correto e resolver os conflitos para nós.",
+        "feedback": "Falso, conflitos devem ser resolvidos pelo autor do commit",
+        "correct": false,
+        "id": "5b306190-6f82-11ee-b962-0242ac120002"
+      }
+    ],
+    "id": "5e50eeee-6f82-11ee-b962-0242ac120002"
+  }

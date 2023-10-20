@@ -1,0 +1,49 @@
+{
+    "SKU": "JV-B3-003",
+    "interpreter": 1,
+    "type": "VF",
+    "language": "NA",
+    "knowledgeArea": "Banco de Dados",
+    "category": "Banco de Dados",
+    "subCategory": "Normalização",
+    "level": "Basic",
+    "tagsOrConcepts": [
+      "Banco de Dados, Normalização"
+    ],
+    "text": [
+      "Quanto a normalização de dados podemos afirmar que"
+    ],
+    "alternatives": [
+      {
+        "text": "Normalização de dados é ultrapassada devido à ascensão dos bancos de dados não relacionais",
+        "feedback": "Falso, normalização de banco ainda é muito importante para padronizarmos nossas aplicações que utilizam bancos relacionais",
+        "correct": false,
+        "id": "24c58076-6f79-11ee-b962-0242ac120002"
+      },
+      {
+        "text": "O objetivo da normalização é garantir a qualidade dos dados.",
+        "feedback": "Correto",
+        "correct": true,
+        "id": "b32cb964-6f7a-11ee-b962-0242ac120002"
+      },
+      {
+        "text": "Uma tabela está normalizada quando ela se relaciona com outras através de um diagrama de relacionamento.",
+        "feedback": "Falso, os relacionamentos não garantem normalização tampouco os diagramas",
+        "correct": false,
+        "id": "cf0a6c30-6f7a-11ee-b962-0242ac120002"
+      },
+      {
+        "text": "A segunda forma normal nos diz que cada elemento deve depender apenas da chave primária da tabela.",
+        "feedback": "Correto",
+        "correct": true,
+        "id": "e25094ea-6f7a-11ee-b962-0242ac120002"
+      },
+      {
+        "text": "Existem apenas 3 formas normais.",
+        "feedback": "Falso, embora seja comum encontrar bancos que utilizem até a terceira forma normal ainda existem outras",
+        "correct": false,
+        "id": "0e0a8f96-6f7b-11ee-b962-0242ac120002"
+      }
+    ],
+    "id": "111f66c0-6f7b-11ee-b962-0242ac120002"
+  }

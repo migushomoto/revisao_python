@@ -1,0 +1,43 @@
+{
+    "SKU": "JV-B3-004",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "Banco de Dados",
+    "category": "Banco de Dados",
+    "subCategory": "Normalização",
+    "level": "Basic",
+    "tagsOrConcepts": [
+      "Banco de Dados, Normalização"
+    ],
+    "text": [
+      "Quando identificamos que uma tabela não atende a primeira forma normal, para que assim a tabela atenda a primeira forma normal devemos eliminar atributos multi valorados, isto é, atributos que contenham mais de uma valor na mesma coluna. O que acontece com os atributos eliminados?"
+    ],
+    "alternatives": [
+      {
+        "text": "São realocados em uma nova estrutura, de modo que os valores de cada coluna sejam atomicos, isto é, indivisíveis.",
+        "feedback": "Correto",
+        "correct": true,
+        "id": "366488f6-6f7c-11ee-b962-0242ac120002"
+      },
+      {
+        "text": "São realocados em uma nova coluna",
+        "feedback": "Falso, nem sempre os valores serão realocados em novas colunas, podem ser realocados em tabelas diferentes também.",
+        "correct": false,
+        "id": "704fe2d6-6f7c-11ee-b962-0242ac120002"
+      },
+      {
+        "text": "Podemos desprezá-los",
+        "feedback": "False, os dados precisam ser mantidos, devem apenas ser reorganizados",
+        "correct": false,
+        "id": "8313bd5c-6f7c-11ee-b962-0242ac120002"
+      },
+      {
+        "text": "Não devemos eliminar atributos multi-valorados",
+        "feedback": "Falso, a primeira forma normal nos diz que os valores devem ser atomicos",
+        "correct": false,
+        "id": "a13fac28-6f7c-11ee-b962-0242ac120002"
+      }
+    ],
+    "id": "a3f8cbde-6f7c-11ee-b962-0242ac120002"
+  }

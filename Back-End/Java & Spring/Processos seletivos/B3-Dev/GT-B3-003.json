@@ -1,0 +1,61 @@
+
+{
+    "SKU": "JV-B3-002",
+    "interpreter": 1,
+    "type": "GAP",
+    "language": "java",
+    "knowledgeArea": "Git",
+    "category": "Git",
+    "subCategory": "Git",
+    "level": "Basic",
+    "tagsOrConcepts":["Git"],
+    "text": [
+        "O comando {{GAP}} é usado para buscar as mudanças de um repositório remoto e incorporá-las automaticamente ao seu repositório local, realizando uma mesclagem (merge) se necessário. Enquanto o comando {{GAP}} é usado para buscar as mudanças de um repositório remoto para o seu repositório local, mas não realiza uma mesclagem automática. Ele apenas atualiza as referências remotas em seu repositório local."
+    ],
+    "alternatives": [
+        {
+            "value": "pull",
+            "hint": "",
+            "id": "69d47824-6f84-11ee-b962-0242ac120002"
+        },
+        {
+            "value": "fetch",
+            "hint": "",
+            "id": "b70afad2-6f84-11ee-b962-0242ac120002"
+        },
+        {
+            "value": "commit",
+            "hint": "",
+            "id": "6c71fe3a-6f84-11ee-b962-0242ac120002"
+        }
+    ],
+    "gaps": [
+        {
+          "expected": "pull",
+          "feedbacks": [
+            {
+              "value": "fetch",
+              "text": "-"
+            },
+            {
+              "value": "commit",
+              "text": "-"
+            }
+          ]
+        },
+        {
+          "expected": "fetch",
+          "feedbacks": [
+            {
+              "value": "pull",
+              "text": "-"
+            },
+            {
+              "value": "commit",
+              "text": "-"
+            }
+          ]
+        }
+      ],
+      "id": "6f02055a-6f84-11ee-b962-0242ac120002"
+}

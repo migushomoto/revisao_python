@@ -1,0 +1,43 @@
+{
+    "SKU": "JV-B3-004",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "Java",
+    "category": "Java",
+    "subCategory": "Conceitos",
+    "level": "Basic",
+    "tagsOrConcepts": [
+      "Java Basico"
+    ],
+    "text": [
+      "Das alternativas a seguir identifique a que faz sentido quando falamos sobre funções:"
+    ],
+    "alternatives": [
+      {
+        "text": "Funções em Java são capazes de executar tarefas diferentes simultaneamente, agindo como múltiplas personalidades dentro do programa.",
+        "feedback": "Falso",
+        "correct": false,
+        "id": "bac3d87c-6f77-11ee-b962-0242ac120002"
+      },
+      {
+        "text": "Funções em Java são blocos de código que realiza uma tarefa específica e pode, ou não, retornar um valor.",
+        "feedback": "Correto",
+        "correct": true,
+        "id": "a328cdd0-6f77-11ee-b962-0242ac120002"
+      },
+      {
+        "text": "Funções em Java operam em camadas de processamento paralelas",
+        "feedback": "Falso",
+        "correct": false,
+        "id": "d4967dfe-6f77-11ee-b962-0242ac120002"
+      },
+      {
+        "text": "As funções não podem ser reutilizadas podendo ser chamadas apenas uma vez em sua aplicação.",
+        "feedback": "Falso",
+        "correct": false,
+        "id": "ef7716a6-6f77-11ee-b962-0242ac120002"
+      }
+    ],
+    "id": "de51c948-6f77-11ee-b962-0242ac120002"
+  }
