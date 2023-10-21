@@ -6,7 +6,7 @@
     "language": "NA",
     "knowledgeArea": "DevOps",
     "category": "Kubernetes",
-    "subCategory": "Scheduler",
+    "subCategory": "Pod",
     "level": "Advanced",
     "tagsOrConcepts": [
         "Kubernetes",
@@ -25,13 +25,13 @@
         {
             "id": "2cc3714b-22f6-424f-99f3-638cf4e829dd",
             "text": "Usando o campo affinity no metadata do Pod.",
-            "feedback": "Errado! O campo correto é nodeAffinity e está dentro do spec, não do metadata.",
+            "feedback": "Errado! O campo affinity no metadata do Pod não pode configurar a afinidade de nó para que um Pod seja preferencialmente agendado em um nó específico.",
             "correct": false
         },
         {
             "id": "41231d8f-9057-4152-affa-2d4434fc1440",
             "text": "Usando labels e selectors no nó e no Pod.",
-            "feedback": "Parcialmente correto. Labels e selectors são usados, mas a configuração específica é feita no campo nodeAffinity dentro do spec do Pod.",
+            "feedback": "Labels e selectors são usados, mas a configuração específica é feita em um campo dentro do spec do Pod.",
             "correct": false
         },
         {

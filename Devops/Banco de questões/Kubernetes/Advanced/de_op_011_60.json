@@ -6,7 +6,7 @@
     "language": "NA",
     "knowledgeArea": "DevOps",
     "category": "Kubernetes",
-    "subCategory": "Networking",
+    "subCategory": "Pods",
     "level": "Advanced",
     "tagsOrConcepts": [
         "Kubernetes",
@@ -20,12 +20,12 @@
             "id": "0c3559d3-dfb9-4516-8a1b-1a0aad2d9e06",
             "text": "Um Service do tipo LoadBalancer pode ser usado para expor um Pod diretamente, sem a necessidade de um Service NodePort.",
             "feedback": "Esta declaração é verdadeira. Um Service do tipo LoadBalancer também pode ser usado para permitir acesso externo aos Pods, não apenas um Service NodePort.",
-            "correct": false
+            "correct": true
         },
         {
             "id": "127bfc88-a7b2-4b2a-97bb-49f8ed914b48",
             "text": "O tipo NodePort é o único que pode abrir uma porta específica no nó onde o Pod está sendo executado.",
-            "feedback": "Isso é falso. Outros tipos de Service, como o LoadBalancer, também podem permitir acesso externo aos Pods através de portas",
+            "feedback": "Isso é falso. Outros tipos de Service também podem permitir acesso externo aos Pods através de portas",
             "correct": false
         },
         {
@@ -37,7 +37,7 @@
         {
             "id": "8ec7a5e3-4673-41e3-812c-6277a74d8474",
             "text": "Um Service do tipo NodePort não pode encaminhar tráfego baseado no caminho da URL.",
-            "feedback": "Isso é verdade, mas outros métodos também podem ser usados para permitir acesso externo aos Pods, como o Service do tipo LoadBalancer.",
+            "feedback": "Isso é verdade, mas outros métodos também podem ser usados para permitir acesso externo aos Pods.",
             "correct": false
         }
     ]

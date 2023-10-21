@@ -6,7 +6,7 @@
     "language": "NA",
     "knowledgeArea": "DevOps",
     "category": "Kubernetes",
-    "subCategory": "Políticas de Rede",
+    "subCategory": "Pods",
     "level": "Advanced",
     "tagsOrConcepts": [
         "Kubernetes",
