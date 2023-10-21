@@ -14,7 +14,7 @@
       "RUN"
     ],
     "text": [
-      "No Dockerfile, junto com a instrução RUN é possivel usar a opção --security(Não disponível ainda em sintaxe estável, é preciso usar a sintaxe (syntax=docker/dockerfile:1-labs).",
+      "No Dockerfile, junto com a instrução RUN é possível usar a opção --security(Não disponível ainda em sintaxe estável, é preciso usar a sintaxe (syntax=docker/dockerfile:1-labs).",
       "Qual comando é equivalente ao (RUN--security=insecure) e pode ser utilizado via linha de comando?"
     ],
     "alternatives": [
@@ -38,7 +38,7 @@
       },
       {
         "text": "docker run --privileged",
-        "feedback": "Correto, veja mais detalhes aqui: https://docs.docker.com/engine/reference/builder/#run---securityinsecure",
+        "feedback": "Alternativa Correta!",
         "correct": true,
         "id": "e4918e70-65dd-480d-8d53-e7822136f370"
       }

@@ -20,7 +20,7 @@
     "alternatives": [
       {
         "text": "Um Dockerfile que cria uma imagem Docker vazia.",
-        "feedback": "A imagem scratch é a imagem mínima no Docker. Este é o ancestral base para todas as outras imagens. A imagem inicial está realmente vazia",
+        "feedback": "Alternativa Correta!",
         "correct": true,
         "id": "2e4a3754-a5b4-46c6-a5a6-46561da52d94"
       },

@@ -37,7 +37,7 @@
       },
       {
         "text": "Um namespace é um mecanismo de isolamento que fornece um contexto separado para diferentes aspectos do sistema, como PID, rede e sistema de arquivos.",
-        "feedback": "Correto. Assim como no kubernetes, no docker também é possivel utilizar namespaces.",
+        "feedback": "Alternativa Correta!",
         "correct": true,
         "id": "d3adbe12-4245-4759-936d-edd8a7f4508e"
       }

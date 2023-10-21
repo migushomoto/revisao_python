@@ -19,7 +19,7 @@
     "alternatives": [
       {
         "text": "ARG",
-        "feedback": "Correto, ARG pode preceder a isntrução FROM no Dockerfile.",
+        "feedback": "Alternativa Correta!",
         "correct": true,
         "id": "9d18d060-c879-4fc3-b1d1-d7219c521018"
       },

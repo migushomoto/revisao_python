@@ -26,7 +26,7 @@
       },
       {
         "text": "docker buildx build --sbom=true --provenance=true",
-        "feedback": "Correto. como o build attestation é possível inspecionar a imagem. Mais em:https://docs.docker.com/build/attestations/#creating-attestations",
+        "feedback": "Alternativa Correta!",
         "correct": true,
         "id": "89f931fc-857e-49a3-9501-96e86e3fd8a4"
       },

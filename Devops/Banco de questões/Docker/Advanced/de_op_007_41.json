@@ -24,12 +24,12 @@
             "id": "4ab1ba7f-727d-480e-a5f6-83498f3bb2a8"
         },
         {   "text": "Uma rede que permite a comunicação entre contêineres em hosts diferentes.", 
-            "feedback":"Correto, além disso overlay permite que containers se comuniquem com segurança quando a criptografia estiver habilitada.", 
+            "feedback": "Alternativa Correta!", 
             "correct":true,
             "id": "d5d4ec0d-ca60-4b86-9fdc-f41d65d3cfe4"
         },
         {   "text": "Uma rede que conecta contêineres apenas no mesmo host.", 
-            "feedback":"Rede Overlay sobrepõe sobre as redes do host, e possibilidade a comunicação entre vários hosts.", 
+            "feedback":"Incorreto. Rede Overlay sobrepõe sobre as redes do host.", 
             "correct":false,
             "id": "7c75644a-b861-4bbe-a4f4-2ab68883f75b"
         }

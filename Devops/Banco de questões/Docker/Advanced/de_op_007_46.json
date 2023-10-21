@@ -14,8 +14,8 @@
       "daemon"
     ],
     "text": [
-      "Por padrão o Docker daemon persiste todos os dados em um unico diretorio. Isso rastreia tudo relacionado ao Docker, incluindo contêineres, imagens, volumes, service definition e secrets.",
-      "qual é esse diretorio padrão no Linux e no windows respectivamente?"
+      "Por padrão o Docker daemon persiste todos os dados em um único diretório. Isso rastreia tudo relacionado ao Docker, incluindo contêineres, imagens, volumes, service definition e secrets.",
+      "qual é esse diretório padrão no Linux e no windows respectivamente?"
     ],
     "alternatives": [
       {
@@ -26,7 +26,7 @@
       },
       {
         "text": "\"/var/lib/docker\" no Linux e \"C:\\ProgramData\\docke\"r no Windows",
-        "feedback": "Correto.",
+        "feedback": "Alternativa Correta!",
         "correct": true,
         "id": "0a9411ef-da48-4b3b-a88e-914edfcb4c3d"
       },

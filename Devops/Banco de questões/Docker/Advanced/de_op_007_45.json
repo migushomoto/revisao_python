@@ -15,7 +15,7 @@
       "camadas"
     ],
     "text": [
-      "Muitas vezes por uma necessidade de negocio, uma empresa vai precisar isolar containers. Qual tecnologia docker usa/cria para prover uma camada de isolamento nos containers?"
+      "Muitas vezes por uma necessidade de negócio, uma empresa vai precisar isolar containers. Qual tecnologia docker usa/cria para prover uma camada de isolamento nos containers?"
     ],
     "alternatives": [
       {
@@ -32,7 +32,7 @@
       },
       {
         "text": "namespaces",
-        "feedback": "Correto. Os namespaces do Linux fornecem isolamento para processos em execução, limitando seu acesso aos recursos do sistema sem que o processo em execução esteja ciente das limitações",
+        "feedback": "Alternativa Correta!",
         "correct": true,
         "id": "e6139560-4746-4b08-8987-7bfb9b62ce24"
       },

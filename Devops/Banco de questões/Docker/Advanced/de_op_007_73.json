@@ -15,12 +15,12 @@
       "network"
     ],
     "text": [
-      "Na instrução RUN é possivel usar a opção --network, \"RUN --network\" permite controlar em qual ambiente de rede o comando é executado. Quais são os 3 tipos suportados?"
+      "Na instrução RUN é possível usar a opção --network, \"RUN --network\" permite controlar em qual ambiente de rede o comando é executado. Quais são os 3 tipos suportados?"
     ],
     "alternatives": [
       {
         "text": "default, none e host",
-        "feedback": "Correto. Mais detalhes em: https://docs.docker.com/engine/reference/builder/#run---network",
+        "feedback": "Alternativa Correta!",
         "correct": true,
         "id": "46a25a48-2b68-4cec-b6a5-867c19accf5e"
       },

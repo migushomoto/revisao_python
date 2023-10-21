@@ -26,19 +26,19 @@
       },
       {
         "text": "Tente reduzir o número de camadas em sua imagem minimizando o número de comandos RUN separados em seu Dockerfile",
-        "feedback": "Correto. Esta é uma boa pratica, diminui o numero de camadas, e consequentemente o tamanho da iamgem. Mais em:https://docs.docker.com/develop/dev-best-practices/#how-to-keep-your-images-small",
+        "feedback": "Alternativa Correta!",
         "correct": true,
         "id": "5540d4fb-b401-4b08-9648-9d15e0d684b2"
        
       },
       {
-        "text": "Utilize Entrypoint ao inves de CMD",
+        "text": "Utilize Entrypoint ao invés de CMD",
         "feedback": "Entrypoint e cmd não irão afetar no tamanho da imagem.",
         "correct": false,
         "id": "4175e8bb-2879-48cc-976c-43286dd05aea"
       },
       {
-        "text": "Tente reduzir o numero de arquivos copiados no comando COPY",
+        "text": "Tente reduzir o número de arquivos copiados no comando COPY",
         "feedback": "Não copiar arquivos desnecessários é uma premissa do docker.",
         "correct": false,
         "id": "c0841b8f-25b0-4bcf-b417-41de5516d7c6"

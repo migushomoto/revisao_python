@@ -32,7 +32,7 @@
       },
       {
         "text": "docker compose scale",
-        "feedback": "Correto, este comando não é mais suportado, ao invés disso, utilize docker compose up --scale, mais detalhes:https://docs.docker.com/compose/migrate/#how-do-i-switch-to-compose-v2",
+        "feedback": "Alternativa Correta!",
         "correct": true,
         "id": "7662f621-e0b2-4857-8d05-743e9d206880"
       },

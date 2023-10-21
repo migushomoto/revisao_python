@@ -15,30 +15,30 @@
       "YAML"
     ],
     "text": [
-      "Com relação ao compose, asssinale as opções abaixo como Verdadeiro ou Falso?"
+      "Com relação ao compose, assinale as opções abaixo como Verdadeiro ou Falso?"
     ],
     "alternatives": [
       {
         "text": "De acordo com a documentação oficial do docker, pode ser a extensão YAML com \".yaml\" e \".yml\"  mas preferencial \".yaml\".",
-        "feedback": "Correto.",
+        "feedback": "Alternativa Correta!",
         "correct": true,
         "id": "9287be5b-2144-4b00-843c-1fd85c633c3e"
       },
       {
-        "text": "O arquivo do compose também pode ser usado como docker-compose.yaml e docker-compose.yml para compatibilidade com versões anteriores. Se ambos os arquivos existirem no diretorio, o compose não poderá ser executado sem especificar o arquivo.",
+        "text": "O arquivo do compose também pode ser usado como docker-compose.yaml e docker-compose.yml para compatibilidade com versões anteriores. Se ambos os arquivos existirem no diretório, o compose não poderá ser executado sem especificar o arquivo.",
         "feedback": "O Compose preferirá o canônico compose.yaml",
         "correct": false,
         "id": "40494625-f5b3-472f-8adc-a3bafe5abed4"
       },
       {
         "text": "No compose é possível usar o prefixo x- como um elemento de nível superior para modularizar as configurações que você deseja reutilizar. O Compose ignora todos os campos que começam com x-.",
-        "feedback": "Correto, esta opção é chamada de Extensions.",
+        "feedback": "Alternativa Correta!",
         "correct": true,
         "id": "83095183-8b6d-4687-8861-8977f61fc042"
       },
       {
         "text": "Você pode usar fragmentos e extensões para manter seu arquivo Compose eficiente e fácil de manter.",
-        "feedback": "Âncoras e aliases(& *) permitem criar blocos reutilizáveis. Isto é útil se você começar a encontrar configurações comuns que abrangem vários serviços",
+        "feedback": "Alternativa Correta!",
         "correct": true,
         "id": "98ceb028-6480-49f3-b4ee-1cb35202537b"
       }

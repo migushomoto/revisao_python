@@ -25,14 +25,14 @@
         "id": "2d7a2bc8-272e-454c-80ea-4268e84604e4"
       },
       {
-        "text": "As variaveis predefinidas podem ser configirada livremente no arquivo de configuação do docker daemon, portanto qualquer variavel por ser cadastrada como predefinidas, com exceção de senhas.",
+        "text": "As variaveis predefinidas podem ser configuradas livremente no arquivo de configuração do docker daemon, portanto qualquer variável por ser cadastrada como predefinidas, com exceção de senhas.",
         "feedback": "Incorreto",
         "correct": false,
         "id": "86e87f94-cac8-453e-8ea0-271a887b69f3"
       },
       {
         "text": "HTTP_PROXY, http_proxy, HTTPS_PROXY, https_proxy, FTP_PROXY, ftp_proxy, NO_PROXY, no_proxy, ALL_PROXY, all_proxy",
-        "feedback": "Correto, passe-os na linha de comando usando a flag --build-arg, por exemplo: docker build --build-arg HTTPS_PROXY=https://my-proxy.example.com .",
+        "feedback": "Alternativa Correta!",
         "correct": true,
         "id": "7d18fb10-a32f-47b0-83ce-f98303f8e4dd"
       },

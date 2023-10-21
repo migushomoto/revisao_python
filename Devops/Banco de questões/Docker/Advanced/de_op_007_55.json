@@ -20,7 +20,7 @@
     "alternatives": [
       {
         "text": "Um mecanismo de armazenamento personalizado que permite a integração de soluções de armazenamento de terceiros com o Docker.",
-        "feedback": "Correto: Os plug-ins de volume do Docker Engine permitem que as implantações do Engine sejam integradas a sistemas de armazenamento externos, como Amazon EBS",
+        "feedback": "Alternativa Correta!",
         "correct": true,
         "id": "3bd74c42-af2e-47c1-bc52-80c2ffc44166"
       },
@@ -32,7 +32,7 @@
       },
       {
         "text": "Uma imagem Docker que serve como um plug-in para outros contêineres.",
-        "feedback": "Os plugins não são iamgens.",
+        "feedback": "Os plugins não são imagens.",
         "correct": false,
         "id": "3f9438ee-5ed6-47f0-8438-19c09260b817"
       },

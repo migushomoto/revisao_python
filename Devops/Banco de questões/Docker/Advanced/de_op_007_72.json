@@ -14,7 +14,7 @@
       "mount"
     ],
     "text": [
-      "Na instrução RUN é possivel usar a opção --mount, essa opção permite que cria um filesystem para que o build possa utilizar. Quais são os tipos de mount?"
+      "Na instrução RUN é possível usar a opção --mount, essa opção permite criar um filesystem para que o build possa utilizar. Quais são os tipos de mount?"
     ],
     "alternatives": [
       {
@@ -31,7 +31,7 @@
       },
       {
         "text": "bind, cache, secret e ssh",
-        "feedback": "Correto. Veja mais detalhes aqui: https://docs.docker.com/engine/reference/builder/#mount-types",
+        "feedback": "Alternativa Correta!",
         "correct": true,
         "id": "40110283-01e4-4cbe-a8a9-ee6f8f1cad88"
       },

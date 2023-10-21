@@ -14,12 +14,12 @@
       "dockerfile"
     ],
     "text": [
-      "Assinale as opções abaixo como Verdairo ou Falso."
+      "Assinale as opções abaixo como Verdadeiro ou Falso."
     ],
     "alternatives": [
       {
         "text": "Uma imagem Docker consiste em camadas(layers) somente leitura(read-only), cada uma representando uma instrução Dockerfile.",
-        "feedback": "Correto. Layes são read-only and representam uma instrução do dockerfile.",
+        "feedback": "Alternativa Correta!",
         "correct": true,
         "id": "ef5a8432-63d8-11ee-bdf5-325096b39f47"
       },
@@ -31,7 +31,7 @@
       },
       {
         "text": "As camadas de uma imagem docker são empilhadas e cada uma é um delta das alterações da camada anterior.",
-        "feedback": "Correto. Cada camada é um delta da camada anterior.",
+        "feedback": "Alternativa Correta!",
         "correct": true,
         "id": "ef5a84be-63d8-11ee-b351-325096b39f47"
       },

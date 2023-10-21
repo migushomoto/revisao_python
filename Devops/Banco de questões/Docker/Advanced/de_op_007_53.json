@@ -20,7 +20,7 @@
     "alternatives": [
       {
         "text": "Uma ferramenta de construção alternativa para criar imagens Docker.",
-        "feedback": "BuildKit fornece novas funcionalidades e melhora o desempenho de suas compilações. Também introduz suporte para lidar com cenários mais complexos:",
+        "feedback": "Alternativa Correta!",
         "correct": true,
         "id": "2d661a51-644a-495e-9137-0f9a6d423e34"
       },

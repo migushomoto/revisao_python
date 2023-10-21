@@ -19,13 +19,13 @@
     "alternatives": [
       {
         "text": "A instrução EXPOSE na verdade não publica a porta no container",
-        "feedback": "Correto. ao contrario do que muitas vezes se imagina, EXPOSE não publica porta no container. Veja mais em: https://docs.docker.com/engine/reference/builder/#expose",
+        "feedback": "Alternativa Correta!",
         "correct": true,
         "id": "7c301daa-3e7d-43e0-a2f8-132537608efa"
       },
       {
         "text": "EXPOSE funciona como uma espécie de documentação entre quem constrói a imagem e quem administra o contêiner, sobre quais portas se pretende publicar",
-        "feedback": "Correto, a publicação da porta é feita usando o opção -p na linha de comando.",
+        "feedback": "Alternativa Correta!",
         "correct": true,
         "id": "f1911119-efb5-4515-ae72-c352df485f4c"
       },
@@ -37,7 +37,7 @@
       },
       {
         "text": "Usando EXPOSE você pode especificar se a porta escuta TCP ou UDP, e o padrão é TCP se o protocolo não for especificado",
-        "feedback": "Correto.",
+        "feedback": "Alternativa Correta!",
         "correct": true,
         "id": "3085339d-06af-4e35-8502-ec0bd65b5cad"
       }

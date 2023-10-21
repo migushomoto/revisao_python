@@ -13,11 +13,11 @@
       "Camadas"
     ],
     "text": [
-      "Quando você altera uma instrução no Dockerfile, e faz o rebuild da imagem, quais camadas(layers) são reconstruidas?"
+      "Quando você altera uma instrução no Dockerfile, e faz o rebuild da imagem, quais camadas(layers) são reconstruídas?"
     ],
     "alternatives": [
       {
-        "text": "Todas as camadas são reconstruidas.",
+        "text": "Todas as camadas são reconstruídas.",
         "feedback": "Incorreto. Entenda como funciona na documentação: https://docs.docker.com/get-started/overview/#images",
         "correct": false,
         "id": "241ffef3-f809-483d-b235-6a25f43b395e"
@@ -36,7 +36,7 @@
       },
       {
         "text": "Somente a camada alterada.",
-        "feedback": "Correto.",
+        "feedback": "Alternativa Correta!",
         "correct": true,
         "id": "6081e6e5-b0a3-46be-bd1c-8b358271c5c8"
       }

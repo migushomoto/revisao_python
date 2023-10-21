@@ -19,26 +19,26 @@
     ],
     "alternatives": [
       {
-        "text": "O primeiro usa o modo shell e o segundo usa o modo exec, o que siginifica que o valor dentro da variável não será substuido, uma vez que esta opção utiliza json com aspas.",
-        "feedback": "Correto",
+        "text": "O primeiro usa o modo shell e o segundo usa o modo exec, o que significa que o valor dentro da variável não será substituído, uma vez que esta opção utiliza json com aspas.",
+        "feedback": "Alternativa Correta!",
         "correct": true,
         "id": "67e1ff0b-a9da-40b2-aa9b-26271d284473"
       },
       {
-        "text": "O primeiro usa o modo exec e o segundo usa o modo shell, o que siginifica que o valor dentro da variável não será substuido no primeiro comando, uma vez que esta opção utiliza json com aspas.",
+        "text": "O primeiro usa o modo exec e o segundo usa o modo shell, o que significa que o valor dentro da variável não será substituído no primeiro comando, uma vez que esta opção utiliza json com aspas.",
         "feedback": "Incorreto. Na verdade o primeiro comando usa shell e o segundo usa exec.",
         "correct": false,
         "id": "14d6acd6-0750-4e0e-ab71-c3218c0c95df"
       },
       {
         "text": "Ambos os comandos serão executados conforme esperado, e as variáveis serão substituídas corretamente.",
-        "feedback": "Incorreto, no comando exec o valor da variavel não será substituído.",
+        "feedback": "Incorreto, no comando exec o valor da variável não será substituído.",
         "correct": false,
         "id": "b99b94f5-b90d-4d44-8f56-a5f6a9b16e86"
       },
       {
-        "text": "Ambos os comandos serão executados sem erros, mas as variáveis não serão substituídas, pois não é possivel a utilização de variáveis na instrução RUN.",
-        "feedback": "Incorreto, no comando exec o valor da variavel não será substituído, mas no comando shell a valor da variavel será apresentado corretamente.",
+        "text": "Ambos os comandos serão executados sem erros, mas as variáveis não serão substituídas, pois não é possível a utilização de variáveis na instrução RUN.",
+        "feedback": "Incorreto, no comando exec o valor da variável não será substituído, mas no comando shell a valor da variável será apresentado corretamente.",
         "correct": false,
         "id": "38b6686b-db1d-4f0b-ad50-3bfa51e75a78"
       }

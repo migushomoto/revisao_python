@@ -27,19 +27,19 @@
       },
       {
         "text": "Não utilize ARG para senhas, ao invés disso utilize a instrução \"RUN --mount=type=secret\".",
-        "feedback": "Não é recomendado usar variáveis ​​de tempo de construção para passar senha como chaves GitHub, ou credenciais de usuário, etc. Os valores das variáveis ​​de tempo de construção são visíveis para qualquer usuário da imagem com o comando docker history.",
+        "feedback": "Alternativa Correta!",
         "correct": true,
         "id": "7983e7a5-6fca-4283-92d3-f60c8ff0c871"
       },
       {
         "text": "Utilize USER ${pasword_db:-some_pass}, seguido da instrução: \"ARG pasword_db\" mais a instrução: ADD $pasword_db. As 3 instruções devem ser passadas em linhas separadas.",
-        "feedback": "Esta instrução seria valida, mas somente em casos de argumentos de usuarios.",
+        "feedback": "Esta instrução seria válida, mas somente em casos de argumentos de usuários.",
         "correct": false,
         "id": "21898232-2fff-48cf-8318-e6fecb40c52e"
       },
       {
         "text": "Utilize ARG PASS_PARAM, seguido da instrução: \"RUN echo $PASS_PARAM\". As 2 instruções devem ser passadas em linhas separadas",
-        "feedback": "Esta é uma instrução valida somente para dados não sensíveis, para senhas utilize a popção RUN --mount=type=secret",
+        "feedback": "Esta é uma instrução válida somente para dados não sensíveis, para senhas utilize a opção RUN --mount=type=secret",
         "correct": false,
         "id": "91c29196-9cc5-4523-a583-98c9fab9f72c"
       }

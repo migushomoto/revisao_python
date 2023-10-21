@@ -19,14 +19,14 @@
     ],
     "alternatives": [
       {
-        "text": "Somente usando Compose V1 é possível utilizar Mutistage.",
+        "text": "Somente usando Compose V1 é possível utilizar Multistage.",
         "feedback": "Multistage está relacionada ao Dockerfile e não tem relação com o client compose. ",
         "correct": false,
         "id": "0715ea74-8f0a-48c1-83a9-3973a36eeb72"
       },
       {
         "text": "Ao contrario do Compose V1, o Compose V2 integra-se à plataforma Docker CLI e oferece sintaxe de linha de comando recomendada.",
-        "feedback": "Correto, No compose V2 é possivel obter sintaxes recomendadas.",
+        "feedback": "Alternativa Correta!",
         "correct": true,
         "id": "a6c4d035-06b2-478d-b621-828a4b8fd221"
       },

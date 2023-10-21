@@ -13,7 +13,7 @@
       "prune"
     ],
     "text": [
-      "O comando docker system prune é usado para remover imagens não utilizadas, ou volumes, neste comando é possivel incluir flags como -f para forçar e não receber mensagem de confirmação na linha de comando, e a opção -a ou -all, qual a diferença quando utilizamos esta flag -a?"
+      "O comando docker system prune é usado para remover imagens não utilizadas, ou volumes, neste comando é possível incluir flags como -f para forçar e não receber mensagem de confirmação na linha de comando, e a opção -a ou -all, qual a diferença quando utilizamos esta flag -a?"
     ],
     "alternatives": [
       {
@@ -23,8 +23,8 @@
         "id": "8d3c63fa-8b51-44db-b131-67e1a9b7a855"
       },
       {
-        "text": "Remove todas a imagens, excedo imagens com tag.",
-        "feedback": "Incorreto, docker system prune -a remove tambem imagens penduradas(dangling), e não tem relação com tags.",
+        "text": "Remove todas a imagens, exceto imagens com tag.",
+        "feedback": "Incorreto, docker system prune -a remove também imagens penduradas(dangling), e não tem relação com tags.",
         "correct": false,
         "id": "1bf7d73a-69af-468d-bb6b-48f43c2b11a5"
       },
@@ -36,7 +36,7 @@
       },
       {
         "text": "Remove todas as imagens não utilizadas, não apenas as 'penduradas(dangling)'.",
-        "feedback": "Correto, esta opção tem um poder de limpeza(prune) maior, ou seja irá liberar mais espaço no disco. Imagem pendente significa apenas que você criou a nova construção da imagem, mas não recebeu um novo nome",
+        "feedback": "Alternativa Correta!",
         "correct": true,
         "id": "03a84686-e765-494d-baf0-f0c8efd9628d"
       }

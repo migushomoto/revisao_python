@@ -14,7 +14,7 @@
       "docker client"
     ],
     "text": [
-      "Em relação a comunicação entre o docker client e o docker daemon, asssinale Verdadeiro ou Falso."
+      "Em relação a comunicação entre o docker client e o docker daemon, assinale Verdadeiro ou Falso."
     ],
     "alternatives": [
       {
@@ -25,13 +25,13 @@
       },
       {
         "text": "O docker client e o daemon se comunicam via rest api, por meio de soquetes unix ou de uma interface de rede",
-        "feedback": "Correto. Veja mais em: https://docs.docker.com/get-started/overview/#the-underlying-technology",
+        "feedback": "Alternativa Correta!",
         "correct": true,
         "id": "66827694-d5e5-4f41-b580-6c9c6faae9a0"
       },
       {
         "text": "O docker client pode se comunicar com um ou mais daemon.",
-        "feedback": "Correto.",
+        "feedback": "Alternativa Correta!",
         "correct": true,
         "id": "ce3254d6-3e01-4d0f-8d01-ef2e2fdba260"
       },

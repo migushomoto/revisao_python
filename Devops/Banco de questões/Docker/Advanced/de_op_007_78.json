@@ -15,7 +15,7 @@
     ],
     "text": [
       "A instrução USER define o nome de usuário (ou UID) e, opcionalmente, o grupo de usuários (ou GID) a ser usado como usuário e grupo padrão para o restante do estágio atual. O usuário especificado é usado para instruções RUN e, em tempo de execução, executa os comandos ENTRYPOINT e CMD relevantes.",
-      "A sintaxe \"USER <user>[:<group>]\" é valida somente para containers Linux, qual seria o comando equivalente para containers Windows?"
+      "A sintaxe \"USER <user>[:<group>]\" é válida somente para containers Linux, qual seria o comando equivalente para containers Windows?"
     ],
     "alternatives": [
       {
@@ -32,13 +32,13 @@
       },
       {
         "text": "ADD net user /add patrick Seguido da instrução USER add $USER",
-        "feedback": "Opção inválida, a segunda parte do comando esta incorreto.",
+        "feedback": "Opção inválida, a segunda parte do comando está incorreto.",
         "correct": false,
         "id": "c27eedfb-8555-4220-8e75-918e6321701f"
       },
       {
         "text": "RUN net user /add patrick Seguido da instrução USER patrick",
-        "feedback": "No Windows, o usuário deve ser criado primeiro se não for uma conta integrada. Isso pode ser feito com o comando net user chamado como parte de um Dockerfile.",
+        "feedback": "Alternativa Correta!",
         "correct": true,
         "id": "04ae9628-ed1a-4373-b9f4-2e026bc71d4a"
       }

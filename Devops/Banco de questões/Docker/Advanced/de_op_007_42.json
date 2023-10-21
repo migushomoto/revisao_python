@@ -14,7 +14,7 @@
       "containers"
     ],
     "text": [
-      "Usando o comando \"docker builder prune\" é remove caches de build, mas é possivel remover esses build caches periodicamente configurando o Build garbage collection. Como o Build garbage collection funciona?"
+      "Usando o comando \"docker builder prune\" é possível remover caches de build, mas é possível remover esses build caches periodicamente configurando o Build garbage collection. Como o Build garbage collection funciona?"
     ],
     "alternatives": [
       {
@@ -25,7 +25,7 @@
       },
       {
         "text": "Build garbage collection é executado no daemon BuildKit. O daemon limpa o cache de build quando o tamanho do cache fica muito grande ou quando a idade do cache expira.",
-        "feedback": "Correto, o Build garbage collection é configurado no daemon.",
+        "feedback": "Alternativa Correta!",
         "correct": true,
         "id": "59bcad46-8db7-47b9-b61c-0b286728740e"
       },
