@@ -6,7 +6,7 @@
     "language": "NA",
     "knowledgeArea": "DevOps",
     "category": "Kubernetes",
-    "subCategory": "Storage",
+    "subCategory": "Pods",
     "level": "Advanced",
     "tagsOrConcepts": [
         "Kubernetes",

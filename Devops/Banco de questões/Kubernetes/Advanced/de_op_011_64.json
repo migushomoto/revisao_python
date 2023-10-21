@@ -26,19 +26,19 @@
         {
             "id": "8df1eaf5-2d59-4d1b-9ed8-4d535bd7f1e9",
             "text": "Em um cluster separado, dedicado somente para o Istio.",
-            "feedback": "Errado! O Istio não é implantado em um cluster separado; ele é geralmente implantado no mesmo pod de cada microsserviço como um container sidecar.",
+            "feedback": "Errado! O Istio não é implantado em um cluster separado.",
             "correct": false
         },
         {
             "id": "6e970c80-6c35-4bf3-8c8c-6b980aed5f16",
             "text": "Como um serviço externo fora do cluster Kubernetes.",
-            "feedback": "Errado! O Istio não é implantado fora do cluster; ele é geralmente implantado no mesmo pod de cada microsserviço como um container sidecar.",
+            "feedback": "Errado! O Istio não é implantado fora do cluster.",
             "correct": false
         },
         {
             "id": "4ad66f3d-5c9d-4c58-9f67-9f89e68aa4be",
             "text": "Dentro do kube-proxy para melhorar a roteamento.",
-            "feedback": "Errado! O Istio não é implantado dentro do kube-proxy; ele é geralmente implantado no mesmo pod de cada microsserviço como um container sidecar.",
+            "feedback": "Errado! O Istio não é implantado dentro do kube-proxy.",
             "correct": false
         }
     ]

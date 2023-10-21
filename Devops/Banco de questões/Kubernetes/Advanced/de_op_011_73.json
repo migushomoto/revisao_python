@@ -6,7 +6,7 @@
     "language": "NA",
     "knowledgeArea": "DevOps",
     "category": "Kubernetes",
-    "subCategory": "Audit Logs",
+    "subCategory": "Logs",
     "level": "Advanced",
     "tagsOrConcepts": [
         "Kubernetes",

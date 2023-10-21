@@ -6,7 +6,7 @@
     "language": "NA",
     "knowledgeArea": "DevOps",
     "category": "Kubernetes",
-    "subCategory": "Admission controller",
+    "subCategory": "Controllers",
     "level": "Advanced",
     "tagsOrConcepts": [
         "Kubernetes",
