@@ -1,0 +1,44 @@
+{
+    "SKU": "DE-OP-009",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "tagsOrConcepts": [
+      "IaC",
+      "terraform"
+    ],
+    "text": [
+      "Para que serve o comando `terraform taint`?"
+    ],
+    "alternatives": [
+      {
+        "text": "Para forçar o Terraform a destruir um recurso no próximo `apply`",
+        "feedback": "Incorreto.",
+        "correct": false,
+        "id": "aaaa31a6-8ae4-49bf-ba6d-a75c86bfeeca"
+      },
+      {
+        "text": "Para forçar o Terraforma recriar um recurso no próximo `apply`",
+        "feedback": "Correto.",
+        "correct": true,
+        "id": "93644b78-52c2-4f97-b57b-bf320a05546e"
+      },
+      {
+        "text": "Para fazer o Terraform ignorar um recurso no próximo `apply`",
+        "feedback": "Incorreto.",
+        "correct": false,
+        "id": "e71d72f8-bc33-4e79-98fa-d9b699b4bda9"
+      },
+      {
+        "text": "Para fazer o terraform destruir toda a infraestrutura do workspace",
+        "feedback": "Incorreto.",
+        "correct": false,
+        "id": "553fe2eb-4398-4cfc-bb1f-d80906508541"
+      }
+    ],
+    "id": "2d57dc35-5ba2-4265-9989-b8ef9d136046",
+    "level": "Advanced",
+    "knowledgeArea": "DevOps",
+    "category": "Infraestrutura como código",
+    "subCategory": "Terraform"
+}

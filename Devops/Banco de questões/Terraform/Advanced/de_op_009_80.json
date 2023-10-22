@@ -1,0 +1,57 @@
+{
+    "SKU": "DE-OP-009",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "tagsOrConcepts": [
+      "IaC",
+      "terraform"
+    ],
+    "text": [
+      "Utilizando como base a seguinte configuração:",
+      "<br><br>",
+      "`resource \"aws_instance\" \"web\" {`",
+      "<br>",
+      "&nbsp;&nbsp; `... = ...`",
+      "<br>",
+      "&nbsp;&nbsp; `... = ...`",
+      "<br>",
+      "&nbsp;&nbsp; `count = 4`",
+      "<br>",
+      "`}`",
+      "<br><br>",
+      "O recurso `aws_instance.web` se refere a?"
+
+    ],
+    "alternatives": [
+      {
+        "text": "Todas as 4 instâncias. Caso deseje referenciar algum das instâncias individualmente, deverá informado um índice, começando a contagem a partir de 0",
+        "feedback": "Correto.",
+        "correct": true,
+        "id": "a7e08745-0f68-4205-9c22-477979a2da86"
+      },
+      {
+        "text": "Apenas a última das 4 instâncias, uma vez que não foi informado nenhum índice",
+        "feedback": "Incorreto.",
+        "correct": false,
+        "id": "994177d2-3748-475a-a149-a93d7ed9174f"
+      },
+      {
+        "text": "Apenas a primeira das 4 instâncias, uma vez que não foi informado nenhum índice",
+        "feedback": "Incorreto.",
+        "correct": false,
+        "id": "94e58fe5-8c1c-4c1b-8af4-0394c3214e6f"
+      },
+      {
+        "text": "Irá ocorrer um erro, uma vez que a sintaxe está incorreta. Nesse caso, é obrigatório informar um índice",
+        "feedback": "Incorreto.",
+        "correct": false,
+        "id": "77b476db-ce22-4f3f-ba8d-26808dec0410"
+      }
+    ],
+    "id": "51d62ebb-4773-46a7-8afe-c2c3765f9a29",
+    "level": "Advanced",
+    "knowledgeArea": "DevOps",
+    "category": "Infraestrutura como código",
+    "subCategory": "Terraform"
+}

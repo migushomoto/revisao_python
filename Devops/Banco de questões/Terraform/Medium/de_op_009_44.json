@@ -1,0 +1,44 @@
+{
+    "SKU": "DE-OP-009",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "tagsOrConcepts": [
+      "IaC",
+      "terraform"
+    ],
+    "text": [
+      "Você precisa estabelecer uma dependência explícita entre dois resources no Terraform. Qual meta-argumento permite que isso aconteça?"
+    ],
+    "alternatives": [
+      {
+        "text": "`lifecycle`",
+        "feedback": "Incorreto. Esse meta-argumento é usado para controlar o ciclo de vida de um recurso.",
+        "correct": false,
+        "id": "49987c95-f246-425c-8f06-f7df8c9680d7"
+      },
+      {
+        "text": "`coalesce`",
+        "feedback": "Incorreto. Esse meta-argumento é utilizado para retornar o primeiro valor não nulo de uma lista de expressões.",
+        "correct": false,
+        "id": "95ceff7d-1757-4913-9d90-8ae3e1f00a5e"
+      },
+      {
+        "text": "`length`",
+        "feedback": "Incorreto. Esse meta-argumento é utilizado para contar a quantidade de elementos de uma lista.",
+        "correct": false,
+        "id": "b880abb3-f976-4be3-953c-91044200bea2"
+      },
+      {
+        "text": "`depends_on`",
+        "feedback": "Correto. Esse meta-argumento é utilizado para estabelecer uma relação explícita entre dois recursos.",
+        "correct": true,
+        "id": "4623f6b7-ba73-4bee-af5a-283893a84a16"
+      }
+    ],
+    "id": "f0cff16a-8b38-4d03-a6d3-134639781b62",
+    "level": "Medium",
+    "knowledgeArea": "DevOps",
+    "category": "Infraestrutura como código",
+    "subCategory": "Terraform"
+}

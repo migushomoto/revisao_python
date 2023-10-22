@@ -1,0 +1,44 @@
+{
+    "SKU": "DE-OP-009",
+    "interpreter": 1,
+    "type": "VF",
+    "language": "NA",
+    "tagsOrConcepts": [
+      "IaC",
+      "terraform"
+    ],
+    "text": [
+      "Qual das funções abaixo de aplicam a um provisioner `local-exec`?"
+    ],
+    "alternatives": [
+      {
+        "text": "Invocar um executável local",
+        "feedback": "Correto.",
+        "correct": true,
+        "id": "532a8d9e-d1f1-4273-ad7b-34ca97a3e9b0"
+      },
+      {
+        "text": "Executar um comando dentro do recurso provisionado pelo Terraform",
+        "feedback": "Incorreto.",
+        "correct": false,
+        "id": "6e1d4d89-2837-4f70-90d4-f629a69e6040"
+      },
+      {
+        "text": "Executar um ou mais comandos no host que está executando o Terraform",
+        "feedback": "Correto.",
+        "correct": true,
+        "id": "c959feba-aca1-47a6-9b49-5ef76d6ee49d"
+      },
+      {
+        "text": "Assegurar que o recurso provisionado pelo Terraform só estará acessível na mesma rede que o host do Terraform",
+        "feedback": "Incorreto.",
+        "correct": false,
+        "id": "64da5c18-4114-4127-83e8-33aeed7ef19c"
+      }
+    ],
+    "id": "d049fc63-200b-4d9c-9bdc-da4b4f6653c9",
+    "level": "Advanced",
+    "knowledgeArea": "DevOps",
+    "category": "Infraestrutura como código",
+    "subCategory": "Terraform"
+}

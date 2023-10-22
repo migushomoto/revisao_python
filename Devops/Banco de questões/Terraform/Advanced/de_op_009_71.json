@@ -1,0 +1,44 @@
+{
+    "SKU": "DE-OP-009",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "tagsOrConcepts": [
+      "IaC",
+      "terraform"
+    ],
+    "text": [
+      "Você deseja garatir que todos os buckets S3 criados via Terraform estão com a criptografia habilitada. Qual a melhor maneira de fazer isso?"
+    ],
+    "alternatives": [
+      {
+        "text": "Utilizar um Git hook que verifica se o parâmetro de criptografia está habilitado.",
+        "feedback": "Incorreto. Essa prática não garante isso.",
+        "correct": false,
+        "id": "927e2ffa-60b4-4254-8847-96905e1e11f4"
+      },
+      {
+        "text": "Utilizar o KMS para armazenar uma chave de criptografia.",
+        "feedback": "Incorreto. Essa prática não garante isso.",
+        "correct": false,
+        "id": "4ca13a55-a23c-4966-956f-82605269f8b2"
+      },
+      {
+        "text": "Criar uma lambda que é disparada no evento `create_bucket` do CloudTrail.",
+        "feedback": "Incorreto. Essa abordagem não depende do Terraform.",
+        "correct": false,
+        "id": "b9fcbad5-0070-4f19-9c22-285345b10f7a"
+      },
+      {
+        "text": "Criar uma política de segurança com Sentinel Policies.",
+        "feedback": "Correto. No Sentinal Policies, é possível criar políticas que garantem que parâmetros sejam definidos.",
+        "correct": true,
+        "id": "b220cbe8-879b-4bc0-8d21-f37b09f74a11"
+      }
+    ],
+    "id": "997816ee-34c2-48d8-b1a7-a90811e1e950",
+    "level": "Advanced",
+    "knowledgeArea": "DevOps",
+    "category": "Infraestrutura como código",
+    "subCategory": "Terraform"
+  }

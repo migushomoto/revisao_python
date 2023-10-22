@@ -1,0 +1,62 @@
+{
+    "SKU": "DE-OP-009",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "tagsOrConcepts": [
+      "IaC",
+      "terraform"
+    ],
+    "text": [
+      "Você deseja utilizar diferentes imagens AMI para diferentes regiões da AWS e para isso, você criou o seguinte trecho de código:",
+      "<br><br>",
+      "`variable \"images\" {`",
+      "<br>",
+      "&nbsp;&nbsp; `type = map`",
+      "<br>",
+      "&nbsp;&nbsp; `default = {`",
+      "<br>",
+      "&nbsp;&nbsp;&nbsp;&nbsp; `us-east-1 = \"ami-123\"`",
+      "<br>",
+      "&nbsp;&nbsp;&nbsp;&nbsp; `us-west-2 = \"ami-456\"`",
+      "<br>",
+      "&nbsp;&nbsp;&nbsp;&nbsp; `us-west-1 = \"ami-789\"`",
+      "<br>",
+      "&nbsp;&nbsp; `}`",
+      "<br>",
+      "`}`",
+      "<br><br>",
+      "Qual das seguintes alternativas nos permite escolher a imagem `ami-789`?"
+    ],
+    "alternatives": [
+      {
+        "text": "`var.images[\"us-west-1\"]`",
+        "feedback": "Correto.",
+        "correct": true,
+        "id": "5ebe9448-3efa-4deb-b5b1-028171ffd87d"
+      },
+      {
+        "text": "`var.images[3]`",
+        "feedback": "Incorreto. Elementos de um mapa devem ser referenciados por sua chave e não por um índice numérico.",
+        "correct": false,
+        "id": "a4bd744a-e59b-49dd-957e-e0b12ef18bea"
+      },
+      {
+        "text": "`var.images[2]`",
+        "feedback": "Incorreto. Elementos de um mapa devem ser referenciados por sua chave e não por um índice numérico.",
+        "correct": false,
+        "id": "b6cf5abd-9cb5-40a0-af18-1f3a51dd2c3f"
+      },
+      {
+        "text": "`lookup(var.images[\"us-west-1\"])`",
+        "feedback": "Incorreto. A função lookup é capaz de retornar um valor de um mapa, porém sua sintaxe está incorreta, sendo a seguinte maneira a correta: `lookup(map, key, default)`.",
+        "correct": false,
+        "id": "a31fae6f-bc88-4c2d-b627-67cf7b20b876"
+      }
+    ],
+    "id": "2a0941d8-9a18-420e-baba-c4869710b65a",
+    "level": "Advanced",
+    "knowledgeArea": "DevOps",
+    "category": "Infraestrutura como código",
+    "subCategory": "Terraform"
+}

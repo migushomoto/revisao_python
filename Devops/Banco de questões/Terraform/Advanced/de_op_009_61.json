@@ -1,0 +1,44 @@
+{
+    "SKU": "DE-OP-009",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "tagsOrConcepts": [
+      "IaC",
+      "terraform"
+    ],
+    "text": [
+      "Módulos Terraform podem ser importados de diferentes fontes. Qual das alternativas abaixo NÃO é uma fonte válida?"
+    ],
+    "alternatives": [
+      {
+        "text": "Servidor FTP",
+        "feedback": "Correto. Não é possível importar um módulo via FTP.",
+        "correct": true,
+        "id": "04b3788d-b897-476d-bc28-70ab7ea4068c"
+      },
+      {
+        "text": "Repositório no GitHub",
+        "feedback": "Incorreto. É possível importar um módulo a partir do GitHub.",
+        "correct": false,
+        "id": "efe541c0-a6ea-4c08-8242-df38389a20b4"
+      },
+      {
+        "text": "Diretório local",
+        "feedback": "Incorreto. É possível importar um módulo a partir de um diretório local.",
+        "correct": false,
+        "id": "bffaab39-e2f8-4695-a76f-6b64470442a5"
+      },
+      {
+        "text": "Terraform Module Registry",
+        "feedback": "Incorreto. A principal função do Terraform Module Registry é justamente hospedar módulos.",
+        "correct": false,
+        "id": "fde64f10-d3ab-46ae-a455-4e4ea807d25f"
+      }
+    ],
+    "id": "0d99fef0-d73c-4ae9-951c-5173e3b04e8e",
+    "level": "Advanced",
+    "knowledgeArea": "DevOps",
+    "category": "Infraestrutura como código",
+    "subCategory": "Terraform"
+}

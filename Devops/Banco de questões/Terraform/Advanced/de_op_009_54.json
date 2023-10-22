@@ -1,0 +1,44 @@
+{
+    "SKU": "DE-OP-009",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "tagsOrConcepts": [
+      "IaC",
+      "terraform"
+    ],
+    "text": [
+      "Vocẽ está trabalhando com diferentes estados de Terraform e você precisa acessar um deles que é pertencente a organização \"whizlabs\", em um workspace chamado \"prod\". Como você configuraria um datasource do Terraform para acessá-lo?"
+    ],
+    "alternatives": [
+      {
+        "text": "`data \"terraform_remote_state\" \"remote_state\" {`<br>&nbsp;&nbsp;`backend = \"remote\"`<br>&nbsp;&nbsp;`config = {`<br>&nbsp;&nbsp;&nbsp;&nbsp;`organization = \"whizlabs\"`<br>&nbsp;&nbsp;&nbsp;&nbsp;`workspaces = { name = \"prod\" }`<br>&nbsp;&nbsp;`}`<br>`}`",
+        "feedback": "Correto.",
+        "correct": true,
+        "id": "152bd2ae-acf3-4531-b90d-557accbcbfd6"
+      },
+      {
+        "text": "`resource \"aws_instance\" \"whizlabs\" {`<br>&nbsp;&nbsp;`provider = aws.frankfurt`<br>`}`",
+        "feedback": "Incorreto. Para acessar dados de um workspace remoto, devemos utilizar um recurso do tipo \"data\".",
+        "correct": false,
+        "id": "31dae9a7-0206-4356-ad65-d8895b9a831c"
+      },
+      {
+        "text": "`resource \"aws_instance\" \"whizlabs\" { … }`",
+        "feedback": "Incorreto. Para acessar dados de um workspace remoto, devemos utilizar um recurso do tipo \"data\".",
+        "correct": false,
+        "id": "db746225-6c32-4258-b3a8-1570d7199805"
+      },
+      {
+        "text": "`resource \"aws_instance\" \"whizlabs\" {`<br>&nbsp;&nbsp;`provider = aws.west`<br>`}`",
+        "feedback": "Incorreto. Para acessar dados de um workspace remoto, devemos utilizar um recurso do tipo \"data\".",
+        "correct": false,
+        "id": "76b39800-1d56-48ae-9eb1-480d4c074da0"
+      }
+    ],
+    "id": "7871ac14-feb5-41ad-8c08-8ce37534d383",
+    "level": "Advanced",
+    "knowledgeArea": "DevOps",
+    "category": "Infraestrutura como código",
+    "subCategory": "Terraform"
+}

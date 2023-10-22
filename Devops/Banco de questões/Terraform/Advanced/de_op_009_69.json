@@ -1,0 +1,70 @@
+{
+    "SKU": "DE-OP-009",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "tagsOrConcepts": [
+      "IaC",
+      "terraform"
+    ],
+    "text": [
+      "Como você referenciaria os IDs dos volumes associados aos blocos `ebs_block_device` na código abaixo?",
+      "<br><br>",
+      "`resource \"aws_instance\" \"my_instance\" {`",
+      "<br>",
+      "&nbsp;&nbsp; `ami = \"ami-abc123\"`",
+      "<br>",
+      "&nbsp;&nbsp; `instance_type = \"t2.micro\"`",
+      "<br>",
+      "`}`",
+      "<br><br>",
+      "&nbsp;&nbsp; `ebs_block_device {`",
+      "<br>",
+      "&nbsp;&nbsp;&nbsp;&nbsp; `device_name = \"sda2\"`",
+      "<br>",
+      "&nbsp;&nbsp;&nbsp;&nbsp; `volume_size = \"16\"`",
+      "<br>",
+      "&nbsp;&nbsp; `}`",
+      "<br><br>",
+      "&nbsp;&nbsp; `ebs_block_device {`",
+      "<br>",
+      "&nbsp;&nbsp;&nbsp;&nbsp; `device_name = \"sda3\"`",
+      "<br>",
+      "&nbsp;&nbsp;&nbsp;&nbsp; `volume_size = \"20\"`",
+      "<br>",
+      "&nbsp;&nbsp; `}`",
+      "<br>",
+      "`}`"
+    ],
+    "alternatives": [
+      {
+        "text": "`aws_instance.my_instance.ebs_block_device[*].volume_id`",
+        "feedback": "Correto.",
+        "correct": false,
+        "id": "fa782b9c-e9ed-493a-9e7e-63da388e29c3"
+      },
+      {
+        "text": "`aws_instance.my_instance.ebs_block_device.volume_id`",
+        "feedback": "Incorreto. Essa sintaxe não está correta pois existem multiplous blocos `ebs_block_device` e essa referência ficaria ambígua.",
+        "correct": false,
+        "id": "d58eb6fb-72c3-4076-be09-a05e08dda372"
+      },
+      {
+        "text": "`aws_instance.my_instance.ebs_block_device[sda2,sda3].volume_id`",
+        "feedback": "Incorreto. Essa sintaxe é inválida e um erro seria retornado.",
+        "correct": false,
+        "id": "2109f409-f938-441e-911e-be16fae90f39"
+      },
+      {
+        "text": "`aws_instance.my_instance.ebs_block_device.*.volume_id`",
+        "feedback": "Incorreto. Essa sintaxe é inválida e um erro seria retornado.",
+        "correct": false,
+        "id": "02f8cba7-392d-45b5-b33d-81cc0577a606"
+      }
+    ],
+    "id": "6d76f507-ad39-479e-8584-34d9ae9ddede",
+    "level": "Advanced",
+    "knowledgeArea": "DevOps",
+    "category": "Infraestrutura como código",
+    "subCategory": "Terraform"
+}

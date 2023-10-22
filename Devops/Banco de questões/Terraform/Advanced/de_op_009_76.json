@@ -1,0 +1,44 @@
+{
+    "SKU": "DE-OP-009",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "tagsOrConcepts": [
+      "IaC",
+      "terraform"
+    ],
+    "text": [
+      "Ao referenciar um módulo, qual das alternativas abaixo é uma boa prática a respeito do argumento `version`?"
+    ],
+    "alternatives": [
+      {
+        "text": "Adicionar o sufixo `-beta` ao final da versão, garantindo que as últimas funcionalidades do módulo sempre estejam disponíveis.",
+        "feedback": "Incorreto. Esse sufixo `-beta` não existe no Terraform.",
+        "correct": false,
+        "id": "da8d6732-16a2-478b-b1f4-344bdd9106a6"
+      },
+      {
+        "text": "Baixar o módulo localmente e referenciá-lo através do path local.",
+        "feedback": "Incorreto. O argumento `version` não é necessário para módulos locais.",
+        "correct": false,
+        "id": "a9e78c7a-03dc-44ac-b846-f575ae8f89eb"
+      },
+      {
+        "text": "Não definir versão e aceitar a mais recente.",
+        "feedback": "Incorreto.",
+        "correct": false,
+        "id": "0cbf680e-1271-4ce2-a6e3-d06fff037614"
+      },
+      {
+        "text": "Definir explícitamente o parâmetro `version` de acordo com a versão que você deseja utilizar do módulo no Terraform Registry.",
+        "feedback": "Correto.",
+        "correct": true,
+        "id": "f747d484-3ab9-4137-8f4a-9303af539964"
+      }
+    ],
+    "id": "ed1c1b72-3645-4801-b674-b19eae225432",
+    "level": "Advanced",
+    "knowledgeArea": "DevOps",
+    "category": "Infraestrutura como código",
+    "subCategory": "Terraform"
+  }

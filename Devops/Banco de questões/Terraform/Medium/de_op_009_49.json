@@ -1,0 +1,52 @@
+{
+    "SKU": "DE-OP-009",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "tagsOrConcepts": [
+      "IaC",
+      "terraform"
+    ],
+    "text": [
+      "Você criou uma instância de banco de dados na AWS e para facilitar seu trabalho, você criou um output com a senha desse banco:",
+      "<br><br>",
+      "`output \"db_password\" {`",
+      "<br>",
+      "&nbsp;&nbsp; `value = local.db_password {`",
+      "<br>",
+      "`}`",
+      "<br><br>",
+      "Agora, você deve ocultar essa senha na saída do comando `terraform apply`. Qual a melhor maneira?"
+    ],
+    "alternatives": [
+      {
+        "text": "Usar o parâmetro `secure`",
+        "feedback": "Incorreto. Esse parâmetro não é válido.",
+        "correct": false,
+        "id": "0a58b53f-e7b2-4982-a67c-2dd6bcf36347"
+      },
+      {
+        "text": "Usar o parâmetro `sensitive`",
+        "feedback": "Correto. Esse parâmetro ocultará a senha na saída do comando `terraform apply`.",
+        "correct": true,
+        "id": "2ffba9a2-c0d3-4531-a1d6-e790fb51b8ba"
+      },
+      {
+        "text": "Usar um hash de criptografia",
+        "feedback": "Incorreto. Essa abordagem não é possível com Terraform.",
+        "correct": false,
+        "id": "2cab13e6-0f4a-45ff-bbf1-5dfa0cdc4419"
+      },
+      {
+        "text": "Criptografar a senha utilizando a função `encrypt()`",
+        "feedback": "Incorreto. Essa função não existe no Terraform.",
+        "correct": false,
+        "id": "db61fd33-d26a-4f18-973c-eca6ef1dd906"
+      }
+    ],
+    "id": "db61fd33-d26a-4f18-973c-eca6ef1dd906",
+    "level": "Medium",
+    "knowledgeArea": "DevOps",
+    "category": "Infraestrutura como código",
+    "subCategory": "Terraform"
+}

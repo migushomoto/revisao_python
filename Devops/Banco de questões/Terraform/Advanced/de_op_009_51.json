@@ -1,0 +1,44 @@
+{
+    "SKU": "DE-OP-009",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "tagsOrConcepts": [
+      "IaC",
+      "terraform"
+    ],
+    "text": [
+      "Você possui uma instância EC2 que roda uma aplicação não-crítica e relativamente efêmera, portanto ela pode ser reiniciada/destruída a qualquer momento sem nenhum problema. Qual dos comandos abaixo você utilizaria para recriar apenas essa instância?"
+    ],
+    "alternatives": [
+      {
+        "text": "`terraform apply -replace=aws_instance.{INSTANCE_NAME}`",
+        "feedback": "Correto. Esse comando recriará apenas essa instância na AWS.",
+        "correct": true,
+        "id": "b3e676b8-4174-4808-890c-504242af077a"
+      },
+      {
+        "text": "`terraform apply -replace aws_instance`",
+        "feedback": "Incorreto. Essa sintaxe não é válida.",
+        "correct": false,
+        "id": "982af361-fc91-48d1-b7d6-d896a4d19555"
+      },
+      {
+        "text": "`terraform apply -replace {INSTANCE_NAME}`",
+        "feedback": "Incorreto. Essa sintaxe não é válida.",
+        "correct": false,
+        "id": "b47ce6a0-5feb-4c8e-8012-ceacb7b282f3"
+      },
+      {
+        "text": "`terraform destroy --target=aws.instance{INSTANCE_NAME} and terraform apply`",
+        "feedback": "Incorreto. O operador \"and\" não existe na sintaxe dos comandos do Terraform.",
+        "correct": false,
+        "id": "9cfbcc96-218e-4879-a10c-f4cf8cea13e7"
+      }
+    ],
+    "id": "8140397b-dd67-436e-93ab-8ff6b13291e0",
+    "level": "Advanced",
+    "knowledgeArea": "DevOps",
+    "category": "Infraestrutura como código",
+    "subCategory": "Terraform"
+  }

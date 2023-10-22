@@ -1,0 +1,44 @@
+{
+    "SKU": "DE-OP-009",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "tagsOrConcepts": [
+      "IaC",
+      "terraform"
+    ],
+    "text": [
+      "O comando `terraform validate` estabelece conexão com as APIs dos providers e com os arquivos de estado quando é executado?"
+    ],
+    "alternatives": [
+      {
+        "text": "Não.",
+        "feedback": "Correto. Esse comando apenas valida a sintaxe do código em questão.",
+        "correct": true,
+        "id": "c51b0f37-e6df-4c79-bbfc-c65389fa673e"
+      },
+      {
+        "text": "Apenas se estiver configurado para tal no bloco de configuração `backend`.",
+        "feedback": "Incorreto. Não existe essa configuração.",
+        "correct": false,
+        "id": "31142615-e630-4d3e-9521-ac61d018616d"
+      },
+      {
+        "text": "Apenas se o parâmetro `-remote=true` estiver definido.",
+        "feedback": "Incorreto. Esse parâmetro não é válido.",
+        "correct": false,
+        "id": "06ea1a73-93e9-4eed-b464-87260a8eb080"
+      },
+      {
+        "text": "Se as credenciais dos providers estiverem corretas, o Terraform tentará realizar essa conexão.",
+        "feedback": "Incorreto. Esse comportamento não é verdadeiro.",
+        "correct": false,
+        "id": "a8a651f7-853a-4664-a60d-b423d3259c17"
+      }
+    ],
+    "id": "6c0b9c95-6f6e-4803-bcba-4f1835bd178d",
+    "level": "Advanced",
+    "knowledgeArea": "DevOps",
+    "category": "Infraestrutura como código",
+    "subCategory": "Terraform"
+  }
