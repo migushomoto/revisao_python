@@ -13,7 +13,7 @@
       "ENV"
     ],
     "text": [
-      "Considerando a instrução ENV do Dockerfile, se acessarmos o container e verificarmos o valor das variaveis, qual será o resultado para a instrução: ENV MY_DOG=\"Rex\\ The\\ Dog \" MY_CAT=\"fluffy\""
+      "Considerando a instrução ENV do Dockerfile, se acessarmos o container e verificarmos o valor das variáveis, qual será o resultado para a instrução: ENV MY_DOG=\"Rex\\ The\\ Dog \" MY_CAT=\"fluffy\""
     ],
     "alternatives": [
       {
