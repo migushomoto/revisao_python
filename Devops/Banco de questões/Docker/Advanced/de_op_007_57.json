@@ -20,7 +20,7 @@
     "alternatives": [
       {
         "text": "Garantir a integridade dos dados em cache, além da criptografia dos dados em trânsito.",
-        "feedback": "Incorreto. Build Attestations descrevem como uma imagem foi construída e o que ela contém",
+        "feedback": "Incorreto. Build Attestations nãp possui esta característica.",
         "correct": false,
         "id": "37bf92e9-762e-4e0f-9780-bc92f5fb69b5"
       },

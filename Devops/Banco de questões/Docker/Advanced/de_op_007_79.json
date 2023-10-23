@@ -39,7 +39,7 @@
       },
       {
         "text": "Utilize ARG PASS_PARAM, seguido da instrução: \"RUN echo $PASS_PARAM\". As 2 instruções devem ser passadas em linhas separadas",
-        "feedback": "Esta é uma instrução válida somente para dados não sensíveis, para senhas utilize a opção RUN --mount=type=secret",
+        "feedback": "Opção inválida.",
         "correct": false,
         "id": "91c29196-9cc5-4523-a583-98c9fab9f72c"
       }

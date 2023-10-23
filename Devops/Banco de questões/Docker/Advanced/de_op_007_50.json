@@ -26,7 +26,7 @@
       },
       {
         "text": "docker compose up --scale",
-        "feedback": "Este é um comando para ser utilizado no compose V2.",
+        "feedback": "Incorreto. Este é um comando para ser utilizado no compose V1.",
         "correct": false,
         "id": "d5ea3786-9ec7-4369-8854-7c561a887d4d"
       },

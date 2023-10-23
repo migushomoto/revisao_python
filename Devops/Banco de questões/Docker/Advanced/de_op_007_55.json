@@ -26,7 +26,7 @@
       },
       {
         "text": "Uma ferramenta para criar volumes de armazenamento personalizados no Docker.",
-        "feedback": "Os plug-ins de volume do Docker Engine permitem que as implantações do Engine sejam integradas a sistemas de armazenamento externos e não customizados.",
+        "feedback": "Os plug-ins de volume do Docker Engine não permitem customização de volumes.",
         "correct": false,
         "id": "12ef3aee-e38a-44ec-8adc-4f7cd5105579"
       },
@@ -38,7 +38,7 @@
       },
       {
         "text": "Um complemento para Docker que estende sua funcionalidade.",
-        "feedback": "Os plug-ins de volume do Docker Engine permitem que as implantações do Engine sejam integradas a sistemas de armazenamento externos, mas não possuem opção de extensão de funcionalidade. ",
+        "feedback": "Incorreto, essa não é a correta descrição do docker. ",
         "correct": false,
         "id": "d7a68e26-bcc7-433a-ae5c-b67493feaa12"
       }

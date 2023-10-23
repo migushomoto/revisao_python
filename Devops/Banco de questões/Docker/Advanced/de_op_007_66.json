@@ -30,13 +30,13 @@
       },
       {
         "text": "Não é possível configurar um armazenamento de imagens personalizado no Docker.",
-        "feedback": "Opção inválida. É possível configurar diretamente  o arquivo de configuração do Docker",
+        "feedback": "É possível configurar outro diretório.",
         "correct": false,
         "id": "a32ca6a1-e338-4940-96ec-4f4340997c93"
       },
       {
         "text": "Usando o comando docker storage set.",
-        "feedback": "Opção inválida.",
+        "feedback": "Opção inválida. Não existe esta opção de comando.",
         "correct": false,
         "id": "01f2fa02-be81-438c-b7c1-9e3b1a21a1d5"
       }

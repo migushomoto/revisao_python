@@ -37,7 +37,7 @@
       },
       {
         "text": "Build garbage collection é executado no docker client. O docker  limpa o cache de build quando o tamanho do cache fica muito grande ou quando a idade do cache expira.",
-        "feedback": "Build garbage collection é executado e configurado no daemon BuildKit, e não no docker cliente",
+        "feedback": "Incorreto. Build garbage collection não é executado no docker cliente",
         "correct": false,
         "id": "68a77d44-3a56-4c92-a8c9-0fd59910d3c8"
       }

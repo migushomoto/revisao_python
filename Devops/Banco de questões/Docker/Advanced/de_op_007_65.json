@@ -24,7 +24,7 @@
       },
       {
         "text": "Não existe diferença significativa entre um contêiner Docker pausado e um em execução.",
-        "feedback": "Opção incorreta.",
+        "feedback": "São estados distintos.",
         "correct": false,
         "id": "ef5a8590-63d8-11ee-879e-325096b39f47"
       },
@@ -36,7 +36,7 @@
       },
       {
         "text": "Um contêiner pausado interrompe completamente a execução, enquanto um contêiner em execução está em pleno funcionamento.",
-        "feedback": "Opção incorreta. Container pausado mantém seu estado de memória.",
+        "feedback": "Opção incorreta. Container pausado não interrompe completamente.",
         "correct": false,
         "id": "d3dccd61-a850-40c8-a70c-3f10dddd324a"
       }

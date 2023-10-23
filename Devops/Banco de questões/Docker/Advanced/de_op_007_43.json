@@ -24,7 +24,7 @@
       },
       {
         "text": "Remove todas a imagens, exceto imagens com tag.",
-        "feedback": "Incorreto, docker system prune -a remove também imagens penduradas(dangling), e não tem relação com tags.",
+        "feedback": "Incorreto, docker system prune não tem relação com tags.",
         "correct": false,
         "id": "1bf7d73a-69af-468d-bb6b-48f43c2b11a5"
       },

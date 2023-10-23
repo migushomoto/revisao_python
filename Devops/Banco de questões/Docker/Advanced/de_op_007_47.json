@@ -25,14 +25,14 @@
         "id": "9d3bfa10-56f6-4167-bdbd-d665c6447dcb"
       },
       {
-        "text": "Somente com o client compose é possível executar daemon remotamente.",
-        "feedback": "Incorreto. com o docker client é possível executar o daemon remotamente.",
+        "text": "Somente o client compose se comunica com o daemon.",
+        "feedback": "Incorreto. O docker client se comunica com o daemon.",
         "correct": false,
         "id": "e383f684-2771-4bb0-ac95-378330333c95"
       },
       {
         "text": "Só é possível executar o docker client a partir de um daemon local.",
-        "feedback": "Incorreto. com o docker client é possível executar o daemon remotamente.",
+        "feedback": "Incorreto.",
         "correct": false,
         "id": "31f391e3-3025-4ee4-86c8-0816f523f112"
       },

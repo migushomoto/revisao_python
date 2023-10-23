@@ -26,13 +26,13 @@
       },
       {
         "text": "Um contêiner Docker só pode ser usado como um serviço.",
-        "feedback": "Incorreto. Um container é uma instância de um serviço",
+        "feedback": "Incorreto.",
         "correct": false,
         "id": "a79098cb-88a7-4281-be1d-2c8b7a73aadb"
       },
       {
         "text": "Um serviço é uma coleção de contêineres que executam a mesma imagem.",
-        "feedback": "Incorreto.",
+        "feedback": "Incorreto. Descrição inválida.",
         "correct": false,
         "id": "1aaac00b-7d32-457d-bbac-3301e3b5fb3e"
       },

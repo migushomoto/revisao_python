@@ -19,13 +19,13 @@
     "alternatives": [
       {
         "text": "Com a flag --link habilitada, é possível compartilhar diretórios entre containers the diferentes redes.",
-        "feedback": "Incorreto",
+        "feedback": "Incorreto. Este não é o propósito da flag link",
         "correct": false,
         "id": "a5aba707-14b8-4a77-9979-2bb9d7afa1db"
       },
       {
         "text": "Quando --link é usado, é criado um link entre o host e o container, possibilitando o sincronismo de arquivos.",
-        "feedback": "Incorreto",
+        "feedback": "Link não possui esta funcionalidade.",
         "correct": false,
         "id": "cf731283-9792-4311-a64c-afe31032520a"
       },

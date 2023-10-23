@@ -26,7 +26,7 @@
       },
       {
         "text": "Faz o build com mapeamento automático de redes entre serviços.",
-        "feedback": "Incorreto.",
+        "feedback": "Incorreto. bake não possui essa funcionalidade.",
         "correct": false,
         "id": "1634ef05-bd37-415b-9098-95c1683fceab"
       },

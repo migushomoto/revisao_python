@@ -39,7 +39,7 @@
       },
       {
         "text": "Tente reduzir o número de arquivos copiados no comando COPY",
-        "feedback": "Não copiar arquivos desnecessários é uma premissa do docker.",
+        "feedback": "Não copiar arquivos desnecessários é uma premissa do docker e não uma ação para diminuir tamanho.",
         "correct": false,
         "id": "c0841b8f-25b0-4bcf-b417-41de5516d7c6"
       }

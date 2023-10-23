@@ -30,13 +30,13 @@
       },
       {
         "text": "MY_DOG=RexTheDog MY_CAT=fluffy",
-        "feedback": "Incorreto. É possível usar aspas e barras invertidas para incluir espaços nos valores.",
+        "feedback": "Incorreto.",
         "correct": false,
         "id": "c1151ad5-f76e-4664-b88a-3550221d3736"
       },
       {
         "text": "MY_DOG='' MY_CAT=fluffy",
-        "feedback": "Incorreto. É possível usar aspas e barras invertidas para incluir espaços nos valores. portanto a variável MY_DOG não será nula ou vazia.",
+        "feedback": "Incorreto. O valor da variável MY_DOG não será vazia.",
         "correct": false,
         "id": "d0003ea6-3888-459c-bf9d-92bbfa4fdc31"
       }
