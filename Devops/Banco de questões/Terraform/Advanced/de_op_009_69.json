@@ -45,7 +45,7 @@
       },
       {
         "text": "`aws_instance.my_instance.ebs_block_device.volume_id`",
-        "feedback": "Incorreto. Essa sintaxe não está correta pois existem multiplous blocos `ebs_block_device` e essa referência ficaria ambígua.",
+        "feedback": "Incorreto. Essa sintaxe não está correta pois existem múltiplos blocos `ebs_block_device` e essa referência ficaria ambígua.",
         "correct": false,
         "id": "d58eb6fb-72c3-4076-be09-a05e08dda372"
       },
