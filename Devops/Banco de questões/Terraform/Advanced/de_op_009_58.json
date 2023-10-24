@@ -24,13 +24,13 @@
         "id": "1edacfa9-f080-4b7f-b02a-741d19ea57ec"
       },
       {
-        "text": "O Terraform não a planejará/aplicará quaisquer mudanças.",
+        "text": "O Terraform não planejará/aplicará quaisquer mudanças.",
         "feedback": "Correto. O Terraform não executa nenhuma ação se não conseguir fazer \"lock\" no estado.",
         "correct": true,
         "id": "02752893-a04e-48ba-839a-1c14b9d97a3e"
       },
       {
-        "text": "O Terraform continuará tentnado aplicar o \"lock\" durante 5 minutos e então retornará um \"timeout\".",
+        "text": "O Terraform continuará tentando aplicar o \"lock\" durante 5 minutos e então retornará um \"timeout\".",
         "feedback": "Incorreto. Não existe esse prazo de 5 minutos de retentativa.",
         "correct": false,
         "id": "51b7e40d-1cbf-434e-a3f1-f6aef448a21c"

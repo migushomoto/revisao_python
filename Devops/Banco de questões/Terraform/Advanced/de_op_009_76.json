@@ -25,7 +25,7 @@
       },
       {
         "text": "Não definir versão e aceitar a mais recente.",
-        "feedback": "Incorreto.",
+        "feedback": "Incorreto. É necessário informar a versão.",
         "correct": false,
         "id": "0cbf680e-1271-4ce2-a6e3-d06fff037614"
       },

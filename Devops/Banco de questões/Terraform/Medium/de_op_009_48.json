@@ -19,13 +19,13 @@
       },
       {
         "text": "Criar um `map` com os IDs da imagem de cada região",
-        "feedback": "Incorreto. Apesar de funcional em um primeiro momento, essa solução requer que os IDs sejam atualizados manualmente a medida que eles mudassem.",
+        "feedback": "Incorreto. Apesar de funcionar em um primeiro momento, essa solução requer que os IDs sejam atualizados manualmente a medida que eles mudassem.",
         "correct": false,
         "id": "7bbcdc37-aeaf-4480-a814-a6b21a426fb9"
       },
       {
         "text": "Criar uma configuração diferente por região",
-        "feedback": "Incorreto. Apesar de funcional em um primeiro momento, essas configurações teriam de ser mantidas manualmente a medida que os IDs mudassem com o tempo.",
+        "feedback": "Incorreto. Apesar de funcionar em um primeiro momento, essas configurações teriam de ser mantidas manualmente a medida que os IDs mudassem com o tempo.",
         "correct": false,
         "id": "1fe9a54d-87b8-4176-af24-e7858ed6a2e2"
       },

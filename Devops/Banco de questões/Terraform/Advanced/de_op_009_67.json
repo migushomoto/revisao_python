@@ -8,7 +8,7 @@
       "terraform"
     ],
     "text": [
-      "Você está executando um provisioner do tipo `local-exec` em um resource do tipo null chamado `null_resource.run_script` e percebe que prevcisa executar o script novamente. Qual dos seguintes comandos pode ser usado para isso?"
+      "Você está executando um provisioner do tipo `local-exec` em um resource do tipo null chamado `null_resource.run_script` e percebe que precisa executar o script novamente. Qual dos seguintes comandos pode ser usado para isso?"
     ],
     "alternatives": [
       {

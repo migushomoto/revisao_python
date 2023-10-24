@@ -13,13 +13,13 @@
     "alternatives": [
       {
         "text": "No diretório `/tmp`",
-        "feedback": "Incorreto.",
+        "feedback": "Incorreto. Esse não é um diretório utilizado para armazenar o cache dos modulos vindos do Terraform.",
         "correct": false,
         "id": "a980fcfa-6237-4029-8ecf-1069fa4786e5"
       },
       {
         "text": "Na memória RAM",
-        "feedback": "Incorreto.",
+        "feedback": "Incorreto. A memória RAM não é utilizada para armazenar o cache dos modulos vindos do Terraform.",
         "correct": false,
         "id": "9270ad2c-151e-496e-b609-02c9b6bc7623"
       },
@@ -31,7 +31,7 @@
       },
       {
         "text": "Não há armazenamento de cache.",
-        "feedback": "Incorreto.",
+        "feedback": "Incorreto. Existe o armazenamento de cache.",
         "correct": false,
         "id": "2ec16ca5-e291-4a14-a41c-edf5db8dc5c8"
       }

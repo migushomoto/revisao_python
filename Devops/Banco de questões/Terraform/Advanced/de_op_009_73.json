@@ -8,7 +8,7 @@
       "terraform"
     ],
     "text": [
-      "Qual das funções abaixo de aplicam a um provisioner `local-exec`?"
+      "Qual das funções abaixo se aplicam a um provisioner `local-exec`?"
     ],
     "alternatives": [
       {
