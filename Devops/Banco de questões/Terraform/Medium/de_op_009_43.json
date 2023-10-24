@@ -1,0 +1,50 @@
+{
+    "SKU": "DE-OP-009",
+    "interpreter": 1,
+    "type": "VF",
+    "language": "NA",
+    "tagsOrConcepts": [
+      "IaC",
+      "terraform"
+    ],
+    "text": [
+      "Baseado na configuração do provider do Google Cloud abaixo, quais das alternativas são versões desse provider que podem estar em uso?",
+      "<br><br>",
+      "`provider \"google\" {`",
+      "<br>",
+      "&nbsp;&nbsp; `version = \"~> 1.9.0\"`",
+      "<br>",
+      "`}`"
+    ],
+    "alternatives": [
+      {
+        "text": "1.9.1",
+        "feedback": "Correto.",
+        "correct": true,
+        "id": "d8315b91-97df-44f4-be2b-956affba1242"
+      },
+      {
+        "text": "1.10.0",
+        "feedback": "Incorreto. A notação \"~>\" antes da versão \"x.y.z\" permite apenas o incremento do último bloco da versão, nesse caso, \"z\".",
+        "correct": false,
+        "id": "85d78f04-095e-4c4d-ae0f-5cfedf435fd4"
+      },
+      {
+        "text": "1.8.0",
+        "feedback": "Incorreto. A notação \"~>\" antes da versão \"x.y.z\" permite apenas o incremento do último bloco da versão, nesse caso, \"z\".",
+        "correct": false,
+        "id": "fac8c5cd-f082-4de3-a84b-79be26990ef9"
+      },
+      {
+        "text": "1.9.9",
+        "feedback": "Correto.",
+        "correct": true,
+        "id": "a52f2e7e-a198-46c6-8828-f981492e42ea"
+      }
+    ],
+    "id": "b247438a-8663-49ba-9f85-cf1224a494cb",
+    "level": "Medium",
+    "knowledgeArea": "DevOps",
+    "category": "Infraestrutura como código",
+    "subCategory": "Terraform"
+}

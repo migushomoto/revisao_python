@@ -1,0 +1,44 @@
+{
+    "SKU": "DE-OP-009",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "tagsOrConcepts": [
+      "IaC",
+      "terraform"
+    ],
+    "text": [
+      "O que acontece se o Terraform não conseguir realizar o \"lock\" do estado a ser modificado?"
+    ],
+    "alternatives": [
+      {
+        "text": "O Terraform aplicará a configuração sem modificar o estado, depois você pode executar um `terraform refresh` para atualizar o estado.",
+        "feedback": "Incorreto. Esse não é o comportamento real.",
+        "correct": false,
+        "id": "7012f59a-2854-4ff0-ba11-bf3691f98196"
+      },
+      {
+        "text": "O Terraform aplicará a configuração e aplicará as mudanças no estado.",
+        "feedback": "Incorreto. Esse não é o comportamento real.",
+        "correct": false,
+        "id": "1edacfa9-f080-4b7f-b02a-741d19ea57ec"
+      },
+      {
+        "text": "O Terraform não a planejará/aplicará quaisquer mudanças.",
+        "feedback": "Correto. O Terraform não executa nenhuma ação se não conseguir fazer \"lock\" no estado.",
+        "correct": true,
+        "id": "02752893-a04e-48ba-839a-1c14b9d97a3e"
+      },
+      {
+        "text": "O Terraform continuará tentnado aplicar o \"lock\" durante 5 minutos e então retornará um \"timeout\".",
+        "feedback": "Incorreto. Não existe esse prazo de 5 minutos de retentativa.",
+        "correct": false,
+        "id": "51b7e40d-1cbf-434e-a3f1-f6aef448a21c"
+      }
+    ],
+    "id": "5ecced9a-da4f-4174-bc5c-0ca1dbb1deb1",
+    "level": "Advanced",
+    "knowledgeArea": "DevOps",
+    "category": "Infraestrutura como código",
+    "subCategory": "Terraform"
+}

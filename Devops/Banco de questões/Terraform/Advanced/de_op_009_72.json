@@ -1,0 +1,54 @@
+{
+    "SKU": "DE-OP-009",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "tagsOrConcepts": [
+      "IaC",
+      "terraform"
+    ],
+    "text": [
+      "O que esse trecho de código Terraform faz?",
+      "<br><br>",
+      "`terraform {`",
+      "<br>",
+      "&nbsp;&nbsp; `required_providers {`",
+      "<br>",
+      "&nbsp;&nbsp;&nbsp;&nbsp; `aws = \"~> 3.0\"`",
+      "<br>",
+      "&nbsp;&nbsp; `}`",
+      "<br>",
+      "`}`"
+    ],
+    "alternatives": [
+      {
+        "text": "Exige o provider da AWS em qualquer versão  >= 3.0 e < 4.0",
+        "feedback": "Correto.",
+        "correct": true,
+        "id": "b9c5e772-490b-44c2-aff9-3c0cbf41549c"
+      },
+      {
+        "text": "Exige o provider da AWS em qualquer versão >= 3.0",
+        "feedback": "Incorreto.",
+        "correct": false,
+        "id": "0ea3a095-d053-4c06-97f1-ab9aac6d940d"
+      },
+      {
+        "text": "Exige o provider da AWS em uma major release maior que 3.0, por exemplo: 4.1",
+        "feedback": "Incorreto.",
+        "correct": false,
+        "id": "da973f37-08f4-441a-a78c-b955e5e7c103"
+      },
+      {
+        "text": "Exige o provider da AWS em qualquer versão > 3.0",
+        "feedback": "Incorreto.",
+        "correct": false,
+        "id": "a6410a26-2fa2-41e9-94b9-d81616724c11"
+      }
+    ],
+    "id": "a5766748-1de7-4069-b368-67a8ee06227e",
+    "level": "Advanced",
+    "knowledgeArea": "DevOps",
+    "category": "Infraestrutura como código",
+    "subCategory": "Terraform"
+}

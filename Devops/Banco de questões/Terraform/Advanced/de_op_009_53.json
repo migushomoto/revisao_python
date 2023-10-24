@@ -1,0 +1,60 @@
+{
+    "SKU": "DE-OP-009",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "tagsOrConcepts": [
+      "IaC",
+      "terraform"
+    ],
+    "text": [
+      "Considerando a seguinte configuração de \"providers\" no Terraform:",
+      "<br><br>",
+      "`provider \"aws\" {`",
+      "<br>",
+      "&nbsp;&nbsp; `region = \"us-west-1\"`",
+      "<br>",
+      "`}`",
+      "<br><br>",
+      "`provider \"aws\" {`",
+      "<br>",
+      "&nbsp;&nbsp; `alias = \"frankfurt\"`",
+      "<br>",
+      "&nbsp;&nbsp; `region = \"eu-central-1\"`",
+      "<br>",
+      "`}`",
+      "<br><br>",
+      "Qual das alternativas abaixo cria uma instância EC2 na região \"eu-central-1\"?"
+    ],
+    "alternatives": [
+      {
+        "text": "`resource \"aws_instance\" \"whizlabs\" { provider = aws.central … }`",
+        "feedback": "Incorreto. O alias definido não existe na configuração do provider.",
+        "correct": false,
+        "id": "403813b0-9aae-49db-9ad5-1d64cc86e15a"
+      },
+      {
+        "text": "`resource \"aws_instance\" \"whizlabs\" { provider = aws.frankfurt … }`",
+        "feedback": "Correto.",
+        "correct": true,
+        "id": "b792aa00-65a2-4fb9-870f-3be5871793f8"
+      },
+      {
+        "text": "`resource \"aws_instance\" \"whizlabs\" { … }`",
+        "feedback": "Incorreto. Se um alias não for definido, o provider default será utilizado.",
+        "correct": false,
+        "id": "a11f2ca4-0536-4b43-8e83-3327e83111fe"
+      },
+      {
+        "text": "`resource \"aws_instance\" \"whizlabs\" { provider = aws.west … }`",
+        "feedback": "Incorreto. O alias definido não existe na configuração do provider.",
+        "correct": false,
+        "id": "1cd4cc76-1c30-4f48-8dc1-88442bc8582e"
+      }
+    ],
+    "id": "5ca840af-85a1-45ac-bc02-279da9b604c7",
+    "level": "Advanced",
+    "knowledgeArea": "DevOps",
+    "category": "Infraestrutura como código",
+    "subCategory": "Terraform"
+}

@@ -1,0 +1,44 @@
+{
+    "SKU": "DE-OP-009",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "tagsOrConcepts": [
+      "IaC",
+      "terraform"
+    ],
+    "text": [
+      "Você que saber quais os caminhos dos providers que estão sendo carregados nos seus manifestos. É necessário habilitar um nível mais detalhado de logs. Qual das alternativas a seguir faria isso?"
+    ],
+    "alternatives": [
+      {
+        "text": "Denifir a variável de ambiente `TF_INPUT=1`",
+        "feedback": "Incorreto. Essa variável não existe.",
+        "correct": false,
+        "id": "f8f76863-f2d5-49fb-b23e-86fd5943b195"
+      },
+      {
+        "text": "Denifir a variável de ambiente `TF_VAR_LOG=TRACE`",
+        "feedback": "Incorreto. Essa variável não existe.",
+        "correct": false,
+        "id": "e0a07568-7fb5-4388-a3cf-115fc6e737ae"
+      },
+      {
+        "text": "Denifir a variável de ambiente `TF_LOG=TRACE`",
+        "feedback": "Correto.",
+        "correct": true,
+        "id": "8576a294-73c0-4393-8480-aff1993189a7"
+      },
+      {
+        "text": "Definir a variável de ambiente `TF_LOG_PATH=./terraform.log`",
+        "feedback": "Incorreto. Essa variável não tem relação com o nível de detalhamento dos logs.",
+        "correct": false,
+        "id": "a01c492f-804d-4da5-985c-02e2594b5921"
+      }
+    ],
+    "id": "9a6039df-3d2a-4b02-9fd3-979d5a383467",
+    "level": "Advanced",
+    "knowledgeArea": "DevOps",
+    "category": "Infraestrutura como código",
+    "subCategory": "Terraform"
+  }

@@ -1,0 +1,44 @@
+{
+    "SKU": "DE-OP-009",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "tagsOrConcepts": [
+      "IaC",
+      "terraform"
+    ],
+    "text": [
+      "Qual collection do Terraform devemos usar para armazenar conjuntos de chave/valor?"
+    ],
+    "alternatives": [
+      {
+        "text": "tuple",
+        "feedback": "Incorreto. Essa collection também pode ser chamada de List, e ela serve para armazenar uma sequência de valores que podem se repetir e não pares de chave/valor.",
+        "correct": false,
+        "id": "8a6221f4-84db-4fae-a505-897e0e93e798"
+      },
+      {
+        "text": "set",
+        "feedback": "Incorreto. Essa collection também pode ser chamada de List, e ela serve para armazenar uma sequência de valores únicos e não pares de chave/valor.",
+        "correct": false,
+        "id": "25e11cfd-ac07-46ea-864d-49b89bb4e0f2"
+      },
+      {
+        "text": "map",
+        "feedback": "Correto.",
+        "correct": true,
+        "id": "3af77416-95bb-4019-9f69-cd52a2c90a32"
+      },
+      {
+        "text": "list",
+        "feedback": "Incorreto. Essa collection também pode ser chamada de Tuple, e ela serve para armazenar uma sequência de valores que podem se repetir e não pares de chave/valor.",
+        "correct": false,
+        "id": "f9a7667f-89fe-489a-9a7b-b078938443d2"
+      }
+    ],
+    "id": "d2159074-0d01-492f-8775-70531fda141d",
+    "level": "Medium",
+    "knowledgeArea": "DevOps",
+    "category": "Infraestrutura como código",
+    "subCategory": "Terraform"
+}

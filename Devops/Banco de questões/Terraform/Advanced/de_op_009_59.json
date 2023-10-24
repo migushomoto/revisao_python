@@ -1,0 +1,44 @@
+{
+    "SKU": "DE-OP-009",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "tagsOrConcepts": [
+      "IaC",
+      "terraform"
+    ],
+    "text": [
+      "Você deseja testar a função `split` do Terraform localmente para verificar a saída que ela retornará. Qual é a melhor abordagem para testar essa função localmente?"
+    ],
+    "alternatives": [
+      {
+        "text": "`echo 'split(\",\", \"foo,bar,baz\")' | terraform console`",
+        "feedback": "Correto.",
+        "correct": true,
+        "id": "5ef95dfb-3ea2-4026-ad97-47a6164c85e5"
+      },
+      {
+        "text": "`echo 'split(\",\", \"foo,bar,baz\")' | terraform plan`",
+        "feedback": "Incorreto. A função \"plan\" é utilizada para simular a aplicação dos recursos e não testar recursos localmente.",
+        "correct": false,
+        "id": "52c41eb1-8699-447e-94e4-c8978ca8a096"
+      },
+      {
+        "text": "`echo 'split(\",\", \"foo,bar,baz\")' | terraform apply`",
+        "feedback": "Incorreto. A função \"apply\" é utilizada para aplicar os recursos e não testar recursos localmente.",
+        "correct": false,
+        "id": "6f3916ac-4a49-4ca3-b929-0743da3fc6ee"
+      },
+      {
+        "text": "`echo 'split(\",\", \"foo,bar,baz\")' | terraform taint`",
+        "feedback": "Incorreto. A função \"taint\" é utilizada para marcar recursos a serem recriados no próximo \"apply\" e não testar recursos localmente.",
+        "correct": false,
+        "id": "87050a75-d968-4306-8883-5596b776b95d"
+      }
+    ],
+    "id": "47d5804d-f505-4906-965a-336de2a511da",
+    "level": "Advanced",
+    "knowledgeArea": "DevOps",
+    "category": "Infraestrutura como código",
+    "subCategory": "Terraform"
+}

@@ -1,0 +1,44 @@
+{
+    "SKU": "DE-OP-009",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "tagsOrConcepts": [
+      "IaC",
+      "terraform"
+    ],
+    "text": [
+      "Como forçar os usuários a utilizar uma versão específica de um provider em um código Terraform?"
+    ],
+    "alternatives": [
+      {
+        "text": "`terraform { required_providers { aws = { source = \"hashicorp/aws\" version =\"3.74.1″ } } }`",
+        "feedback": "Correto.",
+        "correct": true,
+        "id": "a7dd45f6-f9d2-4a5c-9b8c-a261b6666d92"
+      },
+      {
+        "text": "`terraform { aws = { source = \"hashicorp/aws\" version = \"~>3.74.1\" } }`",
+        "feedback": "Incorreto. Para isso, é necessário um bloco do tipo `required_providers`.",
+        "correct": false,
+        "id": "99fcc712-774d-473c-a526-d6837180624c"
+      },
+      {
+        "text": "`aws = { source = \"hashicorp/aws\" version = \"3.74.1\" }`",
+        "feedback": "Incorreto. Incorreto. Para isso, é necessário um bloco do tipo `required_providers`.",
+        "correct": false,
+        "id": "52874bd7-3725-419e-81a8-2df88310bd15"
+      },
+      {
+        "text": "`terraform { required_providers { aws = { source = \"hashicorp/aws\" version =\"~>3.74.1″ } } }`",
+        "feedback": "Incorreto. Apesar de haver o bloco `required_providers`, a notação \"~>\" não pode ser usada na definição da versão por ela permite que a minor version seja alterada.",
+        "correct": false,
+        "id": "3d7eefcd-4f0f-496c-8476-d592eda8c300"
+      }
+    ],
+    "id": "3d7eefcd-4f0f-496c-8476-d592eda8c300",
+    "level": "Advanced",
+    "knowledgeArea": "DevOps",
+    "category": "Infraestrutura como código",
+    "subCategory": "Terraform"
+}

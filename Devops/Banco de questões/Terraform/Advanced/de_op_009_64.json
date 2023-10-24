@@ -1,0 +1,44 @@
+{
+    "SKU": "DE-OP-009",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "tagsOrConcepts": [
+      "IaC",
+      "terraform"
+    ],
+    "text": [
+      "Seu time realizou um scan em alguns workspaces do Terraform e encontrou senhas armazenadas em texto plano em arquivos de estado. Como podemos proteger dados sensíveis armazenados nesses arquivos?"
+    ],
+    "alternatives": [
+      {
+        "text": "Deletando os arquivos de estado após cada execução do Terraform.",
+        "feedback": "Incorreto. Esta prática não protege os dados sensíveis, apenas os deleta após a execução, porém, ao apagarmos os arquivos de estado, podemos perder histórico das mudanças que foram feitas.",
+        "correct": false,
+        "id": "64286f30-cac8-445b-8595-b89d8ea7f720"
+      },
+      {
+        "text": "Armazenar os arquivos de estado em um backend criptografado.",
+        "feedback": "Correto. Assim os dados sensíveis estarão criptografados.",
+        "correct": true,
+        "id": "58aa28eb-45bd-49c6-8d58-70a2e46f9ba2"
+      },
+      {
+        "text": "Editar o arquivo de estado manualmente removendo os dados sensíveis.",
+        "feedback": "Incorreto. Além de não resolver o problema, há um grande risco de corromper o arquivo de estado.",
+        "correct": false,
+        "id": "9e9a8a88-5f2f-48e6-9f09-a166120b9c56"
+      },
+      {
+        "text": "Armazenando os segredos num arquivo `secrets.tfvars`.",
+        "feedback": "Incorreto. Arquivos `.tfvars` não são criptografados por padrão.",
+        "correct": false,
+        "id": "13100ecf-67f1-4bf1-ba83-03eb7f2821ee"
+      }
+    ],
+    "id": "a5c674d6-ed68-4301-a275-fd39359574cf",
+    "level": "Advanced",
+    "knowledgeArea": "DevOps",
+    "category": "Infraestrutura como código",
+    "subCategory": "Terraform"
+  }

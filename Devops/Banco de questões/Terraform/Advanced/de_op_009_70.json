@@ -1,0 +1,44 @@
+{
+    "SKU": "DE-OP-009",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "tagsOrConcepts": [
+      "IaC",
+      "terraform"
+    ],
+    "text": [
+      "Quando devemos usar o comando `force-unlock`?"
+    ],
+    "alternatives": [
+      {
+        "text": "Quando é retornada a mensagem que não foi possível realizar o lock",
+        "feedback": "Incorreto. É possível que o lock não tenha sido realizado pois alguém está aplicando alterações e, nesse caso, remover o lock pode ser catastrófico.",
+        "correct": false,
+        "id": "dcc5c5bb-01d6-49e2-a971-907ed70583b4"
+      },
+      {
+        "text": "Quando há uma alteração muito crítica a ser realizada",
+        "feedback": "Incorreto. Remover o lock de forma forçada deve ser utilizado somente em casos extremos.",
+        "correct": false,
+        "id": "861901ff-c716-4391-b2a4-400e94d29ce6"
+      },
+      {
+        "text": "`Quando o unlock automático falha",
+        "feedback": "Correto. Caso o unlock automático falhe, ninguém conseguirá aplicar nenhuma mudança no workspace até que esse lock seja removido.",
+        "correct": true,
+        "id": "982db1ec-4ffa-49ea-8ccd-fab5c5c80807"
+      },
+      {
+        "text": "Quando sua credencial utilizada em um provider não é válida",
+        "feedback": "Incorreto. Nesse caso, você deve verificar se as credenciais do ser provider estão corretas",
+        "correct": false,
+        "id": "f4510b67-c861-4147-8b97-619e9aa99c7c"
+      }
+    ],
+    "id": "7cee9666-5661-4ee9-bd4a-169886a255a6",
+    "level": "Advanced",
+    "knowledgeArea": "DevOps",
+    "category": "Infraestrutura como código",
+    "subCategory": "Terraform"
+}

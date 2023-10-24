@@ -1,0 +1,44 @@
+{
+    "SKU": "DE-OP-009",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "tagsOrConcepts": [
+      "IaC",
+      "terraform"
+    ],
+    "text": [
+      "Qual das opções abaixo é capaz de executar provisioners que não estão associados a nenhum resource?"
+    ],
+    "alternatives": [
+      {
+        "text": "`null_resource`",
+        "feedback": "Correto.",
+        "correct": true,
+        "id": "78021944-8701-4498-82ed-89708b38f145"
+      },
+      {
+        "text": "`file`",
+        "feedback": "Incorreto. A função `file` é utilizada para ler informações de arquivos externos e não lidar provisioners.",
+        "correct": false,
+        "id": "52043f07-1335-4948-ab7c-a97bf5f7af11"
+      },
+      {
+        "text": "`jsondecode`",
+        "feedback": "Incorreto. A função `jsondecode` é capaz de ler um JSON e convertê-lo para um objeto do tipo `map` do Terraform.",
+        "correct": false,
+        "id": "8eadb3fd-c2f7-49df-af8c-ffc1100a8ebb"
+      },
+      {
+        "text": "`provisioner_wrapper`",
+        "feedback": "Incorreto. Não existe um recurso com esse nome no Terraform.",
+        "correct": false,
+        "id": "24a3f627-b9ae-45b0-913d-ceff12746b2b"
+      }
+    ],
+    "id": "701dfae2-2776-4036-ba2f-72b0db1827d1",
+    "level": "Medium",
+    "knowledgeArea": "DevOps",
+    "category": "Infraestrutura como código",
+    "subCategory": "Terraform"
+}

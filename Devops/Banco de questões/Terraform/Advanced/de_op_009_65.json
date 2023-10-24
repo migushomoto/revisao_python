@@ -1,0 +1,44 @@
+{
+    "SKU": "DE-OP-009",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "tagsOrConcepts": [
+      "IaC",
+      "terraform"
+    ],
+    "text": [
+      "Qual das alternativas abaixo é uma \"collection\" do Terraform utilizada para criar blocos de configuração aninhados?"
+    ],
+    "alternatives": [
+      {
+        "text": "`for_each`",
+        "feedback": "Incorreto. O `for_each` é um operador de iteração.",
+        "correct": false,
+        "id": "960893cf-d6b6-439f-a4d7-40a8475c8304"
+      },
+      {
+        "text": "`repeated`",
+        "feedback": "Incorreto. Não há uma collection no Terraform com esse nome.",
+        "correct": false,
+        "id": "05ec6563-07bb-4dc6-85dc-1130e530c174"
+      },
+      {
+        "text": "`nesting`",
+        "feedback": "Incorreto. Não há uma collection no Terraform com esse nome.",
+        "correct": false,
+        "id": "59f7cc68-2538-4bd5-90a9-b4838eb96070"
+      },
+      {
+        "text": "`dynamic`",
+        "feedback": "Correto.",
+        "correct": false,
+        "id": "2147eade-1a1c-479b-ab06-dbfe564623a0"
+      }
+    ],
+    "id": "c6d5c72b-6de5-4e96-bbf1-8aa06144452d",
+    "level": "Advanced",
+    "knowledgeArea": "DevOps",
+    "category": "Infraestrutura como código",
+    "subCategory": "Terraform"
+}
