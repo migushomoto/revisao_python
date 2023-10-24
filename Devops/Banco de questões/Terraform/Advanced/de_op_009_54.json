@@ -8,7 +8,7 @@
       "terraform"
     ],
     "text": [
-      "Vocẽ está trabalhando com diferentes estados de Terraform e você precisa acessar um deles que é pertencente a organização \"whizlabs\", em um workspace chamado \"prod\". Como você configuraria um datasource do Terraform para acessá-lo?"
+      "Vocẽ está trabalhando com diferentes estados de Terraform e precisa acessar um deles que é pertencente a organização \"whizlabs\", em um workspace chamado \"prod\". Como você configuraria um datasource do Terraform para acessá-lo?"
     ],
     "alternatives": [
       {
@@ -19,19 +19,19 @@
       },
       {
         "text": "`resource \"aws_instance\" \"whizlabs\" {`<br>&nbsp;&nbsp;`provider = aws.frankfurt`<br>`}`",
-        "feedback": "Incorreto. Para acessar dados de um workspace remoto, devemos utilizar um recurso do tipo \"data\".",
+        "feedback": "Incorreto. Para acessar dados de um workspace remoto, devemos utilizar um recurso do tipo \"data\" e não \"resource\".",
         "correct": false,
         "id": "31dae9a7-0206-4356-ad65-d8895b9a831c"
       },
       {
         "text": "`resource \"aws_instance\" \"whizlabs\" { … }`",
-        "feedback": "Incorreto. Para acessar dados de um workspace remoto, devemos utilizar um recurso do tipo \"data\".",
+        "feedback": "Incorreto. Para acessar dados de um workspace remoto, devemos utilizar um recurso do tipo \"data\" e não \"resource\".",
         "correct": false,
         "id": "db746225-6c32-4258-b3a8-1570d7199805"
       },
       {
         "text": "`resource \"aws_instance\" \"whizlabs\" {`<br>&nbsp;&nbsp;`provider = aws.west`<br>`}`",
-        "feedback": "Incorreto. Para acessar dados de um workspace remoto, devemos utilizar um recurso do tipo \"data\".",
+        "feedback": "Incorreto. Para acessar dados de um workspace remoto, devemos utilizar um recurso do tipo \"data\" e não \"resource\".",
         "correct": false,
         "id": "76b39800-1d56-48ae-9eb1-480d4c074da0"
       }

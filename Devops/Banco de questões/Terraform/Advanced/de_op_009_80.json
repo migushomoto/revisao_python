@@ -21,7 +21,6 @@
       "`}`",
       "<br><br>",
       "O recurso `aws_instance.web` se refere a?"
-
     ],
     "alternatives": [
       {
@@ -32,19 +31,19 @@
       },
       {
         "text": "Apenas a última das 4 instâncias, uma vez que não foi informado nenhum índice",
-        "feedback": "Incorreto.",
+        "feedback": "Incorreto. Para referenciar uma instância específica, devemos utilizar um índice de lista.",
         "correct": false,
         "id": "994177d2-3748-475a-a149-a93d7ed9174f"
       },
       {
         "text": "Apenas a primeira das 4 instâncias, uma vez que não foi informado nenhum índice",
-        "feedback": "Incorreto.",
+        "feedback": "Incorreto. Para referenciar uma instância específica, devemos utilizar um índice de lista.",
         "correct": false,
         "id": "94e58fe5-8c1c-4c1b-8af4-0394c3214e6f"
       },
       {
         "text": "Irá ocorrer um erro, uma vez que a sintaxe está incorreta. Nesse caso, é obrigatório informar um índice",
-        "feedback": "Incorreto.",
+        "feedback": "Incorreto. Como não foi especificado nenhum índice de lista, as 4 instâncias serão referenciadas.",
         "correct": false,
         "id": "77b476db-ce22-4f3f-ba8d-26808dec0410"
       }

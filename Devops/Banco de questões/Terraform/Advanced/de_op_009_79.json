@@ -13,7 +13,7 @@
     "alternatives": [
       {
         "text": "Apenas dependências implícitas",
-        "feedback": "Incorreto.",
+        "feedback": "Incorreto. Dependências explícitas também são armazenadas nos estados do Terraform.",
         "correct": false,
         "id": "a300f482-f4f1-4911-b899-e376a208dc8c"
       },
@@ -25,13 +25,13 @@
       },
       {
         "text": "Apenas dependências explícitas",
-        "feedback": "Incorreto.",
+        "feedback": "Incorreto. Dependências implícitas também são armazenadas nos estados do Terraform.",
         "correct": false,
         "id": "3f536316-2f80-4c03-a6ae-b9414a5253da"
       },
       {
         "text": "Nenhum tipo de dependência",
-        "feedback": "Incorreto.",
+        "feedback": "Incorreto. Todas as dependências entre recursos são armazenadas nos estados do Terraform.",
         "correct": false,
         "id": "48061604-eb8b-464f-a32a-b8d131bf9db5"
       }

@@ -19,7 +19,7 @@
       },
       {
         "text": "Executar um comando dentro do recurso provisionado pelo Terraform",
-        "feedback": "Incorreto.",
+        "feedback": "Incorreto. Para isso, devemos usar um provisioner do tipo `remote-exec`.",
         "correct": false,
         "id": "6e1d4d89-2837-4f70-90d4-f629a69e6040"
       },
@@ -31,7 +31,7 @@
       },
       {
         "text": "Assegurar que o recurso provisionado pelo Terraform só estará acessível na mesma rede que o host do Terraform",
-        "feedback": "Incorreto.",
+        "feedback": "Incorreto. A configuração de rede não tem relação com o tipo de provisioner.",
         "correct": false,
         "id": "64da5c18-4114-4127-83e8-33aeed7ef19c"
       }
