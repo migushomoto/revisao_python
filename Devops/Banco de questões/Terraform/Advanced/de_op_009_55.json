@@ -24,8 +24,8 @@
         "id": "fd0383da-b797-4269-8931-48716bf79fdd"
       },
       {
-        "text": "A configuração ainda está incompleta.",
-        "feedback": "Incorreto. Incorreto. A utilização do parâmetro `alias` na configuração de um provider não é obrigatória.",
+        "text": "A configuração está incompleta.",
+        "feedback": "Incorreto. A utilização do parâmetro `alias` na configuração de um provider não é obrigatória.",
         "correct": false,
         "id": "cb0d6855-61d9-4d1a-9f75-44168ed715a8"
       },

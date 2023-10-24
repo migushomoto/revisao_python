@@ -31,7 +31,7 @@
       },
       {
         "text": "Nada precisa ser feito. O Terraform tratará disso automaticamente já que a variável de ambiente `TF_LOG=DEBUG` foi definida.",
-        "feedback": "Incorreto. É necessário definir o caminho do arquivo onde o log deve ser armazenado através da variável de ambiente `TF_LOG_FILE`.",
+        "feedback": "Incorreto. É necessário definir o caminho do arquivo onde o log deve ser armazenado.",
         "correct": false,
         "id": "93823237-8879-4879-9092-c9cf4349031e"
       }

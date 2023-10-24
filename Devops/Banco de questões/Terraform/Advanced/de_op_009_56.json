@@ -25,7 +25,7 @@
       },
       {
         "text": "`aws = { source = \"hashicorp/aws\" version = \"3.74.1\" }`",
-        "feedback": "Incorreto. Incorreto. Para isso, é necessário um bloco do tipo `required_providers`.",
+        "feedback": "Incorreto. Para isso, é necessário um bloco do tipo `required_providers`.",
         "correct": false,
         "id": "52874bd7-3725-419e-81a8-2df88310bd15"
       },
