@@ -13,7 +13,7 @@
     "alternatives": [
       {
         "text": "`module.outputs.prod_subnet.subnet_id`",
-        "feedback": "Incorreto. A sintaxe correta para utilizarmos um output de um módulo pai em um módudo filho ou em outros recursos é `module.<NOME DO MODULO>.<NOME DO OUTPUT>`.",
+        "feedback": "Incorreto. A sintaxe correta para utilizarmos um output de um módulo pai em um módudo filho ou em outros recursos é `module.<NOME DO MODULO>.<NOME DO OUTPUT>`. Essa sintaxe não produz o resultado esperado pois, nesse caso, não existe o objeto \"outputs\".",
         "correct": false,
         "id": "a6ac674f-6924-4c1a-a9cb-63b28bf5f4f6"
       },
@@ -25,13 +25,13 @@
       },
       {
         "text": "`prod_subnet.subnet_id`",
-        "feedback": "Incorreto. A sintaxe correta para utilizarmos um output de um módulo pai em um módudo filho ou em outros recursos é `module.<NOME DO MODULO>.<NOME DO OUTPUT>`.",
+        "feedback": "Incorreto. A sintaxe correta para utilizarmos um output de um módulo pai em um módudo filho ou em outros recursos é `module.<NOME DO MODULO>.<NOME DO OUTPUT>`. Nesse caso, devemos utilizar a referência \"module\" antes do nome do recurso.",
         "correct": false,
         "id": "e19abb3e-73f7-4065-9a30-892c2327bce6"
       },
       {
         "text": "`prod_subnet.outputs.subnet_id`",
-        "feedback": "Incorreto. A sintaxe correta para utilizarmos um output de um módulo pai em um módudo filho ou em outros recursos é `module.<NOME DO MODULO>.<NOME DO OUTPUT>`.",
+        "feedback": "Incorreto. A sintaxe correta para utilizarmos um output de um módulo pai em um módudo filho ou em outros recursos é `module.<NOME DO MODULO>.<NOME DO OUTPUT>`. Essa sintaxe não produz o resultado esperado pois, nesse caso, não existe o objeto \"outputs\" e também não estamos usando a referência \"module\" antes do nome do recurso.",
         "correct": false,
         "id": "7a8e4b69-5793-43f4-b050-e6961d48f193"
       }
