@@ -29,19 +29,19 @@
       },
       {
         "text": "Exige o provider da AWS em qualquer versão >= 3.0",
-        "feedback": "Incorreto. Nesse caso, a notação \"~>\" diz que podemos utilizar qualquer versão entre 3.0 e 3.9.",
+        "feedback": "Incorreto. Nesse caso podemos utilizar qualquer versão até < 4.0.",
         "correct": false,
         "id": "0ea3a095-d053-4c06-97f1-ab9aac6d940d"
       },
       {
         "text": "Exige o provider da AWS em uma major release maior que 3.0, por exemplo: 4.1",
-        "feedback": "Incorreto. Nesse caso, a notação \"~>\" diz que podemos utilizar qualquer versão entre 3.0 e 3.9.",
+        "feedback": "Incorreto. Nesse caso podemos utilizar qualquer versão até < 4.0.",
         "correct": false,
         "id": "da973f37-08f4-441a-a78c-b955e5e7c103"
       },
       {
         "text": "Exige o provider da AWS em qualquer versão > 3.0",
-        "feedback": "Incorreto. Nesse caso, a notação \"~>\" diz que podemos utilizar qualquer versão entre 3.0 e 3.9.",
+        "feedback": "Incorreto. Nesse caso podemos utilizar qualquer versão até < 4.0.",
         "correct": false,
         "id": "a6410a26-2fa2-41e9-94b9-d81616724c11"
       }

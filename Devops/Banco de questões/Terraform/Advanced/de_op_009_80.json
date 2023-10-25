@@ -43,7 +43,7 @@
       },
       {
         "text": "Irá ocorrer um erro, uma vez que a sintaxe está incorreta. Nesse caso, é obrigatório informar um índice",
-        "feedback": "Incorreto. Como não foi especificado nenhum índice de lista, as 4 instâncias serão referenciadas.",
+        "feedback": "Incorreto. Não ocorrerá um erro pois a sintaxe está correta.",
         "correct": false,
         "id": "77b476db-ce22-4f3f-ba8d-26808dec0410"
       }

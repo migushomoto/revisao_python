@@ -19,19 +19,19 @@
       },
       {
         "text": "`terraform fmt -diff`",
-        "feedback": "Incorreto. Esse comando só se aplicará aos arquivos do diretório atual e mostrará as mudanças efetuadas. Para formatar também os arquivos que estão nos diretórios subsequentes, devemos utilizar o parâmetro \"-recursive\".",
+        "feedback": "Incorreto. Esse comando só se aplicará aos arquivos do diretório atual e mostrará as mudanças efetuadas.",
         "correct": false,
         "id": "5ed072dc-88e2-4e37-9eaf-f87938049c5d"
       },
       {
         "text": "`terraform fmt -check`",
-        "feedback": "Incorreto. Esse comando só se aplicará aos arquivos do diretório atual e retornará sucesso se a formatação estiver correta e erro se ela estiver incorreta. Para formatar também os arquivos que estão nos diretórios subsequentes, devemos utilizar o parâmetro \"-recursive\".",
+        "feedback": "Incorreto. Esse comando só se aplicará aos arquivos do diretório atual e retornará sucesso se a formatação estiver correta e erro se ela estiver incorreta.",
         "correct": false,
         "id": "f4770662-2cb9-4616-8007-f8bc4c34ca63"
       },
       {
         "text": "`terraform fmt -list=true`",
-        "feedback": "Incorreto. Esse comando só se aplicará aos arquivos do diretório atual e retornará a lista de arquivos com inconsistências de formatação. Para formatar também os arquivos que estão nos diretórios subsequentes, devemos utilizar o parâmetro \"-recursive\".",
+        "feedback": "Incorreto. Esse comando só se aplicará aos arquivos do diretório atual e retornará a lista de arquivos com inconsistências de formatação.",
         "correct": false,
         "id": "d58f0f3d-fe19-492c-bbfc-e6f037410257"
       }
