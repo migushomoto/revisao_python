@@ -26,7 +26,7 @@
       },
       {
         "text": "Um contêiner Docker só pode ser usado como um serviço.",
-        "feedback": "Incorreto.",
+        "feedback": "Incorreto. Um contêiner Docker pode ser usado independentemente ou como parte de um serviço.",
         "correct": false,
         "id": "a79098cb-88a7-4281-be1d-2c8b7a73aadb"
       },
