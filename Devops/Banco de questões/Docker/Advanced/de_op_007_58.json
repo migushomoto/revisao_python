@@ -26,7 +26,7 @@
       },
       {
         "text": "O arquivo do compose também pode ser usado como docker-compose.yaml e docker-compose.yml para compatibilidade com versões anteriores. Se ambos os arquivos existirem no diretório, o compose não poderá ser executado sem especificar o arquivo.",
-        "feedback": "O Compose preferirá o canônico compose.yaml",
+        "feedback": "Incorreto. O Compose dá preferência ao arquivo 'compose.yaml' sobre 'docker-compose.yaml/yml' quando ambos estão presentes.",
         "correct": false,
         "id": "40494625-f5b3-472f-8adc-a3bafe5abed4"
       },
