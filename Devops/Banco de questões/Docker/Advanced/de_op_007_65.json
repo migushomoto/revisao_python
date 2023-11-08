@@ -29,7 +29,7 @@
         "id": "ef5a8590-63d8-11ee-879e-325096b39f47"
       },
       {
-        "text": "Um contêiner pausado mantém seu estado de memória, enquanto um contêiner em execução não.",
+        "text": "Um contêiner pausado mantém seu estado de memória e paralisa o processo de execução, enquanto um contêiner em execução não.",
         "feedback": "Alternativa Correta!",
         "correct": true,
         "id": "87969d5b-55f6-4890-b800-23ed99c8afb4"
