@@ -18,7 +18,7 @@
     "alternatives": [
       {
         "text": "Um contêiner pausado ainda consome recursos do sistema, enquanto um contêiner em execução não.",
-        "feedback": "Opção incorreta. Container em execução consome recursos.",
+        "feedback": "Incorreto. Um contêiner em execução consome recursos do sistema, enquanto um contêiner pausado não consome recursos de CPU ativamente.",
         "correct": false,
         "id": "ef5a854a-63d8-11ee-ad42-325096b39f47"
       },
