@@ -37,7 +37,7 @@
       },
       {
         "text": "O docker client pode se comunicar somente com um docker daemon.",
-        "feedback": "Incorreto.",
+        "feedback": "Incorreto. Embora um docker client normalmente se comunique com um único daemon, ele pode ser configurado para se comunicar com múltiplos daemons.",
         "correct": false,
         "id": "b4d14ee0-f949-45ae-90c0-af8a14f7115d"
       }
