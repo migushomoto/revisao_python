@@ -26,7 +26,7 @@
       },
       {
         "text": "Uma ferramenta de depuração para contêineres Docker.",
-        "feedback": "Incorreto.",
+        "feedback": "Incorreto. O dockerd não é uma ferramenta de depuração; ferramentas de depuração são parte do Docker SDK ou ferramentas externas.",
         "correct": false,
         "id": "2831275f-d518-44b4-a339-fb6c3fd8eee3"
       },
