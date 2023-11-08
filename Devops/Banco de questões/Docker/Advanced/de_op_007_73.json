@@ -26,7 +26,7 @@
       },
       {
         "text": "default, bridge e net1",
-        "feedback": "Opção inválida.",
+        "feedback": "Incorreto. O modo 'net1' não é um modo de rede suportado pela opção --network.",
         "correct": false,
         "id": "f71ee4b1-05a1-4d09-bd5c-149c8b511152"
       },
