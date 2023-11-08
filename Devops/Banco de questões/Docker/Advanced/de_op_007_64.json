@@ -37,7 +37,7 @@
       },
       {
         "text": "As camadas de uma imagem docker são empilhadas e cada uma é independente das camadas anteriores.",
-        "feedback": "Incorreto. Na verdade cada camada é um delta da camada anterior.",
+        "feedback": "Incorreto. As camadas de uma imagem Docker dependem das anteriores, pois cada camada é um conjunto de diferenças da camada que a precede.",
         "correct": false,
         "id": "ef5a8504-63d8-11ee-b532-325096b39f47"
       }
