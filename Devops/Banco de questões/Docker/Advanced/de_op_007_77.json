@@ -36,8 +36,8 @@
         "id": "01573bb2-5f28-4c1c-accc-0e427e3d68c3"
       },
       {
-        "text": "A flag --link foi adicionado na versão docker/dockerfile:1.2",
-        "feedback": "Falso, a flag COPY --link foi adicionada na versão: docker/dockerfile:1.4",
+        "text": "A flag --link foi adicionada na versão docker/dockerfile:1.2.",
+        "feedback": "Falso, a flag COPY --link foi adicionada na versão: docker/dockerfile:1.4.",
         "correct": false,
         "id": "d4b44dff-90d0-47f8-85bb-f3791709d3b2"
       }
