@@ -14,7 +14,7 @@
       "ADD"
     ],
     "text": [
-      "No Dockerfile na instrução COPY e ADD é possível adicionar a flag --link. Qual das afirmações abaixo está correta referente a esta opção?"
+      "No Dockerfile, na instrução COPY e ADD é possível adicionar a flag --link. Qual das afirmações abaixo está correta referente a esta opção?"
     ],
     "alternatives": [
       {
