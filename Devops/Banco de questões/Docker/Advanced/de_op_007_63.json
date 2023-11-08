@@ -20,7 +20,7 @@
     "alternatives": [
       {
         "text": "Não há diferença; os termos são usados indistintamente.",
-        "feedback": "Incorreto.",
+        "feedback": "Incorreto. No Docker Swarm, um serviço define como as aplicações devem rodar, enquanto um contêiner é uma instância em execução da imagem Docker.",
         "correct": false,
         "id": "ef5a8162-63d8-11ee-aded-325096b39f47"
       },
