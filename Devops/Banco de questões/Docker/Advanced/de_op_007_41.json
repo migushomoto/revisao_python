@@ -5,8 +5,8 @@
     "language": "NA",
     "tagsOrConcepts":["devops","network"],
     "id": "62d79418-9da8-4c4a-a4e1-9c2fc629e249",
-    "knowledgeArea": "Cloud",
-    "category": "Devops",
+    "knowledgeArea": "DevOps",
+    "category": "Docker",
     "subCategory": "docker network",
     "level": "Advanced",
     "text":[ 
