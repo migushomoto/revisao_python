@@ -18,7 +18,7 @@
     "alternatives": [
       {
         "text": "Usando variáveis de ambiente para especificar o diretório de armazenamento.",
-        "feedback": "Opção inválida.",
+        "feedback": "Embora as variáveis de ambiente possam ser usadas para muitas configurações do Docker, a alteração do diretório de armazenamento das imagens normalmente requer alterações no arquivo de configuração do Docker ou no serviço do sistema.",
         "correct": false,
         "id": "070f14fa-d772-4765-ab20-e825640b6ac0"
       },
