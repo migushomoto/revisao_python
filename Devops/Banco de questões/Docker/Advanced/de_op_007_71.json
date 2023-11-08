@@ -38,7 +38,7 @@
       },
       {
         "text": "Ambos os comandos serão executados sem erros, mas as variáveis não serão substituídas, pois não é possível a utilização de variáveis na instrução RUN.",
-        "feedback": "Incorreto, é possivel utilizar variáveis na instrução RUN.",
+        "feedback": "Incorreto. É possível usar variáveis na instrução RUN, mas a forma como são tratadas depende do modo utilizado (shell ou exec).",
         "correct": false,
         "id": "38b6686b-db1d-4f0b-ad50-3bfa51e75a78"
       }
