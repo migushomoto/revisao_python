@@ -19,7 +19,7 @@
     "alternatives": [
       {
         "text": "Um namespace é uma forma de compartilhar recursos entre contêineres Docker.",
-        "feedback": "Opção incorreta. Esta não é a função do namespace.",
+        "feedback": "Opção incorreta. Não existe forma de compartilhamento de recursos entre containers.",
         "correct": false,
         "id": "d945bb1a-eb38-4645-9cb2-2b157671a7bd"
       },
