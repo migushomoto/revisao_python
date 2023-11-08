@@ -33,7 +33,7 @@
       },
       {
         "text": "Impedir que os contêineres Docker sejam executados em hosts não confiáveis.",
-        "feedback": "Opção incorreta.",
+        "feedback": "Incorreto. O DCT não controla onde os contêineres são executados, mas assegura a confiabilidade das imagens usadas.",
         "correct": false,
         "id": "a19c3112-22fd-4914-ae7b-402a014605e2"
       },
