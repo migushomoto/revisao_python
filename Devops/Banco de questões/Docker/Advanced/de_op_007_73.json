@@ -38,7 +38,7 @@
       },
       {
         "text": "none, net1, e host",
-        "feedback": "Opção inválida.",
+        "feedback": "Incorreto. O modo 'net1' não é um modo de rede suportado pela opção --network.",
         "correct": false,
         "id": "44754f1f-5596-40c3-9739-c25ca25ae85b"
       }
