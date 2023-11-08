@@ -31,7 +31,7 @@
       },
       {
         "text": "Um namespace é um espaço de nomes usado para armazenar nomes de contêineres Docker.",
-        "feedback": "Opção incorreta.",
+        "feedback": "Incorreto. o nome do container é armazenado na atributo name.",
         "correct": false,
         "id": "6f58ec88-3f5d-4bcd-a319-a0f85ec778ac"
       },
