@@ -19,7 +19,7 @@
     "alternatives": [
       {
         "text": "bind, config, exec e volume",
-        "feedback": "Opção inválida.",
+        "feedback": "Esta opção é inválida. Exec não é um tipo de mount reconhecido na instrução RUN do Dockerfile.",
         "correct": false,
         "id": "5c4ef7bd-3f76-45c5-94ac-7e9bdf5b2174"
       },
