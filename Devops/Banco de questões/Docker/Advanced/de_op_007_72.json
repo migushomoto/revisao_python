@@ -25,7 +25,7 @@
       },
       {
         "text": "cache, config, shell",
-        "feedback": "Opção inválida.",
+        "feedback": "Esta opção é inválida. Shell não é um tipo de mount reconhecido na instrução RUN do Dockerfile.",
         "correct": false,
         "id": "3a6fa42f-b2bb-4611-bae8-b70528b3e595"
       },
