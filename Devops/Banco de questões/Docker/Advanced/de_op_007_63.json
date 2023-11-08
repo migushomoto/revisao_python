@@ -26,7 +26,7 @@
       },
       {
         "text": "Um serviço é uma instância única de uma imagem Docker, e um contêiner é um grupo de serviços.",
-        "feedback": "Incorreto.",
+        "feedback": "IIncorreto. Um serviço pode ser composto por vários contêineres rodando a mesma imagem em um modo replicado em um cluster Docker Swarm.",
         "correct": false,
         "id": "ef5a832e-63d8-11ee-8d0a-325096b39f47"
       },
