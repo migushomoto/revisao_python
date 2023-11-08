@@ -31,7 +31,7 @@
       },
       {
         "text": "Usando EXPOSE você pode especificar se a porta escuta TCP ou UDP, e o padrão é UDP se o protocolo não for especificado",
-        "feedback": "Incorreto.",
+        "feedback": "Incorreto. O padrão é TCP se o protocolo não for especificado.",
         "correct": false,
         "id": "477e483d-d93e-48e5-af74-44284f51f1f3"
       },
