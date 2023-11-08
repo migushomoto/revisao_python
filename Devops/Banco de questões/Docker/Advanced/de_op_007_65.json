@@ -24,7 +24,7 @@
       },
       {
         "text": "Não existe diferença significativa entre um contêiner Docker pausado e um em execução.",
-        "feedback": "São estados distintos.",
+        "feedback": "Incorreto. Há uma diferença significativa: um contêiner pausado suspende todos os processos, enquanto um em execução está ativamente rodando.",
         "correct": false,
         "id": "ef5a8590-63d8-11ee-879e-325096b39f47"
       },
