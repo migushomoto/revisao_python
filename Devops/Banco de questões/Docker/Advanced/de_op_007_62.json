@@ -38,7 +38,7 @@
       },
       {
         "text": "Um Dockerfile que não possui instruções.",
-        "feedback": "Incorreto.",
+        "feedback": "Incorreto. Um Dockerfile scratch normalmente contém instruções para a construção de uma imagem Docker, embora comece sem nenhuma camada pré-existente.",
         "correct": false,
         "id": "2e9400bc-f6df-430b-ad0c-4ad99bd09b19"
       }
