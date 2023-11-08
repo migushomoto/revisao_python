@@ -26,7 +26,7 @@
       },
       {
         "text": "O primeiro usa o modo exec e o segundo usa o modo shell, o que significa que o valor dentro da variável não será substituído no primeiro comando, uma vez que esta opção utiliza json com aspas.",
-        "feedback": "Incorreto.",
+        "feedback": "Incorreto. No modo exec, as variáveis são tratadas literalmente e não são expandidas.",
         "correct": false,
         "id": "14d6acd6-0750-4e0e-ab71-c3218c0c95df"
       },
