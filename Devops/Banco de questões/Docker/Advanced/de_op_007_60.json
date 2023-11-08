@@ -21,7 +21,7 @@
     "alternatives": [
       {
         "text": "Acelerar o download de imagens Docker da Internet.",
-        "feedback": "Opção incorreta.",
+        "feedback": "Incorreto. O Docker Content Trust não está relacionado à velocidade de download de imagens.",
         "correct": false,
         "id": "e9dc3a47-053a-4199-8153-b2a8b4ed190e"
       },
