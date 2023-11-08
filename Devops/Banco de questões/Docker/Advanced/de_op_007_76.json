@@ -17,7 +17,7 @@
     ],
     "alternatives": [
       {
-        "text": "MY_DOG=Rex The Dog  MY_CAT=fluffy",
+        "text": "MY_DOG=Rex The Dog MY_CAT=fluffy",
         "feedback": "Alternativa Correta!",
         "correct": true,
         "id": "2baf311c-dbdf-4eeb-98d8-de402dd47c56"
