@@ -20,7 +20,7 @@
     "alternatives": [
       {
         "text": "Reduza o tamanho da imagem usando compression no arquivos copiados.",
-        "feedback": "Opção incorreta. Não existe opção de compression em arquivos copiados.",
+        "feedback": "Compressão dos arquivos copiados não é uma prática comum ou recomendada para reduzir o tamanho da imagem Docker.",
         "correct": false,
         "id": "1c077b8e-d88c-410e-ba2a-7302b2964114"
       },
