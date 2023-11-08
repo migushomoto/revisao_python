@@ -37,7 +37,7 @@
       },
       {
         "text": "bind, volume, config, ssh",
-        "feedback": "Opção inválida.",
+        "feedback": "Esta opção é inválida. Config não é um tipo de mount que pode ser especificado com a opção --mount na instrução RUN do Dockerfile.",
         "correct": false,
         "id": "5fb7de96-fb9d-4db3-a529-129b7eeeb37c"
       }
