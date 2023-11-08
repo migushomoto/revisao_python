@@ -38,7 +38,7 @@
       },
       {
         "text": "Um complemento para Docker que estende sua funcionalidade.",
-        "feedback": "Incorreto, essa não é a correta descrição do docker. ",
+        "feedback": "Incorreto. Esta descrição é muito genérica e não captura especificamente o propósito dos plug-ins de volume.",
         "correct": false,
         "id": "d7a68e26-bcc7-433a-ae5c-b67493feaa12"
       }
