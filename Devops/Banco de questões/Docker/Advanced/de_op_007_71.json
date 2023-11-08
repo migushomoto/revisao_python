@@ -32,7 +32,7 @@
       },
       {
         "text": "Ambos os comandos serão executados conforme esperado.",
-        "feedback": "Incorreto, os comandos terão resultados diferentes.",
+        "feedback": "Incorreto. Embora ambos os comandos possam ser executados, eles não funcionarão da mesma maneira devido às diferenças entre os modos shell e exec.",
         "correct": false,
         "id": "b99b94f5-b90d-4d44-8f56-a5f6a9b16e86"
       },
