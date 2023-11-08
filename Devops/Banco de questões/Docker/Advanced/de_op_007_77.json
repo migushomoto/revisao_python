@@ -30,7 +30,7 @@
         "id": "cf731283-9792-4311-a64c-afe31032520a"
       },
       {
-        "text": "Quando --link é usado, seus arquivos de origem são copiados para um diretório de destino vazio. Esse diretório é transformado em uma camada vinculada ao seu estado anterior",
+        "text": "Quando --link é usado, seus arquivos de origem são copiados para um diretório de destino vazio. Esse diretório é transformado em uma camada vinculada ao seu estado anterior.",
         "feedback": "Alternativa Correta!",
         "correct": true,
         "id": "01573bb2-5f28-4c1c-accc-0e427e3d68c3"
