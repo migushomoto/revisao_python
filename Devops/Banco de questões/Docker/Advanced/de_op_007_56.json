@@ -32,7 +32,7 @@
       },
       {
         "text": "Um serviço é uma coleção de contêineres que executam a mesma imagem.",
-        "feedback": "Incorreto. Descrição inválida.",
+        "feedback": "Incorreto. Um serviço Docker define a forma como os contêineres devem se comportar em produção, o que pode incluir a execução de múltiplas instâncias de uma mesma imagem.",
         "correct": false,
         "id": "1aaac00b-7d32-457d-bbac-3301e3b5fb3e"
       },
