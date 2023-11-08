@@ -20,7 +20,7 @@
     "alternatives": [
       {
         "text": "Somente usando Compose V1 é possível utilizar Multistage.",
-        "feedback": "Multistage está relacionada ao Dockerfile e não tem relação com o client compose. ",
+        "feedback": "Multistage está relacionada ao Dockerfile e não tem relação com o client compose.",
         "correct": false,
         "id": "0715ea74-8f0a-48c1-83a9-3973a36eeb72"
       },
