@@ -1,6 +1,6 @@
 
 {
-    "SKU": "DE-OP-007",
+    "SKU": "0000054",
     "interpreter": 1,
     "type": "MULT",
     "language": "NA",
@@ -33,7 +33,7 @@
       },
       {
         "text": "Utilize Entrypoint ao invés de CMD",
-        "feedback": "Entrypoint e cmd não irão afetar no tamanho da imagem.",
+        "feedback": "A escolha entre Entrypoint e CMD não afeta o tamanho da imagem Docker. Eles são usados para especificar o comportamento padrão de um contêiner.",
         "correct": false,
         "id": "4175e8bb-2879-48cc-976c-43286dd05aea"
       },

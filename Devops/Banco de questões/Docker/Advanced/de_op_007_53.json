@@ -1,6 +1,6 @@
 
 {
-    "SKU": "DE-OP-007",
+    "SKU": "0000053",
     "interpreter": 1,
     "type": "MULT",
     "language": "NA",
@@ -32,13 +32,13 @@
       },
       {
         "text": "Um serviço web para compartilhar imagens Docker com outros usuários.",
-        "feedback": "Incorreto, buidx não possui essa funcionalidade ou propósito.",
+        "feedback": "Incorreto, O compartilhamento de imagens pode ser feito usando o docker hub.",
         "correct": false,
         "id": "d427c87c-fb4c-4625-a01d-8604a61ce01f"
       },
       {
         "text": "Uma biblioteca de gráficos para visualizar a estrutura das imagens Docker.",
-        "feedback": "Incorreto, buidx não possui essa funcionalidade ou propósito.",
+        "feedback": "Incorreto, Docker Hub é o serviço web para compartilhar imagens Docker, não o BuildKit.",
         "correct": false,
         "id": "055492ae-4157-49f6-8ca6-88a552a15ed5"
       }
