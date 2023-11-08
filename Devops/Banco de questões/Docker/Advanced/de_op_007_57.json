@@ -32,7 +32,7 @@
       },
       {
         "text": "Possibilita o compartilhamento de disco persistentes entre mais de um container.",
-        "feedback": "Incorreto.",
+        "feedback": "Incorreto. Isso descreve uma funcionalidade de volumes em Docker, não de Build Attestations.",
         "correct": false,
         "id": "6e0639fd-39f9-4374-a2dd-b29bc0474d62"
       },
