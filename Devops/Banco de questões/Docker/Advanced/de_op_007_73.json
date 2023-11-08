@@ -31,8 +31,8 @@
         "id": "f71ee4b1-05a1-4d09-bd5c-149c8b511152"
       },
       {
-        "text": "host ,net1 e bridge",
-        "feedback": "Opção inválida.",
+        "text": "host, net1 e bridge",
+        "feedback": "Incorreto. O modo 'net1' não é um modo de rede suportado pela opção --network.",
         "correct": false,
         "id": "934a7198-93a6-4b39-a8fc-27a410a868b7"
       },
