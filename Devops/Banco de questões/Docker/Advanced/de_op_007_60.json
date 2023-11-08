@@ -39,7 +39,7 @@
       },
       {
         "text": "Garantir que todos os contêineres Docker sejam confiáveis e seguros.",
-        "feedback": "Opção incorreta. DCT não faz verificação de containers.",
+        "feedback": "Incorreto. O DCT se concentra na segurança das imagens, não diretamente na dos contêineres.",
         "correct": false,
         "id": "4b6c1999-0120-44e0-b680-e81265466ee0"
       }
