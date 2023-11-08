@@ -5,8 +5,8 @@
     "language": "NA",
     "id": "c6e808f3-19d9-4b85-9216-40f2597ce373",
     "knowledgeArea": "DevOps",
-    "category": "docker",
-    "subCategory": "camadas",
+    "category": "Conteinerização",
+    "subCategory": "namespaces",
     "level": "Advanced",
     "tagsOrConcepts": [
       "container",

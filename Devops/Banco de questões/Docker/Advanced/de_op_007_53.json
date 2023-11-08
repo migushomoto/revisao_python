@@ -26,7 +26,7 @@
       },
       {
         "text": "Uma ferramenta para compilar aplicativos dentro de contêineres Docker.",
-        "feedback": "Incorreto, buidx não possui essa funcionalidade ou propósito.", 
+        "feedback": "Incorreto, aplicativos docker são compilados e transformados em containers, e não podem ser compilados dentros de containers.", 
         "correct": false,
         "id": "bc5eefce-97e7-4779-8399-85633a228413"
       },

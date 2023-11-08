@@ -32,7 +32,7 @@
       },
       {
         "text": "Uma imagem Docker que serve como um plug-in para outros contêineres.",
-        "feedback": "Os plugins não são imagens.",
+        "feedback": "Os plugins não são imagens. Plugins tem relação com a persistência dos dados.",
         "correct": false,
         "id": "3f9438ee-5ed6-47f0-8438-19c09260b817"
       },
