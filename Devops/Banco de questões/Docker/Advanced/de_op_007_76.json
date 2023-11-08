@@ -30,7 +30,7 @@
       },
       {
         "text": "MY_DOG=RexTheDog MY_CAT=fluffy",
-        "feedback": "Incorreto.",
+        "feedback": "Incorreto. A instrução ENV permite espaços se devidamente escapados.",
         "correct": false,
         "id": "c1151ad5-f76e-4664-b88a-3550221d3736"
       },
