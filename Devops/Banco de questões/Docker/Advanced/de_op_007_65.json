@@ -35,8 +35,8 @@
         "id": "87969d5b-55f6-4890-b800-23ed99c8afb4"
       },
       {
-        "text": "Um contêiner pausado interrompe completamente a execução, enquanto um contêiner em execução está em pleno funcionamento.",
-        "feedback": "Opção incorreta. Container pausado não interrompe completamente.",
+        "text": "Um contêiner pausado não interrompe completamente a execução, enquanto um contêiner em execução está em pleno funcionamento.",
+        "feedback": "Opção incorreta. Container pausado interrompe completamente, embora mantenha estado de memória.",
         "correct": false,
         "id": "d3dccd61-a850-40c8-a70c-3f10dddd324a"
       }
