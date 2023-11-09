@@ -1,0 +1,44 @@
+{
+    "SKU": "0000043",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "id": "2c8bfc7c-0d54-4adc-b61e-b07b75342651",
+    "knowledgeArea": "DevOps",
+    "category": "docker",
+    "subCategory": "prune",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+      "system",
+      "prune"
+    ],
+    "text": [
+      "O comando docker system prune é usado para remover imagens não utilizadas, ou volumes, neste comando é possível incluir flags como -f para forçar e não receber mensagem de confirmação na linha de comando, e a opção -a ou -all, qual a diferença quando utilizamos esta flag -a?"
+    ],
+    "alternatives": [
+      {
+        "text": "Com a flag -a será removido somente as imagens selecionadas para 'deleção'.",
+        "feedback": "Não existe esta opção de delete de imagens selecionadas",
+        "correct": false,
+        "id": "8d3c63fa-8b51-44db-b131-67e1a9b7a855"
+      },
+      {
+        "text": "Remove todas a imagens, exceto imagens com tag.",
+        "feedback": "Incorreto, docker system prune não tem relação com tags.",
+        "correct": false,
+        "id": "1bf7d73a-69af-468d-bb6b-48f43c2b11a5"
+      },
+      {
+        "text": "Remova todas as imagens, até mesmo as utilizadas",
+        "feedback": "O docker system prune não possui opção para remover imagens que estejam sendo utilizadas",
+        "correct": false,
+        "id": "a7a5d50a-752f-49fe-b0ab-ef3854985a4b"
+      },
+      {
+        "text": "Remove todas as imagens não utilizadas, não apenas as 'penduradas(dangling)'.",
+        "feedback": "Alternativa Correta!",
+        "correct": true,
+        "id": "03a84686-e765-494d-baf0-f0c8efd9628d"
+      }
+    ]
+  }

@@ -1,0 +1,45 @@
+
+{
+    "SKU": "0000061",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "id": "924e21ed-b87f-4e4f-bb6d-d894674c6a65",
+    "knowledgeArea": "DevOps",
+    "category": "Conteinerização",
+    "subCategory": "docker",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+      "container",
+      "namespace"
+    ],
+    "text": [
+      "O que é um namespace em Docker e por que é importante?"
+    ],
+    "alternatives": [
+      {
+        "text": "Um namespace é uma forma de compartilhar recursos entre contêineres Docker.",
+        "feedback": "Opção incorreta. Não existe forma de compartilhamento de recursos entre containers.",
+        "correct": false,
+        "id": "d945bb1a-eb38-4645-9cb2-2b157671a7bd"
+      },
+      {
+        "text": "Um namespace é uma lista de contêineres Docker em execução em um host.",
+        "feedback": "Opção incorreta. Lista de containers são instâncias do serviço docker.",
+        "correct": false,
+        "id": "f44fa79f-ae80-4914-9af7-653cf6f81248"
+      },
+      {
+        "text": "Um namespace é um espaço de nomes usado para armazenar nomes de contêineres Docker.",
+        "feedback": "Incorreto. o nome do container é armazenado na atributo name.",
+        "correct": false,
+        "id": "6f58ec88-3f5d-4bcd-a319-a0f85ec778ac"
+      },
+      {
+        "text": "Um namespace é um mecanismo de isolamento que fornece um contexto separado para diferentes aspectos do sistema, como PID, rede e sistema de arquivos.",
+        "feedback": "Alternativa Correta!",
+        "correct": true,
+        "id": "d3adbe12-4245-4759-936d-edd8a7f4508e"
+      }
+    ]
+  }

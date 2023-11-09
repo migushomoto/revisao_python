@@ -1,0 +1,47 @@
+
+{
+    "SKU": "0000045",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "id": "fdf97282-132d-4884-ac11-ee94d125a826",
+    "knowledgeArea": "DevOps",
+    "category": "Conteinerização",
+    "subCategory": "linguagem",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+      "docker",
+      "daemon"
+    ],
+    "text": [
+      "Por padrão o Docker daemon persiste todos os dados em um único diretório. Isso rastreia tudo relacionado ao Docker, incluindo contêineres, imagens, volumes, service definition e secrets.",
+      "qual é esse diretório padrão no Linux e no windows respectivamente?"
+    ],
+    "alternatives": [
+      {
+        "text": "\"/var/lib/docker\" no Linux e \"C:\\ProgramData\\docker\" no Windows",
+        "feedback": "Opção Inválida.",
+        "correct": false,
+        "id": "c964cfc4-bfdd-4450-94e7-b9aec6e3105d"
+      },
+      {
+        "text": "\"/var/lib/docker\" no Linux e \"C:\\ProgramData\\docke\"r no Windows",
+        "feedback": "Alternativa Correta!",
+        "correct": true,
+        "id": "0a9411ef-da48-4b3b-a88e-914edfcb4c3d"
+      },
+      {
+        "text": "\"/var/usr/local/docker\" no Linux e \"C:\\ProgramData\\user\\docker\" no Windows",
+        "feedback": "Opção Inválida.",
+        "correct": false,
+        "id": "2d14c794-7ec4-4bde-a5a2-876e92bd9a16"
+      },
+      {
+        "text": "/opt/lib/docker\" no Linux e \"C:\\ProgramData\\dockerd\" no Windows",
+        "feedback": "Opção Inválida.",
+        "correct": false,
+        "id": "18fcef53-e317-4519-988a-ee49be065020"
+      }
+    ]
+  }
+  

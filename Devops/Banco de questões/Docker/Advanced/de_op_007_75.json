@@ -1,0 +1,45 @@
+{
+    "SKU": "0000075",
+    "interpreter": 1,
+    "type": "VF",
+    "language": "NA",
+    "id": "fac65930-7047-47ba-8d81-e424dce4ab2f",
+    "knowledgeArea": "DevOps",
+    "category": "Conteinerização",
+    "subCategory": "EXPOSE",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+      "container",
+      "Dockerfile",
+      "EXPOSE"
+    ],
+    "text": [
+      "No Dockerfile existe a instrução EXPOSE, escolha Verdadeiro ou Falso para as afirmações abaixo."
+    ],
+    "alternatives": [
+      {
+        "text": "A instrução EXPOSE na verdade não publica a porta no container",
+        "feedback": "Alternativa Correta!",
+        "correct": true,
+        "id": "7c301daa-3e7d-43e0-a2f8-132537608efa"
+      },
+      {
+        "text": "EXPOSE funciona como uma espécie de documentação entre quem constrói a imagem e quem administra o contêiner, sobre quais portas se pretende publicar",
+        "feedback": "Alternativa Correta!",
+        "correct": true,
+        "id": "f1911119-efb5-4515-ae72-c352df485f4c"
+      },
+      {
+        "text": "Usando EXPOSE você pode especificar se a porta escuta TCP ou UDP, e o padrão é UDP se o protocolo não for especificado",
+        "feedback": "Incorreto. O padrão é TCP se o protocolo não for especificado.",
+        "correct": false,
+        "id": "477e483d-d93e-48e5-af74-44284f51f1f3"
+      },
+      {
+        "text": "Usando EXPOSE você pode especificar se a porta escuta TCP ou UDP, e o padrão é TCP se o protocolo não for especificado",
+        "feedback": "Alternativa Correta!",
+        "correct": true,
+        "id": "3085339d-06af-4e35-8502-ec0bd65b5cad"
+      }
+    ]
+  }

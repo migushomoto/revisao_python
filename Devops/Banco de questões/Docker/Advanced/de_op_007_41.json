@@ -1,0 +1,37 @@
+{
+    "SKU": "0000041",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "tagsOrConcepts":["devops","network"],
+    "id": "62d79418-9da8-4c4a-a4e1-9c2fc629e249",
+    "knowledgeArea": "DevOps",
+    "category": "Docker",
+    "subCategory": "docker network",
+    "level": "Advanced",
+    "text":[ 
+    "O que é uma rede Docker overlay?"
+    ],
+    "alternatives": [
+        {   "text": "Uma rede interna de um único contêiner.", 
+            "feedback":"Overlay permite a comunicação entre vários containers em diferente hosts.", 
+            "correct":false,
+            "id": "61fd71ca-2c54-4b07-9a4f-1a415fab88ca"
+        },
+        {   "text": "Uma rede que permite que contêineres compartilhem uma única porta de saída.", 
+            "feedback":"Overlay não tem relação com a portas dos containers.", 
+            "correct":false,
+            "id": "4ab1ba7f-727d-480e-a5f6-83498f3bb2a8"
+        },
+        {   "text": "Uma rede que permite a comunicação entre contêineres em hosts diferentes.", 
+            "feedback": "Alternativa Correta!", 
+            "correct":true,
+            "id": "d5d4ec0d-ca60-4b86-9fdc-f41d65d3cfe4"
+        },
+        {   "text": "Uma rede que conecta contêineres apenas no mesmo host.", 
+            "feedback":"Incorreto. Rede Overlay sobrepõe sobre as redes do host.", 
+            "correct":false,
+            "id": "7c75644a-b861-4bbe-a4f4-2ab68883f75b"
+        }
+    ]
+}

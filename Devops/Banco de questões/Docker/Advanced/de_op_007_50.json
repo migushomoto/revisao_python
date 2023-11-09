@@ -1,0 +1,46 @@
+
+{
+    "SKU": "0000050",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "id": "59799cae-7706-4888-810b-2e940340c803",
+    "knowledgeArea": "DevOps",
+    "category": "docker",
+    "subCategory": "compose",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+      "container",
+      "docker",
+      "compose"
+    ],
+    "text": [
+      "Qual dos comandos abaixo não é mais suportado no Compose V2?"
+    ],
+    "alternatives": [
+      {
+        "text": "docker compose build",
+        "feedback": "Este é um comando base, e obviamente continua funcionando.",
+        "correct": false,
+        "id": "17b8c495-8827-4b13-b156-820287889fb8"
+      },
+      {
+        "text": "docker compose up --scale",
+        "feedback": "Incorreto. Este é um comando para ser utilizado no compose V1.",
+        "correct": false,
+        "id": "d5ea3786-9ec7-4369-8854-7c561a887d4d"
+      },
+      {
+        "text": "docker compose scale",
+        "feedback": "Alternativa Correta!",
+        "correct": true,
+        "id": "7662f621-e0b2-4857-8d05-743e9d206880"
+      },
+      {
+        "text": "docker compose top",
+        "feedback": "docker compose top funciona em ambas versões.",
+        "correct": false,
+        "id": "3d261176-d8ab-47d5-910e-60f276b7de74"
+      }
+    ]
+  }

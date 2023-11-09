@@ -1,0 +1,48 @@
+
+{
+    "SKU": "0000052",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "id": "6d5252b7-af67-4b20-b4f6-4171a02905c5",
+    "knowledgeArea": "DevOps",
+    "category": "docker",
+    "subCategory": "attestations",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+      "attestations",
+      "docker",
+      "build"
+    ],
+    "text": [
+      "Qual das opções abaixo habilita/cria a opção de build attestations?"
+    ],
+    "alternatives": [
+      {
+        "text": "docker buildx build --attestation=true",
+        "feedback": "Esta sintaxe não está correta, veja mais em: \"https://docs.docker.com/build/attestations/",
+        "correct": false,
+        "id": "57ce498a-fa58-40c8-b8a9-eaab766c8d9b"
+      },
+      {
+        "text": "docker buildx build --sbom=true --provenance=true",
+        "feedback": "Alternativa Correta!",
+        "correct": true,
+        "id": "89f931fc-857e-49a3-9501-96e86e3fd8a4"
+      },
+      {
+        "text": "docker buildx build --inspect-build=attestation",
+        "feedback": "Esta sintaxe não está correta, veja mais em: https://docs.docker.com/build/attestations/",
+        "correct": false,
+        "id": "ce346edc-c742-4626-9f94-2f4df90fec39"
+      },
+      {
+        "text": "docker buildx build --attestation=1",
+        "feedback": "Esta sintaxe não está correta, veja mais em: https://docs.docker.com/build/attestations/",
+        "correct": false,
+        "id": "bf2e90f5-3dba-4178-90c6-c5ecd4419ad0"
+      }
+    ]
+  }
+  
+ 

@@ -1,0 +1,46 @@
+{
+    "SKU": "0000074",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "id": "5626219a-673d-4d32-9b4f-03f4bdd30252",
+    "knowledgeArea": "DevOps",
+    "category": "Conteinerização",
+    "subCategory": "Dockerfile",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+      "container",
+      "Dockerfile",
+      "RUN"
+    ],
+    "text": [
+      "No Dockerfile, junto com a instrução RUN é possível usar a opção --security(Não disponível ainda em sintaxe estável, é preciso usar a sintaxe (syntax=docker/dockerfile:1-labs).",
+      "Qual comando é equivalente ao (RUN--security=insecure) e pode ser utilizado via linha de comando?"
+    ],
+    "alternatives": [
+      {
+        "text": "docker run --security=false",
+        "feedback": "Opção inválida. Comando inexistente.",
+        "correct": false,
+        "id": "d96e8b9a-997f-496b-a686-3e64842adbc0"
+      },
+      {
+        "text": "docker run --insecure=true",
+        "feedback": "Opção inválida. Comando inexistente.",
+        "correct": false,
+        "id": "f98e35d7-c8f4-4359-9ec2-43223d35b923"
+      },
+      {
+        "text": "docker run --insecure",
+        "feedback": "Opção inválida. Comando inexistente.",
+        "correct": false,
+        "id": "93f6fb60-3df5-40f8-b7d4-028fbc676924"
+      },
+      {
+        "text": "docker run --privileged",
+        "feedback": "Alternativa Correta!",
+        "correct": true,
+        "id": "e4918e70-65dd-480d-8d53-e7822136f370"
+      }
+    ]
+  }

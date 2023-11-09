@@ -1,0 +1,45 @@
+{
+    "SKU": "0000072",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "id": "641e2c9b-dd03-4805-8cbb-49e04ea143dd",
+    "knowledgeArea": "DevOps",
+    "category": "Conteinerização",
+    "subCategory": "Dockerfile",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+      "container",
+      "RUN",
+      "mount"
+    ],
+    "text": [
+      "Na instrução RUN é possível usar a opção --mount, essa opção permite criar um filesystem para que o build possa utilizar. Quais são os tipos de mount?"
+    ],
+    "alternatives": [
+      {
+        "text": "bind, config, exec e volume",
+        "feedback": "Esta opção é inválida. Exec não é um tipo de mount reconhecido na instrução RUN do Dockerfile.",
+        "correct": false,
+        "id": "5c4ef7bd-3f76-45c5-94ac-7e9bdf5b2174"
+      },
+      {
+        "text": "cache, config, shell",
+        "feedback": "Esta opção é inválida. Shell não é um tipo de mount reconhecido na instrução RUN do Dockerfile.",
+        "correct": false,
+        "id": "3a6fa42f-b2bb-4611-bae8-b70528b3e595"
+      },
+      {
+        "text": "bind, cache, secret e ssh",
+        "feedback": "Alternativa Correta!",
+        "correct": true,
+        "id": "40110283-01e4-4cbe-a8a9-ee6f8f1cad88"
+      },
+      {
+        "text": "bind, volume, config, ssh",
+        "feedback": "Esta opção é inválida. Config não é um tipo de mount que pode ser especificado com a opção --mount na instrução RUN do Dockerfile.",
+        "correct": false,
+        "id": "5fb7de96-fb9d-4db3-a529-129b7eeeb37c"
+      }
+    ]
+  }

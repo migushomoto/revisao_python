@@ -1,0 +1,44 @@
+{
+    "SKU": "0000066",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "id": "0fe75d49-ff77-46d6-a2fe-b1769e08568d",
+    "knowledgeArea": "DevOps",
+    "category": "Conteinerização",
+    "subCategory": "docker",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+      "imagens",
+      "docker"
+    ],
+    "text": [
+      "Como você pode configurar o Docker para usar um armazenamento de imagens personalizado em vez do diretório padrão?"
+    ],
+    "alternatives": [
+      {
+        "text": "Usando variáveis de ambiente para especificar o diretório de armazenamento.",
+        "feedback": "Embora as variáveis de ambiente possam ser usadas para muitas configurações do Docker, a alteração do diretório de armazenamento das imagens normalmente requer alterações no arquivo de configuração do Docker ou no serviço do sistema.",
+        "correct": false,
+        "id": "070f14fa-d772-4765-ab20-e825640b6ac0"
+      },
+      {
+        "text": "Editando diretamente o arquivo de configuração do Docker.",
+        "feedback": "Alternativa Correta!",
+        "correct": true,
+        "id": "067944db-63b3-452b-bcee-37976dec75a2"
+      },
+      {
+        "text": "Não é possível configurar um armazenamento de imagens personalizado no Docker.",
+        "feedback": "É possível configurar outro diretório.",
+        "correct": false,
+        "id": "a32ca6a1-e338-4940-96ec-4f4340997c93"
+      },
+      {
+        "text": "Usando o comando docker storage set.",
+        "feedback": "Opção inválida. Não existe esta opção de comando.",
+        "correct": false,
+        "id": "01f2fa02-be81-438c-b7c1-9e3b1a21a1d5"
+      }
+    ]
+  }

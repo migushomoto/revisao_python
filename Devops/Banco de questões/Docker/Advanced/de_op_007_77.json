@@ -1,0 +1,45 @@
+{
+    "SKU": "0000077",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "id": "0f7fc143-39ad-4975-a132-912e004b75aa",
+    "knowledgeArea": "DevOps",
+    "category": "Conteinerização",
+    "subCategory": "Dockerfile",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+      "Dockerfile",
+      "COPY",
+      "ADD"
+    ],
+    "text": [
+      "No Dockerfile, na instrução COPY e ADD é possível adicionar a flag --link. Qual das afirmações abaixo está correta referente a esta opção?"
+    ],
+    "alternatives": [
+      {
+        "text": "Com a flag --link habilitada, é possível compartilhar diretórios entre containers the diferentes redes.",
+        "feedback": "Incorreto. Este não é o propósito da flag link",
+        "correct": false,
+        "id": "a5aba707-14b8-4a77-9979-2bb9d7afa1db"
+      },
+      {
+        "text": "Quando --link é usado, é criado um link entre o host e o container, possibilitando o sincronismo de arquivos.",
+        "feedback": "Link não possui esta funcionalidade.",
+        "correct": false,
+        "id": "cf731283-9792-4311-a64c-afe31032520a"
+      },
+      {
+        "text": "Quando --link é usado, seus arquivos de origem são copiados para um diretório de destino vazio. Esse diretório é transformado em uma camada vinculada ao seu estado anterior.",
+        "feedback": "Alternativa Correta!",
+        "correct": true,
+        "id": "01573bb2-5f28-4c1c-accc-0e427e3d68c3"
+      },
+      {
+        "text": "A flag --link foi adicionada na versão docker/dockerfile:1.2.",
+        "feedback": "Falso, a flag COPY --link foi adicionada na versão: docker/dockerfile:1.4.",
+        "correct": false,
+        "id": "d4b44dff-90d0-47f8-85bb-f3791709d3b2"
+      }
+    ]
+  }

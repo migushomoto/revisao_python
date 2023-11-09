@@ -1,0 +1,46 @@
+
+{
+    "SKU": "0000047",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "id": "cd210326-a887-4b59-bd4e-0deebb71627b",
+    "knowledgeArea": "DevOps",
+    "category": "Conteinerização",
+    "subCategory": "daemon",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+      "docker",
+      "client",
+      "daemon"
+    ],
+    "text": [
+      "Como funciona a interação do docker client, com o docker daemon?"
+    ],
+    "alternatives": [
+      {
+        "text": "docker client somente funciona com daemon local, e um client somente conecta com um daemon por vez.",
+        "feedback": "Incorreto. o docker client pode se comunicar com mais de um daemon.",
+        "correct": false,
+        "id": "9d3bfa10-56f6-4167-bdbd-d665c6447dcb"
+      },
+      {
+        "text": "Somente o client compose se comunica com o daemon.",
+        "feedback": "Incorreto. O docker client se comunica com o daemon.",
+        "correct": false,
+        "id": "e383f684-2771-4bb0-ac95-378330333c95"
+      },
+      {
+        "text": "Só é possível executar o docker client a partir de um daemon local.",
+        "feedback": "Incorreto.",
+        "correct": false,
+        "id": "31f391e3-3025-4ee4-86c8-0816f523f112"
+      },
+      {
+        "text": "O Docker client e o daemon podem ser executados do mesmo sistema, ou você pode conectar um docker client à um Docker daemon remoto.",
+        "feedback": "Alternativa Correta!",
+        "correct": true,
+        "id": "df080722-8bec-4111-b0f7-90cdb478af92"
+      }
+    ]
+  }

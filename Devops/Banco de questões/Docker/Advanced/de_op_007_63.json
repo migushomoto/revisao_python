@@ -1,0 +1,46 @@
+
+{
+    "SKU": "0000063",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "id": "8fc88e78-762f-4ca2-ab10-cfcb1bf37631",
+    "knowledgeArea": "DevOps",
+    "category": "Conteinerização",
+    "subCategory": "docker",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+      "container",
+      "service",
+      "Swarm"
+    ],
+    "text": [
+      "Qual é a diferença entre um contêiner Docker e um serviço Docker em um cluster Swarm?"
+    ],
+    "alternatives": [
+      {
+        "text": "Não há diferença; os termos são usados indistintamente.",
+        "feedback": "Incorreto. No Docker Swarm, um serviço define como as aplicações devem rodar, enquanto um contêiner é uma instância em execução da imagem Docker.",
+        "correct": false,
+        "id": "ef5a8162-63d8-11ee-aded-325096b39f47"
+      },
+      {
+        "text": "Um serviço é uma instância única de uma imagem Docker, e um contêiner é um grupo de serviços.",
+        "feedback": "IIncorreto. Um serviço pode ser composto por vários contêineres rodando a mesma imagem em um modo replicado em um cluster Docker Swarm.",
+        "correct": false,
+        "id": "ef5a832e-63d8-11ee-8d0a-325096b39f47"
+      },
+      {
+        "text": "Um serviço é uma instância única de uma imagem Docker, enquanto um contêiner é um grupo de contêineres que compartilham uma imagem comum.",
+        "feedback": "Incorreto. Esta descrição não capta corretamente a relação entre serviços e contêineres em um contexto de cluster Docker Swarm.",
+        "correct": false,
+        "id": "ef5a8392-63d8-11ee-b32e-325096b39f47"
+      },
+      {
+        "text": "Um contêiner é uma instância única de uma imagem Docker, enquanto um serviço é um grupo de contêineres que compartilham uma imagem comum.",
+        "feedback": "Alternativa Correta!",
+        "correct": true,
+        "id": "ef5a83ec-63d8-11ee-9cfe-325096b39f47"
+      }
+    ]
+  }

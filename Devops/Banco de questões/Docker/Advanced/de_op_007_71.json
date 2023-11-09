@@ -1,0 +1,46 @@
+{
+    "SKU": "0000071",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "id": "641e2c9b-dd03-4805-8cbb-49e04ea143dd",
+    "knowledgeArea": "DevOps",
+    "category": "Conteinerização",
+    "subCategory": "Dockerfile",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+      "container",
+      "Dockerfile",
+      "RUN"
+    ],
+    "text": [
+      "No Dockerfile a instrução RUN possui duas formas(shell e exec).",
+      "Qual a diferença significativa entre os comandos a seguir: \"RUN /bin/bash -c 'source $HOME/.bashrc && echo $HOME\" e \"RUN [ 'echo', '$HOME' ]\"?"
+    ],
+    "alternatives": [
+      {
+        "text": "O primeiro usa o modo shell e o segundo usa o modo exec, o que significa que o valor dentro da variável não será substituído, uma vez que esta opção utiliza json com aspas.",
+        "feedback": "Alternativa Correta!",
+        "correct": true,
+        "id": "67e1ff0b-a9da-40b2-aa9b-26271d284473"
+      },
+      {
+        "text": "O primeiro usa o modo exec e o segundo usa o modo shell, o que significa que o valor dentro da variável não será substituído no primeiro comando, uma vez que esta opção utiliza json com aspas.",
+        "feedback": "Incorreto. No modo exec, as variáveis são tratadas literalmente e não são expandidas.",
+        "correct": false,
+        "id": "14d6acd6-0750-4e0e-ab71-c3218c0c95df"
+      },
+      {
+        "text": "Ambos os comandos serão executados conforme esperado.",
+        "feedback": "Incorreto. Embora ambos os comandos possam ser executados, eles não funcionarão da mesma maneira devido às diferenças entre os modos shell e exec.",
+        "correct": false,
+        "id": "b99b94f5-b90d-4d44-8f56-a5f6a9b16e86"
+      },
+      {
+        "text": "Ambos os comandos serão executados sem erros, mas as variáveis não serão substituídas, pois não é possível a utilização de variáveis na instrução RUN.",
+        "feedback": "Incorreto. É possível usar variáveis na instrução RUN, mas a forma como são tratadas depende do modo utilizado (shell ou exec).",
+        "correct": false,
+        "id": "38b6686b-db1d-4f0b-ad50-3bfa51e75a78"
+      }
+    ]
+  }

@@ -1,0 +1,46 @@
+
+{
+    "SKU": "0000055",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "id": "39ee7a7e-4b41-41ec-9b97-011a2e1f2829",
+    "knowledgeArea": "DevOps",
+    "category": "docker",
+    "subCategory": "volume",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+      "docker",
+      "volume",
+      "plugin"
+    ],
+    "text": [
+      "O que é um 'Docker volume plugin'?"
+    ],
+    "alternatives": [
+      {
+        "text": "Um mecanismo de armazenamento personalizado que permite a integração de soluções de armazenamento de terceiros com o Docker.",
+        "feedback": "Alternativa Correta!",
+        "correct": true,
+        "id": "3bd74c42-af2e-47c1-bc52-80c2ffc44166"
+      },
+      {
+        "text": "Uma ferramenta para criar volumes de armazenamento personalizados no Docker.",
+        "feedback": "Os plug-ins de volume do Docker Engine não permitem customização de volumes.",
+        "correct": false,
+        "id": "12ef3aee-e38a-44ec-8adc-4f7cd5105579"
+      },
+      {
+        "text": "Uma imagem Docker que serve como um plug-in para outros contêineres.",
+        "feedback": "Os plugins não são imagens. Plugins tem relação com a persistência dos dados.",
+        "correct": false,
+        "id": "3f9438ee-5ed6-47f0-8438-19c09260b817"
+      },
+      {
+        "text": "Um complemento para Docker que estende sua funcionalidade.",
+        "feedback": "Incorreto. Esta descrição é muito genérica e não captura especificamente o propósito dos plug-ins de volume.",
+        "correct": false,
+        "id": "d7a68e26-bcc7-433a-ae5c-b67493feaa12"
+      }
+    ]
+  }

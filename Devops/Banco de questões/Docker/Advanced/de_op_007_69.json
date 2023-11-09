@@ -1,0 +1,44 @@
+{
+    "SKU": "0000069",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "id": "c8e46463-feb0-4d95-9fab-46ef915dd09d",
+    "knowledgeArea": "DevOps",
+    "category": "Conteinerização",
+    "subCategory": "Docker",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+      "imagens",
+      "alpine"
+    ],
+    "text": [
+      "A documentação oficial do docker recomenda sempre que possível utilizar imagens 'alpine', já que são rigidamente controladas e de tamanho pequeno, embora ainda seja uma distribuição Linux completa. Qual o tamanho máximo de uma imagem alpine?"
+    ],
+    "alternatives": [
+      {
+        "text": "2 MB",
+        "feedback": "Incorreta.",
+        "correct": false,
+        "id": "ff2ea77e-72b4-422d-9ce6-a7ddaa62a32e"
+      },
+      {
+        "text": "10 MB",
+        "feedback": "Incorreta.",
+        "correct": false,
+        "id": "1e54c0fd-3725-42d4-90be-3f1fe9abcc29"
+      },
+      {
+        "text": "12MB",
+        "feedback": "Incorreta.",
+        "correct": false,
+        "id": "8bed44f7-b670-46fe-8948-0d99fe98c854"
+      },
+      {
+        "text": "6 MB",
+        "feedback": "Alternativa Correta!",
+        "correct": true,
+        "id": "e839ec9e-1380-48e2-a0ca-3b23114380cc"
+      }
+    ]
+  }
