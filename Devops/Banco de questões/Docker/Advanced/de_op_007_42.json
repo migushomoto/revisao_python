@@ -19,7 +19,7 @@
     "alternatives": [
       {
         "text": "Build garbage collection é executado no daemon BuildKit. O daemon limpa o cache de build quando um container é iniciado.",
-        "feedback": "Build garbage collection é executado no daemon BuildKit, mas não quando um container é iniciado.",
+        "feedback": "Incorreto. Build garbage collection é executado no daemon BuildKit, mas não quando um container é iniciado.",
         "correct": false,
         "id": "9cdddff6-c13e-4ff1-95b7-0d96c3f8ffa9"
       },
@@ -31,7 +31,7 @@
       },
       {
         "text": "Build garbage collection é executado no docker client. O docker limpa o cache de build quando um container é iniciado.",
-        "feedback": "Build garbage collection é executado e configurado no daemon BuildKit, e não no docker cliente",
+        "feedback": "Incorreto. Build garbage collection é executado e configurado no daemon BuildKit, e não no docker cliente",
         "correct": false,
         "id": "f6e7b4ac-b986-4da9-9579-5633047b9e86"
       },

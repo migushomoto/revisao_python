@@ -26,7 +26,7 @@
       },
       {
         "text": "Faz o build com mapeamento automático de redes entre serviços.",
-        "feedback": "Incorreto. bake não possui essa funcionalidade.",
+        "feedback": "Incorreto. Bake não possui essa funcionalidade.",
         "correct": false,
         "id": "1634ef05-bd37-415b-9098-95c1683fceab"
       },
@@ -38,7 +38,7 @@
       },
       {
         "text": "Possibilita a construção de imagens menores.",
-        "feedback": "Incorreto. build com imagens menores é possível usando docker multistage.",
+        "feedback": "Incorreto. Build com imagens menores é possível usando docker multistage.",
         "correct": false,
         "id": "172bb59d-6a13-4c24-8d7b-c3cc95d78fd4"
       }

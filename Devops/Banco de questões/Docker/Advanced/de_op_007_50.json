@@ -20,7 +20,7 @@
     "alternatives": [
       {
         "text": "docker compose build",
-        "feedback": "Este é um comando base, e obviamente continua funcionando.",
+        "feedback": "Incorreto. Este é um comando base, e obviamente continua funcionando.",
         "correct": false,
         "id": "17b8c495-8827-4b13-b156-820287889fb8"
       },
@@ -38,7 +38,7 @@
       },
       {
         "text": "docker compose top",
-        "feedback": "docker compose top funciona em ambas versões.",
+        "feedback": "Incorreto. Este comando funciona em ambas versões.",
         "correct": false,
         "id": "3d261176-d8ab-47d5-910e-60f276b7de74"
       }

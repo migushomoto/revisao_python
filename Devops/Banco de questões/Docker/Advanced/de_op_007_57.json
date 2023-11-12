@@ -26,7 +26,7 @@
       },
       {
         "text": "Construir builds mais rápidos, e com menor tamanho.",
-        "feedback": "Build Attestations não possuem relação com performance. Para construir imagens menores, é possível utilizar docker multistage.",
+        "feedback": "Incorreto. Build Attestations não possuem relação com performance. Para construir imagens menores, é possível utilizar docker multistage.",
         "correct": false,
         "id": "760d1785-5138-42bb-bb8e-2075c14bb0f1"
       },

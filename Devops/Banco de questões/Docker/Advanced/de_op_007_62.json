@@ -26,13 +26,13 @@
       },
       {
         "text": "Um Dockerfile que não pode ser usado para criar imagens Docker.",
-        "feedback": "Incorreto. scratch é usado principalmente para construir outras imagens base",
+        "feedback": "Incorreto. Um Dockerfile scratch é usado principalmente para construir outras imagens base",
         "correct": false,
         "id": "8433390d-18c1-41a2-a3a3-bb6342cc70d6"
       },
       {
         "text": "Um Dockerfile usado apenas para fins de depuração.",
-        "feedback": "Incorreto. scratch é usado principalmente para construir outras imagens base",
+        "feedback": "Incorreto. Um Dockerfile scratch é usado principalmente para construir outras imagens base",
         "correct": false,
         "id": "6490ec23-7f98-4ba3-a353-9028e4e8286e"
       },

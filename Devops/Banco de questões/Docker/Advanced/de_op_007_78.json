@@ -20,19 +20,19 @@
     "alternatives": [
       {
         "text": "RUN grant user /add patrick Seguido da instrução USER patrick",
-        "feedback": "Opção inválida, não existe opção grant no docker",
+        "feedback": "Incorreto. Não existe opção grant no docker",
         "correct": false,
         "id": "36ae4ce7-7b28-4998-92af-d628172d8b0f"
       },
       {
         "text": "ADD chown user /add patrick Seguido da instrução USER patrick",
-        "feedback": "Opção inválida, não existe esta opção no docker",
+        "feedback": "Incorreto. Não existe esta opção no docker",
         "correct": false,
         "id": "71bbe04a-0e27-440c-9eec-d7aece8f18ce"
       },
       {
         "text": "ADD net user /add patrick Seguido da instrução USER add $USER",
-        "feedback": "Opção inválida, a segunda parte do comando está incorreto.",
+        "feedback": "Incorreto. A segunda parte do comando está incorreto.",
         "correct": false,
         "id": "c27eedfb-8555-4220-8e75-918e6321701f"
       },

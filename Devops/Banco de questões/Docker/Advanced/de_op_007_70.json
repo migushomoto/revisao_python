@@ -25,19 +25,19 @@
       },
       {
         "text": "RUN",
-        "feedback": "Incorreto, a instrução FROM precede a instrução RUN.",
+        "feedback": "Incorreto. A instrução FROM precede a instrução RUN.",
         "correct": false,
         "id": "9554735e-90e8-4898-8cc9-50027efff8dc"
       },
       {
         "text": "ADD",
-        "feedback": "Incorreto, a instrução FROM precede a instrução ADD.",
+        "feedback": "Incorreto. A instrução FROM precede a instrução ADD.",
         "correct": false,
         "id": "0c928b11-e4d5-46ad-99e0-b97e12019fba"
       },
       {
         "text": "CMD",
-        "feedback": "Incorreto, a instrução FROM precede a instrução CMD.",
+        "feedback": "Incorreto. A instrução FROM precede a instrução CMD.",
         "correct": false,
         "id": "1b0e5175-9a45-42ef-9dbe-f0ca36c3cd40"
       }

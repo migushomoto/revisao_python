@@ -18,7 +18,7 @@
     "alternatives": [
       {
         "text": "Com a flag -a será removido somente as imagens selecionadas para 'deleção'.",
-        "feedback": "Não existe esta opção de delete de imagens selecionadas",
+        "feedback": "Incorreto. Não existe esta opção de delete de imagens selecionadas",
         "correct": false,
         "id": "8d3c63fa-8b51-44db-b131-67e1a9b7a855"
       },
@@ -30,7 +30,7 @@
       },
       {
         "text": "Remova todas as imagens, até mesmo as utilizadas",
-        "feedback": "O docker system prune não possui opção para remover imagens que estejam sendo utilizadas",
+        "feedback": "Incorreto. O docker system prune não possui opção para remover imagens que estejam sendo utilizadas",
         "correct": false,
         "id": "a7a5d50a-752f-49fe-b0ab-ef3854985a4b"
       },

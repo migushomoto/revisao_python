@@ -20,7 +20,7 @@
     "alternatives": [
       {
         "text": "Somente usando Compose V1 é possível utilizar Multistage.",
-        "feedback": "Multistage está relacionada ao Dockerfile e não tem relação com o client compose.",
+        "feedback": "Incorreto. Multistage está relacionada ao Dockerfile e não tem relação com o client compose.",
         "correct": false,
         "id": "0715ea74-8f0a-48c1-83a9-3973a36eeb72"
       },
@@ -32,13 +32,13 @@
       },
       {
         "text": "Com compose V2 é capaz de inicializar o container em menos tempo.",
-        "feedback": "A versão do compose não tem relação com o tempo de inicialização.",
+        "feedback": "Incorreto. A versão do compose não tem relação com o tempo de inicialização.",
         "correct": false,
         "id": "8682db84-c795-4fa1-a65e-26e68877855e"
       },
       {
         "text": "Não existem diferenças de funcionalidades, Compose V2 apenas foi incrementado features de segurança.",
-        "feedback": "Existem algumas diferenças, maiores detalhes podem ser vistos no link: https://docs.docker.com/compose/migrate/#what-are-the-differences-between-compose-v1-and-compose-v2",
+        "feedback": "Incorreto. Existem algumas diferenças, maiores detalhes podem ser vistos no link: https://docs.docker.com/compose/migrate/#what-are-the-differences-between-compose-v1-and-compose-v2",
         "correct": false,
         "id": "9bd5033d-254c-4ebb-b11f-edde1298f573"
       }

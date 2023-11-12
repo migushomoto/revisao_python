@@ -26,7 +26,7 @@
       },
       {
         "text": "O Docker usa o mesmo kernel do host para isolar contêineres, o que significa que cada contêiner tem seu próprio kernel.",
-        "feedback": "Falso, para isolar containers o docker usa namespaces.",
+        "feedback": "Falso. Para isolar containers o docker usa namespaces.",
         "correct": false,
         "id": "929572bb-7e0f-4fb1-ac58-8a3579cf77d8"
       },
