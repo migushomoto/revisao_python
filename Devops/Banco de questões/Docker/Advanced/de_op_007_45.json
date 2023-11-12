@@ -19,13 +19,13 @@
     "alternatives": [
       {
         "text": "Compose",
-        "feedback": "Compose é apenas uma opção de client.",
+        "feedback": "Incorreto. Compose é apenas uma opção de client.",
         "correct": false,
         "id": "6a095637-b5ce-41dc-aef5-e9060eb91634"
       },
       {
         "text": "dockerd",
-        "feedback": "dockerd é o server e não tem relação com isolamento de camadas.",
+        "feedback": "Incorreto. dockerd é o server e não tem relação com isolamento de camadas.",
         "correct": false,
         "id": "5e4c12bf-9093-41a6-b93d-9d5d26534274"
       },
@@ -37,7 +37,7 @@
       },
       {
         "text": "Volume",
-        "feedback": "Volume é um objeto docker e não pode prover isolamento.",
+        "feedback": "Incorreto. Volume é um objeto docker e não pode prover isolamento.",
         "correct": false,
         "id": "a8900a4b-e9ad-4851-8d33-1c9b6b4ddaeb"
       }

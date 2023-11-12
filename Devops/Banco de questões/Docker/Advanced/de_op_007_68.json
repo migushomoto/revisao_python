@@ -20,7 +20,7 @@
     "alternatives": [
       {
         "text": "1- docker cria uma interface de rede para conectar o container à rede padrão. 2- pull da imagem(se não existir local). 3- Cria uma nova imagem. 4- Docker aloca um filesystem(read-only) ao container. 5- Docker inicia o container e executa o comando /bin/bash",
-        "feedback": "Incorreto. Docker não cria uma nova imagem; ele cria um novo container e aloca um filesystem que é inicialmente read-only até o início do container.",
+        "feedback": "Incorreto. Docker não cria uma nova imagem, ele cria um novo container e aloca um filesystem que é inicialmente read-only até o início do container.",
         "correct": false,
         "id": "b2392ae1-78fa-46a4-9731-5eb0ebd6063c"
       },

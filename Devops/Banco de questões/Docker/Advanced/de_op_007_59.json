@@ -38,7 +38,7 @@
       },
       {
         "text": "O comando utilizado para executar contêineres Docker.",
-        "feedback": "Incorreto. Para executar executar conteineres é possível via docker client.",
+        "feedback": "Incorreto. Para executar conteineres é possível via docker client.",
         "correct": false,
         "id": "143a0da5-fe6e-4eb6-8c0f-849dc436ed4f"
       }

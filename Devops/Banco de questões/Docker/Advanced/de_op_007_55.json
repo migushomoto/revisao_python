@@ -26,13 +26,13 @@
       },
       {
         "text": "Uma ferramenta para criar volumes de armazenamento personalizados no Docker.",
-        "feedback": "Os plug-ins de volume do Docker Engine não permitem customização de volumes.",
+        "feedback": "Incorreto. Os plug-ins de volume do Docker Engine não permitem customização de volumes.",
         "correct": false,
         "id": "12ef3aee-e38a-44ec-8adc-4f7cd5105579"
       },
       {
         "text": "Uma imagem Docker que serve como um plug-in para outros contêineres.",
-        "feedback": "Os plugins não são imagens. Plugins tem relação com a persistência dos dados.",
+        "feedback": "Incorreto. Os plugins não são imagens. Plugins tem relação com a persistência dos dados.",
         "correct": false,
         "id": "3f9438ee-5ed6-47f0-8438-19c09260b817"
       },

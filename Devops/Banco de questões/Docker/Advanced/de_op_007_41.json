@@ -14,12 +14,12 @@
     ],
     "alternatives": [
         {   "text": "Uma rede interna de um único contêiner.", 
-            "feedback":"Overlay permite a comunicação entre vários containers em diferente hosts.", 
+            "feedback":"Incorreto. Overlay permite a comunicação entre vários containers em diferente hosts.", 
             "correct":false,
             "id": "61fd71ca-2c54-4b07-9a4f-1a415fab88ca"
         },
         {   "text": "Uma rede que permite que contêineres compartilhem uma única porta de saída.", 
-            "feedback":"Overlay não tem relação com a portas dos containers.", 
+            "feedback":"Incorreto. Overlay não tem relação com a portas dos containers.", 
             "correct":false,
             "id": "4ab1ba7f-727d-480e-a5f6-83498f3bb2a8"
         },

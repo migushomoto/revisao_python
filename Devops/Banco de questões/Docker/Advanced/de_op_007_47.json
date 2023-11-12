@@ -19,8 +19,8 @@
     ],
     "alternatives": [
       {
-        "text": "docker client somente funciona com daemon local, e um client somente conecta com um daemon por vez.",
-        "feedback": "Incorreto. o docker client pode se comunicar com mais de um daemon.",
+        "text": "Docker client somente funciona com daemon local, e um client somente conecta com um daemon por vez.",
+        "feedback": "Incorreto. O docker client pode se comunicar com mais de um daemon.",
         "correct": false,
         "id": "9d3bfa10-56f6-4167-bdbd-d665c6447dcb"
       },
@@ -32,7 +32,7 @@
       },
       {
         "text": "Só é possível executar o docker client a partir de um daemon local.",
-        "feedback": "Incorreto.",
+        "feedback": "Incorreto. Não é possivel executar o docker client a partir de um daemon local.",
         "correct": false,
         "id": "31f391e3-3025-4ee4-86c8-0816f523f112"
       },

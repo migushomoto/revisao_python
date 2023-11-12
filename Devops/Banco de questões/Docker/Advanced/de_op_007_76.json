@@ -24,7 +24,7 @@
       },
       {
         "text": "Será reproduzido erro, não é possível inserir múltiplas variáveis no mesmo ENV",
-        "feedback": "Incorreto, A instrução ENV permite múltiplas variáveis",
+        "feedback": "Incorreto. A instrução ENV permite múltiplas variáveis",
         "correct": false,
         "id": "cf40acbd-53b4-43f4-994b-05d5f99a1e02"
       },

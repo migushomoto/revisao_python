@@ -18,19 +18,19 @@
     "alternatives": [
       {
         "text": "2 MB",
-        "feedback": "Incorreta.",
+        "feedback": "Incorreto.",
         "correct": false,
         "id": "ff2ea77e-72b4-422d-9ce6-a7ddaa62a32e"
       },
       {
         "text": "10 MB",
-        "feedback": "Incorreta.",
+        "feedback": "Incorreto.",
         "correct": false,
         "id": "1e54c0fd-3725-42d4-90be-3f1fe9abcc29"
       },
       {
-        "text": "12MB",
-        "feedback": "Incorreta.",
+        "text": "12 MB",
+        "feedback": "Incorreto.",
         "correct": false,
         "id": "8bed44f7-b670-46fe-8948-0d99fe98c854"
       },

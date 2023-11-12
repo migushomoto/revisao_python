@@ -20,7 +20,7 @@
     "alternatives": [
       {
         "text": "docker buildx build --attestation=true",
-        "feedback": "Esta sintaxe não está correta, veja mais em: \"https://docs.docker.com/build/attestations/",
+        "feedback": "Incorreto. Esta sintaxe não está correta, veja mais em: \"https://docs.docker.com/build/attestations/",
         "correct": false,
         "id": "57ce498a-fa58-40c8-b8a9-eaab766c8d9b"
       },
@@ -32,13 +32,13 @@
       },
       {
         "text": "docker buildx build --inspect-build=attestation",
-        "feedback": "Esta sintaxe não está correta, veja mais em: https://docs.docker.com/build/attestations/",
+        "feedback": "Incorreto. Esta sintaxe não está correta, veja mais em: https://docs.docker.com/build/attestations/",
         "correct": false,
         "id": "ce346edc-c742-4626-9f94-2f4df90fec39"
       },
       {
         "text": "docker buildx build --attestation=1",
-        "feedback": "Esta sintaxe não está correta, veja mais em: https://docs.docker.com/build/attestations/",
+        "feedback": "Incorreto. Esta sintaxe não está correta, veja mais em: https://docs.docker.com/build/attestations/",
         "correct": false,
         "id": "bf2e90f5-3dba-4178-90c6-c5ecd4419ad0"
       }

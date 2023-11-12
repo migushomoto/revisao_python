@@ -26,19 +26,19 @@
       },
       {
         "text": "Uma ferramenta para compilar aplicativos dentro de contêineres Docker.",
-        "feedback": "Incorreto, aplicativos docker são compilados e transformados em containers, e não podem ser compilados dentros de containers.", 
+        "feedback": "Incorreto. Aplicativos docker são compilados e transformados em containers, e não podem ser compilados dentros de containers.", 
         "correct": false,
         "id": "bc5eefce-97e7-4779-8399-85633a228413"
       },
       {
         "text": "Um serviço web para compartilhar imagens Docker com outros usuários.",
-        "feedback": "Incorreto, O compartilhamento de imagens pode ser feito usando o docker hub.",
+        "feedback": "Incorreto. O compartilhamento de imagens pode ser feito usando o docker hub.",
         "correct": false,
         "id": "d427c87c-fb4c-4625-a01d-8604a61ce01f"
       },
       {
         "text": "Uma biblioteca de gráficos para visualizar a estrutura das imagens Docker.",
-        "feedback": "Incorreto, Docker Hub é o serviço web para compartilhar imagens Docker, não o BuildKit.",
+        "feedback": "Incorreto. Docker Hub é o serviço web para compartilhar imagens Docker, não o BuildKit.",
         "correct": false,
         "id": "055492ae-4157-49f6-8ca6-88a552a15ed5"
       }

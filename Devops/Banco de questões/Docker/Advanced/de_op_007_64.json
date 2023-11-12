@@ -25,7 +25,7 @@
       },
       {
         "text": "Uma imagem Docker consiste em camadas(layers) de leitura e escrita(read-write), e todas as camadas representam uma unica instrução Dockerfile.",
-        "feedback": "Incorreto. Camadas do dockerfile são read-only (somente leitura)",
+        "feedback": "Falso. Camadas do dockerfile são read-only (somente leitura)",
         "correct": false,
         "id": "ef5a8478-63d8-11ee-aede-325096b39f47"
       },
@@ -37,7 +37,7 @@
       },
       {
         "text": "As camadas de uma imagem docker são empilhadas e cada uma é independente das camadas anteriores.",
-        "feedback": "Incorreto. As camadas de uma imagem Docker dependem das anteriores, pois cada camada é um conjunto de diferenças da camada que a precede.",
+        "feedback": "Falso. As camadas de uma imagem Docker dependem das anteriores, pois cada camada é um conjunto de diferenças da camada que a precede.",
         "correct": false,
         "id": "ef5a8504-63d8-11ee-b532-325096b39f47"
       }
