@@ -20,13 +20,13 @@
     "alternatives": [
       {
         "text": "FIREWALL_ON, FIREWALL_OFF, PROXY_ON, PROXY_OFF",
-        "feedback": "Incorreto",
+        "feedback": "Incorreto. Os comandos listados nesta opção não existem.",
         "correct": false,
         "id": "2d7a2bc8-272e-454c-80ea-4268e84604e4"
       },
       {
         "text": "As variáveis predefinidas podem ser configuradas livremente no arquivo de configuração do docker daemon, portanto qualquer variável por ser cadastrada como predefinidas, com exceção de senhas.",
-        "feedback": "Incorreto",
+        "feedback": "Incorreto. Variáveis predefinidas para a opção ARG não podem ser configuradas livremente em arquivos de configuração.",
         "correct": false,
         "id": "86e87f94-cac8-453e-8ea0-271a887b69f3"
       },
@@ -38,7 +38,7 @@
       },
       {
         "text": "PROXY_HTTP, proxy_http, PROXY_HTTPS, proxy_https, PROXY_FTP, proxy_ftp, PROXY_NO, proxy_no, PROXY_ALL, proxy_all",
-        "feedback": "Incorreto",
+        "feedback": "Incorreto. Os comandos listados não existem, ou não estão corretamente escritos.",
         "correct": false,
         "id": "4ed4049f-4a6d-49cd-a80c-3f47598fb9c8"
       }

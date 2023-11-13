@@ -15,7 +15,7 @@
       "compose"
     ],
     "text": [
-      "Qual dos comandos abaixo não é mais suportado no Compose V2?"
+      "Qual dos comandos abaixo que era utilizado no Compose V1 e não é mais suportado no Compose V2?"
     ],
     "alternatives": [
       {
@@ -26,7 +26,7 @@
       },
       {
         "text": "docker compose up --scale",
-        "feedback": "Incorreto. Este é um comando para ser utilizado no compose V1.",
+        "feedback": "Incorreto. Este comando é específico para o Compose V2.",
         "correct": false,
         "id": "d5ea3786-9ec7-4369-8854-7c561a887d4d"
       },
