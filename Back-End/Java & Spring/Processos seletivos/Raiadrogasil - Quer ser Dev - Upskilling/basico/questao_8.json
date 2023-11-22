@@ -1,0 +1,43 @@
+{
+    "id": "c3dd377a-5d79-4d91-9b01-b77597e58566",
+    "SKU": "none",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "none",
+    "knowledgeArea": "Computing",
+    "category": "computing",
+    "subCategory": "Ciclos de Instrução",
+    "level": "Basic",
+    "tagsOrConcepts": [
+        "Ciclos de Instrução"
+    ],
+    "text": [
+        "O que representa o ciclo de instrução em um processador?"
+    ],
+    "alternatives": [
+        {
+            "id": "665f10ea-8687-4e2a-aa8f-1550f87e0769",
+            "text": "A execução de um único comando em um programa",
+            "feedback" : "Correto! O ciclo de instrução representa a execução de um único comando em um programa.",
+            "correct": true
+        },
+        {
+            "id": "6d32f545-3c64-4c61-94b3-96d6742d59e4",
+            "text": "A transferência de dados entre a CPU e a RAM",
+            "feedback": "A transferência de dados entre a CPU e a RAM não é o ciclo de instrução, mas parte do funcionamento geral.",
+            "correct": false
+        },
+        {
+            "id": "af5b5c33-8f07-4b91-b19b-0710da9b837e",
+            "text": "O acionamento da unidade de armazenamento",
+            "feedback": "O acionamento da unidade de armazenamento não é o ciclo de instrução, mas parte do funcionamento geral.",
+            "correct": false
+        },
+        {
+            "id": "c69f7d35-5ab1-40da-8f6b-0c31d1916a4a",
+            "text": "A geração de energia para o processador",
+            "feedback": "A geração de energia para o processador não é o ciclo de instrução, mas parte do funcionamento geral.",
+            "correct": false
+        }
+    ]
+}

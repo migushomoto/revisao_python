@@ -1,0 +1,43 @@
+{
+    "id": "1e8e68c1-6544-47d0-9d3e-e69b4e5d6c68",
+    "SKU": "none",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "none",
+    "knowledgeArea": "Computing",
+    "category": "computing",
+    "subCategory": "Sistemas Operacionais",
+    "level": "Basic",
+    "tagsOrConcepts": [
+        "Sistemas Operacionais"
+    ],
+    "text": [
+        "Qual é a função principal de um sistema operacional?"
+    ],
+    "alternatives": [
+        {
+            "id": "d8ea8527-5cf7-4b62-8f7b-99e5df9aa540",
+            "text": "Executar aplicativos de software.",
+            "feedback" : "Não, essa é uma das funções, mas não a principal.",
+            "correct": false
+        },
+        {
+            "id": "bd04c7ac-8585-4a85-b2e2-33fb4c52a61d",
+            "text": "Gerenciar recursos de hardware e fornecer serviços para aplicativos.",
+            "feedback": "Correto! A função principal de um sistema operacional é gerenciar recursos de hardware e fornecer serviços para aplicativos.",
+            "correct": true
+        },
+        {
+            "id": "ab8ac43f-437c-4a2b-a370-36ea1632a5c7",
+            "text": "Conectar dispositivos externos.",
+            "feedback": "A conexão de dispositivos externos é uma função, mas não a principal.",
+            "correct": false
+        },
+        {
+            "id": "88a0bdf0-94c2-4fc3-8a29-f87773a0d9e2",
+            "text": "Exibir gráficos na tela.",
+            "feedback": "A exibição de gráficos é uma função, mas não a principal.",
+            "correct": false
+        }
+    ]
+}

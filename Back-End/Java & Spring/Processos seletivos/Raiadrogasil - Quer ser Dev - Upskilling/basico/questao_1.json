@@ -1,0 +1,43 @@
+{
+    "id": "6050d597-3ffa-46d8-b425-bdf75df86dc4",
+    "SKU": "none",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "none",
+    "knowledgeArea": "Computing",
+    "category": "computing",
+    "subCategory": "Unidades Básicas de um Computador",
+    "level": "Basic",
+    "tagsOrConcepts": [
+        "Unidades Básicas de um Computador"
+    ],
+    "text": [
+        "Qual das seguintes opções representa uma unidade básica de armazenamento de dados em um computador?"
+    ],
+    "alternatives": [
+        {
+            "id": "3dcd6e9a-eb6f-47b0-8991-fd7e9f83fd6c",
+            "text": "Bit",
+            "feedback" : "Correto! Um bit é a unidade básica de armazenamento de dados.",
+            "correct": true
+        },
+        {
+            "id": "f2de6dd7-48b2-432d-b38c-db9315fd58da",
+            "text": "Megabyte",
+            "feedback": "Megabyte é uma unidade maior que representa 1 milhão de bytes.",
+            "correct": false
+        },
+        {
+            "id": "b386bb27-721c-4fbd-890a-c9171fc4398e",
+            "text": "Gigahertz",
+            "feedback": "Gigahertz refere-se à velocidade do clock, não ao armazenamento de dados.",
+            "correct": false
+        },
+        {
+            "id": "b03c2aca-b126-419c-865b-d199d3fac85e",
+            "text": "Pixel",
+            "feedback": "Pixel está relacionado à exibição de gráficos, não ao armazenamento de dados.",
+            "correct": false
+        }
+    ]
+}

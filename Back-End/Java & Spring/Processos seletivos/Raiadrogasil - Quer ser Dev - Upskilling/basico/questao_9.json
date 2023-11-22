@@ -1,0 +1,43 @@
+{
+    "id": "8e1842b2-c2a3-49a4-ba15-14ab9b1e707f",
+    "SKU": "none",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "none",
+    "knowledgeArea": "Computing",
+    "category": "computing",
+    "subCategory": "Armazenamento de Dados",
+    "level": "Basic",
+    "tagsOrConcepts": [
+        "Armazenamento de Dados"
+    ],
+    "text": [
+        "Qual das seguintes opções é um exemplo de dispositivo de armazenamento de dados em um computador?"
+    ],
+    "alternatives": [
+        {
+            "id": "892e708a-8d86-4df1-8df8-1e86684bc3f9",
+            "text": "Placa-mãe",
+            "feedback" : "A placa-mãe é responsável por conectar os componentes do computador, não por armazenar dados.",
+            "correct": false
+        },
+        {
+            "id": "0362a738-67e1-477d-9a15-7d0bf38464d8",
+            "text": "Mouse",
+            "feedback": "O mouse é um dispositivo de entrada, não de armazenamento de dados.",
+            "correct": false
+        },
+        {
+            "id": "ea07d9af-2e43-4e22-b58a-eb4f1d784c31",
+            "text": "Disco Rígido (HD)",
+            "feedback": "Correto! O HD é um dispositivo de armazenamento de dados.",
+            "correct": true
+        },
+        {
+            "id": "6d29f54d-d60d-4907-bf20-4dfcd3563fe0",
+            "text": "Processador",
+            "feedback": "O processador executa instruções, mas não armazena dados permanentemente.",
+            "correct": false
+        }
+    ]
+}
