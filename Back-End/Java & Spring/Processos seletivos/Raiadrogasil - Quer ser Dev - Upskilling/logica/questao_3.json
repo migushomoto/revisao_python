@@ -1,0 +1,43 @@
+{
+    "id": "2c89b1c8-2495-4d37-8e04-8a68b4f1e39b",
+    "SKU": "3",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "none",
+    "knowledgeArea": "Programação",
+    "category": "Lógica de Programação",
+    "subCategory": "Laços de Repetição",
+    "level": "Basic",
+    "tagsOrConcepts": [
+        "Laços de Repetição"
+    ],
+    "text": [
+        "Qual é a estrutura utilizada para repetir um bloco de código enquanto uma condição é verdadeira?"
+    ],
+    "alternatives": [
+        {
+            "id": "20cc5e10-8b90-4a3e-a772-7b128440f9e4",
+            "text": "if",
+            "feedback" : "O 'if' é utilizado para decisões, não para repetição.",
+            "correct": false
+        },
+        {
+            "id": "1c327675-dc6c-477a-a45e-3b0dcb212b50",
+            "text": "for",
+            "feedback": "O 'for' é utilizado para laços de repetição, mas não enquanto uma condição é verdadeira.",
+            "correct": false
+        },
+        {
+            "id": "dd609754-b8e8-46b1-bda7-124c55c74194",
+            "text": "while",
+            "feedback": "Correto! O 'while' é a estrutura de repetição enquanto a condição é verdadeira.",
+            "correct": true
+        },
+        {
+            "id": "2e7392f7-d8df-49df-935c-6858e415cd3e",
+            "text": "switch",
+            "feedback": "O 'switch' é utilizado para múltiplas opções, não para repetição.",
+            "correct": false
+        }
+    ]
+}

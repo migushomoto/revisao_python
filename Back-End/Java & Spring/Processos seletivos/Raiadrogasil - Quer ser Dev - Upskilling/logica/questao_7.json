@@ -1,0 +1,43 @@
+{
+    "id": "74c6821f-4ec4-45ea-88c2-159cb4d2e2c5",
+    "SKU": "7",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "none",
+    "knowledgeArea": "Programação",
+    "category": "Lógica de Programação",
+    "subCategory": "Operadores Lógicos",
+    "level": "Basic",
+    "tagsOrConcepts": [
+        "Operadores Lógicos"
+    ],
+    "text": [
+        "Qual é o resultado da expressão lógica: (5 > 3) && (7 < 10) ?"
+    ],
+    "alternatives": [
+        {
+            "id": "41cf10f1-4a4a-4ac9-8d16-52a5f0387024",
+            "text": "Verdadeiro",
+            "feedback" : "Correto! A expressão é verdadeira, pois ambos os lados são verdadeiros.",
+            "correct": true
+        },
+        {
+            "id": "f3d0aa8f-0f7e-4bf9-8c65-5c8d36b39f7c",
+            "text": "Falso",
+            "feedback": "A expressão é verdadeira, pois ambos os lados são verdadeiros.",
+            "correct": false
+        },
+        {
+            "id": "50907612-1f64-4d8e-9131-c6c2f45a7111",
+            "text": "Falso",
+            "feedback": "A expressão é verdadeira, pois ambos os lados são verdadeiros.",
+            "correct": false
+        },
+        {
+            "id": "7a938611-c6f4-4475-a19d-0a0d5a09f1bf",
+            "text": "Verdadeiro",
+            "feedback": "A expressão é verdadeira, pois ambos os lados são verdadeiros.",
+            "correct": false
+        }
+    ]
+}

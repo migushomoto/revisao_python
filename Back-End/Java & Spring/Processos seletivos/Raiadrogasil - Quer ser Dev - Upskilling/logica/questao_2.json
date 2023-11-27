@@ -1,0 +1,43 @@
+{
+    "id": "b3e025d9-7dab-4e49-877c-2322e74e91a7",
+    "SKU": "2",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "none",
+    "knowledgeArea": "Programação",
+    "category": "Lógica de Programação",
+    "subCategory": "Operações Matemáticas",
+    "level": "Basic",
+    "tagsOrConcepts": [
+        "Operações Matemáticas"
+    ],
+    "text": [
+        "Qual é o operador normalmente utilizado para realizar a divisão inteira?"
+    ],
+    "alternatives": [
+        {
+            "id": "8cf3f895-e14c-4d8b-98d6-4f110df38f39",
+            "text": "/",
+            "feedback" : "O operador '/' realiza a divisão real, não inteira.",
+            "correct": false
+        },
+        {
+            "id": "dc5d542d-497e-4d9a-ba58-09d70b17285d",
+            "text": "%",
+            "feedback": "Correto! O operador '%' realiza a divisão inteira.",
+            "correct"
+        },
+        {
+            "id": "d102ef34-d8e7-4f44-bf62-65307e19a580",
+            "text": "*",
+            "feedback": "O operador '*' realiza a multiplicação, não a divisão inteira.",
+            "correct": false
+        },
+        {
+            "id": "1f44a262-b2bf-4e37-9a67-439c55cf45c0",
+            "text": "+",
+            "feedback": "O operador '+' realiza a adição, não a divisão inteira.",
+            "correct": false
+        }
+    ]
+}
