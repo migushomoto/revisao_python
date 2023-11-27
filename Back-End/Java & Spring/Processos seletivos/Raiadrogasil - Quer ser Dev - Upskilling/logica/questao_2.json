@@ -24,8 +24,8 @@
         {
             "id": "dc5d542d-497e-4d9a-ba58-09d70b17285d",
             "text": "%",
-            "feedback": "Correto! O operador '%' realiza a divisão inteira.",
-            "correct"
+            "feedback": "Correto! O operador '%' realiza a divisão inteira",
+            "correct": true
         },
         {
             "id": "d102ef34-d8e7-4f44-bf62-65307e19a580",
