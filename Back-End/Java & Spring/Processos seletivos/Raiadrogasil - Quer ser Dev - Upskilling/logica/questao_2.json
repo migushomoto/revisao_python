@@ -12,32 +12,28 @@
         "Operações Matemáticas"
     ],
     "text": [
-        "Qual é o operador normalmente utilizado para realizar a divisão inteira?"
+        "Como é chamado o operador que calcula o resto da divisão entre dois números inteiros?"
     ],
     "alternatives": [
         {
-            "id": "8cf3f895-e14c-4d8b-98d6-4f110df38f39",
-            "text": "/",
-            "feedback" : "O operador '/' realiza a divisão real, não inteira.",
-            "correct": false
-        },
-        {
-            "id": "dc5d542d-497e-4d9a-ba58-09d70b17285d",
+            "id": "d1c3d50a-8bae-4eac-99f3-0c56d8a1f905",
             "text": "%",
-            "feedback": "Correto! O operador '%' realiza a divisão inteira",
-            "correct": true
+            "feedback" : "Correto! O operador '%' calcula o resto da divisão entre dois números inteiros."
         },
         {
-            "id": "d102ef34-d8e7-4f44-bf62-65307e19a580",
+            "id": "efb5cc82-c399-4f6c-bcae-dc6ab9d94d0c",
+            "text": "/",
+            "feedback": "O operador '/' calcula o quociente da divisão, não o resto."
+        },
+        {
+            "id": "5b1561d2-84b1-4ad1-8495-50e37f50839f",
             "text": "*",
-            "feedback": "O operador '*' realiza a multiplicação, não a divisão inteira.",
-            "correct": false
+            "feedback": "O operador '*' realiza a multiplicação, não a operação de resto."
         },
         {
-            "id": "1f44a262-b2bf-4e37-9a67-439c55cf45c0",
+            "id": "2c4c8f66-5579-41e8-8d9f-9cb144b13da9",
             "text": "+",
-            "feedback": "O operador '+' realiza a adição, não a divisão inteira.",
-            "correct": false
+            "feedback": "O operador '+' realiza a adição, não a operação de resto."
         }
     ]
 }
