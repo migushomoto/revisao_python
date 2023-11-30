@@ -29,14 +29,14 @@
         },
         {
             "id": "50907612-1f64-4d8e-9131-c6c2f45a7111",
-            "text": "Falso",
+            "text": "A expressão não é válida, portanto não há resultado válido",
             "feedback": "A expressão é verdadeira, pois ambos os lados são verdadeiros.",
             "correct": false
         },
         {
             "id": "7a938611-c6f4-4475-a19d-0a0d5a09f1bf",
-            "text": "Verdadeiro",
-            "feedback": "A expressão é verdadeira, pois ambos os lados são verdadeiros.",
+            "text": "18",
+            "feedback": "A expressão retorna um valor boleano verdadeiro, pois ambos os lados são verdadeiros.",
             "correct": false
         }
     ]
