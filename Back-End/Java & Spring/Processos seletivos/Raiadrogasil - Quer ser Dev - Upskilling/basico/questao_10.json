@@ -1,0 +1,43 @@
+{
+    "id": "23128c58-0c13-45c4-a525-4c3b1c6f042d",
+    "SKU": "000010",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "none",
+    "knowledgeArea": "Computing",
+    "category": "computing",
+    "subCategory": "Armazenamento de Dados",
+    "level": "Basic",
+    "tagsOrConcepts": [
+        "Armazenamento de Dados"
+    ],
+    "text": [
+        "Qual das seguintes opções é um exemplo de armazenamento de dados não volátil?"
+    ],
+    "alternatives": [
+        {
+            "id": "334f8724-2c46-40c4-b21c-63d46c381666",
+            "text": "Memória RAM",
+            "feedback" : "A RAM é volátil, ou seja, perde os dados quando a energia é desligada.",
+            "correct": false
+        },
+        {
+            "id": "62b1d5b2-1957-437b-a510-77515a321ca5",
+            "text": "Disco Rígido (HD)",
+            "feedback": "Correto! O HD é um exemplo de armazenamento de dados não volátil.",
+            "correct": true
+        },
+        {
+            "id": "a3eb3e54-1b84-4d54-bf0e-8c828bba1db9",
+            "text": "Pen Drive",
+            "feedback": "Pen Drives são dispositivos de armazenamento, mas ainda são voláteis.",
+            "correct": false
+        },
+        {
+            "id": "3c19043f-baf7-43a1-8d7c-cf8328a3a835",
+            "text": "CD-ROM",
+            "feedback": "CD-ROM é um meio de armazenamento, mas ainda é volátil.",
+            "correct": false
+        }
+    ]
+}

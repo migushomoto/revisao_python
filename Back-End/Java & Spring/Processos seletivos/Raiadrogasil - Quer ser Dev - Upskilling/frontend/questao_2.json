@@ -1,0 +1,43 @@
+{
+    "id": "e25d89e5-b0ef-4d21-912f-fcf7893458f0",
+    "SKU": "000002",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "none",
+    "knowledgeArea": "Frontend",
+    "category": "HTML",
+    "subCategory": "Elementos de Texto",
+    "level": "Basic",
+    "tagsOrConcepts": [
+        "HTML"
+    ],
+    "text": [
+        "Qual tag HTML é usada para criar um parágrafo?"
+    ],
+    "alternatives": [
+        {
+            "id": "b9f0f002-29f7-4b11-8e4d-c28fe4b2be71",
+            "text": "<p>",
+            "feedback" : "Correto! A tag <p> é usada para criar um parágrafo em HTML.",
+            "correct": true
+        },
+        {
+            "id": "2dd8f1ac-46c5-4db7-b66c-07de71a535e0",
+            "text": "<h1>",
+            "feedback": "A tag <h1> é usada para criar um cabeçalho de nível 1, não um parágrafo.",
+            "correct": false
+        },
+        {
+            "id": "d1a8ed5e-8f7b-4294-9909-9d80bca2b8ef",
+            "text": "<a>",
+            "feedback": "A tag <a> é usada para criar links, não parágrafos.",
+            "correct": false
+        },
+        {
+            "id": "613340e7-e2d7-4baa-bdb2-31bf1271ea93",
+            "text": "<b>",
+            "feedback": "A tag <b> é usada para texto em negrito, não parágrafos.",
+            "correct": false
+        }
+    ]
+}

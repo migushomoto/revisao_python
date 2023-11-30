@@ -1,0 +1,44 @@
+{
+    "id": "9d2f40c1-52c1-4a79-b5f0-d218c76c284f",
+    "SKU": "000007",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "none",
+    "knowledgeArea": "Computing",
+    "category": "computing",
+    "subCategory": "CPU e Ciclos de Instrução",
+    "level": "Basic",
+    "tagsOrConcepts": [
+        "CPU",
+        "Ciclos de Instrução"
+    ],
+    "text": [
+        "Qual das seguintes opções é uma função da Unidade Central de Processamento (CPU)?"
+    ],
+    "alternatives": [
+        {
+            "id": "8264a7a2-28bb-4d8c-b8d6-9d24aa3d8cb2",
+            "text": "Armazenar dados permanentemente",
+            "feedback" : "Não, o armazenamento permanente é geralmente feito por dispositivos de armazenamento.",
+            "correct": false
+        },
+        {
+            "id": "c6ad3c1b-b08a-4c97-b6a2-3f6967981b76",
+            "text": "Executar instruções e realizar cálculos",
+            "feedback": "Correto! A CPU executa instruções e realiza cálculos.",
+            "correct": true
+        },
+        {
+            "id": "823fc03a-47cc-4e13-9e93-c7fb2a62b24d",
+            "text": "Conectar dispositivos externos",
+            "feedback": "A conexão de dispositivos externos geralmente é feita por controladores e interfaces.",
+            "correct": false
+        },
+        {
+            "id": "0ac1282b-73a8-4a6f-93a0-01138062fcf3",
+            "text": "Exibir informações na tela",
+            "feedback": "A exibição de informações é geralmente realizada por placas de vídeo.",
+            "correct": false
+        }
+    ]
+}

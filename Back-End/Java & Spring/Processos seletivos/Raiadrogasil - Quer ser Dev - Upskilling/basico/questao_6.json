@@ -1,0 +1,43 @@
+{
+    "id": "6e6aebc3-2ef9-401c-b6ab-2e2d9c5f950e",
+    "SKU": "000006",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "none",
+    "knowledgeArea": "Computing",
+    "category": "computing",
+    "subCategory": "Unidades Básicas de um Computador",
+    "level": "Basic",
+    "tagsOrConcepts": [
+        "Unidades Básicas de um Computador"
+    ],
+    "text": [
+        "Qual é a unidade de medida comumente usada para a velocidade de processamento de um computador?"
+    ],
+    "alternatives": [
+        {
+            "id": "3a08008d-46f1-4b1b-934e-63a944c41ad3",
+            "text": "Hertz",
+            "feedback" : "Correto! A velocidade de processamento é medida em Hertz.",
+            "correct": true
+        },
+        {
+            "id": "6b22b522-15a1-4bf2-aa9d-1fcf61d2c4d8",
+            "text": "Byte",
+            "feedback": "Byte é uma unidade de armazenamento, não de velocidade de processamento.",
+            "correct": false
+        },
+        {
+            "id": "fb4c1847-c787-4d46-b5aa-fb65c2cc3b99",
+            "text": "Pixel",
+            "feedback": "Pixel está relacionado à exibição de gráficos, não à velocidade de processamento.",
+            "correct": false
+        },
+        {
+            "id": "a64fb9bf-2d46-4e90-a0c2-8e9d01f30f7d",
+            "text": "Gigabyte",
+            "feedback": "Gigabyte é uma unidade de armazenamento, não de velocidade de processamento.",
+            "correct": false
+        }
+    ]
+}

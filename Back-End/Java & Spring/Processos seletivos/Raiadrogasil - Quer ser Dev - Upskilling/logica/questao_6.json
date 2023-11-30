@@ -1,0 +1,43 @@
+{
+    "id": "4f2f5cbf-2082-4c90-b9bb-dab0673ab836",
+    "SKU": "6",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "none",
+    "knowledgeArea": "Programação",
+    "category": "Lógica de Programação",
+    "subCategory": "Operações Matemáticas",
+    "level": "Basic",
+    "tagsOrConcepts": [
+        "Operações Matemáticas"
+    ],
+    "text": [
+        "Qual é o resultado da expressão matemática: 5 * (2 + 3) / 2 ?"
+    ],
+    "alternatives": [
+        {
+            "id": "ac996126-0a43-4674-98f8-7b75fb2c25d9",
+            "text": "5",
+            "feedback" : "O resultado não é 5, é necessário reavaliar a expressão.",
+            "correct": false
+        },
+        {
+            "id": "c2d946ef-7daa-4b46-8d4a-51542a390733",
+            "text": "12.5",
+            "feedback": "Correto! O resultado da expressão é 12.5.",
+            "correct": true
+        },
+        {
+            "id": "e759bd67-548a-4148-aa7f-774d857ca996",
+            "text": "15",
+            "feedback": "O resultado não é 15, é necessário reavaliar a expressão.",
+            "correct": false
+        },
+        {
+            "id": "bf4f7350-79e7-4b4e-9b77-8d24e9ef222a",
+            "text": "10",
+            "feedback": "O resultado não é 10, é necessário reavaliar a expressão.",
+            "correct": false
+        }
+    ]
+}

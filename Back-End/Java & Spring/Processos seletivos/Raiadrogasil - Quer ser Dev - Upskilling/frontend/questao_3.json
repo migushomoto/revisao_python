@@ -1,0 +1,43 @@
+{
+    "id": "1eab27b8-22f7-4fe3-a257-3aaab5f19a15",
+    "SKU": "000003",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "none",
+    "knowledgeArea": "Frontend",
+    "category": "CSS",
+    "subCategory": "Estilo Externo",
+    "level": "Basic",
+    "tagsOrConcepts": [
+        "CSS"
+    ],
+    "text": [
+        "Como você vincula um arquivo CSS externo a uma página HTML?"
+    ],
+    "alternatives": [
+        {
+            "id": "f496ee7d-5c2f-4bf4-9ef4-7df6e8f2bc9a",
+            "text": "<link rel='stylesheet' type='text/css' href='estilo.css'>",
+            "feedback" : "Correto! Essa é a sintaxe correta para vincular um arquivo CSS externo.",
+            "correct": true
+        },
+        {
+            "id": "ce4b61cc-63a3-4a0b-90a9-3ce799feecdb",
+            "text": "<style src='estilo.css'>",
+            "feedback": "A sintaxe correta para vincular um arquivo CSS externo usa a tag <link>.",
+            "correct": false
+        },
+        {
+            "id": "f36d08da-3154-4e79-8f0b-d102571f9a1c",
+            "text": "<css arquivo='estilo.css'>",
+            "feedback": "A sintaxe correta para vincular um arquivo CSS externo usa a tag <link>.",
+            "correct": false
+        },
+        {
+            "id": "33596a1c-e524-46ce-b118-57358c5741a9",
+            "text": "<external-css src='estilo.css'>",
+            "feedback": "A sintaxe correta para vincular um arquivo CSS externo usa a tag <link>.",
+            "correct": false
+        }
+    ]
+}

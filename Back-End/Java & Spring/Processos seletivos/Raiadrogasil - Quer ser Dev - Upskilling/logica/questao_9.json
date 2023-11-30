@@ -1,0 +1,43 @@
+{
+    "id": "fde7e8da-e1e2-4bf1-9346-5ceeb020fc9e",
+    "SKU": "9",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "none",
+    "knowledgeArea": "Programação",
+    "category": "Lógica de Programação",
+    "subCategory": "Operações Matemáticas",
+    "level": "Basic",
+    "tagsOrConcepts": [
+        "Operações Matemáticas"
+    ],
+    "text": [
+        "Qual é o resultado da expressão matemática: 4 + 5 * 2 / 2 - 1 ?"
+    ],
+    "alternatives": [
+        {
+            "id": "f6e1fe3b-9b9e-4cc3-b3a7-6cfdb56e2a09",
+            "text": "8",
+            "feedback" : "O resultado não é 8, é necessário reavaliar a expressão.",
+            "correct": false
+        },
+        {
+            "id": "20b5903e-4c7f-4f2d-b2ae-27f5d50b8559",
+            "text": "8",
+            "feedback": "Correto! O resultado da expressão é 8.",
+            "correct": true
+        },
+        {
+            "id": "ac46ff1a-ae35-4193-80b7-6a9609cb0e43",
+            "text": "7",
+            "feedback": "O resultado não é 7, é necessário reavaliar a expressão.",
+            "correct": false
+        },
+        {
+            "id": "bc032f1c-3c2f-4a02-bb1a-55b18e416e3e",
+            "text": "11",
+            "feedback": "O resultado não é 11, é necessário reavaliar a expressão.",
+            "correct": false
+        }
+    ]
+}

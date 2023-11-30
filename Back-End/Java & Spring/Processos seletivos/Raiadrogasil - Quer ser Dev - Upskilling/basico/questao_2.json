@@ -1,0 +1,43 @@
+{
+    "id": "2a24c271-dc57-44d9-b59e-9f4811e2cfb0",
+    "SKU": "000002",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "none",
+    "knowledgeArea": "Computing",
+    "category": "computing",
+    "subCategory": "Memória",
+    "level": "Basic",
+    "tagsOrConcepts": [
+        "Memória"
+    ],
+    "text": [
+        "O que representa a sigla RAM em um computador?"
+    ],
+    "alternatives": [
+        {
+            "id": "c1c06c7e-14c9-4a71-8d3a-bf7d3e6a1031",
+            "text": "Read-Only Memory",
+            "feedback" : "Não, RAM representa Random Access Memory, que é volátil e usada para armazenamento temporário.",
+            "correct": false
+        },
+        {
+            "id": "0f51bf38-6895-44f8-8ec7-8e641c2ebbf8",
+            "text": "Random Access Memory",
+            "feedback": "Correto! RAM representa Random Access Memory, usada para armazenamento temporário.",
+            "correct": true
+        },
+        {
+            "id": "b16b0639-936a-41d7-9dd3-641874da2c08",
+            "text": "Read-And-Write Memory",
+            "feedback": "A RAM é usada para leitura e escrita, mas a sigla não é exatamente essa.",
+            "correct": false
+        },
+        {
+            "id": "a36cf833-542c-42a1-9234-52b92b36c5a2",
+            "text": "Random Access Module",
+            "feedback": "A sigla correta é Random Access Memory, não Module.",
+            "correct": false
+        }
+    ]
+}
