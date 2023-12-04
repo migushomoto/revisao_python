@@ -17,8 +17,8 @@
     "alternatives": [
         {
             "id": "f6e1fe3b-9b9e-4cc3-b3a7-6cfdb56e2a09",
-            "text": "8",
-            "feedback" : "O resultado não é 8, é necessário reavaliar a expressão.",
+            "text": "10",
+            "feedback" : "O resultado não é 10, é necessário reavaliar a expressão.",
             "correct": false
         },
         {
