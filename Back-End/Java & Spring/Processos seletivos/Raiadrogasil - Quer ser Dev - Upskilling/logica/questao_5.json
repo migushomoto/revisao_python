@@ -4,12 +4,12 @@
     "interpreter": 1,
     "type": "MULT",
     "language": "none",
-    "knowledgeArea": "Programação",
-    "category": "Lógica de Programação",
-    "subCategory": "Fluxo Condicional",
+    "knowledgeArea": "Lógica de Programação",
+    "category": "Condicionais",
+    "subCategory": "",
     "level": "Basic",
     "tagsOrConcepts": [
-        "Fluxo Condicional"
+        "Fluxo Condicional", "Condicionais"
     ],
     "text": [
         "O que acontece se a condição de um 'if' não for verdadeira?"

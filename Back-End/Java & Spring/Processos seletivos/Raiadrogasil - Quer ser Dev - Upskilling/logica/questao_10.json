@@ -4,9 +4,9 @@
     "interpreter": 1,
     "type": "MULT",
     "language": "none",
-    "knowledgeArea": "Programação",
-    "category": "Lógica de Programação",
-    "subCategory": "Conceitos Gerais",
+    "knowledgeArea": "Lógica de Programação",
+    "category": "Conceito de Algoritmo",
+    "subCategory": "",
     "level": "Basic",
     "tagsOrConcepts": [
         "Conceitos Gerais de Lógica de Programação"

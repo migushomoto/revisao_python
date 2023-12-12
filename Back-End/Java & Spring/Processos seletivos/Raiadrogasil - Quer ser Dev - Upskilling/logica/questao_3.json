@@ -4,9 +4,9 @@
     "interpreter": 1,
     "type": "MULT",
     "language": "none",
-    "knowledgeArea": "Programação",
-    "category": "Lógica de Programação",
-    "subCategory": "Laços de Repetição",
+    "knowledgeArea": "Lógica de Programação",
+    "category": "Laços de repetição",
+    "subCategory": "",
     "level": "Basic",
     "tagsOrConcepts": [
         "Laços de Repetição"
