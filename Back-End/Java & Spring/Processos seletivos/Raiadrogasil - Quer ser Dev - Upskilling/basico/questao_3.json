@@ -1,0 +1,43 @@
+{
+    "id": "7e1c048f-8c3d-4a49-848c-51d6ef95b3bc",
+    "SKU": "000003",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "none",
+    "knowledgeArea": "Computing",
+    "category": "computing",
+    "subCategory": "Hierarquia de Memória",
+    "level": "Basic",
+    "tagsOrConcepts": [
+        "Hierarquia de Memória"
+    ],
+    "text": [
+        "Na hierarquia de memória, qual tipo de memória geralmente tem a menor capacidade, mas é a mais rápida?"
+    ],
+    "alternatives": [
+        {
+            "id": "e611cc41-5f94-4fc1-9429-df299cd8192c",
+            "text": "Cache",
+            "feedback" : "Correto! O cache é rápido, mas tem capacidade limitada.",
+            "correct": true
+        },
+        {
+            "id": "db75d7f7-546d-4dcb-8180-f1447981eb90",
+            "text": "RAM (Random Access Memory)",
+            "feedback": "A RAM é mais lenta que o cache, mas tem maior capacidade.",
+            "correct": false
+        },
+        {
+            "id": "118f3e74-0363-4f4d-930e-d6bc0a122967",
+            "text": "HDD (Hard Disk Drive)",
+            "feedback": "O HDD é mais lento, mas tem capacidade significativamente maior.",
+            "correct": false
+        },
+        {
+            "id": "18f06d8d-3d71-4c79-89ab-b0d6d0047482",
+            "text": "SSD (Solid State Drive)",
+            "feedback": "O SSD é mais rápido que o HDD, mas tem capacidade limitada em comparação.",
+            "correct": false
+        }
+    ]
+}

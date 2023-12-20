@@ -1,0 +1,39 @@
+{
+  "SKU": "000001",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "javascript",
+  "knowledgeArea": "Front-End",
+  "category": "JavaScript",
+  "subCategory": "Conhecimentos Básicos",
+  "level": "Medium",
+  "tagsOrConcepts": ["frontend", "javascript"],
+  "text": ["Qual é a diferença entre \"==\" e \"===\" em JavaScript?"],
+  "alternatives": [
+    {
+      "text": "\"==\" compara o valor e o tipo de dados, enquanto \"===\" compara apenas o valor.",
+      "feedback": "Incorreto! \"==\" é um operador de igualdade que compara apenas os valores, enquanto \"===\" é um operador de igualdade estrita que compara os valores e os tipos de dados.",
+      "correct": false
+    },
+    {
+      "text": "\"==\" compara apenas o valor, enquanto \"===\" compara o valor e o tipo de dados.",
+      "feedback": "Correto! \"==\" é um operador de igualdade que compara apenas os valores, enquanto \"===\" é um operador de igualdade estrita que compara os valores e os tipos de dados.",
+      "correct": true
+    },
+    {
+      "text": "\"==\" é uma atribuição, enquanto \"===\" é uma comparação.",
+      "feedback": "Incorreto! \"==\" é um operador de igualdade que compara apenas os valores, enquanto \"===\" é um operador de igualdade estrita que compara os valores e os tipos de dados.",
+      "correct": false
+    },
+    {
+      "text": "\"==\" é usado para comparação de strings, enquanto \"===\" é usado para números.",
+      "feedback": "Incorreto! \"==\" é um operador de igualdade que compara apenas os valores, enquanto \"===\" é um operador de igualdade estrita que compara os valores e os tipos de dados.",
+      "correct": false
+    },
+    {
+      "text": "\"==\" e \"===\" são equivalentes em JavaScript.",
+      "feedback": "Incorreto! \"==\" é um operador de igualdade que compara apenas os valores, enquanto \"===\" é um operador de igualdade estrita que compara os valores e os tipos de dados.",
+      "correct": false
+    }
+  ]
+}

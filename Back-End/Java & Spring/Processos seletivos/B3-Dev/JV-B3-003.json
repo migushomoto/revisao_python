@@ -1,0 +1,49 @@
+{
+    "SKU": "JV-B3-003",
+    "interpreter": 1,
+    "type": "VF",
+    "language": "NA",
+    "knowledgeArea": "Java",
+    "category": "Java",
+    "subCategory": "Conceitos",
+    "level": "Basic",
+    "tagsOrConcepts": [
+      "Java Basico"
+    ],
+    "text": [
+      "Os vetores ou arrays, são coleções de objetos, assinale a alternativa verdadeira sobre os arrays:"
+    ],
+    "alternatives": [
+      {
+        "text": "No caso de criarmos um array de tamanho insuficiente para a quantidade de valores que necessário, basta reatribuir o tamanho do array.",
+        "feedback": "Falso, uma vez criado um array, seu tamanho é imutavel",
+        "correct": false,
+        "id": "8329f762-6f76-11ee-b962-0242ac120002"
+      },
+      {
+        "text": "A primeira posição do array é 1.",
+        "feedback": "Falso, a primeira posição do array é sempre 0.",
+        "correct": false,
+        "id": "9cc8b866-6f76-11ee-b962-0242ac120002"
+      },
+      {
+        "text": "Ao imprimir um array sem especificar um indice o que será impresso não é o conteúdo do array e sim a posição de memória onde o array esta armazenado.",
+        "feedback": "Verdadeiro",
+        "correct": true,
+        "id": "c4ee6516-6f76-11ee-b962-0242ac120002"
+      },
+      {
+        "text": "Não é possível percorrer um array utilizando um laço de repetição.",
+        "feedback": "Falso, é extremamente comum utilizarmos laços para percorrer arrays",
+        "correct": false,
+        "id": "e3afe448-6f76-11ee-b962-0242ac120002"
+      },
+      {
+        "text": "O método dos arrays que nos devolve o tamanho do array é o array.size()",
+        "feedback": "Falso, o correto é a propriedade length do array",
+        "correct": false,
+        "id": "0e161b30-6f77-11ee-b962-0242ac120002"
+      }
+    ],
+    "id": "fa11d016-6f76-11ee-b962-0242ac120002"
+  }

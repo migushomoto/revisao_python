@@ -1,0 +1,44 @@
+{
+    "SKU": "DE-OP-009",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "tagsOrConcepts": [
+      "IaC",
+      "terraform"
+    ],
+    "text": [
+      "Cada região da AWS tem um ID diferente para a mesma imagem Linux e, a medida que acontecem atualizações, esses IDs mudam. Qual é a melhor abordagem para criarmos instâncias EC2 com a mesma imagem em regiões diferentes sem ter que inserir esses IDs manualmente?"
+    ],
+    "alternatives": [
+      {
+        "text": "Usar o data source `aws_ami`",
+        "feedback": "Correto. Esse data source trará o ID da imagem baseado no nome da imagem que queremos usar",
+        "correct": true,
+        "id": "45b395f1-0a98-4808-b1af-500bda9157fc"
+      },
+      {
+        "text": "Criar um `map` com os IDs da imagem de cada região",
+        "feedback": "Incorreto. Apesar de funcionar em um primeiro momento, essa solução requer que os IDs sejam atualizados manualmente a medida que eles mudassem.",
+        "correct": false,
+        "id": "7bbcdc37-aeaf-4480-a814-a6b21a426fb9"
+      },
+      {
+        "text": "Criar uma configuração diferente por região",
+        "feedback": "Incorreto. Apesar de funcionar em um primeiro momento, essas configurações teriam de ser mantidas manualmente a medida que os IDs mudassem com o tempo.",
+        "correct": false,
+        "id": "1fe9a54d-87b8-4176-af24-e7858ed6a2e2"
+      },
+      {
+        "text": "Consultar a API da AWS antes de provisionar a instância buscando o ID da AMI",
+        "feedback": "Incorreto. Ao utilizar o provider da AWS no Terraform, não é necessário interagir com a API diretamente. Podemos utilizar recursos \"data\" para isso.",
+        "correct": false,
+        "id": "a0b08039-fe53-442b-af06-8bd21de14bc5"
+      }
+    ],
+    "id": "e120c6dd-57b2-45be-9f8a-5038a07bbfea",
+    "level": "Medium",
+    "knowledgeArea": "DevOps",
+    "category": "Infraestrutura como código",
+    "subCategory": "Terraform"
+}

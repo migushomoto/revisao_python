@@ -1,0 +1,45 @@
+{
+    "id": "8bdcb8e6-e7fc-4e6a-91bb-50018f1d4fb7",
+    "SKU": "000003",
+    "interpreter": 1,
+    "type": "VF",
+    "language": "NA",
+    "knowledgeArea": "DevOps",
+    "category": "Kubernetes",
+    "subCategory": "Containers",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+        "Kubernetes",
+        "Containers",
+        "OCI"
+    ],
+    "text": [
+        "Dentro do contexto de Kubernetes e OCI (Open Container Initiative), qual das seguintes afirmações está correta sobre a construção e execução de containers compatíveis com a especificação OCI?"
+    ],
+    "alternatives": [
+        {
+            "id": "242fa5ab-0d2b-4c4a-b3a5-bc5ab91d17b0",
+            "text": "Kubernetes não suporta containers OCI.",
+            "feedback": "Esta afirmação é falsa. Kubernetes suporta containers OCI.",
+            "correct": false
+        },
+        {
+            "id": "c4b1f11e-266d-4c98-a2b7-1b8877f63f19",
+            "text": "OCI é responsável apenas pela padronização de imagens de container, não execução.",
+            "feedback": "Esta afirmação é falsa. OCI lida tanto com a padronização de imagens de container quanto com a execução de container.",
+            "correct": false
+        },
+        {
+            "id": "728fd1ea-03d1-40f6-bc6c-8de5804b6cbb",
+            "text": "Kubernetes e OCI trabalham juntos para garantir a interoperabilidade e segurança na execução de containers.",
+            "feedback": "Esta afirmação é verdadeira. Kubernetes e OCI trabalham juntos para garantir a interoperabilidade e a segurança na execução de containers.",
+            "correct": true
+        },
+        {
+            "id": "42c7828a-aa3c-4d02-8a73-6924d46883de",
+            "text": "A especificação OCI é exclusiva para containers Docker.",
+            "feedback": "Esta afirmação é falsa. A especificação OCI não é exclusiva para containers Docker.",
+            "correct": false
+        }
+    ]
+}

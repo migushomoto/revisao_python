@@ -1,0 +1,74 @@
+
+{
+    "SKU": "JV-B3-002",
+    "interpreter": 1,
+    "type": "GAP",
+    "language": "java",
+    "knowledgeArea": "java",
+    "category": "java",
+    "subCategory": "java",
+    "level": "Basic",
+    "tagsOrConcepts":["java"],
+    "text": [
+        "A {{GAP}} é o kit de desenvolvimento que precisamos quando vamos desenvolver aplicações {{GAP}}."
+    ],
+    "alternatives": [
+        {
+            "value": "jdk",
+            "hint": "",
+            "id": "c9280326-6f85-11ee-b962-0242ac120002"
+        },
+        {
+            "value": "jre",
+            "hint": "",
+            "id": "d0c0ab9c-6f85-11ee-b962-0242ac120002"
+        },
+        {
+            "value": "IDE",
+            "hint": "",
+            "id": "dfa910fe-6f85-11ee-b962-0242ac120002"
+        },
+        {
+            "value": "java",
+            "hint": "",
+            "id": "e7e2fa8c-6f85-11ee-b962-0242ac120002"
+        }
+    ],
+    "gaps": [
+        {
+          "expected": "jdk",
+          "feedbacks": [
+            {
+              "value": "jre",
+              "text": "JRE é um ambiente de tempo de execução do Java"
+            },
+            {
+              "value": "IDE",
+              "text": "são softwares que oferecem um conjunto abrangente de ferramentas para programadores e desenvolvedores de software"
+            },
+            {
+                "value": "java",
+                "text": "-"
+            }
+          ]
+        },
+        {
+          "expected": "java",
+          "feedbacks": [
+            {
+                "value": "jre",
+                "text": "JRE é um ambiente de tempo de execução do Java"
+            },
+            {
+                "value": "IDE",
+                "text": "são softwares que oferecem um conjunto abrangente de ferramentas para programadores e desenvolvedores de software"
+            },
+            {
+                "value": "jdk",
+                "text": "JDK é o conjunto de ferramentas para desenvolvimento java"
+            }
+          ]
+        }
+      ],
+      "id": "6f02055a-6f84-11ee-b962-0242ac120002"
+}

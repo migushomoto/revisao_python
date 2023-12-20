@@ -1,0 +1,45 @@
+{
+    "id": "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
+    "SKU": "000032",
+    "interpreter": 1,
+    "type": "VF",
+    "language": "NA",
+    "knowledgeArea": "DevOps",
+    "category": "Kubernetes",
+    "subCategory": "Pods",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+        "Kubernetes",
+        "Troubleshooting",
+        "Pods"
+    ],
+    "text": [
+        "Você está enfrentando problemas em um cluster Kubernetes onde os pods não estão se comunicando adequadamente com outros serviços. Você suspeita que o problema pode estar relacionado com as políticas de rede. Qual(is) das seguintes opções é/são verdadeira(s) para o troubleshooting deste cenário?"
+    ],
+    "alternatives": [
+        {
+            "id": "5964ff32-9747-469f-a544-f0922a8e8032",
+            "text": "Verificar as políticas de rede para garantir que a comunicação entre os pods está permitida.",
+            "feedback": "Verificar as políticas de rede é um passo crucial para solucionar problemas de comunicação entre pods e outros serviços no Kubernetes.",
+            "correct": true
+        },
+        {
+            "id": "b7faa98c-b48c-4293-9db6-05fa42b13174",
+            "text": "Verificar se o NetworkPolicy está configurado corretamente.",
+            "feedback": "A configuração incorreta do NetworkPolicy pode bloquear a comunicação entre os pods no cluster Kubernetes.",
+            "correct": true
+        },
+        {
+            "id": "dd8a5c12-012c-4f89-9d73-5c305a60c1d8",
+            "text": "Utilizar o comando 'kubectl describe pod' para obter detalhes sobre os pods e suas configurações de rede.",
+            "feedback": "O comando 'kubectl describe pod' fornece informações detalhadas sobre os pods e pode ajudar no diagnóstico de problemas de rede.",
+            "correct": true
+        },
+        {
+            "id": "2b9ad154-d559-453a-bb52-84f4571ac492",
+            "text": "Reiniciar todos os pods resolverá automaticamente problemas de rede.",
+            "feedback": "Reiniciar todos os pods não é uma solução garantida para problemas de rede e pode levar a mais tempo de inatividade.",
+            "correct": false
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+  "SKU": "000004",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "html",
+  "knowledgeArea": "Front-End",
+  "category": "Conhecimentos Básicos",
+  "subCategory": "",
+  "level": "Medium",
+  "tagsOrConcepts": ["frontend", "html"],
+  "text": [
+    "Quando desejamos aplicar estilos e dinâmica a um documento HTML, podemos adicionar estilos, através do CSS e",
+    "comportamentos, através do JavaScript. Para fazer isso, podemos adicionar os códigos CSS e JavaScript",
+    "diretamente no nosso arquivo HTML. Uma outra forma de fazer isso é importar o CSS e o JavaScript de arquivos",
+    "externos. Levando isso em conta, qual das alternativas abaixo apresentam a forma correta de importar um",
+    "arquivo \"styles.css\" e \"index.js\"?"
+  ],
+  "alternatives": [
+    {
+      "text": "<import type=\"text/css\" href=\"styles.css\"> e <script file=\"index.js\"> </script> no cabeçalho (head) da página",
+      "feedback": "Incorreto! Para importar arquivos CSS, utilizamos a tag \"link\", ao invés de \"import\", no cabeçalho da página.",
+      "correct": false
+    },
+    {
+      "text": "<link rel=\"stylesheet\" type=\"file/css\" src=\"styles.css\"> e <script src=\"index.js\"></script> no corpo (body) da página.",
+      "feedback": "Incorreto. Para importar arquivos CSS, utilizamos a tag \"link\", ao invés de \"import\", no cabeçalho da página. Já os arquivos JavaScript, podem ser importados através da tag \"script\" e pode ser importado no cabeçalho ou corpo da página.",
+      "correct": false
+    },
+    {
+      "text": "<link type=\"css\" style=\"external\" href=\"styles.css\"> e <script src=\"index.js\"> </script> no cabeçalho (head) da página",
+      "feedback": "Incorreto! Ainda que a importação do arquivo JavaScript esteja correto, a importação do arquivos CSS não possuem um atributo \"style\".",
+      "correct": false
+    },
+    {
+      "text": "<include type=\"text/css\" href=\"styles.css\"> e <script src=\"index.js\"> </script> no corpo (body) da página",
+      "feedback": "Incorreto! Para importar arquivos CSS, utilizamos a tag \"link\", ao invés de \"include\", no cabeçalho da página.",
+      "correct": false
+    },
+    {
+      "text": "<link rel=\"stylesheet\" type=\"text/css\" href=\"styles.css\"> e <script src=\"index.js\"> </script> no cabeçalho (head) da página",
+      "feedback": "Correto! Para importar arquivos CSS, utilizamos a tag \"link\" no cabeçalho da página. Já os arquivos JavaScript, podem ser importados através da tag \"script\" e pode ser importado no cabeçalho ou corpo da página.",
+      "correct": true
+    }
+  ]
+}

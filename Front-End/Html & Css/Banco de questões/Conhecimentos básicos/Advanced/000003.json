@@ -1,0 +1,41 @@
+{
+  "SKU": "000003",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "html",
+  "knowledgeArea": "Front-End",
+  "category": "Conhecimentos Básicos",
+  "subCategory": "",
+  "level": "Advanced",
+  "tagsOrConcepts": ["frontend", "html, css"],
+  "text": [
+    "Qual das alternativas abaixo apresenta a propriedade CSS que é utilizada para definir a direção principal do layout flexível em um contêiner flex?"
+  ],
+  "alternatives": [
+    {
+      "text": "flex-direction",
+      "feedback": "Correto! flex-direction é a propriedade correta para definir a direção principal do layout flexível, como row, row-reverse, column e column-reverse.",
+      "correct": true
+    },
+    {
+      "text": "flex-flow",
+      "feedback": "Incorreto! flex-flow combina flex-direction e flex-wrap, não define diretamente a direção principal.",
+      "correct": false
+    },
+    {
+      "text": "flex-container",
+      "feedback": "Incorreto! flex-container não é uma propriedade CSS válida.",
+      "correct": false
+    },
+    {
+      "text": "flex-direction-main",
+      "feedback": "Incorreto! flex-direction-main não é uma propriedade CSS válida.",
+      "correct": false
+    },
+    {
+      "text": "flex-orientation",
+      "feedback": "Incorreto! flex-orientation não é uma propriedade CSS válida.",
+      "correct": false
+    }
+  ]
+}

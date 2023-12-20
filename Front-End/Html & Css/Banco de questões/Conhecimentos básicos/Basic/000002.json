@@ -1,0 +1,42 @@
+{
+  "SKU": "000002",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "html",
+  "knowledgeArea": "Front-End",
+  "category": "Conhecimentos Básicos",
+  "subCategory": "",
+  "level": "Basic",
+  "tagsOrConcepts": ["frontend", "html", "css"],
+  "text": [
+    "É um arquivo independente, no qual podemos definir propriedades de estilo e animação para os",
+    "elementos do HTML. De qual tipo de arquivo estamos falando?"
+  ],
+  "alternatives": [
+    {
+      "text": "XML (eXtensible Markup Language)",
+      "feedback": "Incorreto! XML é, também, uma linguagem de marcação de texto, assim como o HTML.",
+      "correct": false
+    },
+    {
+      "text": "XHTML (eXtensible HyperText Markup Language)",
+      "feedback": "Incorreto! XHTML é, também, uma linguagem de marcação de texto.",
+      "correct": false
+    },
+    {
+      "text": "CCS (Cascade Configurable Styles)",
+      "feedback": "Incorreto! CCS não é uma extensão válida para arquivos de estilo.",
+      "correct": false
+    },
+    {
+      "text": "CSS (Cascading Style Sheets)",
+      "feedback": "Correto! CSS é a extensão dos arquivos utilizados para definir regras de estilo para documentos HTML.",
+      "correct": true
+    },
+    {
+      "text": "SFHDocs (Styles For HTML Docs)",
+      "feedback": "Incorreto! SFHDocs não é uma extensão válida para arquivos de estilo.",
+      "correct": false
+    }
+  ]
+}

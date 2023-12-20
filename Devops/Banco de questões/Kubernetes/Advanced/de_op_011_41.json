@@ -1,0 +1,45 @@
+{
+    "id": "6b4e5f63-5e24-4ef4-bd7c-88c46b74a9b3",
+    "SKU": "000001",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "DevOps",
+    "category": "Kubernetes",
+    "subCategory": "Métricas",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+        "Kubernetes",
+        "Métricas",
+        "Monitoring"
+    ],
+    "text": [
+        "No Kubernetes, qual das ferramentas abaixo é amplamente utilizada para coletar, processar e armazenar métricas de aplicativos e da infraestrutura?"
+    ],
+    "alternatives": [
+        {
+            "id": "315f5b2f-3d89-4b0f-b456-9e3b3592e926",
+            "text": "Grafana",
+            "feedback": "O Grafana é uma ferramenta de visualização de métricas, mas não é responsável pela coleta ou processamento.",
+            "correct": false
+        },
+        {
+            "id": "aa6f03df-5cfc-4a22-8a67-f9f6c7988d8b",
+            "text": "Prometheus",
+            "feedback": "Correto! O Prometheus é uma ferramenta de monitoramento e alerta de código aberto que pode coletar, processar e armazenar métricas.",
+            "correct": true
+        },
+        {
+            "id": "b1c9202d-91a9-41a4-931b-4f9c4d8df273",
+            "text": "Fluentd",
+            "feedback": "O Fluentd é usado para coletar e enviar registros, não métricas.",
+            "correct": false
+        },
+        {
+            "id": "6d5fc30d-09b1-4456-8dfb-6dd104e1ae58",
+            "text": "Jaeger",
+            "feedback": "O Jaeger é usado para rastreamento distribuído, não para métricas.",
+            "correct": false
+        }
+    ]
+}

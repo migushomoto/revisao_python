@@ -1,0 +1,43 @@
+{
+  "SKU": "000004",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "html",
+  "knowledgeArea": "Front-End",
+  "category": "Conhecimentos Básicos",
+  "subCategory": "",
+  "level": "Basic",
+  "tagsOrConcepts": ["frontend", "html"],
+  "text": [
+    "A estrutura de um documento HTML possui duas estruturas (tags) globais, uma delas onde são definidos os",
+    "metadados da aplicação e ou outra onde são dispostos os elementos visuais da tela.",
+    "Qual das alternativas abaixo apresentam essas duas estruturas?"
+  ],
+  "alternatives": [
+    {
+      "text": "<header> e <content>.",
+      "feedback": "Incorreto! <header> é uma das tags semânticas, apresentadas com o HTML5 e <content> não é uma tag válida do HTML.",
+      "correct": false
+    },
+    {
+      "text": "<header> e <body>.",
+      "feedback": "Incorreto! <header> é uma das tags semânticas, apresentadas com o HTML5.",
+      "correct": false
+    },
+    {
+      "text": "<head> e <content>.",
+      "feedback": "Incorreto! <content> não é uma tag válida do HTML.",
+      "correct": false
+    },
+    {
+      "text": "<head> e <body>.",
+      "feedback": "Correto! <head> é a tag onde são definidos os metadados da aplicação e <body> é a tag onde são definidos os elementos visuais da tela.",
+      "correct": true
+    },
+    {
+      "text": "<meta> e <content>.",
+      "feedback": "Incorreto! <meta> é uma das tags onde são definidos alguns dos metadados, mas não todos e <content> não é uma tag válida do HTML.",
+      "correct": false
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+    "SKU": "DE-OP-009",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "tagsOrConcepts": [
+      "IaC",
+      "terraform"
+    ],
+    "text": [
+      "Você configurou a variável de ambiente `TF_LOG=DEBUG` para realizar um troubleshooting. Agora você deseja que esses logs sejam escritos em um arquivo dentro do seu diretório atual. Qual das opções abaixo possibilita isso?"
+    ],
+    "alternatives": [
+      {
+        "text": "Definindo a variável de ambiente `TF_LOG_FILE=./terraform.log`",
+        "feedback": "Incorreto. Essa variável não existe no Terraform.",
+        "correct": false,
+        "id": "aa31c0fe-79d9-4cba-bb34-9d76d29d1b5c"
+      },
+      {
+        "text": "Definindo a variável de ambiente `TF_LOG_PATH=./terraform.log`",
+        "feedback": "Correto.",
+        "correct": true,
+        "id": "4c8b5205-4a10-45b7-a510-ea8500894209"
+      },
+      {
+        "text": "Definindo a variável de ambiente `TF_DEBUG_PATH=./terraform.log`",
+        "feedback": "Incorreto. Essa variável não existe no Terraform.",
+        "correct": false,
+        "id": "c0b17f22-bb73-4c15-a3de-5b60d7524657"
+      },
+      {
+        "text": "Nada precisa ser feito. O Terraform tratará disso automaticamente já que a variável de ambiente `TF_LOG=DEBUG` foi definida.",
+        "feedback": "Incorreto. É necessário definir o caminho do arquivo onde o log deve ser armazenado.",
+        "correct": false,
+        "id": "93823237-8879-4879-9092-c9cf4349031e"
+      }
+    ],
+    "id": "c0c45323-ffb4-432a-b6e3-99e4992b7de9",
+    "level": "Advanced",
+    "knowledgeArea": "DevOps",
+    "category": "Infraestrutura como código",
+    "subCategory": "Terraform"
+}

@@ -1,0 +1,45 @@
+{
+    "id": "f2a79bb5-2b72-4b1b-b4c3-f4392f720d7e",
+    "SKU": "000027",
+    "interpreter": 1,
+    "type": "VF",
+    "language": "NA",
+    "knowledgeArea": "DevOps",
+    "category": "Kubernetes",
+    "subCategory": "Cluster",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+        "Kubernetes",
+        "cluster",
+        "over provisioning"
+    ],
+    "text": [
+        "No contexto do Kubernetes, considere uma situação em que o cluster foi super provisionado. Selecione as afirmativas corretas sobre esta situação."
+    ],
+    "alternatives": [
+        {
+            "id": "23cb11aa-bc45-4e8a-8d5c-10e38f59c5cf",
+            "text": "Isso pode levar a um uso ineficiente dos recursos.",
+            "feedback": "Correto! O super provisionamento pode levar a um uso ineficiente dos recursos, pois há mais recursos alocados do que o necessário.",
+            "correct": true
+        },
+        {
+            "id": "bb38e2b8-ffcb-4b37-a8ea-6d2dfc98a442",
+            "text": "Isso garante que todas as cargas de trabalho sejam executadas sem problemas, sem qualquer impacto negativo.",
+            "feedback": "Incorreto. Embora o super provisionamento possa garantir que as cargas de trabalho sejam executadas, ele também pode levar a um uso ineficiente dos recursos.",
+            "correct": false
+        },
+        {
+            "id": "bd611f96-a9e5-4c50-8f76-e2f8e04847a8",
+            "text": "Isso pode resultar em custos operacionais adicionais.",
+            "feedback": "Correto! O super provisionamento pode resultar em custos operacionais adicionais devido ao desperdício de recursos.",
+            "correct": true
+        },
+        {
+            "id": "eaf4f707-5f45-4652-a4b9-97636a709d15",
+            "text": "Não há impacto nos custos operacionais.",
+            "feedback": "Incorreto. O super provisionamento pode aumentar os custos operacionais devido ao desperdício de recursos.",
+            "correct": false
+        }
+    ]
+}

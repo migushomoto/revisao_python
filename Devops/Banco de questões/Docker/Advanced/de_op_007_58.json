@@ -1,0 +1,46 @@
+
+{
+    "SKU": "0000058",
+    "interpreter": 1,
+    "type": "VF",
+    "language": "NA",
+    "id": "5bf0af7b-dc5a-422a-88f8-607ec2cd9464",
+    "knowledgeArea": "DevOps",
+    "category": "Conteinerização",
+    "subCategory": "compose",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+      "container",
+      "compose",
+      "YAML"
+    ],
+    "text": [
+      "Com relação ao compose, assinale as opções abaixo como Verdadeiro ou Falso."
+    ],
+    "alternatives": [
+      {
+        "text": "De acordo com a documentação oficial do docker, pode ser a extensão YAML com \".yaml\" e \".yml\"  mas preferencial \".yaml\".",
+        "feedback": "Alternativa Correta!",
+        "correct": true,
+        "id": "9287be5b-2144-4b00-843c-1fd85c633c3e"
+      },
+      {
+        "text": "O arquivo do compose também pode ser usado como docker-compose.yaml e docker-compose.yml para compatibilidade com versões anteriores. Se ambos os arquivos existirem no diretório, o compose não poderá ser executado sem especificar o arquivo.",
+        "feedback": "Falso. O Compose dá preferência ao arquivo 'compose.yaml' sobre 'docker-compose.yaml/yml' quando ambos estão presentes.",
+        "correct": false,
+        "id": "40494625-f5b3-472f-8adc-a3bafe5abed4"
+      },
+      {
+        "text": "No compose é possível usar o prefixo x- como um elemento de nível superior para modularizar as configurações que você deseja reutilizar. O Compose ignora todos os campos que começam com x-.",
+        "feedback": "Alternativa Correta!",
+        "correct": true,
+        "id": "83095183-8b6d-4687-8861-8977f61fc042"
+      },
+      {
+        "text": "Você pode usar fragmentos e extensões para manter seu arquivo Compose eficiente e fácil de manter.",
+        "feedback": "Alternativa Correta!",
+        "correct": true,
+        "id": "98ceb028-6480-49f3-b4ee-1cb35202537b"
+      }
+    ]
+  }

@@ -1,0 +1,45 @@
+{
+    "id": "8eb87961-a673-4e15-8ac2-542033deadb9",
+    "SKU": "000004",
+    "interpreter": 1,
+    "type": "VF",
+    "language": "NA",
+    "knowledgeArea": "DevOps",
+    "category": "Kubernetes",
+    "subCategory": "Pods",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+        "Kubernetes",
+        "Storage",
+        "Ephemeral"
+    ],
+    "text": [
+        "No Kubernetes, os dados efêmeros são armazenados de forma que podem ser perdidos se o Pod for encerrado. O que você sabe sobre o armazenamento de dados efêmeros no Kubernetes?"
+    ],
+    "alternatives": [
+        {
+            "id": "3b7fc29c-8ed4-4bf9-a705-5bc72d7ad9be",
+            "text": "Os volumes efêmeros são automaticamente apagados quando um Pod é removido.",
+            "feedback": "Correto! Os volumes efêmeros são apagados quando um Pod é removido.",
+            "correct": true
+        },
+        {
+            "id": "34ccb520-ea5a-43d9-b518-ef88345a65c1",
+            "text": "Os dados em volumes efêmeros podem ser backupizados automaticamente.",
+            "feedback": "Incorreto. Volumes efêmeros não fornecem uma facilidade de backup automático.",
+            "correct": false
+        },
+        {
+            "id": "67f8ddf2-5e3b-468e-a0be-1af4b39ff5de",
+            "text": "Os volumes efêmeros são adequados para armazenamento de dados sensíveis.",
+            "feedback": "Incorreto. Não é recomendável usar volumes efêmeros para dados sensíveis, pois eles podem ser perdidos.",
+            "correct": false
+        },
+        {
+            "id": "bc721c36-2f61-4dda-b585-1b9bed528792",
+            "text": "É possível configurar a persistência de volumes efêmeros.",
+            "feedback": "Incorreto. Volumes efêmeros não são persistentes.",
+            "correct": false
+        }
+    ]
+}

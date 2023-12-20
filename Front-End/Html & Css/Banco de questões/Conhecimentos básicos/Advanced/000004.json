@@ -1,0 +1,41 @@
+{
+  "SKU": "000004",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "html",
+  "knowledgeArea": "Front-End",
+  "category": "Conhecimentos Básicos",
+  "subCategory": "",
+  "level": "Advanced",
+  "tagsOrConcepts": ["frontend", "html"],
+  "text": [
+    "Qual das alternativas abaixo apresenta a função do seletor ::before em CSS?"
+  ],
+  "alternatives": [
+    {
+      "text": "Estilizar o elemento selecionado com um efeito de brilho.",
+      "feedback": "Incorreto. O seletor ::before não é usado para estilizar um elemento com um efeito de brilho.",
+      "correct": false
+    },
+    {
+      "text": "Aplicar um estilo ao elemento selecionado apenas quando o mouse está sobre ele.",
+      "feedback": "Incorreto. Isso descreve a funcionalidade do seletor :hover, não do ::before.",
+      "correct": false
+    },
+    {
+      "text": "Criar um elemento filho gerado antes do conteúdo do elemento selecionado.",
+      "feedback": "Correto! O seletor ::before em CSS é usado para criar um elemento filho gerado antes do conteúdo do elemento selecionado. Isso é frequentemente usado para adicionar conteúdo adicional ou ícones antes do conteúdo principal de um elemento.",
+      "correct": true
+    },
+    {
+      "text": "Definir um estilo alternativo para o elemento selecionado em dispositivos móveis.",
+      "feedback": "Incorreto. O seletor ::before não está relacionado à definição de estilos alternativos para dispositivos móveis.",
+      "correct": false
+    },
+    {
+      "text": "Adicionar uma borda ao elemento selecionado.",
+      "feedback": "Incorreto. O seletor ::before não adiciona uma borda ao elemento selecionado, mas sim um elemento filho gerado antes do conteúdo.",
+      "correct": false
+    }
+  ]
+}

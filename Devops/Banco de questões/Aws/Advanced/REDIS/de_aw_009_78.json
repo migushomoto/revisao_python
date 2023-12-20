@@ -5,9 +5,9 @@
     "language": "NA",
     "tagsOrConcepts":["Cloud"],
     "id": "ec78130e-f132-4270-82f5-4f3b07adf866",
-    "knowledgeArea": "Cloud",
-    "category": "AWS",
-    "subCategory": "Redis",
+    "knowledgeArea": "DevOps",
+    "category": "REDIS",
+    "subCategory": "REDIS",
     "level": "Advanced",
     "text":[ 
     "Os grupos de segurança são firewalls virtuais que protegem seu cliente ElastiCache (instância do EC2, função AWS Lambda, contêiner do Amazon ECS, etc.) e cluster do ElastiCache. Os grupos de segurança têm estado, o que significa que depois que o tráfego de entrada ou saída é permitido, as respostas para esse tráfego serão automaticamente autorizadas no contexto desse grupo de segurança específico. Sobre segurança no Redis podemos afirmar que:"

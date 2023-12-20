@@ -5,8 +5,8 @@
     "language": "NA",
     "tagsOrConcepts":["Cloud"],
     "id": "a65a7228-1326-4f27-97b8-a3be7d9b9516",
-    "knowledgeArea": "Cloud",
-    "category": "AWS",
+    "knowledgeArea": "DevOps",
+    "category": "ECS",
     "subCategory": "ECS",
     "level": "Advanced",
     "text":[ 
@@ -19,7 +19,7 @@
             "id": "a65a7228-1326-4f27-97b8-a3be7d9b9517"
         },
         {   "text": "A utilização do Circuit Break somente é possível com aplicações na Linguagem Java.", 
-            "feedback":"Falso. Atualmente não há nenhum tipo de limitação quanto a linguagem que está subindo as aplicações com o Circuit Break ativado.", 
+            "feedback":"Incorreto. Atualmente não há nenhum tipo de limitação quanto a linguagem que está subindo as aplicações com o Circuit Break ativado.", 
             "correct":false,
             "id": "a65a7228-1326-4f27-97b8-a3be7d9b9518"
         },
@@ -29,7 +29,7 @@
             "id": "a65a7228-1326-4f27-97b8-a3be7d9b9519"
         },
         {   "text": "O Circuit Break possui um tempo limite de 5 minutos para validar se determinada aplicação está Ok ou não. Caso contrário, o mesmo inicia automaticamente o processo de Rollback da versão.", 
-            "feedback":"Falso. São realizados um conjunto de verificações de integridade para validar se a aplicação está Ok ou não, e a partir deste ponto, iniciar as tratativas de roteamento daquela versão.", 
+            "feedback":"Incorreto. São realizados um conjunto de verificações de integridade para validar se a aplicação está Ok ou não, e a partir deste ponto, iniciar as tratativas de roteamento daquela versão.", 
             "correct":false,
             "id": "a65a7228-1326-4f27-97b8-a3be7d9b9520"
         }

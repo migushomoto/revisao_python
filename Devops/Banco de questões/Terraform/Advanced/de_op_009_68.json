@@ -1,0 +1,44 @@
+{
+    "SKU": "DE-OP-009",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "tagsOrConcepts": [
+      "IaC",
+      "terraform"
+    ],
+    "text": [
+      "Qual tipo de provisioner invoca um processo dentro do recurso criado pelo Terraform?"
+    ],
+    "alternatives": [
+      {
+        "text": "`remote-exec`",
+        "feedback": "Correto.",
+        "correct": true,
+        "id": "26b68129-2f33-4c0d-9da4-9064ff9223e4"
+      },
+      {
+        "text": "`null-exec`",
+        "feedback": "Incorreto. Não existe um provisioner com esse nome no Terraform.",
+        "correct": false,
+        "id": "3c312801-7ff0-4967-9b0c-5173e17cd798"
+      },
+      {
+        "text": "`local-exec`",
+        "feedback": "Incorreto. O provisioner \"local-exec\" invoca processos localmente e não no recurso que está sendo criado.",
+        "correct": false,
+        "id": "00356270-e976-4070-a25f-89a089f54fb9"
+      },
+      {
+        "text": "`file`",
+        "feedback": "Incorreto. A função \"file\" é utilizada quando queremos ler o conteúdo de um arquivo externo.",
+        "correct": false,
+        "id": "c0f147aa-a813-45fe-a0a7-9c70e417920f"
+      }
+    ],
+    "id": "93029bf9-f309-4f46-8acc-97c80758ba58",
+    "level": "Advanced",
+    "knowledgeArea": "DevOps",
+    "category": "Infraestrutura como código",
+    "subCategory": "Terraform"
+}

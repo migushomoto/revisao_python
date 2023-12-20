@@ -5,8 +5,8 @@
     "language": "NA",
     "tagsOrConcepts":["Cloud"],
     "id": "7b067f90-25e9-421f-9d4f-48f3cad64827",
-    "knowledgeArea": "Cloud",
-    "category": "AWS",
+    "knowledgeArea": "DevOps",
+    "category": "EC2",
     "subCategory": "EC2",
     "level": "Advanced",
     "text":[ 
@@ -14,7 +14,7 @@
     ],
     "alternatives": [
         {   "text": "Os dados do despejo da falha são gerados em uma réplica da EC2 criada automaticamente pelo sistema operacional da própria instância.", 
-            "feedback":"Resposta Incorreta! Os dados do despejo da falha são gerados localmente pelo sistema operacional na própria instância.", 
+            "feedback":"Incorreto. Os dados do despejo da falha são gerados localmente pelo sistema operacional na própria instância.", 
             "correct":false,
             "id": "7b067f90-25e9-421f-9d4f-48f3cad64828"
         },
@@ -24,7 +24,7 @@
             "id": "7b067f90-25e9-421f-9d4f-48f3cad64829"
         },
         {   "text": "As interrupções de diagnóstico são destinadas ao uso de todos os usuários. Mesmo que as ações que são necessárias sejam feitas de forma incorreta, isso não poderá ocasionar perda de dados.", 
-            "feedback": "Resposta Incorreta! As interrupções de diagnóstico são destinadas ao uso de usuários avançados. O uso incorreto pode ter um impacto negativo sobre sua instância. Enviar uma interrupção de diagnóstico para uma instância pode acionar uma instância para travar e reinicializar, o que pode levar à perda de dados.", 
+            "feedback": "Incorreto. As interrupções de diagnóstico são destinadas ao uso de usuários avançados. O uso incorreto pode ter um impacto negativo sobre sua instância. Enviar uma interrupção de diagnóstico para uma instância pode acionar uma instância para travar e reinicializar, o que pode levar à perda de dados.", 
             "correct":false,
             "id": "7b067f90-25e9-421f-9d4f-48f3cad64830"
         },

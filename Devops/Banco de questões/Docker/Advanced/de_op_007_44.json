@@ -1,0 +1,44 @@
+{
+    "SKU": "0000044",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "id": "ae935449-b902-48a8-87d5-2372b158282b",
+    "knowledgeArea": "DevOps",
+    "category": "Conteinerização",
+    "subCategory": "Layers",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+      "container",
+      "Camadas"
+    ],
+    "text": [
+      "Quando você altera uma instrução no Dockerfile, e faz o rebuild da imagem, quais camadas(layers) são reconstruídas?"
+    ],
+    "alternatives": [
+      {
+        "text": "Todas as camadas são reconstruídas.",
+        "feedback": "Incorreto. Entenda como funciona na documentação: https://docs.docker.com/get-started/overview/#images",
+        "correct": false,
+        "id": "241ffef3-f809-483d-b235-6a25f43b395e"
+      },
+      {
+        "text": "Somente as camadas anteriores à camada alterada.",
+        "feedback": "Incorreto. Entenda como funciona na documentação: https://docs.docker.com/get-started/overview/#images",
+        "correct": false,
+        "id": "eb612f39-5f86-4b78-8b14-5f32724f72e9"
+      },
+      {
+        "text": "Não é possível alterar uma camada de uma imagem.",
+        "feedback": "Incorreto. Entenda como funciona na documentação: https://docs.docker.com/get-started/overview/#images",
+        "correct": false,
+        "id": "a72d2c79-5f3d-49d1-99f7-9c3b4a49031d"
+      },
+      {
+        "text": "Somente a camada alterada.",
+        "feedback": "Alternativa Correta!",
+        "correct": true,
+        "id": "6081e6e5-b0a3-46be-bd1c-8b358271c5c8"
+      }
+    ]
+  }

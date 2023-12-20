@@ -1,0 +1,41 @@
+{
+  "SKU": "000001",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "git",
+  "knowledgeArea": "Front-End",
+  "category": "Versionamento",
+  "subCategory": "Conhecimentos Básicos",
+  "level": "Medium",
+  "tagsOrConcepts": ["git", "versionamento"],
+  "text": [
+    "Qual é a principal função do Git em um projeto de desenvolvimento de software?"
+  ],
+  "alternatives": [
+    {
+      "text": "Gerenciar o banco de dados do projeto.",
+      "feedback": "Incorreto! O Git é um sistema de controle de versão que rastreia as alterações no código-fonte ao longo do tempo, permitindo que os desenvolvedores colaborem e mantenham um histórico de revisões.",
+      "correct": false
+    },
+    {
+      "text": "Manter o controle de versões do código-fonte.",
+      "feedback": "Correto! O Git é um sistema de controle de versão que rastreia as alterações no código-fonte ao longo do tempo, permitindo que os desenvolvedores colaborem e mantenham um histórico de revisões.",
+      "correct": true
+    },
+    {
+      "text": "Facilitar a comunicação entre desenvolvedores.",
+      "feedback": "Incorreto! O Git é um sistema de controle de versão que rastreia as alterações no código-fonte ao longo do tempo, permitindo que os desenvolvedores colaborem e mantenham um histórico de revisões.",
+      "correct": false
+    },
+    {
+      "text": "Fornecer recursos avançados de depuração.",
+      "feedback": "Incorreto! O Git é um sistema de controle de versão que rastreia as alterações no código-fonte ao longo do tempo, permitindo que os desenvolvedores colaborem e mantenham um histórico de revisões.",
+      "correct": false
+    },
+    {
+      "text": "Automatizar a implantação contínua.",
+      "feedback": "Incorreto! O Git é um sistema de controle de versão que rastreia as alterações no código-fonte ao longo do tempo, permitindo que os desenvolvedores colaborem e mantenham um histórico de revisões.",
+      "correct": false
+    }
+  ]
+}

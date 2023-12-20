@@ -1,0 +1,43 @@
+{
+  "SKU": "000002",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "html",
+  "knowledgeArea": "Front-End",
+  "category": "Conhecimentos Básicos",
+  "subCategory": "",
+  "level": "Advanced",
+  "tagsOrConcepts": ["frontend", "html"],
+  "text": [
+    "No CSS, podemos definir o tipo do método de posicionamento para um determinado elemento HTML.",
+    "Para isso, utilizamos a propriedade position.",
+    "Qual das alternativas abaixo apresenta os valores possíveis para a propriedade position?"
+  ],
+  "alternatives": [
+    {
+      "text": "top, bottom, center, left ou right",
+      "feedback": "Incorreto! center não é um dos valores possíveis para a propriedade position.",
+      "correct": false
+    },
+    {
+      "text": "top, bottom, left ou right",
+      "feedback": "Correto! top, bottom, left ou right são os valores possíveis para a propriedade position.",
+      "correct": true
+    },
+    {
+      "text": "bottom, top, wrap, left ou right",
+      "feedback": "Incorreto! wrap não é um dos valores possíveis para a propriedade position.",
+      "correct": false
+    },
+    {
+      "text": "block, flex, flex-start ou flex-end",
+      "feedback": "Incorreto! block, flex, flex-start ou flex-end não são valores possíveis para a propriedade position.",
+      "correct": false
+    },
+    {
+      "text": "low, high ou center",
+      "feedback": "Incorreto! low, high ou center não são valores possíveis para a propriedade position.",
+      "correct": false
+    }
+  ]
+}

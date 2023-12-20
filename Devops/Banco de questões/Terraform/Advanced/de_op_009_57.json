@@ -1,0 +1,44 @@
+{
+    "SKU": "DE-OP-009",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "tagsOrConcepts": [
+      "IaC",
+      "terraform"
+    ],
+    "text": [
+      "Você possui um módulo chamado `prod_subnet` que retorna um output chamado `subnet_id`. Como podemos utilizar esse output como input de outro módulo ou recurso?"
+    ],
+    "alternatives": [
+      {
+        "text": "`module.outputs.prod_subnet.subnet_id`",
+        "feedback": "Incorreto. Essa sintaxe não produz o resultado esperado pois, nesse caso, não existe o objeto \"outputs\".",
+        "correct": false,
+        "id": "a6ac674f-6924-4c1a-a9cb-63b28bf5f4f6"
+      },
+      {
+        "text": "`module.prod_subnet.subnet_id`",
+        "feedback": "Correto.",
+        "correct": true,
+        "id": "ffc721ef-ff24-4aef-bc19-62362f99ab5f"
+      },
+      {
+        "text": "`prod_subnet.subnet_id`",
+        "feedback": "Incorreto. Nesse caso, devemos utilizar a referência \"module\" antes do nome do recurso.",
+        "correct": false,
+        "id": "e19abb3e-73f7-4065-9a30-892c2327bce6"
+      },
+      {
+        "text": "`prod_subnet.outputs.subnet_id`",
+        "feedback": "Incorreto. Essa sintaxe não produz o resultado esperado pois, nesse caso, não existe o objeto \"outputs\" e também não estamos usando a referência \"module\" antes do nome do recurso.",
+        "correct": false,
+        "id": "7a8e4b69-5793-43f4-b050-e6961d48f193"
+      }
+    ],
+    "id": "7230cb22-1799-42f2-aedc-5dd8595dc811",
+    "level": "Advanced",
+    "knowledgeArea": "DevOps",
+    "category": "Infraestrutura como código",
+    "subCategory": "Terraform"
+}

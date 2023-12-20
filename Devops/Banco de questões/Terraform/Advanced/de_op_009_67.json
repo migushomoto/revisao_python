@@ -1,0 +1,44 @@
+{
+    "SKU": "DE-OP-009",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "tagsOrConcepts": [
+      "IaC",
+      "terraform"
+    ],
+    "text": [
+      "Você está executando um provisioner do tipo `local-exec` em um resource do tipo null chamado `null_resource.run_script` e percebe que precisa executar o script novamente. Qual dos seguintes comandos pode ser usado para isso?"
+    ],
+    "alternatives": [
+      {
+        "text": "`terraform taint null_resource.run_script`",
+        "feedback": "Correto.",
+        "correct": true,
+        "id": "ae811c19-24f6-402f-804c-09801239444a"
+      },
+      {
+        "text": "`terraform apply -target=null_resource.run_script`",
+        "feedback": "Incorreto. A função \"apply\" do Terraform serve para criar os recursos definidos em nosso manifesto.",
+        "correct": false,
+        "id": "daba0386-f839-4e73-9aeb-02a65e75e48f"
+      },
+      {
+        "text": "`terraform validate null_resource.run_script`",
+        "feedback": "Incorreto. A função \"validate\" do Terraform serve para validar a sintaxe do manifesto.",
+        "correct": false,
+        "id": "0eda3130-c632-467a-bc48-b2578c13ef43"
+      },
+      {
+        "text": "`terraform plan -target=null_resource.run_script`",
+        "feedback": "Incorreto. A função \"plan\" do Terraform serve para simular a aplicação dos recursos definidos no manifesto.",
+        "correct": false,
+        "id": "7197f300-cfab-4c14-88ce-c00212cd5128"
+      }
+    ],
+    "id": "7de3f5a7-1bc7-4b7b-85c4-d1b1acfc83cf",
+    "level": "Advanced",
+    "knowledgeArea": "DevOps",
+    "category": "Infraestrutura como código",
+    "subCategory": "Terraform"
+}

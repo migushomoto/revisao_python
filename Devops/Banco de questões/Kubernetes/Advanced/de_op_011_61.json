@@ -1,0 +1,53 @@
+{
+    "id": "94efb9b8-4f23-4c09-a6fa-3d839a59f54e",
+    "SKU": "000021",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "DevOps",
+    "category": "Kubernetes",
+    "subCategory": "Container",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+        "Kubernetes",
+        "CNI",
+        "Redes"
+    ],
+    "text": [
+        "No contexto do Kubernetes, qual das opções abaixo melhor define o papel do CNI (Container Network Interface)?"
+    ],
+    "alternatives": [
+        {
+            "id": "b53c8822-7c40-4469-8f35-3d36a2bb0e8d",
+            "text": [
+                "CNI é uma ferramenta para configurar firewalls e regras de segurança em contêineres."
+            ],
+            "feedback": "CNI não é sobre configurar firewalls e regras de segurança em contêineres.",
+            "correct": false
+        },
+        {
+            "id": "1c7de1cb-2a55-4e3d-9c92-ba2c95a3eb52",
+            "text": [
+                "CNI é um padrão e conjunto de ferramentas para configurar detalhes de rede para contêineres."
+            ],
+            "feedback": "Correto! O CNI lida com a configuração de redes para contêineres, proporcionando uma comunicação eficiente entre contêineres e outros recursos.",
+            "correct": true
+        },
+        {
+            "id": "39ba57a3-76d9-4b89-b4fe-9a0a1ec79db8",
+            "text": [
+                "CNI é utilizado apenas para monitoramento de redes em ambientes Kubernetes."
+            ],
+            "feedback": "CNI não é usado exclusivamente para monitoramento.",
+            "correct": false
+        },
+        {
+            "id": "23c75ab7-3efc-4357-b6a8-49efdb5e4f18",
+            "text": [
+                "CNI é uma API do Kubernetes para armazenamento em nuvem."
+            ],
+            "feedback": "CNI não está relacionado ao armazenamento em nuvem.",
+            "correct": false
+        }
+    ]
+}

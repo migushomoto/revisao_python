@@ -1,0 +1,44 @@
+{
+    "id": "a69b0d3e-c425-4bdc-a0b2-a4f4d0a50a48",
+    "SKU": "000029",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "DevOps",
+    "category": "Kubernetes",
+    "subCategory": "Pods",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+        "Kubernetes",
+        "Network Policies"
+    ],
+    "text": [
+        "Considerando um cluster Kubernetes, você precisa garantir que um determinado Pod só possa se comunicar com outros Pods dentro do mesmo namespace. Qual das opções abaixo você utilizaria para configurar uma NetworkPolicy que atenda a este requisito?"
+    ],
+    "alternatives": [
+        {
+            "id": "ac8c3fbc-7efe-44a1-b010-a8b9f8d2131f",
+            "text": "Definindo o field 'podSelector' e 'namespaceSelector' para selecionar apenas o namespace desejado.",
+            "feedback": "O 'namespaceSelector' se aplica a todos os namespaces, não apenas ao namespace atual.",
+            "correct": false
+        },
+        {
+            "id": "83aecdab-22e8-4d05-8ed1-2d0bf4f1b5db",
+            "text": "Definindo o field 'podSelector' e deixando 'namespaceSelector' em branco.",
+            "feedback": "Correto! Definir 'podSelector' e deixar 'namespaceSelector' em branco aplica a política apenas ao namespace atual.",
+            "correct": true
+        },
+        {
+            "id": "8b79885b-d3d2-4774-9884-4bc5b3808921",
+            "text": "Definindo o field 'namespaceSelector' para selecionar apenas o namespace desejado.",
+            "feedback": "Isso se aplicaria a todos os pods no namespace selecionado, mas não limitaria a comunicação apenas dentro do namespace.",
+            "correct": false
+        },
+        {
+            "id": "d8241053-4437-4c4d-9ddc-aae6a8c3c8f8",
+            "text": "Nenhuma das opções acima.",
+            "feedback": "Há uma opção correta disponível, essa alternativa está incorreta.",
+            "correct": false
+        }
+    ]
+}

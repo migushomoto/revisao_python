@@ -5,8 +5,8 @@
     "language": "NA",
     "tagsOrConcepts":["Cloud"],
     "id": "ef808af9-5522-44f8-b71b-812343522137",
-    "knowledgeArea": "Cloud",
-    "category": "AWS",
+    "knowledgeArea": "DevOps",
+    "category": "EKS",
     "subCategory": "EKS",
     "level": "Advanced",
     "text":[ 
@@ -19,17 +19,17 @@
             "id": "ef808af9-5522-44f8-b71b-812343522138"
         },
         {   "text": "kubectl delete pods -n producao -l app=ensino", 
-            "feedback":"Resposta Incorreta! O comando mencionado é utilizado para deletar Pods de uma determinada aplicação.", 
+            "feedback":"Incorreto. O comando mencionado é utilizado para deletar Pods de uma determinada aplicação.", 
             "correct":false,
             "id": "ef808af9-5522-44f8-b71b-812343522139"
         },
         {   "text": "kubectl get events --sort-by=.metadata.creationTimestamp", 
-            "feedback": "Resposta Incorreta! O comando mencionado acima é utilizado para obter informações sobre eventos organizando assim pelo momento do Log.", 
+            "feedback": "Incorreto. O comando mencionado acima é utilizado para obter informações sobre eventos organizando assim pelo momento do Log.", 
             "correct":false,
             "id": "ef808af9-5522-44f8-b71b-812343522140"
         },
         {   "text": "Não é possível gerar esse tipo de ordenação quando realizamos consulta aos PODs do Kubernetes.", 
-            "feedback":"Resposta Incorreta! É possível sim, realizar esse tipo de ordenação adicionando o filtro metadata.creationTimestamp.", 
+            "feedback":"Incorreto. É possível realizar esse tipo de ordenação.", 
             "correct":false,
             "id": "ef808af9-5522-44f8-b71b-812343522141"
         }

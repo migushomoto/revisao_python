@@ -1,0 +1,43 @@
+{
+    "id": "7fb91029-7822-42c5-b89e-887f1e1d4ed8",
+    "SKU": "000005",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "none",
+    "knowledgeArea": "Computing",
+    "category": "computing",
+    "subCategory": "Programas de Computador",
+    "level": "Basic",
+    "tagsOrConcepts": [
+        "Programas de Computador"
+    ],
+    "text": [
+        "O que é um programa de computador?"
+    ],
+    "alternatives": [
+        {
+            "id": "227d19c9-11e0-4d89-a7a3-0b33ba4d5f09",
+            "text": "Um conjunto de instruções que realiza uma tarefa específica.",
+            "feedback" : "Correto! Um programa de computador é um conjunto de instruções que realiza uma tarefa específica.",
+            "correct": true
+        },
+        {
+            "id": "a5dfbd89-31a2-4c5e-8e53-87a9b5f994ec",
+            "text": "Um dispositivo de armazenamento de dados.",
+            "feedback": "Não, um programa não é um dispositivo de armazenamento.",
+            "correct": false
+        },
+        {
+            "id": "c25bfcdc-9f79-4f5a-8f2e-9c11bc97e72c",
+            "text": "Um componente de hardware.",
+            "feedback": "Um programa é um conjunto de instruções, não um componente de hardware.",
+            "correct": false
+        },
+        {
+            "id": "76d94b08-bfb9-4e2e-96c3-46822d44aa90",
+            "text": "Um arquivo de sistema operacional.",
+            "feedback": "Um programa é um conjunto de instruções, não um arquivo de sistema operacional.",
+            "correct": false
+        }
+    ]
+}

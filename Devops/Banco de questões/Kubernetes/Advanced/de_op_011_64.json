@@ -1,0 +1,45 @@
+{
+    "id": "4e4a8a5e-b2d8-4b89-83ad-eb0e8f4c399f",
+    "SKU": "000024",
+    "interpreter": 1,
+    "type": "VF",
+    "language": "NA",
+    "knowledgeArea": "DevOps",
+    "category": "Kubernetes",
+    "subCategory": "Service Mesh",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+        "Kubernetes",
+        "Istio",
+        "Service Mesh"
+    ],
+    "text": [
+        "Com o Istio é possível facilitar a comunicação entre microsserviços em um cluster Kubernetes. Em qual lugar o Istio é geralmente implantado?"
+    ],
+    "alternatives": [
+        {
+            "id": "3a4329f1-4c9a-4a25-9f05-7e974461f6a3",
+            "text": "No mesmo pod de cada microsserviço como um container separado.",
+            "feedback": "Correto! O Istio geralmente é implantado no mesmo pod de cada microsserviço como um sidecar container, facilitando a comunicação entre os microsserviços.",
+            "correct": true
+        },
+        {
+            "id": "8df1eaf5-2d59-4d1b-9ed8-4d535bd7f1e9",
+            "text": "Em um cluster separado, dedicado somente para o Istio.",
+            "feedback": "Errado! O Istio não é implantado em um cluster separado.",
+            "correct": false
+        },
+        {
+            "id": "6e970c80-6c35-4bf3-8c8c-6b980aed5f16",
+            "text": "Como um serviço externo fora do cluster Kubernetes.",
+            "feedback": "Errado! O Istio não é implantado fora do cluster.",
+            "correct": false
+        },
+        {
+            "id": "4ad66f3d-5c9d-4c58-9f67-9f89e68aa4be",
+            "text": "Dentro do kube-proxy para melhorar a roteamento.",
+            "feedback": "Errado! O Istio não é implantado dentro do kube-proxy.",
+            "correct": false
+        }
+    ]
+}

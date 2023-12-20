@@ -1,0 +1,44 @@
+{
+    "SKU": "DE-OP-009",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "tagsOrConcepts": [
+      "IaC",
+      "terraform"
+    ],
+    "text": [
+      "Após executar um `terraform init`, onde é armazenado o cache dos módulos vindos do Terraform Module Registry?"
+    ],
+    "alternatives": [
+      {
+        "text": "No diretório `/tmp`",
+        "feedback": "Incorreto. Esse não é um diretório utilizado para armazenar o cache dos modulos vindos do Terraform.",
+        "correct": false,
+        "id": "a980fcfa-6237-4029-8ecf-1069fa4786e5"
+      },
+      {
+        "text": "Na memória RAM",
+        "feedback": "Incorreto. A memória RAM não é utilizada para armazenar o cache dos modulos vindos do Terraform.",
+        "correct": false,
+        "id": "9270ad2c-151e-496e-b609-02c9b6bc7623"
+      },
+      {
+        "text": "No sub-diretório `/.terraform`",
+        "feedback": "Correto.",
+        "correct": true,
+        "id": "56c6dae2-8106-4f60-a62f-1e3febb69541"
+      },
+      {
+        "text": "Não há armazenamento de cache.",
+        "feedback": "Incorreto. Existe o armazenamento de cache.",
+        "correct": false,
+        "id": "2ec16ca5-e291-4a14-a41c-edf5db8dc5c8"
+      }
+    ],
+    "id": "b788fe7f-8be6-4f03-be75-54d70372db60",
+    "level": "Medium",
+    "knowledgeArea": "DevOps",
+    "category": "Infraestrutura como código",
+    "subCategory": "Terraform"
+}

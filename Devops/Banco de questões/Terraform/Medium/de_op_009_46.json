@@ -1,0 +1,44 @@
+{
+    "SKU": "DE-OP-009",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "tagsOrConcepts": [
+      "IaC",
+      "terraform"
+    ],
+    "text": [
+      "O comando `terraform validate` verifica por erros em qual dos cenários abaixo?"
+    ],
+    "alternatives": [
+      {
+        "text": "A identação do seu código usa \"tabs\" ao invés de espaços",
+        "feedback": "Incorreto. Para formatação do código, podemos usar o comando `terraform fmt`.",
+        "correct": false,
+        "id": "18aeeaf8-aa90-4bb0-bd02-5fe91aea2f7c"
+      },
+      {
+        "text": "Uma variável está sem valor atribuído",
+        "feedback": "Correto.",
+        "correct": true,
+        "id": "6c8a6c22-9129-4e62-b36b-81251fa273c8"
+      },
+      {
+        "text": "O arquivo de estado não corresponde aos recursos provisionados",
+        "feedback": "Incorreto. Essa inconsistência só será verificada ao executar um `terraform plan` ou `terraform apply`.",
+        "correct": false,
+        "id": "57394d19-b575-4bb1-8741-1ec88ecfd8a2"
+      },
+      {
+        "text": "Quando existem recursos que dependem um do outro, porém não há uma dependência explícia configurada.",
+        "feedback": "Incorreto. Não há nenhuma verificação para isso. Nesse caso, pode ocorrer um erro em decorrência de uma \"race condition\".",
+        "correct": false,
+        "id": "b1950a5a-3b1e-4a93-bae5-be2e6534ab4c"
+      }
+    ],
+    "id": "086053a3-5e1c-47b8-9261-70b091478bdd",
+    "level": "Medium",
+    "knowledgeArea": "DevOps",
+    "category": "Infraestrutura como código",
+    "subCategory": "Terraform"
+}

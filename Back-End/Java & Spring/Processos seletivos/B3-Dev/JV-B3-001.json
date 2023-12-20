@@ -1,0 +1,49 @@
+{
+    "SKU": "JV-B3-001",
+    "interpreter": 1,
+    "type": "VF",
+    "language": "NA",
+    "knowledgeArea": "Java",
+    "category": "Java",
+    "subCategory": "Conceitos",
+    "level": "Basic",
+    "tagsOrConcepts": [
+      "Java Basico"
+    ],
+    "text": [
+      "Sobre Java, podemos afirmar que:"
+    ],
+    "alternatives": [
+      {
+        "text": "O tipo da variável nos diz qual o tipo de informação que a variável irá guardar, sendo declarado sempre após o nome da variavel.",
+        "feedback": "Falso, o tipo da variável em Java é declarado sempre antes do nome da variável.",
+        "correct": false,
+        "id": "3d94dd18-6ef7-11ee-b962-0242ac120002"
+      },
+      {
+        "text": "Existem um total de 8 objetos em Java, os demais tipos são considerados tipos primitivos",
+        "feedback": "São 8 tipos primitivos: byte, short, int, long, boolean, char, float e double.",
+        "correct": false,
+        "id": "4204a1c6-6ef7-11ee-b962-0242ac120002"
+      },
+      {
+        "text": "O cast em Java é usado para converter um valor de um tipo de dado em outro, permitindo que sejam usados em operações compatíveis.",
+        "feedback": "Verdadeiro, utilizamos o cast para conversão de tipos",
+        "correct": true,
+        "id": "45b61e80-6ef7-11ee-b962-0242ac120002"
+      },
+      {
+        "text": "If e Else são estruturas dependentes, tendo que necessáriamento aparecerem juntas.",
+        "feedback": "Falso, podemos encontrar if sem else.",
+        "correct": false,
+        "id": "48c0fdc0-6ef7-11ee-b962-0242ac120002"
+      },
+      {
+        "text": "Para parar a execução de um determinado bloco de código podemos utilizar a palavra reservada break.",
+        "feedback": "Verdadeiro, a palavra reservada break é usada para interromper a execução de um loop.",
+        "correct": true,
+        "id": "4bfa6b66-6ef7-11ee-b962-0242ac120002"
+      }
+    ],
+    "id": "4f032c62-6ef7-11ee-b962-0242ac120002"
+  }

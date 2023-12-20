@@ -1,0 +1,44 @@
+{
+    "id": "45a8ec03-1669-4d0d-a5b2-9e3a4e5c80a3",
+    "SKU": "000023",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "DevOps",
+    "category": "Kubernetes",
+    "subCategory": "Service Mesh",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+        "Kubernetes",
+        "Service Mesh"
+    ],
+    "text": [
+        "Considerando a utilização do Kubernetes, qual das opções abaixo melhor descreve uma alternativa válida ao Istio para implementação de Service Mesh?"
+    ],
+    "alternatives": [
+        {
+            "id": "a2da5db7-e3ed-436a-bb4a-98e4b9fc37b5",
+            "text": "AWS VPC",
+            "feedback": "AWS VPC não é uma solução de Service Mesh.",
+            "correct": false
+        },
+        {
+            "id": "15aa9c54-78d7-4e83-9c45-e2de5e56221c",
+            "text": "Linkerd",
+            "feedback": "Correto! Linkerd é uma solução de Service Mesh assim como o Istio.",
+            "correct": true
+        },
+        {
+            "id": "2ac3c4c5-7d0a-44bf-8b2b-a5ad525461f8",
+            "text": "Apache Kafka",
+            "feedback": "Apache Kafka não é uma solução de Service Mesh.",
+            "correct": false
+        },
+        {
+            "id": "9cf7a84b-3027-4e5c-8ce4-f7ff7861baea",
+            "text": "Nginx",
+            "feedback": "Nginx é um servidor web e não uma solução de Service Mesh.",
+            "correct": false
+        }
+    ]
+}

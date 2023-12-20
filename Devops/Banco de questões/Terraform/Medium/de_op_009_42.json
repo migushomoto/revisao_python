@@ -1,0 +1,44 @@
+{
+    "SKU": "DE-OP-009",
+    "interpreter": 1,
+    "type": "VF",
+    "language": "NA",
+    "tagsOrConcepts": [
+      "IaC",
+      "terraform"
+    ],
+    "text": [
+      "Qual das alternativas abaixo são tipos estruturados válidos do Terraform?"
+    ],
+    "alternatives": [
+      {
+        "text": "optional",
+        "feedback": "Incorreto. Esse não é um tipo válido do Terraform.",
+        "correct": false,
+        "id": "d9eff62f-2607-4d5b-96c8-03aff4ff9c71"
+      },
+      {
+        "text": "object",
+        "feedback": "Correto. Esse é um tipo válido do Terraform.",
+        "correct": true,
+        "id": "2e82aa8d-1f1b-488d-8abf-cbbb9843861e"
+      },
+      {
+        "text": "pair",
+        "feedback": "Incorreto. Esse não é um tipo válido do Terraform.",
+        "correct": false,
+        "id": "1fb676ed-acbb-4cff-8d7e-47afcb063ad4"
+      },
+      {
+        "text": "tuple",
+        "feedback": "Correto. Esse é um tipo válido do Terraform.",
+        "correct": true,
+        "id": "699f8338-8ef5-4459-93bc-8f97cdf34558"
+      }
+    ],
+    "id": "e2b7beae-b21b-4c47-9e2b-573711136d50",
+    "level": "Medium",
+    "knowledgeArea": "DevOps",
+    "category": "Infraestrutura como código",
+    "subCategory": "Terraform"
+}

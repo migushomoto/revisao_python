@@ -1,0 +1,43 @@
+{
+    "id": "96d30a2f-b1c7-4f3e-810e-70d2c1df5c12",
+    "SKU": "10",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "none",
+    "knowledgeArea": "Lógica de Programação",
+    "category": "Conceito de Algoritmo",
+    "subCategory": "",
+    "level": "Basic",
+    "tagsOrConcepts": [
+        "Conceitos Gerais de Lógica de Programação"
+    ],
+    "text": [
+        "O que é um pseudocódigo?"
+    ],
+    "alternatives": [
+        {
+            "id": "51bf2ce8-6ebe-4b19-aae3-694e04e5f83a",
+            "text": "Uma linguagem de programação moderna.",
+            "feedback" : "Um pseudocódigo não é uma linguagem de programação, é uma representação informal de um algoritmo.",
+            "correct": false
+        },
+        {
+            "id": "244baa01-9bb4-4688-8e53-08b396f77606",
+            "text": "Uma linguagem de programação antiga.",
+            "feedback": "Um pseudocódigo não é uma linguagem de programação, é uma representação informal de um algoritmo.",
+            "correct": false
+        },
+        {
+            "id": "97851a1a-d27d-4ec7-a700-6f55d92ea1e0",
+            "text": "Uma representação informal de um algoritmo, utilizando uma mistura de linguagem natural e elementos de programação.",
+            "feedback": "Correto! Um pseudocódigo é uma forma de representar algoritmos de maneira mais próxima da linguagem natural.",
+            "correct": true
+        },
+        {
+            "id": "c1a4ed12-f5bb-4015-a29f-70a9d1ce2579",
+            "text": "Um tipo de variável em programação.",
+            "feedback": "Um pseudocódigo não é uma variável, é uma representação de algoritmos.",
+            "correct": false
+        }
+    ]
+}

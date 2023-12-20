@@ -1,0 +1,43 @@
+{
+    "id": "cd4c4de4-4b7f-4157-ba26-3ed89d0e522c",
+    "SKU": "4",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "none",
+    "knowledgeArea": "Lógica de Programação",
+    "category": "Conceito de Algoritmo",
+    "subCategory": "",
+    "level": "Basic",
+    "tagsOrConcepts": [
+        "Conceitos Gerais de Lógica de Programação", "Conceito de Algoritmo"
+    ],
+    "text": [
+        "O que é um algoritmo?"
+    ],
+    "alternatives": [
+        {
+            "id": "ce6d7e4d-9c3b-44c2-bdb9-52a1432c90a7",
+            "text": "Um erro no código de programação.",
+            "feedback" : "Isso é um erro no código, não um algoritmo.",
+            "correct": false
+        },
+        {
+            "id": "97f9b91d-7aeb-470f-afbd-aa3e21c1d5b7",
+            "text": "Uma linguagem de programação.",
+            "feedback": "Uma linguagem de programação é um meio para escrever algoritmos, mas não é um algoritmo em si.",
+            "correct": false
+        },
+        {
+            "id": "d18a9f84-4482-448f-9b5d-501b53d2d08e",
+            "text": "Um conjunto de instruções passo a passo para resolver um problema.",
+            "feedback": "Correto! Um algoritmo é um conjunto de instruções lógicas para resolver um problema específico.",
+            "correct": true
+        },
+        {
+            "id": "9f96e9d3-3f36-402c-8379-74485c2ee1f9",
+            "text": "Um tipo de variável.",
+            "feedback": "Uma variável é uma representação de um valor, não um conjunto de instruções.",
+            "correct": false
+        }
+    ]
+}

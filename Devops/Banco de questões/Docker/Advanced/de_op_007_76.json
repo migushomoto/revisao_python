@@ -1,0 +1,44 @@
+{
+    "SKU": "0000076",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "id": "f57e6aec-7373-4e7a-8177-6ea357cd3da9",
+    "knowledgeArea": "DevOps",
+    "category": "Conteinerização",
+    "subCategory": "Dockerfile",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+      "Dockerfile",
+      "ENV"
+    ],
+    "text": [
+      "Considerando a instrução ENV do Dockerfile, se acessarmos o container e verificarmos o valor das variáveis, qual será o resultado para a instrução: ENV MY_DOG=\"Rex\\ The\\ Dog \" MY_CAT=\"fluffy\""
+    ],
+    "alternatives": [
+      {
+        "text": "MY_DOG=Rex The Dog MY_CAT=fluffy",
+        "feedback": "Alternativa Correta!",
+        "correct": true,
+        "id": "2baf311c-dbdf-4eeb-98d8-de402dd47c56"
+      },
+      {
+        "text": "Será reproduzido erro, não é possível inserir múltiplas variáveis no mesmo ENV",
+        "feedback": "Incorreto. A instrução ENV permite múltiplas variáveis",
+        "correct": false,
+        "id": "cf40acbd-53b4-43f4-994b-05d5f99a1e02"
+      },
+      {
+        "text": "MY_DOG=RexTheDog MY_CAT=fluffy",
+        "feedback": "Incorreto. A instrução ENV permite espaços se devidamente escapados.",
+        "correct": false,
+        "id": "c1151ad5-f76e-4664-b88a-3550221d3736"
+      },
+      {
+        "text": "MY_DOG='' MY_CAT=fluffy",
+        "feedback": "Incorreto. O valor da variável MY_DOG não será vazia.",
+        "correct": false,
+        "id": "d0003ea6-3888-459c-bf9d-92bbfa4fdc31"
+      }
+    ]
+  }

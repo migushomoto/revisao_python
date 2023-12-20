@@ -1,0 +1,45 @@
+{
+    "id": "b4a34e3a-bb5b-46af-af10-5b0d489487b6",
+    "SKU": "000031",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "DevOps",
+    "category": "Kubernetes",
+    "subCategory": "Estratégia de Deploy",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+        "Kubernetes",
+        "GitOps",
+        "ArgoCD"
+    ],
+    "text": [
+        "No contexto do GitOps no Kubernetes, qual ferramenta é amplamente utilizada para automação de deployment?"
+    ],
+    "alternatives": [
+        {
+            "id": "5416c7b2-8a52-46e0-a562-05f513890781",
+            "text": "Jenkins",
+            "feedback": "Jenkins é utilizado para integração contínua, mas não é específico para GitOps no Kubernetes.",
+            "correct": false
+        },
+        {
+            "id": "e32c9fd9-6e40-4018-9400-e464a80d5823",
+            "text": "ArgoCD",
+            "feedback": "Correto! ArgoCD é uma ferramenta específica para implementar GitOps no Kubernetes.",
+            "correct": true
+        },
+        {
+            "id": "3ee3efb2-197a-4084-a7af-7c0a364686e0",
+            "text": "Terraform",
+            "feedback": "Terraform é utilizado para infraestrutura como código, mas não é específico para GitOps no Kubernetes.",
+            "correct": false
+        },
+        {
+            "id": "69c536cc-f93c-4ac0-9497-38398688b3cb",
+            "text": "CircleCI",
+            "feedback": "CircleCI é utilizado para integração contínua e entrega contínua, mas não é específico para GitOps no Kubernetes.",
+            "correct": false
+        }
+    ]
+}

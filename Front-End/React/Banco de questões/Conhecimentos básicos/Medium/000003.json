@@ -1,0 +1,41 @@
+{
+  "SKU": "000003",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "react",
+  "knowledgeArea": "Front-End",
+  "category": "React",
+  "subCategory": "Conhecimentos Básicos",
+  "level": "Medium",
+  "tagsOrConcepts": ["frontend", "react"],
+  "text": [
+    "Qual é a função do método \"componentDidMount()\" em um componente React?"
+  ],
+  "alternatives": [
+    {
+      "text": "Inicializar o estado do componente",
+      "feedback": "Incorreto! O método componentDidMount() é executado após o componente ser inserido no DOM e é usado para realizar operações que dependem da presença do componente na página.",
+      "correct": false
+    },
+    {
+      "text": "Renderizar o componente no navegador",
+      "feedback": "Incorreto! O método componentDidMount() é executado após o componente ser inserido no DOM e é usado para realizar operações que dependem da presença do componente na página.",
+      "correct": false
+    },
+    {
+      "text": "Atualizar o estado do componente",
+      "feedback": "Incorreto! O método componentDidMount() é executado após o componente ser inserido no DOM e é usado para realizar operações que dependem da presença do componente na página.",
+      "correct": false
+    },
+    {
+      "text": "Executar código após o componente ser inserido no DOM",
+      "feedback": "Correto! O método componentDidMount() é executado após o componente ser inserido no DOM e é usado para realizar operações que dependem da presença do componente na página.",
+      "correct": true
+    },
+    {
+      "text": "Remover o componente do DOM",
+      "feedback": "Incorreto! O método componentDidMount() é executado após o componente ser inserido no DOM e é usado para realizar operações que dependem da presença do componente na página.",
+      "correct": false
+    }
+  ]
+}

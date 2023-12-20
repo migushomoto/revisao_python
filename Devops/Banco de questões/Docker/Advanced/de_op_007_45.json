@@ -1,0 +1,45 @@
+{
+    "SKU": "0000045",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "id": "c6e808f3-19d9-4b85-9216-40f2597ce373",
+    "knowledgeArea": "DevOps",
+    "category": "Conteinerização",
+    "subCategory": "namespaces",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+      "container",
+      "virtualização",
+      "camadas"
+    ],
+    "text": [
+      "Muitas vezes por uma necessidade de negócio, uma empresa vai precisar isolar containers. Qual tecnologia docker usa/cria para prover uma camada de isolamento nos containers?"
+    ],
+    "alternatives": [
+      {
+        "text": "Compose",
+        "feedback": "Incorreto. Compose é apenas uma opção de client.",
+        "correct": false,
+        "id": "6a095637-b5ce-41dc-aef5-e9060eb91634"
+      },
+      {
+        "text": "dockerd",
+        "feedback": "Incorreto. dockerd é o server e não tem relação com isolamento de camadas.",
+        "correct": false,
+        "id": "5e4c12bf-9093-41a6-b93d-9d5d26534274"
+      },
+      {
+        "text": "namespaces",
+        "feedback": "Alternativa Correta!",
+        "correct": true,
+        "id": "e6139560-4746-4b08-8987-7bfb9b62ce24"
+      },
+      {
+        "text": "Volume",
+        "feedback": "Incorreto. Volume é um objeto docker e não pode prover isolamento.",
+        "correct": false,
+        "id": "a8900a4b-e9ad-4851-8d33-1c9b6b4ddaeb"
+      }
+    ]
+  }

@@ -1,0 +1,45 @@
+{
+    "id": "1b8afdda-fbfa-4c2e-b1f4-ae8ee428e703",
+    "SKU": "000009",
+    "interpreter": 1,
+    "type": "VF",
+    "language": "NA",
+    "knowledgeArea": "DevOps",
+    "category": "Kubernetes",
+    "subCategory": "Estrategia de Deploy",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+        "Kubernetes",
+        "Cluster",
+        "Update"
+    ],
+    "text": [
+        "Ao atualizar um cluster no Kubernetes, é afirmado que o 'rolling update' garante que o serviço permaneça disponível durante todo o processo de atualização. Qual(is) das afirmações abaixo é/são verdadeira(s) sobre o 'rolling update' no Kubernetes?"
+    ],
+    "alternatives": [
+        {
+            "id": "4c290344-780a-4cd4-8fd0-27e0b1634751",
+            "text": "O 'rolling update' atualiza os pods um por um, mantendo o serviço disponível.",
+            "feedback": "Correto! O 'rolling update' atualiza os pods um por um, evitando a interrupção do serviço.",
+            "correct": true
+        },
+        {
+            "id": "742b215a-52d2-4041-b67c-21337f33453c",
+            "text": "O 'rolling update' necessita que o serviço seja interrompido temporariamente.",
+            "feedback": "Incorreto. O 'rolling update' permite que o serviço continue disponível durante a atualização.",
+            "correct": false
+        },
+        {
+            "id": "c8f34f56-3364-422e-a2dd-64d72bbe83a6",
+            "text": "É possível definir o número de pods que o 'rolling update' atualiza simultaneamente.",
+            "feedback": "Correto! Você pode definir quantos pods deseja atualizar simultaneamente.",
+            "correct": true
+        },
+        {
+            "id": "65ce8cdf-d1d8-4cf7-a6d4-840dc08329d9",
+            "text": "'Rolling update' atualiza todos os pods simultaneamente.",
+            "feedback": "Incorreto. O 'rolling update' não atualiza todos os pods de uma vez.",
+            "correct": false
+        }
+    ]
+}

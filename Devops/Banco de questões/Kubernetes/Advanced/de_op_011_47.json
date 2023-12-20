@@ -1,0 +1,45 @@
+{
+    "id": "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
+    "SKU": "000007",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "DevOps",
+    "category": "Kubernetes",
+    "subCategory": "Arquitetura Kubernetes",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+        "Cluster",
+        "Node",
+        "Pod"
+    ],
+    "text": [
+        "No Kubernetes, qual componente é responsável por orquestrar a execução dos containers em um cluster, garantindo que o estado desejado seja mantido?"
+    ],
+    "alternatives": [
+        {
+            "id": "a4e0e514-1de3-47a2-b3c6-f90fb3fa8bed",
+            "text": "Kube-proxy",
+            "feedback": "O Kube-proxy é responsável pela comunicação de rede, e não pela orquestração dos containers.",
+            "correct": false
+        },
+        {
+            "id": "b6273e03-65c2-4337-8a69-c30f0dc17d82",
+            "text": "Kubelet",
+            "feedback": "O Kubelet é responsável pela execução dos containers em um Node, mas não orquestra a execução dos containers em todo o cluster.",
+            "correct": false
+        },
+        {
+            "id": "a3f4901a-6912-4972-b403-4faca35bd11d",
+            "text": "Kube-controller-manager",
+            "feedback": "Correto! O Kube-controller-manager orquestra a execução dos containers no cluster, garantindo que o estado desejado seja mantido.",
+            "correct": true
+        },
+        {
+            "id": "c9b5bde9-eeab-46c8-be9f-3cb430b5089c",
+            "text": "Etcd",
+            "feedback": "O Etcd é um banco de dados de chave-valor utilizado para armazenar a configuração do cluster, não é responsável pela orquestração dos containers.",
+            "correct": false
+        }
+    ]
+}

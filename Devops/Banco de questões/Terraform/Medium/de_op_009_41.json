@@ -1,0 +1,44 @@
+{
+    "SKU": "DE-OP-009",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "tagsOrConcepts": [
+      "IaC",
+      "terraform"
+    ],
+    "text": [
+      "Qual das opções abaixo NÃO é um tipo de collection válido do Terraform?"
+    ],
+    "alternatives": [
+      {
+        "text": "`list`",
+        "feedback": "Incorreto. Esse tipo efetivamente existe no Terraform.",
+        "correct": false,
+        "id": "9d7852cb-68b7-49e4-986a-cad983254679"
+      },
+      {
+        "text": "`map`",
+        "feedback": "Incorreto. Esse tipo efetivamente existe no Terraform.",
+        "correct": false,
+        "id": "6e3a35c7-2441-4a41-9a15-e36447ce3b4f"
+      },
+      {
+        "text": "`tree`",
+        "feedback": "Correto. Esse não é um tipo válido de collection do Terraform.",
+        "correct": true,
+        "id": "1129ee32-cc27-4b4c-a2f4-a982c7df30d3"
+      },
+      {
+        "text": "`set`",
+        "feedback": "Incorreto. Esse tipo efetivamente existe no Terraform.",
+        "correct": false,
+        "id": "c92e4db6-3200-4132-8808-e76337800d43"
+      }
+    ],
+    "id": "26dd6cf4-83dc-40df-872e-8f794c1532b7",
+    "level": "Medium",
+    "knowledgeArea": "DevOps",
+    "category": "Infraestrutura como código",
+    "subCategory": "Terraform"
+  }

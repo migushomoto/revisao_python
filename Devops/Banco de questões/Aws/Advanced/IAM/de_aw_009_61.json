@@ -5,23 +5,23 @@
     "language": "NA",
     "tagsOrConcepts":["Cloud"],
     "id": "28285c9b-471f-48f4-accc-2db543418512",
-    "knowledgeArea": "Cloud",
-    "category": "AWS",
+    "knowledgeArea": "DevOps",
+    "category": "IAM",
     "subCategory": "IAM",
     "level": "Advanced",
     "text":[ 
     "Erros de acesso negado são exibidos quando a AWS nega explícita ou implicitamente uma solicitação de autorização. Uma negação explícita ocorre quando uma política contém uma instrução Deny para a ação específica da AWS. Uma negação implícita ocorre quando não há nenhuma instrução Deny aplicável e nenhuma instrução Allow aplicável. Com base no que conhecemos sobre as permissões do IAM, quais opções abaixo melhor descrevem o problema retratado?",
-    "---",
+    "```",
     "User: arn:aws:iam::00012346789:user/usuario001 is not authorized to perform: widgets:GetWidget on resource: my-app-web",
-    "---"],
+    "```"],
     "alternatives": [
-        {   "text": "O erro demonstrado acima, não faz parte de erros relacionados ao IAM, mas sim, voltados para ACL em aplicações Web.", 
-            "feedback":"Errado. O erro acima mencionado, está atrelado a falta de permissões para o devido usuário na AWS.", 
+        {   "text": "O erro demonstrado acima não faz parte de erros relacionados ao IAM, mas sim, voltados para ACL em aplicações Web.", 
+            "feedback":"Errado. O erro acima mencionado está atrelado a falta de permissões para o devido usuário na AWS.", 
             "correct":false,
             "id": "28285c9b-471f-48f4-accc-2db543418513"
         },
         {   "text": "Esse tipo de erro pode ser evitado configurando o MFA para acesso a Interface WEB da AWS.", 
-            "feedback":"Errado. Esse tipo de configuração não ajudaria a evitar problemas de permissão em uma chamada como essa. Esse tipo de problema está atrelado a falta de permissão para o usuario001 no IAM.", 
+            "feedback":"Errado. Esse tipo de configuração não ajudaria a evitar problemas de permissão em uma chamada como essa.", 
             "correct":false,
             "id": "28285c9b-471f-48f4-accc-2db543418514"
         },
@@ -30,7 +30,7 @@
             "correct":true,
             "id": "28285c9b-471f-48f4-accc-2db543418515"
         },
-        {   "text": "O erro de exemplo acima demonstrado, ocorre quando o usuário do IAM 'usuario001' tenta usar o console para visualizar detalhes sobre um recurso de my-app-web fictício, mas não tem as permissões de widgets:GetWidget.", 
+        {   "text": "O erro de exemplo acima ocorre quando o usuário do IAM 'usuario001' tenta usar o console para visualizar detalhes sobre um recurso de my-app-web fictício, mas não tem as permissões de widgets:GetWidget.", 
             "feedback":"Resposta correta!", 
             "correct":true,
             "id": "28285c9b-471f-48f4-accc-2db543418516"

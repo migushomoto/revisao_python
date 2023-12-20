@@ -1,0 +1,43 @@
+{
+    "id": "bd6b43f7-60b0-4b5d-862f-8ae32c6cb3ac",
+    "SKU": "1",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "none",
+    "knowledgeArea": "Lógica de Programação",
+    "category": "Condicionais",
+    "subCategory": "",
+    "level": "Basic",
+    "tagsOrConcepts": [
+        "Fluxo Condicional", "Condicionais", "Lógica"
+    ],
+    "text": [
+        "Qual é a estrutura utilizada para realizar uma decisão em um programa?"
+    ],
+    "alternatives": [
+        {
+            "id": "9ff0f4eb-88da-4c69-8a52-2bbf001ef520",
+            "text": "for",
+            "feedback" : "O 'for' é utilizado para laços de repetição, não para decisões.",
+            "correct": false
+        },
+        {
+            "id": "d3e4b232-dca2-4b63-bab6-6fbad10f90d3",
+            "text": "if",
+            "feedback": "Correto! O 'if' é a estrutura de controle de fluxo condicional.",
+            "correct": true
+        },
+        {
+            "id": "0f544b3a-4f6f-4ad9-bb07-2a5c6e77106f",
+            "text": "switch",
+            "feedback": "O 'switch' é utilizado para múltiplas opções, não para decisões simples.",
+            "correct": false
+        },
+        {
+            "id": "316f44cc-2b87-40ea-9c21-b93a8c38fb57",
+            "text": "while",
+            "feedback": "O 'while' é utilizado para laços de repetição, não para decisões.",
+            "correct": false
+        }
+    ]
+}

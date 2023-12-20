@@ -1,0 +1,45 @@
+{
+    "SKU": "0000070",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "id": "641e2c9b-dd03-4805-8cbb-49e04ea143dd",
+    "knowledgeArea": "DevOps",
+    "category": "Conteinerização",
+    "subCategory": "Dockerfile",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+      "container",
+      "Dockerfile",
+      "FROM"
+    ],
+    "text": [
+      "No Dockerfile, qual é a única instrução que pode preceder a instrução FROM?"
+    ],
+    "alternatives": [
+      {
+        "text": "ARG",
+        "feedback": "Alternativa Correta!",
+        "correct": true,
+        "id": "9d18d060-c879-4fc3-b1d1-d7219c521018"
+      },
+      {
+        "text": "RUN",
+        "feedback": "Incorreto. A instrução FROM precede a instrução RUN.",
+        "correct": false,
+        "id": "9554735e-90e8-4898-8cc9-50027efff8dc"
+      },
+      {
+        "text": "ADD",
+        "feedback": "Incorreto. A instrução FROM precede a instrução ADD.",
+        "correct": false,
+        "id": "0c928b11-e4d5-46ad-99e0-b97e12019fba"
+      },
+      {
+        "text": "CMD",
+        "feedback": "Incorreto. A instrução FROM precede a instrução CMD.",
+        "correct": false,
+        "id": "1b0e5175-9a45-42ef-9dbe-f0ca36c3cd40"
+      }
+    ]
+  }

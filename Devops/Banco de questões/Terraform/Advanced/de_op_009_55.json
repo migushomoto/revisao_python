@@ -1,0 +1,44 @@
+{
+    "SKU": "DE-OP-009",
+    "interpreter": 1,
+    "type": "VF",
+    "language": "NA",
+    "tagsOrConcepts": [
+      "IaC",
+      "terraform"
+    ],
+    "text": [
+      "Quais das afirmativas abaixo são verdadeiras sobre uma configuração de um provider que não utiliza o parâmetro `alias`?"
+    ],
+    "alternatives": [
+      {
+        "text": "É a configuração default daquele provider.",
+        "feedback": "Correto.",
+        "correct": true,
+        "id": "7871ac14-feb5-41ad-8c08-8ce37534d383"
+      },
+      {
+        "text": "A configuração está incorreta.",
+        "feedback": "Incorreto. A utilização do parâmetro `alias` na configuração de um provider não é obrigatória.",
+        "correct": false,
+        "id": "fd0383da-b797-4269-8931-48716bf79fdd"
+      },
+      {
+        "text": "A configuração está incompleta.",
+        "feedback": "Incorreto. A utilização do parâmetro `alias` na configuração de um provider não é obrigatória.",
+        "correct": false,
+        "id": "cb0d6855-61d9-4d1a-9f75-44168ed715a8"
+      },
+      {
+        "text": "Essa configuração impedirá que sejam criadas outras configurações para esse mesmo provider.",
+        "feedback": "Incorreto. Podem ser criadas outras configurações para esse provider desde que estas utilizem o parâmetro `alias`.",
+        "correct": false,
+        "id": "407c8671-bcfd-4da6-84f0-90784a55ef6e"
+      }
+    ],
+    "id": "f84bffd7-5255-4245-b384-ca02ab36fc4d",
+    "level": "Advanced",
+    "knowledgeArea": "DevOps",
+    "category": "Infraestrutura como código",
+    "subCategory": "Terraform"
+}

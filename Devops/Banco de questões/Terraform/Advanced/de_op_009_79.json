@@ -1,0 +1,44 @@
+{
+    "SKU": "DE-OP-009",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "tagsOrConcepts": [
+      "IaC",
+      "terraform"
+    ],
+    "text": [
+      "Quais tipos de dependência de recursos é armazenada no estado do Terraform?"
+    ],
+    "alternatives": [
+      {
+        "text": "Apenas dependências implícitas",
+        "feedback": "Incorreto. Outras dependecias também são armazenadas nos estados do Terraform.",
+        "correct": false,
+        "id": "a300f482-f4f1-4911-b899-e376a208dc8c"
+      },
+      {
+        "text": "Dependências implícias e explícitas",
+        "feedback": "Correto.",
+        "correct": true,
+        "id": "095c9380-7196-413b-8481-f540d68157df"
+      },
+      {
+        "text": "Apenas dependências explícitas",
+        "feedback": "Incorreto. Outras dependecias também são armazenadas nos estados do Terraform.",
+        "correct": false,
+        "id": "3f536316-2f80-4c03-a6ae-b9414a5253da"
+      },
+      {
+        "text": "Nenhum tipo de dependência",
+        "feedback": "Incorreto. Todas as dependências entre recursos são armazenadas nos estados do Terraform.",
+        "correct": false,
+        "id": "48061604-eb8b-464f-a32a-b8d131bf9db5"
+      }
+    ],
+    "id": "3f647f37-ef5e-46ec-9eaa-eace31dfdd80",
+    "level": "Advanced",
+    "knowledgeArea": "DevOps",
+    "category": "Infraestrutura como código",
+    "subCategory": "Terraform"
+}

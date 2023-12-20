@@ -1,0 +1,46 @@
+
+{
+    "SKU": "0000059",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "id": "493cbeb8-3d38-4858-a5b5-18e96aaa2920",
+    "knowledgeArea": "DevOps",
+    "category": "Conteinerização",
+    "subCategory": "Virtualização",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+      "container",
+      "virtualização",
+      "dockerd"
+    ],
+    "text": [
+      "O que é o 'dockerd'?"
+    ],
+    "alternatives": [
+      {
+        "text": "Um daemon do Docker que gerencia contêineres e imagens.",
+        "feedback": "Alternativa Correta!",
+        "correct": true,
+        "id": "350233a3-b2e9-4218-b9aa-2af94d3d68a9"
+      },
+      {
+        "text": "Uma ferramenta de depuração para contêineres Docker.",
+        "feedback": "Incorreto. O dockerd não é uma ferramenta de depuração; ferramentas de depuração são parte do Docker SDK ou ferramentas externas.",
+        "correct": false,
+        "id": "2831275f-d518-44b4-a339-fb6c3fd8eee3"
+      },
+      {
+        "text": "Um comando para listar todos os contêineres em execução no sistema.",
+        "feedback": "Incorreto. É possível listar os containers e execução utilização o docker client com o comando: \"docker ps\".",
+        "correct": false,
+        "id": "b789dc18-c831-474b-ba75-e424397ad958"
+      },
+      {
+        "text": "O comando utilizado para executar contêineres Docker.",
+        "feedback": "Incorreto. Para executar conteineres é possível via docker client.",
+        "correct": false,
+        "id": "143a0da5-fe6e-4eb6-8c0f-849dc436ed4f"
+      }
+    ]
+  }

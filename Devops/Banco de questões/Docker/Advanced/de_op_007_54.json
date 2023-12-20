@@ -1,0 +1,47 @@
+
+{
+    "SKU": "0000054",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "id": "e23572f5-e84c-4b12-8d69-593dee462876",
+    "knowledgeArea": "DevOps",
+    "category": "Conteinerização",
+    "subCategory": "imagem",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+      "container",
+      "imagem",
+      "multistage"
+    ],
+    "text": [
+      "Se você precisa usar uma imagem docker que não contém builds multistage, qual a melhor opção para diminuir o tamanho da imagem?"
+    ],
+    "alternatives": [
+      {
+        "text": "Reduza o tamanho da imagem usando compression nos arquivos copiados.",
+        "feedback": "Incorreto. Compressão dos arquivos copiados não é uma prática comum ou recomendada para reduzir o tamanho da imagem Docker.",
+        "correct": false,
+        "id": "1c077b8e-d88c-410e-ba2a-7302b2964114"
+      },
+      {
+        "text": "Tente reduzir o número de camadas em sua imagem minimizando o número de comandos RUN separados em seu Dockerfile",
+        "feedback": "Alternativa Correta!",
+        "correct": true,
+        "id": "5540d4fb-b401-4b08-9648-9d15e0d684b2"
+       
+      },
+      {
+        "text": "Utilize Entrypoint ao invés de CMD",
+        "feedback": "Incorreto. A escolha entre Entrypoint e CMD não afeta o tamanho da imagem Docker. Eles são usados para especificar o comportamento padrão de um contêiner.",
+        "correct": false,
+        "id": "4175e8bb-2879-48cc-976c-43286dd05aea"
+      },
+      {
+        "text": "Tente reduzir o número de arquivos copiados no comando COPY",
+        "feedback": "Incorreto. Não copiar arquivos desnecessários é uma premissa do docker e não uma ação para diminuir tamanho.",
+        "correct": false,
+        "id": "c0841b8f-25b0-4bcf-b417-41de5516d7c6"
+      }
+    ]
+  }

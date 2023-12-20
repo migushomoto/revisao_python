@@ -1,0 +1,46 @@
+{
+    "id": "6fa4f90d-6412-442f-9c65-520f1b4b1c6b",
+    "SKU": "000012",
+    "interpreter": 1,
+    "type": "VF",
+    "language": "NA",
+    "knowledgeArea": "DevOps",
+    "category": "Kubernetes",
+    "subCategory": "Networking",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+        "Kubernetes",
+        "Networking",
+        "Service",
+        "LoadBalancer"
+    ],
+    "text": [
+        "No Kubernetes, um serviço do tipo LoadBalancer permite que o serviço seja acessível externamente e atribui um IP fixo ao serviço."
+    ],
+    "alternatives": [
+        {
+            "id": "a97a91a1-1adf-416e-9d6d-2a5c4c1a9a98",
+            "text": "Um serviço LoadBalancer sempre atribui um IP fixo ao serviço.",
+            "feedback": "Não é garantido que um serviço LoadBalancer sempre atribuirá um IP fixo ao serviço.",
+            "correct": false
+        },
+        {
+            "id": "b2d3d3f5-6a0c-4644-9203-75d6160a4ad1",
+            "text": "Um serviço LoadBalancer pode atribuir um IP dinâmico ao serviço.",
+            "feedback": "Correto, um serviço LoadBalancer pode atribuir um IP dinâmico ao serviço dependendo do provedor de nuvem.",
+            "correct": true
+        },
+        {
+            "id": "57a1fae3-e1b2-4f3b-b634-7e7114f78d1c",
+            "text": "Um serviço LoadBalancer não permite o acesso externo ao serviço.",
+            "feedback": "Incorreto, um serviço LoadBalancer permite o acesso externo ao serviço.",
+            "correct": false
+        },
+        {
+            "id": "3e3a4e0c-c8e8-4c93-9f1c-8e4bcb2d4105",
+            "text": "Um serviço LoadBalancer não pode ser usado em clusters multi-regionais.",
+            "feedback": "Incorreto, um serviço LoadBalancer pode ser usado em clusters multi-regionais.",
+            "correct": false
+        }
+    ]
+}

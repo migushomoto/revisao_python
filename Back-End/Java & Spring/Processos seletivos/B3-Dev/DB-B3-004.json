@@ -1,0 +1,62 @@
+{
+    "SKU": "BD-MY-002",
+    "interpreter": 1,
+    "type": "GAP",
+    "language": "NA",
+    "knowledgeArea": "Banco de Dados",
+    "category": "Banco de Dados",
+    "subCategory": "indice",
+    "level": "Basic",
+    "tagsOrConcepts": [
+      "Banco de Dados"
+    ],
+    "text": [
+      "Os {{GAP}} nos ajudam a otimizar nossas buscas. Isso é particularmente útil quando temos grandes volumes de dados e a {{GAP}} é uma das formas de implementá-lo."
+    ],
+    "alternatives": [
+      {
+        "value": "algoritmo",
+        "hint": "",
+        "id": "8cbf6b32-6f7f-11ee-b962-0242ac120002"
+      },
+      {
+        "value": "indice",
+        "hint": "",
+        "id": "90ad980e-6f7f-11ee-b962-0242ac120002"
+      },
+      {
+        "value": "arvore binária",
+        "hint": "",
+        "id": "93993e74-6f7f-11ee-b962-0242ac120002"
+      }
+    ],
+    "gaps": [
+      {
+        "expected": "indice",
+        "feedbacks": [
+          {
+            "value": "algoritmo",
+            "text": "-"
+          },
+          {
+            "value": "arvore binária",
+            "text": "-"
+          }
+        ]
+      },
+      {
+        "expected": "arvore binária",
+        "feedbacks": [
+          {
+            "value": "algoritmo",
+            "text": "-"
+          },
+          {
+            "value": "indice",
+            "text": "-"
+          }
+        ]
+      }
+    ],
+    "id": "97a82d2c-6f7f-11ee-b962-0242ac120002"
+  }

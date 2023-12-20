@@ -1,0 +1,43 @@
+{
+    "SKU": "JV-B3-004",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "Banco de Dados",
+    "category": "Banco de Dados",
+    "subCategory": "SGBD",
+    "level": "Basic",
+    "tagsOrConcepts": [
+      "Banco de Dados"
+    ],
+    "text": [
+      "O que é um Sistema de Gerenciamento de Banco de Dados (SGBD)?"
+    ],
+    "alternatives": [
+      {
+        "text": "É um software que gerencia o armazenamento e recuperação de dados em um banco de dados.",
+        "feedback": "Correto",
+        "correct": true,
+        "id": "025c0556-6f7d-11ee-b962-0242ac120002"
+      },
+      {
+        "text": "É a interface pela qual interagimos com o banco de dados, ex: PgAdmin.",
+        "feedback": "Falso, o PgAdmin é um client de banco de dados.",
+        "correct": false,
+        "id": "6e83dbc8-6f7d-11ee-b962-0242ac120002"
+      },
+      {
+        "text": "É um software através do qual podemos criar modelos de entidade de relacionamento.",
+        "feedback": "Falso, existem softwares que fazem esta atividade mas não são os SGBDs",
+        "correct": false,
+        "id": "93eb0030-6f7d-11ee-b962-0242ac120002"
+      },
+      {
+        "text": "É o diagrama que nos mostra como as tabelas se relacionam.",
+        "feedback": "Falso, o nome deste diagrama é modelo de entidade relacional",
+        "correct": false,
+        "id": "aa3b4322-6f7d-11ee-b962-0242ac120002"
+      }
+    ],
+    "id": "df6ebb3c-6f7d-11ee-b962-0242ac120002"
+  }

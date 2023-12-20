@@ -1,0 +1,44 @@
+{
+    "SKU": "DE-OP-009",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "tagsOrConcepts": [
+      "IaC",
+      "terraform"
+    ],
+    "text": [
+      "Você precisa garantir que seu código Terraform está legível e segue as boas práticas de formatação e identação da HCL. No diretório atual, você possui um arquivo `main.tf` que referencia módulos em um diretório chamado `modules/`. Qual comando deve ser executado para corrigir a formatação e identação do seu código no diretório atual e em todos seus sub-diretórios?"
+    ],
+    "alternatives": [
+      {
+        "text": "`terraform fmt -check -recursive`",
+        "feedback": "Correto. Esse comando realizará a correção em todos os arquivos do diretório atual e seus sub-diretórios.",
+        "correct": true,
+        "id": "dffd53e2-f73d-4d33-8e55-051edf54c76c"
+      },
+      {
+        "text": "`terraform fmt -diff`",
+        "feedback": "Incorreto. Esse comando só se aplicará aos arquivos do diretório atual e mostrará as mudanças efetuadas.",
+        "correct": false,
+        "id": "5ed072dc-88e2-4e37-9eaf-f87938049c5d"
+      },
+      {
+        "text": "`terraform fmt -check`",
+        "feedback": "Incorreto. Esse comando só se aplicará aos arquivos do diretório atual e retornará sucesso se a formatação estiver correta e erro se ela estiver incorreta.",
+        "correct": false,
+        "id": "f4770662-2cb9-4616-8007-f8bc4c34ca63"
+      },
+      {
+        "text": "`terraform fmt -list=true`",
+        "feedback": "Incorreto. Esse comando só se aplicará aos arquivos do diretório atual e retornará a lista de arquivos com inconsistências de formatação.",
+        "correct": false,
+        "id": "d58f0f3d-fe19-492c-bbfc-e6f037410257"
+      }
+    ],
+    "id": "a9f61028-602d-49cf-a8ef-0a232286d460",
+    "level": "Advanced",
+    "knowledgeArea": "DevOps",
+    "category": "Infraestrutura como código",
+    "subCategory": "Terraform"
+}

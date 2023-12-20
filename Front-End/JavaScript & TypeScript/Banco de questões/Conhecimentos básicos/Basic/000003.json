@@ -1,0 +1,41 @@
+{
+  "SKU": "000003",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "javascript",
+  "knowledgeArea": "Front-End",
+  "category": "JavaScript",
+  "subCategory": "Conhecimentos Básicos",
+  "level": "Basic",
+  "tagsOrConcepts": ["frontend", "javascript"],
+  "text": [
+    "Qual é a diferença entre \"let\" e \"const\" ao declarar variáveis em JavaScript?"
+  ],
+  "alternatives": [
+    {
+      "text": "\"let\" é usado para variáveis de escopo global, enquanto \"const\" é usado para variáveis de escopo local.",
+      "feedback": "Incorreto! \"let\" é usado para criar variáveis mutáveis, que podem ser reatribuídas, enquanto \"const\" cria variáveis imutáveis, cujo valor não pode ser alterado após a atribuição inicial.",
+      "correct": false
+    },
+    {
+      "text": "\"let\" permite a reatribuição de valores, enquanto \"const\" cria variáveis imutáveis.",
+      "feedback": "Correto! \"let\" é usado para criar variáveis mutáveis, que podem ser reatribuídas, enquanto \"const\" cria variáveis imutáveis, cujo valor não pode ser alterado após a atribuição inicial.",
+      "correct": true
+    },
+    {
+      "text": "\"let\" cria variáveis que não podem ser modificadas, enquanto \"const\" permite reatribuir valores.",
+      "feedback": "Incorreto! \"let\" é usado para criar variáveis mutáveis, que podem ser reatribuídas, enquanto \"const\" cria variáveis imutáveis, cujo valor não pode ser alterado após a atribuição inicial.",
+      "correct": false
+    },
+    {
+      "text": "\"let\" e \"const\" são usados de forma intercambiável em JavaScript.",
+      "feedback": "Incorreto! \"let\" é usado para criar variáveis mutáveis, que podem ser reatribuídas, enquanto \"const\" cria variáveis imutáveis, cujo valor não pode ser alterado após a atribuição inicial.",
+      "correct": false
+    },
+    {
+      "text": "\"let\" e \"const\" são usados apenas para declarar funções.",
+      "feedback": "Incorreto! \"let\" é usado para criar variáveis mutáveis, que podem ser reatribuídas, enquanto \"const\" cria variáveis imutáveis, cujo valor não pode ser alterado após a atribuição inicial.",
+      "correct": false
+    }
+  ]
+}

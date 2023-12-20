@@ -1,0 +1,70 @@
+{
+    "SKU": "DE-OP-009",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "tagsOrConcepts": [
+      "IaC",
+      "terraform"
+    ],
+    "text": [
+      "Considere o seguinte trecho de código:",
+      "<br><br>",
+      "`variable \"vpc_cidrs\" {`",
+      "<br>",
+      "&nbsp;&nbsp; `type = map`",
+      "<br>",
+      "&nbsp;&nbsp; `default = {`",
+      "<br>",
+      "&nbsp;&nbsp;&nbsp;&nbsp; `us-east-1 = \"10.0.0.0/16\"`",
+      "<br>",
+      "&nbsp;&nbsp;&nbsp;&nbsp; `us-east-2 = \"10.1.0.0/16\"`",
+      "<br>",
+      "&nbsp;&nbsp;&nbsp;&nbsp; `us-west-1 = \"10.2.0.0/16\"`",
+      "<br>",
+      "&nbsp;&nbsp;&nbsp;&nbsp; `sa-east-1 = \"10.3.0.0/16\"`",
+      "<br>",
+      "&nbsp;&nbsp; `}`",
+      "<br>",
+      "`}`",
+      "<br><br>",
+      "`resource \"aws_vpc\" \"shared\" {`",
+      "<br>",
+      "&nbsp;&nbsp; `cidr_block =` ___________",
+      "<br>",
+      "`}`",
+      "<br><br>",
+      "Qual das alternativas abaixo é válida para preencher a lacuna?"
+    ],
+    "alternatives": [
+      {
+        "text": "`var.vpc_cidrs[\"us-east-1\"]`",
+        "feedback": "Correto.",
+        "correct": true,
+        "id": "4d5f9821-528d-4b3e-8cdd-eb4e32f8adc0"
+      },
+      {
+        "text": "`var.vpc_cidrs.0`",
+        "feedback": "Incorreto. O valor dentro do mapa deve ser acessado utilizando o valor de sua chave.",
+        "correct": false,
+        "id": "f1419ad7-fe9f-40b5-a6a0-949ea937eef8"
+      },
+      {
+        "text": "`vpc_cidrs[\"us-east-1\"]`",
+        "feedback": "Incorreto. O valor dentro do mapa deve ser acessado utilizando o valor de sua chave.",
+        "correct": false,
+        "id": "2cec0b49-bee9-4a7a-8f78-1e6b8cf8161d"
+      },
+      {
+        "text": "`var.vpc_cidrs[0]`",
+        "feedback": "Incorreto. O valor dentro do mapa deve ser acessado utilizando o valor de sua chave.",
+        "correct": false,
+        "id": "ddc4ceb1-806d-4d96-90fa-5405be4733b3"
+      }
+    ],
+    "id": "57c7bf64-bc6f-494c-8d9d-cfb2c6042781",
+    "level": "Advanced",
+    "knowledgeArea": "DevOps",
+    "category": "Infraestrutura como código",
+    "subCategory": "Terraform"
+  }

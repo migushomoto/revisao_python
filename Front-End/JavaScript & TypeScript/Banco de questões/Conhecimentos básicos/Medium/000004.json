@@ -1,0 +1,39 @@
+{
+  "SKU": "000004",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "javascript",
+  "knowledgeArea": "Front-End",
+  "category": "JavaScript",
+  "subCategory": "Conhecimentos Básicos",
+  "level": "Medium",
+  "tagsOrConcepts": ["frontend", "javascript"],
+  "text": ["O que é o DOM em JavaScript?"],
+  "alternatives": [
+    {
+      "text": "Um sistema de gerenciamento de banco de dados.",
+      "feedback": "Incorreto! O DOM (Document Object Model) em JavaScript é uma representação da estrutura de elementos de uma página web, permitindo que você acesse e manipule os elementos HTML.",
+      "correct": false
+    },
+    {
+      "text": "Um framework JavaScript popular.",
+      "feedback": "Incorreto! O DOM (Document Object Model) em JavaScript é uma representação da estrutura de elementos de uma página web, permitindo que você acesse e manipule os elementos HTML.",
+      "correct": false
+    },
+    {
+      "text": "Uma biblioteca para gráficos e visualizações.",
+      "feedback": "Incorreto! O DOM (Document Object Model) em JavaScript é uma representação da estrutura de elementos de uma página web, permitindo que você acesse e manipule os elementos HTML.",
+      "correct": false
+    },
+    {
+      "text": "Uma representação da estrutura de elementos de uma página web.",
+      "feedback": "Correto! O DOM (Document Object Model) em JavaScript é uma representação da estrutura de elementos de uma página web, permitindo que você acesse e manipule os elementos HTML.",
+      "correct": true
+    },
+    {
+      "text": "Um sistema de criptografia.",
+      "feedback": "Incorreto! O DOM (Document Object Model) em JavaScript é uma representação da estrutura de elementos de uma página web, permitindo que você acesse e manipule os elementos HTML.",
+      "correct": false
+    }
+  ]
+}

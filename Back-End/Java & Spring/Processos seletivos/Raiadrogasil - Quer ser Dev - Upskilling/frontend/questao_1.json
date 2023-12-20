@@ -1,0 +1,43 @@
+{
+    "id": "6050d597-3ffa-46d8-b425-bdf75df86dc4",
+    "SKU": "000001",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "none",
+    "knowledgeArea": "Frontend",
+    "category": "HTML",
+    "subCategory": "Estrutura Básica",
+    "level": "Basic",
+    "tagsOrConcepts": [
+        "HTML"
+    ],
+    "text": [
+        "Qual tag é usada para definir o início e o fim de uma página HTML?"
+    ],
+    "alternatives": [
+        {
+            "id": "3dcd6e9a-eb6f-47b0-8991-fd7e9f83fd6c",
+            "text": "<html>",
+            "feedback" : "Correto! A tag <html> é usada para definir o início e o fim de uma página HTML.",
+            "correct": true
+        },
+        {
+            "id": "f2de6dd7-48b2-432d-b38c-db9315fd58da",
+            "text": "<body>",
+            "feedback": "A tag <body> define o conteúdo principal de uma página HTML, mas não a página como um todo.",
+            "correct": false
+        },
+        {
+            "id": "b386bb27-721c-4fbd-890a-c9171fc4398e",
+            "text": "<head>",
+            "feedback": "A tag <head> é usada para conter elementos como metadados e links para folhas de estilo, mas não define a página como um todo.",
+            "correct": false
+        },
+        {
+            "id": "b03c2aca-b126-419c-865b-d199d3fac85e",
+            "text": "<title>",
+            "feedback": "A tag <title> define o título da página, mas não a página como um todo.",
+            "correct": false
+        }
+    ]
+}

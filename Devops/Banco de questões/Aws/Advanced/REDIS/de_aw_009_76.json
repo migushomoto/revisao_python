@@ -5,9 +5,9 @@
     "language": "NA",
     "tagsOrConcepts":["Cloud"],
     "id": "f11adc27-e13e-442d-a572-551614ebf095",
-    "knowledgeArea": "Cloud",
-    "category": "AWS",
-    "subCategory": "Redis",
+    "knowledgeArea": "DevOps",
+    "category": "REDIS",
+    "subCategory": "REDIS",
     "level": "Advanced",
     "text":[ 
     "A criptografia em repouso do ElastiCache para Redis é um recurso opcional para aumentar a segurança dos dados ao criptografar dados no disco. O ElastiCache para Redis oferece criptografia padrão (gerenciada pelo serviço) em repouso, bem como a capacidade de usar suas próprias chaves simétricas KMS da AWS gerenciadas pelo cliente no AWS Key Management Service (KMS). Sobre criptografia em repouso no ElastiCache Redis, podemos afirmar:"

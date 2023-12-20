@@ -1,0 +1,45 @@
+{
+    "id": "2fc19fa6-a3a8-4bef-8e8d-933876e513ac",
+    "SKU": "000036",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "DevOps",
+    "category": "Kubernetes",
+    "subCategory": "DNS",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+        "Kubernetes",
+        "DNS",
+        "Serviço"
+    ],
+    "text": [
+        "No Kubernetes, supondo que um pod está tentando resolver um DNS para um serviço dentro do mesmo namespace. Qual seria o nome de domínio DNS totalmente qualificado (FQDN) correto?"
+    ],
+    "alternatives": [
+        {
+            "id": "c72c5853-55cf-43c4-af10-1eb981ad5893",
+            "text": "servico.nome-do-namespace.svc.cluster.local",
+            "feedback": "Correto! Este é o FQDN correto para um serviço dentro do mesmo namespace.",
+            "correct": true
+        },
+        {
+            "id": "621b81e6-fd00-46cc-8a73-36b17ed73428",
+            "text": "servico.nome-do-namespace.pod.cluster.local",
+            "feedback": "Incorreto. 'pod.cluster.local' é usado para pods, não para serviços.",
+            "correct": false
+        },
+        {
+            "id": "f7a191d8-c267-41b5-8604-d0540fd9432a",
+            "text": "servico.nome-do-namespace",
+            "feedback": "Incorreto. O FQDN completo é necessário para a resolução de DNS.",
+            "correct": false
+        },
+        {
+            "id": "81be0fd7-7ef1-4ee3-895d-84fe78842b2a",
+            "text": "nome-do-namespace.svc.cluster.local",
+            "feedback": "Incorreto. O nome do serviço é necessário para a resolução de DNS.",
+            "correct": false
+        }
+    ]
+}

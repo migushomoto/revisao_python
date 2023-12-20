@@ -1,0 +1,44 @@
+{
+    "SKU": "DE-OP-009",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "tagsOrConcepts": [
+      "IaC",
+      "terraform"
+    ],
+    "text": [
+      "Você está refatorando o código Terraform da sua empresa. Como parte da sua tarefa, você vai desprovisionar alguns recursos existentes gerenciados pelo Terraform e provisionar novos. No entanto, há um recurso (EC2) chamado `aws_instance.ubuntu[1]` que você deseja manter para realizar uma análise posterior. Qual comando deve ser usado para informar ao Terraform que ele não deve mais gerenciar esse recurso?"
+    ],
+    "alternatives": [
+      {
+        "text": "`terraform apply rm aws_instance.ubuntu[1]`",
+        "feedback": "Incorreto. A função \"apply\" é utilizada para aplicar os recursos e não manipular o estado.",
+        "correct": false,
+        "id": "deb471a5-30a2-48a4-a9c8-d1a5f892f315"
+      },
+      {
+        "text": "`terraform state rm aws_instance.ubuntu[1]`",
+        "feedback": "Correto.",
+        "correct": true,
+        "id": "13c1d546-7019-4caf-9735-7a5f65499373"
+      },
+      {
+        "text": "`terraform plan rm aws_instance.ubuntu[1]`",
+        "feedback": "Incorreto. A função \"plan\" é utilizada para simular a aplicação dos recursos e não manipular o estado.",
+        "correct": false,
+        "id": "76e02038-ecbe-4f59-9729-19a9c3e103a4"
+      },
+      {
+        "text": "`terraform delete aws_instance.ubuntu[1]`",
+        "feedback": "Incorreto. Não existe uma função chamada \"delete\" no Terraform.",
+        "correct": false,
+        "id": "d81dfd88-a20f-477b-99b1-046ef2d29c03"
+      }
+    ],
+    "id": "40b4ae78-e579-4238-bfb9-bd97e64ac2ff",
+    "level": "Advanced",
+    "knowledgeArea": "DevOps",
+    "category": "Infraestrutura como código",
+    "subCategory": "Terraform"
+}

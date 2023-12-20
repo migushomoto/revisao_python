@@ -1,0 +1,42 @@
+{
+  "SKU": "000001",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "html",
+  "knowledgeArea": "Front-End",
+  "category": "Conhecimentos Básicos",
+  "subCategory": "",
+  "level": "Advanced",
+  "tagsOrConcepts": ["frontend", "html", "css"],
+  "text": [
+    "No CSS, podemos definir a ordem de sobreposição dos elementos entre si.",
+    "Qual propriedade CSS, dentre as abaixo, definem essa sobreposição?"
+  ],
+  "alternatives": [
+    {
+      "text": "position",
+      "feedback": "Incorreto!. A propriedade position define como um elemento é posicionado em um documento. ",
+      "correct": false
+    },
+    {
+      "text": "ordering",
+      "feedback": "Incorreto! ordering não é uma propriedade CSS válida.",
+      "correct": false
+    },
+    {
+      "text": "superimpose",
+      "feedback": "Incorreto! superimpose não é uma propriedade CSS válida.",
+      "correct": false
+    },
+    {
+      "text": "z-index",
+      "feedback": "Correto! A propriedade z-index define a ordenação no eixo z de um elemento posicionado e seus descendentes ou itens flexíveis. Elementos sobrepostos com z-index maior cobrem aqueles com z-index menor.",
+      "correct": true
+    },
+    {
+      "text": "z-position",
+      "feedback": "Incorreto! z-position não é uma propriedade CSS válida.",
+      "correct": false
+    }
+  ]
+}

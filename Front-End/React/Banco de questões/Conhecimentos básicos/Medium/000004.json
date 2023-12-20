@@ -1,0 +1,41 @@
+{
+  "SKU": "000004",
+  "interpreter": 1,
+  "type": "MULT",
+  "language": "react",
+  "knowledgeArea": "Front-End",
+  "category": "React",
+  "subCategory": "Conhecimentos Básicos",
+  "level": "Medium",
+  "tagsOrConcepts": ["frontend", "react"],
+  "text": [
+    "Qual das alternativas abaixo apresenta a principal função do React em uma aplicação web?"
+  ],
+  "alternatives": [
+    {
+      "text": "Gerenciar o estado e a lógica de negócios da aplicação.",
+      "feedback": "Incorreto! O React ajuda a gerenciar a interface do usuário (UI) e o estado da aplicação, mas não lida diretamente com a lógica de negócios.",
+      "correct": false
+    },
+    {
+      "text": "Manipular consultas de banco de dados.",
+      "feedback": "Incorreto! O React não lida diretamente com consultas de banco de dados. É mais focado na criação da interface do usuário.",
+      "correct": false
+    },
+    {
+      "text": "Renderizar componentes de interface do usuário de forma eficiente com base no estado da aplicação.",
+      "feedback": "Correto! O React é uma biblioteca JavaScript usada para criar interfaces de usuário eficientes que são atualizadas com base no estado da aplicação.",
+      "correct": true
+    },
+    {
+      "text": "Rastrear métricas de desempenho da aplicação.",
+      "feedback": "Incorreto! O React oferece algumas ferramentas para rastrear o desempenho da aplicação, mas essa não é sua função principal.",
+      "correct": false
+    },
+    {
+      "text": "Gerenciar a autenticação de usuários.",
+      "feedback": "Incorreto! O React não lida diretamente com a autenticação de usuários. Essa é uma funcionalidade que geralmente é tratada por outras bibliotecas ou serviços.",
+      "correct": false
+    }
+  ]
+}

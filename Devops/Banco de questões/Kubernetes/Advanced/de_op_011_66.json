@@ -1,0 +1,45 @@
+{
+    "id": "25d60c9c-ba3e-4bb7-9c1f-5f546310b6f3",
+    "SKU": "000026",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "DevOps",
+    "category": "Kubernetes",
+    "subCategory": "Tráfego",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+        "Kubernetes",
+        "Tráfego L4",
+        "Tráfego L7"
+    ],
+    "text": [
+        "No Kubernetes, como você direcionaria o tráfego L4 e L7 para os serviços adequados?"
+    ],
+    "alternatives": [
+        {
+            "id": "a1bf5bc7-d9db-4d9e-8bfa-5cd3a8a87b45",
+            "text": "Usando o Ingress para L7 e NodePort para L4",
+            "feedback": "Correto! O Ingress é usado para tráfego L7 e o NodePort é usado para tráfego L4.",
+            "correct": true
+        },
+        {
+            "id": "6b6c8c2e-e564-4fcf-9a0f-5d22723fedd8",
+            "text": "Usando apenas o LoadBalancer",
+            "feedback": "Incorreto. O LoadBalancer não diferencia o tráfego L4 e L7.",
+            "correct": false
+        },
+        {
+            "id": "12af22b8-27c0-48a1-a2d0-6efb14275a6a",
+            "text": "Usando o Service para L4 e ConfigMap para L7",
+            "feedback": "Incorreto. ConfigMap não é usado para tráfego L7.",
+            "correct": false
+        },
+        {
+            "id": "2fc5be5e-5a44-4955-a476-91b0c8a1e46a",
+            "text": "Usando apenas o Ingress",
+            "feedback": "Incorreto. O Ingress é principalmente usado para tráfego L7.",
+            "correct": false
+        }
+    ]
+}

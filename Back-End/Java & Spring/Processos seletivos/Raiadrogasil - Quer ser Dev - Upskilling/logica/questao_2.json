@@ -1,0 +1,43 @@
+{
+    "id": "b3e025d9-7dab-4e49-877c-2322e74e91a7",
+    "SKU": "2",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "none",
+    "knowledgeArea": "Lógica de Programação",
+    "category": "Operadores e Expressões",
+    "subCategory": "Operadores Aritméticos",
+    "level": "Basic",
+    "tagsOrConcepts": [
+        "Operações Matemáticas", "Operadores Aritméticos", "Operadores e Expressões"
+    ],
+    "text": [
+        "Como é chamado o operador que calcula o resto da divisão entre dois números inteiros?"
+    ],
+    "alternatives": [
+        {
+            "id": "d1c3d50a-8bae-4eac-99f3-0c56d8a1f905",
+            "text": "%",
+            "feedback" : "Correto! O operador '%' calcula o resto da divisão entre dois números inteiros.",
+            "correct": true
+        },
+        {
+            "id": "efb5cc82-c399-4f6c-bcae-dc6ab9d94d0c",
+            "text": "/",
+            "feedback": "O operador '/' calcula o quociente da divisão, não o resto.",
+            "correct": false
+        },
+        {
+            "id": "5b1561d2-84b1-4ad1-8495-50e37f50839f",
+            "text": "*",
+            "feedback": "O operador '*' realiza a multiplicação, não a operação de resto.",
+            "correct": false
+        },
+        {
+            "id": "2c4c8f66-5579-41e8-8d9f-9cb144b13da9",
+            "text": "+",
+            "feedback": "O operador '+' realiza a adição, não a operação de resto.",
+            "correct": false
+        }
+    ]
+}

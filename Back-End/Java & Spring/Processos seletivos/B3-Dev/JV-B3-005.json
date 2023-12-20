@@ -1,0 +1,43 @@
+{
+    "SKU": "JV-B3-005",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "NA",
+    "knowledgeArea": "Java",
+    "category": "Java",
+    "subCategory": "Conceitos",
+    "level": "Basic",
+    "tagsOrConcepts": [
+      "Java Basico"
+    ],
+    "text": [
+      "Qual é o principal objetivo do compilador Java (javac)?"
+    ],
+    "alternatives": [
+      {
+        "text": "Executar aplicativos Java.",
+        "feedback": "Falso",
+        "correct": false,
+        "id": "d0da9880-6f86-11ee-b962-0242ac120002"
+      },
+      {
+        "text": "Transformar código Java em bytecode.",
+        "feedback": "Correto",
+        "correct": true,
+        "id": "d4a1de56-6f86-11ee-b962-0242ac120002"
+      },
+      {
+        "text": "Fornecer uma interface de usuário para aplicativos Java.",
+        "feedback": "Falso",
+        "correct": false,
+        "id": "d729a974-6f86-11ee-b962-0242ac120002"
+      },
+      {
+        "text": "É o ambiente de senvolvimento java",
+        "feedback": "Falso",
+        "correct": false,
+        "id": "d9b5c83a-6f86-11ee-b962-0242ac120002"
+      }
+    ],
+    "id": "dcdc4a34-6f86-11ee-b962-0242ac120002"
+  }

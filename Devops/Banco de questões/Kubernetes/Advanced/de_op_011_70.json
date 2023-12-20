@@ -1,0 +1,44 @@
+{
+    "id": "5a3b2775-d1f4-4986-8e43-b162f2177064",
+    "SKU": "000030",
+    "interpreter": 1,
+    "type": "VF",
+    "language": "NA",
+    "knowledgeArea": "DevOps",
+    "category": "Kubernetes",
+    "subCategory": "Namespace",
+    "level": "Advanced",
+    "tagsOrConcepts": [
+        "Kubernetes",
+        "Multitenancy"
+    ],
+    "text": [
+        "Considerando o contexto de Multitenancy no Kubernetes, é possível isolar recursos e usuários para cada inquilino, proporcionando um ambiente seguro e eficiente."
+    ],
+    "alternatives": [
+        {
+            "id": "0f979613-9210-471f-a9f9-9bce84dac4c6",
+            "text": "O Namespace no Kubernetes é um método eficaz para realizar a Multitenancy, segregando totalmente os recursos e garantindo a segurança.",
+            "feedback": "Correto! O Namespace é um método eficaz para realizar a Multitenancy, isolando recursos e usuários.",
+            "correct": true
+        },
+        {
+            "id": "4b698779-0cf7-4d7d-b729-7e055299d89b",
+            "text": "A Multitenancy no Kubernetes não permite a alocação de quotas de recursos específicos para cada inquilino.",
+            "feedback": "Incorreto. É possível alocar quotas de recursos específicos para cada inquilino no Kubernetes.",
+            "correct": false
+        },
+        {
+            "id": "d9629fdc-385c-4f2b-a1b1-7cf08fbaae69",
+            "text": "O Kubernetes não suporta Multitenancy, pois não consegue isolar adequadamente os ambientes dos diferentes inquilinos.",
+            "feedback": "Incorreto. O Kubernetes suporta Multitenancy, permitindo isolar adequadamente os ambientes dos diferentes inquilinos.",
+            "correct": false
+        },
+        {
+            "id": "5d682dd2-3cd2-44f3-a3b5-f47124e15de4",
+            "text": "No Kubernetes, todos os inquilinos têm acesso administrativo irrestrito ao cluster, independentemente das configurações de Multitenancy.",
+            "feedback": "Incorreto. As configurações de Multitenancy no Kubernetes são projetadas para restringir o acesso dos inquilinos de acordo com as permissões atribuídas.",
+            "correct": false
+        }
+    ]
+}

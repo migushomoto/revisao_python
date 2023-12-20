@@ -1,0 +1,43 @@
+{
+    "id": "fde0c7b2-1d2c-45a8-b74c-8b34831c13ee",
+    "SKU": "5",
+    "interpreter": 1,
+    "type": "MULT",
+    "language": "none",
+    "knowledgeArea": "Lógica de Programação",
+    "category": "Condicionais",
+    "subCategory": "",
+    "level": "Basic",
+    "tagsOrConcepts": [
+        "Fluxo Condicional", "Condicionais"
+    ],
+    "text": [
+        "O que acontece se a condição de um 'if' não for verdadeira?"
+    ],
+    "alternatives": [
+        {
+            "id": "b7ab39ec-42b5-4f38-b384-c319161b5e05",
+            "text": "O programa encerra com erro.",
+            "feedback" : "O programa continua sua execução normalmente, ignorando o bloco do 'if'.",
+            "correct": false
+        },
+        {
+            "id": "21ac2f57-c8d7-4614-809e-c4be153b640f",
+            "text": "O bloco de código dentro do 'if' é executado de qualquer maneira.",
+            "feedback": "Não, o bloco dentro do 'if' só é executado se a condição for verdadeira.",
+            "correct": false
+        },
+        {
+            "id": "2725a31b-17e8-4e71-b491-3e3948319fc2",
+            "text": "O programa pula para o próximo 'else if' ou 'else', se houver.",
+            "feedback": "Correto! Se a condição do 'if' não for verdadeira, o programa verifica os 'else if' ou 'else' subsequentes.",
+            "correct": true
+        },
+        {
+            "id": "7e5ac08d-cb0f-480b-85f3-8a8bc8aa07f1",
+            "text": "O programa entra em um loop infinito.",
+            "feedback": "Não, a execução continua normalmente, não entra em um loop infinito.",
+            "correct": false
+        }
+    ]
+}
